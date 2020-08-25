@@ -1,0 +1,79 @@
+super + a
+  betterlockscreen -l dim
+
+super + c
+  chromium
+
+super + d
+  dmenu_run
+
+super + t
+  kitty
+
+super + x
+  brave
+
+super + y
+  firefox
+
+
+super + shift + c
+  systemctl suspend && betterlockscreen -l dim
+
+super + shift + n
+  chromium && chromium -e https://www.notion.so/malachi110/JavaScript-c53949208578428089bf73a2a6cc256d
+
+super + shift + t
+  kitty -e tmux
+
+super + shift + q
+  exec ~/dotfiles/scripts/close_windows.sh
+
+super + shift + x
+  kill -9 -1
+
+# bspwm
+#
+#super + q
+#  bspc node -c
+#
+#super + shift + p
+#  bspc desktop -f 6 && plover || bspc desktop -f 6
+#
+#super + f
+#  bspc node -t tiled || bspc node -t fullscreen
+#
+#super + m
+#  bspc desktop -f 3 && alacritty -e mocp
+#
+#super + b
+#  bspc config window_gap 0
+#
+#super + shift + l
+#  bspc wm -r
+#
+## bspwm movement
+#
+#super + n
+#  bspc desktop -f next
+#
+#super + p
+#  bspc desktop -f prev
+#
+#super + shift + {1-6}
+#  bspc node -d {1-6}
+#
+#super + {1-6}
+#  bspc desktop -f {1-6}
+#
+#super + {Left,Down,Up,Right}
+#  bspc node -f {west,south,north,east}
+#
+#super + {r,b,g,s}
+#  bspc node -f {west,south,north,east}
+#
+#super + shift + {Left,Down,Up,Right}
+#  bspc node -s {west,south,north,east}
+#
+#super + shift + {r,b,g,s}
+#  bspc node -s {west,south,north,east}

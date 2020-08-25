@@ -1,0 +1,363 @@
+##########
+# Tags
+##########
+
+snippet button "" b
+button {
+	${0:}
+}
+endsnippet
+
+snippet a "" b
+a {
+	${0:}
+}
+endsnippet
+snippet img "" b
+img {
+	${0:}
+}
+endsnippet
+
+snippet span "" b
+span {
+	${0:}
+}
+endsnippet
+
+snippet i "" b
+i {
+	${0:}
+}
+endsnippet
+
+snippet p "" b
+p {
+	${0:}
+}
+endsnippet
+
+snippet h1 "" b
+h1 {
+	${0:}
+}
+endsnippet
+
+snippet h2 "" b
+h2 {
+	${0:}
+}
+endsnippet
+
+snippet h3 "" b
+h3 {
+	${0:}
+}
+endsnippet
+
+snippet h4 "" b
+h4 {
+	${0:}
+}
+endsnippet
+
+snippet h5 "" b
+h5 {
+	${0:}
+}
+endsnippet
+
+snippet h6 "" b
+h6 {
+	${0:}
+}
+endsnippet
+
+snippet body "" b
+body {
+	${0:}
+}
+endsnippet
+
+snippet * "" b
+* {
+	${0:}
+}
+endsnippet
+
+snippet ul "" b
+ul {
+	${0:}
+}
+endsnippet
+
+snippet li "" b
+li {
+	${0:}
+}
+endsnippet
+
+##########
+# Attributes
+##########
+
+
+snippet float "" b
+float: ${0:};
+endsnippet
+
+snippet hover "" i
+hover
+	${0:}
+endsnippet
+
+
+snippet max-height "" b
+max-height: ${0:};
+endsnippet
+
+snippet url "" i
+url(${0:});
+endsnippet
+
+snippet color "" b
+color: ${0:};
+endsnippet
+
+snippet background-color "" b
+background-color: ${0:};
+endsnippet
+
+snippet background "" b
+background: ${0:};
+endsnippet
+
+snippet border "" b
+border: ${1:[color]} ${2:[solid]} ${0:[size]}px;
+endsnippet
+
+snippet border-top "" b
+border-top: ${1:[color]} ${2:[solid]} ${0:[size]}px;
+endsnippet
+
+snippet border-bottom "" b
+border-bottom: ${1:[color]} ${2:[solid]} ${0:[size]}px;
+endsnippet
+
+snippet border-left "" b
+border-left: ${1:[color]} ${2:[solid]} ${0:[size]}px;
+endsnippet
+
+snippet border-right "" b
+border-right: ${1:[color]} ${2:[solid]} ${0:[size]}px;${0:};
+endsnippet
+
+snippet border-radius "" b
+border-radius: ${0:};
+endsnippet
+
+snippet border-top-left-radius "" b
+border-top-left-radius: ${0:};
+endsnippet
+
+snippet border-top-right-radius "" b
+border-top-right-radius: ${0:};
+endsnippet
+
+snippet border-bottom-left-radius "" b
+border-bottom-left-radius: ${0:};
+endsnippet
+
+snippet border-bottom-right-radius "" b
+border-bottom-right-radius: ${0:};
+endsnippet
+
+snippet background-image "" b
+background-image: ${0:};
+endsnippet
+
+snippet height "" b
+height: ${0:};
+endsnippet
+
+snippet background-repeat "" b
+background-repeat: ${0:};
+endsnippet
+
+snippet background-position "" b
+background-position: ${0:};
+endsnippet
+
+snippet background-size "" b
+background-size: ${0:};
+endsnippet
+
+snippet padding "" b
+padding: ${0:};
+endsnippet
+
+snippet padding-left "" b
+padding-left: ${0:};
+endsnippet
+
+snippet padding-right "" b
+padding-right: ${0:};
+endsnippet
+
+snippet text-decoration: "" b
+text-decoration: ${0:};
+endsnippet
+
+snippet margin "" b
+margin: ${0:[auto]};
+endsnippet
+
+snippet margin-top "" b
+margin-top: ${0:};
+endsnippet
+
+snippet margin-bottom "" b
+margin-bottom: ${0:};
+endsnippet
+ 
+snippet margin-left "" b
+margin-left: ${0:};
+endsnippet
+
+snippet margin-right "" b
+margin-right: ${0:};
+endsnippet
+
+snippet font-size "" b
+font-size: ${0:[number]}rem;
+endsnippet
+
+snippet box-sizing "" b
+box-sizing: ${0:};
+endsnippet
+
+snippet display "" b
+display: ${0:[inline-block]};
+endsnippet
+
+snippet position "" b
+position: ${0:[relative]};
+endsnippet
+
+snippet text-align "" b
+text-align: ${0:[center]};
+endsnippet
+
+snippet font-size "" b
+font-size: ${0:};
+endsnippet
+
+snippet font-style "" b
+font-style: ${0:};
+endsnippet
+
+snippet pointer-events "" b
+pointer-events: ${0:};
+endsnippet
+
+snippet max-width "" b
+max-width: ${0:};
+endsnippet
+
+snippet padding-bottom "" b
+padding-bottom: ${0:};
+endsnippet
+snippet padding-top "" b
+padding-top: ${0:};
+endsnippet
+
+snippet line-height "" b
+line-height: ${0:};
+endsnippet
+
+snippet active "" b
+active
+	${0:}
+endsnippet
+
+snippet width "" b
+width: ${0:};
+endsnippet
+
+snippet font-family "" b
+font-family: ${0:};
+endsnippet
+
+##########
+# Scss
+##########
+
+
+snippet darken "" i
+darken( $${1:[color]}, ${0:[persent]}% );
+endsnippet
+
+snippet lighten "" i
+lighten( $${1:[color]}, ${0:[persent]}% );
+endsnippet
+
+snippet  "" i
+saturate( ${1:[$color]}, ${0:[persent]}% );
+endsnippet
+
+snippet desaturate "" i
+desaturate( ${1:[$color]}, ${0:[persent]}% );
+endsnippet
+
+snippet adjust-hue "" i
+adjust-hue( ${1:$[color]}, ${0:[persent]}% );
+endsnippet
+
+snippet tint "" 
+tint( ${1:$[color]}, ${0:[persent]}% );
+endsnippet
+
+snippet shade "" i
+shade( ${1:$[color]}, ${0:[persent]}% );
+endsnippet
+
+snippet mixin"" b
+@mixin transform(${1:[$property]});
+	$0
+endsnippet
+
+snippet import "" b
+@import '${0:}';
+endsnippet
+
+snippet use "" b
+@use '${0:}';
+endsnippet
+
+snippet let "" b
+$${0:}: ;
+endsnippet
+
+
+##########
+# Snippets
+##########
+
+snippet start "" b
+@use "colors" as *
+
+* {
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+}
+${0:}
+endsnippet
+
+snippet c "" i
+/* ${0:} */
+endsnippet
+
+#################################################################################
+
+

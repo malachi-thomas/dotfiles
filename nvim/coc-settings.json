@@ -1,0 +1,12 @@
+{
+  "suggest.maxCompleteItemCount": 6,
+  "suggest.noselect": false,
+  "snippets.priority": 100,
+  "emmet.excludeLanguages":[
+    "javascript",
+    "css",
+    "sass",
+    "scss"
+  ]
+
+}

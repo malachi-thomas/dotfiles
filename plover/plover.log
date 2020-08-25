@@ -1,0 +1,659 @@
+2020-08-18 11:33:48,612 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-18 11:33:48,664 [MainThread] INFO: 48 custom mappings(s)
+2020-08-18 11:33:48,750 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-18 11:33:48,750 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-18 11:33:49,288 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-18 11:33:49,289 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-18 11:33:49,290 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-18 11:33:49,290 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-18 11:33:49,293 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-18 11:33:49,294 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-18 11:33:49,294 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-18 11:33:49,294 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-18 11:33:49,818 [Dummy-1] INFO: loaded 7 dictionaries in 0.528s
+2020-08-18 11:46:56,404 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-18 11:46:56,511 [MainThread] INFO: 48 custom mappings(s)
+2020-08-18 11:46:56,644 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-18 11:46:56,644 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-18 11:46:57,135 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-18 11:46:57,136 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-18 11:46:57,136 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-18 11:46:57,136 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-18 11:46:57,137 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-18 11:46:57,137 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-18 11:46:57,139 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-18 11:46:57,140 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-18 11:46:57,634 [Dummy-1] INFO: loaded 7 dictionaries in 0.499s
+2020-08-18 14:46:10,800 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-18 14:46:10,844 [MainThread] INFO: 48 custom mappings(s)
+2020-08-18 14:46:10,932 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-18 14:46:10,932 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-18 14:46:11,492 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-18 14:46:11,493 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-18 14:46:11,493 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-18 14:46:11,493 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-18 14:46:11,493 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-18 14:46:11,494 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-18 14:46:11,496 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-18 14:46:11,496 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-18 14:46:11,966 [Dummy-1] INFO: loaded 7 dictionaries in 0.473s
+2020-08-19 10:10:33,845 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-19 10:10:33,963 [MainThread] INFO: 48 custom mappings(s)
+2020-08-19 10:10:34,093 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-19 10:10:34,093 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-19 10:10:34,677 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-19 10:10:34,678 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-19 10:10:34,679 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-19 10:10:34,679 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-19 10:10:34,682 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-19 10:10:34,682 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-19 10:10:34,682 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-19 10:10:34,683 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-19 10:10:35,255 [Dummy-1] INFO: loaded 7 dictionaries in 0.577s
+2020-08-19 11:46:28,122 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2020-08-19 12:35:47,470 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-19 12:35:47,471 [Dummy-1] WARNING: Can't open serial port
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 265, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyACM0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/plover/machine/base.py", line 211, in start_capture
+    self.serial_port = serial.Serial(**self.serial_params)
+  File "/usr/lib/python3.8/site-packages/serial/serialutil.py", line 240, in __init__
+    self.open()
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 268, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyACM0: [Errno 2] No such file or directory: '/dev/ttyACM0'
+2020-08-19 12:35:47,487 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2020-08-19 12:35:48,076 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-19 12:35:48,077 [Dummy-1] WARNING: Can't open serial port
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 265, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyACM0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/plover/machine/base.py", line 211, in start_capture
+    self.serial_port = serial.Serial(**self.serial_params)
+  File "/usr/lib/python3.8/site-packages/serial/serialutil.py", line 240, in __init__
+    self.open()
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 268, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyACM0: [Errno 2] No such file or directory: '/dev/ttyACM0'
+2020-08-19 12:35:48,078 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2020-08-19 12:35:55,909 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-19 12:35:55,909 [Dummy-1] WARNING: Can't open serial port
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 265, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+PermissionError: [Errno 13] Permission denied: '/dev/ttyACM1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/plover/machine/base.py", line 211, in start_capture
+    self.serial_port = serial.Serial(**self.serial_params)
+  File "/usr/lib/python3.8/site-packages/serial/serialutil.py", line 240, in __init__
+    self.open()
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 268, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 13] could not open port /dev/ttyACM1: [Errno 13] Permission denied: '/dev/ttyACM1'
+2020-08-19 12:35:55,911 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2020-08-19 12:35:58,713 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2020-08-19 12:36:00,255 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-19 12:36:00,256 [Dummy-1] WARNING: Can't open serial port
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 265, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+PermissionError: [Errno 13] Permission denied: '/dev/ttyACM1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/plover/machine/base.py", line 211, in start_capture
+    self.serial_port = serial.Serial(**self.serial_params)
+  File "/usr/lib/python3.8/site-packages/serial/serialutil.py", line 240, in __init__
+    self.open()
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 268, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 13] could not open port /dev/ttyACM1: [Errno 13] Permission denied: '/dev/ttyACM1'
+2020-08-19 12:36:00,258 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2020-08-19 12:36:00,602 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-19 12:36:00,602 [Dummy-1] WARNING: Can't open serial port
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 265, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+PermissionError: [Errno 13] Permission denied: '/dev/ttyACM1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/plover/machine/base.py", line 211, in start_capture
+    self.serial_port = serial.Serial(**self.serial_params)
+  File "/usr/lib/python3.8/site-packages/serial/serialutil.py", line 240, in __init__
+    self.open()
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 268, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 13] could not open port /dev/ttyACM1: [Errno 13] Permission denied: '/dev/ttyACM1'
+2020-08-19 12:36:00,605 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2020-08-19 12:36:13,558 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-19 12:36:13,560 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2020-08-19 12:36:14,483 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2020-08-19 12:36:15,766 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-19 12:36:15,768 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2020-08-19 12:36:16,571 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-19 12:36:16,573 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2020-08-19 19:11:13,815 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-19 19:11:13,975 [MainThread] INFO: 48 custom mappings(s)
+2020-08-19 19:11:14,092 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-19 19:11:14,093 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-19 19:11:14,551 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-19 19:11:14,552 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-19 19:11:14,552 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-19 19:11:14,553 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-19 19:11:14,553 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-19 19:11:14,553 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-19 19:11:14,554 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-19 19:11:14,558 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-19 19:11:15,094 [Dummy-1] INFO: loaded 7 dictionaries in 0.542s
+2020-08-20 06:03:15,358 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-20 06:03:15,527 [MainThread] INFO: 48 custom mappings(s)
+2020-08-20 06:03:15,697 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-20 06:03:15,697 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-20 06:03:16,424 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-20 06:03:16,426 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-20 06:03:16,426 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-20 06:03:16,426 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-20 06:03:16,426 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-20 06:03:16,432 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-20 06:03:16,433 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-20 06:03:16,433 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-20 06:03:17,047 [Dummy-1] INFO: loaded 7 dictionaries in 0.621s
+2020-08-20 06:38:35,829 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-20 06:38:35,877 [MainThread] INFO: 48 custom mappings(s)
+2020-08-20 06:38:35,958 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-20 06:38:35,958 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-20 06:38:36,499 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-20 06:38:36,500 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-20 06:38:36,500 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-20 06:38:36,500 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-20 06:38:36,501 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-20 06:38:36,503 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-20 06:38:36,504 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-20 06:38:36,504 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-20 06:38:37,004 [Dummy-1] INFO: loaded 7 dictionaries in 0.504s
+2020-08-21 21:36:08,251 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-21 21:36:08,329 [MainThread] INFO: 48 custom mappings(s)
+2020-08-21 21:36:08,412 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-21 21:36:08,412 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-21 21:36:08,940 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-21 21:36:08,942 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-21 21:36:08,942 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-21 21:36:08,942 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-21 21:36:08,943 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-21 21:36:08,945 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-21 21:36:08,946 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-21 21:36:08,946 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-21 21:36:09,434 [Dummy-1] INFO: loaded 7 dictionaries in 0.492s
+2020-08-21 21:37:05,358 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-21 21:37:05,408 [MainThread] INFO: 48 custom mappings(s)
+2020-08-21 21:37:05,490 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-21 21:37:05,490 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-21 21:37:06,067 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-21 21:37:06,068 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-21 21:37:06,068 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-21 21:37:06,069 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-21 21:37:06,069 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-21 21:37:06,072 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-21 21:37:06,073 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-21 21:37:06,073 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-21 21:37:06,555 [Dummy-1] INFO: loaded 7 dictionaries in 0.486s
+2020-08-22 11:13:46,075 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-22 11:13:46,131 [MainThread] INFO: 48 custom mappings(s)
+2020-08-22 11:13:46,222 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-22 11:13:46,222 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-22 11:13:46,776 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-22 11:13:46,777 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-22 11:13:46,778 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-22 11:13:46,778 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-22 11:13:46,778 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-22 11:13:46,781 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-22 11:13:46,782 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-22 11:13:46,782 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-22 11:13:47,259 [Dummy-1] INFO: loaded 7 dictionaries in 0.482s
+2020-08-22 11:13:58,129 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-22 11:13:58,176 [MainThread] INFO: 48 custom mappings(s)
+2020-08-22 11:13:58,267 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-22 11:13:58,267 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-22 11:13:58,803 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-22 11:13:58,805 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-22 11:13:58,805 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-22 11:13:58,808 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-22 11:13:58,809 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-22 11:13:58,809 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-22 11:13:58,810 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-22 11:13:58,811 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-22 11:13:59,274 [Dummy-1] INFO: loaded 7 dictionaries in 0.470s
+2020-08-22 11:21:12,632 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-22 11:21:12,686 [MainThread] INFO: 48 custom mappings(s)
+2020-08-22 11:21:12,774 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-22 11:21:12,774 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-22 11:21:13,334 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-22 11:21:13,336 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-22 11:21:13,336 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-22 11:21:13,337 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-22 11:21:13,337 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-22 11:21:13,337 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-22 11:21:13,342 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-22 11:21:13,343 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-22 11:21:13,851 [Dummy-1] INFO: loaded 7 dictionaries in 0.515s
+2020-08-22 11:26:57,629 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-22 11:26:57,674 [MainThread] INFO: 48 custom mappings(s)
+2020-08-22 11:26:57,759 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-22 11:26:57,759 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-22 11:26:58,288 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-22 11:26:58,289 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-22 11:26:58,289 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-22 11:26:58,289 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-22 11:26:58,293 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-22 11:26:58,293 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-22 11:26:58,293 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-22 11:26:58,295 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-22 11:26:58,794 [Dummy-1] INFO: loaded 7 dictionaries in 0.505s
+2020-08-22 11:36:56,783 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-22 11:36:56,833 [MainThread] INFO: 48 custom mappings(s)
+2020-08-22 11:36:56,915 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-22 11:36:56,916 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-22 11:36:57,456 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-22 11:36:57,458 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-22 11:36:57,458 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-22 11:36:57,458 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-22 11:36:57,462 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-22 11:36:57,462 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-22 11:36:57,463 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-22 11:36:57,463 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-22 11:36:57,946 [Dummy-1] INFO: loaded 7 dictionaries in 0.488s
+2020-08-22 11:41:23,304 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-22 11:41:23,367 [MainThread] INFO: 48 custom mappings(s)
+2020-08-22 11:41:23,454 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-22 11:41:23,454 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-22 11:41:24,016 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-22 11:41:24,017 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-22 11:41:24,018 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-22 11:41:24,018 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-22 11:41:24,021 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-22 11:41:24,021 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-22 11:41:24,022 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-22 11:41:24,022 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-22 11:41:24,522 [Dummy-1] INFO: loaded 7 dictionaries in 0.505s
+2020-08-22 11:49:56,491 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-22 11:49:56,534 [MainThread] INFO: 48 custom mappings(s)
+2020-08-22 11:49:56,610 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-22 11:49:56,611 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-22 11:49:57,128 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-22 11:49:57,130 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-22 11:49:57,130 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-22 11:49:57,130 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-22 11:49:57,134 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-22 11:49:57,134 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-22 11:49:57,135 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-22 11:49:57,135 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-22 11:49:57,600 [Dummy-1] INFO: loaded 7 dictionaries in 0.470s
+2020-08-22 13:25:10,725 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-22 13:25:10,726 [Dummy-1] INFO: loaded 8 dictionaries in 0.001s
+2020-08-22 13:25:18,753 [Dummy-1] INFO: loaded 8 dictionaries in 0.000s
+2020-08-22 13:25:18,964 [Dummy-1] INFO: loaded 8 dictionaries in 0.000s
+2020-08-22 13:25:19,226 [Dummy-1] INFO: loaded 8 dictionaries in 0.000s
+2020-08-22 13:25:19,658 [Dummy-1] INFO: loaded 8 dictionaries in 0.000s
+2020-08-22 13:25:19,902 [Dummy-1] INFO: loaded 8 dictionaries in 0.000s
+2020-08-22 13:25:20,169 [Dummy-1] INFO: loaded 8 dictionaries in 0.000s
+2020-08-22 18:53:03,984 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-22 18:53:04,095 [MainThread] INFO: 48 custom mappings(s)
+2020-08-22 18:53:04,199 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-22 18:53:04,199 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-22 18:53:04,925 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-22 18:53:04,927 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-22 18:53:04,927 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-22 18:53:04,927 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-22 18:53:04,927 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-22 18:53:04,928 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-22 18:53:04,928 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-22 18:53:04,934 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-22 18:53:04,934 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-22 18:53:05,623 [Dummy-1] INFO: loaded 8 dictionaries in 0.696s
+2020-08-22 19:05:29,244 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-22 19:05:29,382 [MainThread] INFO: 48 custom mappings(s)
+2020-08-22 19:05:29,503 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-22 19:05:29,503 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-22 19:05:30,132 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-22 19:05:30,134 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-22 19:05:30,137 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-22 19:05:30,138 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-22 19:05:30,138 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-22 19:05:30,139 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-22 19:05:30,139 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-22 19:05:30,140 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-22 19:05:30,141 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-22 19:05:30,776 [Dummy-1] INFO: loaded 8 dictionaries in 0.642s
+2020-08-23 06:54:17,616 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 06:54:17,810 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 06:54:17,971 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 06:54:17,971 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 06:54:18,596 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 06:54:18,597 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 06:54:18,598 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 06:54:18,598 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 06:54:18,598 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 06:54:18,599 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 06:54:18,599 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 06:54:18,603 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 06:54:18,604 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 06:54:19,223 [Dummy-1] INFO: loaded 8 dictionaries in 0.625s
+2020-08-23 07:47:35,597 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 07:47:35,753 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 07:47:35,896 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 07:47:35,897 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 07:47:36,684 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 07:47:36,687 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 07:47:36,687 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 07:47:36,688 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 07:47:36,688 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 07:47:36,688 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 07:47:36,692 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 07:47:36,693 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 07:47:36,693 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 07:47:37,542 [Dummy-1] INFO: loaded 8 dictionaries in 0.855s
+2020-08-23 08:15:42,682 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 08:15:42,822 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 08:15:42,955 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 08:15:42,956 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 08:15:43,604 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 08:15:43,607 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 08:15:43,607 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 08:15:43,608 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 08:15:43,608 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 08:15:43,610 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 08:15:43,611 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 08:15:43,611 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 08:15:43,611 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 08:15:44,158 [Dummy-1] INFO: loaded 8 dictionaries in 0.551s
+2020-08-23 08:18:47,229 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 08:18:47,354 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 08:18:47,477 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 08:18:47,478 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 08:26:27,371 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 08:26:27,485 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 08:26:27,638 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 08:26:27,638 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 08:26:28,209 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 08:26:28,211 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 08:26:28,211 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 08:26:28,212 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 08:26:28,215 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 08:26:28,216 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 08:26:28,216 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 08:26:28,217 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 08:26:28,218 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 08:26:28,774 [Dummy-1] INFO: loaded 8 dictionaries in 0.562s
+2020-08-23 08:34:22,092 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 08:34:22,213 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 08:34:22,334 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 08:34:22,334 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 08:34:22,976 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 08:34:22,978 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 08:34:22,978 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 08:34:22,978 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 08:34:22,979 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 08:34:22,979 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 08:34:22,983 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 08:34:22,983 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 08:34:22,984 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 08:34:23,552 [Dummy-1] INFO: loaded 8 dictionaries in 0.574s
+2020-08-23 08:54:23,996 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 08:54:24,121 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 08:54:24,244 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 08:54:24,244 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 08:54:24,889 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 08:54:24,890 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 08:54:24,890 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 08:54:24,891 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 08:54:24,891 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 08:54:24,891 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 08:54:24,893 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 08:54:24,894 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 08:54:24,895 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 08:54:25,449 [Dummy-1] INFO: loaded 8 dictionaries in 0.558s
+2020-08-23 09:03:10,914 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 09:03:11,045 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 09:03:11,167 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 09:03:11,167 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 09:03:11,860 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 09:03:11,862 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 09:03:11,862 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 09:03:11,862 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 09:03:11,862 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 09:03:11,863 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 09:03:11,866 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 09:03:11,866 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 09:03:11,867 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 09:03:12,377 [Dummy-1] INFO: loaded 8 dictionaries in 0.515s
+2020-08-23 10:45:23,674 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 10:45:23,852 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 10:45:23,975 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 10:45:23,975 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 10:45:24,459 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 10:45:24,461 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 10:45:24,461 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 10:45:24,461 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 10:45:24,461 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 10:45:24,462 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 10:45:24,464 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 10:45:24,465 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 10:45:24,465 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 10:45:24,988 [Dummy-1] INFO: loaded 8 dictionaries in 0.527s
+2020-08-23 13:07:06,072 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 13:07:06,227 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 13:07:06,363 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 13:07:06,363 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 13:07:06,870 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 13:07:06,871 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 13:07:06,872 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 13:07:06,872 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 13:07:06,872 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 13:07:06,872 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 13:07:06,876 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 13:07:06,877 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 13:07:06,877 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 13:07:07,402 [Dummy-1] INFO: loaded 8 dictionaries in 0.530s
+2020-08-23 16:16:08,392 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 16:16:08,541 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 16:16:08,683 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 16:16:08,683 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 16:16:09,185 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 16:16:09,187 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 16:16:09,187 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 16:16:09,187 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 16:16:09,187 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 16:16:09,187 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 16:16:09,188 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 16:16:09,188 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 16:16:09,192 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 16:16:09,686 [Dummy-1] INFO: loaded 8 dictionaries in 0.499s
+2020-08-23 18:11:28,321 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 18:11:28,441 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 18:11:28,553 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 18:11:28,553 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 18:11:29,044 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 18:11:29,045 [Dummy-1] WARNING: Can't open serial port
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 265, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyACM0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/plover/machine/base.py", line 211, in start_capture
+    self.serial_port = serial.Serial(**self.serial_params)
+  File "/usr/lib/python3.8/site-packages/serial/serialutil.py", line 240, in __init__
+    self.open()
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 268, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyACM0: [Errno 2] No such file or directory: '/dev/ttyACM0'
+2020-08-23 18:11:29,049 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 18:11:29,049 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 18:11:29,049 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 18:11:29,050 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 18:11:29,050 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 18:11:29,053 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 18:11:29,053 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 18:11:29,054 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 18:11:29,564 [Dummy-1] INFO: loaded 8 dictionaries in 0.515s
+2020-08-23 19:32:26,620 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 19:32:26,771 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 19:32:26,875 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 19:32:26,875 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 19:32:27,386 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 19:32:27,388 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 19:32:27,388 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 19:32:27,388 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 19:32:27,388 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 19:32:27,388 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 19:32:27,389 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 19:32:27,394 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 19:32:27,395 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 19:32:27,933 [Dummy-1] INFO: loaded 8 dictionaries in 0.545s
+2020-08-23 20:00:59,671 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 20:00:59,853 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 20:00:59,986 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 20:00:59,987 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 20:01:00,633 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 20:01:00,634 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 20:01:00,635 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 20:01:00,635 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 20:01:00,635 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 20:01:00,636 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 20:01:00,636 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 20:01:00,636 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 20:01:00,636 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 20:01:01,162 [Dummy-1] INFO: loaded 8 dictionaries in 0.528s
+2020-08-23 20:08:16,623 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 20:08:16,777 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 20:08:16,915 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 20:08:16,915 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 20:08:17,377 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 20:08:17,378 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 20:08:17,378 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 20:08:17,378 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 20:08:17,379 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 20:08:17,379 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 20:08:17,379 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 20:08:17,379 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 20:08:17,383 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 20:08:17,888 [Dummy-1] INFO: loaded 8 dictionaries in 0.510s
+2020-08-23 20:21:30,203 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 20:21:30,360 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 20:21:30,484 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 20:21:30,484 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 20:21:30,961 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 20:21:30,962 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 20:21:30,962 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 20:21:30,962 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 20:21:30,963 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 20:21:30,963 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 20:21:30,967 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 20:21:30,967 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 20:21:30,968 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 20:21:31,492 [Dummy-1] INFO: loaded 8 dictionaries in 0.530s
+2020-08-23 21:51:06,991 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 21:51:07,119 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 21:51:07,228 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 21:51:07,228 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 21:51:07,755 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 21:51:07,756 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 21:51:07,756 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 21:51:07,757 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 21:51:07,757 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 21:51:07,757 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 21:51:07,757 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 21:51:07,758 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 21:51:07,758 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 21:51:08,333 [Dummy-1] INFO: loaded 8 dictionaries in 0.577s
+2020-08-23 22:49:01,710 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 22:49:01,842 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 22:49:01,968 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 22:49:01,968 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 22:49:02,735 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 22:49:02,737 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 22:49:02,738 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 22:49:02,738 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 22:49:02,738 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 22:49:02,741 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 22:49:02,742 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 22:49:02,743 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 22:49:02,744 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 22:49:03,477 [Dummy-1] INFO: loaded 8 dictionaries in 0.740s
+2020-08-23 23:23:30,600 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-23 23:23:30,810 [MainThread] INFO: 48 custom mappings(s)
+2020-08-23 23:23:30,943 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-23 23:23:30,943 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-23 23:23:31,467 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-23 23:23:31,468 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-23 23:23:31,469 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-23 23:23:31,469 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-23 23:23:31,469 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-23 23:23:31,469 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-23 23:23:31,471 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-23 23:23:31,472 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-23 23:23:31,473 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-23 23:23:32,027 [Dummy-1] INFO: loaded 8 dictionaries in 0.559s
+2020-08-24 07:23:26,137 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-24 07:23:26,324 [MainThread] INFO: 48 custom mappings(s)
+2020-08-24 07:23:26,453 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-24 07:23:26,454 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-24 07:23:27,014 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-24 07:23:27,016 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-24 07:23:27,016 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-24 07:23:27,016 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-24 07:23:27,016 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-24 07:23:27,016 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-24 07:23:27,017 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-24 07:23:27,019 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-24 07:23:27,020 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-24 07:23:27,534 [Dummy-1] INFO: loaded 8 dictionaries in 0.519s
+2020-08-24 07:27:18,588 [MainThread] INFO: setting language to: en_GB.UTF-8
+2020-08-24 07:27:18,633 [MainThread] INFO: 48 custom mappings(s)
+2020-08-24 07:27:18,731 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2020-08-24 07:27:18,731 [Dummy-1] INFO: loading system: English Stenotype
+2020-08-24 07:27:19,311 [Dummy-1] INFO: setting machine: TX Bolt
+2020-08-24 07:27:19,311 [Dummy-1] WARNING: Can't open serial port
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 265, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyACM0'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/plover/machine/base.py", line 211, in start_capture
+    self.serial_port = serial.Serial(**self.serial_params)
+  File "/usr/lib/python3.8/site-packages/serial/serialutil.py", line 240, in __init__
+    self.open()
+  File "/usr/lib/python3.8/site-packages/serial/serialposix.py", line 268, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyACM0: [Errno 2] No such file or directory: '/dev/ttyACM0'
+2020-08-24 07:27:19,327 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2020-08-24 07:27:19,327 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/briefs.json
+2020-08-24 07:27:19,330 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2020-08-24 07:27:19,330 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/commands.json
+2020-08-24 07:27:19,331 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2020-08-24 07:27:19,331 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/numbers.json
+2020-08-24 07:27:19,331 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/unmap.json
+2020-08-24 07:27:19,331 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/mirabaiKnight.json
+2020-08-24 07:27:19,797 [Dummy-1] INFO: loaded 8 dictionaries in 0.470s
