@@ -1,12 +1,17 @@
 {
   "suggest.maxCompleteItemCount": 6,
   "suggest.noselect": false,
+  "javascript.suggest.completeFunctionCalls": false,
+  "typescript.suggest.completeFunctionCalls": false,
+  "python.jediEnabled": false,
   "snippets.priority": 100,
+  "snippets.loadFromExtensions": false,
+  "snippets.snipmate.enable": false,
+  "snippets.ultisnips.enable": false,
   "emmet.excludeLanguages":[
     "javascript",
     "css",
     "sass",
     "scss"
   ]
-
 }

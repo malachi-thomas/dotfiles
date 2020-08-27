@@ -11,30 +11,10 @@ nnoremap <home> I
 nnoremap <end> A
 
 " onoremap 
-onoremap <left> ^
-onoremap <right> $
-
-nnoremap dw diw
-nnoremap dW diW
-nnoremap dt dit
-nnoremap dp dip
-nnoremap dP diP
-nnoremap cw ciw
-nnoremap cW ciW
-nnoremap ct cit
-nnoremap cp cip
-nnoremap cP ciP
-nnoremap yw yiw
-nnoremap yW yiW
-nnoremap yt yit
-nnoremap yp yip
-nnoremap yP yiP
 
 nnoremap dl ^d$
 nnoremap cl ^c$
 nnoremap yl ^y$
-
-
 
 " Buffers
 nnoremap <tab> :bn<cr>
@@ -46,16 +26,16 @@ nnoremap <c-q> :wq!<cr>
 " Windows
 nnoremap <space>w :vsplit<cr>:bn<cr>
 
-
 " Extra
 nnoremap ; :
 nnoremap <esc> <esc>:nohl<cr>
 nnoremap / /\v
 nnoremap <c-insert> y
-vnoremap <c-insert> y
+nnoremap <S-Home> v^
+nnoremap <S-End> v$
 nnoremap <s-insert> p
+vnoremap <c-insert> y
 vnoremap <s-insert> p
-
 vnoremap / /\v
 inoremap <c-h> <c-w>
 cnoremap <c-h> <c-w>
@@ -79,19 +59,21 @@ nnoremap <c-z> <nop>
 nnoremap vv V
 
 "Substitutions
-nmap ss yiw:S/<c-r>"<right>//<left>
+nmap s yiw:S/<c-r>"<right>//<left>
 nmap S yiW:S/<c-r>"<right>//<left>
 nmap tt srtt
 vnoremap ss :s///g<left><left><left>
 
-" Coc
-inoremap <silent><expr><up> pumvisible() ? "\<c-p>" : "\<up>"
-inoremap <silent><expr><down> pumvisible() ? "\<c-n>" : "\<down>"
-inoremap <silent><expr><tab> pumvisible() ? "\<c-y>" : "\<tab>"
-inoremap <silent><expr><cr> pumvisible() ? "\<c-g>u<cr>" : "\<cr>"
-inoremap <silent><expr><tab> pumvisible() ? coc#_select_confirm() : coc#expandableOrJumpable() ? "\<c-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<cr>" : <sid>check_back_space() ? "\<tab>" : coc#refresh()
 
-" Filetype Mappings
+" Coc
+inoremap <silent><expr><up> pumvisible() ? "\<c-g>u<up>" : "\<up>"
+inoremap <silent><expr><down> pumvisible() ? "\<c-g>u<down>" : "\<down>"
+inoremap <silent><expr><cr> pumvisible() ? "\<c-y>" : "\<cr>"
+inoremap <silent><expr><tab> pumvisible() ? "\<down>" : coc#expandableOrJumpable() ? "\<c-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<cr>" : <sid>check_back_space() ? "\<tab>" : coc#refresh()
+inoremap <silent><expr><s-tab> pumvisible() ? "\<up>" : "\<s-tab>"
+
+
+"Filetype Mappings
 autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
@@ -102,6 +84,5 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
-
 
 

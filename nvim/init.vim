@@ -98,7 +98,7 @@ augroup autocmds
   autocmd vimenter * hi HighlightedyankRegion guibg=#5c6370
 
   " Scss
-  autocmd bufwritepost style.scss, silent! make % %:r.css
+  autocmd bufwritepost style.scss, silent! make % ../public/%:r.css
 
   autocmd filetype scss setlocal makeprg=sass
   autocmd filetype typescript setlocal makeprg=tsc

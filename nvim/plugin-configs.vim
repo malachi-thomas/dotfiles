@@ -31,7 +31,6 @@ let g:ScalpelCommand='S'
 " Nvim-Lsp
 " pip install 'python-language-server[all]'
 lua << END
-require'nvim_lsp'.tsserver.setup{}
 require'nvim_lsp'.vimls.setup{}
 require'nvim_lsp'.jsonls.setup{}
 require'nvim_lsp'.pyls.setup{}
@@ -39,8 +38,7 @@ require'nvim_lsp'.cssls.setup{}
 require'nvim_lsp'.clangd.setup{}
 END
 
-
-let g:coc_global_extensions = ['coc-json', 'coc-snippets', 'coc-emmet']
+let g:coc_global_extensions = ['coc-json', 'coc-snippets', 'coc-emmet', 'coc-tsserver', 'coc-python', 'coc-css']
 let g:coc_snippet_next = '<tab>'
 
 " Vista.vim
@@ -56,36 +54,23 @@ let g:vista_executive_for = {
       \ 'scss': 'nvim_lsp'
       \}
 
-" Sandwich.vim
-"nmap {}<left>w saw{
-"nmap {}<left>W saW{
-"nmap {}<left>l ^sa${
-"nmap ()<left>w saw(
-"nmap ()<left>W saW(
-"nmap ()<left>l ^sa$(
-"nmap []<left>w saw[
-"nmap []<left>W saW[
-"nmap []<left>l ^sa$[
-"nmap <><left>w saw<
-"nmap <><left>W saW<
-"nmap <><left>l ^sa$<
-"nmap ''<left>w saw'
-"nmap ''<left>W saW'
-"nmap ''<left>l ^sa$'
-"nmap ""<left>w saw"
-"nmap ""<left>W saW"
-"nmap ""<left>l ^sa$"
-"nmap ``<left>w saw`
-"nmap ``<left>W saW`
-"nmap ``<left>l ^sa$`
-"nmap s{}<left> sd{
-"nmap s()<left> sd(
-"nmap s[]<left> sd[
-"nmap s<><left> sd<
-"nmap s''<left> sd'
-"nmap s""<left> sd"
-"nmap s``<left> sd`
 
-au FileType css,scss let b:prettier_exec_cmd = "prettier-stylelint"
-
-let g:prettier#autoformat = 1
+" startify
+let g:startify_session_dir = '~/.config/nvim/session'
+let g:startify_lists = [
+      \ { 'type': 'bookmarks', 'header': ['Configs']      },
+      \ { 'type': 'sessions',  'header': ['Sessions']       },
+      \ ]
+let g:startify_bookmarks = [
+      \ { 'zsh': '~/.zshrc' },
+      \ { 'bsh': '~/.bashrc' },
+      \ { 'mux': '~/.tmux.conf' },
+      \ { 'vrc': '~/.config/nvim/init.vim' },
+      \ { 'vma': '~/.config/nvim/mappings.vim' },
+      \ { 'vpc': '~/.config/nvim/plugin-configs.vim' },
+      \ { 'vpl': '~/.config/nvim/plugins.vim' },
+      \ { 'irc': '~/.config/i3/config' },
+      \ { 'pol': '~/.config/polybar/config' },
+      \ { 'kit': '~/.config/kitty/kitty.conf' },
+      \ { 'sxh': '~/.config/sxhkd/sxhkdrc' },
+      \ ]

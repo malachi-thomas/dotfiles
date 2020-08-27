@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "watch": true,
+    "lib": ["dom", "ES2017"],
+    "outDir": "./public",
+    "rootDir": "./src",
+    "strict": true
+  },
+  "include": ["src"]
+}
