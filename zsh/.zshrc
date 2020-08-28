@@ -59,7 +59,7 @@ alias mux='v ~/.tmux.conf'
 # Diretorys
 alias plo='cd ~/.config/plover'
 alias bin='cd ~/dotfiles/scripts'
-alias notes='v ~/dotfiles/notes/index.md'
+alias notes='cd ~/dotfiles/notes'
 alias dot='cd ~/dotfiles'
 alias web='cd ~/code/web'
 alias webt='cd ~/code/web/test'

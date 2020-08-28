@@ -8,7 +8,7 @@ source $HOME/.config/nvim/mappings.vim
 "========================================================================================
 " Theme
 
-colorscheme one
+colorscheme PaperColor
 set termguicolors
 set t_Co=256
 set background=light
@@ -83,7 +83,7 @@ augroup autocmds
   autocmd bufread ~/.config/bspwm/bspwmrc set filetype=sh
 
   autocmd vimenter * syntax enable
-  autocmd vimenter * AirlineTheme one
+  autocmd vimenter * AirlineTheme papercolor
 
   autocmd bufwritepre *.html normal mmgg=G`mzz
   autocmd bufwritepre *.json normal mmgg=G`mzz
@@ -99,9 +99,15 @@ augroup autocmds
 
   " Scss
   autocmd bufwritepost style.scss, silent! make % ../public/%:r.css
-
   autocmd filetype scss setlocal makeprg=sass
+
+  " Typescript
   autocmd filetype typescript setlocal makeprg=tsc
+  " Markdown
+  autocmd filetype markdown setlocal wrap linebreak
+  autocmd filetype markdown setlocal spell
+
+  autocmd filetype markdown nnoremap <buffer><c-f> :Files ../<cr>
 augroup end
 
 

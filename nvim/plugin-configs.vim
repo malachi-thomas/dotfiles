@@ -16,11 +16,11 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline#extensions#tabline#show_buffers = 1
 let g:airline#extensions#tabline#show_tabs = 0
-let g:airline#extensions#tabline#left_sep = ''
-let g:airline#extensions#tabline#left_alt_sep = ''
+"let g:airline#extensions#tabline#left_sep = ''
+"let g:airline#extensions#tabline#left_alt_sep = ''
 let g:airline_powerline_fonts = 1
-let g:airline_left_sep = ''
-let g:airline_right_sep = ''
+"let g:airline_left_sep = ''
+"let g:airline_right_sep = ''
 
 "Emmet
 let g:user_emmet_install_global = 1
@@ -31,6 +31,7 @@ let g:ScalpelCommand='S'
 " Nvim-Lsp
 " pip install 'python-language-server[all]'
 lua << END
+require'nvim_lsp'.tsserver.setup{}
 require'nvim_lsp'.vimls.setup{}
 require'nvim_lsp'.jsonls.setup{}
 require'nvim_lsp'.pyls.setup{}
@@ -38,7 +39,7 @@ require'nvim_lsp'.cssls.setup{}
 require'nvim_lsp'.clangd.setup{}
 END
 
-let g:coc_global_extensions = ['coc-json', 'coc-snippets', 'coc-emmet', 'coc-tsserver', 'coc-python', 'coc-css']
+let g:coc_global_extensions = ['coc-json', 'coc-snippets', 'coc-emmet', 'coc-css']
 let g:coc_snippet_next = '<tab>'
 
 " Vista.vim
@@ -74,3 +75,5 @@ let g:startify_bookmarks = [
       \ { 'kit': '~/.config/kitty/kitty.conf' },
       \ { 'sxh': '~/.config/sxhkd/sxhkdrc' },
       \ ]
+" vim-livedown
+let g:livedown_browser = "brave"

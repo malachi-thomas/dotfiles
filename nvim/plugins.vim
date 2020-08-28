@@ -1,5 +1,5 @@
 call plug#begin('~/.config/nvim/plugged')
-Plug 'rakr/vim-one'
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ap/vim-css-color'
@@ -16,6 +16,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-surround'
 Plug 'mhinz/vim-startify'
+Plug 'shime/vim-livedown'
 call plug#end()
 autocmd VimEnter *  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif
 

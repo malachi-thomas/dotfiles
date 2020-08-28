@@ -1,9 +1,6 @@
 {
   "suggest.maxCompleteItemCount": 6,
   "suggest.noselect": false,
-  "javascript.suggest.completeFunctionCalls": false,
-  "typescript.suggest.completeFunctionCalls": false,
-  "python.jediEnabled": false,
   "snippets.priority": 100,
   "snippets.loadFromExtensions": false,
   "emmet.excludeLanguages":[
