@@ -3,5 +3,6 @@
 #### Explicit Types Explained
 Typescript [types](types.md) can be explicit.  You can force a variable to be a set type by having a explicit type.
 
-**Example** `const str: string`
+**Example** ```typescriptonst str: string
+```
 
