@@ -5,6 +5,7 @@ source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/plugin-configs.vim
 source $HOME/.config/nvim/mappings.vim
 
+
 "========================================================================================
 " Theme
 
@@ -62,6 +63,7 @@ set shortmess+=c
 set lazyredraw
 set backspace=indent,eol,start
 set completeopt=menuone,noinsert,noselect
+set autochdir
 
 " Filetype Config
 autocmd filetype html setlocal tabstop=4
@@ -74,7 +76,6 @@ augroup autocmds
   autocmd insertleave * normal l
   autocmd insertleave * normal zz
 
-  autocmd bufenter * silent! lcd %:p:h
   autocmd bufenter * normal zz
   autocmd bufenter * set iskeyword-=# iskeyword+=-
 
@@ -107,7 +108,6 @@ augroup autocmds
   autocmd filetype markdown setlocal wrap linebreak
   autocmd filetype markdown setlocal spell
 
-  autocmd filetype markdown nnoremap <buffer><c-f> :Files ../<cr>
 augroup end
 
 

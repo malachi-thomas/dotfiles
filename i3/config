@@ -19,12 +19,12 @@ exec_always --no-startup-id  sxhkd
 
 
 # window things
-for_window [class="^*"] border pixel 1
-new_window pixel 1
+for_window [class="^*"] border pixel 2
+new_window pixel 2
 workspace_layout tabbed
 
 #                       border  backgr. text    indicator
-client.focused          #2f5af3 #2f5af3 #ffffff #ff5f00
+client.focused          #005f87 #005f87 #ffffff #005f87
 
 
 # i3 keybindings

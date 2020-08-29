@@ -17,6 +17,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-surround'
 Plug 'mhinz/vim-startify'
 Plug 'shime/vim-livedown'
+Plug 'airblade/vim-rooter'
 call plug#end()
 autocmd VimEnter *  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif
 
