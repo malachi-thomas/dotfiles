@@ -30,6 +30,7 @@ autocmd filetype netrw nnoremap <silent><buffer>ZZ :q!<cr>
 "========================================================================================
 " Basic Config
 
+set nocompatible
 filetype plugin on
 filetype indent on
 set wildmode=list:longest,full

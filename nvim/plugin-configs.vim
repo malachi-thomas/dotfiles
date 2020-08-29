@@ -83,3 +83,7 @@ let g:rooter_patterns = ['.git', '=notes', '=node_modules' ]
 
 " vim-fzf
 let g:fzf_preview_window = 'right:70%'
+
+" vimwiki
+let g:vimwiki_list = [{'path': '~/dotfiles/notes/vimwiki',
+      \ 'syntax': 'markdown', 'ext': '.md'}]

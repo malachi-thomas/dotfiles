@@ -1,4 +1,5 @@
 " Movement
+let mapleader=" "
 nnoremap <c-up> {zz
 nnoremap <c-down> }zz
 nnoremap <c-left> b
