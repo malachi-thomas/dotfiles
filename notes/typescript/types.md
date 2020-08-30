@@ -1,5 +1,5 @@
-Date: 30/Aug/2020
-Tags: #[typescript](typescript.md)
+Date: 30/Aug/2020  
+Tags: #[notes](notes.md) #[typescript](typescript.md)
 
 ### What Are Typescript Types
 * Types are types of date in a programming language
