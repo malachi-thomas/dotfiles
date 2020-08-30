@@ -13,6 +13,3 @@ Tags: #[notes](notes.md)
 * [html](html/html.md)
 * [css](css/css.md)
 * [scss](scss/scss.md)
-
-Date: 30/Aug/2020  
-Tags: #[notes](notes.md)
