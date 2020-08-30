@@ -16,7 +16,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-surround'
 Plug 'mhinz/vim-startify'
-Plug 'shime/vim-livedown'
 Plug 'airblade/vim-rooter'
 Plug 'vimwiki/vimwiki'
 call plug#end()

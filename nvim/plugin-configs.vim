@@ -85,5 +85,14 @@ let g:rooter_patterns = ['.git', '=notes', '=node_modules' ]
 let g:fzf_preview_window = 'right:70%'
 
 " vimwiki
-let g:vimwiki_list = [{'path': '~/dotfiles/notes/vimwiki',
-      \ 'syntax': 'markdown', 'ext': '.md'}]
+
+let g:vimwiki_table_mappings = 0
+nmap <f1> <Plug>VimwikiNextLink
+nmap <f2> <Plug>VimwikiAddHeaderLevel
+
+let g:vimwiki_table_auto_fmt=0
+let g:vimwiki_list = [{
+      \ 'path': '~/dotfiles/notes',
+      \ 'syntax': 'markdown',
+      \ 'ext':'.md',
+      \}]

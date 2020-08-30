@@ -92,7 +92,7 @@ augroup autocmds
   autocmd bufwritepre *.css normal mmgg=G`mzz
   autocmd bufwritepre *.yaml normal mmgg=G`mzz
   autocmd bufwritepre *.scss normal mmgg=G`mzz
-  autocmd bufwritepre *.md normal mmgg=G`mzz
+  "autocmd bufwritepre *.md normal mmgg=G`mzz
   autocmd bufwritepre *.vim normal mmgg=G`mzz
 
   " Highlights

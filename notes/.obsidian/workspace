@@ -1,0 +1,82 @@
+{
+  "main": {
+    "id": "91b44109f232cac6",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4946fe08d4fe4a0",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "index.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e430cb701e9c836",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ee64f7ad706eb7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d2ff6ae02ad1b30",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f4fb868aac8be301",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9973dc6b575c4c47",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b8c161ca5af672d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ece7eee2311f873",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 265
+  },
+  "lastOpenFiles": [
+    "index.md",
+    "html/html.md",
+    "typescript/typscript.md",
+    "typescript.md",
+    "typescript/types.md"
+  ]
+}

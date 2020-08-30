@@ -68,6 +68,7 @@ alias javascript='cd ~/code/javascript'
 alias dow='cd ~/Downloads'
 alias vvim='cd ~/.config/nvim'
 alias typescript='cd ~/code/typescript'
+alias not='cd ~/dotfiles/notes && v index.md'
 
 
 # Linux
