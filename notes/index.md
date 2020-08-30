@@ -1,10 +1,10 @@
 Date: 30/Aug/2020
-Tags: #home
+Tags: #[home](index.md)
 
 ### Topics
 
 #### Programming Languages
-* [typescript](typescript/typscript.md)
+* [typescript](typescript/typescript.md)
 * [javascript](javascript/javascript.md)
 * [python](python/python.md)
 * [rust](rust/rust.md)

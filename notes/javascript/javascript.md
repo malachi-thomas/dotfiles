@@ -1,2 +1,2 @@
-Tags: #home #javascript
-
+Date: 30/Aug/2020
+Tags: #[javascript](javascript.md)
