@@ -1,2 +1,2 @@
-Date: 30/Aug/2020
-Tags: #[javascript](javascript.md)
+Date: 30/Aug/2020  
+Tags: #[notes](../notes.md) #[javascript](javascript.md)

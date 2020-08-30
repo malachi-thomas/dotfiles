@@ -1,5 +1,5 @@
 Date: 30/Aug/2020  
-Tags: #[home](index.md)
+Tags: #[notes](notes.md)
 
 ### Topics
 
@@ -13,3 +13,6 @@ Tags: #[home](index.md)
 * [html](html/html.md)
 * [css](css/css.md)
 * [scss](scss/scss.md)
+
+Date: 30/Aug/2020  
+Tags: #[notes](notes.md)

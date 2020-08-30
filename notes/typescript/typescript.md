@@ -1,5 +1,5 @@
-Date: 30/Aug/2020
-Tags: #[typescript](typescript.md) #[home](../index.md)
+Date: 30/Aug/2020  
+Tags: #[notes](../notes.md) #[typescript](typescript.md)
 
 ### Files
 * [types](types.md)
