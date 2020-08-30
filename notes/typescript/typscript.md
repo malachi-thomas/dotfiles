@@ -1,6 +1,6 @@
 Tags: #home #typscript
 
 ### Files
-* [types](types)
-* [explicitTypes](explicitTypes)
-* [unionTypes](unionTypes)
+* [types](types.md)
+* [explicitTypes](explicitTypes.md)
+* [unionTypes](unionTypes.md)

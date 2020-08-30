@@ -75,11 +75,16 @@ inoremap <silent><expr><down> pumvisible() ? "\<c-n>" : "\<c-o>zz<c-o>gj<c-o>zz"
 inoremap <silent><expr><tab> pumvisible() ? "\<c-y>" : coc#expandableOrJumpable() ? "\<c-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<cr>" : <sid>check_back_space() ? "\<tab>" : coc#refresh()
 inoremap <silent><expr><cr> pumvisible() ? "\<c-g>n<cr>" : "\<cr>"
 
+" Markdown
+nnoremap <space>mb ciw**<c-r>"**<esc>Bee
+nnoremap <space>mi ciw*<c-r>"*<esc>Bee
+nnoremap <space>mB ciw***<c-r>"***<esc>Bee
+nnoremap <space>mI ciw***<c-r>"***<esc>Bee
+
 "Filetype Mappings
 autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
-autocmd filetype vimwiki nnoremap <space>b viw
 
 let g:user_emmet_expandabbr_key='<c-l>'
 autocmd filetype html imap <expr><silent><buffer><c-l> emmet#expandAbbrIntelligent("\<c-l>")
@@ -88,5 +93,4 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
-
 
