@@ -6,6 +6,8 @@ export GMAIL='thomasmalachi18@gmail.com'
 export GUSER='malachi557'
 export BROWSER='chromium'
 export TERM=xterm-256color
+export TODAY=`date +%d/%b/%Y`
+
 ZSH_THEME="simple"
 #set -o vi
 

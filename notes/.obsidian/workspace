@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "css/border.md",
             "mode": "source"
           }
         }
@@ -62,7 +62,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md"
+                "file": "css/border.md"
               }
             }
           }
@@ -73,10 +73,10 @@
     "width": 265
   },
   "lastOpenFiles": [
+    "css/border.md",
+    "css/padding.md",
+    "css/css.md",
     "index.md",
-    "html/html.md",
-    "typescript/typscript.md",
-    "typescript.md",
-    "typescript/types.md"
+    "html/html.md"
   ]
 }
