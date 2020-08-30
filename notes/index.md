@@ -1,14 +1,14 @@
 Tags: #home
 
-# Topics
+## Topics
 
-## Programming Languages
+### Programming Languages
   * [typescript](typescript/typscript)
   * [javascript](javascript/javascript)
   * [python](python/python)
   * [rust](rust/rust)
 
-## Markup Languages
+### Markup Languages
   * [html](html/html)
   * [css](css/css)
   * [scss](scss/scss)
