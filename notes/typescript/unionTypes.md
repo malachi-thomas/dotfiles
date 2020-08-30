@@ -7,7 +7,7 @@ Tags: #[notes](notes.md) #[typescript](typescript.md)
 ### How To Make Union Types
 * To make a union type use parenthesis surrounding the types with a pipe between each type.
 
-**Example**
+#### Example
 
 ```typescript
 const arr: (string | number) = []
