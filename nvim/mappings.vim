@@ -60,6 +60,8 @@ nnoremap <c-z> <nop>
 
 " Visuale
 nnoremap vv V
+nnoremap <s-up> v<up>
+nnoremap <s-down> v<down>
 
 "Substitutions
 nmap s yiw:S/<c-r>"<right>//<left>
@@ -76,6 +78,7 @@ inoremap <silent><expr><tab> pumvisible() ? "\<c-y>" : coc#expandableOrJumpable(
 inoremap <silent><expr><cr> pumvisible() ? "\<c-g>n<cr>" : "\<cr>"
 
 " Markdown
+nnoremap <space>n :e ~/dotfiles/notes/notes.md<cr>
 nnoremap <space>mb ciw**<c-r>"**<esc>Bee
 nnoremap <space>mi ciw*<c-r>"*<esc>Bee
 nnoremap <space>mB ciw***<c-r>"***<esc>Bee
@@ -94,4 +97,3 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
-nnoremap ZZ :wq!<cr>:bw<cr>
