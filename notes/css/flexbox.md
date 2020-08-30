@@ -19,7 +19,7 @@ Tags: #[notes](../notes.md) #[css](css.md)
   * align-self: flex-start | flex-end | center;
   * align-items: flex-start | flex-end | center;
   * align-content: flex-start | flex-end | center;
-  * flex-grow: <number>;
-  * flex-shrink: <number>;
-  * flex: <integer>;
-  * order: <integer>;
+  * flex-grow: \<number\>;
+  * flex-shrink: \<number\>;
+  * flex: \<integer\>;
+  * order: \<integer\>;
