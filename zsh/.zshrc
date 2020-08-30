@@ -100,3 +100,4 @@ webp(){ mkdir styles; touch index.html; cd styles; touch style.scss colors.scss;
 gacp() {git add -A;git commit -am "$1";git push --all}
 gc() {git commit -am "$1"}
 
+makepdf() {}

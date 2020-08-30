@@ -21,7 +21,6 @@ nnoremap <space>e :e
 nnoremap <c-u> :CocCommand snippets.editSnippets<cr>
 nnoremap <c-s> :w!<cr>
 nnoremap <c-q> :wq!<cr>
-nnoremap <cr> gf
 nnoremap <c-f> <nop>
 nnoremap <c-f>f :Files<cr>
 nnoremap <c-f>g :Rg<cr>
@@ -78,6 +77,8 @@ inoremap <silent><expr><tab> pumvisible() ? "\<c-y>" : coc#expandableOrJumpable(
 inoremap <silent><expr><cr> pumvisible() ? "\<c-g>n<cr>" : "\<cr>"
 
 " Markdown
+autocmd filetype vimwiki inoremap * **<left>
+
 nnoremap <space>n :e ~/dotfiles/notes/notes.md<cr>
 nnoremap <space>mb ciw**<c-r>"**<esc>Bee
 nnoremap <space>mi ciw*<c-r>"*<esc>Bee
