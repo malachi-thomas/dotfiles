@@ -78,6 +78,8 @@ inoremap <silent><expr><cr> pumvisible() ? "\<c-g>n<cr>" : "\<cr>"
 
 " Markdown
 autocmd filetype vimwiki inoremap * **<left>
+autocmd filetype vimwiki inoremap < \<
+autocmd filetype vimwiki inoremap > \>
 
 nnoremap <space>n :e ~/dotfiles/notes/notes.md<cr>
 nnoremap <space>mb ciw**<c-r>"**<esc>Bee
