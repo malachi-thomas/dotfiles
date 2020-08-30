@@ -1,5 +1,5 @@
 Date: 30/Aug/2020  
-Tags: #[notes](notes.md) #[typescript](typescript.md)
+Tags: #[notes](../notes.md) #[typescript](typescript.md)
 
 ### What Is A Union Types
 * A union type is a group of date types that have more than one type.

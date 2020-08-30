@@ -8,7 +8,7 @@ Plug 'ap/vim-css-color'
 Plug 'wincent/scalpel'
 " needs python
 " needs nodejs
-"
+
 Plug 'mboughaba/i3config.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'dense-analysis/ale'

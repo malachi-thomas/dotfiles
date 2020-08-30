@@ -39,7 +39,7 @@ require'nvim_lsp'.cssls.setup{}
 require'nvim_lsp'.clangd.setup{}
 END
 
-let g:coc_global_extensions = ['coc-json', 'coc-snippets', 'coc-emmet', 'coc-css']
+let g:coc_global_extensions = ['coc-json', 'coc-snippets', 'coc-emmet']
 let g:coc_snippet_next = '<tab>'
 
 " Vista.vim
