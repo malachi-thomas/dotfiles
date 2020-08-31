@@ -20,11 +20,13 @@ nnoremap <tab> :bn<cr>
 nnoremap <space>e :e 
 nnoremap <c-u> :CocCommand snippets.editSnippets<cr>
 nnoremap <c-s> :w!<cr>
-nnoremap <c-q> :wq!<cr>
+nnoremap <c-q> :w!<cr>:bd!<cr>
 nnoremap <c-f> <nop>
 nnoremap <c-f>f :Files<cr>
 nnoremap <c-f>g :Rg<cr>
-
+nnoremap <c-x> :q!<cr>
+nnoremap ZZ :w!<cr>:bd!<cr>
+nnoremap xx :q!<cr>
 
 " Windows
 nnoremap <m-s> :vsplit<cr>:bn<cr>

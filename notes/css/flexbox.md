@@ -6,6 +6,7 @@ Tags: #[notes](../notes.md) #[css](css.md)
 
 
 ### Flexbox Commands
+  * [display: flex](display.md)
   * display: flex | inline-flex;
     * Makes a flexbox container.  
   * flex-direction: row | column;
