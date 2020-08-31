@@ -6,10 +6,9 @@ Tags: #[notes](../notes.md) #[css](css.md)
 
 
 ### Flexbox Commands
-  * [display: flex | inline-flex ](display.md)
+  * [display](display.md)
   * [flex-direction](flex-direction.md)
-    * Sets the flexbox container to row or column.  
-  * flex-wrap: wrap | nowrap | wrapreverse;
+  * [flex-wrap](flex-wrap.md)
     * Sets wrap text or nowrap or wrapreverse.  
   * flex-basis: <length>
     * Sets the width of the flexbox container.  

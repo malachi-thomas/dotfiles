@@ -2,7 +2,7 @@ Date: 31/Aug/2020
 Tags: #[notes](../notes.md) #[css](css.md)
 
 ### Syntax
-* flex-direction: row (default) | row-reverse | column | column-reverse;
+* flex-direction: **row**(default) | **row-reverse** | **column** | **column-reverse**;
 
 ### Options
 * row: Sets the elements from left to right.  
