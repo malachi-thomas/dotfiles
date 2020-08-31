@@ -1,12 +1,11 @@
-Date: 30/Aug/2020  
+Date: 31/Aug/2020  
 Tags: #[notes](../notes.md) #[css](css.md)
 
 ### Basic CSS
-* [padding](padding)
-* [border](border)
+* [padding](padding.md)
+* [border](border.md)
+* [diaplay](display.md)
 
-### Flexbox
+### Layouts
 * [flexbox](flexbox.md)
-
-### CSS Grid
-* 
+* [cssGrid](cssGrid.md)

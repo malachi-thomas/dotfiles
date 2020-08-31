@@ -14,7 +14,3 @@ Tags: #[notes](notes.md)
 * [css](css/css.md)
 * [scss](scss/scss.md)
 
-#### Miscellaneous
-
-
-
