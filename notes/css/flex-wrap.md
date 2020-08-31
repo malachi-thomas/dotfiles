@@ -3,3 +3,8 @@ Tags: #[notes](../notes.md) #[css](css.md)
 
 ### Syntax
 * flex-wrap: **nowrap**(default) | **wrap** | **wrap-reverse**;
+
+### Options
+* **nowrap**:
+* **wrap**:
+* **wrap-reverse**:

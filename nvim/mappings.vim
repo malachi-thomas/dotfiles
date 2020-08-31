@@ -79,7 +79,6 @@ inoremap <silent><expr><tab> pumvisible() ? "\<c-y>" : coc#expandableOrJumpable(
 inoremap <silent><expr><cr> pumvisible() ? "\<c-g>n<cr>" : "\<cr>"
 
 " Markdown
-autocmd filetype vimwiki inoremap * **<left>
 autocmd filetype vimwiki inoremap < \<
 autocmd filetype vimwiki inoremap > \>
 
