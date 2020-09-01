@@ -1,29 +1,23 @@
 Date: 30/Aug/2020  
-Tags: #[notes](../notes.md) #[css](css.md)
+Tags: #css #flexbox
 
 ### What Is Flexbox
-
-
+* Flexbox is a layout thing
 
 ### Flexbox Commands
   * [display](display.md)
   * [flex-direction](flex-direction.md)
   * [flex-wrap](flex-wrap.md)
-    * Sets wrap text or nowrap or wrapreverse.  
-  * flex-basis: <length>
-    * Sets the width of the flexbox container.  
-  * justify-content: flex-start | flex-end | center;
-    * 
+  * [flex-basis](flex-basis.md)
+  * [justify-content](justify-content.md)
+  * [align-self](align-self.md)
   * align-self: flex-start | flex-end | center;
+  * [align-items](align-items.md)
   * align-items: flex-start | flex-end | center;
-    * 
+  * [align-content](align-content.md)
   * align-content: flex-start | flex-end | center;
-    * Moves the content of the flex container.  
-  * flex-grow: \<number\>;
-    * increases the size of the flex item.  
+  * [flex-grow](flex-grow.md)
   * flex-shrink: \<number\>;
-    * Decrease the size of the flex item.  
-  * flex: \<integer\>;
+  * [flex](flex.md)
   * order: \<integer\>;
 
-![img!](https://i0.wp.com/www.tutorialbrain.com/wp-content/uploads/2019/05/css-flex-grow.png?fit=665%2C207&ssl=1)

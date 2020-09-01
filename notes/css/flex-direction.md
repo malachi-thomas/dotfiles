@@ -1,5 +1,5 @@
 Date: 31/Aug/2020  
-Tags: #[notes](../notes.md) #[css](css.md)
+Tags: #css #flexbox
 
 ### Syntax
 * **flex-direction**: **row**(default) | **row-reverse** | **column** | **column-reverse**;

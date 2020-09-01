@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "97b806aca392555a",
+        "id": "f8c955e774834ef9",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -65,13 +65,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265
+    "width": 265,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "css/display.md",
+    "css/justify-content.md",
     "css/css.md",
-    "notes.md",
-    "css/border.md",
-    "Tags.md"
+    "css/flexbox.md",
+    "css/flex-grow.md",
+    "css/flex.md"
   ]
 }

@@ -1,10 +1,10 @@
-Date: 30/Aug/2020  
-Tags: #[notes](notes.md)
+Date: 31/Aug/2020  
+Tags: #topics
 
 ### Topics
 
 #### Programming Languages
-* [typescript](typescript/typescript.md)
+* [[typescript/typescript.md]]
 * [javascript](javascript/javascript.md)
 * [python](python/python.md)
 * [rust](rust/rust.md)
@@ -13,4 +13,3 @@ Tags: #[notes](notes.md)
 * [html](html/html.md)
 * [css](css/css.md)
 * [scss](scss/scss.md)
-

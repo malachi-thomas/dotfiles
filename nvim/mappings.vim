@@ -77,7 +77,7 @@ inoremap <silent><expr><up> pumvisible() ? "\<c-p>" : "\<c-o>zz<c-o>gk<c-o>zz"
 inoremap <silent><expr><down> pumvisible() ? "\<c-n>" : "\<c-o>zz<c-o>gj<c-o>zz"
 inoremap <silent><expr><tab> pumvisible() ? "\<c-y>" : coc#expandableOrJumpable() ? "\<c-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<cr>" : <sid>check_back_space() ? "\<tab>" : coc#refresh()
 inoremap <silent><expr><cr> pumvisible() ? "\<c-g>n<cr>" : "\<cr>"
-
+inoremap [[ [[<c-x><c-f>
 " Markdown
 autocmd filetype vimwiki inoremap < \<
 autocmd filetype vimwiki inoremap > \>

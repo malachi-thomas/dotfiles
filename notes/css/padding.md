@@ -1,5 +1,5 @@
 Date: 30/Aug/2020  
-Tags: #[notes](../notes.md) #[css](css.md)
+Tags: #css
 
 #### What Is Padding
 Padding is the space between the [[border]] and the HTML element.

@@ -1,5 +1,5 @@
 Date: 30/Aug/2020  
-Tags: #[notes](../notes.md) #[css](css.md)
+Tags: #css
 
 ### CSS Command Display
 * **display**: **none** | **inline** | **block** | **inline-block** | **flex** | **inline-flex** | **grid** | **table** | **table-cell** | **table-column** | **table-colgroup** | **table-header-group** | **table-row-group** | **table-footer-group** | **table-row** | **table-caption**;

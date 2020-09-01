@@ -1,5 +1,5 @@
 Date: 30/Aug/2020  
-Tags: #[notes](../notes.md) #[typescript](typescript.md)
+Tags: #typescript
 
 ### Files
 * [types](types.md)
