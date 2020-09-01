@@ -1,10 +1,10 @@
 Date: 30/Aug/2020  
 Tags: #typescript
 
-### What Are Typescript Types
+# What Are Typescript Types
 * Types are types of date in a programming language
 
-### Types
+# Types
 * string
 * number
 * boolean
@@ -18,14 +18,14 @@ Tags: #typescript
 * enum
 * unknown
 
-### Array Types
+# Array Types
 * An array type uses a type or [union type](unionTypes.md) with a [] after the type or the [union type](unionTypes.md).
 
-### Example
+# Example
 * \<type\>[]
 * number[]
 
-### Example
+# Example
 
 ```typescript
 const add = (num1: number, num2: number) => num1 + num2

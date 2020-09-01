@@ -1,7 +1,7 @@
 Date: 30/Aug/2020  
 Tags: #typescript
 
-### Files
+# Files
 * [types](types.md)
 * [explicitTypes](explicitTypes.md)
 * [unionTypes](unionTypes.md)
