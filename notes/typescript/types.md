@@ -4,7 +4,7 @@ Tags: #typescript
 ### What Are Typescript Types
 * Types are types of date in a programming language
 
-### Typescript Types
+### Types
 * string
 * number
 * boolean
@@ -17,7 +17,13 @@ Tags: #typescript
 * symbol
 * enum
 * unknown
-* []
+
+### Array Types
+* An array type uses a type or [union type](unionTypes.md) with a [] after the type or the [union type](unionTypes.md).
+
+### Example
+* \<type\>[]
+* number[]
 
 ### Example
 

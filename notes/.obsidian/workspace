@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f8c955e774834ef9",
+        "id": "f32de7eddd181c5e",
         "type": "leaf",
         "active": true,
         "state": {
@@ -39,7 +39,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,10 +70,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "css/justify-content.md",
-    "css/css.md",
-    "css/flexbox.md",
+    "typescript/types.md",
     "css/flex-grow.md",
-    "css/flex.md"
+    "css/flex.md",
+    "topics.md",
+    "rust/rust.md"
   ]
 }

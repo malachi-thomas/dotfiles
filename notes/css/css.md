@@ -4,7 +4,7 @@ Tags: #css
 ### Basic CSS
 * [padding](padding.md)
 * [border](border.md)
-* [diaplay](display.md)
+* [display](display.md)
 
 ### Layouts
 * [flexbox](flexbox.md)

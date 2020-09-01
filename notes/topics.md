@@ -1,15 +1,22 @@
 Date: 31/Aug/2020  
 Tags: #topics
 
-### Topics
+# Topics
 
-#### Programming Languages
-* [[typescript/typescript|typescript]]
-* [[javascript/javascript]]
-* [[python/python]]
-* [[rust/rust]]
+## Programming Languages
+* [typscript](typescript/typescript.md)
+* [javascript](javascript/javascript.md)
+* [python](python/python.md)
+* [rust](rust/rust.md)
 
-#### Markup Languages
-* [[html/html]]
-* [[css/css]]
-* [[scss/scss.md]]
+## Markup Languages
+* [html](html/html.md)
+* [css](css/css.md)
+* [scss](scss/scss.md)
+
+## Words
+[](.md)
+[](.md)
+[](.md)
+[](.md)
+
