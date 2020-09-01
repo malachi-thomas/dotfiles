@@ -4,7 +4,7 @@ Tags: #typescript
 ## What Are Typescript Types
 * Types are types of date in a programming language
 
-# Types
+## Types
 * string
 * number
 * boolean
