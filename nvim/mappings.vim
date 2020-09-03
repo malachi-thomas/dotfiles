@@ -25,7 +25,7 @@ nnoremap <c-f> :Files<cr>
 nnoremap <c-g> :Rg<cr>
 nnoremap <c-x> :q!<cr>
 nnoremap ZZ :w!<cr>:bd!<cr>
-nnoremap xx :q!<cr>
+nnoremap xx :q<cr>
 
 " Windows
 nnoremap <m-s> :vsplit<cr>:bn<cr>
