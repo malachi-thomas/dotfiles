@@ -5,7 +5,6 @@ nnoremap <c-down> }zz
 nnoremap <c-left> b
 nnoremap <c-right> e
 nnoremap <c-{> :echo "hello"<cr>
-nnoremap <space>t :Vista finder<cr>
 nnoremap <space>s :vsplit<cr>:Buffers<cr>
 nnoremap <up> gkzz
 nnoremap <down> gjzz
@@ -22,8 +21,8 @@ nnoremap <c-u> :CocCommand snippets.editSnippets<cr>
 nnoremap <c-s> :w!<cr>
 nnoremap <c-q> :w!<cr>:bd!<cr>
 nnoremap <c-f> <nop>
-nnoremap <c-f>f :Files<cr>
-nnoremap <c-f>g :Rg<cr>
+nnoremap <c-f> :Files<cr>
+nnoremap <c-g> :Rg<cr>
 nnoremap <c-x> :q!<cr>
 nnoremap ZZ :w!<cr>:bd!<cr>
 nnoremap xx :q!<cr>
@@ -104,5 +103,4 @@ endfunction
 " vim-sandwich
 nmap ds sdb
 nmap si sai
-
 

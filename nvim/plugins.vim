@@ -5,7 +5,6 @@ Plug 'wincent/scalpel'
 Plug 'dense-analysis/ale'
 Plug 'neovim/nvim-lsp'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'liuchengxu/vista.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'

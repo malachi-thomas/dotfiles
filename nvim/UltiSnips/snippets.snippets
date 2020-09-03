@@ -48,6 +48,20 @@ snippet 9 "" i
 \${9:$9}
 endsnippet
 
+snippet css "" b
+`!p snip.rv = "snippet"` ${1:} "" b
+${1:}: \${0:};${0:}
+`!p snip.rv = "endsnippet"`
+endsnippet
 
-		
+snippet cop "" b
+`!p snip.rv = "snippet"` ${1:} "" b
+${1:}${0:}
+`!p snip.rv = "endsnippet"`
+endsnippet
 
+snippet copi "" b
+`!p snip.rv = "snippet"` ${1:} "" i
+${1:}${0:}
+`!p snip.rv = "endsnippet"`
+endsnippet

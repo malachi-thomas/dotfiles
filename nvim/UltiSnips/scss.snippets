@@ -2,6 +2,7 @@
 # Tags
 ##########
 
+
 snippet button "" b
 button {
 	${0:}
@@ -97,6 +98,7 @@ li {
 }
 endsnippet
 
+
 ##########
 # Attributes
 ##########
@@ -133,23 +135,23 @@ background: ${0:};
 endsnippet
 
 snippet border "" b
-border: ${1:[color]} ${2:[solid]} ${0:[size]}px;
+border: ${0:};
 endsnippet
 
 snippet border-top "" b
-border-top: ${1:[color]} ${2:[solid]} ${0:[size]}px;
+border-top: ${0:};
 endsnippet
 
 snippet border-bottom "" b
-border-bottom: ${1:[color]} ${2:[solid]} ${0:[size]}px;
+border-bottom:${0:;}
 endsnippet
 
 snippet border-left "" b
-border-left: ${1:[color]} ${2:[solid]} ${0:[size]}px;
+border-left:${0:};
 endsnippet
 
 snippet border-right "" b
-border-right: ${1:[color]} ${2:[solid]} ${0:[size]}px;${0:};
+border-right:${0:};
 endsnippet
 
 snippet border-radius "" b
@@ -209,7 +211,7 @@ text-decoration: ${0:};
 endsnippet
 
 snippet margin "" b
-margin: ${0:[auto]};
+margin: ${0:};
 endsnippet
 
 snippet margin-top "" b
@@ -229,7 +231,7 @@ margin-right: ${0:};
 endsnippet
 
 snippet font-size "" b
-font-size: ${0:[number]}rem;
+font-size: ${0:};
 endsnippet
 
 snippet box-sizing "" b
@@ -237,15 +239,15 @@ box-sizing: ${0:};
 endsnippet
 
 snippet display "" b
-display: ${0:[inline-block]};
+display: ${0:};
 endsnippet
 
 snippet position "" b
-position: ${0:[relative]};
+position: ${0:};
 endsnippet
 
 snippet text-align "" b
-text-align: ${0:[center]};
+text-align: ${0:};
 endsnippet
 
 snippet font-size "" b
@@ -288,42 +290,159 @@ snippet font-family "" b
 font-family: ${0:};
 endsnippet
 
+snippet flex "" b
+flex: ${0:};
+endsnippet
+
+snippet order "" b
+order: ${0:};
+endsnippet
+
+snippet flex-direction "" b
+flex-direction: ${0:};
+endsnippet
+
+snippet flex-grow "" b
+flex-grow: ${0:};
+endsnippet
+
+snippet flex-wrap "" b
+flex-wrap: ${0:};
+endsnippet
+
+snippet flex-shrink "" b
+flex-shrink: ${0:};
+endsnippet
+
+snippet flex-flow "" b
+flex-flow: ${0:};
+endsnippet
+
+snippet flex-basis "" b
+flex-basis: ${0:};
+endsnippet
+
+snippet justify-content "" b
+justify-content: ${0:};
+endsnippet
+
+snippet align-self "" b
+align-self: ${0:};
+endsnippet
+
+snippet align-item "" b
+align-item: ${0:};
+endsnippet
+
+snippet align-content "" b
+align-content: ${0:};
+endsnippet
+
+
+#########
+# Attributes Things
+#########
+
+snippet center "" i
+center
+endsnippet
+
+snippet space-around "" i
+space-around
+endsnippet
+
+snippet flex "" i
+flex
+endsnippet
+
+snippet solid "" i
+solid
+endsnippet
+
+snippet border-box "" i
+border-box
+endsnippet
+
+snippet wrap "" i
+wrap
+endsnippet
+
+snippet nowrap "" i
+nowrap
+endsnippet
+
+snippet flex-start "" i
+flex-start
+endsnippet
+
+snippet flex-end "" i
+flex-end
+endsnippet
+
+snippet space-between "" i
+space-between
+endsnippet
+
+snippet stretch "" i
+stretch
+endsnippet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##########
 # Scss
 ##########
 
 
 snippet darken "" i
-darken( $${1:[color]}, ${0:[persent]}% );
+darken( $${0:}, % );
 endsnippet
 
 snippet lighten "" i
-lighten( $${1:[color]}, ${0:[persent]}% );
+lighten( $${0:}, % );
 endsnippet
 
 snippet  "" i
-saturate( ${1:[$color]}, ${0:[persent]}% );
+saturate( $${0:}, % );
 endsnippet
 
 snippet desaturate "" i
-desaturate( ${1:[$color]}, ${0:[persent]}% );
+desaturate( $${0:}, % );
 endsnippet
 
 snippet adjust-hue "" i
-adjust-hue( ${1:$[color]}, ${0:[persent]}% );
+adjust-hue( $${0:}, % );
 endsnippet
 
 snippet tint "" 
-tint( ${1:$[color]}, ${0:[persent]}% );
+tint( $${0:}}, % );
 endsnippet
 
 snippet shade "" i
-shade( ${1:$[color]}, ${0:[persent]}% );
+shade( $${0:}, % );
 endsnippet
 
 snippet mixin"" b
-@mixin transform(${1:[$property]});
-	$0
+@mixin transform(${0:});
 endsnippet
 
 snippet import "" b

@@ -14,9 +14,6 @@ Tags: #topics
 * [css](css/css.md)
 * [scss](scss/scss.md)
 
-## Words
-[](.md)
-[](.md)
-[](.md)
-[](.md)
-
+## Puppy's
+* [season1](season1.md)
+* [season2](season2.md)
