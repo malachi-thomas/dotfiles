@@ -48,7 +48,10 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-bindsym $mod+m fullscreen disable; floating toggle; move window to position 1382 775
+# bindsym $mod+m fullscreen disable; floating toggle; move window to position 1382 775
+bindsym $mod+m fullscreen disable, floating toggle, resize set 534 300, sticky enable, move window to position 1382 775
+
+
 
 
 #                <width>    <hight>
