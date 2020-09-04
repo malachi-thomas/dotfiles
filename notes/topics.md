@@ -4,12 +4,12 @@ Tags: #topics
 # Topics
 
 ## Programming Languages
-[typscript](typescript/typescript.md)  
-[javascript](javascript/javascript.md)  
-[python](python/python.md)  
-[rust](rust/rust.md)  
+  [typscript](typescript/typescript.md)  
+  [javascript](javascript/javascript.md)  
+  [python](python/python.md)  
+  [rust](rust/rust.md)  
 
 ## Markup Languages
-[html](html/html.md)  
-[css](css/css.md)  
-[scss](scss/scss.md)  
+  [html](html/html.md)  
+  [css](css/css.md)  
+  [scss](scss/scss.md)  
