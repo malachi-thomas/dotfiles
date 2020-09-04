@@ -5,7 +5,7 @@ Tags: #css
 * [padding](padding.md)
 * [border](border.md)
 * [display](display.md)
-* [Measurement](Measurement.md)
+* [measurement](measurement.md)
 
 ### Layouts
 * [flexbox](flexbox.md)
