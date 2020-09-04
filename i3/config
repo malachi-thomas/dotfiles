@@ -22,6 +22,7 @@ exec_always --no-startup-id  sxhkd
 for_window [class="^*"] border pixel 2
 new_window pixel 2
 workspace_layout tabbed
+floating_modifier $mod
 
 #                       border  backgr. text    indicator
 client.focused          #005f87 #005f87 #ffffff #005f87
@@ -46,6 +47,14 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
+
+bindsym $mod+m fullscreen disable; floating toggle; move window to position 1382 775
+
+
+#                <width>    <hight>
+floating_minimum_size 534 x 300
+floating_maximum_size 534 x 300
+
 
 # workspaces
 set $ws1 "1"

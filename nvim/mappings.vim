@@ -16,7 +16,7 @@ nnoremap yl 0y$
 
 " Buffers
 nnoremap <tab> :bn<cr>
-nnoremap <space>e :e 
+nnoremap <s-tab> :bp<cr>
 nnoremap <c-u> :CocCommand snippets.editSnippets<cr>
 nnoremap <c-s> :w!<cr>
 nnoremap <c-q> :w!<cr>:bd!<cr>
@@ -24,8 +24,9 @@ nnoremap <c-f> <nop>
 nnoremap <c-f> :Files<cr>
 nnoremap <c-g> :Rg<cr>
 nnoremap <c-x> :q!<cr>
-nnoremap ZZ :w!<cr>:bd!<cr>
-nnoremap xx :q<cr>
+nnoremap <silent>xx :call WQ()<cr>
+nnoremap <silent>XX :call RemoveBuffer()<cr>
+nnoremap w :w<cr>
 
 " Windows
 nnoremap <m-s> :vsplit<cr>:bn<cr>
@@ -99,6 +100,17 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
+
+function RemoveBuffer()
+  silent! w!
+  silent! bd!
+endfunction
+
+function WQ()
+  silent! w!
+  silent! q!
+endfunction
+
 
 " vim-sandwich
 nmap ds sdb

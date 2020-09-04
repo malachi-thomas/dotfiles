@@ -91,6 +91,7 @@ nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
 nmap <f3> <Plug>VimwikiDiaryNextDay
 nmap <f4> <Plug>VimwikiDiaryPrevDay
+nmap <f5> <Plug>VimwikiPrevLink
 
 let g:vimwiki_table_auto_fmt=0
 let g:vimwiki_list = [{
