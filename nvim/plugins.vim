@@ -2,18 +2,23 @@ call plug#begin('~/.config/nvim/plugged')
 " Programming
 Plug 'machakann/vim-sandwich'
 Plug 'wincent/scalpel'
-Plug 'dense-analysis/ale'
 Plug 'neovim/nvim-lsp'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'mattn/emmet-vim'
+Plug 'liuchengxu/vista.vim'
 
 "Not Programming
 Plug 'vimwiki/vimwiki'
+Plug 'vifm/vifm.vim'
+Plug 'alvan/vim-closetag'
+Plug 'tpope/vim-eunuch'
+
 
 " Theam
-Plug 'mhinz/vim-startify'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'NLKNguyen/papercolor-theme'

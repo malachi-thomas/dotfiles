@@ -1,11 +1,29 @@
 {
   "compilerOptions": {
+    "jsx": "react",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
     "target": "ES2017",
     "watch": true,
-    "lib": ["dom", "ES2017"],
+    "lib": [
+      "dom",
+      "ES2017"
+    ],
     "outDir": "./public",
     "rootDir": "./src",
-    "strict": true
+    "strict": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

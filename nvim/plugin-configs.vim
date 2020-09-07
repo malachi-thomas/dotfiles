@@ -1,15 +1,9 @@
-" Ale
-let b:ale_linters = ['eslint', 'autopep8', 'stylelint'] 
-let b:ale_fixers = {
-      \ 'javascript': 'eslint',
-      \ 'typescript': 'eslint',
-      \ 'python': 'autopep8',
-      \ 'scss': 'stylelint'
-      \ }
-let g:ale_fix_on_save = 1
-let g:ale_linters_explicit = 1
-let g:ale_sign_error = '>>'
-let g:ale_sign_warning = '--'
+" prettier
+let g:prettier#config#use_tabs = 'false'
+let g:prettier#autoformat_config_present = 1
+
+
+
 
 "Airline
 let g:airline#extensions#tabline#enabled = 1
@@ -22,8 +16,11 @@ let g:airline_powerline_fonts = 1
 "let g:airline_left_sep = ''
 "let g:airline_right_sep = ''
 
+
+
+
 "Emmet
-let g:user_emmet_install_global = 1
+let g:user_emmet_expandabbr_key='<c-space>'
 
 " Scalpel
 let g:ScalpelCommand='S'
@@ -39,8 +36,9 @@ require'nvim_lsp'.cssls.setup{}
 require'nvim_lsp'.clangd.setup{}
 END
 
-let g:coc_global_extensions = ['coc-json', 'coc-snippets', 'coc-emmet']
+let g:coc_global_extensions = ['coc-json', 'coc-snippets']
 let g:coc_snippet_next = '<tab>'
+nmap <space>e :CocCommand explorer<CR>
 
 " Vista.vim
 let g:vista_fzf_preview = ['right:50%']
@@ -55,34 +53,14 @@ let g:vista_executive_for = {
       \ 'scss': 'nvim_lsp'
       \}
 
-
-" startify
-let g:startify_session_dir = '~/.config/nvim/session'
-let g:startify_lists = [
-      \ { 'type': 'bookmarks', 'header': ['Configs']      },
-      \ { 'type': 'sessions',  'header': ['Sessions']       },
-      \ ]
-let g:startify_bookmarks = [
-      \ { 'zsh': '~/.zshrc' },
-      \ { 'bsh': '~/.bashrc' },
-      \ { 'mux': '~/.tmux.conf' },
-      \ { 'vrc': '~/.config/nvim/init.vim' },
-      \ { 'vma': '~/.config/nvim/mappings.vim' },
-      \ { 'vpc': '~/.config/nvim/plugin-configs.vim' },
-      \ { 'vpl': '~/.config/nvim/plugins.vim' },
-      \ { 'irc': '~/.config/i3/config' },
-      \ { 'pol': '~/.config/polybar/config' },
-      \ { 'kit': '~/.config/kitty/kitty.conf' },
-      \ { 'sxh': '~/.config/sxhkd/sxhkdrc' },
-      \ ]
 " vim-livedown
 let g:livedown_browser = "brave"
 
 " vim-rooter
-let g:rooter_patterns = ['.git', '=notes', '=node_modules' ]
+let g:rooter_patterns = ['.git', '=notes', 'package.json', 'tsconfig.json', 'prettierrc.json', ]
 
 " vim-fzf
-let g:fzf_preview_window = 'right:70%'
+let g:fzf_preview_window = 'right:0%'
 
 " vimwiki
 
@@ -103,3 +81,19 @@ let g:vimwiki_list = [{
 let g:mkdp_auto_start = 0
 let g:mkdp_browser = 'brave'
 
+
+" PaperColor
+let g:PaperColor_Theme_Options = {
+      \   'theme': {
+      \     'default': {
+      \       'allow_bold': 1,
+      \       'allow_italic': 1,
+      \       'transparent_background': 1
+      \     }}}
+
+" vim-dirvish
+
+nnoremap <c-n> :Vifm<cr>
+
+
+nnoremap <c-f> :Files<cr>

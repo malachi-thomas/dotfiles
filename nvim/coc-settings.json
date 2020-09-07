@@ -3,10 +3,9 @@
   "suggest.noselect": false,
   "snippets.priority": 100,
   "snippets.loadFromExtensions": false,
-  "emmet.excludeLanguages":[
-    "javascript",
-    "css",
-    "sass",
-    "scss"
-  ]
+  "snippets.extends": {
+    "typescript": ["javascript"],
+    "typescriptreact": ["typescript", "html"],
+    "javascriptreact": ["javascript", "html"]
+  }
 }

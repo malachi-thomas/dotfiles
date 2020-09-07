@@ -7,6 +7,7 @@ export GUSER='malachi557'
 export BROWSER='chromium'
 export TERM=xterm-256color
 export TODAY=`date +%d/%b/%Y`
+export MANPAGER='nvim +Man!'
 
 ZSH_THEME="simple"
 #set -o vi
@@ -21,15 +22,23 @@ bindkey '^H' backward-kill-word # Ctrl backspace
 bindkey '5~' kill-word          # Ctrl Delete
 
 # Basic Alias's
+alias v='nvim'
 alias c='clear'
 alias h='history | fzf'
 alias ls='ls -F --color=auto'
 alias la='ls -aF --color=auto'
+alias ll='ls -laF --color=auto'
 alias q='exit'
 alias rma='sudo rm -rv'
-alias ..='../'
-alias ...='cd ../../'
-alias ....='cd ../../../'
+alias ..='cd ../'
+alias ..2='cd ../../'
+alias ..3='cd ../../../'
+alias ..4='cd ../../../../'
+alias ..5='cd ../../../../../'
+alias ..6='cd ../../../../../../'
+alias ..7='cd ../../../../../../../'
+alias ..8='cd ../../../../../../../../'
+alias ..9='cd ../../../../../../../../../'
 alias ex='chmod +x'
 alias so='source ~/.zshrc'
 alias vs='code . && exit'
@@ -37,6 +46,7 @@ alias mk='mkdir'
 alias f='firefox'
 alias b='brave'
 alias file='nautilus'
+alias vifm='vifm .'
 usb() {xzcat -f $1 | sudo dd bs=4M of=$2}
 
 # Zsh config
@@ -71,6 +81,7 @@ alias dow='cd ~/Downloads'
 alias vvim='cd ~/.config/nvim'
 alias typescript='cd ~/code/typescript'
 alias not='cd ~/dotfiles/notes && v topics.md'
+alias react='cd ~/code/react'
 
 
 # Linux
@@ -93,11 +104,13 @@ alias sas='sass --watch'
 alias scss='sass --watch'
 alias ga='git add -A'
 alias gp='git push --all'
-alias v='nvim'
 alias vv='nvim .'
+alias rmnpm='rm -R node_modules package.json package-lock.json'
 webp(){ mkdir styles; touch index.html; cd styles; touch style.scss colors.scss; cd ..}
 
 gacp() {git add -A;git commit -am "$1";git push --all}
 gc() {git commit -am "$1"}
 
-makepdf() {}
+
+
+# v() { for i in $1; do; if [ -f $1 ]; then; nvim $1; else; nvim -c Vifm . $1; fi; done }

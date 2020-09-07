@@ -4,7 +4,7 @@ snippet start "" b
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title>${0:}</title>
 		<link rel="stylesheet" href="">
@@ -30,32 +30,24 @@ snippet class "" i
 class="${0:}"
 endsnippet
 
-snippet head "" b
-<head>
-	${0:}
-</head>
+snippet head "" i
+<head>$0</head>
 endsnippet
 
 snippet id "" i
-i="${0:}"
+id="$0"
 endsnippet
 
-snippet html "" b
-<html>
-	${0:}
-</html>
+snippet html "" i
+<html>$0</html>
 endsnippet
 
-snippet body "" b
-<body>
-	${0:}
-</body>
+snippet body "" i
+<body>$0</body>
 endsnippet
 
-snippet div "" b
-<div>
-	${0:}
-</div>
+snippet div "" i
+<div>$0</div>
 endsnippet
 
 snippet lorem "" i
@@ -75,7 +67,7 @@ snippet viewport "" b
 endsnippet
 
 snippet meta "" b
-<meta/>
+<meta>
 endsnippet
 
 snippet lorem "" i
@@ -94,18 +86,10 @@ snippet c "" i
 <!-- ${0:} -->
 endsnippet
 
-snippet .container "" b
-<div class="container">
-	${0:}
-</div>
-endsnippet
-
 snippet link "" b
-<link rel="stylesheet" href="${0:}">
+<link rel="stylesheet" href="$0">
 endsnippet
 
 snippet header "" b
-<header>
-	${0:}
-</header>
+<header>$0</header>
 endsnippet

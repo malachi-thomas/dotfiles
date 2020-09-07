@@ -4,7 +4,7 @@
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/plugin-configs.vim
 source $HOME/.config/nvim/mappings.vim
-
+source $HOME/.config/nvim/pairs.vim
 
 "========================================================================================
 " Theme
@@ -16,8 +16,8 @@ set background=light
 "set number
 set relativenumber
 set guicursor=
-set cursorline
-set cursorcolumn
+"set cursorline
+"set cursorcolumn
 
 " Netew
 let g:netrw_liststyle = 3
@@ -30,10 +30,8 @@ autocmd filetype netrw nnoremap <silent><buffer>ZZ :q!<cr>
 "========================================================================================
 " Basic Config
 
-set nocompatible
-filetype plugin on
-filetype indent on
-set wildmode=list:longest,full
+filetype plugin indent on
+set wildmode=full
 set nobackup
 set nowritebackup
 set noswapfile
@@ -56,7 +54,7 @@ set incsearch
 set mouse=a
 set clipboard+=unnamedplus
 set updatetime=2000
-set path+=**
+" set path=.,**
 set laststatus=2
 set spelllang=en_gb
 set matchpairs+=<:>
@@ -64,57 +62,45 @@ set shortmess+=c
 set lazyredraw
 set backspace=indent,eol,start
 set completeopt=menuone,noinsert,noselect
-set autochdir
+set complete="i,t,w,b,u,U,k,s,kspell"
+nnoremap y "+y
 
-" Filetype Config
-autocmd filetype html setlocal tabstop=4
+autocmd filetype vim ia { {}<left>
 
 " =======================================================================================
 " Vimscript
 
 augroup autocmds
   autocmd!
-  autocmd insertleave * normal l
   autocmd insertleave * normal zz
-
   autocmd bufenter * normal zz
   autocmd bufenter * set iskeyword-=# iskeyword+=-
-
+  autocmd bufread * cd %:p:h
   autocmd bufread ~/.config/i3/config set filetype=i3config
   autocmd bufread ~/.config/polybar/config set filetype=dosini
   autocmd bufread ~/.config/bspwm/bspwmrc set filetype=sh
-
+  autocmd bufread *.tsx set filetype=typescript.tsx
+  autocmd bufread *.jsx set filetype=javascript.jsx
   autocmd vimenter * syntax enable
   autocmd vimenter * AirlineTheme papercolor
-
-  autocmd bufwritepre *.html normal mmgg=G`mzz
-  autocmd bufwritepre *.json normal mmgg=G`mzz
-  autocmd bufwritepre *.css normal mmgg=G`mzz
-  autocmd bufwritepre *.yaml normal mmgg=G`mzz
-  autocmd bufwritepre *.scss normal mmgg=G`mzz
-  "autocmd bufwritepre *.md normal mmgg=G`mzz
+  autocmd vimenter * hi Search guibg=#d4d4d4
+  autocmd vimenter * hi HighlightedyankRegion guibg=#d4d4d4
   autocmd bufwritepre *.vim normal mmgg=G`mzz
-
-  " Highlights
-  autocmd vimenter * hi Search guibg=#5c6370
-  autocmd vimenter * hi HighlightedyankRegion guibg=#5c6370
-
-  " Scss
-  "autocmd bufwritepost style.scss, silent! make % public/style.css
-  "autocmd filetype scss setlocal makeprg=sass
-
-  " Typescript
-  autocmd filetype typescript setlocal makeprg=tsc
-  " Markdown
   autocmd filetype markdown setlocal wrap linebreak
   autocmd filetype markdown setlocal spell
-
+  autocmd VimEnter * if argc() == 0 | Vifm | endif
+  autocmd filetype html silent! imap <expr><silent><buffer><c-l> emmet#expandAbbrIntelligent("\<c-space>")
+  autocmd filetype css,scss let b:prettier_exec_cmd = "prettier-stylelint"
+  autocmd bufwrite *.js,*.ts,*.css,*.scss,*.json,*.md,*.html,*jsx,*.tsx Prettier
+  autocmd BufEnter * if <SID>isdir(expand('%')) | q | endif
 augroup end
-
-
 
 " Enter Vim On The Same Line
 if has("autocmd")
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif
 endif
 
+function! s:isdir(dir)
+  return !empty(a:dir) && (isdirectory(a:dir) ||
+        \ (!empty($SYSTEMDRIVE) && isdirectory('/'.tolower($SYSTEMDRIVE[0]).a:dir)))
+endfunction

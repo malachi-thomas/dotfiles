@@ -49,14 +49,21 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # bindsym $mod+m fullscreen disable; floating toggle; move window to position 1382 775
-bindsym $mod+m fullscreen disable, floating toggle, resize set 534 300, sticky enable, move window to position 1382 775
+bindsym $mod+m fullscreen disable, floating enable, resize set 504 285, sticky enable, move window to position 1416 795
 
+for_window [class="chromium"][floating] resize set 504 285
+# bindsym $mod+Left [floating] move left 20
+# bindsym $mod+Right [floating] move right 20
 
+bindsym $mod+Ctrl+Left [floating] move left 1415
+bindsym $mod+Ctrl+Right [floating] move right 1415
+bindsym $mod+Ctrl+Up [floating] move up 795
+bindsym $mod+Ctrl+Down [floating] move down 795
 
 
 #                <width>    <hight>
-floating_minimum_size 534 x 300
-floating_maximum_size 534 x 300
+# floating_minimum_size 534 x 300
+# floating_maximum_size 534 x 300
 
 
 # workspaces
