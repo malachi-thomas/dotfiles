@@ -10,10 +10,12 @@ Tags: #topics
 - [python](python/python.md)
 - [rust](rust/rust.md)
 
-## Markup Languages
+## Mark-up Languages
 
 - [html](html/html.md)
 - [css](css/css.md)
 - [scss](scss/scss.md)
 
 - [zettelkasten](zettelkasten/zettelkasten.md)
+
+My vim files [init.vim](https://github.com/malachi557/dotfiles/blob/master/nvim/init.vim) [mappings.vim](https://github.com/malachi557/dotfiles/blob/master/nvim/mappings.vim) [plugins.vim](https://github.com/malachi557/dotfiles/blob/master/nvim/plugins.vim) [plugin-configs](https://github.com/malachi557/dotfiles/blob/master/nvim/plugin-configs.vim)

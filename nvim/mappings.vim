@@ -106,12 +106,15 @@ inoremap <silent><expr><cr> pumvisible() ? "\<c-g>n<cr>" : "\<cr>"
 " Markdown
 autocmd filetype vimwiki inoremap < \<
 autocmd filetype vimwiki inoremap > \>
+nnoremap <up> gkzz
+nnoremap <down> gjzz
+inoremap <up> <c-o>zz<left><c-o>gk<c-o>zz
+inoremap <down> <c-o>zz<left><c-o>gj<c-o>zz
 
 "Filetype Mappings
 autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
-
 function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~ '\s'
