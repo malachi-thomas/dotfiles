@@ -92,7 +92,6 @@ augroup autocmds
   autocmd filetype html silent! imap <expr><silent><buffer><c-l> emmet#expandAbbrIntelligent("\<c-space>")
   autocmd filetype css,scss let b:prettier_exec_cmd = "prettier-stylelint"
   autocmd bufwrite *.js,*.ts,*.css,*.scss,*.json,*.md,*.html,*jsx,*.tsx Prettier
-  autocmd BufEnter * if <SID>isdir(expand('%')) | q | endif
 augroup end
 
 " Enter Vim On The Same Line
@@ -100,7 +99,3 @@ if has("autocmd")
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif
 endif
 
-function! s:isdir(dir)
-  return !empty(a:dir) && (isdirectory(a:dir) ||
-        \ (!empty($SYSTEMDRIVE) && isdirectory('/'.tolower($SYSTEMDRIVE[0]).a:dir)))
-endfunction

@@ -61,6 +61,7 @@ let g:rooter_patterns = ['.git', '=notes', 'package.json', 'tsconfig.json', 'pre
 
 " vim-fzf
 let g:fzf_preview_window = 'right:0%'
+nnoremap <c-f> :Files<cr>
 
 " vimwiki
 
@@ -91,9 +92,7 @@ let g:PaperColor_Theme_Options = {
       \       'transparent_background': 1
       \     }}}
 
-" vim-dirvish
+" vifm
 
+let g:vifm_replace_netrw = 1
 nnoremap <c-n> :Vifm<cr>
-
-
-nnoremap <c-f> :Files<cr>
