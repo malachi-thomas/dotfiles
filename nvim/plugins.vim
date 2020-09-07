@@ -11,12 +11,13 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'mattn/emmet-vim'
 Plug 'liuchengxu/vista.vim'
 
-"Not Programming
-Plug 'vimwiki/vimwiki'
+" Testing
 Plug 'vifm/vifm.vim'
-Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-eunuch'
+Plug 'alvan/vim-closetag'
 
+" Notetaking
+Plug 'vimwiki/vimwiki'
 
 " Theam
 Plug 'vim-airline/vim-airline'

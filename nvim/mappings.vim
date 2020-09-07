@@ -22,11 +22,12 @@ nnoremap <c-q> :w!<cr>:bd!<cr>
 nnoremap <c-f> :Files<cr>
 
 " Windows
-nnoremap <space><space> :vsplit<cr>:bn<cr>
+nnoremap <space>v :vsplit<cr>:bn<cr>
 
 " Extra
 inoremap <esc> <right><esc>
 nnoremap ; :
+nnoremap : ;
 nnoremap <esc> <esc>:nohl<cr>
 nnoremap <c-insert> y
 nnoremap <S-Home> v^
@@ -40,14 +41,12 @@ inoremap <c-j> <c-o>z=1<cr>
 cnoremap <c-h> <c-w>
 nnoremap Y y$
 
-
 " Unmap
 nnoremap j <nop>
 nnoremap k <nop>
 nnoremap l <nop>
 nnoremap K <nop>
 nnoremap Q <nop>
-nnoremap r <nop>
 nnoremap R <nop>
 nnoremap <c-z> <nop>
 
@@ -74,15 +73,15 @@ ca mv !mv
 ca ex !chmod +x %<C-R>=Eatchar('\s')<CR>
 ca rm !rm
 ca rma !sudo rm -rv
-ca .. cd ../
-ca ..2 cd ../../
-ca ..3 cd ../../../
-ca ..4 cd ../../../../
-ca ..5 cd ../../../../../
-ca ..6 cd ../../../../../../
-ca ..7 cd ../../../../../../../
-ca ..8 cd ../../../../../../../../
-ca ..9 cd ../../../../../../../../../
+ca .1 cd ../
+ca .2 cd ../../
+ca .3 cd ../../../
+ca .4 cd ../../../../
+ca .5 cd ../../../../../
+ca .6 cd ../../../../../../
+ca .7 cd ../../../../../../../
+ca .8 cd ../../../../../../../../
+ca .9 cd ../../../../../../../../../
 ca so !source ~/.zshrc
 ca mkdir !mkdir
 ca vifm Vifm
@@ -98,8 +97,6 @@ ca sxh e ~/.config/sxhkd/sxhkdrc
 ca bsp e ~/.config/bspwm/bspwmrc
 ca mux e ~/tmux.conf
 
-
-
 " Coc
 inoremap <silent><expr><up> pumvisible() ? "\<c-p>" : "\<c-o>zz<c-o>gk<c-o>zz"
 inoremap <silent><expr><down> pumvisible() ? "\<c-n>" : "\<c-o>zz<c-o>gj<c-o>zz"
@@ -110,17 +107,10 @@ inoremap <silent><expr><cr> pumvisible() ? "\<c-g>n<cr>" : "\<cr>"
 autocmd filetype vimwiki inoremap < \<
 autocmd filetype vimwiki inoremap > \>
 
-nnoremap <space>n :e ~/dotfiles/notes/notes.md<cr>
-nnoremap <space>mb ciw**<c-r>"**<esc>Bee
-nnoremap <space>mi ciw*<c-r>"*<esc>Bee
-nnoremap <space>mB ciw***<c-r>"***<esc>Bee
-nnoremap <space>mI ciw***<c-r>"***<esc>Bee
-
 "Filetype Mappings
 autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
-
 
 function! s:check_back_space() abort
   let col = col('.') - 1

@@ -2,9 +2,6 @@
 let g:prettier#config#use_tabs = 'false'
 let g:prettier#autoformat_config_present = 1
 
-
-
-
 "Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
@@ -15,9 +12,6 @@ let g:airline#extensions#tabline#show_tabs = 0
 let g:airline_powerline_fonts = 1
 "let g:airline_left_sep = ''
 "let g:airline_right_sep = ''
-
-
-
 
 "Emmet
 let g:user_emmet_expandabbr_key='<c-space>'
@@ -64,7 +58,6 @@ let g:fzf_preview_window = 'right:0%'
 nnoremap <c-f> :Files<cr>
 
 " vimwiki
-
 let g:vimwiki_table_mappings = 0
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
@@ -79,10 +72,6 @@ let g:vimwiki_list = [{
       \ 'ext':'.md',
       \}]
 
-let g:mkdp_auto_start = 0
-let g:mkdp_browser = 'brave'
-
-
 " PaperColor
 let g:PaperColor_Theme_Options = {
       \   'theme': {
@@ -93,6 +82,5 @@ let g:PaperColor_Theme_Options = {
       \     }}}
 
 " vifm
-
 let g:vifm_replace_netrw = 1
 nnoremap <c-n> :Vifm<cr>

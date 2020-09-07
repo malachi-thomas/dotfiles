@@ -4,6 +4,8 @@
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/plugin-configs.vim
 source $HOME/.config/nvim/mappings.vim
+
+" Plugin
 source $HOME/.config/nvim/pairs.vim
 
 "========================================================================================
@@ -16,16 +18,6 @@ set background=light
 "set number
 set relativenumber
 set guicursor=
-"set cursorline
-"set cursorcolumn
-
-" Netew
-let g:netrw_liststyle = 3
-let g:netrw_banner = 0
-let g:netrw_bufsettings = ''
-autocmd filetype netrw nnoremap <silent><buffer><c-q> :q!<cr>
-autocmd filetype netrw nnoremap <silent><buffer><c-w> <nop>
-autocmd filetype netrw nnoremap <silent><buffer>ZZ :q!<cr>
 
 "========================================================================================
 " Basic Config
@@ -62,10 +54,7 @@ set shortmess+=c
 set lazyredraw
 set backspace=indent,eol,start
 set completeopt=menuone,noinsert,noselect
-set complete="i,t,w,b,u,U,k,s,kspell"
 nnoremap y "+y
-
-autocmd filetype vim ia { {}<left>
 
 " =======================================================================================
 " Vimscript
