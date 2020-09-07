@@ -1,0 +1,48 @@
+snippet tags "" b
+Tags: #
+endsnippet
+
+snippet notes "" i
+#[notes](../notes.md)
+endsnippet
+
+snippet tag "" i
+#[${1:}](${1:}.md)${0:}
+endsnippet
+
+snippet today "" i
+`date +%d/%b/%Y`
+endsnippet
+
+snippet date "" b
+Date: `date +%d/%b/%Y`
+endsnippet
+
+snippet top "" b
+Date: `date +%d/%b/%Y`  
+Tags: #`!v expand('%:p:h:t')`
+endsnippet
+
+snippet link "" i
+[${1:}](${1:}.md)${0:}
+endsnippet
+
+snippet i "" i
+*${0:}*
+endsnippet
+
+snippet b "" i
+**${0:}**
+endsnippet
+
+snippet B "" i
+***${0:}***
+endsnippet
+
+snippet date "" i
+`date +%d/%b/%Y`
+endsnippet
+
+snippet [[ "" i
+[[${0:}|]]
+endsnippet
