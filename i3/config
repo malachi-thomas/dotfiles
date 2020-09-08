@@ -10,9 +10,9 @@ exec --no-startup-id setxkbmap us
 exec --no-startup-id exec ~/dotfiles/scripts/startup.sh
 exec --no-startup-id exec ~/dotfiles/scripts/sw.py
 
-exec_always --no-startup-id exec betterlockscreen -u ~/dotfiles/wallpapers/power-line.png
+exec_always --no-startup-id exec betterlockscreen -u ~/dotfiles/wallpapers/nord.png
 exec_always --no-startup-id exec autotiling
-exec_always --no-startup-id feh --bg-fill ~/dotfiles/wallpapers/power-line.png
+exec_always --no-startup-id feh --bg-fill ~/dotfiles/wallpapers/nord.png
 # exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id  killall sxhkd
 exec_always --no-startup-id  sxhkd
@@ -25,7 +25,8 @@ workspace_layout tabbed
 floating_modifier $mod
 
 #                       border  backgr. text    indicator
-client.focused          #005f87 #005f87 #ffffff #005f87
+client.focused          #88c0d0 #88c0d0 #000000 #88c0d0
+client.unfocused        #4c566a #4c566a #ffffff #4c566a
 
 
 # i3 keybindings

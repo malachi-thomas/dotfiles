@@ -20,6 +20,7 @@ Plug 'alvan/vim-closetag'
 Plug 'vimwiki/vimwiki'
 
 " Theam
+Plug 'arcticicestudio/nord-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'NLKNguyen/papercolor-theme'

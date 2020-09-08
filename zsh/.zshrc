@@ -30,15 +30,10 @@ alias la='ls -aF --color=auto'
 alias ll='ls -laF --color=auto'
 alias q='exit'
 alias rma='sudo rm -rv'
-alias .1='cd ../'
-alias .2='cd ../../'
-alias .3='cd ../../../'
-alias .4='cd ../../../../'
-alias .5='cd ../../../../../'
-alias .6='cd ../../../../../../'
-alias .7='cd ../../../../../../../'
-alias .8='cd ../../../../../../../../'
-alias .9='cd ../../../../../../../../../'
+alias ..='cd ../'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
 alias ex='chmod +x'
 alias so='source ~/.zshrc'
 alias vs='code . && exit'
@@ -107,6 +102,9 @@ alias gp='git push --all'
 alias vv='nvim .'
 alias rmnpm='rm -R node_modules package.json package-lock.json'
 webp(){ mkdir styles; touch index.html; cd styles; touch style.scss colors.scss; cd ..}
+
+# Git
+alias commit='git add -A; git commit -m'
 
 gacp() {git add -A;git commit -am "$1";git push --all}
 gc() {git commit -am "$1"}

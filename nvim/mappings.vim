@@ -40,6 +40,7 @@ inoremap <c-h> <c-w>
 inoremap <c-j> <c-o>z=1<cr>
 cnoremap <c-h> <c-w>
 nnoremap Y y$
+nnoremap y "+y
 
 " Unmap
 nnoremap j <nop>
@@ -73,15 +74,6 @@ ca mv !mv
 ca ex !chmod +x %<C-R>=Eatchar('\s')<CR>
 ca rm !rm
 ca rma !sudo rm -rv
-ca .1 cd ../
-ca .2 cd ../../
-ca .3 cd ../../../
-ca .4 cd ../../../../
-ca .5 cd ../../../../../
-ca .6 cd ../../../../../../
-ca .7 cd ../../../../../../../
-ca .8 cd ../../../../../../../../
-ca .9 cd ../../../../../../../../../
 ca so !source ~/.zshrc
 ca mkdir !mkdir
 ca vifm Vifm
@@ -102,14 +94,16 @@ inoremap <silent><expr><up> pumvisible() ? "\<c-p>" : "\<c-o>zz<c-o>gk<c-o>zz"
 inoremap <silent><expr><down> pumvisible() ? "\<c-n>" : "\<c-o>zz<c-o>gj<c-o>zz"
 inoremap <silent><expr><tab> pumvisible() ? "\<c-y>" : coc#expandableOrJumpable() ? "\<c-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<cr>" : <sid>check_back_space() ? "\<tab>" : coc#refresh()
 inoremap <silent><expr><cr> pumvisible() ? "\<c-g>n<cr>" : "\<cr>"
+nmap <leader>rr <Plug>(coc-rename)
+nnoremap <leader>prw :CocSearch <C-R>=expand("<cword>")<CR><CR>
+
+
 
 " Markdown
 autocmd filetype vimwiki inoremap < \<
 autocmd filetype vimwiki inoremap > \>
 nnoremap <up> gkzz
 nnoremap <down> gjzz
-inoremap <up> <c-o>zz<left><c-o>gk<c-o>zz
-inoremap <down> <c-o>zz<left><c-o>gj<c-o>zz
 
 "Filetype Mappings
 autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
