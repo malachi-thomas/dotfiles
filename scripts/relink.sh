@@ -12,4 +12,4 @@ ln -f ~/.config/alacritty/* ~/dotfiles/alacritty
 ln -f ~/.config/kitty/* ~/dotfiles/kitty
 ln -f ~/.config/sxhkd/* ~/dotfiles/sxhkd
 ln -f ~/.tmux.conf ~/dotfiles/tmux
-
+ln -f ~/.config/vifm/vifmrc ~/dotfiles/vifm
