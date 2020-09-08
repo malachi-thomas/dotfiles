@@ -5,13 +5,9 @@ let g:prettier#autoformat_config_present = 1
 "Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
-let g:airline#extensions#tabline#show_buffers = 1
-let g:airline#extensions#tabline#show_tabs = 0
-"let g:airline#extensions#tabline#left_sep = ''
-"let g:airline#extensions#tabline#left_alt_sep = ''
+let g:airline#extensions#tabline#show_buffers = 0
+let g:airline#extensions#tabline#show_tabs = 1
 let g:airline_powerline_fonts = 1
-"let g:airline_left_sep = ''
-"let g:airline_right_sep = ''
 
 "Emmet
 let g:user_emmet_expandabbr_key='<c-space>'
@@ -51,7 +47,7 @@ let g:vista_executive_for = {
 let g:livedown_browser = "brave"
 
 " vim-rooter
-let g:rooter_patterns = ['.git', '=notes', 'package.json', 'tsconfig.json', 'prettierrc.json', ]
+let g:rooter_patterns = ['.git', '=notes', 'package.json', 'tsconfig.json', 'prettierrc.json', '=src']
 
 " vim-fzf
 let g:fzf_preview_window = 'right:0%'
@@ -83,4 +79,5 @@ let g:PaperColor_Theme_Options = {
 
 " vifm
 let g:vifm_replace_netrw = 1
+let g:vifm_replace_netrw_cmd = 1
 nnoremap <c-n> :Vifm<cr>

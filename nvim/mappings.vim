@@ -2,8 +2,6 @@
 let mapleader=" "
 nnoremap <c-left> b
 nnoremap <c-right> e
-nnoremap <c-{> :echo "hello"<cr>
-nnoremap <space>s :vsplit<cr>:Buffers<cr>
 nnoremap <up> gkzz
 nnoremap <down> gjzz
 nnoremap <home> I
@@ -13,16 +11,13 @@ nnoremap cl 0c$
 nnoremap yl 0y$
 
 " Buffers
-nnoremap <tab> :bn<cr>
-nnoremap <s-tab> :bp<cr>
+nnoremap <tab> :tabn<cr>
+nnoremap <s-tab> :tabp<cr>
 nnoremap <c-u> :CocCommand snippets.editSnippets<cr>
 nnoremap <space>u :Files ~/.config/coc/ultisnips<cr>
 nnoremap <c-s> :w!<cr>
-nnoremap <c-q> :w!<cr>:bd!<cr>
 nnoremap <c-f> :Files<cr>
-
-" Windows
-nnoremap <space>v :vsplit<cr>:bn<cr>
+nnoremap <space>b :Buffer<cr>
 
 " Extra
 inoremap <esc> <right><esc>
@@ -30,12 +25,6 @@ nnoremap ; :
 nnoremap : ;
 nnoremap <esc> <esc>:nohl<cr>
 nnoremap <c-insert> y
-nnoremap <S-Home> v^
-nnoremap <S-End> v$
-nnoremap <s-insert> p
-nnoremap <c-j> z=1<cr><cr>
-vnoremap <c-insert> y
-vnoremap <s-insert> p
 inoremap <c-h> <c-w>
 inoremap <c-j> <c-o>z=1<cr>
 cnoremap <c-h> <c-w>
@@ -58,18 +47,17 @@ nnoremap <up> <up>zz
 nnoremap <down> <down>zz
 
 "Substitutions
-nmap s yiw:S/<c-r>"<right>//<left>
-nmap S yiW:S/<c-r>"<right>//<left>
-nmap tt srtt
-vnoremap ss :s///g<left><left><left>
-inoremap <up> <c-o>zz<c-o>gk<c-o>zz
-inoremap <down> <c-o>zz<c-o>gj<c-o>zz
+nmap gs yiw:S/<c-r>"<right>//<left>
+nmap gS yiW:S/<c-r>"<right>//<left>
+" nmap tt srtt
+vnoremap gs :s///g<left><left><left>
 
 " Command Mode
 ca ls !ls -F
 ca la !ls -aF
 ca ll !ls -laF
 ca mk !mkdir
+ca to !touch
 ca mv !mv
 ca ex !chmod +x %<C-R>=Eatchar('\s')<CR>
 ca rm !rm
@@ -77,17 +65,19 @@ ca rma !sudo rm -rv
 ca so !source ~/.zshrc
 ca mkdir !mkdir
 ca vifm Vifm
-ca vrc e ~/.config/nvim/init.vim
-ca vma e ~/.config/nvim/mappings.vim
-ca vpl e ~/.config/nvim/plugins.vim
-ca irc e ~/.config/i3/config
-ca bsh e ~/.bashrc
-ca pol e ~/.config/polybar/config
-ca zsh e ~/.zshrc
-ca kit e ~/.config/kitty/kitty.conf
-ca sxh e ~/.config/sxhkd/sxhkdrc
-ca bsp e ~/.config/bspwm/bspwmrc
-ca mux e ~/tmux.conf
+ca vrc tabe ~/.config/nvim/init.vim
+ca vma tabe ~/.config/nvim/mappings.vim
+ca vpl tabe ~/.config/nvim/plugins.vim
+ca irc tabe ~/.config/i3/config
+ca bsh tabe ~/.bashrc
+ca pol tabe ~/.config/polybar/config
+ca zsh tabe ~/.zshrc
+ca kit tabe ~/.config/kitty/kitty.conf
+ca sxh tabe ~/.config/sxhkd/sxhkdrc
+ca bsp tabe ~/.config/bspwm/bspwmrc
+ca mux tabe ~/tmux.conf
+ca e tabe
+ca sp vsplit
 
 " Coc
 inoremap <silent><expr><up> pumvisible() ? "\<c-p>" : "\<c-o>zz<c-o>gk<c-o>zz"

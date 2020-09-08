@@ -14,6 +14,7 @@ Plug 'liuchengxu/vista.vim'
 " Testing
 Plug 'vifm/vifm.vim'
 Plug 'tpope/vim-eunuch'
+
 Plug 'alvan/vim-closetag'
 
 " Notetaking

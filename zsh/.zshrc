@@ -10,21 +10,32 @@ export TODAY=`date +%d/%b/%Y`
 export MANPAGER='nvim +Man!'
 
 ZSH_THEME="simple"
-#set -o vi
+set -o vi
 
 # Plugins
 plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
+
 source $ZSH/oh-my-zsh.sh
+
+# Zsh Settings
 bindkey '^H' backward-kill-word # Ctrl backspace
 bindkey '5~' kill-word          # Ctrl Delete
+setopt autocd
+autoload -U colors && colors
+
+# Basic auto/tab complete: -Luke Smith
+autoload -U compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots)		# Include hidden files.
 
 # Basic Alias's
-alias v='nvim'
-alias c='clear'
-alias h='history | fzf'
+alias v='nvim -p'
+alias c='cd'
 alias ls='ls -F --color=auto'
 alias la='ls -aF --color=auto'
 alias ll='ls -laF --color=auto'
@@ -36,13 +47,17 @@ alias ....='cd ../../../'
 alias .....='cd ../../../../'
 alias ex='chmod +x'
 alias so='source ~/.zshrc'
-alias vs='code . && exit'
 alias mk='mkdir'
 alias f='firefox'
 alias b='brave'
 alias file='nautilus'
-alias vifm='vifm .'
-usb() {xzcat -f $1 | sudo dd bs=4M of=$2}
+alias to='touch'
+alias fzf='fzf -e'
+# alias vifm='vifm .'
+usb() {
+  xzcat -f $1 | sudo dd bs=4M of=$2
+}
+
 
 # Zsh config
 chpwd() ls --color=auto
@@ -62,8 +77,12 @@ alias kit='v ~/.config/kitty/kitty.conf'
 alias sxh='v ~/.config/sxhkd/sxhkdrc'
 alias bsp='v ~/.config/bspwm/bspwmrc'
 alias mux='v ~/.tmux.conf'
+alias vif='v ~/.config/vifm/vifmrc'
 
-# Diretorys
+# Marks
+alias \'v='cd ~/.config/nvim'
+#
+#Diretorys
 alias plo='cd ~/.config/plover'
 alias bin='cd ~/dotfiles/scripts'
 alias notes='cd ~/dotfiles/notes'
@@ -77,11 +96,29 @@ alias vvim='cd ~/.config/nvim'
 alias typescript='cd ~/code/typescript'
 alias not='cd ~/dotfiles/notes && v topics.md'
 alias react='cd ~/code/react'
+vifm(){
+  local dst="$(command vifm --choose-dir - "$@")"
+  if [ -z "$dst" ]; then
+    echo 'Directory picking cancelled/failed'
+    return 1
+  fi
+  cd "$dst"
+}
 
+vf(){
+  if [ -d $1 ]
+    vifm $1
+  then
+  else
+    vifm .
+  fi
+}
+
+
+bindkey -s '^n' 'vf\n'
 
 # Linux
 alias uefi='cd && sudo systemctl reboot --firmware-setup'
-alias pacs='sudo pacman -S'
 alias boot='reboot'
 alias back='kill -9 -1'
 alias aur='makepkg -si'
@@ -89,9 +126,21 @@ alias sleep='systemctl suspend'
 alias pacman='sudo pacman'
 alias power='poweroff'
 alias i3='cd i3'
-pac() { for f in "$@"; do; sudo pacman -S $@ || yay $@; done }
-pacr() { for f in "$@"; do; sudo pacman -Rscn $@;done }
-update() { yay -Syu; sudo pacman -Sc }
+alias update='yay -Syu; sudo pacman -Sc'
+pac() { 
+  for f in "$@"
+  do
+    sudo pacman -S $@ || yay $@
+  done
+}
+
+pacr() {
+  for f in "$@"
+  do
+    sudo pacman -Rscn $@
+  done
+}
+
 
 # Programming
 alias live='live-server --browser=brave'
@@ -99,16 +148,11 @@ alias sas='sass --watch'
 alias scss='sass --watch'
 alias ga='git add -A'
 alias gp='git push --all'
-alias vv='nvim .'
 alias rmnpm='rm -R node_modules package.json package-lock.json'
-webp(){ mkdir styles; touch index.html; cd styles; touch style.scss colors.scss; cd ..}
 
 # Git
 alias commit='git add -A; git commit -m'
+alias clone='git clone'
+alias checkout='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git checkout {}'
+gacp() { git add -A;git commit -am "$1";git push --all }
 
-gacp() {git add -A;git commit -am "$1";git push --all}
-gc() {git commit -am "$1"}
-
-
-
-# v() { for i in $1; do; if [ -f $1 ]; then; nvim $1; else; nvim -c Vifm . $1; fi; done }

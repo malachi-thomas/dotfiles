@@ -1,0 +1,5 @@
+do
+  cd "$@"
+  pwd
+done
+

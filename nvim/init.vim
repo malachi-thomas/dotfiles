@@ -46,7 +46,7 @@ set incsearch
 set mouse=a
 set clipboard+=unnamedplus
 set updatetime=2000
-" set path=.,**
+set path=.,**
 set laststatus=2
 set spelllang=en_gb
 set matchpairs+=<:>
@@ -71,8 +71,8 @@ augroup autocmds
   autocmd bufread *.jsx set filetype=javascript.jsx
   autocmd vimenter * syntax enable
   autocmd vimenter * AirlineTheme nord
-  autocmd vimenter * hi Search guibg=#d4d4d4
-  autocmd vimenter * hi HighlightedyankRegion guibg=#d4d4d4
+  "autocmd vimenter * hi Search guibg=#d4d4d4
+  "autocmd vimenter * hi HighlightedyankRegion guibg=#d4d4d4
   autocmd bufwritepre *.vim normal mmgg=G`mzz
   autocmd filetype markdown setlocal wrap linebreak
   autocmd filetype markdown setlocal spell
