@@ -1,12 +1,31 @@
-" prettier
-let g:prettier#config#use_tabs = 'false'
-let g:prettier#autoformat_config_present = 1
+"Plugin configs==========================================================================================
+
+" ale
+let g:ale_fixers = {
+      \ 'typescript': ['prettier'],
+      \ 'typescriptreact': ['prettier'],
+      \ 'javascript': ['prettier'],
+      \ 'javascriptreact': ['prettier'],
+      \ 'json': ['fixjson'],
+      \ 'scss': ['stylelint']
+      \}
+let g:ale_fixers = {
+      \ 'typescript': ['prettier'],
+      \ 'typescriptreact': ['prettier'],
+      \ 'javascript': ['prettier'],
+      \ 'javascriptreact': ['prettier'],
+      \ 'json': ['fixjson'],
+      \ 'scss': ['stylelint']
+      \}
+
+let g:ale_fix_on_save = 1
+let g:ale_set_highlights = 0
 
 "Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
-let g:airline#extensions#tabline#show_buffers = 0
-let g:airline#extensions#tabline#show_tabs = 1
+let g:airline#extensions#tabline#show_buffers = 1
+let g:airline#extensions#tabline#show_tabs = 0
 let g:airline_powerline_fonts = 1
 
 "Emmet
@@ -15,52 +34,50 @@ let g:user_emmet_expandabbr_key='<c-space>'
 " Scalpel
 let g:ScalpelCommand='S'
 
-" Nvim-Lsp
-" pip install 'python-language-server[all]'
-lua << END
-require'nvim_lsp'.tsserver.setup{}
-require'nvim_lsp'.vimls.setup{}
-require'nvim_lsp'.jsonls.setup{}
-require'nvim_lsp'.pyls.setup{}
-require'nvim_lsp'.cssls.setup{}
-require'nvim_lsp'.clangd.setup{}
-END
-
-let g:coc_global_extensions = ['coc-json', 'coc-snippets']
-let g:coc_snippet_next = '<tab>'
-nmap <space>e :CocCommand explorer<CR>
-
-" Vista.vim
-let g:vista_fzf_preview = ['right:50%']
-let g:vista_default_executive = 'ctags'
-let g:vista_executive_for = {
-      \ 'javascript': 'nvim_lsp',
-      \ 'typescript': 'nvim_lsp',
-      \ 'python': 'nvim_lsp',
-      \ 'vim': 'nvim_lsp',
-      \ 'json': 'nvim_lsp',
-      \ 'css' : 'nvim_lsp',
-      \ 'scss': 'nvim_lsp'
-      \}
+" completion-nvim
+let g:completion_enable_snippet = 'vim-vsnip'
+let g:completion_matching_strategy_list = ['exact']
+let g:completion_matching_ignore_case = 1
+let g:completion_trigger_character = ['.']
+let g:completion_trigger_keyword_length = 1
+let g:completion_trigger_on_delete = 0
+let g:completion_enable_auto_signature = 0
+let g:completion_enable_auto_hover = 0
+let g:completion_enable_auto_paren = 1
+let g:completion_sorting = 'none'
+let g:completion_confirm_key = ""
+let g:completion_enable_snippet = 'vim-vsnip'
+let g:completion_chain_complete_list = {
+      \'default' : [
+      \    {'complete_items': ['vim-vsnip', 'lsp', 'buffers', 'path']},
+      \]}
 
 " vim-livedown
 let g:livedown_browser = "brave"
 
 " vim-rooter
-let g:rooter_patterns = ['.git', '=notes', 'package.json', 'tsconfig.json', 'prettierrc.json', '=src']
+let g:rooter_patterns = ['.git', '=notes', 'package.json', 'tsconfig.json', 'prettierrc.json', '=.config']
 
 " vim-fzf
-let g:fzf_preview_window = 'right:0%'
-nnoremap <c-f> :Files<cr>
+let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 }}
+let $FZF_DEFAULT_OPTS = '--reverse -e'
+let g:fzf_colors =
+      \ { 'fg':      ['fg', 'Normal'],
+      \ 'bg':      ['bg', 'Normal'],
+      \ 'hl':      ['fg', 'Comment'],
+      \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+      \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+      \ 'hl+':     ['fg', 'Statement'],
+      \ 'info':    ['fg', 'PreProc'],
+      \ 'border':  ['fg', 'Ignore'],
+      \ 'prompt':  ['fg', 'Conditional'],
+      \ 'pointer': ['fg', 'Exception'],
+      \ 'marker':  ['fg', 'Keyword'],
+      \ 'spinner': ['fg', 'Label'],
+      \ 'header':  ['fg', 'Comment'] }
 
 " vimwiki
 let g:vimwiki_table_mappings = 0
-nmap <f1> <Plug>VimwikiNextLink
-nmap <f2> <Plug>VimwikiAddHeaderLevel
-nmap <f3> <Plug>VimwikiDiaryNextDay
-nmap <f4> <Plug>VimwikiDiaryPrevDay
-nmap <f5> <Plug>VimwikiPrevLink
-
 let g:vimwiki_table_auto_fmt=0
 let g:vimwiki_list = [{
       \ 'path': '~/dotfiles/notes',
@@ -79,5 +96,60 @@ let g:PaperColor_Theme_Options = {
 
 " vifm
 let g:vifm_replace_netrw = 1
-let g:vifm_replace_netrw_cmd = 1
-nnoremap <c-n> :Vifm<cr>
+let g:loaded_netrw = 0
+
+" vim-vsnip
+let g:vsnip_filetypes = {}
+let g:vsnip_filetypes.tsx = ['typescript', 'tsx']
+let g:vsnip_filetypes.jsx = ['javascript', 'javascriptreact']
+let g:vsnip_filetypes.typescript = ['javascript']
+
+
+let g:vsnip_snippet_dir = expand('~/dotfiles/nvim/vsnip')
+
+" Mappings=========================================================================================
+
+imap <silent><expr><tab>
+      \ pumvisible() ? "\<Plug>(completion_confirm_completion)" :
+      \ vsnip#expandable() ? "\<Plug>(vsnip-expand-or-jump)" :
+      \ <sid>check_back_space() ? "\<tab>" : 
+      \ completion#trigger_completion()
+inoremap <silent><expr><s-tab> 
+      \ pumvisible() ? "\<c-p>" :
+      \ "\<s-tab>"
+inoremap <silent><expr><up>
+      \ pumvisible() ? "\<c-p>" :
+      \ "\<c-o>zz\<up>\<c-o>zz"
+inoremap <silent><expr><down> 
+      \ pumvisible() ? "\<c-n>" :
+      \ "\<c-o>zz\<down>\<c-o>zz"
+imap <expr><cr>
+      \ pumvisible() ? complete_info()["selected"] != "-1" ? "\<Plug>(completion_confirm_completion)" :
+      \ "\<c-e>\<cr>" : "\<cr>"
+imap <expr><right>
+      \ pumvisible() ? complete_info()["selected"] != "-1" ? "\<Plug>(completion_confirm_completion)" :
+      \ "\<c-e>\<right>" : "\<right>"
+nnoremap <space>f :Vista finder<cr>
+nnoremap <c-n> :TabVifm<cr>
+nnoremap <space>us :Files ~/.config/nvim/UltiSnips<cr>
+nnoremap <space>vs :VsnipOpenEdit<cr>
+nnoremap <space>vv :Files ~/dotfiles/nvim/vsnip<cr>
+nnoremap <silent><space>gd :lua vim.lsp.buf.definition()<cr>
+nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
+nnoremap ZZ :wq!<cr>
+nmap <f1> <Plug>VimwikiNextLink
+nmap <f2> <Plug>VimwikiAddHeaderLevel
+nmap <f3> <Plug>VimwikiDiaryNextDay
+nmap <f4> <Plug>VimwikiDiaryPrevDay
+nmap <f5> <Plug>VimwikiPrevLink
+
+
+" VimL=============================================================================================
+
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~ '\s'
+endfunction
+
+

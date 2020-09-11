@@ -1,30 +1,36 @@
 call plug#begin('~/.config/nvim/plugged')
+" nvim-lsp
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/completion-nvim'
+Plug 'steelsojka/completion-buffers'
+
 " Programming
-Plug 'machakann/vim-sandwich'
 Plug 'wincent/scalpel'
-Plug 'neovim/nvim-lsp'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'mattn/emmet-vim'
-Plug 'liuchengxu/vista.vim'
+Plug 'dense-analysis/ale'
+Plug 'vifm/vifm.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+"Plug 'SirVer/ultisnips'
 
 " Testing
-Plug 'vifm/vifm.vim'
-Plug 'tpope/vim-eunuch'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/vim-vsnip-integ'
 
-Plug 'alvan/vim-closetag'
+" Vim Traning
+Plug 'tjdevries/train.nvim'
+Plug 'ThePrimeagen/vim-be-good'
 
 " Notetaking
 Plug 'vimwiki/vimwiki'
 
 " Theam
-Plug 'arcticicestudio/nord-vim'
+Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'NLKNguyen/papercolor-theme'
 Plug 'ap/vim-css-color'
 Plug 'mboughaba/i3config.vim'
 Plug 'ryanoasis/vim-devicons'

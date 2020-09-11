@@ -16,5 +16,29 @@
     "body": [
       "nnoremap"
     ]
+  },
+  "vnoremap": {
+    "prefix": "vv",
+    "body": [
+      "vnoremap"
+    ]
+  },
+  "<tab>": {
+    "prefix": "tab",
+    "body": [
+      "<tab>"
+    ]
+  },
+  "<space>": {
+    "prefix": "space",
+    "body": [
+      "<space>"
+    ]
+  },
+  "<silent>": {
+    "prefix": "silent",
+    "body": [
+      "<silent>"
+    ]
   }
 }

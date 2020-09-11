@@ -10,5 +10,11 @@
     "body": [
       "<input type=\"checkbox\">"
     ]
+  },
+  "<p></p>": {
+    "prefix": "p",
+    "body": [
+      "<p>$0</p>"
+    ]
   }
 }

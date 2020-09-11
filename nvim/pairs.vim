@@ -536,10 +536,6 @@ func! AutoPairsInit()
     execute 'inoremap <buffer> <silent> <BS> <C-R>=AutoPairsDelete()<CR>'
   end
 
-  if g:AutoPairsMapCh
-    execute 'inoremap <buffer> <silent> <C-h> <C-R>=AutoPairsDelete()<CR>'
-  endif
-
   if g:AutoPairsMapSpace
     " Try to respect abbreviations on a <SPACE>
     let do_abbrev = ""
