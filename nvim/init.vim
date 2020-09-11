@@ -8,22 +8,24 @@ source $HOME/.config/nvim/mappings.vim
 " Plugin
 source $HOME/.config/nvim/pairs.vim
 
-"========================================================================================
+"==============================================================================
 " Theme
 
-autocmd vimenter * colorscheme nord
+autocmd vimenter * colorscheme gruvbox
 set termguicolors
 set t_Co=256
-set background=light
+set background=dark
 "set number
 set relativenumber
 set guicursor=
 
-"========================================================================================
+"==============================================================================
 " Basic Config
 
+syntax enable
 filetype plugin indent on
-set wildmode=full
+set wildmode=list:longest,full
+
 set nobackup
 set nowritebackup
 set noswapfile
@@ -41,11 +43,11 @@ set splitright
 set showmode
 set smartcase
 set ignorecase
-set hlsearch
+set nohlsearch
 set incsearch
 set mouse=a
 set clipboard+=unnamedplus
-set updatetime=2000
+set updatetime=50
 set path=.,**
 set laststatus=2
 set spelllang=en_gb
@@ -55,35 +57,6 @@ set lazyredraw
 set backspace=indent,eol,start
 set completeopt=menuone,noinsert,noselect
 
-" =======================================================================================
+" =============================================================================
 " Vimscript
-
-augroup autocmds
-  autocmd!
-  autocmd insertleave * normal zz
-  autocmd bufenter * normal zz
-  autocmd bufenter * set iskeyword-=# iskeyword+=-
-  autocmd bufread * cd %:p:h
-  autocmd bufread ~/.config/i3/config set filetype=i3config
-  autocmd bufread ~/.config/polybar/config set filetype=dosini
-  autocmd bufread ~/.config/bspwm/bspwmrc set filetype=sh
-  autocmd bufread *.tsx set filetype=typescript.tsx
-  autocmd bufread *.jsx set filetype=javascript.jsx
-  autocmd vimenter * syntax enable
-  autocmd vimenter * AirlineTheme nord
-  "autocmd vimenter * hi Search guibg=#d4d4d4
-  "autocmd vimenter * hi HighlightedyankRegion guibg=#d4d4d4
-  autocmd bufwritepre *.vim normal mmgg=G`mzz
-  autocmd filetype markdown setlocal wrap linebreak
-  autocmd filetype markdown setlocal spell
-  autocmd VimEnter * if argc() == 0 | Vifm | endif
-  autocmd filetype html silent! imap <expr><silent><buffer><c-space> emmet#expandAbbrIntelligent("\<c-space>")
-  autocmd filetype css,scss let b:prettier_exec_cmd = "prettier-stylelint"
-  autocmd bufwrite *.js,*.ts,*.css,*.scss,*.json,*.md,*.html,*jsx,*.tsx Prettier
-augroup end
-
-" Enter Vim On The Same Line
-if has("autocmd")
-  autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif
-endif
 

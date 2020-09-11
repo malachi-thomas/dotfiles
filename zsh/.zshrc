@@ -115,7 +115,7 @@ vf(){
 }
 
 
-bindkey -s '^n' 'vf\n'
+bindkey -s '^n' 'vifm .\n'
 
 # Linux
 alias uefi='cd && sudo systemctl reboot --firmware-setup'
@@ -155,4 +155,5 @@ alias commit='git add -A; git commit -m'
 alias clone='git clone'
 alias checkout='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git checkout {}'
 gacp() { git add -A;git commit -am "$1";git push --all }
+
 

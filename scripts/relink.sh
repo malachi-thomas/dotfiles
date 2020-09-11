@@ -1,15 +1,14 @@
 #!/usr/bin/env bash
 
-ln -f ~/.config/nvim/* ~/dotfiles/nvim
-ln -f ~/.config/coc/ultisnips/* ~/dotfiles/nvim/UltiSnips
-ln -f ~/.config/bspwm/* ~/dotfiles/bspwm
-ln -f ~/.zshrc ~/dotfiles/zsh
-ln -f ~/.config/i3/* ~/dotfiles/i3
-ln -f ~/.moc/config ~/dotfiles/moc/config
-ln -f ~/.config/polybar/* ~/dotfiles/polybar
-ln -f ~/.config/plover/* ~/dotfiles/plover
-ln -f ~/.config/alacritty/* ~/dotfiles/alacritty
-ln -f ~/.config/kitty/* ~/dotfiles/kitty
-ln -f ~/.config/sxhkd/* ~/dotfiles/sxhkd
-ln -f ~/.tmux.conf ~/dotfiles/tmux
-ln -f ~/.config/vifm/vifmrc ~/dotfiles/vifm
+ln -f ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
+ln -f ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm/bspwmrc
+ln -f ~/dotfiles/zsh/.zshrc ~/.zshrc
+ln -f ~/dotfiles/i3/config ~/.config/i3/config
+ln -f ~/dotfiles/moc/config ~/.moc/config
+ln -f ~/dotfiles/polybar/config ~/.config/polybar/config
+ln -f ~/dotfiles/polybar/launch.sh ~/.config/polybar/launch
+ln -f ~/dotfiles/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+ln -f ~/dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf
+ln -f ~/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd/sxhkdrc
+ln -f ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+ln -f ~/dotfiles/vifm/vifmrc ~/.config/vifm/vifmrc

@@ -4,8 +4,16 @@
   "snippets.priority": 100,
   "snippets.loadFromExtensions": false,
   "snippets.extends": {
-    "typescript": ["javascript"],
-    "typescriptreact": ["typescript", "html"],
-    "javascriptreact": ["javascript", "html"]
+    "typescript": [
+      "javascript"
+    ],
+    "typescriptreact": [
+      "typescript",
+      "html"
+    ],
+    "javascriptreact": [
+      "javascript",
+      "html"
+    ]
   }
 }

@@ -20,6 +20,7 @@ set incsearch
 set scrolloff=4
 set slowfs=curlftpfs
 set statusline="  Hint: %z%= %A %10u:%-7g %15s %20d  "
+
 mark d ~/dotfiles/
 mark h ~/
 mark v ~/.config/nvim/
@@ -29,14 +30,43 @@ mark t ~/code/typescript/
 mark p ~/code/python/
 mark w ~/code/web/
 
+"Key-mappings
+nnoremap ; :
+nnoremap <space> <nop>
+nnoremap <tab> <nop>
+nnoremap S :sort<cr>
+nnoremap w :view<cr>
+nnoremap o :!mvim --remote-tab-silent %f<cr>
+nnoremap O :!mvim %f<cr>
+nnoremap gb :!open -g %f<cr>
+nnoremap yd :!printf %d | pbcopy<cr>
+nnoremap yf :!printf %c:p | pbcopy<cr>
+nnoremap q :!qlmanage -p %f > /dev/null 2>&1<cr>
+nnoremap q: q:
+nnoremap q/ q/
+nnoremap q? q?
+nnoremap q= q=
+nnoremap I cw<c-a>
+nnoremap cc cw<c-u>
+nnoremap A cw
+nnoremap ,c :write | edit $MYVIFMRC | restart<cr>
+nnoremap ,C :!mvim --remote-tab-silent $MYVIFMRC &<cr>
+nnoremap ,w :set wrap!<cr>
+nnoremap <f3> :!less %f<cr>
+nnoremap <f4> :edit<cr>
+nnoremap <f5> :copy<cr>
+nnoremap <f6> :move<cr>
+nnoremap <f7> :mkdir<space>
+nnoremap <f8> :delete<cr>
+
 "Basic commands
-command! df df -h %m 2> /dev/null
-command! diff vim -d %f %F
-command! zip zip -r %f.zip %f
-command! run !! ./%f
-command! make !!make %a
-command! mkcd :mkdir %a | cd %a
-command! reload :write | restart
+" command! df df -h %m 2> /dev/null
+" command! diff vim -d %f %F
+" command! zip zip -r %f.zip %f
+" command! run !! ./%f
+" command! make !!make %a
+" command! mkcd :mkdir %a | cd %a
+" command! reload :write | restart
 
 "Filetype settings
 fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
@@ -141,38 +171,3 @@ fileviewer *.docx docx2txt.pl %f -
 set vifminfo=dhistory,savedirs,chistory,state,tui,shistory,
     \phistory,fhistory,dirstack,registers,bookmarks,bmarks
 
-"Key-mappings
-nnoremap ; :
-nnoremap cd :cd<cr>
-nnoremap s :shell<cr>
-nnoremap S :sort<cr>
-nnoremap w :view<cr>
-vnoremap w :view<cr>gv
-nnoremap o :!mvim --remote-tab-silent %f<cr>
-nnoremap O :!mvim %f<cr>
-nnoremap gb :!open -g %f<cr>
-nnoremap yd :!printf %d | pbcopy<cr>
-nnoremap yf :!printf %c:p | pbcopy<cr>
-nnoremap q :!qlmanage -p %f > /dev/null 2>&1<cr>
-nnoremap q: q:
-nnoremap q/ q/
-nnoremap q? q?
-nnoremap q= q=
-nnoremap I cw<c-a>
-nnoremap cc cw<c-u>
-nnoremap A cw
-nnoremap ,c :write | edit $MYVIFMRC | restart<cr>
-nnoremap ,C :!mvim --remote-tab-silent $MYVIFMRC &<cr>
-nnoremap ,w :set wrap!<cr>
-nnoremap <f3> :!less %f<cr>
-nnoremap <f4> :edit<cr>
-nnoremap <f5> :copy<cr>
-nnoremap <f6> :move<cr>
-nnoremap <f7> :mkdir<space>
-nnoremap <f8> :delete<cr>
-nnoremap ee :cd<cr>
-
-" ||\\ //||
-" || \// || Mackenzie Criswell
-" || //\ || https://makc.co
-" ||   \\|| https://github.com/makccr
