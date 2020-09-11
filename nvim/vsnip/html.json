@@ -1,0 +1,14 @@
+{
+  "<input type=\"checkbox\">": {
+    "prefix": "checkbox",
+    "body": [
+      "<input type=\"checkbox\">"
+    ]
+  },
+  "hello": {
+    "prefix": "hello",
+    "body": [
+      "hello malachi"
+    ]
+  }
+}

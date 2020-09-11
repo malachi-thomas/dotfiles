@@ -1,0 +1,14 @@
+{
+  "</>": {
+    "prefix": "tag",
+    "body": [
+      "<$0/>"
+    ]
+  },
+  "<input type=\"checkbox\">": {
+    "prefix": "checkbox",
+    "body": [
+      "<input type=\"checkbox\">"
+    ]
+  }
+}

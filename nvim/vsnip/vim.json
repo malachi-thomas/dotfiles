@@ -1,0 +1,20 @@
+{
+  "inoremap": {
+    "prefix": "ii",
+    "body": [
+      "inoremap"
+    ]
+  },
+  "<cr>": {
+    "prefix": "cr",
+    "body": [
+      "<cr>"
+    ]
+  },
+  "nnoremap": {
+    "prefix": "nn",
+    "body": [
+      "nnoremap"
+    ]
+  }
+}
