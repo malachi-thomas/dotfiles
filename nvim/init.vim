@@ -5,9 +5,6 @@ source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/plugin-configs.vim
 source $HOME/.config/nvim/mappings.vim
 
-" Plugin
-source $HOME/.config/nvim/pairs.vim
-
 "==============================================================================
 " Theme
 
@@ -60,3 +57,20 @@ set completeopt=menuone,noinsert,noselect
 " =============================================================================
 " Vimscript
 
+
+augroup autocmds
+  autocmd!
+  autocmd insertleave * normal zz
+  autocmd bufenter * normal zz
+  autocmd bufenter * set iskeyword-=# iskeyword+=-
+  autocmd bufread ~/.config/i3/config set filetype=i3config
+  autocmd bufread ~/.config/polybar/config set filetype=dosini
+  autocmd bufread ~/.config/bspwm/bspwmrc set filetype=sh
+  autocmd vimenter * AirlineTheme gruvbox
+  autocmd bufwritepre *.vim normal mmgg=G`mzz
+  autocmd filetype markdown setlocal wrap linebreak
+  autocmd filetype markdown setlocal spell
+  autocmd VimEnter * if argc() == 0 | Vifm | endif
+  autocmd BufEnter * lua require'completion'.on_attach()
+  autocmd BufEnter * lua require'diagnostic'.on_attach()
+augroup end

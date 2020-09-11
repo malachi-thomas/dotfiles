@@ -1,3 +1,10 @@
+
+ZSH_THEME="simple"
+plugins=(zsh-autosuggestions zsh-syntax-highlighting)
+
+source $ZSH/oh-my-zsh.sh
+
+
 # Basic Comfig
 export ZSH=$HOME/.oh-my-zsh
 export PATH=$PATH:/home/malachi/dotfiles/scripts/
@@ -9,16 +16,9 @@ export TERM=xterm-256color
 export TODAY=`date +%d/%b/%Y`
 export MANPAGER='nvim +Man!'
 
-ZSH_THEME="simple"
 set -o vi
 
 # Plugins
-plugins=(
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-)
-
-source $ZSH/oh-my-zsh.sh
 
 # Zsh Settings
 bindkey '^H' backward-kill-word # Ctrl backspace
@@ -77,6 +77,7 @@ alias sxh='v ~/dotfiles/sxhkd/sxhkdrc'
 alias bsp='v ~/dotfiles/bspwm/bspwmrc'
 alias mux='v ~/dotfiles/tmux/.tmux.conf'
 alias vif='v ~/dotfiles/vifm/vifmrc'
+alias vlu='v ~/dotfiles/nvim/lua/nvim-lsp.lua'
 
 # Marks
 alias \'v='cd ~/.config/nvim'

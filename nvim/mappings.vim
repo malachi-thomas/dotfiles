@@ -79,19 +79,18 @@ ca rma !sudo rm -rv
 ca so !source ~/.zshrc
 ca mkdir !mkdir
 ca vifm Vifm
-ca vrc e ~/.config/nvim/init.vim
-ca vma e ~/.config/nvim/mappings.vim
-ca vpl e ~/.config/nvim/plugins.vim
-ca vpc e ~/.config/nvim/plugin-configs.vim
-ca vlu e ~/.config/nvim/lua/nvim-lsp.lua
-ca irc e ~/.config/i3/config
-ca bsh e ~/.bashrc
-ca pol e ~/.config/polybar/config
-ca zsh e ~/.zshrc
-ca kit e ~/.config/kitty/kitty.conf
-ca sxh e ~/.config/sxhkd/sxhkdrc
-ca bsp e ~/.config/bspwm/bspwmrc
-ca mux e ~/tmux.conf
+ca vrc e ~/dotfiles/nvim/init.vim
+ca vma e ~/dotfiles/nvim/mappings.vim
+ca vpl e ~/dotfiles/nvim/plugins.vim
+ca vpc e ~/dotfiles/nvim/plugin-configs.vim
+ca vlu e ~/dotfiles/nvim/lua/nvim-lsp.lua
+ca irc e ~/dotfiles/i3/config
+ca pol e ~/dotfiles/polybar/config
+ca kit e ~/dotfiles/kitty/kitty.conf
+ca sxh e ~/dotfiles/sxhkd/sxhkdrc
+ca bsp e ~/dotfiles/bspwm/bspwmrc
+ca zsh e ~/dotfiles/zsh/.zshrc
+ca mux e ~/dotfiles/tmux/tmux.conf
 ca sp vsplit
 ca p %:.
 ca f %:.:h
