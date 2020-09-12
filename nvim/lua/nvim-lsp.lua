@@ -9,15 +9,3 @@ require'nvim_lsp'.html.setup{} -- LspInstall html
 require'nvim_lsp'.rls.setup{} -- ???
 require'nvim_lsp'.jsonls.setup{} -- LspInstall jsonls
 
-
-
-
-
-
-
-
-
-
-
-
-
