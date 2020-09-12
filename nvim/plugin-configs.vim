@@ -9,14 +9,6 @@ let g:ale_fixers = {
       \ 'json': ['fixjson'],
       \ 'scss': ['stylelint']
       \}
-let g:ale_fixers = {
-      \ 'typescript': ['prettier'],
-      \ 'typescriptreact': ['prettier'],
-      \ 'javascript': ['prettier'],
-      \ 'javascriptreact': ['prettier'],
-      \ 'json': ['fixjson'],
-      \ 'scss': ['stylelint']
-      \}
 
 let g:ale_fix_on_save = 1
 let g:ale_set_highlights = 0
