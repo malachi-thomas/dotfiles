@@ -19,6 +19,7 @@ Plug 'tpope/vim-surround'
 " Testing
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
+Plug 'nvim-lua/diagnostic-nvim'
 
 " Vim Traning
 Plug 'tjdevries/train.nvim'

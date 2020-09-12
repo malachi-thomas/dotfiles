@@ -1,5 +1,11 @@
-# Basic Comfig
+
+ZSH_THEME="simple"
+plugins=(zsh-autosuggestions zsh-syntax-highlighting)
 export ZSH=$HOME/.oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
+
+# Basic Comfig
 export PATH=$PATH:/home/malachi/dotfiles/scripts/
 export EDITOR='nvim'
 export GMAIL='thomasmalachi18@gmail.com'
@@ -9,16 +15,8 @@ export TERM=xterm-256color
 export TODAY=`date +%d/%b/%Y`
 export MANPAGER='nvim +Man!'
 
-ZSH_THEME="simple"
-set -o vi
 
 # Plugins
-plugins=(
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-)
-
-source $ZSH/oh-my-zsh.sh
 
 # Zsh Settings
 bindkey '^H' backward-kill-word # Ctrl backspace
@@ -63,26 +61,26 @@ usb() {
 chpwd() ls --color=auto
 
 # Config Files
-alias vrc='v ~/.config/nvim/init.vim'
-alias vma='v ~/.config/nvim/mappings.vim'
-alias vpl='v ~/.config/nvim/plugins.vim'
-alias vpc='v ~/.config/nvim/plugin-configs.vim'
-alias irc='v ~/.config/i3/config'
-alias bsh='v ~/.bashrc'
-alias pol='v ~/.config/polybar/config'
-alias zsh='v ~/.zshrc'
-alias vst='v ~/.config/nvim/steno.vim'
-alias val='v ~/.config/plover/vim.json'
-alias kit='v ~/.config/kitty/kitty.conf'
-alias sxh='v ~/.config/sxhkd/sxhkdrc'
-alias bsp='v ~/.config/bspwm/bspwmrc'
-alias mux='v ~/.tmux.conf'
-alias vif='v ~/.config/vifm/vifmrc'
+alias vrc='v ~/dotfiles/nvim/init.vim'
+alias vma='v ~/dotfiles/nvim/mappings.vim'
+alias vpl='v ~/dotfiles/nvim/plugins.vim'
+alias vpc='v ~/dotfiles/nvim/plugin-configs.vim'
+alias irc='v ~/dotfiles/i3/config'
+alias pol='v ~/dotfiles/polybar/config'
+alias zsh='v ~/dotfiles/zsh/.zshrc'
+alias vst='v ~/dotfiles/nvim/steno.vim'
+alias val='v ~/dotfiles/plover/vim.json'
+alias kit='v ~/dotfiles/kitty/kitty.conf'
+alias sxh='v ~/dotfiles/sxhkd/sxhkdrc'
+alias bsp='v ~/dotfiles/bspwm/bspwmrc'
+alias mux='v ~/dotfiles/tmux/.tmux.conf'
+alias vif='v ~/dotfiles/vifm/vifmrc'
+alias vlu='v ~/dotfiles/nvim/lua/nvim-lsp.lua'
 
 # Marks
 alias \'v='cd ~/.config/nvim'
-#
-#Diretorys
+
+# Diretorys
 alias plo='cd ~/.config/plover'
 alias bin='cd ~/dotfiles/scripts'
 alias notes='cd ~/dotfiles/notes'
@@ -104,16 +102,6 @@ vifm(){
   fi
   cd "$dst"
 }
-
-vf(){
-  if [ -d $1 ]
-    vifm $1
-  then
-  else
-    vifm .
-  fi
-}
-
 
 bindkey -s '^n' 'vifm .\n'
 
