@@ -109,7 +109,10 @@ let g:UltiSnipsSnippetDirectories = ["~/dotfiles/nvim/UltiSnips"]
 "       \ vsnip#jumpable(1)   ? "\<Plug>(vsnip-jump-next)" :
 "       \ <sid>check_back_space() ? "\<tab>" : completion#trigger_completion() 
 " Mappings=========================================================================================
-"
+
+imap <silent><expr><tab>
+      \ <sid>check_back_space() ? "\<tab>" :
+      \  completion#trigger_completion()
 imap <expr><c-space> vsnip#available(1) ? "\<Plug>(vsnip-expand-or-jump)" :
       \ "\<c-space>"
 imap <expr><S-Tab>
