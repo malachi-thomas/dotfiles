@@ -19,6 +19,7 @@ nnoremap <esc> <esc>:nohl<cr>
 nnoremap y "+y
 inoremap <c-h> <c-w>
 cnoremap <c-h> <c-w>
+cnoremap <cr> <cr>:nohl<cr>
 nnoremap <space>rg :Rg <C-R>=expand("<cword>")<cr><cr>
 
 " Unmap
@@ -32,9 +33,11 @@ vnoremap <down> <down>zz
 vnoremap y "+y
 
 "Substitutions
-" nmap s :S/<c-r>=expand("<cword>")<cr>//<left>
-" nmap S :S/<c-r>=expand("<cWORD>")<cr>//<left>
-vnoremap s :s///g<left><left><left>
+nnoremap sl :s/<c-r>=expand("<cword>")<cr>//gi<left><left><left>
+nnoremap sg :%s/<c-r>=expand("<cword>")<cr>//gi<left><left><left>
+nnoremap Sl :s/<c-r>=expand("<cword>")<cr>//gic<left><left><left><left>
+nnoremap Sg :%s/<c-r>=expand("<cword>")<cr>//gic<left><left><left><left>
+vnoremap s :s///gi<left><left><left>
 
 "Filetype Mappings
 autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>

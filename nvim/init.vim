@@ -41,13 +41,11 @@ set splitright
 set showmode
 set smartcase
 set ignorecase
-set hlsearch
 set inccommand=split
-set incsearch
 set mouse=a
 set clipboard+=unnamedplus
 set updatetime=50
-set path=.,**
+set path+=.,**
 set laststatus=2
 set spelllang=en_gb
 set matchpairs+=<:>
@@ -56,6 +54,7 @@ set lazyredraw
 set backspace=indent,eol,start
 set completeopt=menuone,noinsert,noselect
 set omnifunc=v:lua.vim.lsp.omnifunc
+set nohlsearch
 
 " =============================================================================
 " Vimscript
@@ -75,5 +74,6 @@ augroup autocmds
   autocmd filetype markdown setlocal wrap linebreak
   autocmd filetype markdown setlocal spell
   autocmd VimEnter * if argc() == 0 | Vifm | endif
-  autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif
+  autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
+  autocmd VimEnter *  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
 augroup end
