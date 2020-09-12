@@ -2,13 +2,13 @@
 
 " ale
 let g:ale_fixers = {
-      \ 'typescript': ['prettier'],
-      \ 'typescriptreact': ['prettier'],
-      \ 'javascript': ['prettier'],
-      \ 'javascriptreact': ['prettier'],
-      \ 'json': ['fixjson'],
-      \ 'scss': ['stylelint']
-      \}
+                  \ 'typescript': ['prettier'],
+                  \ 'typescriptreact': ['prettier'],
+                  \ 'javascript': ['prettier'],
+                  \ 'javascriptreact': ['prettier'],
+                  \ 'json': ['fixjson'],
+                  \ 'scss': ['stylelint']
+                  \}
 let g:ale_fix_on_save = 1
 let g:ale_set_highlights = 0
 let g:ale_linters_explicit = 1
@@ -40,9 +40,9 @@ let g:completion_sorting = 'none'
 let g:completion_confirm_key = ""
 let g:completion_enable_snippet = 'vim-vsnip'
 let g:completion_chain_complete_list = {
-      \'default' : [
-      \    {'complete_items': ['vim-vsnip', 'lsp', 'path', 'buffers']},
-      \]}
+                  \'default' : [
+                  \    {'complete_items': ['vim-vsnip', 'lsp', 'path', 'buffers']},
+                  \]}
 
 " vim-livedown
 let g:livedown_browser = "brave"
@@ -55,37 +55,37 @@ let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 }}
 let $FZF_DEFAULT_OPTS = "--reverse -e"
 let $FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!node_modules/**'"
 let g:fzf_colors =
-      \ { 'fg':      ['fg', 'Normal'],
-      \ 'bg':      ['bg', 'Normal'],
-      \ 'hl':      ['fg', 'Comment'],
-      \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-      \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
-      \ 'hl+':     ['fg', 'Statement'],
-      \ 'info':    ['fg', 'PreProc'],
-      \ 'border':  ['fg', 'Ignore'],
-      \ 'prompt':  ['fg', 'Conditional'],
-      \ 'pointer': ['fg', 'Exception'],
-      \ 'marker':  ['fg', 'Keyword'],
-      \ 'spinner': ['fg', 'Label'],
-      \ 'header':  ['fg', 'Comment'] }
+                  \ { 'fg':      ['fg', 'Normal'],
+                  \ 'bg':      ['bg', 'Normal'],
+                  \ 'hl':      ['fg', 'Comment'],
+                  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+                  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+                  \ 'hl+':     ['fg', 'Statement'],
+                  \ 'info':    ['fg', 'PreProc'],
+                  \ 'border':  ['fg', 'Ignore'],
+                  \ 'prompt':  ['fg', 'Conditional'],
+                  \ 'pointer': ['fg', 'Exception'],
+                  \ 'marker':  ['fg', 'Keyword'],
+                  \ 'spinner': ['fg', 'Label'],
+                  \ 'header':  ['fg', 'Comment'] }
 
 " vimwiki
 let g:vimwiki_table_mappings = 0
 let g:vimwiki_table_auto_fmt=0
 let g:vimwiki_list = [{
-      \ 'path': '~/dotfiles/notes',
-      \ 'syntax': 'markdown',
-      \ 'ext':'.md',
-      \}]
+                  \ 'path': '~/dotfiles/notes',
+                  \ 'syntax': 'markdown',
+                  \ 'ext':'.md',
+                  \}]
 
 " PaperColor
 let g:PaperColor_Theme_Options = {
-      \   'theme': {
-      \     'default': {
-      \       'allow_bold': 1,
-      \       'allow_italic': 1,
-      \       'transparent_background': 1
-      \     }}}
+                  \   'theme': {
+                  \     'default': {
+                  \       'allow_bold': 1,
+                  \       'allow_italic': 1,
+                  \       'transparent_background': 1
+                  \     }}}
 
 " vifm
 let g:vifm_replace_netrw = 1
@@ -105,7 +105,7 @@ let g:UltiSnipsSnippetDirectories = ["~/dotfiles/nvim/UltiSnips"]
 
 " diagnostic-nvim
 let g:diagnostic_enable_virtual_text = 1
-let g:diagnostic_virtual_text_prefix = ''
+let g:diagnostic_virtual_text_prefix = ''
 let g:diagnostic_show_sign = 0
 "let g:space_before_virtual_text = 4
 
@@ -118,25 +118,25 @@ let g:diagnostic_show_sign = 0
 " Mappings=========================================================================================
 
 imap <silent><expr><tab>
-      \ <sid>check_back_space() ? "\<tab>" :
-      \  completion#trigger_completion()
+                  \ <sid>check_back_space() ? "\<tab>" :
+                  \  completion#trigger_completion()
 imap <expr><c-space> vsnip#available(1) ? "\<Plug>(vsnip-expand-or-jump)" :
-      \ "\<space>"
+                  \ "\<space>"
 imap <expr><S-Tab>
-      \ pumvisible() vsnip#jumpable(-1) ? "\<Plug>(vsnip-jump-prev)" :
-      \ "\<S-Tab>"
+                  \ pumvisible() vsnip#jumpable(-1) ? "\<Plug>(vsnip-jump-prev)" :
+                  \ "\<S-Tab>"
 inoremap <silent><expr><up>
-      \ pumvisible() ? "\<c-p>" :
-      \ "\<c-o>zz\<up>\<c-o>zz"
+                  \ pumvisible() ? "\<c-p>" :
+                  \ "\<c-o>zz\<up>\<c-o>zz"
 inoremap <silent><expr><down>
-      \ pumvisible() ? "\<c-n>" :
-      \ "\<c-o>zz\<down>\<c-o>zz"
+                  \ pumvisible() ? "\<c-n>" :
+                  \ "\<c-o>zz\<down>\<c-o>zz"
 imap <expr><cr>
-      \ pumvisible() ? complete_info()["selected"] != "-1" ? "\<Plug>(completion_confirm_completion)" :
-      \ "\<c-e>\<cr>" : "\<cr>"
+                  \ pumvisible() ? complete_info()["selected"] != "-1" ? "\<Plug>(completion_confirm_completion)" :
+                  \ "\<c-e>\<cr>" : "\<cr>"
 imap <expr><right>
-      \ pumvisible() ? complete_info()["selected"] != "-1" ? "\<Plug>(completion_confirm_completion)" :
-      \ "\<c-e>\<right>" : "\<right>"
+                  \ pumvisible() ? complete_info()["selected"] != "-1" ? "\<Plug>(completion_confirm_completion)" :
+                  \ "\<c-e>\<right>" : "\<right>"
 nnoremap <c-n> :TabVifm<cr>
 nnoremap <silent><space>gd :lua vim.lsp.buf.definition()<cr>
 nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
@@ -158,8 +158,8 @@ autocmd FileType vimwiki nnoremap <buffer><space>ss :e ~/dotfiles/nvim/vsnip/vim
 " VimL=============================================================================================
 
 function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~ '\s'
+      let col = col('.') - 1
+      return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
 

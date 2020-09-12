@@ -1,4 +1,4 @@
-" " " Movement
+" Movement
 let mapleader=" "
 nnoremap <up> gkzz
 nnoremap <down> gjzz
@@ -76,13 +76,13 @@ ca ft <c-r>=expand(&ft)<cr><c-r>=Eatchar('\s')<cr>
 
 " Functions
 function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~ '\s'
+      let col = col('.') - 1
+      return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
 func Eatchar(pat)
-  let c = nr2char(getchar(0))
-  return (c =~ a:pat) ? '' : c
+      let c = nr2char(getchar(0))
+      return (c =~ a:pat) ? '' : c
 endfunction
 
 
