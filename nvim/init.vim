@@ -13,7 +13,7 @@ autocmd vimenter * colorscheme gruvbox
 set termguicolors
 set t_Co=256
 set background=dark
-"set number
+set number
 set relativenumber
 set guicursor=
 
@@ -42,6 +42,7 @@ set showmode
 set smartcase
 set ignorecase
 set inccommand=split
+set nohlsearch
 set mouse=a
 set clipboard+=unnamedplus
 set updatetime=50
@@ -54,7 +55,6 @@ set lazyredraw
 set backspace=indent,eol,start
 set completeopt=menuone,noinsert,noselect
 set omnifunc=v:lua.vim.lsp.omnifunc
-set nohlsearch
 
 " =============================================================================
 " Vimscript
@@ -69,6 +69,7 @@ augroup autocmds
   autocmd bufread ~/.config/bspwm/bspwmrc set filetype=sh
   autocmd vimenter * AirlineTheme gruvbox
   autocmd bufwritepre *.vim normal mmgg=G`mzz
+  autocmd bufwritepre *.lua normal mmgg=G`mzz
   autocmd bufread *.tsx set filetype=typescript.tsx
   autocmd bufread *.jsx set filetype=javascript.jsx
   autocmd filetype markdown setlocal wrap linebreak
@@ -76,4 +77,5 @@ augroup autocmds
   autocmd VimEnter * if argc() == 0 | Vifm | endif
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
   autocmd VimEnter *  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
+  autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
 augroup end

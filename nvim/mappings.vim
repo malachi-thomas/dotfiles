@@ -15,11 +15,9 @@ nnoremap <c-f> :Files<cr>
 
 " Extra
 inoremap <esc> <right><esc>
-nnoremap <esc> <esc>:nohl<cr>
 nnoremap y "+y
 inoremap <c-h> <c-w>
 cnoremap <c-h> <c-w>
-cnoremap <cr> <cr>:nohl<cr>
 nnoremap <space>rg :Rg <C-R>=expand("<cword>")<cr><cr>
 
 " Unmap
@@ -63,7 +61,6 @@ ca vrc e ~/dotfiles/nvim/init.vim
 ca vma e ~/dotfiles/nvim/mappings.vim
 ca vpl e ~/dotfiles/nvim/plugins.vim
 ca vpc e ~/dotfiles/nvim/plugin-configs.vim
-ca vlu e ~/dotfiles/nvim/lua/nvim-lsp.lua
 ca irc e ~/dotfiles/i3/config
 ca pol e ~/dotfiles/polybar/config
 ca kit e ~/dotfiles/kitty/kitty.conf
@@ -71,9 +68,11 @@ ca sxh e ~/dotfiles/sxhkd/sxhkdrc
 ca bsp e ~/dotfiles/bspwm/bspwmrc
 ca zsh e ~/dotfiles/zsh/.zshrc
 ca mux e ~/dotfiles/tmux/tmux.conf
+ca vlu e ~/dotfiles/nvim/lua/nvim-lsp.lua
 ca sp vsplit
 ca p <c-r>=expand("%:.:h")<cr>/<c-r>=Eatchar('\s')<cr>
 ca f <c-r>=expand("%:.")<cr><c-r>=Eatchar('\s')<cr>
+ca ft <c-r>=expand(&ft)<cr><c-r>=Eatchar('\s')<cr>
 
 " Functions
 function! s:check_back_space() abort

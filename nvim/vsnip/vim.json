@@ -1,44 +1,16 @@
 {
-  "inoremap": {
-    "prefix": "ii",
-    "body": [
-      "inoremap"
-    ]
-  },
-  "<cr>": {
+  "cr": {
     "prefix": "cr",
     "body": [
       "<cr>"
     ]
   },
-  "nnoremap": {
-    "prefix": "nn",
+  "function": {
+    "prefix": "function",
     "body": [
-      "nnoremap"
-    ]
-  },
-  "vnoremap": {
-    "prefix": "vv",
-    "body": [
-      "vnoremap"
-    ]
-  },
-  "<tab>": {
-    "prefix": "tab",
-    "body": [
-      "<tab>"
-    ]
-  },
-  "<space>": {
-    "prefix": "space",
-    "body": [
-      "<space>"
-    ]
-  },
-  "<silent>": {
-    "prefix": "silent",
-    "body": [
-      "<silent>"
+      "function $1()",
+      "$2",
+      "function end$3"
     ]
   }
 }

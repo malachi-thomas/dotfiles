@@ -1,4 +1,3 @@
-require'completion'.on_attach() -- need for completion
 require'nvim_lsp'.pyls.setup {} -- pip install python-language-server
 require'nvim_lsp'.tsserver.setup {} -- LspInstall tsserver
 require'nvim_lsp'.vimls.setup {} -- LspInstall vimls

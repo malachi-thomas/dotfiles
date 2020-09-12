@@ -3,7 +3,6 @@ Tags: #javascript #react
 
 ### Basics
 
-- [file-structure](file-structure.md)
 - [components](components.md)
 - link
 - link
