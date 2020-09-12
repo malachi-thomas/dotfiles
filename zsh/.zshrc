@@ -1,12 +1,11 @@
 
 ZSH_THEME="simple"
 plugins=(zsh-autosuggestions zsh-syntax-highlighting)
-
+export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 
 # Basic Comfig
-export ZSH=$HOME/.oh-my-zsh
 export PATH=$PATH:/home/malachi/dotfiles/scripts/
 export EDITOR='nvim'
 export GMAIL='thomasmalachi18@gmail.com'
@@ -16,7 +15,6 @@ export TERM=xterm-256color
 export TODAY=`date +%d/%b/%Y`
 export MANPAGER='nvim +Man!'
 
-set -o vi
 
 # Plugins
 
@@ -81,8 +79,8 @@ alias vlu='v ~/dotfiles/nvim/lua/nvim-lsp.lua'
 
 # Marks
 alias \'v='cd ~/.config/nvim'
-#
-#Diretorys
+
+# Diretorys
 alias plo='cd ~/.config/plover'
 alias bin='cd ~/dotfiles/scripts'
 alias notes='cd ~/dotfiles/notes'
@@ -104,16 +102,6 @@ vifm(){
   fi
   cd "$dst"
 }
-
-vf(){
-  if [ -d $1 ]
-    vifm $1
-  then
-  else
-    vifm .
-  fi
-}
-
 
 bindkey -s '^n' 'vifm .\n'
 

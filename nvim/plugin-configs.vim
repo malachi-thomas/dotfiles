@@ -49,7 +49,7 @@ let g:completion_confirm_key = ""
 let g:completion_enable_snippet = 'vim-vsnip'
 let g:completion_chain_complete_list = {
       \'default' : [
-      \    {'complete_items': ['vim-vsnip', 'lsp', 'buffers', 'path']},
+      \    {'complete_items': ['vim-vsnip', 'lsp', 'path', 'buffers']},
       \]}
 
 " vim-livedown
@@ -100,12 +100,13 @@ let g:loaded_netrw = 0
 
 " vim-vsnip
 let g:vsnip_filetypes = {}
-let g:vsnip_filetypes.tsx = ['typescript', 'tsx']
-let g:vsnip_filetypes.jsx = ['javascript', 'javascriptreact']
+let g:vsnip_filetypes.tsx = ['typescript', 'tsx', 'javascript']
+let g:vsnip_filetypes.jsx = ['javascript', 'jsx']
 let g:vsnip_filetypes.typescript = ['javascript']
 
 
 let g:vsnip_snippet_dir = expand('~/dotfiles/nvim/vsnip')
+let g:diagnostic_enable_virtual_text = 1
 
 " Mappings=========================================================================================
 
@@ -132,7 +133,7 @@ imap <expr><right>
 nnoremap <space>f :Vista finder<cr>
 nnoremap <c-n> :TabVifm<cr>
 nnoremap <space>us :Files ~/.config/nvim/UltiSnips<cr>
-nnoremap <space>vs :VsnipOpenEdit<cr>
+nnoremap <space>vs :e ~/dotfiles/nvim/vsnip/<c-r>=expand('%:e')<cr>.json
 nnoremap <space>vv :Files ~/dotfiles/nvim/vsnip<cr>
 nnoremap <silent><space>gd :lua vim.lsp.buf.definition()<cr>
 nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>

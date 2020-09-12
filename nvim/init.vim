@@ -4,6 +4,7 @@
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/plugin-configs.vim
 source $HOME/.config/nvim/mappings.vim
+lua require('nvim-lsp')
 
 "==============================================================================
 " Theme
@@ -40,7 +41,8 @@ set splitright
 set showmode
 set smartcase
 set ignorecase
-set nohlsearch
+set hlsearch
+set inccommand=split
 set incsearch
 set mouse=a
 set clipboard+=unnamedplus
@@ -53,10 +55,10 @@ set shortmess+=c
 set lazyredraw
 set backspace=indent,eol,start
 set completeopt=menuone,noinsert,noselect
+set omnifunc=v:lua.vim.lsp.omnifunc
 
 " =============================================================================
 " Vimscript
-
 
 augroup autocmds
   autocmd!
@@ -68,9 +70,10 @@ augroup autocmds
   autocmd bufread ~/.config/bspwm/bspwmrc set filetype=sh
   autocmd vimenter * AirlineTheme gruvbox
   autocmd bufwritepre *.vim normal mmgg=G`mzz
+  autocmd bufread *.tsx set filetype=typescript.tsx
+  autocmd bufread *.jsx set filetype=javascript.jsx
   autocmd filetype markdown setlocal wrap linebreak
   autocmd filetype markdown setlocal spell
   autocmd VimEnter * if argc() == 0 | Vifm | endif
-  autocmd BufEnter * lua require'completion'.on_attach()
-  autocmd BufEnter * lua require'diagnostic'.on_attach()
+  autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif
 augroup end
