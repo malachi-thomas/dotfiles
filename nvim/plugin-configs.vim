@@ -103,6 +103,14 @@ let g:UltiSnipsJumpForwardTrigger="<a-p>"
 let g:UltiSnipsJumpBackwardTrigger="<a-p>"
 let g:UltiSnipsSnippetDirectories = ["~/dotfiles/nvim/UltiSnips"]
 
+" diagnostic-nvim
+let g:diagnostic_enable_virtual_text = 1
+let g:diagnostic_virtual_text_prefix = ' '
+let g:diagnostic_trimmed_virtual_text = '20'
+let g:diagnostic_show_sign = 0
+let g:space_before_virtual_text = 4
+
+
 " imap <silent><expr><tab>
 "       \ pumvisible() ? "\<Plug>(completion_confirm_completion)" :
 "       \ vsnip#expandable() ? "\<Plug>(vsnip-expand)" :
@@ -114,7 +122,7 @@ imap <silent><expr><tab>
       \ <sid>check_back_space() ? "\<tab>" :
       \  completion#trigger_completion()
 imap <expr><c-space> vsnip#available(1) ? "\<Plug>(vsnip-expand-or-jump)" :
-      \ "\<c-space>"
+      \ "\<space>"
 imap <expr><S-Tab>
       \ pumvisible() vsnip#jumpable(-1) ? "\<Plug>(vsnip-jump-prev)" :
       \ "\<S-Tab>"
@@ -145,6 +153,7 @@ autocmd FileType typescriptreact nnoremap <buffer><space>ss :e ~/dotfiles/nvim/v
 autocmd FileType vim nnoremap <buffer><space>ss :e ~/dotfiles/nvim/vsnip/vim.json<cr>
 autocmd FileType html nnoremap <buffer><space>ss :e ~/dotfiles/nvim/vsnip/html.json<cr>
 autocmd FileType typescript nnoremap <buffer><space>ss :e ~/dotfiles/nvim/vsnip/typescript.json<cr>
+autocmd FileType vimwiki nnoremap <buffer><space>ss :e ~/dotfiles/nvim/vsnip/vimwiki.json<cr>
 
 
 " VimL=============================================================================================

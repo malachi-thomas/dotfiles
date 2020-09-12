@@ -78,4 +78,6 @@ augroup autocmds
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
   autocmd VimEnter *  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
   autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
+  autocmd BufEnter *  lua require'diagnostic'.on_attach()
 augroup end
+

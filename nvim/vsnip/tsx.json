@@ -244,5 +244,17 @@
     "body": [
       "<head>$0</head>"
     ]
+  },
+  "classn": {
+    "prefix": "classn",
+    "body": [
+      "className=\"$0\""
+    ]
+  },
+  "ctag": {
+    "prefix": "ctag",
+    "body": [
+      "<$0/>"
+    ]
   }
 }

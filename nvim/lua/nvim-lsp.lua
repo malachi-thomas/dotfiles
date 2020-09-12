@@ -21,6 +21,3 @@ require'nvim_lsp'.jsonls.setup{} -- LspInstall jsonls
 
 
 
-
-
-

@@ -16,6 +16,8 @@ Plug 'tpope/vim-surround'
 " Testing
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
+Plug 'sheerun/vim-polyglot'
+Plug 'nvim-lua/diagnostic-nvim'
 
 " Vim Traning
 Plug 'ThePrimeagen/vim-be-good'
