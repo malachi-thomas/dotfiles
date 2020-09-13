@@ -43,6 +43,8 @@ autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-l> :term tsc<cr>:bn<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
 autocmd Filetype help nnoremap <buffer>ZZ :q<cr>
+autocmd Filetype LuaTree nnoremap <buffer>ZZ :q<cr>
+autocmd Filetype vim-plug nnoremap <buffer>ZZ :q<cr>
 
 " Command Mode
 ca ls !ls -F
@@ -76,13 +78,13 @@ ca ft <c-r>=expand(&ft)<cr><c-r>=Eatchar('\s')<cr>
 
 " Functions
 function! s:check_back_space() abort
-      let col = col('.') - 1
-      return !col || getline('.')[col - 1]  =~ '\s'
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
 func Eatchar(pat)
-      let c = nr2char(getchar(0))
-      return (c =~ a:pat) ? '' : c
+  let c = nr2char(getchar(0))
+  return (c =~ a:pat) ? '' : c
 endfunction
 
 
