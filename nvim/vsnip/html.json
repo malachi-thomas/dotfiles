@@ -1,8 +1,0 @@
-{
-  "div": {
-    "prefix": "div",
-    "body": [
-      "<div>$0<div/>"
-    ]
-  }
-}
