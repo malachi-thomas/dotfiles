@@ -5,6 +5,9 @@ source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/plugin-configs.vim
 source $HOME/.config/nvim/mappings.vim
 lua require('nvim-lsp')
+lua require('nvim-snippets')
+
+
 
 "==============================================================================
 " Theme
@@ -56,6 +59,8 @@ set lazyredraw
 set backspace=indent,eol,start
 set completeopt=menuone,noinsert,noselect
 set omnifunc=v:lua.vim.lsp.omnifunc
+set foldmethod=expr
+set foldexpr=nvim_treesitter#foldexpr()
 
 " =============================================================================
 " Vimscript
@@ -75,5 +80,13 @@ augroup autocmds
   autocmd filetype markdown setlocal wrap linebreak
   autocmd filetype markdown setlocal spell
   autocmd VimEnter * if argc() == 0 | Vifm | endif
+<<<<<<< master
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif
+=======
+  autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
+  autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
+  autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
+  autocmd BufEnter * lua require'diagnostic'.on_attach()
+  autocmd BufWrite *.lua call LuaFormat() " lua formatter
+>>>>>>> local
 augroup end

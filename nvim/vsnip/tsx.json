@@ -2,7 +2,119 @@
   "</>": {
     "prefix": "tag",
     "body": [
+<<<<<<< master
       "<$0/>"
+=======
+      "<span>$0</span>"
+    ]
+  },
+  "meta": {
+    "prefix": "meta",
+    "body": [
+      "<meta/>"
+    ]
+  },
+  "div": {
+    "prefix": "div",
+    "body": [
+      "<div>$0</div>"
+    ]
+  },
+  "img": {
+    "prefix": "img",
+    "body": [
+      "<img/>"
+    ]
+  },
+  "strong": {
+    "prefix": "strong",
+    "body": [
+      "<strong>$0</strong>"
+    ]
+  },
+  "ul": {
+    "prefix": "ul",
+    "body": [
+      "<ul>$0</ul>"
+    ]
+  },
+  "li": {
+    "prefix": "li",
+    "body": [
+      "<li>$0</li>"
+    ]
+  },
+  "nav": {
+    "prefix": "nav",
+    "body": [
+      "<nav>$0</nav>"
+    ]
+  },
+  "a": {
+    "prefix": "a",
+    "body": [
+      "<a href=\"$1\">$0</a>"
+    ]
+  },
+  "body": {
+    "prefix": "body",
+    "body": [
+      "<body>$0</body>"
+    ]
+  },
+  "br": {
+    "prefix": "br",
+    "body": [
+      "<br>$0</br>"
+    ]
+  },
+  "button": {
+    "prefix": "button",
+    "body": [
+      "<button>$0</button>"
+    ]
+  },
+  "html": {
+    "prefix": "html",
+    "body": [
+      "<html>$0</html>"
+    ]
+  },
+  "tittle": {
+    "prefix": "tittle",
+    "body": [
+      "<tittle>$0</tittle>"
+    ]
+  },
+  "h1": {
+    "prefix": "h1",
+    "body": [
+      "<h1>$0</h1>"
+    ]
+  },
+  "h2": {
+    "prefix": "h2",
+    "body": [
+      "<h2>$0</h2>"
+    ]
+  },
+  "h3": {
+    "prefix": "h3",
+    "body": [
+      "<h3>$0</h3>"
+    ]
+  },
+  "h4": {
+    "prefix": "h4",
+    "body": [
+      "<h4>$0</h4>"
+    ]
+  },
+  "h5": {
+    "prefix": "h5",
+    "body": [
+      "<h5>$0</h5>"
+>>>>>>> local
     ]
   },
   "<input type=\"checkbox\">": {

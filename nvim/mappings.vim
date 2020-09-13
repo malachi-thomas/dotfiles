@@ -42,6 +42,8 @@ autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-l> :term tsc<cr>:bn<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
 autocmd Filetype help nnoremap <buffer>ZZ :q<cr>
+autocmd Filetype LuaTree nnoremap <buffer>ZZ :q<cr>
+autocmd Filetype vim-plug nnoremap <buffer>ZZ :q<cr>
 
 " Command Mode
 ca ls !ls -F
