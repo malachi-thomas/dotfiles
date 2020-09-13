@@ -16,7 +16,7 @@ autocmd vimenter * colorscheme gruvbox
 set termguicolors
 set t_Co=256
 set background=dark
-"set number
+set number
 set relativenumber
 set guicursor=
 
@@ -44,13 +44,12 @@ set splitright
 set showmode
 set smartcase
 set ignorecase
-set hlsearch
 set inccommand=split
-set incsearch
+set nohlsearch
 set mouse=a
 set clipboard+=unnamedplus
 set updatetime=50
-set path=.,**
+set path+=.,**
 set laststatus=2
 set spelllang=en_gb
 set matchpairs+=<:>
@@ -80,13 +79,20 @@ augroup autocmds
   autocmd filetype markdown setlocal wrap linebreak
   autocmd filetype markdown setlocal spell
   autocmd VimEnter * if argc() == 0 | Vifm | endif
+<<<<<<< HEAD
 <<<<<<< master
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif
 =======
+=======
+>>>>>>> testing-stuff
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
   autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
   autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
   autocmd BufEnter * lua require'diagnostic'.on_attach()
   autocmd BufWrite *.lua call LuaFormat() " lua formatter
+<<<<<<< HEAD
 >>>>>>> local
+=======
+>>>>>>> testing-stuff
 augroup end
+

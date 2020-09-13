@@ -1,7 +1,7 @@
-require'completion'.on_attach() -- need for completion
 require'nvim_lsp'.pyls.setup {} -- pip install python-language-server
 require'nvim_lsp'.tsserver.setup {} -- LspInstall tsserver
 require'nvim_lsp'.vimls.setup {} -- LspInstall vimls
+<<<<<<< HEAD
 <<<<<<< master
 require'nvim_lsp'.sumneko_lua.setup {} --LspInstall sumneko_lua
 require'nvim_lsp'.bashls.setup{} -- LspInstall bashls
@@ -27,6 +27,8 @@ require'nvim_lsp'.jsonls.setup{} -- LspInstall jsonls
 
 
 =======
+=======
+>>>>>>> testing-stuff
 require'nvim_lsp'.sumneko_lua.setup {} -- LspInstall sumneko_lua
 require'nvim_lsp'.bashls.setup {} -- LspInstall bashls
 require'nvim_lsp'.clangd.setup {} -- ???
@@ -42,4 +44,7 @@ require'nvim-treesitter.configs'.setup {
         disable = {} -- list of language that will be disabled
     }
 }
+<<<<<<< HEAD
 >>>>>>> local
+=======
+>>>>>>> testing-stuff

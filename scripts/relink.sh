@@ -5,12 +5,15 @@ ln -f ~/dotfiles/nvim/plugins.vim ~/.config/nvim/plugins.vim
 ln -f ~/dotfiles/nvim/plugin-configs.vim ~/.config/nvim/plugin-configs.vim
 ln -f ~/dotfiles/nvim/mappings.vim ~/.config/nvim/mappings.vim
 ln -f ~/dotfiles/nvim/lua/nvim-lsp.lua ~/.config/nvim/lua/nvim-lsp.lua
+<<<<<<< HEAD
 <<<<<<< master
 ln -f ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 ln -f ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 =======
 ln -f ~/dotfiles/nvim/lua/nvim-snippets.lua ~/.config/nvim/lua/nvim-snippets.lua
 >>>>>>> local
+=======
+>>>>>>> testing-stuff
 ln -f ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm/bspwmrc
 ln -f ~/dotfiles/zsh/.zshrc ~/.zshrc
 ln -f ~/dotfiles/i3/config ~/.config/i3/config

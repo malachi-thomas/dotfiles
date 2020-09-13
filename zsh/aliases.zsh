@@ -34,10 +34,14 @@ alias sxh='v ~/dotfiles/sxhkd/sxhkdrc'
 alias bsp='v ~/dotfiles/bspwm/bspwmrc'
 alias mux='v ~/dotfiles/tmux/.tmux.conf'
 alias vif='v ~/dotfiles/vifm/vifmrc'
+<<<<<<< HEAD
 alias vlrc='v ~/dotfiles/nvim/lua/init.lua'
 alias vsn='v ~/dotfiles/nvim/lua/nvim-snippets.lua'
 alias vlsp='v ~/dotfiles/nvim/lua/nvim-lsp.lua'
 
+=======
+alias vlu='v ~/dotfiles/nvim/lua/nvim-lsp.lua'
+>>>>>>> testing-stuff
 
 # Diretorys
 alias plo='cd ~/.config/plover'
@@ -49,7 +53,11 @@ alias webt='cd ~/code/web/test'
 alias python='cd ~/code/python'
 alias javascript='cd ~/code/javascript'
 alias dow='cd ~/Downloads'
+<<<<<<< HEAD
 alias vvim='cd ~/dotfiles/nvim'
+=======
+alias vvim='cd ~/.config/nvim'
+>>>>>>> testing-stuff
 alias typescript='cd ~/code/typescript'
 alias not='cd ~/dotfiles/notes && v topics.md'
 alias react='cd ~/code/react'
@@ -77,3 +85,7 @@ alias rmnpm='rm -R node_modules package.json package-lock.json'
 alias commit='git add -A; git commit -m'
 alias clone='git clone'
 alias checkout='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git checkout {}'
+<<<<<<< HEAD
+=======
+alias merge='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git merge {}'
+>>>>>>> testing-stuff

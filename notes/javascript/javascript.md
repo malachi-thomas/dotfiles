@@ -1,8 +1,7 @@
 Date: 30/Aug/2020  
 Tags: #javascript
 
-### Index
-
+### Frameworks
 - [react](react.md)
 
 ### Basics

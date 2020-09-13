@@ -1,4 +1,4 @@
-" " " Movement
+" Movement
 let mapleader=" "
 nnoremap <up> gkzz
 nnoremap <down> gjzz
@@ -15,7 +15,6 @@ nnoremap <c-f> :Files<cr>
 
 " Extra
 inoremap <esc> <right><esc>
-nnoremap <esc> <esc>:nohl<cr>
 nnoremap y "+y
 inoremap <c-h> <c-w>
 cnoremap <c-h> <c-w>
@@ -32,9 +31,11 @@ vnoremap <down> <down>zz
 vnoremap y "+y
 
 "Substitutions
-" nmap s :S/<c-r>=expand("<cword>")<cr>//<left>
-" nmap S :S/<c-r>=expand("<cWORD>")<cr>//<left>
-vnoremap s :s///g<left><left><left>
+nnoremap sl :s/<c-r>=expand("<cword>")<cr>//gi<left><left><left>
+nnoremap sg :%s/<c-r>=expand("<cword>")<cr>//gi<left><left><left>
+nnoremap Sl :s/<c-r>=expand("<cword>")<cr>//gic<left><left><left><left>
+nnoremap Sg :%s/<c-r>=expand("<cword>")<cr>//gic<left><left><left><left>
+vnoremap s :s///gi<left><left><left>
 
 "Filetype Mappings
 autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
@@ -62,7 +63,6 @@ ca vrc e ~/dotfiles/nvim/init.vim
 ca vma e ~/dotfiles/nvim/mappings.vim
 ca vpl e ~/dotfiles/nvim/plugins.vim
 ca vpc e ~/dotfiles/nvim/plugin-configs.vim
-ca vlu e ~/dotfiles/nvim/lua/nvim-lsp.lua
 ca irc e ~/dotfiles/i3/config
 ca pol e ~/dotfiles/polybar/config
 ca kit e ~/dotfiles/kitty/kitty.conf
@@ -70,9 +70,11 @@ ca sxh e ~/dotfiles/sxhkd/sxhkdrc
 ca bsp e ~/dotfiles/bspwm/bspwmrc
 ca zsh e ~/dotfiles/zsh/.zshrc
 ca mux e ~/dotfiles/tmux/tmux.conf
+ca vlu e ~/dotfiles/nvim/lua/nvim-lsp.lua
 ca sp vsplit
 ca p <c-r>=expand("%:.:h")<cr>/<c-r>=Eatchar('\s')<cr>
 ca f <c-r>=expand("%:.")<cr><c-r>=Eatchar('\s')<cr>
+ca ft <c-r>=expand(&ft)<cr><c-r>=Eatchar('\s')<cr>
 
 " Functions
 function! s:check_back_space() abort

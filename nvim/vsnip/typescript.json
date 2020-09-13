@@ -1,3 +1,14 @@
 {
-
+  "fun": {
+    "prefix": "fun",
+    "body": [
+      "const $1 = $2 => $0"
+    ]
+  },
+  "map": {
+    "prefix": "map",
+    "body": [
+      "map($0 => )"
+    ]
+  }
 }

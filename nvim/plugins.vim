@@ -11,15 +11,14 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
 
 " Programming
-Plug 'wincent/scalpel'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
-Plug 'mattn/emmet-vim'
 Plug 'dense-analysis/ale'
 Plug 'vifm/vifm.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+<<<<<<< HEAD
 <<<<<<< master
 "Plug 'SirVer/ultisnips'
 
@@ -33,9 +32,14 @@ Plug 'andrejlevkovitch/vim-lua-format' " lua formatter
 " Testing
 Plug 'sheerun/vim-polyglot'
 >>>>>>> local
+=======
+Plug 'andrejlevkovitch/vim-lua-format' " lua formatter
+
+" Testing
+Plug 'sheerun/vim-polyglot'
+>>>>>>> testing-stuff
 
 " Vim Traning
-Plug 'tjdevries/train.nvim'
 Plug 'ThePrimeagen/vim-be-good'
 
 " Notetaking
@@ -43,6 +47,7 @@ Plug 'vimwiki/vimwiki'
 " Theam
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
+<<<<<<< HEAD
 <<<<<<< master
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ap/vim-css-color'
@@ -57,6 +62,12 @@ Plug 'shmargum/vim-sass-colors'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'ryanoasis/vim-devicons'
 >>>>>>> local
+=======
+Plug 'mboughaba/i3config.vim'
+Plug 'machakann/vim-highlightedyank'
+Plug 'shmargum/vim-sass-colors'
+Plug 'junegunn/rainbow_parentheses.vim'
+Plug 'ryanoasis/vim-devicons'
+>>>>>>> testing-stuff
 call plug#end()
-autocmd VimEnter *  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif
 

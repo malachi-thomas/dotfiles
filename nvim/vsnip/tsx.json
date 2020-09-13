@@ -1,11 +1,15 @@
 {
-  "</>": {
-    "prefix": "tag",
+  "span": {
+    "prefix": "span",
     "body": [
+<<<<<<< HEAD
 <<<<<<< master
       "<$0/>"
 =======
       "<span>$0</span>"
+=======
+      "<span></ssan>"
+>>>>>>> testing-stuff
     ]
   },
   "meta": {
@@ -66,6 +70,7 @@
     "prefix": "br",
     "body": [
       "<br>$0</br>"
+<<<<<<< HEAD
     ]
   },
   "button": {
@@ -115,18 +120,200 @@
     "body": [
       "<h5>$0</h5>"
 >>>>>>> local
+=======
+>>>>>>> testing-stuff
     ]
   },
-  "<input type=\"checkbox\">": {
-    "prefix": "checkbox",
+  "button": {
+    "prefix": "button",
     "body": [
-      "<input type=\"checkbox\">"
+      "<button>$0</button>"
     ]
   },
-  "<p></p>": {
+  "html": {
+    "prefix": "html",
+    "body": [
+      "<html>$0</html>"
+    ]
+  },
+  "tittle": {
+    "prefix": "tittle",
+    "body": [
+      "<tittle>$0</tittle>"
+    ]
+  },
+  "h1": {
+    "prefix": "h1",
+    "body": [
+      "<h1>$0</h1>"
+    ]
+  },
+  "h2": {
+    "prefix": "h2",
+    "body": [
+      "<h2>$0</h2>"
+    ]
+  },
+  "h3": {
+    "prefix": "h3",
+    "body": [
+      "<h3>$0</h3>"
+    ]
+  },
+  "h4": {
+    "prefix": "h4",
+    "body": [
+      "<h4>$0</h4>"
+    ]
+  },
+  "h5": {
+    "prefix": "h5",
+    "body": [
+      "<h5>$0</h5>"
+    ]
+  },
+  "h6": {
+    "prefix": "h6",
+    "body": [
+      "<h6>$0</h6>"
+    ]
+  },
+  "p": {
     "prefix": "p",
     "body": [
       "<p>$0</p>"
+    ]
+  },
+  "em": {
+    "prefix": "em",
+    "body": [
+      "<em>$0</em>"
+    ]
+  },
+  "b": {
+    "prefix": "b",
+    "body": [
+      "<b>$0</b>"
+    ]
+  },
+  "i": {
+    "prefix": "i",
+    "body": [
+      "<i>$9</i>"
+    ]
+  },
+  "small": {
+    "prefix": "small",
+    "body": [
+      "<small>$0</small>"
+    ]
+  },
+  "u": {
+    "prefix": "u",
+    "body": [
+      "<u>$0</u>"
+    ]
+  },
+  "strike": {
+    "prefix": "strike",
+    "body": [
+      "<strike>$0</strike>"
+    ]
+  },
+  "ol": {
+    "prefix": "ol",
+    "body": [
+      "<ol>$0</ol>"
+    ]
+  },
+  "--": {
+    "prefix": "--",
+    "body": [
+      "<!-- $0 -->"
+    ]
+  },
+  "marqueen": {
+    "prefix": "marqueen",
+    "body": [
+      "<marqueen>$0</marqueen>"
+    ]
+  },
+  "center": {
+    "prefix": "center",
+    "body": [
+      "<center>$0</center>"
+    ]
+  },
+  "font": {
+    "prefix": "font",
+    "body": [
+      "<font>$0</font>"
+    ]
+  },
+  "link": {
+    "prefix": "link",
+    "body": [
+      "<link rel=\"stylesheet\" type=\"text/css\" href=\"$0\">"
+    ]
+  },
+  "table": {
+    "prefix": "table",
+    "body": [
+      "<table>$0</table>"
+    ]
+  },
+  "tr": {
+    "prefix": "tr",
+    "body": [
+      "<tr>$0</tr>"
+    ]
+  },
+  "th": {
+    "prefix": "th",
+    "body": [
+      "<th>$0</th>"
+    ]
+  },
+  "td": {
+    "prefix": "td",
+    "body": [
+      "<td>$0</td>"
+    ]
+  },
+  "form": {
+    "prefix": "form",
+    "body": [
+      "<form>$0</form>"
+    ]
+  },
+  "input": {
+    "prefix": "input",
+    "body": [
+      "<input type=\"$0\"/>"
+    ]
+  },
+  "option": {
+    "prefix": "option",
+    "body": [
+      "<option>$0</option>"
+    ]
+  },
+  "head": {
+    "prefix": "head",
+    "body": [
+      "<head>$0</head>"
+    ]
+  },
+  "classn": {
+    "prefix": "classn",
+    "body": [
+      "className=\"$0\""
+    ]
+  },
+  "ctag": {
+    "prefix": "ctag",
+    "body": [
+      "<$0/>"
     ]
   }
 }
