@@ -58,8 +58,9 @@ set lazyredraw
 set backspace=indent,eol,start
 set completeopt=menuone,noinsert,noselect
 set omnifunc=v:lua.vim.lsp.omnifunc
-set foldmethod=expr
-set foldexpr=nvim_treesitter#foldexpr()
+" set foldmethod=expr
+" set foldexpr=nvim_treesitter#foldexpr()
+set foldmethod=syntax
 
 " =============================================================================
 " Vimscript
@@ -84,5 +85,7 @@ augroup autocmds
   autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
   autocmd BufEnter * lua require'diagnostic'.on_attach()
   autocmd BufWrite *.lua call LuaFormat() " lua formatter
+  autocmd BufEnter * normal zR
+  autocmd vimenter * normal zz
 augroup end
 

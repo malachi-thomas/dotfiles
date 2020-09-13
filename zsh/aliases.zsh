@@ -35,6 +35,7 @@ alias bsp='v ~/dotfiles/bspwm/bspwmrc'
 alias mux='v ~/dotfiles/tmux/.tmux.conf'
 alias vif='v ~/dotfiles/vifm/vifmrc'
 alias vlu='v ~/dotfiles/nvim/lua/nvim-lsp.lua'
+alias vsn='v ~/dotfiles/nvim/lua/nvim-snippets.lua'
 
 # Diretorys
 alias plo='cd ~/.config/plover'
@@ -75,3 +76,4 @@ alias commit='git add -A; git commit -m'
 alias clone='git clone'
 alias checkout='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git checkout {}'
 alias merge='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git merge {}'
+alias reset='git branch | fzf | sed'

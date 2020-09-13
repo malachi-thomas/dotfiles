@@ -5,7 +5,9 @@ nnoremap <down> gjzz
 nnoremap dl :normal 0d$<cr>
 nnoremap cl :normal 0c$<cr>
 nnoremap yl :normal 0y$<cr>
-
+nnoremap { {zz
+nnoremap } }zz
+nnoremap za zazz
 
 " Buffers
 nnoremap <tab> :bn<cr>

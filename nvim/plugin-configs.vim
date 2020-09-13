@@ -165,13 +165,11 @@ nnoremap <leader>r :LuaTreeRefresh<CR>
 nnoremap <leader>n :LuaTreeFindFile<CR>
 highlight LuaTreeFolderIcon guibg=blue
 
-
-
-
-
 " Mappings=========================================================================================
 
-inoremap <c-space> <c-e><cmd>lua return require'snippets'.expand_or_advance(1)<CR>
+imap <silent><expr><tab>
+                  \ <sid>check_back_space() ? "\<tab>" :
+                  \  completion#trigger_completion()
 inoremap <silent><expr><up>
                   \ pumvisible() ? "\<c-p>" :
                   \ "\<c-o>zz\<up>\<c-o>zz"
@@ -181,12 +179,13 @@ inoremap <silent><expr><down>
 nnoremap <c-n> :TabVifm<cr>
 nnoremap <silent><space>gd :lua vim.lsp.buf.definition()<cr>
 nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
-nnoremap <space>sn :Files ~/dotfiles/nvim/vsnip<cr>
+nnoremap <space>sn :e ~/dotfiles/nvim/lua/nvim-snippets.lua<cr>
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
 nmap <f3> <Plug>VimwikiDiaryNextDay
 nmap <f4> <Plug>VimwikiDiaryPrevDay
 nmap <f5> <Plug>VimwikiPrevLink
+inoremap <c-space> <c-g>u<cmd>lua return require'snippets'.expand_or_advance(1)<CR>
 
 " autocmd FileType typescriptreact nnoremap <buffer><space>ss :e ~/dotfiles/nvim/vsnip/tsx.json<cr>
 " autocmd FileType vim nnoremap <buffer><space>ss :e ~/dotfiles/nvim/vsnip/vim.json<cr>
