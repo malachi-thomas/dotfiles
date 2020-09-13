@@ -19,6 +19,7 @@ Plug 'vifm/vifm.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'andrejlevkovitch/vim-lua-format' " lua formatter
+Plug 'tpope/vim-eunuch'
 
 " Testing
 Plug 'sheerun/vim-polyglot'

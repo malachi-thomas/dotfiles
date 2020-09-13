@@ -186,6 +186,7 @@ nmap <f3> <Plug>VimwikiDiaryNextDay
 nmap <f4> <Plug>VimwikiDiaryPrevDay
 nmap <f5> <Plug>VimwikiPrevLink
 inoremap <c-space> <c-g>u<cmd>lua return require'snippets'.expand_or_advance(1)<CR>
+ca mv Move
 
 " autocmd FileType typescriptreact nnoremap <buffer><space>ss :e ~/dotfiles/nvim/vsnip/tsx.json<cr>
 " autocmd FileType vim nnoremap <buffer><space>ss :e ~/dotfiles/nvim/vsnip/vim.json<cr>

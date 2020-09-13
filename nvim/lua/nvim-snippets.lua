@@ -8,10 +8,15 @@ require'snippets'.snippets = {
         -- custom snippets
         ["class"] = "className=\"$0\"",
         ["id"] = "id=\"$0\"",
-        ["import"] = "import $1 from './components/$1'\n",
-        ["React"] = "import React from 'react'\n",
-        ["ReactDOM"] = "import ReactDom from 'react-dom'\n",
+        ["import"] = "import $1 from './components/$1'",
+        ["React"] = "import React from 'react'",
+        ["ReactDOM"] = "import ReactDom from 'react-dom'",
         ["export"] = "export default ",
+        ["func"] = "const $0 =  => ",
+        ["const"] = "const $0 = ",
+        ["let"] = "let $0 = ",
+        ["render"] = "ReactDOM.render($0, document.getElementById('root'))",
+        ["comp"] = "const $0 = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}",
         -- custom tags
 
         ["tag"] = "<$1>$0</$1>",
@@ -50,6 +55,8 @@ require'snippets'.snippets = {
         ["tr"] = "<tr>$0</tr>",
         ["td"] = "<td>$0</td>",
         ["form"] = "<form>$0</form>",
+        ["div"] = "<div>$0</div>",
+        ["span"] = "<span>$0</span>",
         -- self closing tags
         ["area"] = "<area />",
         ["br"] = "<br />",
@@ -97,6 +104,8 @@ require'snippets'.snippets = {
         ["tr"] = "<tr>$0</tr>",
         ["td"] = "<td>$0</td>",
         ["form"] = "<form>$0</form>",
+        ["div"] = "<div>$0</div>",
+        ["span"] = "<span>$0</span>",
         -- self closing tags
         ["area"] = "<area />",
         ["br"] = "<br />",
@@ -107,10 +116,8 @@ require'snippets'.snippets = {
         ["input"] = "<input />"
     },
     ["lua"] = {
-        ["tag"] = "<$1>$0</$1>",
-        ["ctag"] = "<$0 />",
-        ["s"] = "[\"$1\"] = \"$2\"",
+        ["s"] = "[\"$1\"] = \"$2\",",
         ["st"] = "[\"$1\"] = \"<$1>$0</$1>\",",
-        ["sct"] = "[\"$1\"] = \"<$1 />\",$0"
+        ["sct"] = "[\"$1\"] = \"<$1 />\","
     }
 }

@@ -22,6 +22,7 @@ inoremap <c-h> <c-w>
 cnoremap <c-h> <c-w>
 nnoremap <space>rg :Rg <C-R>=expand("<cword>")<cr><cr>
 
+
 " Unmap
 nnoremap K <nop>
 nnoremap Q <nop>
@@ -44,9 +45,9 @@ autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-l> :term tsc<cr>:bn<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
-autocmd Filetype help nnoremap <buffer>ZZ :q<cr>
-autocmd Filetype LuaTree nnoremap <buffer>ZZ :q<cr>
-autocmd Filetype vim-plug nnoremap <buffer>ZZ :q<cr>
+autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so %<cr>
+autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
+
 
 " Command Mode
 ca ls !ls -F
@@ -54,11 +55,10 @@ ca la !ls -aF
 ca ll !ls -laF
 ca mk !mkdir
 ca to !touch
-ca mv !mv
 ca ex !chmod +x %<C-R>=Eatchar('\s')<cr>
 ca rm !rm
 ca rma !sudo rm -rv
-ca so !source ~/.zshrc
+ca so so $MYVIMRC
 ca mkdir !mkdir
 ca vifm Vifm
 ca vrc e ~/dotfiles/nvim/init.vim
@@ -88,7 +88,6 @@ func Eatchar(pat)
   let c = nr2char(getchar(0))
   return (c =~ a:pat) ? '' : c
 endfunction
-
 
 " Testing
 nnoremap <space>hw :h <c-r>=expand("<cword>>")<cr><cr>
