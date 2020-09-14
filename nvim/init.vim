@@ -16,7 +16,7 @@ Plug 'kyazdani42/nvim-tree.lua'
 " Programming
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'airblade/vim-rooter'
+"Plug 'airblade/vim-rooter'
 Plug 'dense-analysis/ale'
 Plug 'vifm/vifm.vim'
 Plug 'tpope/vim-fugitive'
@@ -115,6 +115,9 @@ nnoremap yl :normal 0y$<cr>
 nnoremap { {zz
 nnoremap } }zz
 nnoremap za zazz
+inoremap <S-CR> <C-O>o
+inoremap <C-CR> <C-O>O
+
 
 " Buffers
 nnoremap <tab> :tabn<cr>
@@ -255,7 +258,11 @@ let g:ale_linters = {
 let g:ale_fix_on_save = 1
 let g:ale_set_highlights = 1
 let g:ale_linters_explicit = 1
+let g:ale_lint_on_enter = 1
 "let g:ale_sign_column_always = 0
+let g:ale_set_signs = 0
+let g:ale_virtualtext_cursor = 1
+let g:ale_virtualtext_prefix = 'ﱢ '
 
 
 "Airline
@@ -335,12 +342,13 @@ let g:loaded_netrw = 0
 let g:diagnostic_enable_virtual_text = 1
 let g:diagnostic_show_sign = 0
 let g:space_before_virtual_text = 4
+let g:diagnostic_virtual_text_prefix = 'ﱢ'
 
 " lua_tree
 let g:lua_tree_side = 'left'
 let g:lua_tree_width = 30
 let g:lua_tree_ignore = [ '.git', 'node_modules', '.cache' ]
-let g:lua_tree_auto_open = 1 "0 by default, opens the tree when typing `vim $DIR` or `vim`
+let g:lua_tree_auto_open = 0 "0 by default, opens the tree when typing `vim $DIR` or `vim`
 let g:lua_tree_auto_close = 1 "0 by default, closes the tree when it's the last window
 let g:lua_tree_follow = 1 "0 by default, this option allows the cursor to be updated when entering a buffer
 let g:lua_tree_indent_markers = 1 "0 by default, this option shows indent markers when folders are open

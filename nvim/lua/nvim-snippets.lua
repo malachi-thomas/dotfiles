@@ -124,6 +124,8 @@ require'snippets'.snippets = {
         ["st"] = "[\"$1\"] = \"<$1>$0</$1>\",",
         ["sct"] = "[\"$1\"] = \"<$1 />\",",
         ["func"] = match_indentation "function $0()\n\nend",
-        ["comp"] = [[const $0 = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}]]
+        ["comp"] = [[const $0 = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}]],
+        ["if"] = "if($0)\nthen\nend",
+        ["local"] = "local $0 = "
     }
 }

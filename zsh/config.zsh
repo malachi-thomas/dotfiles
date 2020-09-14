@@ -11,7 +11,7 @@ export MANPAGER='nvim +Man'
 bindkey '^H' backward-kill-word # Ctrl backspace
 bindkey '5~' kill-word          # Ctrl Delete
 bindkey -s '^n' 'vifm .\n'
-#export FZF_DEFAULT_COMMAND='ag --hidden --ignore node_modules -g ""'
+#export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!node_modules/**' --glob '!src/**'"
 export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!node_modules/**'"
 setopt autocd
 autoload -U colors && colors
