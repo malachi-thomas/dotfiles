@@ -1,3 +1,5 @@
+local match_indentation = require'snippets.utils'.match_indentation
+
 require'snippets'.snippets = {
     ["typescript"] = {},
     ["json"] = {},
@@ -8,15 +10,16 @@ require'snippets'.snippets = {
         -- custom snippets
         ["class"] = "className=\"$0\"",
         ["id"] = "id=\"$0\"",
-        ["import"] = "import $1 from './components/$1'",
+        ["import"] = "import $0 from ''",
         ["React"] = "import React from 'react'",
-        ["ReactDOM"] = "import ReactDom from 'react-dom'",
+        ["ReactDOM"] = "import ReactDOM from 'react-dom'",
         ["export"] = "export default ",
         ["func"] = "const $0 =  => ",
         ["const"] = "const $0 = ",
         ["let"] = "let $0 = ",
-        ["render"] = "ReactDOM.render($0, document.getElementById('root'))",
+        ["render"] = "ReactDOM.render(<$0 />, document.getElementById('root'))",
         ["comp"] = "const $0 = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}",
+
         -- custom tags
 
         ["tag"] = "<$1>$0</$1>",
@@ -64,7 +67,8 @@ require'snippets'.snippets = {
         ["img"] = "<img />",
         ["link"] = "<link rel=\"stylesheet\" type=\"text/css\" href=\"$0\"/>",
         ["meta"] = "<meta />",
-        ["input"] = "<input />"
+        ["input"] = "<input />",
+        ["checkbox"] = "<input type=\"checkbox\" />"
     },
 
     ["html"] = {
@@ -118,6 +122,8 @@ require'snippets'.snippets = {
     ["lua"] = {
         ["s"] = "[\"$1\"] = \"$2\",",
         ["st"] = "[\"$1\"] = \"<$1>$0</$1>\",",
-        ["sct"] = "[\"$1\"] = \"<$1 />\","
+        ["sct"] = "[\"$1\"] = \"<$1 />\",",
+        ["func"] = match_indentation "function $0()\n\nend",
+        ["comp"] = [[const $0 = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}]]
     }
 }

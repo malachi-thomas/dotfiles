@@ -2,16 +2,30 @@
 
 " ale
 let g:ale_fixers = {
-                  \ 'typescript': ['prettier'],
-                  \ 'typescriptreact': ['prettier'],
-                  \ 'javascript': ['prettier'],
-                  \ 'javascriptreact': ['prettier'],
+                  \ 'typescript': ['eslint'],
+                  \ 'typescriptreact': ['eslint'],
+                  \ 'tsx': ['eslint'],
+                  \ 'javascript': ['eslint'],
+                  \ 'javascriptreact': ['eslint'],
                   \ 'json': ['fixjson'],
-                  \ 'scss': ['stylelint']
+                  \ 'scss': ['stylelint'],
+                  \ 'markdown': ['prettier']
+                  \}
+let g:ale_linters = {
+                  \ 'typescript': ['eslint'],
+                  \ 'typescriptreact': ['eslint'],
+                  \ 'tsx': ['eslint'],
+                  \ 'javascript': ['eslint'],
+                  \ 'javascriptreact': ['eslint'],
+                  \ 'json': ['fixjson'],
+                  \ 'scss': ['stylelint'],
+                  \ 'markdown': ['prettier']
                   \}
 let g:ale_fix_on_save = 1
-let g:ale_set_highlights = 0
+let g:ale_set_highlights = 1
 let g:ale_linters_explicit = 1
+"let g:ale_sign_column_always = 0
+
 
 "Airline
 let g:airline#extensions#tabline#enabled = 1
@@ -106,9 +120,8 @@ let g:diagnostic_enable_virtual_text = 1
 let g:diagnostic_show_sign = 0
 let g:space_before_virtual_text = 4
 
-let g:rainbow#max_level = 16
-let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
 
+" lua_tree
 let g:lua_tree_side = 'left'
 let g:lua_tree_width = 30
 let g:lua_tree_ignore = [ '.git', 'node_modules', '.cache' ]
@@ -159,7 +172,6 @@ let g:lua_tree_icons = {
                   \   'open': ""
                   \   }
                   \ }
-
 nnoremap <space>tr :LuaTreeToggle<CR>
 nnoremap <leader>r :LuaTreeRefresh<CR>
 nnoremap <leader>n :LuaTreeFindFile<CR>

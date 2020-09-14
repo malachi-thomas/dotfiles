@@ -34,3 +34,12 @@ gacp() {
   git commit -am "$1"
   git push --all 
 }
+
+v() {
+if [ $# -eq 0 ]; then
+  nvim -p $(fzf)
+else
+  nvim $@
+fi
+
+}

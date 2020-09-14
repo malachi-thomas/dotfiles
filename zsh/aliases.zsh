@@ -1,5 +1,4 @@
 # Basic Alias's
-alias v='nvim -p'
 alias c='cd'
 alias ls='ls -F --color=auto'
 alias la='ls -aF --color=auto'
@@ -19,6 +18,7 @@ alias file='nautilus'
 alias to='touch'
 alias fzf='fzf -e'
 
+
 # Config Files
 alias vrc='v ~/dotfiles/nvim/init.vim'
 alias vma='v ~/dotfiles/nvim/mappings.vim'
@@ -34,11 +34,11 @@ alias sxh='v ~/dotfiles/sxhkd/sxhkdrc'
 alias bsp='v ~/dotfiles/bspwm/bspwmrc'
 alias mux='v ~/dotfiles/tmux/.tmux.conf'
 alias vif='v ~/dotfiles/vifm/vifmrc'
-alias vlu='v ~/dotfiles/nvim/lua/nvim-lsp.lua'
+alias lrc='v ~/dotfiles/nvim/lua/init.lua'
 alias vsn='v ~/dotfiles/nvim/lua/nvim-snippets.lua'
 
 # Diretorys
-alias plo='cd ~/.config/plover'
+alias plo='cd ~/dotfiles/plover'
 alias bin='cd ~/dotfiles/scripts'
 alias notes='cd ~/dotfiles/notes'
 alias dot='cd ~/dotfiles'
@@ -47,7 +47,7 @@ alias webt='cd ~/code/web/test'
 alias python='cd ~/code/python'
 alias javascript='cd ~/code/javascript'
 alias dow='cd ~/Downloads'
-alias vvim='cd ~/.config/nvim'
+alias vvim='cd ~/dotfiles/nvim'
 alias typescript='cd ~/code/typescript'
 alias not='cd ~/dotfiles/notes && v topics.md'
 alias react='cd ~/code/react'
