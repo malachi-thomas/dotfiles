@@ -8,11 +8,3 @@ require'nvim_lsp'.cssls.setup {} -- LspInstall cssls
 require'nvim_lsp'.html.setup {} -- LspInstall html
 require'nvim_lsp'.rls.setup {} -- ???
 require'nvim_lsp'.jsonls.setup {} -- LspInstall jsonls
-require'nvim-web-devicons'.setup()
-require'nvim-treesitter.configs'.setup {
-    ensure_installed = "all", -- one of "all", "language", or a list of languages
-    highlight = {
-        enable = false, -- false will disable the whole extension
-        disable = {} -- list of language that will be disabled
-    }
-}

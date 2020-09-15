@@ -16,7 +16,7 @@ alias f='firefox'
 alias b='brave'
 alias file='nautilus'
 alias to='touch'
-alias fzf='fzf -e'
+# alias cd='cd $(dirname "$(fzf)")'
 
 
 # Config Files

@@ -1,11 +1,27 @@
 local match_indentation = require'snippets.utils'.match_indentation
 
 require'snippets'.snippets = {
-    ["typescript"] = {},
+    ["typescript"] = {
+
+    },
     ["json"] = {},
-    ["zsh"] = {},
-    ["bash"] = {},
-    ["vimwiki"] = {["link"] = "[$1]($1.md)"},
+    ["zsh"] = {
+
+    },
+    ["bash"] = {
+
+    },
+    ["vim"] = {
+        ["nn"] = "nnoremap ",
+        ["vv"] = "vnoremap ",
+        ["oo"] = "onoremap ",
+        ["ss"] = "snoremap ",
+        ["xx"] = "xnoremap ",
+        ["ii"] = "inoremap ",
+    },
+    ["vimwiki"] = {
+        ["link"] = "[$1]($1.md)"
+    },
     ["typescript.tsx"] = {
         -- custom snippets
         ["class"] = "className=\"$0\"",
@@ -19,6 +35,9 @@ require'snippets'.snippets = {
         ["let"] = "let $0 = ",
         ["render"] = "ReactDOM.render(<$0 />, document.getElementById('root'))",
         ["comp"] = "const $0 = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}",
+        ["onClick"] = "onClick={$0}",
+        ["cl"] = "console.log($0)",
+        ["useState"] = "const [$0, ] = useState()",
 
         -- custom tags
 
@@ -60,15 +79,17 @@ require'snippets'.snippets = {
         ["form"] = "<form>$0</form>",
         ["div"] = "<div>$0</div>",
         ["span"] = "<span>$0</span>",
+        ["button"] = "<button>$0</button>",
         -- self closing tags
         ["area"] = "<area />",
         ["br"] = "<br />",
         ["hr"] = "<hr />",
         ["img"] = "<img />",
-        ["link"] = "<link rel=\"stylesheet\" type=\"text/css\" href=\"$0\"/>",
-        ["meta"] = "<meta />",
-        ["input"] = "<input />",
-        ["checkbox"] = "<input type=\"checkbox\" />"
+        ["link"] = "<link rel=\"stylesheet\" type=\"text/css\" href=\"$0\" />",
+        ["meta"] = "<meta/>",
+        ["input"] = "<input type=\"text\" />",
+        ["checkbox"] = "<input type=\"checkbox\" />",
+        ["submit"] = "<input type=\"submit\" />",
     },
 
     ["html"] = {
@@ -89,6 +110,8 @@ require'snippets'.snippets = {
         ["h3"] = "<h3>$0</h3>",
         ["h4"] = "<h4>$0</h4>",
         ["h5"] = "<h5>$0</h5>",
+
+
         ["h6"] = "<h6>$0</h6>",
         ["p"] = "<p>$0</p>",
         ["em"] = "<em>$0</em>",
@@ -120,12 +143,27 @@ require'snippets'.snippets = {
         ["input"] = "<input />"
     },
     ["lua"] = {
+        -- snippet snippets
         ["s"] = "[\"$1\"] = \"$2\",",
         ["st"] = "[\"$1\"] = \"<$1>$0</$1>\",",
         ["sct"] = "[\"$1\"] = \"<$1 />\",",
-        ["func"] = match_indentation "function $0()\n\nend",
-        ["comp"] = [[const $0 = () => {\n  return (\n    <div>\n\n    </div>\n  )\n}]],
-        ["if"] = "if($0)\nthen\nend",
-        ["local"] = "local $0 = "
+        -- basic keywords
+        ["func"] = "local function $0()",
+        ["if"] = "if($0) then",
+        ["local"] = "local $0 = ",
+        ["print"] = "print($0)",
+        ["while"] = "while $0 do",
+        ["for"] = "for $0 = 1,  do",
+        -- neovim functions
+        ["nvim_open_win"] = "api.nvim_open_win($0)",
+        ["nvim_create_buf"] = "api.nvim_create_buf($0)",
+        ["nvim_put"] = "api.nvim_put($0)",
+        ["nvim_paste"] = "api.nvim_paste($0, ,)",
+
+
     }
 }
+
+
+
+
