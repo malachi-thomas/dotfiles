@@ -30,6 +30,7 @@ inoremap <c-h> <c-w>
 cnoremap <c-h> <c-w>
 nnoremap <space>rg :Rg <C-R>=expand("<cword>")<cr><cr>
 nnoremap <space>hw :h <c-r>=expand("<cword>>")<cr><cr>
+nnoremap <bs> "_X
 
 " Unmap
 nnoremap K <nop>
@@ -57,7 +58,7 @@ autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-l> :term tsc<cr>:bn<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
-autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so %<cr>
+autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
 autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
 
 
@@ -92,6 +93,10 @@ ca f <c-r>=expand("%:.")<cr><c-r>=Eatchar('\s')<cr>
 ca ft <c-r>=expand(&ft)<cr><c-r>=Eatchar('\s')<cr>
 " Command Mode 
 
+" Terminal mappings
+nnoremap <space>tt :FloatermNew<cr>
+tnoremap <esc> <c-\><c-n>
+
 " Testing
 nnoremap <space>vs :vsplit<cr>
 
@@ -109,14 +114,15 @@ nnoremap <leader>n :LuaTreeFindFile<CR>
 nnoremap <c-n> :TabVifm<cr>
 nnoremap <silent><space>gd :lua vim.lsp.buf.definition()<cr>
 nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
-nnoremap <space>sn :e ~/dotfiles/nvim/lua/nvim-snippets.lua<cr>
-nnoremap <cr><cr> :Files %:p:h<cr>
+nnoremap <space>sn :UltiSnipsEdit<cr>
+nnoremap <space><cr> :Files %:p:h<cr>
 nnoremap <space><space> :Files<cr>
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
 nmap <f3> <Plug>VimwikiDiaryNextDay
 nmap <f4> <Plug>VimwikiDiaryPrevDay
 nmap <f5> <Plug>VimwikiPrevLink
+nmap <f6> <Plug>VimwikiGoBackLink
 imap <silent><expr><tab>
       \ <sid>check_back_space() ? "\<tab>" :
       \  completion#trigger_completion()
@@ -126,7 +132,6 @@ inoremap <silent><expr><up>
 inoremap <silent><expr><down>
       \ pumvisible() ? "\<c-n>" :
       \ "\<c-o>zz\<down>\<c-o>zz"
-inoremap <c-space> <c-g>u<cmd>lua return require'snippets'.expand_or_advance(1)<CR>
 ca mv Move
 
 "==================================================================================================
@@ -136,4 +141,6 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
+
 "==================================================================================================
+

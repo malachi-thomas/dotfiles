@@ -14,9 +14,7 @@ exec_always --no-startup-id exec betterlockscreen -u ~/dotfiles/wallpapers/nord.
 exec_always --no-startup-id exec autotiling
 exec_always --no-startup-id feh --bg-fill ~/dotfiles/wallpapers/nord.png
 # exec_always --no-startup-id ~/.config/polybar/launch.sh
-exec_always --no-startup-id  killall sxhkd
-exec_always --no-startup-id  sxhkd
-
+exec_always --no-startup-id sxhkd
 
 # window things
 for_window [class="^*"] border pixel 2

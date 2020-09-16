@@ -1,5 +1,3 @@
-local match_indentation = require'snippets.utils'.match_indentation
-
 require'snippets'.snippets = {
     ["typescript"] = {
 

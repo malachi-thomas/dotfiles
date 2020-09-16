@@ -1,0 +1,15 @@
+snippet today "" i
+`date +%d/%b/%Y`
+endsnippet
+snippet date "" b
+Date: `date +%d/%b/%Y`
+endsnippet
+snippet top "" b
+Date: `date +%d/%b/%Y`  
+Tags: #`!v expand('%:p:h:t')`
+endsnippet
+snippet link "" i
+[$1]($1.md)$0
+endsnippet
+
+

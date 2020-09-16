@@ -5,8 +5,8 @@ Tags: #javascript #react
 
 - [components](components.md)
 - [props](props.md)
-- [useState](useState.md)
-- [onClick](onClick.md)l
+- [hooks](hooks.md)
+- [onClick](onClick.md)
 - [onSubmit](onSubmit.md)
 - link
 - link

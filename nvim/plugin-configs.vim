@@ -2,28 +2,29 @@
 
 " ale
 let g:ale_fixers = {
-      \ 'typescript': ['prettier'],
-      \ 'typescriptreact': ['prettier'],
-      \ 'javascript': ['prettier'],
-      \ 'javascriptreact': ['prettier'],
+      \ 'typescript': ['eslint'],
+      \ 'typescriptreact': ['eslint'],
+      \ 'javascript': ['eslint'],
+      \ 'javascriptreact': ['eslint'],
       \ 'json': ['fixjson'],
       \ 'scss': ['stylelint'],
-      \ 'markdown': ['prettier']
+      \ 'markdown': ['prettier'],
+      \ 'vimwiki': ['prettier']
       \}
 let g:ale_linters = {
-      \ 'typescript': ['prettier'],
-      \ 'typescriptreact': ['prettier'],
-      \ 'javascript': ['prettier'],
-      \ 'javascriptreact': ['prettier'],
+      \ 'typescript': ['eslint'],
+      \ 'typescriptreact': ['eslint'],
+      \ 'javascript': ['eslint'],
+      \ 'javascriptreact': ['eslint'],
       \ 'json': ['fixjson'],
       \ 'scss': ['stylelint'],
-      \ 'markdown': ['prettier']
+      \ 'markdown': ['prettier'],
+      \ 'vimwiki': ['prettier']
       \}
 let g:ale_fix_on_save = 1
 let g:ale_set_highlights = 1
 let g:ale_linters_explicit = 1
 let g:ale_lint_on_enter = 1
-"let g:ale_sign_column_always = 0
 let g:ale_set_signs = 0
 
 "Airline
@@ -52,7 +53,7 @@ let g:completion_chain_complete_list = {
 " vim-fzf
 let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 }}
 let $FZF_DEFAULT_OPTS = "--reverse -e"
-let $FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!node_modules/**' --glob '!react-app-env.d.ts'"
+let $FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!**/node_modules/**' --glob '!react-app-env.d.ts'"
 let g:fzf_preview_use_dev_icons = 1
 let g:fzf_colors = {
       \'fg':      ['fg', 'Normal'],

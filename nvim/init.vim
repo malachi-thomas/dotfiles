@@ -1,11 +1,9 @@
-
 "==================================================================================================
 " Source Files
 source ~/dotfiles/nvim/mappings.vim
 source ~/dotfiles/nvim/plugins.vim
 source ~/dotfiles/nvim/plugin-configs.vim
 lua require('init')
-lua require('nvim-snippets')
 lua require('test')
 nnoremap <c-x> :lua require('test').hello_world()<cr>
 
@@ -59,35 +57,29 @@ set omnifunc=v:lua.vim.lsp.omnifunc
 set list
 set listchars=tab:→\ ,eol:↲,trail:•
 
-
-nnoremap <space>p :lua require'telescope.builtin'.git_files{}<CR>
-
-nnoremap <space>f :lua require'telescope.builtin'.find_files{}<CR>
-
 " =============================================================================
 " Vimscript
 
 augroup autocmds
   autocmd!
-  autocmd insertleave * normal zz
-  autocmd bufenter * normal zz
-  autocmd bufenter * set iskeyword-=# iskeyword+=-
-  autocmd bufread ~/.config/i3/config set filetype=i3config
-  autocmd bufread ~/.config/polybar/config set filetype=dosini
-  autocmd bufread ~/.config/bspwm/bspwmrc set filetype=sh
-  autocmd vimenter * AirlineTheme gruvbox
-  autocmd bufwritepre *.vim normal mmgg=G`mzz
-  autocmd FileType typescriptreact set filetype=typescript.tsx
-  autocmd filetype javascriptreact set filetype=javascript.jsx
-  autocmd filetype markdown setlocal wrap linebreak
-  autocmd filetype markdown setlocal spell
-  " autocmd VimEnter * if argc() == 0 | Vifm | endif
-  autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
+  autocmd VimEnter * AirlineTheme gruvbox
   autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
+  autocmd VimEnter * normal zz
   autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
   autocmd BufEnter * lua require'diagnostic'.on_attach()
   autocmd BufEnter * normal zR
-  autocmd vimenter * normal zz
+  autocmd BufEnter * normal zz
+  autocmd BufEnter * set iskeyword-=# iskeyword+=-
+  autocmd BufRead ~/dotfiles/i3/config set filetype=i3config
+  autocmd BufRead ~/dotfiles/polybar/config set filetype=dosini
+  autocmd BufRead ~/dotfiles/bspwm/bspwmrc set filetype=sh
+  autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
+  autocmd BufWritePre *.vim normal mmgg=G`mzz
+  autocmd InsertLeave * normal zz
+  autocmd FileType typescriptreact set filetype=typescript.tsx
+  autocmd FileType javascriptreact set filetype=javascript.jsx
+  autocmd FileType markdown setlocal wrap linebreak
+  autocmd FileType markdown setlocal spell
 augroup end
 
 " Functions
@@ -96,7 +88,7 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
-func Eatchar(pat)
+function Eatchar(pat)
   let c = nr2char(getchar(0))
   return (c =~ a:pat) ? '' : c
 endfunction
