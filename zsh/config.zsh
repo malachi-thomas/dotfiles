@@ -8,6 +8,7 @@ export BROWSER='chromium'
 export TERM=xterm-256color
 export TODAY=`date +%d/%b/%Y`
 export MANPAGER='nvim +Man'
+export TERM="xterm-256color"
 bindkey '^H' backward-kill-word # Ctrl backspace
 bindkey '5~' kill-word          # Ctrl Delete
 bindkey -s '^n' 'vifm .\n'
