@@ -16,6 +16,5 @@ RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight.
 
 SPLIT_KEYBOARD = yes
 ENCODER_ENABLE = no
-STENO_ENABLE = yes
-VIA_ENABLE = no
+VIA_ENABLE = yes
 

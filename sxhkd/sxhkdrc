@@ -8,7 +8,7 @@ super + d
   dmenu_run
 
 super + t
-  kitty -e tmux -2u
+  alacritty
 
 super + x
   brave

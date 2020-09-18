@@ -37,7 +37,7 @@ gacp() {
 
 v() {
 if [ $# -eq 0 ]; then
-  nvim -p $(fzf)
+  nvim -p $(fzf -e)
 else
   nvim $@
 fi

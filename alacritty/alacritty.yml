@@ -1,45 +1,89 @@
-# Window Customization
+env:
+  TERM: xterm-256color
+
+window:
+  dimensions:
+    columns: 0
+    lines: 0
+  padding:
+    x: 5
+    y: 5
+
 scrolling:
   history: 10000
-  multiplier: 1
+  multiplier: 3
 
 font:
   normal:
-    family: Fira Code
-    style: Regular
+    family: Hack
+    style: Book
   bold:
-    family: Fira Code
+    family: Hack
     style: Bold
   italic:
-    family: Fira Code
+    family: Hack
     style: Italic
-    size: 19
+  size: 11
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
 
+draw_bold_text_with_bright_colors: true
 colors:
+  # Default colors
   primary:
-    background: '0x282828'
-    foreground: '0xebdbb2'
-  normal:
-    black:   '0x282828'
-    red:     '0xcc241d'
-    green:   '0x98971a'
-    yellow:  '0xd79921'
-    blue:    '0x458588'
-    magenta: '0xb16286'
-    cyan:    '0x689d6a'
-    white:   '0xa89984'
+    background: '0x0c0c0c'
+    foreground: '0xcccccc'
 
+  # Normal colors
+  normal:
+    black:      '0x0c0c0c'
+    red:        '0xc50f1f'
+    green:      '0x13a10e'
+    yellow:     '0xc19c00'
+    blue:       '0x0037da'
+    magenta:    '0x881798'
+    cyan:       '0x3a96dd'
+    white:      '0xcccccc'
+
+  # Bright colors
   bright:
-    black:   '0x928374'
-    red:     '0xfb4934'
-    green:   '0xb8bb26'
-    yellow:  '0xfabd2f'
-    blue:    '0x83a598'
-    magenta: '0xd3869b'
-    cyan:    '0x8ec07c'
-    white:   '0xebdbb2'
+    black:      '0x767676'
+    red:        '0xe74856'
+    green:      '0x16c60c'
+    yellow:     '0xf9f1a5'
+    blue:       '0x3b78ff'
+    magenta:    '0xb4009e'
+    cyan:       '0x61d6d6'
+    white:      '0xf2f2f2'
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
 
 cursor:
   style: Block
   unfocused_hollow: true
 
+live_config_reload: true
+
+debug:
+  render_timer: false
+  persistent_logging: false
+  log_level: Warn
+  print_events: false
+  ref_test: false
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+
+mouse:
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+  hide_when_typing: false
+  url:
+    launcher:
+      program: open
+      args: []
+    modifiers: None

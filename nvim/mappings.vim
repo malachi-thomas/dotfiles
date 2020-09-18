@@ -9,6 +9,8 @@ nnoremap cl :normal 0c$<cr>
 nnoremap yl :normal 0y$<cr>
 nnoremap { {zz
 nnoremap } }zz
+nnoremap <PageUp> <c-u>zz
+nnoremap <PageDown> <c-d>zz
 
 " Buffers
 nnoremap <tab> :bn<cr>
@@ -23,14 +25,14 @@ nnoremap <space><left> <c-w>h
 nnoremap <space><right> <c-w>l
 
 " Extra
-inoremap <esc> <right><esc>
 nnoremap y "+y
 nnoremap yi "+yi
 inoremap <c-h> <c-w>
-cnoremap <c-h> <c-w>
 nnoremap <space>rg :Rg <C-R>=expand("<cword>")<cr><cr>
 nnoremap <space>hw :h <c-r>=expand("<cword>>")<cr><cr>
 nnoremap <bs> "_X
+inoremap <esc> <right><esc>
+cnoremap <c-h> <c-w>
 
 " Unmap
 nnoremap K <nop>
@@ -56,7 +58,6 @@ vnoremap s :s///gi<left><left><left>
 "Filetype Mappings 
 autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
-autocmd filetype typescript nnoremap <silent><buffer><c-l> :term tsc<cr>:bn<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
 autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
 autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>

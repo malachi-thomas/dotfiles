@@ -10,12 +10,13 @@ nnoremap <c-x> :lua require('test').hello_world()<cr>
 "==============================================================================
 " Theme
 
-colorscheme gruvbox
 set termguicolors
+colorscheme gruvbox
 set background=dark
 set number
 set relativenumber
 set guicursor=
+set t_Co=256
 
 if exists('$TMUX')
   autocmd BufEnter,FocusGained * call system("tmux rename-window " . expand("%:t"))

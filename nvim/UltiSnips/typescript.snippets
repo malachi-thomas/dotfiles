@@ -1,11 +1,34 @@
+# # # # # #
+# Typescript
+# # # # # #
+
+
+# # # # # #
+# Typescript.tsx
+# # # # # #
+
+snippet elemnt
+React.FormEvent<HTMLFormElemnt>
+endsnippet
+snippet React.FC
+React.FC
+endsnippet
+snippet comp
+const $0: React.FC<> = () => {
+	return (
+		<div>
+			
+		</div>
+	)
+}
+endsnippet
+
+# # # # # #
+# Javascript
+# # # # # #
+
 snippet import
 import $0 from './'
-endsnippet
-snippet React
-import React from 'react'
-endsnippet
-snippet ReactDOM
-import ReactDOM from 'react-dom'
 endsnippet
 snippet export
 export default 
@@ -19,23 +42,8 @@ endsnippet
 snippet let
 let $0 = 
 endsnippet
-snippet render
-ReacrDOM.render(<$0/>, document.getElementById('root'))
-endsnippet
-snippet comp
-const $0 = () => {
-	return (
-		<div>
-			
-		</div>
-	)
-}
-endsnippet
 snippet cl
 console.log($0)
-endsnippet
-snippet useState
-const [$0, set] = useState()
 endsnippet
 snippet if "" i
 if ($0) {}
@@ -47,10 +55,27 @@ snippet else "" i
 else {$0}
 endsnippet
 
+# # # # # #
+# React
+# # # # # #
+
+snippet render
+ReacrDOM.render(<$0/>, document.getElementById('root'))
+endsnippet
+snippet React
+import React from 'react'
+endsnippet
+snippet ReactDOM
+import ReactDOM from 'react-dom'
+endsnippet
+snippet useState
+const [$0, set] = useState()
+endsnippet
 
 # # # # # #
-# Tags
+# Html tags
 # # # # # #
+
 snippet -- 
 <!-- $0 -->
 endsnippet
@@ -107,7 +132,7 @@ snippet form
 endsnippet
 
 # # # # # #
-# Self closing tags
+# Html self closing tags
 # # # # # #
 snippet inputSubmit 
 <input type="submit" value="$0"/>
@@ -117,7 +142,7 @@ snippet input
 endsnippet
 
 # # # # # #
-# Closing tags
+# Html closing tags
 # # # # # #
 snippet cform
 </form>
@@ -127,7 +152,7 @@ snippet c--
 endsnippet
 
 # # # # # #
-# Opening tags
+# Html opening tags
 # # # # # #
 snippet oform
 <form>

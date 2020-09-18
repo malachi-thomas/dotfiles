@@ -1,18 +1,23 @@
 snippet s
-`!p snip.rv = "snippet"` $0 "" i
+`!p snip.rv = "snippet"` $0
 
 `!p snip.rv = "endsnippet"`
 endsnippet
 snippet st
-`!p snip.rv = "snippet"` $1 "" i
+`!p snip.rv = "snippet"` $1
 <$1>\$0</$1>
 `!p snip.rv = "endsnippet"`
 $0
 endsnippet
 snippet sc "" i
-`!p snip.rv = "snippet"` $1 "" i
+`!p snip.rv = "snippet"` $1
 <$1 />
 `!p snip.rv = "endsnippet"`
+endsnippet
+snippet #
+# # # # # #
+# $0
+# # # # # #
 endsnippet
 snippet t "" b
 <${0:}></${0:}>

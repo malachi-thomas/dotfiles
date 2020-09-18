@@ -2,6 +2,7 @@ Date: 30/Aug/2020
 Tags: #javascript
 
 ### Frameworks
+
 - [react](react.md)
 
 ### Basics
@@ -14,6 +15,7 @@ Tags: #javascript
 ### Advance Stuff
 
 - [promises](promises.md)
+- [spred](spred.md)
 - link
 - link
 
