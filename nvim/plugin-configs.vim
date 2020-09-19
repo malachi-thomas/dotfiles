@@ -2,20 +2,20 @@
 
 " ale
 let g:ale_fixers = {
-      \ 'typescript': ['eslint'],
-      \ 'typescriptreact': ['eslint'],
-      \ 'javascript': ['eslint'],
-      \ 'javascriptreact': ['eslint'],
+      \ 'typescript': ['prettier'],
+      \ 'typescriptreact': ['prettier'],
+      \ 'javascript': ['prettier'],
+      \ 'javascriptreact': ['prettier'],
       \ 'json': ['fixjson'],
       \ 'scss': ['stylelint'],
       \ 'markdown': ['prettier'],
       \ 'vimwiki': ['prettier']
       \}
 let g:ale_linters = {
-      \ 'typescript': ['eslint'],
-      \ 'typescriptreact': ['eslint'],
-      \ 'javascript': ['eslint'],
-      \ 'javascriptreact': ['eslint'],
+      \ 'typescript': ['prettier'],
+      \ 'typescriptreact': ['prettier'],
+      \ 'javascript': ['prettier'],
+      \ 'javascriptreact': ['prettier'],
       \ 'json': ['fixjson'],
       \ 'scss': ['stylelint'],
       \ 'markdown': ['prettier'],
@@ -69,6 +69,10 @@ let g:fzf_colors = {
       \ 'marker':  ['fg', 'Keyword'],
       \ 'spinner': ['fg', 'Label'],
       \ 'header':  ['fg', 'Comment'] }
+command! -bang -nargs=* Rg
+      \ call fzf#vim#grep(
+      \   'rg --column --line-number --no-heading --color=always --smart-case --glob "!**/node_modules/**" --glob "!**/package-lock.json" '.shellescape(<q-args>), 1,
+      \   fzf#vim#with_preview(), <bang>0)
 
 " vimwiki
 let g:vimwiki_table_mappings = 0
@@ -98,61 +102,8 @@ let g:diagnostic_show_sign = 0
 let g:space_before_virtual_text = 4
 let g:diagnostic_virtual_text_prefix = 'ﱢ'
 
-" lua_tree
-let g:lua_tree_side = 'left'
-let g:lua_tree_width = 30
-let g:lua_tree_ignore = [ '.git', 'node_modules', '.cache' ]
-let g:lua_tree_auto_open = 0 "0 by default, opens the tree when typing `vim $DIR` or `vim`
-let g:lua_tree_auto_close = 1 "0 by default, closes the tree when it's the last window
-let g:lua_tree_follow = 1 "0 by default, this option allows the cursor to be updated when entering a buffer
-let g:lua_tree_indent_markers = 1 "0 by default, this option shows indent markers when folders are open
-let g:lua_tree_hide_dotfiles = 0 "0 by default, this option hides files and folders starting with a dot `.`
-let g:lua_tree_git_hl = 1 "0 by default, will enable file highlight for git attributes (can be used without the icons).
-let g:lua_tree_root_folder_modifier = ':~' "This is the default. See :help filename-modifiers for more options
-let g:lua_tree_tab_open = 1 "0 by default, will open the tree when entering a new tab and the tree was previously open
-let g:lua_tree_show_icons = {
-      \ 'git': 1,
-      \ 'folders': 0,
-      \ 'files': 0,
-      \}
-let g:lua_tree_bindings = {
-      \ 'edit':            ['<CR>', 'o'],
-      \ 'edit_vsplit':     '<C-v>',
-      \ 'edit_split':      '<C-x>',
-      \ 'edit_tab':        '<C-t>',
-      \ 'toggle_ignored':  'I',
-      \ 'toggle_dotfiles': 'H',
-      \ 'refresh':         'R',
-      \ 'preview':         '<Tab>',
-      \ 'cd':              '<C-]>',
-      \ 'create':          'a',
-      \ 'remove':          'd',
-      \ 'rename':          'r',
-      \ 'cut':             'x',
-      \ 'copy':            'c',
-      \ 'paste':           'p',
-      \ 'prev_git_item':   '[c',
-      \ 'next_git_item':   ']c',
-      \}
-let g:lua_tree_icons = {
-      \ 'default': '',
-      \ 'symlink': '',
-      \ 'git': {
-      \   'unstaged': "✗",
-      \   'staged': "✓",
-      \   'unmerged': "",
-      \   'renamed': "➜",
-      \   'untracked': "★"
-      \   },
-      \ 'folder': {
-      \   'default': "",
-      \   'open': ""
-      \   }
-      \ }
-highlight LuaTreeFolderIcon guibg=blue
-
+" UltiSnips
 let g:UltiSnipsSnippetDirectories = ['~/dotfiles/nvim/UltiSnips']
 let g:UltiSnipsExpandTrigger="<c-space>"
 let g:UltiSnipsJumpForwardTrigger="<c-space>"
 
-"==================================================================================================

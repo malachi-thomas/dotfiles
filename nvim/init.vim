@@ -16,12 +16,18 @@ set background=dark
 set number
 set relativenumber
 set guicursor=
-set t_Co=256
 
-if exists('$TMUX')
-  autocmd BufEnter,FocusGained * call system("tmux rename-window " . expand("%:t"))
-  autocmd VimLeave * call system("tmux rename-window zsh")
-endif
+" Statusline
+set statusline=
+set statusline+=%#DiffDelete#
+set statusline+=\%m
+set statusline+=%#DiffAdd#
+set statusline+=\[\%f]
+set statusline+=%#StatusLine#
+set statusline+=\%=
+set statusline+=%#DiffAdd#
+set statusline+=[\%l/\%L]
+
 
 "==============================================================================
 " Basic Config
@@ -62,13 +68,14 @@ set completeopt=menuone,noinsert,noselect
 set omnifunc=v:lua.vim.lsp.omnifunc
 set list
 set listchars=tab:→\ ,eol:↲,trail:•
+set wrap linebreak
 
 " =============================================================================
 " Vimscript
 
 augroup autocmds
   autocmd!
-  autocmd VimEnter * AirlineTheme gruvbox
+  "autocmd VimEnter * AirlineTheme gruvbox
   autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
   autocmd VimEnter * normal zz
   autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
@@ -84,8 +91,6 @@ augroup autocmds
   autocmd InsertLeave * normal zz
   autocmd FileType typescriptreact set filetype=typescript.tsx
   autocmd FileType javascriptreact set filetype=javascript.jsx
-  autocmd FileType markdown setlocal wrap linebreak
-  autocmd FileType markdown setlocal spell
 augroup end
 
 " Functions

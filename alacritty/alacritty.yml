@@ -1,27 +1,28 @@
-env:
-  TERM: xterm-256color
-
+# Window Customization
 window:
   dimensions:
     columns: 0
     lines: 0
   padding:
-    x: 5
-    y: 5
-
+    x: 0
+    y: 0
+  decorations: none
 scrolling:
   history: 10000
   multiplier: 3
+background_opacity: 0.8
+window.dynamic_title: true
 
+# Font Customization
 font:
   normal:
-    family: Hack
-    style: Book
+    family: Fira Code
+    style: Regular
   bold:
-    family: Hack
+    family: Fira Code
     style: Bold
   italic:
-    family: Hack
+    family: Fira Code
     style: Italic
   size: 11
   offset:
@@ -30,60 +31,49 @@ font:
   glyph_offset:
     x: 0
     y: 0
-
+  use_thin_strokes: false
+  debug:
+    persistent_logging: false
 draw_bold_text_with_bright_colors: true
+
+# Color Settings (Gruvbox)
+# Colors (Gruvbox dark)
 colors:
   # Default colors
   primary:
-    background: '0x0c0c0c'
-    foreground: '0xcccccc'
+    # hard contrast: background = '#1d2021'
+    background: '#282828'
+    # soft contrast: background = '#32302f'
+    foreground: '#ebdbb2'
 
   # Normal colors
   normal:
-    black:      '0x0c0c0c'
-    red:        '0xc50f1f'
-    green:      '0x13a10e'
-    yellow:     '0xc19c00'
-    blue:       '0x0037da'
-    magenta:    '0x881798'
-    cyan:       '0x3a96dd'
-    white:      '0xcccccc'
+    black:   '#282828'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#458588'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
 
   # Bright colors
   bright:
-    black:      '0x767676'
-    red:        '0xe74856'
-    green:      '0x16c60c'
-    yellow:     '0xf9f1a5'
-    blue:       '0x3b78ff'
-    magenta:    '0xb4009e'
-    cyan:       '0x61d6d6'
-    white:      '0xf2f2f2'
-selection:
-  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
-
+    black:   '#928374'
+    red:     '#fb4934'
+    green:   '#b8bb26'
+    yellow:  '#fabd2f'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#8ec07c'
+    white:   '#ebdbb2'
+  selection:
+    text: '0xffffff'
+    background: '0xdc3232'
+    white:   '0xffffff'
 cursor:
   style: Block
   unfocused_hollow: true
 
-live_config_reload: true
-
-debug:
-  render_timer: false
-  persistent_logging: false
-  log_level: Warn
-  print_events: false
-  ref_test: false
-
-mouse_bindings:
-  - { mouse: Middle, action: PasteSelection }
-
-mouse:
-  double_click: { threshold: 300 }
-  triple_click: { threshold: 300 }
-  hide_when_typing: false
-  url:
-    launcher:
-      program: open
-      args: []
-    modifiers: None
+key_bindings:
+  - { key: N, mods: Control, action: SpawnNewInstance }

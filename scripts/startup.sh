@@ -3,4 +3,4 @@
 # open windows
 i3-msg 'workspace 2; exec chromium'
 sleep 1
-i3-msg 'workspace 1; exec alacritty'
+i3-msg 'workspace 1; exec kitty'

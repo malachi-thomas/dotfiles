@@ -17,8 +17,8 @@ setopt autocd
 autoload -U colors && colors
 
 # Basic auto/tab complete: -Luke Smith
-autoload -U compinit
-zstyle ':completion:*' menu select
+autoload -U compinit && compinit
+zstyle ':completion:*' file-patterns '%p(D):globbed-files *(D-/):directories' '*(D):all-files'
+#zstyle ':autocomplete:tab:*' completion fzf
 zmodload zsh/complist
-compinit
-_comp_options+=(globdots)		# Include hidden files.
+comp_options+=(globdots)

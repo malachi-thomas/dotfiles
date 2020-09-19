@@ -8,8 +8,6 @@ Plug 'nvim-lua/completion-nvim'
 Plug 'steelsojka/completion-buffers'
 Plug 'nvim-lua/diagnostic-nvim'
 Plug 'norcalli/nvim-colorizer.lua'
-Plug 'kyazdani42/nvim-web-devicons'
-Plug 'kyazdani42/nvim-tree.lua'
 
 " Programming
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -31,7 +29,6 @@ Plug 'vimwiki/vimwiki'
 
 " Theam
 Plug 'morhetz/gruvbox'
-Plug 'vim-airline/vim-airline'
 Plug 'mboughaba/i3config.vim'
 Plug 'machakann/vim-highlightedyank'
 Plug 'shmargum/vim-sass-colors'

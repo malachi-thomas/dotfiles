@@ -11,18 +11,20 @@ nnoremap { {zz
 nnoremap } }zz
 nnoremap <PageUp> <c-u>zz
 nnoremap <PageDown> <c-d>zz
+nnoremap G Gzz
+nnoremap <c-o> <c-o>zz
+nnoremap <c-i> <c-i>zz
+
 
 " Buffers
-nnoremap <tab> :bn<cr>
-nnoremap <s-tab> :bp<cr>
 nnoremap <c-s> :w!<cr>
-nnoremap <c-f> :Files<cr>
 
 " Splits
 nnoremap <space><up> <c-w>k
 nnoremap <space><down> <c-w>j
 nnoremap <space><left> <c-w>h
 nnoremap <space><right> <c-w>l
+nnoremap <space>vs :vnew<cr>
 
 " Extra
 nnoremap y "+y
@@ -99,8 +101,6 @@ nnoremap <space>tt :FloatermNew<cr>
 tnoremap <esc> <c-\><c-n>
 
 " Testing
-nnoremap <space>vs :vsplit<cr>
-
 
 " Commenting
 nnoremap <silent><space>gc mm:s/\v^/" <cr>`m
@@ -115,8 +115,9 @@ nnoremap <leader>n :LuaTreeFindFile<CR>
 nnoremap <c-n> :TabVifm<cr>
 nnoremap <silent><space>gd :lua vim.lsp.buf.definition()<cr>
 nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
+nnoremap <silent><c-h> :lua vim.lsp.buf.hover()<cr>
 nnoremap <space>sn :UltiSnipsEdit<cr>
-nnoremap <space><cr> :Files %:p:h<cr>
+nnoremap <space><cr> :Buffers<cr>
 nnoremap <space><space> :Files<cr>
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
@@ -129,12 +130,12 @@ imap <silent><expr><tab>
       \  completion#trigger_completion()
 inoremap <silent><expr><up>
       \ pumvisible() ? "\<c-p>" :
-      \ "\<c-o>zz\<up>\<c-o>zz"
+      \ "\<c-o>gk\<c-o>zz"
 inoremap <silent><expr><down>
       \ pumvisible() ? "\<c-n>" :
-      \ "\<c-o>zz\<down>\<c-o>zz"
+      \ "\<c-o>gj\<c-o>zz"
 ca mv Move
-
+let g:user_emmet_expandabbr_key='<c-t>'
 "==================================================================================================
 " Functions
 

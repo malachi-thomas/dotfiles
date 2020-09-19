@@ -1,5 +1,4 @@
 # Basic Alias's
-alias c='cd'
 alias ls='ls -F --color=auto'
 alias la='ls -aF --color=auto'
 alias ll='ls -laF --color=auto'
@@ -16,7 +15,7 @@ alias f='firefox'
 alias b='brave'
 alias file='nautilus'
 alias to='touch'
-# alias cd='cd $(dirname "$(fzf)")'
+alias c='cd $(dirname "$(fzf)")'
 
 
 # Config Files

@@ -22,6 +22,9 @@ const $0: React.FC<> = () => {
 	)
 }
 endsnippet
+snippet useState
+const [$0, set] = useState<>()
+endsnippet
 
 # # # # # #
 # Javascript
@@ -29,6 +32,9 @@ endsnippet
 
 snippet import
 import $0 from './'
+endsnippet
+snippet importc
+import $1 from './$1'$0
 endsnippet
 snippet export
 export default 
@@ -67,9 +73,6 @@ import React from 'react'
 endsnippet
 snippet ReactDOM
 import ReactDOM from 'react-dom'
-endsnippet
-snippet useState
-const [$0, set] = useState()
 endsnippet
 
 # # # # # #
@@ -135,10 +138,10 @@ endsnippet
 # Html self closing tags
 # # # # # #
 snippet inputSubmit 
-<input type="submit" value="$0"/>
+<input type="submit" value="$0" />
 endsnippet
 snippet input 
-<input type="text"/>
+<input type="text" />
 endsnippet
 
 # # # # # #
