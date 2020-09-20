@@ -9,11 +9,13 @@ nnoremap cl :normal 0c$<cr>
 nnoremap yl :normal 0y$<cr>
 nnoremap { {zz
 nnoremap } }zz
-nnoremap <PageUp> <c-u>zz
-nnoremap <PageDown> <c-d>zz
+nnoremap <pageup> <c-u>zz
+nnoremap <pagedown> <c-d>zz
 nnoremap G Gzz
 nnoremap <c-o> <c-o>zz
 nnoremap <c-i> <c-i>zz
+nnoremap <home> ^
+inoremap <home> <c-o>^
 
 
 " Buffers
@@ -27,8 +29,8 @@ nnoremap <space><right> <c-w>l
 nnoremap <space>vs :vnew<cr>
 
 " Extra
-nnoremap y "+y
-nnoremap yi "+yi
+nnoremap y "*y
+nnoremap yi "*yi
 inoremap <c-h> <c-w>
 nnoremap <space>rg :Rg <C-R>=expand("<cword>")<cr><cr>
 nnoremap <space>hw :h <c-r>=expand("<cword>>")<cr><cr>
@@ -47,7 +49,7 @@ vnoremap <down> <down>zz
 vnoremap { {zz
 vnoremap } }zz
 
-vnoremap y "+y
+xnoremap y "*y
 
 "Substitutions 
 nnoremap sl :s/<c-r>=expand("<cword>")<cr>//gi<left><left><left>
@@ -56,14 +58,12 @@ nnoremap Sl :s/<c-r>=expand("<cword>")<cr>//gic<left><left><left><left>
 nnoremap Sg :%s/<c-r>=expand("<cword>")<cr>//gic<left><left><left><left>
 vnoremap s :s///gi<left><left><left>
 
-
 "Filetype Mappings 
 autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
 autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
 autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
 autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
-
 
 " Command Mode
 ca ls !ls -F
@@ -130,10 +130,10 @@ imap <silent><expr><tab>
       \  completion#trigger_completion()
 inoremap <silent><expr><up>
       \ pumvisible() ? "\<c-p>" :
-      \ "\<c-o>gk\<c-o>zz"
+      \ "\<up>"
 inoremap <silent><expr><down>
       \ pumvisible() ? "\<c-n>" :
-      \ "\<c-o>gj\<c-o>zz"
+      \ "\<down>"
 ca mv Move
 let g:user_emmet_expandabbr_key='<c-t>'
 "==================================================================================================

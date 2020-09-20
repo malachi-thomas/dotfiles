@@ -55,7 +55,7 @@ set ignorecase
 set inccommand=split
 set nohlsearch
 set mouse=a
-set clipboard+=unnamedplus
+set clipboard^=unnamed
 set updatetime=50
 set path+=.,**
 set laststatus=2
@@ -75,12 +75,9 @@ set wrap linebreak
 
 augroup autocmds
   autocmd!
-  "autocmd VimEnter * AirlineTheme gruvbox
   autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
-  autocmd VimEnter * normal zz
   autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
   autocmd BufEnter * lua require'diagnostic'.on_attach()
-  autocmd BufEnter * normal zR
   autocmd BufEnter * normal zz
   autocmd BufEnter * set iskeyword-=# iskeyword+=-
   autocmd BufRead ~/dotfiles/i3/config set filetype=i3config
@@ -89,8 +86,6 @@ augroup autocmds
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
   autocmd BufWritePre *.vim normal mmgg=G`mzz
   autocmd InsertLeave * normal zz
-  autocmd FileType typescriptreact set filetype=typescript.tsx
-  autocmd FileType javascriptreact set filetype=javascript.jsx
 augroup end
 
 " Functions

@@ -3,41 +3,50 @@
 sudo pacman -S youtube-dl
 
 mkdir ~/music
-cd ~/music
-sudo rm -R *
-mkdir ~/music/loop
-mkdir ~/music/op
-mkdir ~/music/orchestral
+sudo rm -rv ~/music/*
+
+mkdir ~/music/all
+mkdir ~/music/anime-op
 mkdir ~/music/ost
+mkdir ~/music/orchestral
 mkdir ~/music/piano
-mkdir ~/music/pop
-mkdir ~/music/zen
+mkdir ~/music/calm
+mkdir ~/music/calm-'(h)'
+mkdir ~/music/lucas-king
 mkdir ~/music/jpop
-mkdir ~/music/piano-strings
+mkdir ~/music/en-pop
+mkdir ~/music/up-beat-'(h)'
+mkdir ~/music/dark
+mkdir ~/music/up-beat
+mkdir ~/music/slow-hip-hop
+mkdir ~/music/lsd
 
-cd ~/music/loop
-youtube-dl -x https://www.youtube.com/playlist?list=PLcr6smgplMLwUj6q6IzdOTE_b8VIHWo7V
+youtube-dl -x -o ~/music/lcd/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLziUCOlzPSEpGA7D1XlBydI
 
-cd ~/music/op
-youtube-dl -x https://www.youtube.com/playlist?list=PLcr6smgplMLyufHYBUFk_7lttJqo5nWun
+youtube-dl -x -o ~/music/lucas-king/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLy3IqsBcWQh4WXRvsfMymjn
 
-cd ~/music/orchestral
-youtube-dl -x https://www.youtube.com/playlist?list=PLcr6smgplMLzTNDduFdGkoAtY445MlEe1
+youtube-dl -x -o ~/music/calm-'(h)'/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLwnh-GqDzso2PR9GFVXDqPh
 
-cd ~/music/ost
-youtube-dl -x https://www.youtube.com/playlist?list=PLcr6smgplMLwTrWVkiXzZLlEBnpDKEHWR
+youtube-dl -x -o ~/music/all/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLwdrz8MRAz4nGL24fDwqpEA
 
-cd ~/music/piano
-youtube-dl -x https://www.youtube.com/playlist?list=PLcr6smgplMLwpXwGoi3KvTBsxbWwMNzHi
+youtube-dl -x -o ~/music/en-pop/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLxawhRZWoZWV7OECistxRr8
 
-cd ~/music/piano-strings
-youtube-dl -x https://www.youtube.com/playlist?list=PLcr6smgplMLwKXTmM8217iaUM6rppRgzY
+youtube-dl -x -o ~/music/up-beat-'(h)'/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLypjd2_3jgFTFLoCd5ErQmK
 
-cd ~/music/pop
-youtube-dl -x https://www.youtube.com/playlist?list=PLcr6smgplMLxawhRZWoZWV7OECistxRr8
+youtube-dl -x -o ~/music/dark/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLwDANPt2HDsixjkKsXiYjrm
 
-cd ~/music/zen
-youtube-dl -x https://www.youtube.com/playlist?list=PLcr6smgplMLzphUCfx8YctOXZH99gMv53
+youtube-dl -x -o ~/music/calm/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLyvkf-TioMW36EtqBZqSQHQ
 
-cd ~/music/jpop
-youtube-dl -x https://www.youtube.com/playlist?list=PLcr6smgplMLytnnKC0BcuoAhWzl-OU9q6
+youtube-dl -x -o ~/music/up-beat/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLyjDLYgoiClj7pH_xLiowG8
+
+youtube-dl -x -o ~/music/ost/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLwTrWVkiXzZLlEBnpDKEHWR
+
+youtube-dl -x -o ~/music/anime-op/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLyufHYBUFk_7lttJqo5nWun
+
+youtube-dl -x -o ~/music/slow-hip-hop/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLxgUviEXzL_ngFHWe9ZOof1
+
+youtube-dl -x -o ~/music/jpop/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLytnnKC0BcuoAhWzl-OU9q6
+
+youtube-dl -x -o ~/music/orchestral/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLzTNDduFdGkoAtY445MlEe1
+
+youtube-dl -x -o ~/music/piano/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLwpXwGoi3KvTBsxbWwMNzHi

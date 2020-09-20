@@ -4,8 +4,8 @@
 let g:ale_fixers = {
       \ 'typescript': ['prettier'],
       \ 'typescriptreact': ['prettier'],
-      \ 'javascript': ['prettier'],
       \ 'javascriptreact': ['prettier'],
+      \ 'javascript': ['prettier'],
       \ 'json': ['fixjson'],
       \ 'scss': ['stylelint'],
       \ 'markdown': ['prettier'],
@@ -14,8 +14,8 @@ let g:ale_fixers = {
 let g:ale_linters = {
       \ 'typescript': ['prettier'],
       \ 'typescriptreact': ['prettier'],
-      \ 'javascript': ['prettier'],
       \ 'javascriptreact': ['prettier'],
+      \ 'javascript': ['prettier'],
       \ 'json': ['fixjson'],
       \ 'scss': ['stylelint'],
       \ 'markdown': ['prettier'],
@@ -107,3 +107,19 @@ let g:UltiSnipsSnippetDirectories = ['~/dotfiles/nvim/UltiSnips']
 let g:UltiSnipsExpandTrigger="<c-space>"
 let g:UltiSnipsJumpForwardTrigger="<c-space>"
 
+
+" markdown preview
+let g:mkdp_auto_start = 0
+let g:mkdp_auto_close = 1
+let g:mkdp_refresh_slow = 0
+let g:mkdp_command_for_global = 0
+let g:mkdp_open_to_the_world = 0
+let g:mkdp_open_ip = ''
+let g:mkdp_browser = 'brave'
+let g:mkdp_echo_preview_url = 0
+let g:mkdp_browserfunc = ''
+" like '/Users/username/markdown.css' or expand('~/markdown.css')
+let g:mkdp_markdown_css = ''
+let g:mkdp_highlight_css = ''
+let g:mkdp_port = ''
+let g:mkdp_page_title = '${name}'

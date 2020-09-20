@@ -1,4 +1,5 @@
 set $mod Mod4
+set $alt Mod1
 font pango:Fira Code: 12px
 gaps inner 0
 
@@ -19,7 +20,8 @@ exec_always --no-startup-id sxhkd
 # window things
 for_window [class="^*"] border pixel 2
 new_window pixel 2
-workspace_layout tabbed
+#workspace_layout tabbed
+workspace_layout default
 floating_modifier $mod
 
 #                       border  backgr. text    indicator
@@ -27,12 +29,9 @@ client.focused          #FE8019 #FE8019 #000000 #FE8019
 
 
 # i3 keybindings
-bindsym $mod+n workspace next
-bindsym $mod+p workspace prev
 bindsym $mod+f fullscreen toggle
 bindsym $mod+q kill
 bindsym $mod+Shift+f floating toggle
-bindsym $mod+Shift+p scratchpad show
 bindsym $mod+Shift+l restart
 
 # system movement
@@ -41,28 +40,11 @@ bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
-
-# bindsym $mod+m fullscreen disable; floating toggle; move window to position 1382 775
+bindsym $mod+Shift+Left  move left 1415
+bindsym $mod+Shift+Right  move right 1415
+bindsym $mod+Shift+Up  move up 795
+bindsym $mod+Shift+Down  move down 795
 bindsym $mod+m fullscreen disable, floating enable, resize set 504 285, sticky enable, move window to position 1416 795
-
-for_window [class="chromium"][floating] resize set 504 285
-# bindsym $mod+Left [floating] move left 20
-# bindsym $mod+Right [floating] move right 20
-
-bindsym $mod+Ctrl+Left [floating] move left 1415
-bindsym $mod+Ctrl+Right [floating] move right 1415
-bindsym $mod+Ctrl+Up [floating] move up 795
-bindsym $mod+Ctrl+Down [floating] move down 795
-
-
-#                <width>    <hight>
-# floating_minimum_size 534 x 300
-# floating_maximum_size 534 x 300
-
 
 # workspaces
 set $ws1 "1"

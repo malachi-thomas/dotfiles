@@ -15,7 +15,9 @@ alias f='firefox'
 alias b='brave'
 alias file='nautilus'
 alias to='touch'
-alias c='cd $(dirname "$(fzf)")'
+alias c='cd $(dirname "$(fzf -e)")'
+alias dl='youtube-dl -x -o "%(title)s.%(ext)s"'
+
 
 
 # Config Files

@@ -21,14 +21,18 @@ Plug 'SirVer/ultisnips'
 " Testing
 Plug 'voldikss/vim-floaterm'
 Plug 'mattn/emmet-vim'
+Plug 'embark-theme/vim', { 'as': 'embark' }
+
 " Vim Traning
 Plug 'ThePrimeagen/vim-be-good'
 
 " Notetaking
 Plug 'vimwiki/vimwiki'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 " Theam
 Plug 'morhetz/gruvbox'
+Plug 'sheerun/vim-polyglot'
 Plug 'mboughaba/i3config.vim'
 Plug 'machakann/vim-highlightedyank'
 Plug 'shmargum/vim-sass-colors'
