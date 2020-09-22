@@ -17,11 +17,13 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-eunuch'
 Plug 'SirVer/ultisnips'
+Plug 'tpope/vim-commentary'
 
 " Testing
 Plug 'voldikss/vim-floaterm'
 Plug 'mattn/emmet-vim'
 Plug 'embark-theme/vim', { 'as': 'embark' }
+Plug 'tpope/vim-repeat'
 
 " Vim Traning
 Plug 'ThePrimeagen/vim-be-good'

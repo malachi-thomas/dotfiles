@@ -16,18 +16,15 @@ super + x
 super + y
   firefox
 
-
 super + shift + c
-  betterlockscreen -s dim
-
-super + shift + n
-  chromium && chromium -e https://www.notion.so/malachi110/JavaScript-c53949208578428089bf73a2a6cc256d
+  google-chrome-unstable
 
 super + shift + t
   kitty -e tmux
 
 super + shift + q
-  exec ~/dotfiles/scripts/close_windows.sh
+  betterlockscreen -s dim
+
 
 super + shift + x
   kill -9 -1

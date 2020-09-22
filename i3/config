@@ -18,14 +18,14 @@ exec_always --no-startup-id feh --bg-fill ~/dotfiles/wallpapers/nord.png
 exec_always --no-startup-id sxhkd
 
 # window things
-for_window [class="^*"] border pixel 2
-new_window pixel 2
+default_border pixel 1
 #workspace_layout tabbed
 workspace_layout default
 floating_modifier $mod
 
 #                       border  backgr. text    indicator
 client.focused          #FE8019 #FE8019 #000000 #FE8019 
+client.background       #000000
 
 
 # i3 keybindings

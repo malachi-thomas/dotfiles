@@ -1,5 +1,5 @@
 # Functions
-chpwd() ls --color=auto
+chpwd() ls --color=auto -F
 
 usb() {
   xzcat -f $1 | sudo dd bs=4M of=$2

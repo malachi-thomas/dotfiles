@@ -17,6 +17,8 @@ set number
 set relativenumber
 set guicursor=
 
+hi Search guibg=#ffffff guifg=#3C3836
+
 " Statusline
 set statusline=
 set statusline+=%#DiffDelete#
@@ -27,7 +29,6 @@ set statusline+=%#StatusLine#
 set statusline+=\%=
 set statusline+=%#DiffAdd#
 set statusline+=[\%l/\%L]
-
 
 "==============================================================================
 " Basic Config
@@ -53,7 +54,7 @@ set showmode
 set smartcase
 set ignorecase
 set inccommand=split
-set nohlsearch
+set hlsearch
 set mouse=a
 set clipboard^=unnamed
 set updatetime=50

@@ -20,6 +20,7 @@ inoremap <home> <c-o>^
 
 " Buffers
 nnoremap <c-s> :w!<cr>
+inoremap <c-s> <c-o>:w!<cr>
 
 " Splits
 nnoremap <space><up> <c-w>k
@@ -37,11 +38,14 @@ nnoremap <space>hw :h <c-r>=expand("<cword>>")<cr><cr>
 nnoremap <bs> "_X
 inoremap <esc> <right><esc>
 cnoremap <c-h> <c-w>
+nnoremap <esc> <esc>:nohl<cr>
 
 " Unmap
 nnoremap K <nop>
 nnoremap Q <nop>
 nnoremap <c-z> <nop>
+nnoremap ss <nop>
+nnoremap S <nop>
 
 " Visuale
 vnoremap <up> <up>zz
@@ -113,7 +117,7 @@ nnoremap <space>tr :LuaTreeToggle<CR>
 nnoremap <leader>r :LuaTreeRefresh<CR>
 nnoremap <leader>n :LuaTreeFindFile<CR>
 nnoremap <c-n> :TabVifm<cr>
-nnoremap <silent><space>gd :lua vim.lsp.buf.definition()<cr>
+nnoremap <silent>gd :lua vim.lsp.buf.definition()<cr>
 nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
 nnoremap <silent><c-h> :lua vim.lsp.buf.hover()<cr>
 nnoremap <space>sn :UltiSnipsEdit<cr>
@@ -135,6 +139,7 @@ inoremap <silent><expr><down>
       \ pumvisible() ? "\<c-n>" :
       \ "\<down>"
 ca mv Move
+nnoremap <c-f> :Files ~<cr>
 let g:user_emmet_expandabbr_key='<c-t>'
 "==================================================================================================
 " Functions
