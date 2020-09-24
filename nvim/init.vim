@@ -17,7 +17,7 @@ set number
 set relativenumber
 set guicursor=
 
-hi Search guibg=#ffffff guifg=#3C3836
+autocmd VimEnter * hi Search guibg=#ffffff guifg=#3C3836
 
 " Statusline
 set statusline=
@@ -69,7 +69,7 @@ set completeopt=menuone,noinsert,noselect
 set omnifunc=v:lua.vim.lsp.omnifunc
 set list
 set listchars=tab:→\ ,eol:↲,trail:•
-set wrap linebreak
+" set wrap linebreak
 
 " =============================================================================
 " Vimscript
@@ -84,10 +84,14 @@ augroup autocmds
   autocmd BufRead ~/dotfiles/i3/config set filetype=i3config
   autocmd BufRead ~/dotfiles/polybar/config set filetype=dosini
   autocmd BufRead ~/dotfiles/bspwm/bspwmrc set filetype=sh
+  autocmd BufRead ~/dotfiles/sxhkd/sxhkdrc set filetype=sh
+  autocmd FileType vimwiki set spell
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
   autocmd BufWritePre *.vim normal mmgg=G`mzz
   autocmd InsertLeave * normal zz
+  autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
 augroup end
+
 
 " Functions
 function! s:check_back_space() abort

@@ -15,6 +15,14 @@ nnoremap G Gzz
 nnoremap <c-o> <c-o>zz
 nnoremap <c-i> <c-i>zz
 nnoremap <home> ^
+nnoremap <s-right> v<right>
+nnoremap <s-left> v<left>
+nnoremap <s-down> v<down>
+nnoremap <s-up> v<up>
+vnoremap <s-right> <right>
+vnoremap <s-left> <left>
+vnoremap <s-down> <down>
+vnoremap <s-up> <up>
 inoremap <home> <c-o>^
 
 
@@ -39,6 +47,7 @@ nnoremap <bs> "_X
 inoremap <esc> <right><esc>
 cnoremap <c-h> <c-w>
 nnoremap <esc> <esc>:nohl<cr>
+inoremap <c-k> <c-x><c-k>
 
 " Unmap
 nnoremap K <nop>

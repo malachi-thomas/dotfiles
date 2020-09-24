@@ -5,7 +5,7 @@ super + c
   chromium
 
 super + d
-  dmenu_run
+  rofi -show run
 
 super + t
   kitty
@@ -15,6 +15,9 @@ super + x
 
 super + y
   firefox
+
+# super + m
+#   kitty -e mocp
 
 super + shift + c
   google-chrome-unstable
