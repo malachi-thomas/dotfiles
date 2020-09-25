@@ -1,16 +1,6 @@
 "Plugin configs==========================================================================================
 
 " ale
-let g:ale_fixers = {
-      \ 'typescript': ['prettier'],
-      \ 'typescriptreact': ['prettier'],
-      \ 'javascriptreact': ['prettier'],
-      \ 'javascript': ['prettier'],
-      \ 'json': ['fixjson'],
-      \ 'scss': ['stylelint'],
-      \ 'markdown': ['prettier'],
-      \ 'vimwiki': ['prettier']
-      \}
 let g:ale_linters = {
       \ 'typescript': ['prettier'],
       \ 'typescriptreact': ['prettier'],
@@ -18,6 +8,20 @@ let g:ale_linters = {
       \ 'javascript': ['prettier'],
       \ 'json': ['fixjson'],
       \ 'scss': ['stylelint'],
+      \ 'sass': ['stylelint'],
+      \ 'css': ['stylelint'],
+      \ 'markdown': ['prettier'],
+      \ 'vimwiki': ['prettier']
+      \}
+let g:ale_fixers = {
+      \ 'typescript': ['prettier'],
+      \ 'typescriptreact': ['prettier'],
+      \ 'javascriptreact': ['prettier'],
+      \ 'javascript': ['prettier'],
+      \ 'json': ['fixjson'],
+      \ 'scss': ['prettier'],
+      \ 'sass': ['stylelint'],
+      \ 'css': ['stylelint'],
       \ 'markdown': ['prettier'],
       \ 'vimwiki': ['prettier']
       \}
@@ -51,10 +55,10 @@ let g:completion_chain_complete_list = {
       \ ]}
 
 " vim-fzf
-let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 }}
+" let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 }}
 let $FZF_DEFAULT_OPTS = "--reverse -e"
-let $FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!**/node_modules/**' --glob '!react-app-env.d.ts'"
-let g:fzf_preview_use_dev_icons = 1
+let $FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!**/node_modules/**' --glob '!**/.git/**'"
+let g:fzf_preview_window = ''
 let g:fzf_colors = {
       \'fg':      ['fg', 'Normal'],
       \ 'bg':      ['bg', 'Normal'],
@@ -98,14 +102,17 @@ let g:loaded_netrw = 0
 
 " diagnostic-nvim
 let g:diagnostic_enable_virtual_text = 1
-let g:diagnostic_show_sign = 0
-let g:space_before_virtual_text = 4
 let g:diagnostic_virtual_text_prefix = 'ﱢ'
+let g:diagnostic_trimmed_virtual_text = '30'
+let g:space_before_virtual_text = 4
+let g:diagnostic_show_sign = 2
+
 
 " UltiSnips
 let g:UltiSnipsSnippetDirectories = ['~/dotfiles/nvim/UltiSnips']
-let g:UltiSnipsExpandTrigger="<c-space>"
-let g:UltiSnipsJumpForwardTrigger="<c-space>"
+let g:UltiSnipsExpandTrigger="<c-cr>"
+let g:UltiSnipsJumpForwardTrigger="<m-right>"
+let g:UltiSnipsJumpBackwardTrigger="<m-left>"
 
 
 " markdown preview
@@ -123,3 +130,11 @@ let g:mkdp_markdown_css = ''
 let g:mkdp_highlight_css = ''
 let g:mkdp_port = ''
 let g:mkdp_page_title = '${name}'
+
+" emmet-vim
+let g:usehr_emmet_install_global = 0
+let g:user_emmet_settings = {
+      \  'javascriptreact' : {
+      \      'extends' : 'jsx',
+      \  },
+      \}

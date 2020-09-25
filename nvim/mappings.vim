@@ -1,5 +1,5 @@
 "==================================================================================================
-" Mappings
+
 
 " Basic Movement
 nnoremap <up> gkzz
@@ -25,7 +25,6 @@ vnoremap <s-down> <down>
 vnoremap <s-up> <up>
 inoremap <home> <c-o>^
 
-
 " Buffers
 nnoremap <c-s> :w!<cr>
 inoremap <c-s> <c-o>:w!<cr>
@@ -41,7 +40,7 @@ nnoremap <space>vs :vnew<cr>
 nnoremap y "*y
 nnoremap yi "*yi
 inoremap <c-h> <c-w>
-nnoremap <space>rg :Rg <C-R>=expand("<cword>")<cr><cr>
+nnoremap <space>rg :Rg! <C-R>=expand("<cword>")<cr><cr>
 nnoremap <space>hw :h <c-r>=expand("<cword>>")<cr><cr>
 nnoremap <bs> "_X
 inoremap <esc> <right><esc>
@@ -55,21 +54,22 @@ nnoremap Q <nop>
 nnoremap <c-z> <nop>
 nnoremap ss <nop>
 nnoremap S <nop>
+nnoremap H <nop>
+nnoremap L <nop>
 
 " Visuale
 vnoremap <up> <up>zz
 vnoremap <down> <down>zz
 vnoremap { {zz
 vnoremap } }zz
-
-xnoremap y "*y
+vnoremap y "*y
 
 "Substitutions 
-nnoremap sl :s/<c-r>=expand("<cword>")<cr>//gi<left><left><left>
-nnoremap sg :%s/<c-r>=expand("<cword>")<cr>//gi<left><left><left>
-nnoremap Sl :s/<c-r>=expand("<cword>")<cr>//gic<left><left><left><left>
-nnoremap Sg :%s/<c-r>=expand("<cword>")<cr>//gic<left><left><left><left>
-vnoremap s :s///gi<left><left><left>
+nnoremap Sl :s/<c-r>=expand("<cword>")<cr>//gi<left><left><left>
+nnoremap Sg :%s/<c-r>=expand("<cword>")<cr>//gi<left><left><left>
+nnoremap Sl :s/<c-r>=expand("<cword>")<cr>//gi<left><left><left><left>
+nnoremap Sg :%s/<c-r>=expand("<cword>")<cr>//gi<left><left><left><left>
+vnoremap S :s///gi<left><left><left>
 
 "Filetype Mappings 
 autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
@@ -79,17 +79,7 @@ autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
 autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
 
 " Command Mode
-ca ls !ls -F
-ca la !ls -aF
-ca ll !ls -laF
-ca mk !mkdir
-ca to !touch
 ca ex !chmod +x %<C-R>=Eatchar('\s')<cr>
-ca rm !rm
-ca rma !sudo rm -rv
-ca so so $MYVIMRC
-ca mkdir !mkdir
-ca vifm Vifm
 ca vrc e ~/dotfiles/nvim/init.vim
 ca vma e ~/dotfiles/nvim/mappings.vim
 ca vpl e ~/dotfiles/nvim/plugins.vim
@@ -102,8 +92,6 @@ ca bsp e ~/dotfiles/bspwm/bspwmrc
 ca zsh e ~/dotfiles/zsh/.zshrc
 ca mux e ~/dotfiles/tmux/tmux.conf
 ca lrc e ~/dotfiles/nvim/lua/init.lua
-ca vsn e ~/dotfiles/nvim/lua/nvim-snippets.lua
-ca sp vsplit
 ca p <c-r>=expand("%:.:h")<cr>/<c-r>=Eatchar('\s')<cr>
 ca f <c-r>=expand("%:.")<cr><c-r>=Eatchar('\s')<cr>
 ca ft <c-r>=expand(&ft)<cr><c-r>=Eatchar('\s')<cr>
@@ -115,12 +103,6 @@ tnoremap <esc> <c-\><c-n>
 
 " Testing
 
-" Commenting
-nnoremap <silent><space>gc mm:s/\v^/" <cr>`m
-nnoremap <silent><space>gu mm:s/\v^" //<cr>`m
-vnoremap <silent><space>gc :s/\v^/" <cr>
-vnoremap <silent><space>gu :s/\v^" //<cr>
-
 " Plugin Mappings 
 nnoremap <space>tr :LuaTreeToggle<CR>
 nnoremap <leader>r :LuaTreeRefresh<CR>
@@ -130,8 +112,8 @@ nnoremap <silent>gd :lua vim.lsp.buf.definition()<cr>
 nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
 nnoremap <silent><c-h> :lua vim.lsp.buf.hover()<cr>
 nnoremap <space>sn :UltiSnipsEdit<cr>
-nnoremap <space><cr> :Buffers<cr>
-nnoremap <space><space> :Files<cr>
+nnoremap <space><cr> :Buffers!<cr>
+nnoremap <space><space> :Files!<cr>
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
 nmap <f3> <Plug>VimwikiDiaryNextDay
@@ -148,8 +130,10 @@ inoremap <silent><expr><down>
       \ pumvisible() ? "\<c-n>" :
       \ "\<down>"
 ca mv Move
-nnoremap <c-f> :Files ~<cr>
-let g:user_emmet_expandabbr_key='<c-t>'
+ca mk Mkdir 
+nnoremap <c-f> :Files! ~<cr>
+imap <silent><expr><c-space> 
+      \ IsASnippet() ? "\<c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>" : "\<Plug>(emmet-expand-abbr)"
 "==================================================================================================
 " Functions
 
@@ -158,5 +142,11 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
+function IsASnippet()
+  return !empty(UltiSnips#SnippetsInCurrentScope())
+endfunction
+
 "==================================================================================================
+
+inoremap <c-t> <cr><up><esc>o<tab>
 

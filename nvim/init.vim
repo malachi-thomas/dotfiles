@@ -4,8 +4,6 @@ source ~/dotfiles/nvim/mappings.vim
 source ~/dotfiles/nvim/plugins.vim
 source ~/dotfiles/nvim/plugin-configs.vim
 lua require('init')
-lua require('test')
-nnoremap <c-x> :lua require('test').hello_world()<cr>
 
 "==============================================================================
 " Theme
@@ -16,8 +14,6 @@ set background=dark
 set number
 set relativenumber
 set guicursor=
-
-autocmd VimEnter * hi Search guibg=#ffffff guifg=#3C3836
 
 " Statusline
 set statusline=
@@ -69,14 +65,13 @@ set completeopt=menuone,noinsert,noselect
 set omnifunc=v:lua.vim.lsp.omnifunc
 set list
 set listchars=tab:→\ ,eol:↲,trail:•
-" set wrap linebreak
 
 " =============================================================================
 " Vimscript
 
 augroup autocmds
   autocmd!
-  autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
+  autocmd VimEnter,SourcePost * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
   autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
   autocmd BufEnter * lua require'diagnostic'.on_attach()
   autocmd BufEnter * normal zz
@@ -90,8 +85,8 @@ augroup autocmds
   autocmd BufWritePre *.vim normal mmgg=G`mzz
   autocmd InsertLeave * normal zz
   autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
+  autocmd VimEnter * call setreg("*", getreg("+")) " makes the + register the same as the * register
 augroup end
-
 
 " Functions
 function! s:check_back_space() abort
@@ -103,5 +98,3 @@ function Eatchar(pat)
   let c = nr2char(getchar(0))
   return (c =~ a:pat) ? '' : c
 endfunction
-
-

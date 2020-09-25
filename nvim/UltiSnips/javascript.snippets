@@ -1,0 +1,99 @@
+# # # # # #
+# Javascriptreact
+# # # # # #
+
+snippet React.FC
+React.FC
+endsnippet
+snippet React.Component
+React.Component
+endsnippet
+snippet fcomp
+const $0: React.FC<> = () => {
+	return <div></div>
+}
+endsnippet
+snippet ccomp
+class $1 extends React.Component {
+	render() {
+		return (
+			<div>
+				$0
+			</div>
+		)
+	}
+}
+endsnippet
+snippet useState
+const [$0, set] = useState<>()
+endsnippet
+snippet render
+ReactDOM.render(<$0 />, document.getElementById('root'))
+endsnippet
+snippet React
+import React from 'react'
+endsnippet
+snippet ReactDOM
+import ReactDOM from 'react-dom'
+endsnippet
+snippet state
+state = {
+	$0
+}
+endsnippet
+snippet cc
+class $1 extends React.Component {
+	render() {
+		return (
+		<div>
+			$0
+		</div>
+		)
+	}
+}
+export default $1
+endsnippet
+snippet t
+<$0 />
+endsnippet
+
+# # # # # #
+# Javascript
+# # # # # #
+
+snippet import
+import $0 from './'
+endsnippet
+snippet importc
+import $1 from './$1'$0
+endsnippet
+snippet export
+export default 
+endsnippet
+snippet func
+const $0 = () => 
+endsnippet
+snippet const
+const $0 = 
+endsnippet
+snippet let
+let $0 = 
+endsnippet
+snippet cl
+console.log($0)
+endsnippet
+snippet if "" i
+if ($0) {}
+endsnippet
+snippet "if else" "" i
+if else ($0) {}
+endsnippet
+snippet else "" i
+else {$0}
+endsnippet
+snippet constructor
+constructor(props) {
+	super(props)
+	$0
+}
+endsnippet

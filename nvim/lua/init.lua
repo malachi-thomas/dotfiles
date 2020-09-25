@@ -4,6 +4,7 @@ local api = vim.api
 local fn = vim.fn
 local filetype = api.nvim_eval("&filetype")
 
+
 -- Lsp
 require'nvim_lsp'.pyls.setup {} -- pip install python-language-server
 require'nvim_lsp'.tsserver.setup {} -- LspInstall tsserver
@@ -14,5 +15,6 @@ require'nvim_lsp'.clangd.setup {} -- ???
 require'nvim_lsp'.cssls.setup {} -- LspInstall cssls
 require'nvim_lsp'.html.setup {} -- LspInstall html
 require'nvim_lsp'.rls.setup {} -- ???
-require'nvim_lsp'.jsonls.setup {} -- LspInstall jsonls
+reauire'nvim_lsp'.jsonls.setup {} -- LspInstall jsonls
+
 

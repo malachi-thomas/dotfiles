@@ -14,16 +14,16 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'dense-analysis/ale'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-surround'
+" Plug 'tpope/vim-surround'
 Plug 'tpope/vim-eunuch'
 Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-commentary'
+Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-repeat'
 
 " Testing
 Plug 'voldikss/vim-floaterm'
-Plug 'mattn/emmet-vim'
-Plug 'embark-theme/vim', { 'as': 'embark' }
-Plug 'tpope/vim-repeat'
+Plug 'machakann/vim-sandwich'
 
 " Vim Traning
 Plug 'ThePrimeagen/vim-be-good'

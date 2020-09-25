@@ -17,6 +17,8 @@ alias file='nautilus'
 alias to='touch'
 alias c='cd $(dirname "$(fzf -e)")'
 alias dl='youtube-dl -x -o "%(title)s.%(ext)s"'
+alias reset='git reset --hard HEAD'
+alias copy='xclip -selection "primary" <'
 
 
 
