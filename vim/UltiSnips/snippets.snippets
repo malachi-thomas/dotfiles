@@ -1,0 +1,60 @@
+snippet s
+`!p snip.rv = "snippet"` $0
+
+`!p snip.rv = "endsnippet"`
+endsnippet
+snippet st
+`!p snip.rv = "snippet"` $1
+<$1>\$0</$1>
+`!p snip.rv = "endsnippet"`
+$0
+endsnippet
+snippet sc "" i
+`!p snip.rv = "snippet"` $1
+<$1 />
+`!p snip.rv = "endsnippet"`
+endsnippet
+snippet css
+`!p snip.rv = "snippet"` $1
+$1: \$0;
+`!p snip.rv = "endsnippet"`
+endsnippet
+snippet #
+# # # # # #
+# $0
+# # # # # #
+endsnippet
+snippet t "" b
+<${0:}></${0:}>
+endsnippet
+snippet 0 "" i
+\$0$0
+endsnippet
+snippet 1 "" i
+\$1$0
+endsnippet
+snippet 2 "" i
+\$2$0
+endsnippet
+snippet 3 "" i
+\$3$0
+endsnippet
+snippet 4 "" i
+\$4$0
+endsnippet
+snippet 5 "" i
+\$5$0
+endsnippet
+snippet 6 "" i
+\$6$0}
+endsnippet
+snippet 7 "" i
+\$7$0
+endsnippet
+snippet 8 "" i
+\$8$0
+endsnippet
+snippet 9 "" i
+\$9$0
+endsnippet
+

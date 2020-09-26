@@ -1,8 +1,97 @@
 "==================================================================================================
+" Source Files
+
+source ~/dotfiles/vim/mappings.vim
+source ~/dotfiles/vim/plugins.vim
+source ~/dotfiles/vim/plugin-configs.vim
+"==============================================================================
+" Theme
+
+set termguicolors
+colorscheme gruvbox
+set background=dark
+set number
+set relativenumber
+set guicursor=
+
+" Statusline
+set statusline=
+set statusline+=%#DiffDelete#
+set statusline+=\%m
+set statusline+=%#DiffAdd#
+set statusline+=\[\%f]
+set statusline+=%#StatusLine#
+set statusline+=\%=
+set statusline+=%#DiffAdd#
+set statusline+=[\%l/\%L]
+
+
+"==============================================================================
+" Basic Config
+
+set nocompatible
+syntax enable
+filetype plugin indent on
+set wildmode=list:longest,full
+
+set nobackup
+set nowritebackup
+set noswapfile
+set nowrap
+set hidden
+set tabstop=2
+set shiftwidth=0
+set expandtab
+set smarttab
+set smartindent
+set autoindent
+set splitbelow
+set splitright
+set showmode
+set smartcase
+set ignorecase
+" set inccommand=split
+set hlsearch
+set mouse=a
+set clipboard+=unnamed
+set updatetime=50
+set path+=.,**
+set laststatus=2
+set spelllang=en_gb
+set matchpairs+=<:>
+set shortmess+=c
+set lazyredraw
+set backspace=indent,eol,start
+set omnifunc=v:lua.vim.lsp.omnifunc
+set list
+set listchars=tab:→\ ,eol:↲,trail:•
+set completeopt=menuone,noinsert
+
+
+" =============================================================================
+" Vimscript
+
+augroup autocmds
+  autocmd!
+  autocmd BufEnter * normal zz
+  autocmd InsertLeave * normal zz
+  autocmd FileType vimwiki set spell
+  autocmd BufEnter * set iskeyword-=# iskeyword+=-
+  autocmd BufRead ~/dotfiles/i3/config set filetype=i3config
+  autocmd BufRead ~/dotfiles/polybar/config set filetype=dosini
+  autocmd BufRead ~/dotfiles/bspwm/bspwmrc set filetype=sh
+  autocmd BufRead ~/dotfiles/sxhkd/sxhkdrc set filetype=sh
+  autocmd VimEnter,SourcePost * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
+  autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
+  autocmd BufWritePre *.vim normal mmgg=G`mzz
+  autocmd VimEnter * if argc() == 0 | q | endif " dont open vim with a empty buffer
+augroup end
+
+"==================================================================================================
 
 
 " Basic Movement
-nnoremap <up> gkzz
+" nnoremap <up> gkzz
 nnoremap <down> gjzz
 nnoremap dl :normal 0d$<cr>
 nnoremap cl :normal 0c$<cr>
@@ -18,11 +107,11 @@ nnoremap <home> ^
 nnoremap <s-right> v<right>
 nnoremap <s-left> v<left>
 nnoremap <s-down> v<down>
-nnoremap <s-up> v<up>
+" nnoremap <s-up> v<up>
 vnoremap <s-right> <right>
 vnoremap <s-left> <left>
 vnoremap <s-down> <down>
-vnoremap <s-up> <up>
+" vnoremap <s-up> <up>
 inoremap <home> <c-o>^
 
 " Buffers
@@ -30,7 +119,7 @@ nnoremap <c-s> :w!<cr>
 inoremap <c-s> <c-o>:w!<cr>
 
 " Splits
-nnoremap <space><up> <c-w>k
+" nnoremap <space><up> <c-w>k
 nnoremap <space><down> <c-w>j
 nnoremap <space><left> <c-w>h
 nnoremap <space><right> <c-w>l
@@ -58,7 +147,7 @@ nnoremap H <nop>
 nnoremap L <nop>
 
 " Visuale
-vnoremap <up> <up>zz
+" vnoremap <up> <up>zz
 vnoremap <down> <down>zz
 vnoremap { {zz
 vnoremap } }zz
@@ -127,9 +216,9 @@ imap <silent><expr><tab>
       \ pumvisible() ? "\<Plug>(completion_confirm_completion)" :
       \ <sid>check_back_space() ? "\<tab>" :
       \  completion#trigger_completion()
-inoremap <silent><expr><up>
-      \ pumvisible() ? "\<c-p>" :
-      \ "\<up>"
+" inoremap <silent><expr><up>
+" \ pumvisible() ? "\<c-p>" :
+" \ "\<up>"
 inoremap <silent><expr><down>
       \ pumvisible() ? "\<c-n>" :
       \ "\<down>"
@@ -155,10 +244,9 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
-function IsASnippet()
+function! IsASnippet()
   return !empty(UltiSnips#SnippetsInCurrentScope())
 endfunction
 
 "==================================================================================================
 
-inoremap <c-t> <cr><up><esc>o<tab>

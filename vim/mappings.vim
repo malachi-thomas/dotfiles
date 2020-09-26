@@ -1,5 +1,12 @@
 "==================================================================================================
-
+nnoremap <silent> <ESC>OA <UP>
+nnoremap <silent> <ESC>OB <DOWN>
+nnoremap <silent> <ESC>OC <RIGHT>
+nnoremap <silent> <ESC>OD <LEFT>
+inoremap <silent> <ESC>OA <UP>
+inoremap <silent> <ESC>OB <DOWN>
+inoremap <silent> <ESC>OC <RIGHT>
+inoremap <silent> <ESC>OD <LEFT>
 
 " Basic Movement
 nnoremap <up> gkzz
@@ -138,7 +145,7 @@ inoremap <silent><expr><cr>
       \ "\<cr>"
 imap <silent><expr><c-space>
       \ IsASnippet() ? "\<c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>" :
-      \ "\<Plug>(emmet-expand-abbr)"
+      \ "\<Plug>(emme-expand-abbr)"
 inoremap <silent><expr><right>
       \ pumvisible() ? "\<c-g>u<right>" :
       \ "\<right>"
