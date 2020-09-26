@@ -23,6 +23,7 @@ Plug 'tpope/vim-repeat'
 " Testing
 Plug 'voldikss/vim-floaterm'
 Plug 'machakann/vim-sandwich'
+Plug 'rhysd/clever-f.vim'
 
 " Vim Traning
 Plug 'ThePrimeagen/vim-be-good'
