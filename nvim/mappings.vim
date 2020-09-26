@@ -43,10 +43,10 @@ inoremap <c-h> <c-w>
 nnoremap <space>rg :Rg! <C-R>=expand("<cword>")<cr><cr>
 nnoremap <space>hw :h <c-r>=expand("<cword>>")<cr><cr>
 nnoremap <bs> "_X
-inoremap <esc> <right><esc>
 cnoremap <c-h> <c-w>
 nnoremap <esc> <esc>:nohl<cr>
 inoremap <c-k> <c-x><c-k>
+inoremap <esc> <right><esc>
 
 " Unmap
 nnoremap K <nop>
@@ -120,20 +120,36 @@ nmap <f3> <Plug>VimwikiDiaryNextDay
 nmap <f4> <Plug>VimwikiDiaryPrevDay
 nmap <f5> <Plug>VimwikiPrevLink
 nmap <f6> <Plug>VimwikiGoBackLink
+ca mv Move
+ca mk Mkdir
+
 imap <silent><expr><tab>
+      \ pumvisible() ? "\<c-n>" :
       \ <sid>check_back_space() ? "\<tab>" :
       \  completion#trigger_completion()
+inoremap <silent><expr><s-tab>
+      \ pumvisible() ? "\<c-p>" :
+      \ "\<s-tab>"
 inoremap <silent><expr><up>
       \ pumvisible() ? "\<c-p>" :
       \ "\<up>"
 inoremap <silent><expr><down>
       \ pumvisible() ? "\<c-n>" :
       \ "\<down>"
-ca mv Move
-ca mk Mkdir 
-nnoremap <c-f> :Files! ~<cr>
-imap <silent><expr><c-space> 
-      \ IsASnippet() ? "\<c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>" : "\<Plug>(emmet-expand-abbr)"
+inoremap <silent><expr><cr>
+      \ pumvisible() ? "\<c-g>u<cr>" :
+      \ "\<cr>"
+imap <silent><expr><c-space>
+      \ pumvisible() ? "\<Plug>(completion_confirm_completion)" :
+      \ IsASnippet() ? "\<c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>" :
+      \ "\<Plug>(emmet-expand-abbr)"
+inoremap <silent><expr><right>
+      \ pumvisible() ? "\<c-g>u<right>" :
+      \ "\<right>"
+inoremap <silent><expr><left>
+      \ pumvisible() ? "\<c-g>u<left>" :
+      \ "\<left>"
+
 "==================================================================================================
 " Functions
 
@@ -149,4 +165,3 @@ endfunction
 "==================================================================================================
 
 inoremap <c-t> <cr><up><esc>o<tab>
-

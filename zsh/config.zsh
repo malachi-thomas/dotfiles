@@ -7,8 +7,8 @@ export BROWSER='chromium'
 export TODAY=`date +%d/%b/%Y`
 bindkey '^H' backward-kill-word # Ctrl backspace
 bindkey '5~' kill-word          # Ctrl Delete
-bindkey -s '^n' 'vifm .\n'
-bindkey -s '^f' 'cd "$(dirname "$(fzf)")"\n'
+bindkey -s '^n' 'c\n'
+bindkey -s '^v' 'v\n'
 export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!**/node_modules/**' --glob '!react-app-env.d.ts' --glob '!**/.git/**' "
 setopt autocd
 autoload -U colors && colors

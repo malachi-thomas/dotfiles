@@ -19,7 +19,8 @@ alias c='cd $(dirname "$(fzf -e)")'
 alias dl='youtube-dl -x -o "%(title)s.%(ext)s"'
 alias reset='git reset --hard HEAD'
 alias copy='xclip -selection "primary" <'
-
+alias t='tree -I node_modules'
+alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'
 
 
 # Config Files

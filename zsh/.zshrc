@@ -1,6 +1,6 @@
 
 ZSH_THEME="simple"
-plugins=(zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(zsh-autosuggestions zsh-syntax-highlighting zsh-z)
 export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/zsh/functions.zsh

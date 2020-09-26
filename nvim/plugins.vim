@@ -14,7 +14,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'dense-analysis/ale'
 Plug 'tpope/vim-fugitive'
-" Plug 'tpope/vim-surround'
 Plug 'tpope/vim-eunuch'
 Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-commentary'

@@ -20,4 +20,4 @@ cp ~/dotfiles/react/react-index.js src/index.js
 cp ~/dotfiles/react/react-index.html public/index.html
 cp ~/dotfiles/react/add.json add.json
 
-xclip -selection "primary" < ~/dotfiles/react/add.json
+xclip -selection "primary" < ~/dotfiles/react/copy.this
