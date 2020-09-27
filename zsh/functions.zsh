@@ -35,11 +35,11 @@ gacp() {
   git push --all 
 }
 
-v() {
-if [ $# -eq 0 ]; then
-  nvim -p $(fzf -e)
-else
-  nvim $@
-fi
+# v() {
+# if [ $# -eq 0 ]; then
+#   nvim -p $(fzf -e)
+# else
+#   nvim $@
+# fi
 
-}
+# }

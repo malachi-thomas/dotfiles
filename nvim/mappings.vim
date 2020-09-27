@@ -1,6 +1,5 @@
 "==================================================================================================
 
-
 " Basic Movement
 nnoremap <up> gkzz
 nnoremap <down> gjzz
@@ -36,6 +35,10 @@ nnoremap <space><left> <c-w>h
 nnoremap <space><right> <c-w>l
 nnoremap <space>vs :vnew<cr>
 
+" Tabs
+nnoremap <tab> :tabn<cr>
+nnoremap <space>n :tabnew<cr>
+
 " Extra
 nnoremap y "*y
 nnoremap yi "*yi
@@ -52,10 +55,11 @@ inoremap <esc> <right><esc>
 nnoremap K <nop>
 nnoremap Q <nop>
 nnoremap <c-z> <nop>
-nnoremap ss <nop>
 nnoremap S <nop>
 nnoremap H <nop>
 nnoremap L <nop>
+nnoremap r <nop>
+nnoremap R <nop>
 
 " Visuale
 vnoremap <up> <up>zz
@@ -65,11 +69,9 @@ vnoremap } }zz
 vnoremap y "*y
 
 "Substitutions 
-nnoremap Sl :s/<c-r>=expand("<cword>")<cr>//gi<left><left><left>
-nnoremap Sg :%s/<c-r>=expand("<cword>")<cr>//gi<left><left><left>
-nnoremap Sl :s/<c-r>=expand("<cword>")<cr>//gi<left><left><left><left>
-nnoremap Sg :%s/<c-r>=expand("<cword>")<cr>//gi<left><left><left><left>
-vnoremap S :s///gi<left><left><left>
+nnoremap SS :s/<c-r>=expand("<cWORD>>")<cr>//g<left><left>
+nnoremap ss :s/<c-r>=expand("<cword>")<cr>//g<left><left>
+vnoremap ss :s///gi<left><left><left><left>
 
 "Filetype Mappings 
 autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
@@ -95,6 +97,8 @@ ca lrc e ~/dotfiles/nvim/lua/init.lua
 ca p <c-r>=expand("%:.:h")<cr>/<c-r>=Eatchar('\s')<cr>
 ca f <c-r>=expand("%:.")<cr><c-r>=Eatchar('\s')<cr>
 ca ft <c-r>=expand(&ft)<cr><c-r>=Eatchar('\s')<cr>
+ca w <c-r>=expand("<cword>")<cr><c-r>=Eatchar('\s')<cr>
+ca W <c-r>=expand("<cWORD>")<cr><c-r>=Eatchar('\s')<cr>
 " Command Mode 
 
 " Terminal mappings
@@ -112,8 +116,8 @@ nnoremap <silent>gd :lua vim.lsp.buf.definition()<cr>
 nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
 nnoremap <silent><c-h> :lua vim.lsp.buf.hover()<cr>
 nnoremap <space>sn :UltiSnipsEdit<cr>
-nnoremap <space><cr> :Buffers!<cr>
-nnoremap <space><space> :Files!<cr>
+" nnoremap <space><cr> :Buffers!<cr>
+" nnoremap <space><space> :Files!<cr>
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
 nmap <f3> <Plug>VimwikiDiaryNextDay
@@ -145,7 +149,7 @@ inoremap <silent><expr><right>
 inoremap <silent><expr><left>
       \ pumvisible() ? "\<c-g>u<left>" :
       \ "\<left>"
-nnoremap <silent> gr    <cmd>lua vim.lsp.buf.references()<CR>
+nnoremap <silent>gr <cmd>lua vim.lsp.buf.references()<CR>
 
 "==================================================================================================
 " Functions
@@ -158,7 +162,14 @@ endfunction
 function IsASnippet()
   return !empty(UltiSnips#SnippetsInCurrentScope())
 endfunction
+function! Eatchar(pat)
+  let c = nr2char(getchar(0))
+  return (c =~ a:pat) ? '' : c
+endfunction
 
 "==================================================================================================
 
-inoremap <c-t> <cr><up><esc>o<tab>
+nnoremap <space><space> <cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ find_command = {"rg","--files", "--hidden", "-g", "!node_modules", "-g", "!.git"}}))<cr>
+nnoremap <space><cr> <cmd>lua require'telescope.builtin'.buffers(require('telescope.themes').get_dropdown({show_all_buffers = true }))<cr>
+nnoremap <space>f <cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ cwd = "%:p:h", find_command = {"rg", "--files", "--hidden", "-g", "!node_modules", "-g", "!.git"}}))<cr>
+

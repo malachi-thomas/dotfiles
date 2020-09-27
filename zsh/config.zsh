@@ -1,5 +1,5 @@
 # Config
-export PATH=$PATH:/home/malachi/dotfiles/scripts/
+export PATH=$PATH:/home/malachi/dotfiles/scripts/:node_modules/.bin/
 export EDITOR='nvim'
 export GMAIL='thomasmalachi18@gmail.com'
 export GUSER='malachi557'
@@ -7,8 +7,8 @@ export BROWSER='chromium'
 export TODAY=`date +%d/%b/%Y`
 bindkey '^H' backward-kill-word # Ctrl backspace
 bindkey '5~' kill-word          # Ctrl Delete
-bindkey -s '^n' 'c\n'
-bindkey -s '^v' 'v\n'
+bindkey -s '^n' 'x\n'
+bindkey -s '^b' '-\n'
 export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!**/node_modules/**' --glob '!react-app-env.d.ts' --glob '!**/.git/**' "
 setopt autocd
 autoload -U colors && colors
