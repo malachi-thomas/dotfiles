@@ -179,3 +179,5 @@ endfunction
 nnoremap <space><space> :Files<cr>
 nnoremap <space><cr> :Buffers<cr>
 nnoremap <space>f :Files ~<cr>
+
+
