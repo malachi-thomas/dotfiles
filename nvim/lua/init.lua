@@ -15,6 +15,4 @@ require'nvim_lsp'.clangd.setup {} -- ???
 require'nvim_lsp'.cssls.setup {} -- LspInstall cssls
 require'nvim_lsp'.html.setup {} -- LspInstall html
 require'nvim_lsp'.rls.setup {} -- ???
-reauire'nvim_lsp'.jsonls.setup {} -- LspInstall jsonls
-
-
+-- reauire'nvim_lsp'.jsonls.setup {} -- LspInstall jsonls

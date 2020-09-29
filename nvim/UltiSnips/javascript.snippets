@@ -2,40 +2,35 @@
 # Javascriptreact
 # # # # # #
 
-snippet fcomp
-const $0: React.FC<> = () => {
-	return <div></div>
+snippet fc "" b
+const $1 = () => {
+	return ( 
+		<div>
+			$0
+		</div>
+	)
 }
+
+export default $1
 endsnippet
-snippet ccomp
-class $1 extends React.Component {
-	render() {
-		return (
-			<div>
-				$0
-			</div>
-		)
-	}
-}
+snippet useState "" b
+const [$0, set] = useState()
 endsnippet
-snippet useState
-const [$0, set] = useState<>()
-endsnippet
-snippet render
+snippet render "" b
 ReactDOM.render(<$0 />, document.getElementById('root'))
 endsnippet
-snippet React
+snippet React "" b
 import React from 'react'
 endsnippet
-snippet ReactDOM
+snippet ReactDOM "" b
 import ReactDOM from 'react-dom'
 endsnippet
-snippet state
+snippet state "" b
 state = {
 	$0
 }
 endsnippet
-snippet cc
+snippet cc "" b
 class $1 extends React.Component {
 	render() {
 		return (
@@ -45,32 +40,36 @@ class $1 extends React.Component {
 		)
 	}
 }
+
 export default $1
 endsnippet
-snippet t
+snippet t "" i
 <$0 />
+endsnippet
+snippet onClick
+onClick={$0}
 endsnippet
 
 # # # # # #
 # Javascript
 # # # # # #
 
-snippet import
+snippet import "" b
 import $0 from './'
 endsnippet
-snippet export
+snippet export "" b
 export default 
 endsnippet
-snippet func
+snippet func "" i
 const $0 = () => 
 endsnippet
-snippet const
+snippet const "" b
 const $0 = 
 endsnippet
-snippet let
+snippet let "" b
 let $0 = 
 endsnippet
-snippet cl
+snippet cl "" i
 console.log($0)
 endsnippet
 snippet if "" i
@@ -82,9 +81,27 @@ endsnippet
 snippet else "" i
 else {$0}
 endsnippet
-snippet constructor
+snippet constructor "" b
 constructor(props) {
 	super(props)
 	$0
 }
 endsnippet
+snippet .map "" i
+.map($0 => )
+endsnippet
+
+# # # # # #
+# Tags
+# # # # # #
+
+snippet div
+<div>$0</div>
+endsnippet
+snippet span
+<span>$0</span>
+endsnippet
+snippet button
+<button>$0</button>
+endsnippet
+

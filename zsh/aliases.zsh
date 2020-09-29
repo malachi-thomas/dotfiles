@@ -84,4 +84,5 @@ alias push='git push'
 alias clone='git clone'
 alias checkout='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git checkout {}'
 alias merge='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git merge {}'
-alias reset='git branch | fzf | sed'
+alias reset='git reset --hard'
+

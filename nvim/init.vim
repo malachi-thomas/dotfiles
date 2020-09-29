@@ -7,7 +7,9 @@ lua require('init')
 "==============================================================================
 " Theme
 
-set termguicolors
+if (has("termguicolors"))
+  set termguicolors
+endif
 colorscheme gruvbox
 set background=dark
 set number
@@ -86,6 +88,6 @@ augroup autocmds
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
   autocmd BufWritePre *.vim normal mmgg=G`mzz
   autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
-  " autocmd VimEnter * if argc() == 0 | q | endif " dont open vim with a empty buffer
+  autocmd VimEnter * if argc() == 0 | Dirvish | endif " dont open vim with a empty buffer
 augroup end
 

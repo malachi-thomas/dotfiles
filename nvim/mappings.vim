@@ -79,6 +79,7 @@ autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
 autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
 autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
+" autocmd filetype fzf noremap <silent><buffer><c-h> <c-w>
 
 " Command Mode
 ca ex !chmod +x %<C-R>=Eatchar('\s')<cr>
@@ -140,9 +141,12 @@ inoremap <silent><expr><down>
 inoremap <silent><expr><cr>
       \ pumvisible() ? "\<c-g>u<cr>" :
       \ "\<cr>"
-imap <silent><expr><c-space>
-      \ IsASnippet() ? "\<c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>" :
-      \ "\<Plug>(emmet-expand-abbr)"
+" imap <silent><expr><c-space>
+"       \ IsASnippet() ? "\<c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>" :
+"       \ "\<Plug>(emmet-expand-abbr)"
+inoremap <c-space> <c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>
+imap <c-t> <Plug>(emmet-expand-abbr)
+
 inoremap <silent><expr><right>
       \ pumvisible() ? "\<c-g>u<right>" :
       \ "\<right>"
@@ -169,7 +173,9 @@ endfunction
 
 "==================================================================================================
 
-nnoremap <space><space> <cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ find_command = {"rg","--files", "--hidden", "-g", "!node_modules", "-g", "!.git"}}))<cr>
-nnoremap <space><cr> <cmd>lua require'telescope.builtin'.buffers(require('telescope.themes').get_dropdown({show_all_buffers = true }))<cr>
-nnoremap <space>f <cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ cwd = "%:p:h", find_command = {"rg", "--files", "--hidden", "-g", "!node_modules", "-g", "!.git"}}))<cr>
-
+" nnoremap <space><space> <cmd>lua require'telescope.builtin'.find_files{ find_command = {"rg","--files", "--hidden", "-g", "!node_modules", "-g", "!.git"}}<cr>
+" nnoremap <space><cr> <cmd>lua require'telescope.builtin'.buffers{show_all_buffers = true }<cr>
+" nnoremap <space>f <cmd>lua require'telescope.builtin'.find_files{ cwd = "%:p:h", find_command = {"rg", "--files", "--hidden", "-g", "!node_modules", "-g", "!.git"}}<cr>
+nnoremap <space><space> :Files<cr>
+nnoremap <space><cr> :Buffers<cr>
+nnoremap <space>f :Files ~<cr>
