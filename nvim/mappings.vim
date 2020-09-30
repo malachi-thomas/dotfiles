@@ -75,33 +75,33 @@ nnoremap ss :s/<c-r>=expand("<cword>")<cr>//g<left><left>
 vnoremap ss :s///gi<left><left><left><left>
 
 "Filetype Mappings 
-autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
-autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
-autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
-autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
-autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
-autocmd FileType fzf nnoremap <cr> <c-t>
 
 " Command Mode
 ca ex !chmod +x %<C-R>=Eatchar('\s')<cr>
-ca vrc e ~/dotfiles/nvim/init.vim
-ca vma e ~/dotfiles/nvim/mappings.vim
-ca vpl e ~/dotfiles/nvim/plugins.vim
-ca vpc e ~/dotfiles/nvim/plugin-configs.vim
-ca irc e ~/dotfiles/i3/config
-ca pol e ~/dotfiles/polybar/config
-ca kit e ~/dotfiles/kitty/kitty.conf
-ca sxh e ~/dotfiles/sxhkd/sxhkdrc
-ca bsp e ~/dotfiles/bspwm/bspwmrc
-ca zsh e ~/dotfiles/zsh/.zshrc
-ca mux e ~/dotfiles/tmux/tmux.conf
-ca lrc e ~/dotfiles/nvim/lua/init.lua
+ca vrc tabe ~/dotfiles/nvim/init.vim
+ca vma tabe ~/dotfiles/nvim/mappings.vim
+ca vpl tabe ~/dotfiles/nvim/plugins.vim
+ca vpc tabe ~/dotfiles/nvim/plugin-configs.vim
+ca irc tabe ~/dotfiles/i3/config
+ca pol tabe ~/dotfiles/polybar/config
+ca kit tabe ~/dotfiles/kitty/kitty.conf
+ca sxh tabe ~/dotfiles/sxhkd/sxhkdrc
+ca bsp tabe ~/dotfiles/bspwm/bspwmrc
+ca zsh tabe ~/dotfiles/zsh/.zshrc
+ca mux tabe ~/dotfiles/tmux/tmux.conf
+ca lrc tabe ~/dotfiles/nvim/lua/init.lua
 ca p <c-r>=expand("%:.:h")<cr>/<c-r>=Eatchar('\s')<cr>
 ca f <c-r>=expand("%:.")<cr><c-r>=Eatchar('\s')<cr>
 ca ft <c-r>=expand(&ft)<cr><c-r>=Eatchar('\s')<cr>
 ca w <c-r>=expand("<cword>")<cr><c-r>=Eatchar('\s')<cr>
 ca W <c-r>=expand("<cWORD>")<cr><c-r>=Eatchar('\s')<cr>
-" Command Mode 
+ca sub %s///g<left><left><left><c-r>=Eatchar('\s')<cr>
+ca dsub DSub
+
+" adds all files with the same extension to the argslist
+command Argadd execute 'argadd **/*%:e'
+command! -nargs=0 -bar Qargs execute 'args' QuickfixFilenames()
+command -nargs=* DSub execute 'call DSub(<f-args>)'
 
 " Terminal mappings
 nnoremap <space>tt :FloatermNew<cr>
@@ -110,16 +110,7 @@ tnoremap <esc> <c-\><c-n>
 " Testing
 
 " Plugin Mappings 
-nnoremap <space>tr :LuaTreeToggle<CR>
-nnoremap <leader>r :LuaTreeRefresh<CR>
-nnoremap <leader>n :LuaTreeFindFile<CR>
-nnoremap <c-n> :TabVifm<cr>
-nnoremap <silent>gd :lua vim.lsp.buf.definition()<cr>
-nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
-nnoremap <silent><c-h> :lua vim.lsp.buf.hover()<cr>
 nnoremap <space>sn :UltiSnipsEdit<cr>
-" nnoremap <space><cr> :Buffers!<cr>
-" nnoremap <space><space> :Files!<cr>
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
 nmap <f3> <Plug>VimwikiDiaryNextDay
@@ -154,7 +145,6 @@ inoremap <silent><expr><right>
 inoremap <silent><expr><left>
       \ pumvisible() ? "\<c-g>u<left>" :
       \ "\<left>"
-nnoremap <silent>gr <cmd>lua vim.lsp.buf.references()<CR>
 
 "==================================================================================================
 " Functions
@@ -172,11 +162,43 @@ function! Eatchar(pat)
   return (c =~ a:pat) ? '' : c
 endfunction
 
+function! QuickfixFilenames()
+  let buffer_numbers = {}
+  for quickfix_item in getqflist()
+    let buffer_numbers[quickfix_item['bufnr']] = bufname(quickfix_item['bufnr'])
+  endfor
+  return join(map(values(buffer_numbers), 'fnameescape(v:val)'))
+endfunction
+
+function! DSub(arg1, arg2)
+  Argadd
+  vimgrep /a:arg1/ ##
+  Qargs
+  exec 'argdo %s/' . a:arg1 . '/' . a:arg2 . '/ge'
+endfunction
+
+
 "==================================================================================================
 
-" nnoremap <space><space> <cmd>lua require'telescope.builtin'.find_files{ find_command = {"rg","--files", "--hidden", "-g", "!node_modules", "-g", "!.git"}}<cr>
-" nnoremap <space><cr> <cmd>lua require'telescope.builtin'.buffers{show_all_buffers = true }<cr>
-" nnoremap <space>f <cmd>lua require'telescope.builtin'.find_files{ cwd = "%:p:h", find_command = {"rg", "--files", "--hidden", "-g", "!node_modules", "-g", "!.git"}}<cr>
 nnoremap <space><space> :Files<cr>
 nnoremap <space><cr> :Buffers<cr>
 nnoremap <space>f :Files ~<cr>
+
+if has('nvim')
+  nnoremap <silent>gr <cmd>lua vim.lsp.buf.references()<CR>
+  nnoremap <silent>gd :lua vim.lsp.buf.definition()<cr>
+  nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
+  nnoremap <silent><c-h> :lua vim.lsp.buf.hover()<cr>
+else
+  " is vim 
+  nnoremap <silent> <esc>OA <up>
+  nnoremap <silent> <esc>OB <down>
+  nnoremap <silent> <esc>OC <right>
+  nnoremap <silent> <esc>OD <left>
+  inoremap <silent> <esc>OA <up>
+  inoremap <silent> <esc>OB <down>
+  inoremap <silent> <esc>OC <right>
+  inoremap <silent> <esc>OD <left>
+endif
+nnoremap gf <c-w>gf
+
