@@ -52,7 +52,6 @@ set showmode
 set smartcase
 set ignorecase
 set inccommand=split
-set hlsearch
 set mouse=a
 set clipboard+=unnamed
 set updatetime=50
@@ -88,6 +87,16 @@ augroup autocmds
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
   autocmd BufWritePre *.vim normal mmgg=G`mzz
   autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
-  autocmd VimEnter * if argc() == 0 | Dirvish | endif " dont open vim with a empty buffer
+  " autocmd VimEnter * if argc() == 0 | Dirvish | endif " dont open vim with a empty buffer
+  autocmd bufadd * tabnew
 augroup end
 
+function! s:fzf_statusline()
+  " Override statusline as you like
+  highlight fzf1 ctermfg=161 ctermbg=251
+  highlight fzf2 ctermfg=23 ctermbg=251
+  highlight fzf3 ctermfg=237 ctermbg=251
+  setlocal statusline=%#fzf1#\ >\ %#fzf2#fz%#fzf3#f
+endfunction
+
+autocmd! User FzfStatusLine call <SID>fzf_statusline()

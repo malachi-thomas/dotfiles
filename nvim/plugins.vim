@@ -18,12 +18,15 @@ Plug 'tpope/vim-commentary'
 " Plug 'mattn/emmet-vim'
 Plug 'voldikss/vim-floaterm'
 Plug 'machakann/vim-sandwich'
-Plug 'rhysd/clever-f.vim'
+" Plug 'rhysd/clever-f.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'metakirby5/codi.vim'
 
 " Testing
 Plug 'justinmk/vim-dirvish'
+Plug 'tjdevries/lsp_extensions.nvim'
+Plug 'mileszs/ack.vim'
 
 " Vim Traning
 Plug 'ThePrimeagen/vim-be-good'

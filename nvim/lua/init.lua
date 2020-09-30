@@ -3,6 +3,7 @@ local vim = vim
 local api = vim.api
 local fn = vim.fn
 local filetype = api.nvim_eval("&filetype")
+local completion = require('completion')
 
 
 -- Lsp
@@ -16,3 +17,6 @@ require'nvim_lsp'.cssls.setup {} -- LspInstall cssls
 require'nvim_lsp'.html.setup {} -- LspInstall html
 require'nvim_lsp'.rls.setup {} -- ???
 -- reauire'nvim_lsp'.jsonls.setup {} -- LspInstall jsonls
+
+
+

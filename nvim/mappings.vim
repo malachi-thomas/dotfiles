@@ -67,6 +67,7 @@ vnoremap <down> <down>zz
 vnoremap { {zz
 vnoremap } }zz
 vnoremap y "*y
+vnoremap p "_dP
 
 "Substitutions 
 nnoremap SS :s/<c-r>=expand("<cWORD>>")<cr>//g<left><left>
@@ -79,7 +80,7 @@ autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
 autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
 autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
 autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
-" autocmd filetype fzf noremap <silent><buffer><c-h> <c-w>
+autocmd FileType fzf nnoremap <cr> <c-t>
 
 " Command Mode
 ca ex !chmod +x %<C-R>=Eatchar('\s')<cr>
@@ -179,5 +180,3 @@ endfunction
 nnoremap <space><space> :Files<cr>
 nnoremap <space><cr> :Buffers<cr>
 nnoremap <space>f :Files ~<cr>
-
-

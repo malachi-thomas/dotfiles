@@ -17,12 +17,11 @@ npm i eslint-plugin-standard
 
 mkdir src public src/components src/components/App
 
-cp -f ~/dotfiles/react/.react-eslintrc .eslintrc.json
+cp -f ~/dotfiles/react/.react-eslintrc.json .eslintrc.json
 cp -f ~/dotfiles/.stylelintrc.json .stylelintrc.json
 cp ~/dotfiles/react/App.js src/components/App/App.js
-cp ~/dotfiles/react/react-index.js src/index.js
-cp ~/dotfiles/react/react-index.html public/index.html
-cp ~/dotfiles/react/react-index.scss src/index.scss
-cp ~/dotfiles/react/add.json add.json
+# cp ~/dotfiles/react/react-index.js src/index.js
+# cp ~/dotfiles/react/react-index.html public/index.html
+# cp ~/dotfiles/react/react-index.scss src/index.scss
 
 xclip -selection "primary" < ~/dotfiles/react/copy.this
