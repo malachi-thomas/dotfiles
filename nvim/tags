@@ -1,0 +1,175 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+<c-h>	mappings.vim	/^  nnoremap <silent><c-h> :lua vim.lsp.buf.hover()<cr>$/;"	m
+<c-h>	mappings.vim	/^cnoremap <c-h> <c-w>$/;"	m
+<c-h>	mappings.vim	/^inoremap <c-h> <c-w>$/;"	m
+<c-i>	mappings.vim	/^nnoremap <c-i> <c-i>zz$/;"	m
+<c-k>	mappings.vim	/^inoremap <c-k> <c-x><c-k>$/;"	m
+<c-o>	mappings.vim	/^nnoremap <c-o> <c-o>zz$/;"	m
+<c-s>	mappings.vim	/^inoremap <c-s> <c-o>:w!<cr>$/;"	m
+<c-s>	mappings.vim	/^nnoremap <c-s> :w!<cr>$/;"	m
+<c-space>	mappings.vim	/^inoremap <c-space> <c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>$/;"	m
+<c-z>	mappings.vim	/^nnoremap <c-z> <nop>$/;"	m
+<cr>	mappings.vim	/^inoremap <silent><expr><cr>$/;"	m
+<down>	mappings.vim	/^inoremap <silent><expr><down>$/;"	m
+<down>	mappings.vim	/^nnoremap <down> gjzz$/;"	m
+<down>	mappings.vim	/^vnoremap <down> <down>zz$/;"	m
+<esc>	mappings.vim	/^inoremap <esc> <right><esc>$/;"	m
+<esc>	mappings.vim	/^nnoremap <esc> <esc>:nohl<cr>$/;"	m
+<esc>OA	mappings.vim	/^  inoremap <silent> <esc>OA <up>$/;"	m
+<esc>OA	mappings.vim	/^  nnoremap <silent> <esc>OA <up>$/;"	m
+<esc>OB	mappings.vim	/^  inoremap <silent> <esc>OB <down>$/;"	m
+<esc>OB	mappings.vim	/^  nnoremap <silent> <esc>OB <down>$/;"	m
+<esc>OC	mappings.vim	/^  inoremap <silent> <esc>OC <right>$/;"	m
+<esc>OC	mappings.vim	/^  nnoremap <silent> <esc>OC <right>$/;"	m
+<esc>OD	mappings.vim	/^  inoremap <silent> <esc>OD <left>$/;"	m
+<esc>OD	mappings.vim	/^  nnoremap <silent> <esc>OD <left>$/;"	m
+<f1>	mappings.vim	/^nmap <f1> <Plug>VimwikiNextLink$/;"	m
+<f2>	mappings.vim	/^nmap <f2> <Plug>VimwikiAddHeaderLevel$/;"	m
+<f3>	mappings.vim	/^nmap <f3> <Plug>VimwikiDiaryNextDay$/;"	m
+<f4>	mappings.vim	/^nmap <f4> <Plug>VimwikiDiaryPrevDay$/;"	m
+<f5>	mappings.vim	/^nmap <f5> <Plug>VimwikiPrevLink$/;"	m
+<f6>	mappings.vim	/^nmap <f6> <Plug>VimwikiGoBackLink$/;"	m
+<home>	mappings.vim	/^inoremap <home> <c-o>^$/;"	m
+<home>	mappings.vim	/^nnoremap <home> ^$/;"	m
+<left>	mappings.vim	/^inoremap <silent><expr><left>$/;"	m
+<pagedown>	mappings.vim	/^nnoremap <pagedown> <c-d>zz$/;"	m
+<pageup>	mappings.vim	/^nnoremap <pageup> <c-u>zz$/;"	m
+<right>	mappings.vim	/^inoremap <silent><expr><right>$/;"	m
+<s-down>	mappings.vim	/^nnoremap <s-down> v<down>$/;"	m
+<s-down>	mappings.vim	/^vnoremap <s-down> <down>$/;"	m
+<s-left>	mappings.vim	/^nnoremap <s-left> v<left>$/;"	m
+<s-left>	mappings.vim	/^vnoremap <s-left> <left>$/;"	m
+<s-right>	mappings.vim	/^nnoremap <s-right> v<right>$/;"	m
+<s-right>	mappings.vim	/^vnoremap <s-right> <right>$/;"	m
+<s-up>	mappings.vim	/^nnoremap <s-up> v<up>$/;"	m
+<s-up>	mappings.vim	/^vnoremap <s-up> <up>$/;"	m
+<space><cr>	mappings.vim	/^nnoremap <space><cr> :Vista finder!<cr>$/;"	m
+<space><down>	mappings.vim	/^nnoremap <space><down> <c-w>j$/;"	m
+<space><left>	mappings.vim	/^nnoremap <space><left> <c-w>h$/;"	m
+<space><right>	mappings.vim	/^nnoremap <space><right> <c-w>l$/;"	m
+<space><space>	mappings.vim	/^nnoremap <space><space> :Files<cr>$/;"	m
+<space><up>	mappings.vim	/^nnoremap <space><up> <c-w>k$/;"	m
+<space>f	mappings.vim	/^nnoremap <space>f :Files ~<cr>$/;"	m
+<space>hw	mappings.vim	/^nnoremap <space>hw :h <c-r>=expand("<cword>>")<cr><cr>$/;"	m
+<space>n	mappings.vim	/^nnoremap <space>n :tabnew<cr>$/;"	m
+<space>rg	mappings.vim	/^nnoremap <space>rg :Rg! <C-R>=expand("<cword>")<cr><cr>$/;"	m
+<space>rn	mappings.vim	/^  nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>$/;"	m
+<space>sn	mappings.vim	/^nnoremap <space>sn :UltiSnipsEdit<cr>$/;"	m
+<space>tt	mappings.vim	/^nnoremap <space>tt :FloatermNew<cr>$/;"	m
+<space>vs	mappings.vim	/^nnoremap <space>vs :vnew<cr>$/;"	m
+<tab>	mappings.vim	/^imap <silent><expr><tab>$/;"	m
+<tab>	mappings.vim	/^nnoremap <tab> :tabn<cr>$/;"	m
+<up>	mappings.vim	/^inoremap <silent><expr><up>$/;"	m
+<up>	mappings.vim	/^nnoremap <up> gkzz$/;"	m
+<up>	mappings.vim	/^vnoremap <up> <up>zz$/;"	m
+Argadd	mappings.vim	/^command Argadd execute 'argadd **\/*%:e'$/;"	c
+DSub	mappings.vim	/^command -nargs=* DSub execute 'call DSub(<f-args>)'$/;"	c
+DSub	mappings.vim	/^function! DSub(arg1, arg2)$/;"	f
+Eatchar	mappings.vim	/^function! Eatchar(pat)$/;"	f
+G	mappings.vim	/^nnoremap G Gzz$/;"	m
+H	mappings.vim	/^nnoremap H <nop>$/;"	m
+Hats	init.vim	/^function! Hats()$/;"	f
+IsASnippet	mappings.vim	/^function IsASnippet()$/;"	f
+K	mappings.vim	/^nnoremap K <nop>$/;"	m
+L	mappings.vim	/^nnoremap L <nop>$/;"	m
+Q	mappings.vim	/^nnoremap Q <nop>$/;"	m
+Qargs	mappings.vim	/^command! -nargs=0 -bar Qargs execute 'args' QuickfixFilenames()$/;"	c
+QuickfixFilenames	mappings.vim	/^function! QuickfixFilenames()$/;"	f
+R	mappings.vim	/^nnoremap R <nop>$/;"	m
+Rg	plugin-configs.vim	/^command! -bang -nargs=* Rg$/;"	c
+S	mappings.vim	/^nnoremap S <nop>$/;"	m
+SS	mappings.vim	/^nnoremap SS :s\/<c-r>=expand("<cWORD>>")<cr>\/\/g<left><left>$/;"	m
+autocmds	init.vim	/^augroup autocmds$/;"	a
+cl	mappings.vim	/^nnoremap cl :normal 0c$<cr>$/;"	m
+dl	mappings.vim	/^nnoremap dl :normal 0d$<cr>$/;"	m
+g:PaperColor_Theme_Options	plugin-configs.vim	/^let g:PaperColor_Theme_Options = {$/;"	v
+g:UltiSnipsExpandTrigger	plugin-configs.vim	/^let g:UltiSnipsExpandTrigger="<c-cr>"$/;"	v
+g:UltiSnipsJumpBackwardTrigger	plugin-configs.vim	/^let g:UltiSnipsJumpBackwardTrigger="<c-cr>"$/;"	v
+g:UltiSnipsJumpForwardTrigger	plugin-configs.vim	/^let g:UltiSnipsJumpForwardTrigger="<c-cr>"$/;"	v
+g:UltiSnipsSnippetDirectories	plugin-configs.vim	/^let g:UltiSnipsSnippetDirectories = ['~\/dotfiles\/nvim\/UltiSnips']$/;"	v
+g:airline#extensions#tabline#enabled	plugin-configs.vim	/^let g:airline#extensions#tabline#enabled = 1$/;"	v
+g:airline#extensions#tabline#formatter	plugin-configs.vim	/^let g:airline#extensions#tabline#formatter = 'unique_tail'$/;"	v
+g:airline#extensions#tabline#left_alt_sep	plugin-configs.vim	/^let g:airline#extensions#tabline#left_alt_sep = ''$/;"	v
+g:airline#extensions#tabline#left_sep	plugin-configs.vim	/^let g:airline#extensions#tabline#left_sep = ''$/;"	v
+g:airline#extensions#tabline#right_alt_sep	plugin-configs.vim	/^let g:airline#extensions#tabline#right_alt_sep = ''$/;"	v
+g:airline#extensions#tabline#right_sep	plugin-configs.vim	/^let g:airline#extensions#tabline#right_sep = ''$/;"	v
+g:airline#extensions#tabline#show_buffers	plugin-configs.vim	/^let g:airline#extensions#tabline#show_buffers = 0$/;"	v
+g:airline#extensions#tabline#show_splits	plugin-configs.vim	/^let g:airline#extensions#tabline#show_splits = 0$/;"	v
+g:airline#extensions#tabline#show_tab_count	plugin-configs.vim	/^let g:airline#extensions#tabline#show_tab_count = 0 " no tab number on right hand side$/;"	v
+g:airline#extensions#tabline#show_tab_nr	plugin-configs.vim	/^let g:airline#extensions#tabline#show_tab_nr = 0 " no tab number$/;"	v
+g:airline#extensions#tabline#show_tabs	plugin-configs.vim	/^let g:airline#extensions#tabline#show_tabs = 1$/;"	v
+g:airline#extensions#tabline#tabs_label	plugin-configs.vim	/^let g:airline#extensions#tabline#tabs_label = ''$/;"	v
+g:ale_fix_on_save	plugin-configs.vim	/^let g:ale_fix_on_save = 1$/;"	v
+g:ale_fixers	plugin-configs.vim	/^let g:ale_fixers = {$/;"	v
+g:ale_lint_on_enter	plugin-configs.vim	/^let g:ale_lint_on_enter = 1$/;"	v
+g:ale_linters	plugin-configs.vim	/^let g:ale_linters = {$/;"	v
+g:ale_linters_explicit	plugin-configs.vim	/^let g:ale_linters_explicit = 1$/;"	v
+g:ale_set_highlights	plugin-configs.vim	/^let g:ale_set_highlights = 1$/;"	v
+g:ale_set_signs	plugin-configs.vim	/^let g:ale_set_signs = 0$/;"	v
+g:clever_f_across_no_line	plugin-configs.vim	/^let g:clever_f_across_no_line = 1$/;"	v
+g:clever_f_smart_case	plugin-configs.vim	/^let g:clever_f_smart_case = 1$/;"	v
+g:completion_chain_complete_list	plugin-configs.vim	/^let g:completion_chain_complete_list = {$/;"	v
+g:completion_confirm_key	plugin-configs.vim	/^let g:completion_confirm_key = ""$/;"	v
+g:completion_enable_auto_hover	plugin-configs.vim	/^let g:completion_enable_auto_hover = 0$/;"	v
+g:completion_enable_auto_paren	plugin-configs.vim	/^let g:completion_enable_auto_paren = 0$/;"	v
+g:completion_enable_auto_signature	plugin-configs.vim	/^let g:completion_enable_auto_signature = 0$/;"	v
+g:completion_enable_snippet	plugin-configs.vim	/^let g:completion_enable_snippet = 'UltiSnips'$/;"	v
+g:completion_matching_ignore_case	plugin-configs.vim	/^let g:completion_matching_ignore_case = 1$/;"	v
+g:completion_matching_strategy_list	plugin-configs.vim	/^let g:completion_matching_strategy_list = ['exact']$/;"	v
+g:completion_sorting	plugin-configs.vim	/^let g:completion_sorting = 'none'$/;"	v
+g:completion_trigger_character	plugin-configs.vim	/^let g:completion_trigger_character = ['.']$/;"	v
+g:completion_trigger_keyword_length	plugin-configs.vim	/^let g:completion_trigger_keyword_length = 1$/;"	v
+g:completion_trigger_on_delete	plugin-configs.vim	/^let g:completion_trigger_on_delete = 0$/;"	v
+g:diagnostic_enable_virtual_text	plugin-configs.vim	/^let g:diagnostic_enable_virtual_text = 1$/;"	v
+g:diagnostic_show_sign	plugin-configs.vim	/^let g:diagnostic_show_sign = 2$/;"	v
+g:diagnostic_virtual_text_prefix	plugin-configs.vim	/^let g:diagnostic_virtual_text_prefix = 'ﱢ'$/;"	v
+g:fzf_action	plugin-configs.vim	/^let g:fzf_action = {$/;"	v
+g:fzf_colors	plugin-configs.vim	/^let g:fzf_colors = {$/;"	v
+g:fzf_layout	plugin-configs.vim	/^let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 }}$/;"	v
+g:fzf_preview_window	plugin-configs.vim	/^let g:fzf_preview_window = ''$/;"	v
+g:loaded_netrw	plugin-configs.vim	/^let g:loaded_netrw  = 1$/;"	v
+g:mkdp_auto_close	plugin-configs.vim	/^let g:mkdp_auto_close = 1$/;"	v
+g:mkdp_auto_start	plugin-configs.vim	/^let g:mkdp_auto_start = 0$/;"	v
+g:mkdp_browser	plugin-configs.vim	/^let g:mkdp_browser = 'brave'$/;"	v
+g:mkdp_browserfunc	plugin-configs.vim	/^let g:mkdp_browserfunc = ''$/;"	v
+g:mkdp_command_for_global	plugin-configs.vim	/^let g:mkdp_command_for_global = 0$/;"	v
+g:mkdp_echo_preview_url	plugin-configs.vim	/^let g:mkdp_echo_preview_url = 0$/;"	v
+g:mkdp_highlight_css	plugin-configs.vim	/^let g:mkdp_highlight_css = ''$/;"	v
+g:mkdp_markdown_css	plugin-configs.vim	/^let g:mkdp_markdown_css = ''$/;"	v
+g:mkdp_open_ip	plugin-configs.vim	/^let g:mkdp_open_ip = ''$/;"	v
+g:mkdp_open_to_the_world	plugin-configs.vim	/^let g:mkdp_open_to_the_world = 0$/;"	v
+g:mkdp_page_title	plugin-configs.vim	/^let g:mkdp_page_title = '${name}'$/;"	v
+g:mkdp_port	plugin-configs.vim	/^let g:mkdp_port = ''$/;"	v
+g:mkdp_refresh_slow	plugin-configs.vim	/^let g:mkdp_refresh_slow = 0$/;"	v
+g:rooter_patterns	plugin-configs.vim	/^let g:rooter_patterns = ['=src', '=.git', '=nvim']$/;"	v
+g:space_before_virtual_text	plugin-configs.vim	/^let g:space_before_virtual_text = 4$/;"	v
+g:user_emmet_settings	plugin-configs.vim	/^let g:user_emmet_settings = {$/;"	v
+g:vimwiki_list	plugin-configs.vim	/^let g:vimwiki_list = [{$/;"	v
+g:vimwiki_table_auto_fmt	plugin-configs.vim	/^let g:vimwiki_table_auto_fmt=0$/;"	v
+g:vimwiki_table_mappings	plugin-configs.vim	/^let g:vimwiki_table_mappings = 0$/;"	v
+g:vista_fzf_preview	plugin-configs.vim	/^let g:vista_fzf_preview = ['right:0%']$/;"	v
+gd	mappings.vim	/^  nnoremap <silent>gd :lua vim.lsp.buf.definition()<cr>$/;"	m
+gf	mappings.vim	/^nnoremap gf <c-w>gf$/;"	m
+gr	mappings.vim	/^  nnoremap <silent>gr <cmd>lua vim.lsp.buf.references()<CR>$/;"	m
+hello_world	lua/test.lua	/^local function hello_world()$/;"	f
+location_callback	lua/callbacks.lua	/^local location_callback = function(_, method, result)$/;"	f
+p	mappings.vim	/^vnoremap p "_dP$/;"	m
+r	mappings.vim	/^nnoremap r <nop>$/;"	m
+s:check_back_space	mappings.vim	/^function! s:check_back_space() abort$/;"	f
+ss	mappings.vim	/^nnoremap ss :s\/<c-r>=expand("<cword>")<cr>\/\/g<left><left>$/;"	m
+ss	mappings.vim	/^vnoremap ss :s\/\/\/gi<left><left><left><left>$/;"	m
+y	mappings.vim	/^nnoremap y "*y$/;"	m
+y	mappings.vim	/^vnoremap y "*y$/;"	m
+yi	mappings.vim	/^nnoremap yi "*yi$/;"	m
+yl	mappings.vim	/^nnoremap yl :normal 0y$<cr>$/;"	m
+{	mappings.vim	/^nnoremap { {zz$/;"	m
+{	mappings.vim	/^vnoremap { {zz$/;"	m
+}	mappings.vim	/^nnoremap } }zz$/;"	m
+}	mappings.vim	/^vnoremap } }zz$/;"	m

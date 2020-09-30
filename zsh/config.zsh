@@ -5,6 +5,9 @@ export GMAIL='thomasmalachi18@gmail.com'
 export GUSER='malachi557'
 export BROWSER='chromium'
 export TODAY=`date +%d/%b/%Y`
+export MANPAGER='nvim +Man -c":set signcolumn="'
+export MANWIDTH='999'
+
 bindkey '^H' backward-kill-word # Ctrl backspace
 bindkey '5~' kill-word          # Ctrl Delete
 bindkey -s '^n' 'x\n'

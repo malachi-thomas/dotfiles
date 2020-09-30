@@ -24,6 +24,7 @@ alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'
 alias cc='cd && cd $(dirname "$(fzf -e)")'
 alias v='nvim'
 alias x='vifm .'
+alias tags='ctags -R --sort=1 --exclude=node_modules'
 
 
 # Config Files

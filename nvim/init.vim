@@ -105,6 +105,11 @@ augroup autocmds
   endif
 augroup end
 
+function! Has_tags()
+  if !empty(glob("%:.:h/tags"))
+    !ctags -a %:.:h/tags
+  endif
+endfunction
 
 
 

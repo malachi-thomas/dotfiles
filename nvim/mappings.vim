@@ -45,11 +45,11 @@ nnoremap yi "*yi
 inoremap <c-h> <c-w>
 nnoremap <space>rg :Rg! <C-R>=expand("<cword>")<cr><cr>
 nnoremap <space>hw :h <c-r>=expand("<cword>>")<cr><cr>
-nnoremap <bs> "_X
 cnoremap <c-h> <c-w>
 nnoremap <esc> <esc>:nohl<cr>
 inoremap <c-k> <c-x><c-k>
 inoremap <esc> <right><esc>
+nnoremap gf <c-w>gf
 
 " Unmap
 nnoremap K <nop>
@@ -119,7 +119,10 @@ nmap <f5> <Plug>VimwikiPrevLink
 nmap <f6> <Plug>VimwikiGoBackLink
 ca mv Move
 ca mk Mkdir
-aboveleft
+inoremap <c-space> <c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>
+nnoremap <space><space> :Files<cr>
+nnoremap <space>f :Files ~<cr>
+nnoremap <space><cr> :Vista finder!<cr>
 imap <silent><expr><tab>
       \ pumvisible() ? "\<Plug>(completion_confirm_completion)" :
       \ <sid>check_back_space() ? "\<tab>" :
@@ -133,12 +136,6 @@ inoremap <silent><expr><down>
 inoremap <silent><expr><cr>
       \ pumvisible() ? "\<c-g>u<cr>" :
       \ "\<cr>"
-" imap <silent><expr><c-space>
-"       \ IsASnippet() ? "\<c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>" :
-"       \ "\<Plug>(emmet-expand-abbr)"
-inoremap <c-space> <c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>
-imap <c-t> <Plug>(emmet-expand-abbr)
-
 inoremap <silent><expr><right>
       \ pumvisible() ? "\<c-g>u<right>" :
       \ "\<right>"
@@ -180,9 +177,6 @@ endfunction
 
 "==================================================================================================
 
-nnoremap <space><space> :Files<cr>
-nnoremap <space><cr> :Buffers<cr>
-nnoremap <space>f :Files ~<cr>
 
 if has('nvim')
   nnoremap <silent>gr <cmd>lua vim.lsp.buf.references()<CR>
@@ -200,5 +194,4 @@ else
   inoremap <silent> <esc>OC <right>
   inoremap <silent> <esc>OD <left>
 endif
-nnoremap gf <c-w>gf
 

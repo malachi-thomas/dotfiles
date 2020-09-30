@@ -10,31 +10,30 @@ if has('nvim')
   Plug 'nvim-lua/diagnostic-nvim'
   Plug 'norcalli/nvim-colorizer.lua'
   Plug 'norcalli/nvim_utils'
+  Plug 'kristijanhusak/completion-tags'
 
   " Vim Traning
   Plug 'ThePrimeagen/vim-be-good'
 endif
 
 " Programming
-Plug 'dense-analysis/ale'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-eunuch'
-Plug 'SirVer/ultisnips'
-Plug 'tpope/vim-commentary'
-" Plug 'mattn/emmet-vim'
-Plug 'voldikss/vim-floaterm'
-Plug 'machakann/vim-sandwich'
-Plug 'rhysd/clever-f.vim'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'metakirby5/codi.vim'
+Plug 'dense-analysis/ale' " linting and fixing
+Plug 'tpope/vim-fugitive' " git intergration
+Plug 'tpope/vim-eunuch' " bash commands
+Plug 'SirVer/ultisnips' " snippets
+Plug 'tpope/vim-commentary' " for esey commenting
+Plug 'airblade/vim-rooter' " set the root directory
+Plug 'machakann/vim-sandwich' " for sorrounding arrounding things
+Plug 'rhysd/clever-f.vim' " better f key
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " FZF
+Plug 'junegunn/fzf.vim' " FZF
+Plug 'metakirby5/codi.vim' " inline code meseges
 
 " Testing
-Plug 'justinmk/vim-dirvish'
-Plug 'tjdevries/lsp_extensions.nvim'
+Plug 'justinmk/vim-dirvish' " better file manager
 Plug 'mileszs/ack.vim'
-Plug 'liuchengxu/vista.vim'
-
+Plug 'liuchengxu/vista.vim' " tag viewing
+Plug 'craigemery/vim-autotag' " for updating tags file
 
 " Notetaking
 Plug 'vimwiki/vimwiki'
