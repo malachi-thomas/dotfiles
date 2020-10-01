@@ -150,14 +150,16 @@ let g:clever_f_smart_case = 1
 
 let g:loaded_netrw  = 1
 
-" let g:vista_executive_for = {
-"                   \ 'javascript': 'nvim_lsp',
-"                   \ 'javascriptreact': 'nvim_lsp',
-"                   \ }
+" vim-vista
 let g:vista_fzf_preview = ['right:0%']
+
+" vim-rooter
 let g:rooter_patterns = ['=src', '=.git', '=nvim']
 
-
-
-
-
+" vim-gutentags
+let g:gutentags_add_default_project_roots = 0
+let g:gutentags_project_root = ['tags'] 
+let g:gutentags_generate_on_new = 0
+let g:gutentags_generate_on_missing = 0
+let g:gutentags_generate_on_write = 1
+let g:gutentags_generate_on_empty_buffer = 0

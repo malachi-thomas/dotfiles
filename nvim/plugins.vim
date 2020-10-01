@@ -33,7 +33,7 @@ Plug 'metakirby5/codi.vim' " inline code meseges
 Plug 'justinmk/vim-dirvish' " better file manager
 Plug 'mileszs/ack.vim'
 Plug 'liuchengxu/vista.vim' " tag viewing
-Plug 'craigemery/vim-autotag' " for updating tags file
+Plug 'craigemery/vim-autotag'
 
 " Notetaking
 Plug 'vimwiki/vimwiki'
