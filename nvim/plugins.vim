@@ -31,9 +31,8 @@ Plug 'metakirby5/codi.vim' " inline code meseges
 
 " Testing
 Plug 'justinmk/vim-dirvish' " better file manager
-Plug 'mileszs/ack.vim'
 Plug 'liuchengxu/vista.vim' " tag viewing
-Plug 'craigemery/vim-autotag'
+Plug 'ludovicchabant/vim-gutentags'
 
 " Notetaking
 Plug 'vimwiki/vimwiki'
