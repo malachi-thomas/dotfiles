@@ -1,5 +1,5 @@
 "==================================================================================================
-
+" let mapleader = ' '
 " Basic Movement
 nnoremap <up> gkzz
 nnoremap <down> gjzz
@@ -26,18 +26,18 @@ inoremap <home> <c-o>^
 
 " Buffers
 nnoremap <c-s> :w!<cr>
-inoremap <c-s> <c-o>:w!<cr>
+nnoremap <c-q> :wqa!<cr>
+nnoremap ZZ :call TabClose()<cr>
+nnoremap <tab> :bn<cr>
+nnoremap <space>n :enew<cr>
 
 " Splits
 nnoremap <space><up> <c-w>k
 nnoremap <space><down> <c-w>j
 nnoremap <space><left> <c-w>h
 nnoremap <space><right> <c-w>l
-nnoremap <space>vs :vnew<cr>
 
 " Tabs
-nnoremap <tab> :tabn<cr>
-nnoremap <space>n :tabnew<cr>
 
 " Extra
 nnoremap y "*y
@@ -49,7 +49,6 @@ cnoremap <c-h> <c-w>
 nnoremap <esc> <esc>:nohl<cr>
 inoremap <c-k> <c-x><c-k>
 inoremap <esc> <right><esc>
-nnoremap gf <c-w>gf
 
 " Unmap
 nnoremap K <nop>
@@ -110,7 +109,6 @@ tnoremap <esc> <c-\><c-n>
 " Testing
 
 " Plugin Mappings 
-nnoremap <space>sn :UltiSnipsEdit<cr>
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
 nmap <f3> <Plug>VimwikiDiaryNextDay
@@ -122,7 +120,8 @@ ca mk Mkdir
 inoremap <c-space> <c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>
 nnoremap <space><space> :Files<cr>
 nnoremap <space>f :Files ~<cr>
-nnoremap <space><cr> :Vista finder!<cr>
+nnoremap <space><cr> :Tags<cr>
+nnoremap <space>sn :tab split \| UltiSnipsEdit<cr>
 imap <silent><expr><tab>
       \ pumvisible() ? "\<Plug>(completion_confirm_completion)" :
       \ <sid>check_back_space() ? "\<tab>" :
@@ -174,6 +173,15 @@ function! DSub(arg1, arg2)
   exec 'argdo %s/' . a:arg1 . '/' . a:arg2 . '/ge'
 endfunction
 
+function! TabClose()
+  if bufnr('$') == 1
+    x
+  elseif &ft == 'fzf'
+    x
+  else
+    w | bw
+  endif
+endfunction
 
 "==================================================================================================
 
@@ -184,6 +192,7 @@ if has('nvim')
   nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
   nnoremap <silent><c-h> :lua vim.lsp.buf.hover()<cr>
 else
+  nnoremap gd <c-]>
   " is vim 
   nnoremap <silent> <esc>OA <up>
   nnoremap <silent> <esc>OB <down>

@@ -25,6 +25,7 @@ alias cc='cd && cd $(dirname "$(fzf -e)")'
 alias v='nvim'
 alias x='vifm .'
 alias tags='ctags -R --sort=1 --exclude=node_modules'
+alias f='rg --files | fzf | xargs -I "{}" nvim {}'
 
 
 # Config Files

@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+getParentNodePid	sw.py	/^def getParentNodePid(node):$/;"	f
+getWindowIdfromPId	sw.py	/^def getWindowIdfromPId(pid):$/;"	f
+hideSwallowParent	sw.py	/^def hideSwallowParent(node, windowId, swallowId):$/;"	f
+i3	sw.py	/^i3 = i3ipc.Connection()$/;"	v
+on_close	sw.py	/^def on_close(self, event):$/;"	f
+on_new	sw.py	/^def on_new(self, event):$/;"	f
+swallowDict	sw.py	/^swallowDict={}$/;"	v

@@ -9,7 +9,6 @@ if has('nvim')
   Plug 'steelsojka/completion-buffers'
   Plug 'nvim-lua/diagnostic-nvim'
   Plug 'norcalli/nvim-colorizer.lua'
-  Plug 'norcalli/nvim_utils'
   Plug 'kristijanhusak/completion-tags'
 
   " Vim Traning
@@ -28,11 +27,10 @@ Plug 'rhysd/clever-f.vim' " better f key
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " FZF
 Plug 'junegunn/fzf.vim' " FZF
 Plug 'metakirby5/codi.vim' " inline code meseges
+Plug 'ludovicchabant/vim-gutentags' " updating tags file
+Plug 'justinmk/vim-dirvish' " better file manager
 
 " Testing
-Plug 'justinmk/vim-dirvish' " better file manager
-Plug 'liuchengxu/vista.vim' " tag viewing
-Plug 'ludovicchabant/vim-gutentags'
 
 " Notetaking
 Plug 'vimwiki/vimwiki'
@@ -42,8 +40,6 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'morhetz/gruvbox'
 Plug 'sheerun/vim-polyglot'
 Plug 'mboughaba/i3config.vim'
-Plug 'machakann/vim-highlightedyank'
-" Plug 'shmargum/vim-sass-colors' don't use this plugin it dosnt work with fzf
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'Rigellute/shades-of-purple.vim'

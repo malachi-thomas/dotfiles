@@ -28,9 +28,21 @@ super + shift + t
 super + shift + q
   betterlockscreen -s dim
 
-
 super + shift + x
   kill -9 -1
+
+super + shift + r
+  reboot
+
+alt + super + control + shift + a
+  sh ~/dotfiles/scripts/toggl.sh anime
+
+alt + super + control + shift + s
+  sh ~/dotfiles/scripts/toggl.sh
+
+alt + super + control + shift + f
+  sh ~/dotfiles/scripts/toggl.sh focus
+
 
 # bspwm
 #

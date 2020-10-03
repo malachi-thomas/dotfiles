@@ -14,14 +14,12 @@ npm i eslint-plugin-node
 npm i eslint-plugin-promise
 npm i eslint-plugin-react
 npm i eslint-plugin-standard
+npm i prettier
 
 mkdir src public src/components src/components/App
 
 cp -f ~/dotfiles/react/.react-eslintrc.json .eslintrc.json
 cp -f ~/dotfiles/.stylelintrc.json .stylelintrc.json
-cp ~/dotfiles/react/App.js src/components/App/App.js
-# cp ~/dotfiles/react/react-index.js src/index.js
-# cp ~/dotfiles/react/react-index.html public/index.html
-# cp ~/dotfiles/react/react-index.scss src/index.scss
+cp -f ~/dotfiles/.prettierrc.json .prettierrc.json
 
 xclip -selection "primary" < ~/dotfiles/react/copy.this

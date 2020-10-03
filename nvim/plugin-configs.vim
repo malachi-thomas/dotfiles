@@ -15,12 +15,12 @@ let g:ale_linters = {
       \ 'python': ['autopep8']
       \}
 let g:ale_fixers = {
-      \ 'typescript': ['eslint'],
-      \ 'typescriptreact': ['eslint'],
-      \ 'javascriptreact': ['eslint'],
-      \ 'javascript': ['eslint'],
+      \ 'typescript': ['prettier'],
+      \ 'typescriptreact': ['prettier'],
+      \ 'javascriptreact': ['prettier'],
+      \ 'javascript': ['prettier'],
       \ 'json': ['fixjson'],
-      \ 'scss': ['eslint'],
+      \ 'scss': ['prettier'],
       \ 'sass': ['stylelint'],
       \ 'css': ['stylelint'],
       \ 'markdown': ['prettier'],
@@ -34,15 +34,15 @@ let g:ale_lint_on_enter = 1
 let g:ale_set_signs = 0
 
 "Airline
-let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = ''
-let g:airline#extensions#tabline#right_sep = ''
+let g:airline#extensions#tabline#right_sep = ' '
 let g:airline#extensions#tabline#right_alt_sep = ''
-let g:airline#extensions#tabline#tabs_label = ''
+let g:airline#extensions#tabline#tabs_label = ' '
 let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#formatter = 'unique_tail'
-let g:airline#extensions#tabline#show_buffers = 0
-let g:airline#extensions#tabline#show_tabs = 1
+" let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+let g:airline#extensions#tabline#show_buffers = 1
+let g:airline#extensions#tabline#show_tabs = 0
 let g:airline#extensions#tabline#show_splits = 0
 let g:airline#extensions#tabline#show_tab_nr = 0 " no tab number
 let g:airline#extensions#tabline#show_tab_count = 0 " no tab number on right hand side
@@ -61,34 +61,22 @@ let g:completion_confirm_key = ""
 let g:completion_enable_auto_paren = 0
 let g:completion_chain_complete_list = {
       \'default' : [
-      \  {'complete_items': ['UltiSnips', 'tags', 'buffers', 'path', 'lsp']}
+      \  {'complete_items': ['UltiSnips', 'tags', 'path', 'lsp', 'buffers']}
       \ ]}
 
 
 " vim-fzf
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 }}
 let g:fzf_preview_window = ''
+let g:fzf_buffers_jump = 1
 let g:fzf_action = {
-      \ 'ctrl-m': 'tab split',
       \ 'ctrl-s': 'vsplit' }
-let g:fzf_colors = {
-      \'fg':      ['fg', 'Normal'],
-      \ 'bg':      ['bg', 'Normal'],
-      \ 'hl':      ['fg', 'Comment'],
-      \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-      \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
-      \ 'hl+':     ['fg', 'Statement'],
-      \ 'info':    ['fg', 'PreProc'],
-      \ 'border':  ['fg', 'Ignore'],
-      \ 'prompt':  ['fg', 'Conditional'],
-      \ 'pointer': ['fg', 'Exception'],
-      \ 'marker':  ['fg', 'Keyword'],
-      \ 'spinner': ['fg', 'Label'],
-      \ 'header':  ['fg', 'Comment'] }
 command! -bang -nargs=* Rg
       \ call fzf#vim#grep(
       \   'rg --column --line-number --no-heading --color=always --smart-case --glob "!**/node_modules/**" --glob "!**/package-lock.json" '.shellescape(<q-args>), 1,
       \   fzf#vim#with_preview(), <bang>0)
+
+
 
 " vimwiki
 let g:vimwiki_table_mappings = 0
@@ -154,12 +142,25 @@ let g:loaded_netrw  = 1
 let g:vista_fzf_preview = ['right:0%']
 
 " vim-rooter
-let g:rooter_patterns = ['=src', '=.git', '=nvim']
+let g:rooter_patterns = ['=src', '=nvim', '=dotfiles']
 
 " vim-gutentags
 let g:gutentags_add_default_project_roots = 0
-let g:gutentags_project_root = ['tags'] 
-let g:gutentags_generate_on_new = 0
-let g:gutentags_generate_on_missing = 0
-let g:gutentags_generate_on_write = 1
-let g:gutentags_generate_on_empty_buffer = 0
+let g:gutentags_project_root = ['src', 'nvim', 'dotfiles']
+let g:gutentags_cache_dir = expand('~/gutentags_cache')
+let g:gutentags_exclude_filetypes = [
+      \ 'gitcommit',
+      \ 'gitconfig',
+      \ 'gitrebase',
+      \ 'gitsendemail',
+      \ 'git',
+      \ 'sxhkdrc'
+      \ ]
+let g:gutentags_ctags_extra_args = [
+      \ '--tag-relative=yes',
+      \ '--exclude=node_modules',
+      \ '--fields=+ailmnS',
+      \ ]
+let g:gutentags_ctags_exclude = ['*.git', '*.svg', '*.hg', '*/tests/*', 'build', 'dist', '*sites/*/files/*', 'bin', 'node_modules', 'bower_components', 'cache', 'compiled', 'docs', 'example', 'bundle', 'vendor', '*.md', '*-lock.json', '*.lock', '*bundle*.js', '*build*.js', '.*rc*', '*.json', '*.min.*', '*.map', '*.bak', '*.zip', '*.pyc', '*.class', '*.sln', '*.Master', '*.csproj', '*.tmp', '*.csproj.user', '*.cache', '*.pdb', 'tags*', 'cscope.*', '*.css', '*.less', '*.scss', '*.exe', '*.dll', '*.mp3', '*.ogg', '*.flac', '*.swp', '*.swo', '*.bmp', '*.gif', '*.ico', '*.jpg', '*.png', '*.rar', '*.zip', '*.tar', '*.tar.gz', '*.tar.xz', '*.tar.bz2', '*.pdf', '*.doc', '*.docx', '*.ppt', '*.pptx',]
+
+

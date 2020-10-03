@@ -5,7 +5,7 @@ source ~/dotfiles/nvim/plugins.vim
 source ~/dotfiles/nvim/plugin-configs.vim
 if has('nvim')
   lua require 'init'
-  lua require "callbacks"
+  " lua require "callbacks"
 else
   set nocompatible
 endif
@@ -20,6 +20,8 @@ set background=dark
 set number
 set relativenumber
 set guicursor=
+set colorcolumn=100
+highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 " Statusline
 set statusline=
@@ -38,8 +40,10 @@ set statusline+=[\%l/\%L]
 
 syntax enable
 filetype plugin indent on
-set wildmode=list:longest,full
-
+set wildmode=longest,full
+if has('nvim')
+  set inccommand=split
+endif
 set nobackup
 set nowritebackup
 set noswapfile
@@ -56,9 +60,6 @@ set splitright
 set showmode
 set smartcase
 set ignorecase
-if has('nvim')
-  set inccommand=split
-endif
 set mouse=a
 set clipboard+=unnamed
 set updatetime=50
@@ -74,6 +75,7 @@ set list
 set listchars=tab:→\ ,eol:↲,trail:•
 set completeopt=menuone,noinsert
 set noshowmode
+set tags=~/gutentags_cache
 
 " =============================================================================
 " Vimscript
@@ -87,11 +89,11 @@ augroup autocmds
   autocmd BufRead ~/dotfiles/i3/config set filetype=i3config
   autocmd BufRead ~/dotfiles/polybar/config set filetype=dosini
   autocmd BufRead ~/dotfiles/bspwm/bspwmrc set filetype=sh
-  autocmd BufRead ~/dotfiles/sxhkd/sxhkdrc set filetype=sh
+  " autocmd BufRead ~/dotfiles/sxhkd/sxhkdrc set filetype=sh
   autocmd VimEnter,SourcePost * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
   autocmd BufWritePre *.vim normal mmgg=G`mzz
-  " autocmd VimEnter * if argc() == 0 | Dirvish | endif " dont open vim with a empty buffer
+  " autocmd VimEnter * if argc() == 0 | q | endif " dont open vim with a empty buffer
   autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
   autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
   autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
@@ -99,17 +101,12 @@ augroup autocmds
   autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
 
   if has('nvim')
+    autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked
     autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
     autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
     autocmd BufEnter * lua require'diagnostic'.on_attach()
   endif
 augroup end
-
-function! Has_tags()
-  if !empty(glob("%:.:h/tags"))
-    !ctags -a %:.:h/tags
-  endif
-endfunction
 
 
 

@@ -1,6 +1,5 @@
 #!/usr/bin/env 
 
-
 sudo pacman -S youtube-dl
 
 mkdir ~/music
