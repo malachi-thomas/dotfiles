@@ -152,15 +152,13 @@ inoremap <silent><expr><left>
 "==================================================================================================
 " Functions
 
+" if no caricters left
 function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
-function IsASnippet()
-  return !empty(UltiSnips#SnippetsInCurrentScope())
-endfunction
-
+" look at abbriviations docs for this one
 function! Eatchar(pat)
   let c = nr2char(getchar(0))
   return (c =~ a:pat) ? '' : c
@@ -271,12 +269,3 @@ else
   inoremap <silent> <esc>OD <left>
 endif
 
-let start = line('.')
-let end = search("^$") - 1
-let lines = getline(start, end)
-" if getline('.')[col('.') - 2:col('.') - 1] == '{}'
-function! Test()
-  if &ft == 'scss'
-    if getlin
-    endif
-  endfunction
