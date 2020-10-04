@@ -3,39 +3,31 @@
 source ~/dotfiles/nvim/mappings.vim
 source ~/dotfiles/nvim/plugins.vim
 source ~/dotfiles/nvim/plugin-configs.vim
-if has('nvim')
-  lua require 'init'
-  " lua require "callbacks"
-else
-  set nocompatible
-endif
-"==============================================================================
+
+"==================================================================================================
 " Theme
 
-if (has("termguicolors"))
-  set termguicolors
-endif
 colorscheme gruvbox
 set background=dark
 set number
 set relativenumber
 set guicursor=
 set colorcolumn=100
+set termguicolors
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
-" Statusline
-set statusline=
-set statusline+=%#DiffDelete#
-set statusline+=\%m
-set statusline+=%#DiffAdd#
-set statusline+=\[\%f]
-set statusline+=%#StatusLine#
-set statusline+=\%=
-set statusline+=%#DiffAdd#
-set statusline+=[\%l/\%L]
+"==================================================================================================
+"Lua
 
+" lua require "callbacks"
+if has('nvim')
+  lua require 'init'
+  lua require'colorizer'.setup()
+else
+  set nocompatible
+endif
 
-"==============================================================================
+"==================================================================================================
 " Basic Config
 
 syntax enable
@@ -107,6 +99,7 @@ augroup autocmds
     autocmd BufEnter * lua require'diagnostic'.on_attach()
   endif
 augroup end
+
 
 
 

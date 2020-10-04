@@ -1,0 +1,1254 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+(	nvim/mappings.vim	/^inoremap <expr> ( Lpren()$/;"	m
+)	nvim/mappings.vim	/^inoremap <expr> ) Rpren()$/;"	m
+* [order](order.md)	notes/css/flexbox.md	/^* [order](order.md)$/;"	s
+0	.eslintrc.json	/^        "plugin:react\/recommended",$/;"	s	array:extends
+0	.eslintrc.json	/^        "react",$/;"	s	array:plugins
+0	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:11
+0	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:3
+0	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:7
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:0
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:1
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:10
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:12
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:13
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:14
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:15
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:16
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:17
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:18
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:19
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:2
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:20
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:21
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:22
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:23
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:4
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:5
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:6
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:8
+0	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:9
+0	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+0	react/.react-eslintrc.json	/^            "error"$/;"	s	array:rules.prettier/prettier
+0	react/.react-eslintrc.json	/^        "react",$/;"	s	array:plugins
+0	react/.react-eslintrc.json	/^        "standard"$/;"	s	array:extends
+1	.eslintrc.json	/^        "@typescript-eslint"$/;"	s	array:plugins
+1	.eslintrc.json	/^        "standard"$/;"	s	array:extends
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:11
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:12
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:14
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:15
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:18
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:19
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:20
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:22
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:23
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:3
+1	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:7
+1	qmk/planck-ez-keyboard.json	/^    "'",$/;"	s	array:0
+1	qmk/planck-ez-keyboard.json	/^    ";",$/;"	s	array:2
+1	qmk/planck-ez-keyboard.json	/^    "\\nalt\\n\\n\\n\\n\\na",$/;"	s	array:9
+1	qmk/planck-ez-keyboard.json	/^    "\\nmeta\\n\\n\\n\\n\\na",$/;"	s	array:1
+1	qmk/planck-ez-keyboard.json	/^    "esc",$/;"	s	array:4
+1	qmk/planck-ez-keyboard.json	/^    "go to base layor",$/;"	s	array:16
+1	qmk/planck-ez-keyboard.json	/^    "q",$/;"	s	array:8
+1	qmk/planck-ez-keyboard.json	/^    "shift",$/;"	s	array:6
+1	qmk/planck-ez-keyboard.json	/^    "tab",$/;"	s	array:5
+1	qmk/planck-ez-keyboard.json	/^    "z",$/;"	s	array:10
+1	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+1	react/.react-eslintrc.json	/^        "prettier"$/;"	s	array:plugins
+10	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:12
+10	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:14
+10	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:16
+10	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:18
+10	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:20
+10	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:22
+10	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:7
+10	qmk/planck-ez-keyboard.json	/^    ",",$/;"	s	array:10
+10	qmk/planck-ez-keyboard.json	/^    ".",$/;"	s	array:6
+10	qmk/planck-ez-keyboard.json	/^    "\\nMO1\\n\\n\\n\\n\\nspace",$/;"	s	array:11
+10	qmk/planck-ez-keyboard.json	/^    "\\nMO1\\n\\n\\n\\n\\nspace",$/;"	s	array:3
+10	qmk/planck-ez-keyboard.json	/^    "bspc",$/;"	s	array:15
+10	qmk/planck-ez-keyboard.json	/^    "bspc",$/;"	s	array:23
+10	qmk/planck-ez-keyboard.json	/^    "c",$/;"	s	array:0
+10	qmk/planck-ez-keyboard.json	/^    "i",$/;"	s	array:8
+10	qmk/planck-ez-keyboard.json	/^    "o",$/;"	s	array:4
+10	qmk/planck-ez-keyboard.json	/^    "w",$/;"	s	array:2
+10	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:1
+10	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:13
+10	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:17
+10	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:19
+10	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:21
+10	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:5
+10	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:9
+10	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+11	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:12
+11	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+11	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:14
+11	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:16
+11	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+11	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:18
+11	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:20
+11	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+11	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:22
+11	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:7
+11	qmk/planck-ez-keyboard.json	/^    ".",$/;"	s	array:10
+11	qmk/planck-ez-keyboard.json	/^    "\/",$/;"	s	array:6
+11	qmk/planck-ez-keyboard.json	/^    "\\nMO5\\n\\n\\n\\n\\ntab",$/;"	s	array:11
+11	qmk/planck-ez-keyboard.json	/^    "\\nMO5\\n\\n\\n\\n\\ntab",$/;"	s	array:3
+11	qmk/planck-ez-keyboard.json	/^    "\\nctrl\\n\\n\\n\\n\\nh",$/;"	s	array:1
+11	qmk/planck-ez-keyboard.json	/^    "\\nctrl\\n\\n\\n\\n\\nj",$/;"	s	array:9
+11	qmk/planck-ez-keyboard.json	/^    "bspc",$/;"	s	array:19
+11	qmk/planck-ez-keyboard.json	/^    "k",$/;"	s	array:5
+11	qmk/planck-ez-keyboard.json	/^    "o",$/;"	s	array:8
+11	qmk/planck-ez-keyboard.json	/^    "p",$/;"	s	array:4
+11	qmk/planck-ez-keyboard.json	/^    "r",$/;"	s	array:0
+11	qmk/planck-ez-keyboard.json	/^    "space",$/;"	s	array:23
+11	qmk/planck-ez-keyboard.json	/^    "v",$/;"	s	array:2
+11	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:15
+11	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+12	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:12
+12	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:14
+12	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:16
+12	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:18
+12	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:22
+12	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+12	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+12	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+12	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:4
+12	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:6
+12	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:7
+12	qmk/planck-ez-keyboard.json	/^    "RESET"$/;"	s	array:20
+12	qmk/planck-ez-keyboard.json	/^    "\/",$/;"	s	array:10
+12	qmk/planck-ez-keyboard.json	/^    "\\nshift\\n\\n\\n\\n\\nk",$/;"	s	array:9
+12	qmk/planck-ez-keyboard.json	/^    "\\nshift\\n\\n\\n\\n\\nt",$/;"	s	array:1
+12	qmk/planck-ez-keyboard.json	/^    "l",$/;"	s	array:0
+12	qmk/planck-ez-keyboard.json	/^    "l",$/;"	s	array:5
+12	qmk/planck-ez-keyboard.json	/^    "p",$/;"	s	array:8
+12	qmk/planck-ez-keyboard.json	/^    "space",$/;"	s	array:15
+12	qmk/planck-ez-keyboard.json	/^    "space",$/;"	s	array:19
+12	qmk/planck-ez-keyboard.json	/^    "z",$/;"	s	array:2
+12	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:11
+12	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:23
+12	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:3
+12	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+13	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:11
+13	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+13	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+13	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+13	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:3
+13	qmk/planck-ez-keyboard.json	/^    ";",$/;"	s	array:5
+13	qmk/planck-ez-keyboard.json	/^    "\\nsuper\\n\\n\\n\\n\\nl",$/;"	s	array:9
+13	qmk/planck-ez-keyboard.json	/^    "\\nsuper\\n\\n\\n\\n\\nn",$/;"	s	array:1
+13	qmk/planck-ez-keyboard.json	/^    "tab",$/;"	s	array:15
+13	qmk/planck-ez-keyboard.json	/^    "tab",$/;"	s	array:19
+13	qmk/planck-ez-keyboard.json	/^    "tab",$/;"	s	array:23
+13	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:0
+13	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:10
+13	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:2
+13	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:4
+13	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:6
+13	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+13	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:8
+13	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:0
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:10
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:11
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:3
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:4
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:5
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:6
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:7
+14	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:8
+14	qmk/planck-ez-keyboard.json	/^    "\\nalt\\n\\n\\n\\n\\n;",$/;"	s	array:9
+14	qmk/planck-ez-keyboard.json	/^    "\\nmeta\\n\\n\\n\\n\\ns",$/;"	s	array:1
+14	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:15
+14	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:19
+14	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:23
+14	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+15	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:10
+15	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:15
+15	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:19
+15	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+15	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:23
+15	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:4
+15	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:6
+15	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:7
+15	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:8
+15	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:0
+15	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:1
+15	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:11
+15	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:13
+15	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:17
+15	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:21
+15	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:3
+15	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:5
+15	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:9
+15	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+16	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:15
+16	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:19
+16	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:23
+16	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:10
+16	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:11
+16	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+16	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:3
+16	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:4
+16	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:6
+16	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:8
+16	qmk/planck-ez-keyboard.json	/^    "Layer 4"$/;"	s	array:13
+16	qmk/planck-ez-keyboard.json	/^    "Layer 5"$/;"	s	array:17
+16	qmk/planck-ez-keyboard.json	/^    "Layer 6"$/;"	s	array:21
+16	qmk/planck-ez-keyboard.json	/^    "base",$/;"	s	array:1
+16	qmk/planck-ez-keyboard.json	/^    "game",$/;"	s	array:5
+16	qmk/planck-ez-keyboard.json	/^    "qwerty",$/;"	s	array:9
+16	qmk/planck-ez-keyboard.json	/^    "{\\n\\n\\n\\n\\n\\n[",$/;"	s	array:0
+16	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+16	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+17	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:10
+17	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:11
+17	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+17	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:3
+17	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:4
+17	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:6
+17	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:7
+17	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:8
+17	qmk/planck-ez-keyboard.json	/^    "}\\n\\n\\n\\n\\n\\n]",$/;"	s	array:0
+17	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:1
+17	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:5
+17	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:9
+17	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+18	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:10
+18	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+18	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:4
+18	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:6
+18	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:7
+18	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:8
+18	qmk/planck-ez-keyboard.json	/^    "meta",$/;"	s	array:5
+18	qmk/planck-ez-keyboard.json	/^    "meta",$/;"	s	array:9
+18	qmk/planck-ez-keyboard.json	/^    "|\\n\\n\\n\\n\\n\\n\\\\",$/;"	s	array:0
+18	qmk/planck-ez-keyboard.json	/^    "~\\n\\n\\n\\n\\n\\n`",$/;"	s	array:1
+18	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:11
+18	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:3
+18	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+19	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:10
+19	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+19	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:4
+19	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:6
+19	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:8
+19	qmk/planck-ez-keyboard.json	/^    "_\\n\\n\\n\\n\\n\\n-",$/;"	s	array:1
+19	qmk/planck-ez-keyboard.json	/^    "del",$/;"	s	array:11
+19	qmk/planck-ez-keyboard.json	/^    "del",$/;"	s	array:3
+19	qmk/planck-ez-keyboard.json	/^    "super",$/;"	s	array:5
+19	qmk/planck-ez-keyboard.json	/^    "super",$/;"	s	array:9
+19	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:0
+19	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+19	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+2	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:12
+2	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+2	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:14
+2	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:15
+2	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+2	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:18
+2	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:19
+2	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:20
+2	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+2	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:22
+2	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:23
+2	qmk/planck-ez-keyboard.json	/^    ",",$/;"	s	array:0
+2	qmk/planck-ez-keyboard.json	/^    "\\nsuper\\n\\n\\n\\n\\no",$/;"	s	array:1
+2	qmk/planck-ez-keyboard.json	/^    "\\nsuper\\n\\n\\n\\n\\ns",$/;"	s	array:9
+2	qmk/planck-ez-keyboard.json	/^    "a",$/;"	s	array:5
+2	qmk/planck-ez-keyboard.json	/^    "game layer",$/;"	s	array:16
+2	qmk/planck-ez-keyboard.json	/^    "q",$/;"	s	array:2
+2	qmk/planck-ez-keyboard.json	/^    "q",$/;"	s	array:4
+2	qmk/planck-ez-keyboard.json	/^    "w",$/;"	s	array:8
+2	qmk/planck-ez-keyboard.json	/^    "x",$/;"	s	array:10
+2	qmk/planck-ez-keyboard.json	/^    "z",$/;"	s	array:6
+2	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:11
+2	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:3
+2	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+2	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+20	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:0
+20	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:10
+20	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+20	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:4
+20	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:6
+20	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:8
+20	qmk/planck-ez-keyboard.json	/^    "+\\n\\n\\n\\n\\n\\n=",$/;"	s	array:1
+20	qmk/planck-ez-keyboard.json	/^    "del",$/;"	s	array:7
+20	qmk/planck-ez-keyboard.json	/^    "enter",$/;"	s	array:11
+20	qmk/planck-ez-keyboard.json	/^    "enter",$/;"	s	array:3
+20	qmk/planck-ez-keyboard.json	/^    "shift",$/;"	s	array:5
+20	qmk/planck-ez-keyboard.json	/^    "shift",$/;"	s	array:9
+20	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+21	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:0
+21	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:10
+21	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+21	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:4
+21	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:6
+21	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:8
+21	qmk/planck-ez-keyboard.json	/^    "?\\n\\n\\n\\n\\n\\n\/",$/;"	s	array:1
+21	qmk/planck-ez-keyboard.json	/^    "ctrl",$/;"	s	array:5
+21	qmk/planck-ez-keyboard.json	/^    "ctrl",$/;"	s	array:9
+21	qmk/planck-ez-keyboard.json	/^    "esc",$/;"	s	array:3
+21	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:11
+21	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+21	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+22	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:0
+22	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+22	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:6
+22	qmk/planck-ez-keyboard.json	/^    "1",$/;"	s	array:8
+22	qmk/planck-ez-keyboard.json	/^    "7",$/;"	s	array:10
+22	qmk/planck-ez-keyboard.json	/^    "enter",$/;"	s	array:7
+22	qmk/planck-ez-keyboard.json	/^    "esc",$/;"	s	array:11
+22	qmk/planck-ez-keyboard.json	/^    "home",$/;"	s	array:4
+22	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:1
+22	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:3
+22	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:5
+22	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:9
+22	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+23	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:0
+23	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:1
+23	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+23	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:3
+23	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:5
+23	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:9
+23	qmk/planck-ez-keyboard.json	/^    "2",$/;"	s	array:8
+23	qmk/planck-ez-keyboard.json	/^    "8",$/;"	s	array:10
+23	qmk/planck-ez-keyboard.json	/^    "P-down",$/;"	s	array:6
+23	qmk/planck-ez-keyboard.json	/^    "copy",$/;"	s	array:4
+23	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:11
+23	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+23	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+24	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:0
+24	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:1
+24	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:11
+24	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+24	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:5
+24	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:9
+24	qmk/planck-ez-keyboard.json	/^    "3",$/;"	s	array:8
+24	qmk/planck-ez-keyboard.json	/^    "9",$/;"	s	array:10
+24	qmk/planck-ez-keyboard.json	/^    "P-up",$/;"	s	array:6
+24	qmk/planck-ez-keyboard.json	/^    "esc",$/;"	s	array:7
+24	qmk/planck-ez-keyboard.json	/^    "paste",$/;"	s	array:4
+24	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:3
+25	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:10
+25	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:2
+25	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:6
+25	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:8
+25	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:0
+25	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:1
+25	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:5
+25	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:9
+25	qmk/planck-ez-keyboard.json	/^    "bspc",$/;"	s	array:3
+25	qmk/planck-ez-keyboard.json	/^    "end"$/;"	s	array:4
+25	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:11
+25	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+26	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:0
+26	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:1
+26	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:5
+26	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:7
+26	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:9
+26	qmk/planck-ez-keyboard.json	/^    "bspc",$/;"	s	array:11
+26	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:3
+27	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:0
+27	qmk/planck-ez-keyboard.json	/^    "space",$/;"	s	array:11
+27	qmk/planck-ez-keyboard.json	/^    "space",$/;"	s	array:3
+27	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:1
+27	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:5
+27	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+27	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:9
+28	qmk/planck-ez-keyboard.json	/^    "4",$/;"	s	array:9
+28	qmk/planck-ez-keyboard.json	/^    "bspc",$/;"	s	array:7
+28	qmk/planck-ez-keyboard.json	/^    "ctrl",$/;"	s	array:1
+28	qmk/planck-ez-keyboard.json	/^    "left",$/;"	s	array:5
+28	qmk/planck-ez-keyboard.json	/^    "tab",$/;"	s	array:11
+28	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:3
+29	qmk/planck-ez-keyboard.json	/^    "5",$/;"	s	array:9
+29	qmk/planck-ez-keyboard.json	/^    "down",$/;"	s	array:5
+29	qmk/planck-ez-keyboard.json	/^    "shift",$/;"	s	array:1
+29	qmk/planck-ez-keyboard.json	/^    "space",$/;"	s	array:7
+29	qmk/planck-ez-keyboard.json	/^    "tab",$/;"	s	array:3
+29	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:11
+3	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:12
+3	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+3	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:14
+3	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+3	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:18
+3	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:20
+3	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+3	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:22
+3	qmk/planck-ez-keyboard.json	/^    ".",$/;"	s	array:0
+3	qmk/planck-ez-keyboard.json	/^    "\\nMO6\\n\\n\\n\\n\\ndel",$/;"	s	array:11
+3	qmk/planck-ez-keyboard.json	/^    "\\nMO6\\n\\n\\n\\n\\ndel",$/;"	s	array:3
+3	qmk/planck-ez-keyboard.json	/^    "\\nMO6\\n\\n\\n\\n\\ndel",$/;"	s	array:7
+3	qmk/planck-ez-keyboard.json	/^    "\\nshift\\n\\n\\n\\n\\nd",$/;"	s	array:9
+3	qmk/planck-ez-keyboard.json	/^    "\\nshift\\n\\n\\n\\n\\ne",$/;"	s	array:1
+3	qmk/planck-ez-keyboard.json	/^    "c",$/;"	s	array:10
+3	qmk/planck-ez-keyboard.json	/^    "e",$/;"	s	array:8
+3	qmk/planck-ez-keyboard.json	/^    "j",$/;"	s	array:2
+3	qmk/planck-ez-keyboard.json	/^    "qwerty",$/;"	s	array:16
+3	qmk/planck-ez-keyboard.json	/^    "s",$/;"	s	array:5
+3	qmk/planck-ez-keyboard.json	/^    "w",$/;"	s	array:4
+3	qmk/planck-ez-keyboard.json	/^    "x",$/;"	s	array:6
+3	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:15
+3	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:19
+3	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:23
+3	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+30	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:11
+30	qmk/planck-ez-keyboard.json	/^    "6",$/;"	s	array:9
+30	qmk/planck-ez-keyboard.json	/^    "super",$/;"	s	array:1
+30	qmk/planck-ez-keyboard.json	/^    "tab",$/;"	s	array:7
+30	qmk/planck-ez-keyboard.json	/^    "up",$/;"	s	array:5
+30	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:3
+31	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:11
+31	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:3
+31	qmk/planck-ez-keyboard.json	/^    "0",$/;"	s	array:9
+31	qmk/planck-ez-keyboard.json	/^    "meta",$/;"	s	array:1
+31	qmk/planck-ez-keyboard.json	/^    "right",$/;"	s	array:5
+31	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+32	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:3
+32	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:7
+32	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:1
+32	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:5
+32	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:9
+33	qmk/planck-ez-keyboard.json	/^    ""$/;"	s	array:7
+33	qmk/planck-ez-keyboard.json	/^    "Layer 1"$/;"	s	array:1
+33	qmk/planck-ez-keyboard.json	/^    "Layer 2"$/;"	s	array:5
+33	qmk/planck-ez-keyboard.json	/^    "Layer 3"$/;"	s	array:9
+4	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:12
+4	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+4	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:14
+4	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:16
+4	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+4	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:18
+4	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:20
+4	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+4	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:22
+4	qmk/planck-ez-keyboard.json	/^    "\\nMO2\\n\\n\\n\\n\\nenter",$/;"	s	array:11
+4	qmk/planck-ez-keyboard.json	/^    "\\nMO2\\n\\n\\n\\n\\nenter",$/;"	s	array:3
+4	qmk/planck-ez-keyboard.json	/^    "\\nctrl\\n\\n\\n\\n\\nf",$/;"	s	array:9
+4	qmk/planck-ez-keyboard.json	/^    "\\nctrl\\n\\n\\n\\n\\nu",$/;"	s	array:1
+4	qmk/planck-ez-keyboard.json	/^    "c",$/;"	s	array:6
+4	qmk/planck-ez-keyboard.json	/^    "d",$/;"	s	array:5
+4	qmk/planck-ez-keyboard.json	/^    "del",$/;"	s	array:15
+4	qmk/planck-ez-keyboard.json	/^    "del",$/;"	s	array:19
+4	qmk/planck-ez-keyboard.json	/^    "del",$/;"	s	array:23
+4	qmk/planck-ez-keyboard.json	/^    "e",$/;"	s	array:4
+4	qmk/planck-ez-keyboard.json	/^    "k",$/;"	s	array:2
+4	qmk/planck-ez-keyboard.json	/^    "p",$/;"	s	array:0
+4	qmk/planck-ez-keyboard.json	/^    "r",$/;"	s	array:8
+4	qmk/planck-ez-keyboard.json	/^    "v",$/;"	s	array:10
+4	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+4	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+5	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:12
+5	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:14
+5	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:16
+5	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:18
+5	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:20
+5	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:22
+5	qmk/planck-ez-keyboard.json	/^    "\\nMO4\\n\\n\\n\\n\\nesc",$/;"	s	array:11
+5	qmk/planck-ez-keyboard.json	/^    "\\nMO4\\n\\n\\n\\n\\nesc",$/;"	s	array:3
+5	qmk/planck-ez-keyboard.json	/^    "b",$/;"	s	array:10
+5	qmk/planck-ez-keyboard.json	/^    "enter",$/;"	s	array:15
+5	qmk/planck-ez-keyboard.json	/^    "enter",$/;"	s	array:23
+5	qmk/planck-ez-keyboard.json	/^    "enter",$/;"	s	array:7
+5	qmk/planck-ez-keyboard.json	/^    "r",$/;"	s	array:4
+5	qmk/planck-ez-keyboard.json	/^    "t",$/;"	s	array:8
+5	qmk/planck-ez-keyboard.json	/^    "v",$/;"	s	array:6
+5	qmk/planck-ez-keyboard.json	/^    "x",$/;"	s	array:2
+5	qmk/planck-ez-keyboard.json	/^    "y",$/;"	s	array:0
+5	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:1
+5	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:13
+5	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:17
+5	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:19
+5	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:21
+5	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:5
+5	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:9
+5	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:0
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:10
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:12
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:14
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:16
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:18
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:20
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:22
+6	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:8
+6	qmk/planck-ez-keyboard.json	/^    "b",$/;"	s	array:6
+6	qmk/planck-ez-keyboard.json	/^    "enter",$/;"	s	array:19
+6	qmk/planck-ez-keyboard.json	/^    "esc",$/;"	s	array:15
+6	qmk/planck-ez-keyboard.json	/^    "esc",$/;"	s	array:23
+6	qmk/planck-ez-keyboard.json	/^    "f",$/;"	s	array:5
+6	qmk/planck-ez-keyboard.json	/^    "g",$/;"	s	array:9
+6	qmk/planck-ez-keyboard.json	/^    "i",$/;"	s	array:1
+6	qmk/planck-ez-keyboard.json	/^    "space",$/;"	s	array:7
+6	qmk/planck-ez-keyboard.json	/^    "t",$/;"	s	array:4
+6	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:11
+6	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:3
+6	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:0
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:1
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:10
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:11
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:12
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:14
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:16
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:18
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:2
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:20
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:22
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:3
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:8
+7	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:9
+7	qmk/planck-ez-keyboard.json	/^    "esc",$/;"	s	array:19
+7	qmk/planck-ez-keyboard.json	/^    "g",$/;"	s	array:5
+7	qmk/planck-ez-keyboard.json	/^    "n",$/;"	s	array:6
+7	qmk/planck-ez-keyboard.json	/^    "y",$/;"	s	array:4
+7	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:15
+7	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:23
+7	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+7	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:1
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:12
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:14
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:15
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:16
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:18
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:20
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:22
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:23
+8	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:9
+8	qmk/planck-ez-keyboard.json	/^    "b",$/;"	s	array:2
+8	qmk/planck-ez-keyboard.json	/^    "ctrl",$/;"	s	array:7
+8	qmk/planck-ez-keyboard.json	/^    "f",$/;"	s	array:0
+8	qmk/planck-ez-keyboard.json	/^    "h",$/;"	s	array:5
+8	qmk/planck-ez-keyboard.json	/^    "m",$/;"	s	array:6
+8	qmk/planck-ez-keyboard.json	/^    "n",$/;"	s	array:10
+8	qmk/planck-ez-keyboard.json	/^    "u",$/;"	s	array:4
+8	qmk/planck-ez-keyboard.json	/^    "y",$/;"	s	array:8
+8	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:11
+8	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:19
+8	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:3
+8	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+9	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:12
+9	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:13
+9	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:14
+9	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:16
+9	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:17
+9	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:18
+9	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:19
+9	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:20
+9	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:21
+9	qmk/planck-ez-keyboard.json	/^    "",$/;"	s	array:22
+9	qmk/planck-ez-keyboard.json	/^    ",",$/;"	s	array:6
+9	qmk/planck-ez-keyboard.json	/^    "\\nMO3\\n\\n\\n\\n\\nbspc",$/;"	s	array:11
+9	qmk/planck-ez-keyboard.json	/^    "\\nMO3\\n\\n\\n\\n\\nbspc",$/;"	s	array:3
+9	qmk/planck-ez-keyboard.json	/^    "d",$/;"	s	array:1
+9	qmk/planck-ez-keyboard.json	/^    "g",$/;"	s	array:0
+9	qmk/planck-ez-keyboard.json	/^    "h",$/;"	s	array:9
+9	qmk/planck-ez-keyboard.json	/^    "i",$/;"	s	array:4
+9	qmk/planck-ez-keyboard.json	/^    "j",$/;"	s	array:5
+9	qmk/planck-ez-keyboard.json	/^    "m",$/;"	s	array:10
+9	qmk/planck-ez-keyboard.json	/^    "m",$/;"	s	array:2
+9	qmk/planck-ez-keyboard.json	/^    "u",$/;"	s	array:8
+9	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:15
+9	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:23
+9	qmk/planck-ez-keyboard.json	/^    {$/;"	o	array:7
+9	qmk/planck-ez-keyboard.json	/^  [$/;"	a
+<bs>	nvim/mappings.vim	/^inoremap <expr> <bs> Backspace()$/;"	m
+<c-h>	nvim/mappings.vim	/^  nnoremap <silent><c-h> :lua vim.lsp.buf.hover()<cr>$/;"	m
+<c-h>	nvim/mappings.vim	/^cnoremap <c-h> <c-w>$/;"	m
+<c-h>	nvim/mappings.vim	/^inoremap <c-h> <c-w>$/;"	m
+<c-i>	nvim/mappings.vim	/^nnoremap <c-i> <c-i>zz$/;"	m
+<c-k>	nvim/mappings.vim	/^inoremap <c-k> <c-x><c-k>$/;"	m
+<c-k>	nvim/mappings.vim	/^inoremap <c-k> <cmd>lua return require'snippets'.expand_or_advance(1)<CR>$/;"	m
+<c-o>	nvim/mappings.vim	/^nnoremap <c-o> <c-o>zz$/;"	m
+<c-q>	nvim/mappings.vim	/^nnoremap <c-q> :wqa!<cr>$/;"	m
+<c-s>	nvim/mappings.vim	/^imap <c-s> <plug>(emmet-expand-abbr)$/;"	m
+<c-s>	nvim/mappings.vim	/^nnoremap <c-s> :w!<cr>$/;"	m
+<c-space>	nvim/mappings.vim	/^inoremap <c-space> <c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>$/;"	m
+<c-z>	nvim/mappings.vim	/^nnoremap <c-z> <nop>$/;"	m
+<cr>	nvim/mappings.vim	/^inoremap <expr> <cr> Enter()$/;"	m
+<down>	nvim/mappings.vim	/^inoremap <silent><expr><down>$/;"	m
+<down>	nvim/mappings.vim	/^nnoremap <down> gjzz$/;"	m
+<down>	nvim/mappings.vim	/^vnoremap <down> <down>zz$/;"	m
+<esc>	nvim/mappings.vim	/^inoremap <esc> <right><esc>$/;"	m
+<esc>	nvim/mappings.vim	/^nnoremap <esc> <esc>:nohl<cr>$/;"	m
+<esc>OA	nvim/mappings.vim	/^  inoremap <silent> <esc>OA <up>$/;"	m
+<esc>OA	nvim/mappings.vim	/^  nnoremap <silent> <esc>OA <up>$/;"	m
+<esc>OB	nvim/mappings.vim	/^  inoremap <silent> <esc>OB <down>$/;"	m
+<esc>OB	nvim/mappings.vim	/^  nnoremap <silent> <esc>OB <down>$/;"	m
+<esc>OC	nvim/mappings.vim	/^  inoremap <silent> <esc>OC <right>$/;"	m
+<esc>OC	nvim/mappings.vim	/^  nnoremap <silent> <esc>OC <right>$/;"	m
+<esc>OD	nvim/mappings.vim	/^  inoremap <silent> <esc>OD <left>$/;"	m
+<esc>OD	nvim/mappings.vim	/^  nnoremap <silent> <esc>OD <left>$/;"	m
+<f1>	nvim/mappings.vim	/^nmap <f1> <Plug>VimwikiNextLink$/;"	m
+<f2>	nvim/mappings.vim	/^nmap <f2> <Plug>VimwikiAddHeaderLevel$/;"	m
+<f3>	nvim/mappings.vim	/^nmap <f3> <Plug>VimwikiDiaryNextDay$/;"	m
+<f4>	nvim/mappings.vim	/^nmap <f4> <Plug>VimwikiDiaryPrevDay$/;"	m
+<f5>	nvim/mappings.vim	/^nmap <f5> <Plug>VimwikiPrevLink$/;"	m
+<f6>	nvim/mappings.vim	/^nmap <f6> <Plug>VimwikiGoBackLink$/;"	m
+<home>	nvim/mappings.vim	/^inoremap <home> <c-o>^$/;"	m
+<home>	nvim/mappings.vim	/^nnoremap <home> ^$/;"	m
+<left>	nvim/mappings.vim	/^inoremap <silent><expr><left>$/;"	m
+<pagedown>	nvim/mappings.vim	/^nnoremap <pagedown> <c-d>zz$/;"	m
+<pageup>	nvim/mappings.vim	/^nnoremap <pageup> <c-u>zz$/;"	m
+<right>	nvim/mappings.vim	/^inoremap <silent><expr><right>$/;"	m
+<s-down>	nvim/mappings.vim	/^nnoremap <s-down> v<down>$/;"	m
+<s-down>	nvim/mappings.vim	/^vnoremap <s-down> <down>$/;"	m
+<s-left>	nvim/mappings.vim	/^nnoremap <s-left> v<left>$/;"	m
+<s-left>	nvim/mappings.vim	/^vnoremap <s-left> <left>$/;"	m
+<s-right>	nvim/mappings.vim	/^nnoremap <s-right> v<right>$/;"	m
+<s-right>	nvim/mappings.vim	/^vnoremap <s-right> <right>$/;"	m
+<s-up>	nvim/mappings.vim	/^nnoremap <s-up> v<up>$/;"	m
+<s-up>	nvim/mappings.vim	/^vnoremap <s-up> <up>$/;"	m
+<space><cr>	nvim/mappings.vim	/^nnoremap <space><cr> :Tags<cr>$/;"	m
+<space><down>	nvim/mappings.vim	/^nnoremap <space><down> <c-w>j$/;"	m
+<space><left>	nvim/mappings.vim	/^nnoremap <space><left> <c-w>h$/;"	m
+<space><right>	nvim/mappings.vim	/^nnoremap <space><right> <c-w>l$/;"	m
+<space><space>	nvim/mappings.vim	/^nnoremap <space><space> :Files<cr>$/;"	m
+<space><up>	nvim/mappings.vim	/^nnoremap <space><up> <c-w>k$/;"	m
+<space>f	nvim/mappings.vim	/^nnoremap <space>f :Files ~<cr>$/;"	m
+<space>hw	nvim/mappings.vim	/^nnoremap <space>hw :h <c-r>=expand("<cword>>")<cr><cr>$/;"	m
+<space>n	nvim/mappings.vim	/^nnoremap <space>n :enew<cr>$/;"	m
+<space>rg	nvim/mappings.vim	/^nnoremap <space>rg :Rg<cr>$/;"	m
+<space>rn	nvim/mappings.vim	/^  nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>$/;"	m
+<space>sn	nvim/mappings.vim	/^nnoremap <space>sn :UltiSnipsEdit<cr>$/;"	m
+<space>tt	nvim/mappings.vim	/^nnoremap <space>tt :FloatermNew<cr>$/;"	m
+<tab>	nvim/mappings.vim	/^imap <silent><expr><tab>$/;"	m
+<tab>	nvim/mappings.vim	/^nnoremap <tab> :bn<cr>$/;"	m
+<up>	nvim/mappings.vim	/^inoremap <silent><expr><up>$/;"	m
+<up>	nvim/mappings.vim	/^nnoremap <up> gkzz$/;"	m
+<up>	nvim/mappings.vim	/^vnoremap <up> <up>zz$/;"	m
+AUDIO_ENABLE	qmk/iris-keyboard/rules.mk	/^AUDIO_ENABLE = no           # Audio output on port C6$/;"	m
+Advance Stuff	notes/javascript/javascript.md	/^### Advance Stuff$/;"	S
+App	react/App.js	/^class App extends React.Component {$/;"	c
+Argadd	nvim/mappings.vim	/^command Argadd execute 'argadd **\/*%:e'$/;"	c
+Array Types	notes/typescript/types.md	/^## Array Types$/;"	s
+BACKLIGHT_ENABLE	qmk/iris-keyboard/rules.mk	/^BACKLIGHT_ENABLE = no      # Enable keyboard backlight functionality$/;"	m
+BLUETOOTH_ENABLE	qmk/iris-keyboard/rules.mk	/^BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID$/;"	m
+BOOTLOADER	qmk/iris-keyboard/rules.mk	/^BOOTLOADER = qmk-dfu$/;"	m
+BOOTMAGIC_ENABLE	qmk/iris-keyboard/rules.mk	/^BOOTMAGIC_ENABLE = no       # Virtual DIP switch configuration$/;"	m
+Backspace	nvim/mappings.vim	/^function! Backspace()$/;"	f
+Basic CSS	notes/css/css.md	/^### Basic CSS$/;"	S
+Basics	notes/javascript/javascript.md	/^### Basics$/;"	S
+COMMAND_ENABLE	qmk/iris-keyboard/rules.mk	/^COMMAND_ENABLE = no         # Commands for debug and configuration$/;"	m
+CONSOLE_ENABLE	qmk/iris-keyboard/rules.mk	/^CONSOLE_ENABLE = no        # Console for debug$/;"	m
+COPY	qmk/iris-keyboard/keymap.c	/^#define COPY /;"	d	file:
+CSS Command Display	notes/css/display.md	/^### CSS Command Display$/;"	S
+CSS Elements	notes/css/padding.md	/^#### CSS Elements$/;"	t
+Class Component	notes/javascript/components.md	/^#### Class Component$/;"	t
+Class Components	notes/javascript/react.md	/^### Class Components$/;"	S
+DSub	nvim/mappings.vim	/^command -nargs=* DSub execute 'call DSub(<f-args>)'$/;"	c
+DSub	nvim/mappings.vim	/^function! DSub(arg1, arg2)$/;"	f
+Description	notes/css/order.md	/^### Description$/;"	S
+Document Object Model	notes/javascript/javascript.md	/^### Document Object Model$/;"	S
+ENCODER_ENABLE	qmk/iris-keyboard/rules.mk	/^ENCODER_ENABLE = no$/;"	m
+EXTRAKEY_ENABLE	qmk/iris-keyboard/rules.mk	/^EXTRAKEY_ENABLE = no       # Audio control and System control$/;"	m
+Eatchar	nvim/mappings.vim	/^function! Eatchar(pat)$/;"	f
+Enter	nvim/mappings.vim	/^function! Enter()$/;"	f
+Event Listers	notes/javascript/react.md	/^### Event Listers$/;"	S
+Example	notes/typescript/explicitTypes.md	/^# Example$/;"	c
+Example	notes/typescript/types.md	/^## Example$/;"	s
+Example	notes/typescript/unionTypes.md	/^# Example$/;"	c
+Explicit Types Explained	notes/typescript/explicitTypes.md	/^# Explicit Types Explained$/;"	c
+Files	notes/typescript/typescript.md	/^## Files$/;"	s
+Flexbox Commands	notes/css/flexbox.md	/^### Flexbox Commands$/;"	S
+Frameworks	notes/javascript/javascript.md	/^### Frameworks$/;"	S
+Function Component	notes/javascript/components.md	/^#### Function Component$/;"	t
+Functional Components	notes/javascript/react.md	/^### Functional Components$/;"	S
+G	nvim/mappings.vim	/^nnoremap G Gzz$/;"	m
+H	nvim/mappings.vim	/^nnoremap H <nop>$/;"	m
+How To Make Union Types	notes/typescript/unionTypes.md	/^# How To Make Union Types$/;"	c
+How To Use Order	notes/css/order.md	/^### How To Use Order$/;"	S
+IGNORE_MOD_TAP_INTERRUPT	qmk/iris-keyboard/config.h	/^#define IGNORE_MOD_TAP_INTERRUPT$/;"	d
+Index	notes/css/css.md	/^### Index$/;"	S
+IsASnippet	nvim/mappings.vim	/^function IsASnippet()$/;"	f
+K	nvim/mappings.vim	/^nnoremap K <nop>$/;"	m
+L	nvim/mappings.vim	/^nnoremap L <nop>$/;"	m
+Lbrak	nvim/mappings.vim	/^function! Lbrak()$/;"	f
+MASTER_LEFT	qmk/iris-keyboard/config.h	/^#define MASTER_LEFT$/;"	d
+MCU	qmk/iris-keyboard/rules.mk	/^MCU = atmega32u4$/;"	m
+MIDI_ENABLE	qmk/iris-keyboard/rules.mk	/^MIDI_ENABLE = no            # MIDI controls$/;"	m
+MOUSEKEY_ENABLE	qmk/iris-keyboard/rules.mk	/^MOUSEKEY_ENABLE = no        # Mouse keys$/;"	m
+M_1_SPC	qmk/iris-keyboard/keymap.c	/^#define M_1_SPC /;"	d	file:
+M_2_ENT	qmk/iris-keyboard/keymap.c	/^#define M_2_ENT /;"	d	file:
+M_3_BSPC	qmk/iris-keyboard/keymap.c	/^#define M_3_BSPC /;"	d	file:
+M_4_ESC	qmk/iris-keyboard/keymap.c	/^#define M_4_ESC /;"	d	file:
+M_5_TAB	qmk/iris-keyboard/keymap.c	/^#define M_5_TAB /;"	d	file:
+M_6_DEL	qmk/iris-keyboard/keymap.c	/^#define M_6_DEL /;"	d	file:
+M_A_A	qmk/iris-keyboard/keymap.c	/^#define M_A_A /;"	d	file:
+M_A_S	qmk/iris-keyboard/keymap.c	/^#define M_A_S /;"	d	file:
+M_C_H	qmk/iris-keyboard/keymap.c	/^#define M_C_H /;"	d	file:
+M_C_U	qmk/iris-keyboard/keymap.c	/^#define M_C_U /;"	d	file:
+M_SU_N	qmk/iris-keyboard/keymap.c	/^#define M_SU_N /;"	d	file:
+M_SU_O	qmk/iris-keyboard/keymap.c	/^#define M_SU_O /;"	d	file:
+M_S_E	qmk/iris-keyboard/keymap.c	/^#define M_S_E /;"	d	file:
+M_S_T	qmk/iris-keyboard/keymap.c	/^#define M_S_T /;"	d	file:
+Mark-up Languages	notes/topics.md	/^## Mark-up Languages$/;"	s
+Measurements	notes/css/measurement.md	/^### Measurements$/;"	S
+NKRO_ENABLE	qmk/iris-keyboard/rules.mk	/^NKRO_ENABLE = no           # Nkey Rollover - if this doesn't work, see here: https:\/\/github.co/;"	m
+NavigationFloatingWin	nvim/lua/navigation/init.lua	/^function NavigationFloatingWin()$/;"	f
+Options	notes/css/flex-basis.md	/^### Options$/;"	S
+Options	notes/css/flex-direction.md	/^### Options$/;"	S
+Options	notes/css/flex-wrap.md	/^### Options$/;"	S
+Options	notes/css/justify-content.md	/^### Options$/;"	S
+PASTE	qmk/iris-keyboard/keymap.c	/^#define PASTE /;"	d	file:
+PERMISSIVE_HOLD	qmk/iris-keyboard/config.h	/^#define PERMISSIVE_HOLD$/;"	d
+Programming Languages	notes/topics.md	/^## Programming Languages$/;"	s
+Q	nvim/mappings.vim	/^nnoremap Q <nop>$/;"	m
+Qargs	nvim/mappings.vim	/^command! -nargs=0 -bar Qargs execute 'args' QuickfixFilenames()$/;"	c
+QuickfixFilenames	nvim/mappings.vim	/^function! QuickfixFilenames()$/;"	f
+R	nvim/mappings.vim	/^nnoremap R <nop>$/;"	m
+RGBLED_NUM	qmk/iris-keyboard/config.h	/^#define RGBLED_NUM /;"	d
+RGBLIGHT_ANIMATIONS	qmk/iris-keyboard/config.h	/^#define RGBLIGHT_ANIMATIONS$/;"	d
+RGBLIGHT_ENABLE	qmk/iris-keyboard/rules.mk	/^RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight.$/;"	m
+RGBLIGHT_HUE_STEP	qmk/iris-keyboard/config.h	/^#define RGBLIGHT_HUE_STEP /;"	d
+RGBLIGHT_SAT_STEP	qmk/iris-keyboard/config.h	/^#define RGBLIGHT_SAT_STEP /;"	d
+RGBLIGHT_VAL_STEP	qmk/iris-keyboard/config.h	/^#define RGBLIGHT_VAL_STEP /;"	d
+Rbrace	nvim/mappings.vim	/^function! Rbrace()$/;"	f
+Rbrak	nvim/mappings.vim	/^function! Rbrak()$/;"	f
+Rg	nvim/plugin-configs.vim	/^command! -bang -nargs=* Rg$/;"	c
+Rpren	nvim/mappings.vim	/^function! Rpren()$/;"	f
+S	nvim/mappings.vim	/^nnoremap S <nop>$/;"	m
+SPLIT_KEYBOARD	qmk/iris-keyboard/rules.mk	/^SPLIT_KEYBOARD = yes$/;"	m
+SS	nvim/mappings.vim	/^nnoremap SS :s\/<c-r>=expand("<cWORD>>")<cr>\/\/g<left><left>$/;"	m
+Syntax	notes/css/flex-basis.md	/^### Syntax$/;"	S
+Syntax	notes/css/flex-direction.md	/^### Syntax$/;"	S
+Syntax	notes/css/flex-wrap.md	/^### Syntax$/;"	S
+Syntax	notes/css/justify-content.md	/^### Syntax$/;"	S
+Syntax	notes/css/order.md	/^### Syntax$/;"	S
+Syntax	notes/javascript/props.md	/^### Syntax$/;"	S
+Syntax	notes/javascript/useState.md	/^### Syntax$/;"	S
+TAPPING_FORCE_HOLD	qmk/iris-keyboard/config.h	/^#define TAPPING_FORCE_HOLD$/;"	d
+TAPPING_TERM	qmk/iris-keyboard/config.h	/^#define TAPPING_TERM /;"	d
+TabClose	nvim/mappings.vim	/^function! TabClose()$/;"	f
+Topics	notes/topics.md	/^# Topics$/;"	c
+Types	notes/typescript/types.md	/^## Types$/;"	s
+UNICODE_ENABLE	qmk/iris-keyboard/rules.mk	/^UNICODE_ENABLE = no         # Unicode$/;"	m
+USE_SERIAL	qmk/iris-keyboard/config.h	/^#define USE_SERIAL$/;"	d
+VIA_ENABLE	qmk/iris-keyboard/rules.mk	/^VIA_ENABLE = yes$/;"	m
+What Are Props In A Class Component	notes/javascript/props-CC.md	/^### What Are Props In A Class Component$/;"	S
+What Are React Components	notes/javascript/components.md	/^### What Are React Components$/;"	S
+What Are React Props	notes/javascript/props.md	/^### What Are React Props$/;"	S
+What Are Typescript Types	notes/typescript/types.md	/^## What Are Typescript Types$/;"	s
+What Is A CSS Border	notes/css/border.md	/^#### What Is A CSS Border$/;"	t
+What Is A Class Component	notes/javascript/how-to-make-a-CC.md	/^### What Is A Class Component$/;"	S
+What Is A Union Types	notes/typescript/unionTypes.md	/^# What Is A Union Types$/;"	c
+What Is Flexbox	notes/css/flexbox.md	/^### What Is Flexbox$/;"	S
+What Is Padding	notes/css/padding.md	/^#### What Is Padding$/;"	t
+ZZ	nvim/mappings.vim	/^nnoremap <silent>ZZ :call TabClose()<cr>$/;"	m
+Zettelkasten Rules	notes/zettelkasten/zettelkasten.md	/^### Zettelkasten Rules$/;"	S
+["func"]	nvim/lua/init.lua	/^        ["func"] = [[function $0()$/;"	f
+[Syntax](Syntax)	notes/javascript/how-to-make-a-CC.md	/^### [Syntax](Syntax)$/;"	S
+]	nvim/mappings.vim	/^inoremap <expr> ] Rbrak()$/;"	m
+a	qmk/planck-ez-keyboard.json	/^      "a": 5$/;"	n	object:0.15
+a	qmk/planck-ez-keyboard.json	/^      "a": 5$/;"	n	object:1.0
+a	qmk/planck-ez-keyboard.json	/^      "a": 5$/;"	n	object:1.10
+a	qmk/planck-ez-keyboard.json	/^      "a": 5$/;"	n	object:11.2
+a	qmk/planck-ez-keyboard.json	/^      "a": 5$/;"	n	object:11.8
+a	qmk/planck-ez-keyboard.json	/^      "a": 5$/;"	n	object:3.2
+a	qmk/planck-ez-keyboard.json	/^      "a": 5$/;"	n	object:3.8
+a	qmk/planck-ez-keyboard.json	/^      "a": 5$/;"	n	object:7.2
+a	qmk/planck-ez-keyboard.json	/^      "a": 5$/;"	n	object:9.0
+a	qmk/planck-ez-keyboard.json	/^      "a": 5$/;"	n	object:9.10
+a	qmk/planck-ez-keyboard.json	/^      "a": 5,$/;"	n	object:1.17
+a	qmk/planck-ez-keyboard.json	/^      "a": 7$/;"	n	object:0.19
+a	qmk/planck-ez-keyboard.json	/^      "a": 7$/;"	n	object:1.22
+a	qmk/planck-ez-keyboard.json	/^      "a": 7$/;"	n	object:1.5
+a	qmk/planck-ez-keyboard.json	/^      "a": 7$/;"	n	object:11.12
+a	qmk/planck-ez-keyboard.json	/^      "a": 7$/;"	n	object:3.12
+a	qmk/planck-ez-keyboard.json	/^      "a": 7$/;"	n	object:7.4
+a	qmk/planck-ez-keyboard.json	/^      "a": 7$/;"	n	object:9.5
+a	qmk/planck-ez-keyboard.json	/^      "a": 7,$/;"	n	object:0.0
+a	qmk/planck-ez-keyboard.json	/^      "a": 7,$/;"	n	object:1.15
+a	qmk/planck-ez-keyboard.json	/^      "a": 7,$/;"	n	object:11.6
+a	qmk/planck-ez-keyboard.json	/^      "a": 7,$/;"	n	object:3.6
+a	qmk/planck-ez-keyboard.json	/^      "a": 7,$/;"	n	object:9.15
+arrowParens	.prettierrc.json	/^  "arrowParens": "avoid",$/;"	s
+aur	zsh/aliases.zsh	/^alias aur='makepkg -si'$/;"	a
+autocmds	nvim/init.vim	/^augroup autocmds$/;"	a
+b	zsh/aliases.zsh	/^alias b='brave'$/;"	a
+back	zsh/aliases.zsh	/^alias back='kill -9 -1'$/;"	a
+bg	tmux/.tmux.conf	/^set-option -g status-left "#[fg=colour248, bg=colour241] #S #[fg=colour241, bg=colour237, nobold/;"	k
+bg	tmux/.tmux.conf	/^set-option -g status-right "#[fg=colour239, bg=colour237, nobold, nounderscore, noitalics]#[f/;"	k
+bg	tmux/.tmux.conf	/^set-window-option -g window-status-current-format "#[fg=colour237, bg=colour214, nobold, noitali/;"	k
+bg	tmux/.tmux.conf	/^set-window-option -g window-status-format "#[fg=colour237,bg=colour239,noitalics]#[fg=colour2/;"	k
+bin	zsh/aliases.zsh	/^alias bin='cd ~\/dotfiles\/scripts'$/;"	a
+boot	zsh/aliases.zsh	/^alias boot='reboot'$/;"	a
+bracketSpacing	.prettierrc.json	/^  "bracketSpacing": true,$/;"	b
+browser	.eslintrc.json	/^        "browser": true,$/;"	b	object:env
+browser	react/.react-eslintrc.json	/^        "browser": true,$/;"	b	object:env
+bsp	zsh/aliases.zsh	/^alias bsp='v ~\/dotfiles\/bspwm\/bspwmrc'$/;"	a
+c	qmk/planck-ez-keyboard.json	/^      "c": "#000000",$/;"	s	object:11.21
+c	qmk/planck-ez-keyboard.json	/^      "c": "#000000",$/;"	s	object:15.9
+c	qmk/planck-ez-keyboard.json	/^      "c": "#000000",$/;"	s	object:19.3
+c	qmk/planck-ez-keyboard.json	/^      "c": "#000000",$/;"	s	object:23.12
+c	qmk/planck-ez-keyboard.json	/^      "c": "#000000",$/;"	s	object:3.26
+c	qmk/planck-ez-keyboard.json	/^      "c": "#000000",$/;"	s	object:7.21
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:0.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:1.22
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:1.5
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:10.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:11.12
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:11.23
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:11.29
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:11.6
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:13.5
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:14.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:15.14
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:15.7
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:17.5
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:18.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:19.14
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:19.8
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:2.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:21.5
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:22.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:23.14
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:23.7
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:3.12
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:3.22
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:3.30
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:3.6
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:5.22
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:5.5
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:6.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:7.13
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:7.25
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:7.31
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:7.7
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:9.22
+c	qmk/planck-ez-keyboard.json	/^      "c": "#212224",$/;"	s	object:9.5
+c	qmk/planck-ez-keyboard.json	/^      "c": "#cccccc",$/;"	s	object:1.15
+c	qmk/planck-ez-keyboard.json	/^      "c": "#cccccc",$/;"	s	object:1.32
+c	qmk/planck-ez-keyboard.json	/^      "c": "#cccccc",$/;"	s	object:13.15
+c	qmk/planck-ez-keyboard.json	/^      "c": "#cccccc",$/;"	s	object:17.15
+c	qmk/planck-ez-keyboard.json	/^      "c": "#cccccc",$/;"	s	object:21.15
+c	qmk/planck-ez-keyboard.json	/^      "c": "#cccccc",$/;"	s	object:5.15
+c	qmk/planck-ez-keyboard.json	/^      "c": "#cccccc",$/;"	s	object:5.32
+c	qmk/planck-ez-keyboard.json	/^      "c": "#cccccc",$/;"	s	object:9.15
+c	qmk/planck-ez-keyboard.json	/^      "c": "#cccccc",$/;"	s	object:9.32
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:1.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:1.10
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:1.17
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:1.27
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:11.18
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:11.2
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:11.25
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:11.8
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:13.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:13.10
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:15.11
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:15.3
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:17.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:17.10
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:19.10
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:19.5
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:21.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:21.10
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:23.3
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:23.9
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:3.18
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:3.2
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:3.24
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:3.28
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:3.8
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:5.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:5.10
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:5.17
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:5.27
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:7.19
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:7.2
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:7.23
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:7.27
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:7.9
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:9.0
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:9.10
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:9.17
+c	qmk/planck-ez-keyboard.json	/^      "c": "#e4dedd",$/;"	s	object:9.27
+c	zsh/aliases.zsh	/^alias c='cd $(dirname "$(fzf -e)")'$/;"	a
+cc	zsh/aliases.zsh	/^alias cc='cd && cd $(dirname "$(fzf -e)")'$/;"	a
+checkout	zsh/aliases.zsh	/^alias checkout='git branch | fzf | sed "s\/\\* \/\/g" | xargs -I "{}" git checkout {}'$/;"	a
+cl	nvim/mappings.vim	/^nnoremap cl :normal 0c$<cr>$/;"	m
+clone	zsh/aliases.zsh	/^alias clone='git clone'$/;"	a
+commit	zsh/aliases.zsh	/^alias commit='git add -A; git commit -m'$/;"	a
+copy	zsh/aliases.zsh	/^alias copy='xclip -selection "primary" <'$/;"	a
+dl	nvim/mappings.vim	/^nnoremap dl :normal 0d$<cr>$/;"	m
+dl	zsh/aliases.zsh	/^alias dl='youtube-dl -x -o "%(title)s.%(ext)s"'$/;"	a
+dot	zsh/aliases.zsh	/^alias dot='cd ~\/dotfiles'$/;"	a
+dow	zsh/aliases.zsh	/^alias dow='cd ~\/Downloads'$/;"	a
+ecmaFeatures	.eslintrc.json	/^        "ecmaFeatures": {$/;"	o	object:parserOptions
+ecmaFeatures	react/.react-eslintrc.json	/^        "ecmaFeatures": {$/;"	o	object:parserOptions
+ecmaVersion	.eslintrc.json	/^        "ecmaVersion": 11,$/;"	n	object:parserOptions
+ecmaVersion	react/.react-eslintrc.json	/^        "ecmaVersion": 12,$/;"	n	object:parserOptions
+endOfLine	.prettierrc.json	/^  "endOfLine": "lf"$/;"	s
+env	.eslintrc.json	/^    "env": {$/;"	o
+env	react/.react-eslintrc.json	/^    "env": {$/;"	o
+es2020	.eslintrc.json	/^        "es2020": true,$/;"	b	object:env
+es2021	react/.react-eslintrc.json	/^        "es2021": true,$/;"	b	object:env
+ex	zsh/aliases.zsh	/^alias ex='chmod +x'$/;"	a
+extends	.eslintrc.json	/^    "extends": [$/;"	a
+extends	.stylelintrc.json	/^  "extends": "stylelint-config-standard"$/;"	s
+extends	react/.react-eslintrc.json	/^    "extends": [$/;"	a
+f	qmk/planck-ez-keyboard.json	/^      "f": 2$/;"	n	object:0.0
+f	qmk/planck-ez-keyboard.json	/^      "f": 2$/;"	n	object:1.17
+f	qmk/planck-ez-keyboard.json	/^      "f": 2$/;"	n	object:10.0
+f	qmk/planck-ez-keyboard.json	/^      "f": 2$/;"	n	object:14.0
+f	qmk/planck-ez-keyboard.json	/^      "f": 2$/;"	n	object:18.0
+f	qmk/planck-ez-keyboard.json	/^      "f": 2$/;"	n	object:2.0
+f	qmk/planck-ez-keyboard.json	/^      "f": 2$/;"	n	object:22.0
+f	qmk/planck-ez-keyboard.json	/^      "f": 2$/;"	n	object:5.17
+f	qmk/planck-ez-keyboard.json	/^      "f": 2$/;"	n	object:6.0
+f	qmk/planck-ez-keyboard.json	/^      "f": 2$/;"	n	object:9.17
+f	qmk/planck-ez-keyboard.json	/^      "f": 3,$/;"	n	object:1.15
+f	qmk/planck-ez-keyboard.json	/^      "f": 3,$/;"	n	object:1.32
+f	qmk/planck-ez-keyboard.json	/^      "f": 3,$/;"	n	object:13.15
+f	qmk/planck-ez-keyboard.json	/^      "f": 3,$/;"	n	object:17.15
+f	qmk/planck-ez-keyboard.json	/^      "f": 3,$/;"	n	object:21.15
+f	qmk/planck-ez-keyboard.json	/^      "f": 3,$/;"	n	object:5.15
+f	qmk/planck-ez-keyboard.json	/^      "f": 3,$/;"	n	object:5.32
+f	qmk/planck-ez-keyboard.json	/^      "f": 3,$/;"	n	object:9.15
+f	qmk/planck-ez-keyboard.json	/^      "f": 3,$/;"	n	object:9.32
+f	zsh/aliases.zsh	/^alias f='firefox'$/;"	a
+f	zsh/aliases.zsh	/^alias f='rg --files | fzf | xargs -I "{}" nvim {}'$/;"	a
+file	zsh/aliases.zsh	/^alias file='nautilus'$/;"	a
+g:PaperColor_Theme_Options	nvim/plugin-configs.vim	/^let g:PaperColor_Theme_Options = {$/;"	v
+g:UltiSnipsExpandTrigger	nvim/plugin-configs.vim	/^let g:UltiSnipsExpandTrigger="<c-cr>"$/;"	v
+g:UltiSnipsJumpBackwardTrigger	nvim/plugin-configs.vim	/^let g:UltiSnipsJumpBackwardTrigger="<c-cr>"$/;"	v
+g:UltiSnipsJumpForwardTrigger	nvim/plugin-configs.vim	/^let g:UltiSnipsJumpForwardTrigger="<c-cr>"$/;"	v
+g:UltiSnipsSnippetDirectories	nvim/plugin-configs.vim	/^let g:UltiSnipsSnippetDirectories = ['~\/dotfiles\/nvim\/UltiSnips']$/;"	v
+g:airline#extensions#tabline#enabled	nvim/plugin-configs.vim	/^let g:airline#extensions#tabline#enabled = 1$/;"	v
+g:airline#extensions#tabline#left_alt_sep	nvim/plugin-configs.vim	/^let g:airline#extensions#tabline#left_alt_sep = ''$/;"	v
+g:airline#extensions#tabline#left_sep	nvim/plugin-configs.vim	/^let g:airline#extensions#tabline#left_sep = ' '$/;"	v
+g:airline#extensions#tabline#right_alt_sep	nvim/plugin-configs.vim	/^let g:airline#extensions#tabline#right_alt_sep = ''$/;"	v
+g:airline#extensions#tabline#right_sep	nvim/plugin-configs.vim	/^let g:airline#extensions#tabline#right_sep = ' '$/;"	v
+g:airline#extensions#tabline#show_buffers	nvim/plugin-configs.vim	/^let g:airline#extensions#tabline#show_buffers = 1$/;"	v
+g:airline#extensions#tabline#show_splits	nvim/plugin-configs.vim	/^let g:airline#extensions#tabline#show_splits = 0$/;"	v
+g:airline#extensions#tabline#show_tab_count	nvim/plugin-configs.vim	/^let g:airline#extensions#tabline#show_tab_count = 0 " no tab number on right hand side$/;"	v
+g:airline#extensions#tabline#show_tab_nr	nvim/plugin-configs.vim	/^let g:airline#extensions#tabline#show_tab_nr = 0 " no tab number$/;"	v
+g:airline#extensions#tabline#show_tabs	nvim/plugin-configs.vim	/^let g:airline#extensions#tabline#show_tabs = 0$/;"	v
+g:airline#extensions#tabline#tabs_label	nvim/plugin-configs.vim	/^let g:airline#extensions#tabline#tabs_label = ' '$/;"	v
+g:ale_fix_on_save	nvim/plugin-configs.vim	/^let g:ale_fix_on_save = 1$/;"	v
+g:ale_fixers	nvim/plugin-configs.vim	/^let g:ale_fixers = {$/;"	v
+g:ale_lint_on_enter	nvim/plugin-configs.vim	/^let g:ale_lint_on_enter = 1$/;"	v
+g:ale_linters	nvim/plugin-configs.vim	/^let g:ale_linters = {$/;"	v
+g:ale_linters_explicit	nvim/plugin-configs.vim	/^let g:ale_linters_explicit = 1$/;"	v
+g:ale_set_highlights	nvim/plugin-configs.vim	/^let g:ale_set_highlights = 1$/;"	v
+g:ale_set_signs	nvim/plugin-configs.vim	/^let g:ale_set_signs = 0$/;"	v
+g:clever_f_across_no_line	nvim/plugin-configs.vim	/^let g:clever_f_across_no_line = 1$/;"	v
+g:clever_f_smart_case	nvim/plugin-configs.vim	/^let g:clever_f_smart_case = 1$/;"	v
+g:completion_chain_complete_list	nvim/plugin-configs.vim	/^let g:completion_chain_complete_list = {$/;"	v
+g:completion_confirm_key	nvim/plugin-configs.vim	/^let g:completion_confirm_key = ""$/;"	v
+g:completion_enable_auto_hover	nvim/plugin-configs.vim	/^let g:completion_enable_auto_hover = 0$/;"	v
+g:completion_enable_auto_paren	nvim/plugin-configs.vim	/^let g:completion_enable_auto_paren = 0$/;"	v
+g:completion_enable_auto_signature	nvim/plugin-configs.vim	/^let g:completion_enable_auto_signature = 0$/;"	v
+g:completion_enable_snippet	nvim/plugin-configs.vim	/^let g:completion_enable_snippet = 'UltiSnips'$/;"	v
+g:completion_matching_ignore_case	nvim/plugin-configs.vim	/^let g:completion_matching_ignore_case = 1$/;"	v
+g:completion_matching_strategy_list	nvim/plugin-configs.vim	/^let g:completion_matching_strategy_list = ['exact']$/;"	v
+g:completion_sorting	nvim/plugin-configs.vim	/^let g:completion_sorting = 'none'$/;"	v
+g:completion_trigger_character	nvim/plugin-configs.vim	/^let g:completion_trigger_character = []$/;"	v
+g:completion_trigger_keyword_length	nvim/plugin-configs.vim	/^let g:completion_trigger_keyword_length = 1$/;"	v
+g:completion_trigger_on_delete	nvim/plugin-configs.vim	/^let g:completion_trigger_on_delete = 0$/;"	v
+g:diagnostic_enable_virtual_text	nvim/plugin-configs.vim	/^let g:diagnostic_enable_virtual_text = 1$/;"	v
+g:diagnostic_show_sign	nvim/plugin-configs.vim	/^let g:diagnostic_show_sign = 2$/;"	v
+g:diagnostic_virtual_text_prefix	nvim/plugin-configs.vim	/^let g:diagnostic_virtual_text_prefix = 'ﱢ'$/;"	v
+g:fzf_action	nvim/plugin-configs.vim	/^let g:fzf_action = {$/;"	v
+g:fzf_buffers_jump	nvim/plugin-configs.vim	/^let g:fzf_buffers_jump = 1$/;"	v
+g:fzf_layout	nvim/plugin-configs.vim	/^let g:fzf_layout = { 'window': 'lua NavigationFloatingWin()' }$/;"	v
+g:fzf_preview_window	nvim/plugin-configs.vim	/^let g:fzf_preview_window = ''$/;"	v
+g:gutentags_add_default_project_roots	nvim/plugin-configs.vim	/^let g:gutentags_add_default_project_roots = 0$/;"	v
+g:gutentags_cache_dir	nvim/plugin-configs.vim	/^let g:gutentags_cache_dir = expand('~\/gutentags_cache')$/;"	v
+g:gutentags_ctags_exclude	nvim/plugin-configs.vim	/^let g:gutentags_ctags_exclude = [ '*.git', '*.svg', '*.hg', '*\/tests\/*', 'build', 'dist', '*si/;"	v
+g:gutentags_ctags_extra_args	nvim/plugin-configs.vim	/^let g:gutentags_ctags_extra_args = [$/;"	v
+g:gutentags_exclude_filetypes	nvim/plugin-configs.vim	/^let g:gutentags_exclude_filetypes = [$/;"	v
+g:gutentags_project_root	nvim/plugin-configs.vim	/^let g:gutentags_project_root = ['src', 'nvim', 'dotfiles', 'plugged']$/;"	v
+g:loaded_netrw	nvim/plugin-configs.vim	/^let g:loaded_netrw  = 1$/;"	v
+g:mkdp_auto_close	nvim/plugin-configs.vim	/^let g:mkdp_auto_close = 1$/;"	v
+g:mkdp_auto_start	nvim/plugin-configs.vim	/^let g:mkdp_auto_start = 0$/;"	v
+g:mkdp_browser	nvim/plugin-configs.vim	/^let g:mkdp_browser = 'brave'$/;"	v
+g:mkdp_browserfunc	nvim/plugin-configs.vim	/^let g:mkdp_browserfunc = ''$/;"	v
+g:mkdp_command_for_global	nvim/plugin-configs.vim	/^let g:mkdp_command_for_global = 0$/;"	v
+g:mkdp_echo_preview_url	nvim/plugin-configs.vim	/^let g:mkdp_echo_preview_url = 0$/;"	v
+g:mkdp_highlight_css	nvim/plugin-configs.vim	/^let g:mkdp_highlight_css = ''$/;"	v
+g:mkdp_markdown_css	nvim/plugin-configs.vim	/^let g:mkdp_markdown_css = ''$/;"	v
+g:mkdp_open_ip	nvim/plugin-configs.vim	/^let g:mkdp_open_ip = ''$/;"	v
+g:mkdp_open_to_the_world	nvim/plugin-configs.vim	/^let g:mkdp_open_to_the_world = 0$/;"	v
+g:mkdp_page_title	nvim/plugin-configs.vim	/^let g:mkdp_page_title = '${name}'$/;"	v
+g:mkdp_port	nvim/plugin-configs.vim	/^let g:mkdp_port = ''$/;"	v
+g:mkdp_refresh_slow	nvim/plugin-configs.vim	/^let g:mkdp_refresh_slow = 0$/;"	v
+g:rooter_patterns	nvim/plugin-configs.vim	/^let g:rooter_patterns = ['=src', '=nvim', '=dotfiles', '=plugged']$/;"	v
+g:space_before_virtual_text	nvim/plugin-configs.vim	/^let g:space_before_virtual_text = 4$/;"	v
+g:user_emmet_settings	nvim/plugin-configs.vim	/^let g:user_emmet_settings = {$/;"	v
+g:vimwiki_list	nvim/plugin-configs.vim	/^let g:vimwiki_list = [{$/;"	v
+g:vimwiki_table_auto_fmt	nvim/plugin-configs.vim	/^let g:vimwiki_table_auto_fmt=0$/;"	v
+g:vimwiki_table_mappings	nvim/plugin-configs.vim	/^let g:vimwiki_table_mappings = 0$/;"	v
+g:vista_fzf_preview	nvim/plugin-configs.vim	/^let g:vista_fzf_preview = ['right:0%']$/;"	v
+ga	zsh/aliases.zsh	/^alias ga='git add -A'$/;"	a
+gacp	zsh/functions.zsh	/^gacp() {$/;"	f
+gd	nvim/mappings.vim	/^  nnoremap <silent>gd :lua vim.lsp.buf.definition()<cr>$/;"	m
+gd	nvim/mappings.vim	/^  nnoremap gd <c-]>$/;"	m
+getParentNodePid	scripts/sw.py	/^def getParentNodePid(node):$/;"	f
+getWindowIdfromPId	scripts/sw.py	/^def getWindowIdfromPId(pid):$/;"	f
+gp	zsh/aliases.zsh	/^alias gp='git push --all'$/;"	a
+gr	nvim/mappings.vim	/^  nnoremap <silent>gr <cmd>lua vim.lsp.buf.references()<CR>$/;"	m
+hello_world	nvim/lua/test.lua	/^local function hello_world()$/;"	f
+hideSwallowParent	scripts/sw.py	/^def hideSwallowParent(node, windowId, swallowId):$/;"	f
+i3	scripts/sw.py	/^i3 = i3ipc.Connection()$/;"	v
+i3	zsh/aliases.zsh	/^alias i3='cd i3'$/;"	a
+irc	zsh/aliases.zsh	/^alias irc='v ~\/dotfiles\/i3\/config'$/;"	a
+javascript	zsh/aliases.zsh	/^alias javascript='cd ~\/code\/javascript'$/;"	a
+jsx	.eslintrc.json	/^            "jsx": true$/;"	b	object:parserOptions.ecmaFeatures
+jsx	react/.react-eslintrc.json	/^            "jsx": true$/;"	b	object:parserOptions.ecmaFeatures
+jsxSingleQuote	.prettierrc.json	/^  "jsxSingleQuote": true,$/;"	b
+keymaps	qmk/iris-keyboard/keymap.c	/^const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {$/;"	v	typeref:typename:const uint16_t PROGMEM[][][]
+kit	zsh/aliases.zsh	/^alias kit='v ~\/dotfiles\/kitty\/kitty.conf'$/;"	a
+la	zsh/aliases.zsh	/^alias la='ls -aF --color=auto'$/;"	a
+live	zsh/aliases.zsh	/^alias live='live-server --browser=brave'$/;"	a
+ll	zsh/aliases.zsh	/^alias ll='ls -laF --color=auto'$/;"	a
+location_callback	nvim/lua/callbacks.lua	/^local location_callback = function(_, method, result)$/;"	f
+lrc	zsh/aliases.zsh	/^alias lrc='v ~\/dotfiles\/nvim\/lua\/init.lua'$/;"	a
+ls	zsh/aliases.zsh	/^alias ls='ls -F --color=auto'$/;"	a
+merge	zsh/aliases.zsh	/^alias merge='git branch | fzf | sed "s\/\\* \/\/g" | xargs -I "{}" git merge {}'$/;"	a
+mk	zsh/aliases.zsh	/^alias mk='mkdir'$/;"	a
+mux	zsh/aliases.zsh	/^alias mux='v ~\/dotfiles\/tmux\/.tmux.conf'$/;"	a
+node	.eslintrc.json	/^        "node": true$/;"	b	object:env
+node	react/.react-eslintrc.json	/^        "node": true$/;"	b	object:env
+not	zsh/aliases.zsh	/^alias not='cd ~\/dotfiles\/notes && v'$/;"	a
+notes	zsh/aliases.zsh	/^alias notes='cd ~\/dotfiles\/notes'$/;"	a
+on_close	scripts/sw.py	/^def on_close(self, event):$/;"	f
+on_new	scripts/sw.py	/^def on_new(self, event):$/;"	f
+p	nvim/mappings.vim	/^vnoremap p "_dP$/;"	m
+pac	zsh/functions.zsh	/^pac() { $/;"	f
+pacman	zsh/aliases.zsh	/^alias pacman='sudo pacman'$/;"	a
+pacr	zsh/functions.zsh	/^pacr() {$/;"	f
+parser	.eslintrc.json	/^    "parser": "@typescript-eslint\/parser",$/;"	s
+parser	.prettierrc.json	/^  "parser": "flow",$/;"	s
+parserOptions	.eslintrc.json	/^    "parserOptions": {$/;"	o
+parserOptions	react/.react-eslintrc.json	/^    "parserOptions": {$/;"	o
+plo	zsh/aliases.zsh	/^alias plo='cd ~\/dotfiles\/plover'$/;"	a
+plugins	.eslintrc.json	/^    "plugins": [$/;"	a
+plugins	react/.react-eslintrc.json	/^    "plugins": [$/;"	a
+pol	zsh/aliases.zsh	/^alias pol='v ~\/dotfiles\/polybar\/config'$/;"	a
+power	zsh/aliases.zsh	/^alias power='poweroff'$/;"	a
+prettier/prettier	react/.react-eslintrc.json	/^        "prettier\/prettier": [$/;"	a	object:rules
+printWidth	.prettierrc.json	/^  "printWidth": 100,$/;"	n
+push	zsh/aliases.zsh	/^alias push='git push'$/;"	a
+python	zsh/aliases.zsh	/^alias python='cd ~\/code\/python'$/;"	a
+q	zsh/aliases.zsh	/^alias q='exit'$/;"	a
+r	nvim/mappings.vim	/^nnoremap r <nop>$/;"	m
+react	zsh/aliases.zsh	/^alias react='cd ~\/code\/react'$/;"	a
+react/prop-types	react/.react-eslintrc.json	/^        "react\/prop-types": 0,$/;"	n	object:rules
+render	react/App.js	/^  render() {$/;"	m	class:App
+reset	zsh/aliases.zsh	/^alias reset='git reset --hard HEAD'$/;"	a
+reset	zsh/aliases.zsh	/^alias reset='git reset --hard'$/;"	a
+rma	zsh/aliases.zsh	/^alias rma='sudo rm -rv'$/;"	a
+rmnpm	zsh/aliases.zsh	/^alias rmnpm='rm -R node_modules package.json package-lock.json'$/;"	a
+root	react/react-index.html	/^    <div id="root">$/;"	I
+rules	.eslintrc.json	/^    "rules": {}$/;"	o
+rules	react/.react-eslintrc.json	/^    "rules": {$/;"	o
+s:check_back_space	nvim/mappings.vim	/^function! s:check_back_space() abort$/;"	f
+sas	zsh/aliases.zsh	/^alias sas='sass --watch'$/;"	a
+screenkey	zsh/aliases.zsh	/^alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'$/;"	a
+scss	zsh/aliases.zsh	/^alias scss='sass --watch'$/;"	a
+semi	.prettierrc.json	/^  "semi": false,$/;"	b
+singleQuote	.prettierrc.json	/^  "singleQuote": true,$/;"	b
+sleep	zsh/aliases.zsh	/^alias sleep='systemctl suspend'$/;"	a
+so	zsh/aliases.zsh	/^alias so='source ~\/.zshrc'$/;"	a
+sourceType	.eslintrc.json	/^        "sourceType": "module"$/;"	s	object:parserOptions
+sourceType	react/.react-eslintrc.json	/^        "sourceType": "module"$/;"	s	object:parserOptions
+ss	nvim/mappings.vim	/^nnoremap ss :s\/<c-r>=expand("<cword>")<cr>\/\/g<left><left>$/;"	m
+ss	nvim/mappings.vim	/^vnoremap ss :s\/\/\/gi<left><left><left><left>$/;"	m
+style bg	tmux/.tmux.conf	/^set-option -g message-command-style bg=colour239,fg=colour223 # bg=fg3, fg=bg1$/;"	k
+style bg	tmux/.tmux.conf	/^set-option -g message-style bg=colour239,fg=colour223 # bg=bg2, fg=fg1$/;"	k
+style bg	tmux/.tmux.conf	/^set-option -g status-style bg=colour237,fg=colour223 # bg=bg1, fg=fg1$/;"	k
+style bg	tmux/.tmux.conf	/^set-window-option -g window-status-activity-style bg=colour237,fg=colour248 # bg=bg1, fg=fg3$/;"	k
+style bg	tmux/.tmux.conf	/^set-window-option -g window-status-bell-style bg=colour167,fg=colour235 # bg=red, fg=bg$/;"	k
+style bg	tmux/.tmux.conf	/^set-window-option -g window-status-current-style bg=red,fg=colour237 # fg=bg1$/;"	k
+style bg	tmux/.tmux.conf	/^set-window-option -g window-status-style bg=colour214,fg=colour237 # bg=yellow, fg=bg1$/;"	k
+style fg	tmux/.tmux.conf	/^set-option -g pane-active-border-style fg=colour250 #fg2$/;"	k
+style fg	tmux/.tmux.conf	/^set-option -g pane-border-style fg=colour237 #bg1$/;"	k
+swallowDict	scripts/sw.py	/^swallowDict={}$/;"	v
+sxh	zsh/aliases.zsh	/^alias sxh='v ~\/dotfiles\/sxhkd\/sxhkdrc'$/;"	a
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:1.27
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:11.18
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:11.25
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:13.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:13.10
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:15.11
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:15.3
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:17.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:17.10
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:19.10
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:19.5
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:21.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:21.10
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:23.3
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:23.9
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:3.18
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:3.24
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:3.28
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:5.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:5.10
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:5.27
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:7.19
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:7.23
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:7.27
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:7.9
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000"$/;"	s	object:9.27
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000",$/;"	s	object:1.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000",$/;"	s	object:1.10
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000",$/;"	s	object:11.2
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000",$/;"	s	object:11.8
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000",$/;"	s	object:3.2
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000",$/;"	s	object:3.8
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000",$/;"	s	object:7.2
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000",$/;"	s	object:9.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#000000",$/;"	s	object:9.10
+t	qmk/planck-ez-keyboard.json	/^      "t": "#e4dedd"$/;"	s	object:11.21
+t	qmk/planck-ez-keyboard.json	/^      "t": "#e4dedd"$/;"	s	object:15.9
+t	qmk/planck-ez-keyboard.json	/^      "t": "#e4dedd"$/;"	s	object:19.3
+t	qmk/planck-ez-keyboard.json	/^      "t": "#e4dedd"$/;"	s	object:23.12
+t	qmk/planck-ez-keyboard.json	/^      "t": "#e4dedd"$/;"	s	object:3.26
+t	qmk/planck-ez-keyboard.json	/^      "t": "#e4dedd"$/;"	s	object:7.21
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:11.29
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:13.5
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:15.14
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:17.5
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:19.14
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:21.5
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:23.14
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:3.30
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:5.22
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:5.5
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:7.13
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:7.31
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff"$/;"	s	object:9.22
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:0.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:1.22
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:1.5
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:10.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:11.12
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:11.23
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:11.6
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:14.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:15.7
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:18.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:19.8
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:2.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:22.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:23.7
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:3.12
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:3.22
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:3.6
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:6.0
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:7.25
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:7.7
+t	qmk/planck-ez-keyboard.json	/^      "t": "#ffffff",$/;"	s	object:9.5
+t	zsh/aliases.zsh	/^alias t='tree -I node_modules'$/;"	a
+tabWidth	.prettierrc.json	/^  "tabWidth": 2,$/;"	n
+tags	zsh/aliases.zsh	/^alias tags='ctags -R --sort=1 --exclude=node_modules'$/;"	a
+to	zsh/aliases.zsh	/^alias to='touch'$/;"	a
+trailingComma	.prettierrc.json	/^  "trailingComma": "all",$/;"	s
+typescript	zsh/aliases.zsh	/^alias typescript='cd ~\/code\/typescript'$/;"	a
+uefi	zsh/aliases.zsh	/^alias uefi='cd && sudo systemctl reboot --firmware-setup'$/;"	a
+update	zsh/aliases.zsh	/^alias update='yay -Syu; sudo pacman -Sc'$/;"	a
+usb	zsh/functions.zsh	/^usb() {$/;"	f
+v	zsh/aliases.zsh	/^alias v='nvim'$/;"	a
+val	zsh/aliases.zsh	/^alias val='v ~\/dotfiles\/plover\/vim.json'$/;"	a
+vif	zsh/aliases.zsh	/^alias vif='v ~\/dotfiles\/vifm\/vifmrc'$/;"	a
+vifm	zsh/functions.zsh	/^vifm(){$/;"	f
+vma	zsh/aliases.zsh	/^alias vma='v ~\/dotfiles\/nvim\/mappings.vim'$/;"	a
+vpc	zsh/aliases.zsh	/^alias vpc='v ~\/dotfiles\/nvim\/plugin-configs.vim'$/;"	a
+vpl	zsh/aliases.zsh	/^alias vpl='v ~\/dotfiles\/nvim\/plugins.vim'$/;"	a
+vrc	zsh/aliases.zsh	/^alias vrc='v ~\/dotfiles\/nvim\/init.vim'$/;"	a
+vsn	zsh/aliases.zsh	/^alias vsn='v ~\/dotfiles\/nvim\/lua\/nvim-snippets.lua'$/;"	a
+vst	zsh/aliases.zsh	/^alias vst='v ~\/dotfiles\/nvim\/steno.vim'$/;"	a
+vvim	zsh/aliases.zsh	/^alias vvim='cd ~\/dotfiles\/nvim'$/;"	a
+w	qmk/planck-ez-keyboard.json	/^      "w": 1.5$/;"	n	object:1.15
+w	qmk/planck-ez-keyboard.json	/^      "w": 1.5$/;"	n	object:1.32
+w	qmk/planck-ez-keyboard.json	/^      "w": 1.5$/;"	n	object:13.15
+w	qmk/planck-ez-keyboard.json	/^      "w": 1.5$/;"	n	object:17.15
+w	qmk/planck-ez-keyboard.json	/^      "w": 1.5$/;"	n	object:21.15
+w	qmk/planck-ez-keyboard.json	/^      "w": 1.5$/;"	n	object:5.15
+w	qmk/planck-ez-keyboard.json	/^      "w": 1.5$/;"	n	object:5.32
+w	qmk/planck-ez-keyboard.json	/^      "w": 1.5$/;"	n	object:9.15
+w	qmk/planck-ez-keyboard.json	/^      "w": 1.5$/;"	n	object:9.32
+w	qmk/planck-ez-keyboard.json	/^      "w": 2$/;"	n	object:11.23
+w	qmk/planck-ez-keyboard.json	/^      "w": 2$/;"	n	object:11.6
+w	qmk/planck-ez-keyboard.json	/^      "w": 2$/;"	n	object:15.7
+w	qmk/planck-ez-keyboard.json	/^      "w": 2$/;"	n	object:19.8
+w	qmk/planck-ez-keyboard.json	/^      "w": 2$/;"	n	object:23.7
+w	qmk/planck-ez-keyboard.json	/^      "w": 2$/;"	n	object:3.22
+w	qmk/planck-ez-keyboard.json	/^      "w": 2$/;"	n	object:3.6
+w	qmk/planck-ez-keyboard.json	/^      "w": 2$/;"	n	object:7.25
+w	qmk/planck-ez-keyboard.json	/^      "w": 2$/;"	n	object:7.7
+web	zsh/aliases.zsh	/^alias web='cd ~\/code\/web'$/;"	a
+webt	zsh/aliases.zsh	/^alias webt='cd ~\/code\/web\/test'$/;"	a
+what is useState	notes/javascript/useState.md	/^### what is useState$/;"	S
+x	qmk/planck-ez-keyboard.json	/^      "x": 0.5,$/;"	n	object:1.17
+x	qmk/planck-ez-keyboard.json	/^      "x": 0.5,$/;"	n	object:5.17
+x	qmk/planck-ez-keyboard.json	/^      "x": 0.5,$/;"	n	object:9.17
+x	qmk/planck-ez-keyboard.json	/^      "x": 14$/;"	n	object:12.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 14$/;"	n	object:15.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 14$/;"	n	object:16.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 14$/;"	n	object:19.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 14$/;"	n	object:20.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 14$/;"	n	object:23.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 14,$/;"	n	object:13.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 14,$/;"	n	object:14.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 14,$/;"	n	object:17.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 14,$/;"	n	object:18.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 14,$/;"	n	object:21.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 14,$/;"	n	object:22.0
+x	qmk/planck-ez-keyboard.json	/^      "x": 2$/;"	n	object:0.13
+x	qmk/planck-ez-keyboard.json	/^      "x": 2$/;"	n	object:10.13
+x	qmk/planck-ez-keyboard.json	/^      "x": 2$/;"	n	object:11.15
+x	qmk/planck-ez-keyboard.json	/^      "x": 2$/;"	n	object:2.13
+x	qmk/planck-ez-keyboard.json	/^      "x": 2$/;"	n	object:3.15
+x	qmk/planck-ez-keyboard.json	/^      "x": 2$/;"	n	object:4.13
+x	qmk/planck-ez-keyboard.json	/^      "x": 2$/;"	n	object:6.13
+x	qmk/planck-ez-keyboard.json	/^      "x": 2$/;"	n	object:7.16
+x	qmk/planck-ez-keyboard.json	/^      "x": 2$/;"	n	object:8.13
+x	zsh/aliases.zsh	/^alias x='vifm .'$/;"	a
+y	nvim/mappings.vim	/^nnoremap y "*y$/;"	m
+y	nvim/mappings.vim	/^vnoremap y "*y$/;"	m
+y	qmk/planck-ez-keyboard.json	/^      "y": 0.5$/;"	n	object:4.0
+y	qmk/planck-ez-keyboard.json	/^      "y": 0.5$/;"	n	object:8.0
+y	qmk/planck-ez-keyboard.json	/^      "y": 0.5,$/;"	n	object:12.0
+y	qmk/planck-ez-keyboard.json	/^      "y": 0.5,$/;"	n	object:16.0
+y	qmk/planck-ez-keyboard.json	/^      "y": 0.5,$/;"	n	object:20.0
+yi	nvim/mappings.vim	/^nnoremap yi "*yi$/;"	m
+yl	nvim/mappings.vim	/^nnoremap yl :normal 0y$<cr>$/;"	m
+zsh	zsh/aliases.zsh	/^alias zsh='v ~\/dotfiles\/zsh\/.zshrc'$/;"	a
+{	nvim/mappings.vim	/^inoremap <expr> { Lbrace()$/;"	m
+{	nvim/mappings.vim	/^nnoremap { {zz$/;"	m
+{	nvim/mappings.vim	/^vnoremap { {zz$/;"	m
+}	nvim/mappings.vim	/^inoremap <expr> } Rbrace()$/;"	m
+}	nvim/mappings.vim	/^nnoremap } }zz$/;"	m
+}	nvim/mappings.vim	/^vnoremap } }zz$/;"	m

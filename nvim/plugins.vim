@@ -1,4 +1,5 @@
-" =================================================================================================
+"
+"=================================================================================================
 " Plugins
 
 call plug#begin('~/.config/nvim/plugged')
@@ -10,11 +11,7 @@ if has('nvim')
   Plug 'nvim-lua/diagnostic-nvim'
   Plug 'norcalli/nvim-colorizer.lua'
   Plug 'kristijanhusak/completion-tags'
-
-  " Vim Traning
-  Plug 'ThePrimeagen/vim-be-good'
 endif
-
 " Programming
 Plug 'dense-analysis/ale' " linting and fixing
 Plug 'tpope/vim-fugitive' " git intergration
@@ -31,6 +28,12 @@ Plug 'ludovicchabant/vim-gutentags' " updating tags file
 Plug 'justinmk/vim-dirvish' " better file manager
 
 " Testing
+Plug 'mattn/emmet-vim'
+" Plug 'RishabhRD/popfix'
+" Plug 'RishabhRD/nvim-lsputils'
+Plug 'norcalli/snippets.nvim'
+
+
 
 " Notetaking
 Plug 'vimwiki/vimwiki'
@@ -45,5 +48,5 @@ Plug 'vim-airline/vim-airline'
 Plug 'Rigellute/shades-of-purple.vim'
 call plug#end()
 
-"=================================================================================================
+"==================================================================================================
 "hat

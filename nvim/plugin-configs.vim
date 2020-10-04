@@ -48,17 +48,17 @@ let g:airline#extensions#tabline#show_tab_nr = 0 " no tab number
 let g:airline#extensions#tabline#show_tab_count = 0 " no tab number on right hand side
 
 " completion-nvim
-let g:completion_enable_snippet = 'UltiSnips'
+" let g:completion_enable_snippet = 'UltiSnips'
 let g:completion_matching_strategy_list = ['exact']
 let g:completion_matching_ignore_case = 1
-let g:completion_trigger_character = ['.']
-let g:completion_trigger_keyword_length = 1
+let g:completion_trigger_keyword_length = 2
 let g:completion_trigger_on_delete = 0
 let g:completion_enable_auto_signature = 0
 let g:completion_enable_auto_hover = 0
 let g:completion_sorting = 'none'
 let g:completion_confirm_key = ""
 let g:completion_enable_auto_paren = 0
+let g:completion_trigger_character = []
 let g:completion_chain_complete_list = {
       \'default' : [
       \  {'complete_items': ['UltiSnips', 'tags', 'path', 'lsp', 'buffers']}
@@ -67,6 +67,7 @@ let g:completion_chain_complete_list = {
 
 " vim-fzf
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 }}
+
 let g:fzf_preview_window = ''
 let g:fzf_buffers_jump = 1
 let g:fzf_action = {
@@ -109,7 +110,6 @@ let g:UltiSnipsExpandTrigger="<c-cr>"
 let g:UltiSnipsJumpForwardTrigger="<c-cr>"
 let g:UltiSnipsJumpBackwardTrigger="<c-cr>"
 
-
 " markdown preview
 let g:mkdp_auto_start = 0
 let g:mkdp_auto_close = 1
@@ -142,11 +142,11 @@ let g:loaded_netrw  = 1
 let g:vista_fzf_preview = ['right:0%']
 
 " vim-rooter
-let g:rooter_patterns = ['=src', '=nvim', '=dotfiles']
+let g:rooter_patterns = ['=src', '=nvim', '=dotfiles', '=plugged']
 
 " vim-gutentags
 let g:gutentags_add_default_project_roots = 0
-let g:gutentags_project_root = ['src', 'nvim', 'dotfiles']
+let g:gutentags_project_root = ['src', 'nvim', 'dotfiles', 'plugged']
 let g:gutentags_cache_dir = expand('~/gutentags_cache')
 let g:gutentags_exclude_filetypes = [
       \ 'gitcommit',
@@ -158,9 +158,7 @@ let g:gutentags_exclude_filetypes = [
       \ ]
 let g:gutentags_ctags_extra_args = [
       \ '--tag-relative=yes',
-      \ '--exclude=node_modules',
       \ '--fields=+ailmnS',
       \ ]
-let g:gutentags_ctags_exclude = ['*.git', '*.svg', '*.hg', '*/tests/*', 'build', 'dist', '*sites/*/files/*', 'bin', 'node_modules', 'bower_components', 'cache', 'compiled', 'docs', 'example', 'bundle', 'vendor', '*.md', '*-lock.json', '*.lock', '*bundle*.js', '*build*.js', '.*rc*', '*.json', '*.min.*', '*.map', '*.bak', '*.zip', '*.pyc', '*.class', '*.sln', '*.Master', '*.csproj', '*.tmp', '*.csproj.user', '*.cache', '*.pdb', 'tags*', 'cscope.*', '*.css', '*.less', '*.scss', '*.exe', '*.dll', '*.mp3', '*.ogg', '*.flac', '*.swp', '*.swo', '*.bmp', '*.gif', '*.ico', '*.jpg', '*.png', '*.rar', '*.zip', '*.tar', '*.tar.gz', '*.tar.xz', '*.tar.bz2', '*.pdf', '*.doc', '*.docx', '*.ppt', '*.pptx',]
 
-
+let g:gutentags_ctags_exclude = [ '*.git', '*.svg', '*.hg', '*/tests/*', 'build', 'dist', '*sites/*/files/*', 'bin', 'node_modules', 'bower_components', 'cache', 'compiled', 'docs', 'example', 'bundle', 'vendor', '*.md', '*-lock.json', '*.lock', '*bundle*.js', '*build*.js', '.*rc*', '*.json', '*.min.*', '*.map', '*.bak', '*.zip', '*.pyc', '*.class', '*.sln', '*.Master', '*.csproj', '*.tmp', '*.csproj.user', '*.cache', '*.pdb', 'tags*', 'cscope.*', '*.css', '*.less', '*.scss', '*.exe', '*.dll', '*.mp3', '*.ogg', '*.flac', '*.swp', '*.swo', '*.bmp', '*.gif', '*.ico', '*.jpg', '*.png', '*.rar', '*.zip', '*.tar', '*.tar.gz', '*.tar.xz', '*.tar.bz2', '*.pdf', '*.doc', '*.docx', '*.ppt', '*.pptx']
