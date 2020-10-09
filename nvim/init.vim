@@ -19,14 +19,10 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 "==================================================================================================
 "Lua
-
-if has('nvim')
+if !empty(glob("/mnt/Users")) && has('nvim')
   lua require 'init'
   lua require 'colorizer'.setup()
-  " nnoremap <c-z> :lua require('test').hello_world()<cr>
-else
-  set nocompatible
-end
+endif
 
 "==================================================================================================
 " Basic Config
@@ -69,6 +65,7 @@ set listchars=tab:→\ ,eol:↲,trail:•
 set completeopt=menuone,noinsert
 set noshowmode
 set tags=~/gutentags_cache
+set nocompatible
 
 " =============================================================================
 " Vimscript
@@ -94,7 +91,7 @@ augroup autocmds
   autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
   autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
 
-  if has('nvim')
+  if !empty(glob("/mnt/Users")) && has('nvim')
     autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked
     autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
     autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
@@ -102,13 +99,3 @@ augroup autocmds
   endif
 augroup end
 
-lua <<EOF
-vim.lsp.callbacks['textDocument/codeAction'] = require'lsputil.codeAction'.code_action_handler
-vim.lsp.callbacks['textDocument/references'] = require'lsputil.locations'.references_handler
-vim.lsp.callbacks['textDocument/definition'] = require'lsputil.locations'.definition_handler
-vim.lsp.callbacks['textDocument/declaration'] = require'lsputil.locations'.declaration_handler
-vim.lsp.callbacks['textDocument/typeDefinition'] = require'lsputil.locations'.typeDefinition_handler
-vim.lsp.callbacks['textDocument/implementation'] = require'lsputil.locations'.implementation_handler
-vim.lsp.callbacks['textDocument/documentSymbol'] = require'lsputil.symbols'.document_handler
-vim.lsp.callbacks['workspace/symbol'] = require'lsputil.symbols'.workspace_handler
-EOF

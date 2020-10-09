@@ -4,7 +4,7 @@
 
 call plug#begin('~/.config/nvim/plugged')
 
-if has('nvim')
+if !empty(glob("/mnt/Users")) && has('nvim')
   Plug 'neovim/nvim-lspconfig'
   Plug 'nvim-lua/completion-nvim'
   Plug 'steelsojka/completion-buffers'
@@ -29,11 +29,6 @@ Plug 'justinmk/vim-dirvish' " better file manager
 Plug 'mattn/emmet-vim'
 
 " Testing
-Plug 'RishabhRD/popfix'
-Plug 'RishabhRD/nvim-lsputils'
-Plug 'norcalli/snippets.nvim'
-
-
 
 " Notetaking
 Plug 'vimwiki/vimwiki'
