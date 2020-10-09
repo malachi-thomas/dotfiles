@@ -19,7 +19,7 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 "==================================================================================================
 "Lua
-if !empty(glob("/mnt/Users")) && has('nvim')
+if empty(glob("/mnt/Users")) && has('nvim')
   lua require 'init'
   lua require 'colorizer'.setup()
 endif
@@ -91,7 +91,7 @@ augroup autocmds
   autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
   autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
 
-  if !empty(glob("/mnt/Users")) && has('nvim')
+  if empty(glob("/mnt/Users")) && has('nvim')
     autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked
     autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
     autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers

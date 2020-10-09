@@ -4,13 +4,18 @@
 
 call plug#begin('~/.config/nvim/plugged')
 
-if !empty(glob("/mnt/Users")) && has('nvim')
+if empty(glob("/mnt/Users")) && has('nvim')
   Plug 'neovim/nvim-lspconfig'
   Plug 'nvim-lua/completion-nvim'
   Plug 'steelsojka/completion-buffers'
   Plug 'nvim-lua/diagnostic-nvim'
   Plug 'norcalli/nvim-colorizer.lua'
   Plug 'kristijanhusak/completion-tags'
+else
+  Plug 'machakann/vim-highlightedyank'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  let g:coc_global_extensions = ['coc-tsserver', 'coc-python', 'coc-sh', 'coc-clangd']
+
 endif
 " Programming
 Plug 'dense-analysis/ale' " linting and fixing
