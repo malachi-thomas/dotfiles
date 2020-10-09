@@ -3,6 +3,7 @@
 source ~/dotfiles/nvim/mappings.vim
 source ~/dotfiles/nvim/plugins.vim
 source ~/dotfiles/nvim/plugin-configs.vim
+source ~/dotfiles/nvim/my-auto-pairs.vim
 
 "==================================================================================================
 " Theme
@@ -19,13 +20,13 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 "==================================================================================================
 "Lua
 
-" lua require "callbacks"
 if has('nvim')
   lua require 'init'
-  lua require'colorizer'.setup()
+  lua require 'colorizer'.setup()
+  " nnoremap <c-z> :lua require('test').hello_world()<cr>
 else
   set nocompatible
-endif
+end
 
 "==================================================================================================
 " Basic Config
@@ -84,7 +85,8 @@ augroup autocmds
   " autocmd BufRead ~/dotfiles/sxhkd/sxhkdrc set filetype=sh
   autocmd VimEnter,SourcePost * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
-  autocmd BufWritePre *.vim normal mmgg=G`mzz
+  autocmd BufWritePre *.vim  normal mmgg=G`mzz
+  autocmd BufWritePre *.scss  normal mmgg=G`mzz
   " autocmd VimEnter * if argc() == 0 | q | endif " dont open vim with a empty buffer
   autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
   autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
@@ -100,7 +102,13 @@ augroup autocmds
   endif
 augroup end
 
-
-
-
-
+lua <<EOF
+vim.lsp.callbacks['textDocument/codeAction'] = require'lsputil.codeAction'.code_action_handler
+vim.lsp.callbacks['textDocument/references'] = require'lsputil.locations'.references_handler
+vim.lsp.callbacks['textDocument/definition'] = require'lsputil.locations'.definition_handler
+vim.lsp.callbacks['textDocument/declaration'] = require'lsputil.locations'.declaration_handler
+vim.lsp.callbacks['textDocument/typeDefinition'] = require'lsputil.locations'.typeDefinition_handler
+vim.lsp.callbacks['textDocument/implementation'] = require'lsputil.locations'.implementation_handler
+vim.lsp.callbacks['textDocument/documentSymbol'] = require'lsputil.symbols'.document_handler
+vim.lsp.callbacks['workspace/symbol'] = require'lsputil.symbols'.workspace_handler
+EOF

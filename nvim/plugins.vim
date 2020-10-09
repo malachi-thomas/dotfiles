@@ -26,11 +26,11 @@ Plug 'junegunn/fzf.vim' " FZF
 Plug 'metakirby5/codi.vim' " inline code meseges
 Plug 'ludovicchabant/vim-gutentags' " updating tags file
 Plug 'justinmk/vim-dirvish' " better file manager
+Plug 'mattn/emmet-vim'
 
 " Testing
-Plug 'mattn/emmet-vim'
-" Plug 'RishabhRD/popfix'
-" Plug 'RishabhRD/nvim-lsputils'
+Plug 'RishabhRD/popfix'
+Plug 'RishabhRD/nvim-lsputils'
 Plug 'norcalli/snippets.nvim'
 
 
@@ -46,6 +46,7 @@ Plug 'mboughaba/i3config.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'Rigellute/shades-of-purple.vim'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 call plug#end()
 
 "==================================================================================================

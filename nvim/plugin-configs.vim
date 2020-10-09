@@ -40,7 +40,7 @@ let g:airline#extensions#tabline#right_sep = ' '
 let g:airline#extensions#tabline#right_alt_sep = ''
 let g:airline#extensions#tabline#tabs_label = ' '
 let g:airline#extensions#tabline#enabled = 1
-" let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 let g:airline#extensions#tabline#show_buffers = 1
 let g:airline#extensions#tabline#show_tabs = 0
 let g:airline#extensions#tabline#show_splits = 0
@@ -51,7 +51,7 @@ let g:airline#extensions#tabline#show_tab_count = 0 " no tab number on right han
 " let g:completion_enable_snippet = 'UltiSnips'
 let g:completion_matching_strategy_list = ['exact']
 let g:completion_matching_ignore_case = 1
-let g:completion_trigger_keyword_length = 2
+let g:completion_trigger_keyword_length = 1
 let g:completion_trigger_on_delete = 0
 let g:completion_enable_auto_signature = 0
 let g:completion_enable_auto_hover = 0
@@ -63,7 +63,6 @@ let g:completion_chain_complete_list = {
       \'default' : [
       \  {'complete_items': ['UltiSnips', 'tags', 'path', 'lsp', 'buffers']}
       \ ]}
-
 
 " vim-fzf
 let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 }}
@@ -146,16 +145,9 @@ let g:rooter_patterns = ['=src', '=nvim', '=dotfiles', '=plugged']
 
 " vim-gutentags
 let g:gutentags_add_default_project_roots = 0
-let g:gutentags_project_root = ['src', 'nvim', 'dotfiles', 'plugged']
+let g:gutentags_project_root = ['src', 'nvim', 'javascript']
 let g:gutentags_cache_dir = expand('~/gutentags_cache')
-let g:gutentags_exclude_filetypes = [
-      \ 'gitcommit',
-      \ 'gitconfig',
-      \ 'gitrebase',
-      \ 'gitsendemail',
-      \ 'git',
-      \ 'sxhkdrc'
-      \ ]
+let g:gutentags_exclude_filetypes = ['sxhkdrc']
 let g:gutentags_ctags_extra_args = [
       \ '--tag-relative=yes',
       \ '--fields=+ailmnS',

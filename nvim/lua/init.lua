@@ -4,8 +4,6 @@ local api = vim.api
 local fn = vim.fn
 local filetype = api.nvim_eval("&filetype")
 local completion = require('completion')
-
-
 -- Lsp
 require'nvim_lsp'.pyls.setup {} -- pip install python-language-server
 require'nvim_lsp'.tsserver.setup {} -- LspInstall tsserver
@@ -18,3 +16,10 @@ require'nvim_lsp'.html.setup {} -- LspInstall html
 require'nvim_lsp'.rls.setup {} -- ???
 -- reauire'nvim_lsp'.jsonls.setup {} -- LspInstall jsonls
 
+-- vim.lsp.callbacks['textDocument/codeAction'] = require'lsputil.codeAction'.code_action_handler
+-- vim.lsp.callbacks['textDocument/references'] = require'lsputil.locations'.references_handler
+-- vim.lsp.callbacks['textDocument/definition'] = require'lsputil.locations'.definition_handler
+-- vim.lsp.callbacks['textDocument/declaration'] = require'lsputil.locations'.declaration_handler
+-- vim.lsp.callbacks['textDocument/typeDefinition'] = require'lsputil.locations'.typeDefinition_handler
+-- vim.lsp.callbacks['textDocument/implementation'] = require'lsputil.locations'.implementation_handler
+-- vim.lsp.callbacks['textDocument/documentSymbol'] = require'lsputil.symbols'.document_handler

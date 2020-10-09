@@ -35,13 +35,13 @@ super + shift + r
   reboot
 
 alt + super + control + shift + a
-  sh ~/dotfiles/scripts/toggl.sh anime
+  notify-send "started Entertainment"; toggl start -o Entertainment 
 
 alt + super + control + shift + s
-  sh ~/dotfiles/scripts/toggl.sh
+  notify-send "stoped timer"; toggl stop
 
 alt + super + control + shift + f
-  sh ~/dotfiles/scripts/toggl.sh focus
+   notify-send "started Focus"; toggl start -o Focus
 
 
 # bspwm

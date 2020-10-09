@@ -1,5 +1,5 @@
 "==================================================================================================
-" let mapleader = ' '
+let mapleader = ' '
 " Basic Movement
 nnoremap <up> gkzz
 nnoremap <down> gjzz
@@ -32,12 +32,15 @@ nnoremap <tab> :bn<cr>
 nnoremap <space>n :enew<cr>
 
 " Splits
+nnoremap <space>vs :vsplit<cr>
 nnoremap <space><up> <c-w>k
 nnoremap <space><down> <c-w>j
 nnoremap <space><left> <c-w>h
 nnoremap <space><right> <c-w>l
 
-" Tabs
+" Terminal style mapping
+inoremap <c-u> <c-o>Vc
+nnoremap <c-u> 0d$
 
 " Extra
 nnoremap y "*y
@@ -48,15 +51,9 @@ nnoremap <space>hw :h <c-r>=expand("<cword>>")<cr><cr>
 cnoremap <c-h> <c-w>
 nnoremap <esc> <esc>:nohl<cr>
 inoremap <c-k> <c-x><c-k>
+inoremap <c-l> <c-x><c-l>
 inoremap <esc> <right><esc>
-inoremap <expr> <cr> Enter()
-inoremap <expr> <bs> Backspace()
-inoremap <expr> { Lbrace()
-inoremap <expr> ( Lpren()
-inoremap <expr> [ Lbrak()
-inoremap <expr> } Rbrace()
-inoremap <expr> ) Rpren()
-inoremap <expr> ] Rbrak()
+nnoremap <c-t> :enew<cr>
 
 " Unmap
 nnoremap K <nop>
@@ -105,6 +102,9 @@ ca W <c-r>=expand("<cWORD>")<cr><c-r>=Eatchar('\s')<cr>
 ca sub %s///g<left><left><left><c-r>=Eatchar('\s')<cr>
 ca dsub DSub
 
+" javascript ia
+" autocmd filetype javascript ia col colume
+
 " adds all files with the same extension to the argslist
 command Argadd execute 'argadd **/*%:e'
 command! -nargs=0 -bar Qargs execute 'args' QuickfixFilenames()
@@ -112,7 +112,7 @@ command -nargs=* DSub execute 'call DSub(<f-args>)'
 
 " Terminal mappings
 nnoremap <space>tt :FloatermNew<cr>
-tnoremap <esc> <c-\><c-n>
+tnoremap<esc> <c-\><c-n>
 
 " Testing
 
@@ -125,10 +125,9 @@ nmap <f5> <Plug>VimwikiPrevLink
 nmap <f6> <Plug>VimwikiGoBackLink
 ca mv Move
 ca mk Mkdir
-imap <c-s> <plug>(emmet-expand-abbr)
 inoremap <c-space> <c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>
 nnoremap <space><space> :Files<cr>
-nnoremap <space>f :Files ~<cr>
+nnoremap <space>f :Files %:h<cr>
 nnoremap <space><cr> :Tags<cr>
 nnoremap <space>sn :UltiSnipsEdit<cr>
 
@@ -138,16 +137,19 @@ imap <silent><expr><tab>
       \  completion#trigger_completion()
 inoremap <silent><expr><up>
       \ pumvisible() ? "\<c-p>" :
-      \ "\<up>"
+      \ "\<up><c-o>zz"
 inoremap <silent><expr><down>
       \ pumvisible() ? "\<c-n>" :
-      \ "\<down>"
+      \ "\<down><c-o>zz"
 inoremap <silent><expr><right>
       \ pumvisible() ? "\<c-g>u<right>" :
       \ "\<right>"
 inoremap <silent><expr><left>
       \ pumvisible() ? "\<c-g>u<left>" :
       \ "\<left>"
+imap <silent><expr><c-s>
+      \ pumvisible() ? "\<c-g>u\<plug>(emmet-expand-abbr)" :
+      \ "\<plug>(emmet-expand-abbr)"
 
 "==================================================================================================
 " Functions
@@ -180,74 +182,17 @@ function! DSub(arg1, arg2)
 endfunction
 
 function! TabClose()
-  if len(getbufinfo({'buflisted':1})) == 1
-    silent x
+  if len(getbufinfo({'buflisted':1})) == 1 && &ft != ''
+    silent x!
   elseif &ft == ''
-    silent bw
+    silent bw! | x!
   elseif &ft == 'fzf'
-    silent x
+    silent x!
   else
-    silent w | bw
+    silent w! | bw!
   endif
 endfunction
 
-function! Enter()
-  if getline('.')[col('.') - 2:col('.') - 1] == '><'
-    return "\<c-g>u\<cr>\<c-o>O\<tab>"
-  elseif getline('.')[col('.') - 2:col('.') - 1] == '{}'
-    return "\<c-g>u\<cr>\<c-o>O\<tab>"
-  elseif getline('.')[col('.') - 2:col('.') - 1] == '()'
-    return "\<c-g>u\<cr>\<c-o>O\<tab>"
-  elseif getline('.')[col('.') - 2:col('.') - 1] == '[]'
-    return "\<c-g>u\<cr>\<c-o>O\<tab>"
-  else
-    return "\<c-g>u\<cr>"
-  endif
-endfunction
-
-function! Rbrak()
-  if getline('.')[col('.') - 2] == '['
-    return "\<right>"
-  endif
-  return "]"
-endfunction
-
-function! Rbrace()
-  if getline('.')[col('.') - 2] == '{'
-    return "\<right>"
-  endif
-  return "}"
-endfunction
-
-function! Rpren()
-  if getline('.')[col('.') - 2] == '('
-    return "\<right>"
-  endif
-  return ")"
-endfunction
-
-function! Backspace()
-  if getline('.')[col('.') - 2:col('.') - 1] == '{}'
-    return "\<right>\<bs>\<bs>"
-  elseif getline('.')[col('.') - 2:col('.') - 1] == '()'
-    return "\<right>\<bs>\<bs>"
-  elseif getline('.')[col('.') - 2:col('.') - 1] == '[]'
-    return "\<right>\<bs>\<bs>"
-  endif
-  return "\<bs>"
-endfunction
-
-function! Lbrak()
-  return "[]\<left>"
-endfunction
-
-function! Lpren()
-  return "()\<left>"
-endfunction
-
-function! Lbrace()
-  return "{}\<left>"
-endfunction
 
 "==================================================================================================
 

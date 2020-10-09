@@ -5,7 +5,8 @@
         "node": true
     },
     "extends": [
-        "standard"
+        "standard",
+        "plugin:react/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -15,13 +16,7 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react",
-        "prettier"
+        "react"
     ],
-    "rules": {
-        "react/prop-types": 0,
-        "prettier/prettier": [
-            "error"
-        ]
-    }
+    "rules": {}
 }

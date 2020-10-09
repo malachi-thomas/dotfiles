@@ -1,5 +1,5 @@
 # Config
-export PATH=$PATH:/home/malachi/dotfiles/scripts/:node_modules/.bin/
+export PATH=$PATH:/home/malachi/dotfiles/scripts/:node_modules/.bin/:../node_modules/.bin/
 export EDITOR='nvim'
 export GMAIL='thomasmalachi18@gmail.com'
 export GUSER='malachi557'

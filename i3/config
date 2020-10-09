@@ -19,8 +19,8 @@ exec_always --no-startup-id sxhkd
 
 # window things
 default_border pixel 1
-#workspace_layout tabbed
-workspace_layout default
+workspace_layout tabbed
+# workspace_layout default
 floating_modifier $mod
 
 #                       border  backgr. text    indicator
