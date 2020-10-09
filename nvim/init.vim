@@ -20,7 +20,7 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 "==================================================================================================
 "Lua
 if empty(glob("/mnt/Users")) && has('nvim')
-  lua require 'init'
+  lua require('init')
   lua require 'colorizer'.setup()
 endif
 

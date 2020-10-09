@@ -15,7 +15,6 @@ else
   Plug 'machakann/vim-highlightedyank'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   let g:coc_global_extensions = ['coc-tsserver', 'coc-python', 'coc-sh', 'coc-clangd']
-
 endif
 " Programming
 Plug 'dense-analysis/ale' " linting and fixing
