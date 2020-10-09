@@ -4,7 +4,7 @@
 
 call plug#begin('~/.config/nvim/plugged')
 
-if empty(glob("/mnt/Users")) && has('nvim')
+if !isdirectory("/mnt/c/Users") && has('nvim')
   Plug 'neovim/nvim-lspconfig'
   Plug 'nvim-lua/completion-nvim'
   Plug 'steelsojka/completion-buffers'
