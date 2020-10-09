@@ -11,22 +11,32 @@ alias .....='cd ../../../../'
 alias ex='chmod +x'
 alias so='source ~/.zshrc'
 alias mk='mkdir'
-alias f='firefox'
-alias b='brave'
 alias file='nautilus'
 alias to='touch'
 alias c='cd $(dirname "$(fzf -e)")'
 alias dl='youtube-dl -x -o "%(title)s.%(ext)s"'
-alias reset='git reset --hard HEAD'
 alias copy='xclip -selection "primary" <'
 alias t='tree -I node_modules'
-alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'
 alias cc='cd && cd $(dirname "$(fzf -e)")'
-alias v='nvim'
 alias x='vifm .'
 alias tags='ctags -R --sort=1 --exclude=node_modules'
-alias f='rg --files | fzf | xargs -I "{}" nvim {}'
 
+# Unix
+if [ ! -d "/mnt/c/Users" ]
+then
+  # Basic Thing
+  alias f='rg --files | fzf | xargs -I "{}" nvim {}'
+  alias v='nvim'
+  alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'
+fi
+
+# Windows
+if [ -d "/mnt/c/Users" ]
+then
+  alias win='cd /mnt/c/Users/malac'
+  alias v='vim'
+  alias f='rg --files | fzf | xargs -I "{}" vim {}'
+fi
 
 # Config Files
 alias vrc='v ~/dotfiles/nvim/init.vim'
@@ -73,11 +83,6 @@ alias i3='cd i3'
 alias update='yay -Syu; sudo pacman -Sc'
 
 
-# Windows
-if [ -d "/mnt/c/Users" ]
-  then
-  alias win='cd /mnt/c/Users/myUserName'
-fi
 
 # Programming
 alias live='live-server --browser=brave'
