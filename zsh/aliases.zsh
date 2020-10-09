@@ -75,7 +75,6 @@ alias update='yay -Syu; sudo pacman -Sc'
 if [ -d "/mnt/c/Users" ]
   then
   alias win='cd /mnt/c/Users/malac'
-  alias 
 fi
 
 # Programming

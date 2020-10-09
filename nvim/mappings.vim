@@ -106,9 +106,9 @@ ca dsub DSub
 " autocmd filetype javascript ia col colume
 
 " adds all files with the same extension to the argslist
-command Argadd execute 'argadd **/*%:e'
+command! Argadd execute 'argadd **/*%:e'
 command! -nargs=0 -bar Qargs execute 'args' QuickfixFilenames()
-command -nargs=* DSub execute 'call DSub(<f-args>)'
+command! -nargs=* DSub execute 'call DSub(<f-args>)'
 
 " Terminal mappings
 nnoremap <space>tt :FloatermNew<cr>
