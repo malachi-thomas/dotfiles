@@ -4,8 +4,6 @@ npm init
 npm i react
 npm i react-dom
 npm i browserlist
-npm i node-sass
-npm i stylelint-config-standard
 npm i parcel-bundler
 npm i eslint
 npm i eslint-config-standard
@@ -19,7 +17,6 @@ npm i prettier
 mkdir src public src/components src/components/App
 
 cp -f ~/dotfiles/react/.react-eslintrc.json .eslintrc.json
-cp -f ~/dotfiles/.stylelintrc.json .stylelintrc.json
 cp -f ~/dotfiles/.prettierrc.json .prettierrc.json
 
 xclip -selection "primary" < ~/dotfiles/react/copy.this

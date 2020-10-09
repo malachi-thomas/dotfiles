@@ -72,6 +72,13 @@ alias power='poweroff'
 alias i3='cd i3'
 alias update='yay -Syu; sudo pacman -Sc'
 
+
+# Windows
+if [ -d "/mnt/c/Users" ]
+  then
+  alias win='cd /mnt/c/Users/myUserName'
+fi
+
 # Programming
 alias live='live-server --browser=brave'
 alias sas='sass --watch'
