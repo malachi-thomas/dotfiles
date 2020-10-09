@@ -1,4 +1,4 @@
-# Basic Alias's
+# Basic Alias's for unix and windows
 alias ls='ls -F --color=auto'
 alias la='ls -aF --color=auto'
 alias ll='ls -laF --color=auto'
@@ -15,30 +15,18 @@ alias file='nautilus'
 alias to='touch'
 alias c='cd $(dirname "$(fzf -e)")'
 alias dl='youtube-dl -x -o "%(title)s.%(ext)s"'
+alias reset='git reset --hard HEAD'
 alias copy='xclip -selection "primary" <'
 alias t='tree -I node_modules'
-alias cc='cd && cd $(dirname "$(fzf -e)")'
+alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'
 alias x='vifm .'
 alias tags='ctags -R --sort=1 --exclude=node_modules'
 
-# Unix
-if [ ! -d "/mnt/c/Users" ]
-then
-  # Basic Thing
-  alias f='rg --files | fzf | xargs -I "{}" nvim {}'
-  alias v='nvim'
-  alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'
-fi
-
-# Windows
-if [ -d "/mnt/c/Users" ]
-then
-  alias win='cd /mnt/c/Users/malac'
-  alias v='vim'
-  alias f='rg --files | fzf | xargs -I "{}" vim {}'
-fi
-
+# Unix Alias's
+alias v='nvim'
+alias f='rg --files | fzf | xargs -I "{}" nvim {}'
 # Config Files
+#     
 alias vrc='v ~/dotfiles/nvim/init.vim'
 alias vma='v ~/dotfiles/nvim/mappings.vim'
 alias vpl='v ~/dotfiles/nvim/plugins.vim'
@@ -83,6 +71,12 @@ alias i3='cd i3'
 alias update='yay -Syu; sudo pacman -Sc'
 
 
+# Windows
+if [ -d "/mnt/c/Users" ]
+  then
+  alias win='cd /mnt/c/Users/malac'
+  alias 
+fi
 
 # Programming
 alias live='live-server --browser=brave'
