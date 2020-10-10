@@ -21,12 +21,10 @@ alias t='tree -I node_modules'
 alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'
 alias x='vifm .'
 alias tags='ctags -R --sort=1 --exclude=node_modules'
-
-# Unix Alias's
 alias v='nvim'
 alias f='rg --files | fzf | xargs -I "{}" nvim {}'
+
 # Config Files
-#     
 alias vrc='v ~/dotfiles/nvim/init.vim'
 alias vma='v ~/dotfiles/nvim/mappings.vim'
 alias vpl='v ~/dotfiles/nvim/plugins.vim'
@@ -70,7 +68,6 @@ alias power='poweroff'
 alias i3='cd i3'
 alias update='yay -Syu; sudo pacman -Sc'
 
-
 # Windows
 if [ -d "/mnt/c/Users" ]
   then
@@ -92,4 +89,6 @@ alias clone='git clone'
 alias checkout='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git checkout {}'
 alias merge='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git merge {}'
 alias reset='git reset --hard'
+alias pull='git pull'
+alias status='git status'
 

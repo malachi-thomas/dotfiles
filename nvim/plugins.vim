@@ -49,4 +49,3 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 call plug#end()
 
 "==================================================================================================
-"hat

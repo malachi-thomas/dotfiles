@@ -8,8 +8,8 @@ npm i eslint-plugin-import
 npm i eslint-plugin-node
 npm i eslint-plugin-promise
 npm i eslint-plugin-standard
-npm i prettier
+# npm i prettier
 cp -f ~/dotfiles/.eslintrc.json .
-cp -f ~/dotfiles/.prettierrc.json .
+# cp -f ~/dotfiles/.prettierrc.json .
 
 echo "get codeing all installed"

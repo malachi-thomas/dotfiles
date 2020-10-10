@@ -18,7 +18,7 @@ let g:ale_fixers = {
       \ 'typescript': ['prettier'],
       \ 'typescriptreact': ['prettier'],
       \ 'javascriptreact': ['prettier'],
-      \ 'javascript': ['prettier'],
+      \ 'javascript': ['eslint'],
       \ 'json': ['fixjson'],
       \ 'scss': ['prettier'],
       \ 'sass': ['stylelint'],
@@ -48,7 +48,7 @@ let g:airline#extensions#tabline#show_tab_nr = 0 " no tab number
 let g:airline#extensions#tabline#show_tab_count = 0 " no tab number on right hand side
 
 " completion-nvim
-" let g:completion_enable_snippet = 'UltiSnips'
+let g:completion_enable_snippet = 'UltiSnips'
 let g:completion_matching_strategy_list = ['exact']
 let g:completion_matching_ignore_case = 1
 let g:completion_trigger_keyword_length = 1
