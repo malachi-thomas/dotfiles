@@ -76,6 +76,8 @@ vnoremap p "_dP
 "Substitutions 
 nnoremap SS :s/<c-r>=expand("<cWORD>>")<cr>//g<left><left>
 nnoremap ss :s/<c-r>=expand("<cword>")<cr>//g<left><left>
+nnoremap sg :%s/<c-r>=expand("<cword>")<cr>//g<left><left>
+nnoremap SS :%s/<c-r>=expand("<cWORD>>")<cr>//g<left><left>
 vnoremap ss :s///gi<left><left><left><left>
 
 "Filetype Mappings 

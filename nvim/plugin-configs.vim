@@ -58,7 +58,7 @@ let g:completion_enable_auto_hover = 0
 let g:completion_sorting = 'none'
 let g:completion_confirm_key = ""
 let g:completion_enable_auto_paren = 0
-let g:completion_trigger_character = []
+let g:completion_trigger_character = ['.']
 let g:completion_chain_complete_list = {
       \'default' : [
       \  {'complete_items': ['UltiSnips', 'tags', 'path', 'lsp', 'buffers']}

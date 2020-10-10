@@ -17,6 +17,7 @@ npm i eslint-plugin-standard
 mkdir src public src/components src/components/App
 
 cp -f ~/dotfiles/react/.react-eslintrc.json .eslintrc.json
+cp ~/dotfiles/react/react-index.html ./public/index.html
 # cp -f ~/dotfiles/.prettierrc.json .prettierrc.json
 
 xclip -selection "primary" < ~/dotfiles/react/copy.this
