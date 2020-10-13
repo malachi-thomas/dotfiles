@@ -54,7 +54,7 @@ alias javascript='cd ~/code/javascript'
 alias dow='cd ~/Downloads'
 alias vvim='cd ~/dotfiles/nvim'
 alias typescript='cd ~/code/typescript'
-alias not='cd ~/dotfiles/notes && v'
+alias not='cd ~/dotfiles/notes && f'
 alias react='cd ~/code/react'
 
 # Linux

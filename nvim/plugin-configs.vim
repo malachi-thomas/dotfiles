@@ -41,8 +41,8 @@ let g:airline#extensions#tabline#right_alt_sep = ''
 let g:airline#extensions#tabline#tabs_label = ' '
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
-let g:airline#extensions#tabline#show_buffers = 1
-let g:airline#extensions#tabline#show_tabs = 0
+let g:airline#extensions#tabline#show_buffers = 0
+let g:airline#extensions#tabline#show_tabs = 1
 let g:airline#extensions#tabline#show_splits = 0
 let g:airline#extensions#tabline#show_tab_nr = 0 " no tab number
 let g:airline#extensions#tabline#show_tab_count = 0 " no tab number on right hand side
@@ -70,12 +70,13 @@ let g:fzf_layout = { 'window': { 'width': 1, 'height': 1 }}
 let g:fzf_preview_window = ''
 let g:fzf_buffers_jump = 1
 let g:fzf_action = {
+      \ 'ctrl-t': 'tab split',
       \ 'ctrl-s': 'vsplit' }
+
 command! -bang -nargs=* Rg
       \ call fzf#vim#grep(
       \   'rg --column --line-number --no-heading --color=always --smart-case --glob "!**/node_modules/**" --glob "!**/package-lock.json" '.shellescape(<q-args>), 1,
       \   fzf#vim#with_preview(), <bang>0)
-
 
 
 " vimwiki

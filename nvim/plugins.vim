@@ -30,9 +30,10 @@ Plug 'junegunn/fzf.vim' " FZF
 Plug 'metakirby5/codi.vim' " inline code meseges
 Plug 'ludovicchabant/vim-gutentags' " updating tags file
 Plug 'justinmk/vim-dirvish' " better file manager
-Plug 'mattn/emmet-vim'
+Plug 'mattn/emmet-vim' " html tags
 
 " Testing
+Plug 'airblade/vim-gitgutter'
 
 " Notetaking
 Plug 'vimwiki/vimwiki'

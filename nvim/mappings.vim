@@ -1,11 +1,10 @@
 "==================================================================================================
 let mapleader = ' '
 " Basic Movement
-nnoremap <up> gkzz
-nnoremap <down> gjzz
-nnoremap dl :normal 0d$<cr>
-nnoremap cl :normal 0c$<cr>
-nnoremap yl :normal 0y$<cr>
+nnoremap <silent><up> <up>:noh<cr>zz
+nnoremap <silent><down> <down>:noh<cr>zz
+nnoremap <silent><left> <left>:noh<cr>zz
+nnoremap <silent><right> <right>:noh<cr>zz
 nnoremap { {zz
 nnoremap } }zz
 nnoremap <pageup> <c-u>zz
@@ -14,33 +13,32 @@ nnoremap G Gzz
 nnoremap <c-o> <c-o>zz
 nnoremap <c-i> <c-i>zz
 nnoremap <home> ^
-nnoremap <s-right> v<right>
-nnoremap <s-left> v<left>
-nnoremap <s-down> v<down>
-nnoremap <s-up> v<up>
-vnoremap <s-right> <right>
-vnoremap <s-left> <left>
-vnoremap <s-down> <down>
-vnoremap <s-up> <up>
+nnoremap * *zz
+nnoremap # #zz
+nnoremap n nzz
+nnoremap N Nzz
 inoremap <home> <c-o>^
 
 " Buffers
 nnoremap <c-s> :w!<cr>
-nnoremap <c-q> :wqa!<cr>
+nnoremap <c-c> :wqa!<cr>
 nnoremap <silent>ZZ :call TabClose()<cr>
-nnoremap <tab> :bn<cr>
-nnoremap <space>n :enew<cr>
 
 " Splits
 nnoremap <space>vs :vsplit<cr>
-nnoremap <space><up> <c-w>k
-nnoremap <space><down> <c-w>j
-nnoremap <space><left> <c-w>h
-nnoremap <space><right> <c-w>l
+nnoremap <s-up> <c-w>k
+nnoremap <s-down> <c-w>j
+nnoremap <s-left> <c-w>h
+nnoremap <s-right> <c-w>l
+nnoremap <c-up> <c-w>K
+nnoremap <c-down> <c-w>J
+nnoremap <c-left> <c-w>H
+nnoremap <c-right> <c-w>L
 
-" Terminal style mapping
-inoremap <c-u> <c-o>Vc
-nnoremap <c-u> 0d$
+" Tabs
+nnoremap <c-t> :tabe %<cr>
+nnoremap <tab> :tabn<cr>
+nnoremap <S-tab> :tabp<cr>
 
 " Extra
 nnoremap y "*y
@@ -53,7 +51,11 @@ nnoremap <esc> <esc>:nohl<cr>
 inoremap <c-k> <c-x><c-k>
 inoremap <c-l> <c-x><c-l>
 inoremap <esc> <right><esc>
-nnoremap <c-t> :enew<cr>
+
+" Editing
+nnoremap dl :normal 0d$<cr>
+nnoremap cl :normal 0c$<cr>
+nnoremap yl :normal 0y$<cr>
 
 " Unmap
 nnoremap K <nop>
@@ -154,47 +156,42 @@ imap <silent><expr><c-s>
       \ "\<plug>(emmet-expand-abbr)"
 
 "==================================================================================================
-" Functions
+" functions
 
 " if no caricters left
-function! s:check_back_space() abort
+func! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~ '\s'
-endfunction
+endfunc
 
 " look at abbriviations docs for this one
-function! Eatchar(pat)
+func! Eatchar(pat)
   let c = nr2char(getchar(0))
   return (c =~ a:pat) ? '' : c
-endfunction
+endfunc
 
-function! QuickfixFilenames()
+func! QuickfixFilenames()
   let buffer_numbers = {}
   for quickfix_item in getqflist()
     let buffer_numbers[quickfix_item['bufnr']] = bufname(quickfix_item['bufnr'])
   endfor
   return join(map(values(buffer_numbers), 'fnameescape(v:val)'))
-endfunction
+endfunc
 
-function! DSub(arg1, arg2)
+func! DSub(arg1, arg2)
   Argadd
-  vimgrep /a:arg1/ ##
-  Qargs
   exec 'argdo %s/' . a:arg1 . '/' . a:arg2 . '/ge'
-endfunction
+endfunc
 
-function! TabClose()
-  if len(getbufinfo({'buflisted':1})) == 1 && &ft != ''
-    silent x!
-  elseif &ft == ''
-    silent bw! | x!
+func! TabClose()
+  if tabpagenr('$') == '1' && &ft != 'fzf'
+    silent! w! | q!
   elseif &ft == 'fzf'
-    silent x!
+    silent! bw!
   else
-    silent w! | bw!
+    silent! tabclose!
   endif
-endfunction
-
+endfunc
 
 "==================================================================================================
 

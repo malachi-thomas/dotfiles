@@ -79,11 +79,11 @@ augroup autocmds
   autocmd BufRead ~/dotfiles/i3/config set filetype=i3config
   autocmd BufRead ~/dotfiles/polybar/config set filetype=dosini
   autocmd BufRead ~/dotfiles/bspwm/bspwmrc set filetype=sh
-  " autocmd BufRead ~/dotfiles/sxhkd/sxhkdrc set filetype=sh
   autocmd VimEnter,SourcePost * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
   autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")| exe "normal! g'\"" | endif " start vim on same line as exited
   autocmd BufWritePre *.vim  normal mmgg=G`mzz
   autocmd BufWritePre *.scss  normal mmgg=G`mzz
+  autocmd BufWritePre *.js  normal mmgg=G`mzz
   " autocmd VimEnter * if argc() == 0 | q | endif " dont open vim with a empty buffer
   autocmd filetype javascript nnoremap <silent><buffer><c-p> :w<cr>:!node %<cr>
   autocmd filetype typescript nnoremap <silent><buffer><c-p> :w<cr>:!ts-node %<cr>
@@ -94,7 +94,7 @@ augroup autocmds
   if has('nvim-0.5')
     autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked
     autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
-    autocmd BufEnter * lua require'completion'.on_attach() -- " completion-nvim on all buffers
+    autocmd BufEnter * lua require'completion'.on_attach() -- completion-nvim on all buffers
     autocmd BufEnter * lua require'diagnostic'.on_attach()
   endif
 augroup end

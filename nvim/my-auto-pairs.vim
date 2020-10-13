@@ -1,4 +1,4 @@
-function! Enter()
+func Enter()
   if getline('.')[col('.') - 2:col('.') - 1] == '><'
     return "\<c-g>u\<cr>\<c-o>O"
   elseif getline('.')[col('.') - 2:col('.') - 1] == '{}'
@@ -14,28 +14,28 @@ function! Enter()
   endif
 endfunction
 
-function! Rbrak()
+func Rbrak()
   if getline('.')[col('.') - 2] == '['
     return "\<right>"
   endif
   return "]"
 endfunction
 
-function! Rbrace()
+func Rbrace()
   if getline('.')[col('.') - 2] == '{'
     return "\<right>"
   endif
   return "}"
 endfunction
 
-function! Rpren()
+func Rpren()
   if getline('.')[col('.') - 2] == '('
     return "\<right>"
   endif
   return ")"
 endfunction
 
-function! Backspace()
+func Backspace()
   if getline('.')[col('.') - 2:col('.') - 1] == '{}'
     return "\<right>\<bs>\<bs>"
   elseif getline('.')[col('.') - 2:col('.') - 1] == '()'
@@ -48,7 +48,7 @@ function! Backspace()
   return "\<bs>"
 endfunction
 
-function! Space()
+func Space()
   if getline('.')[col('.') - 2:col('.')] == '{}'
     return "\<space>\<space>\<left>"
   else

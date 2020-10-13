@@ -5,7 +5,7 @@
 snippet rfc "" b
 import React from 'react'
 
-const $1 = () => {
+const `!v expand('%:p:h:t')` = () => {
 	return ( 
 		<div>
 			$0
@@ -13,17 +13,17 @@ const $1 = () => {
 	)
 }
 
-export default $1
+export default `!v expand('%:p:h:t')` 
 endsnippet
 snippet rpfc
 import React from 'react'
 
-const $1 = () => (
+const `!v expand('%:p:h:t')` = () => (
 	<div>
 		$0
 	</div>
 )
-export default $1
+export default `!v expand('%:p:h:t')`
 endsnippet
 snippet useState "" b
 const [$0, set] = useState()
@@ -37,7 +37,8 @@ state = {
 }
 endsnippet
 snippet cc "" b
-class $1 extends React.Component {
+import React from 'react'
+class `!v expand('%:p:h:t')` extends React.Component {
 	render() {
 		return (
 		<div>
@@ -47,7 +48,7 @@ class $1 extends React.Component {
 	}
 }
 
-export default $1
+export default `!v expand('%:p:h:t')` 
 endsnippet
 snippet onClick
 onClick=
@@ -57,6 +58,14 @@ onChange=
 endsnippet
 snippet Route
 <Route exact path="$0" component={} />
+endsnippet
+snippet rsc
+export const $0 = styled.\`
+
+\`
+endsnippet
+snippet rvar
+var(--$0)
 endsnippet
 
 # # # # # #
@@ -258,6 +267,9 @@ right: $0;
 endsnippet
 snippet align-items
 align-items: $0;
+endsnippet
+snippet list-style
+list-style: $0;
 endsnippet
 snippet hover
 &:hover {
