@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 
-npm install --save-dev stylelint
-npm install --save stylelint-config-sass-guidelines
+npm i stylelint
+npm i stylelint-config-sass-guidelines
 ln ~/dotfiles/.stylelintrc.json .stylelintrc.json

@@ -47,6 +47,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'Rigellute/shades-of-purple.vim'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'baskerville/vim-sxhkdrc'
 call plug#end()
 
 "==================================================================================================

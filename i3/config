@@ -7,9 +7,11 @@ gaps inner 0
 
 # startup things
 exec --no-startup-id nm-applet
-exec --no-startup-id setxkbmap us
+exec --no-startup-id exec setxkbmap us
+exec --no-startup-id pulseaudio --start
 exec --no-startup-id exec ~/dotfiles/scripts/startup.sh
 exec --no-startup-id exec ~/dotfiles/scripts/sw.py
+# exec --no-startup-id exec ~/dotfiles/scripts/wacom-tablet.sh
 
 exec_always --no-startup-id exec betterlockscreen -u ~/dotfiles/wallpapers/nord.png
 exec_always --no-startup-id exec autotiling

@@ -10,14 +10,11 @@ super + d
 super + t
   kitty
 
-super + x
-  brave
-
 super + y
   firefox
 
-# super + m
-#   kitty -e mocp
+alt + super + control + shift + x
+    xdotool getactivewindow -- key h e l l o space w o r l d
 
 super + shift + c
   google-chrome-unstable
