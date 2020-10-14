@@ -1,8 +1,9 @@
 # Functions
 # chpwd() ls --color=auto -F
 
+# img file is $1 and /dev/sda is $2
 usb() {
-  xzcat -f $1 | sudo dd bs=4M of=$2
+  sudo xzcat -f $1 | sudo dd bs=4M of=$2
 }
 
 vifm(){
