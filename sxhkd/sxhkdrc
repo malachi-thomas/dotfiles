@@ -31,6 +31,12 @@ super + shift + x
 super + shift + r
   reboot
 
+alt + super + control + shift + c
+  amixer sset Master -5db
+alt + super + control + shift + r
+  amixer sset Master +5db
+
+
 alt + super + control + shift + a
   notify-send "started Entertainment"; toggl start -o Entertainment 
 

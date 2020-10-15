@@ -1,11 +1,12 @@
-
-plugins=(zsh-autosuggestions zsh-syntax-highlighting zsh-z)
-source ~/.oh-my-zsh/oh-my-zsh.sh
 source ~/dotfiles/zsh/functions.zsh
 source ~/dotfiles/zsh/config.zsh
 source ~/dotfiles/zsh/aliases.zsh
+source ~/dotfiles/zsh/plugins/zsh-autosuggestions.zsh
+source ~/dotfiles/zsh/plugins/zsh-z.zsh
 
-fpath+=$HOME/.zsh/pure
-
+fpath+=$HOME/dotfiles/zsh/theam/pure
 autoload -U promptinit; promptinit
 prompt pure
+
+# syntax Last
+source ~/dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
