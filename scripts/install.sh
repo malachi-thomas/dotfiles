@@ -33,7 +33,7 @@ sudo pacman -S alsa-utils
 
 yay betterlockscreen
 yay neovim-nightly
-yay input-wacom-dkms
+yay espanso
 
 
 pip install togglCli

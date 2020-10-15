@@ -11,8 +11,13 @@ export LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;
 
 bindkey '^H' backward-kill-word # Ctrl backspace
 bindkey '5~' kill-word          # Ctrl Delete
+bindkey -s '^[' ''
+bindkey "^[[H" beginning-of-line # Home
+bindkey "^[[F" end-of-line # End
+
 bindkey -s '^n' 'x\n'
 bindkey -s '^b' '-\n'
+
 export FZF_DEFAULT_COMMAND="rg --files --hidden -g '!**/node_modules/**' -g '!react-app-env.d.ts, !.git, !.cache, !dist' "
 export FZF_DEFAULT_OPTS="--reverse -e --bind=ctrl-h:backward-kill-word "
 setopt autocd

@@ -6,7 +6,12 @@ fpath+=~/dotfiles/zsh/theam/pure
 autoload -U promptinit; promptinit
 prompt pure
 
+
 # Plugins
 source ~/dotfiles/zsh/plugins/zsh-autosuggestions.zsh
 source ~/dotfiles/zsh/plugins/zsh-z.zsh
 source ~/dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Fzf
+source ~/dotfiles/zsh/fzf/completion.zsh
+source ~/dotfiles/zsh/fzf/key-bindings.zsh
