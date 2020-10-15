@@ -1,0 +1,317 @@
+: 1602773470:0;cd
+: 1602773479:0;cd dotfiles/history
+: 1602773481:0;la
+: 1602773483:0;..
+: 1602773486:0;to history
+: 1602773487:0;la
+: 1602773495:0;rma history
+: 1602773498:0;cd zsh
+: 1602773501:0;la
+: 1602773504:0;v history
+: 1602773784:0;zsh
+: 1602774500:0;amixer set 
+: 1602774511:0;amixer set Master unmute
+: 1602774753:0;espanso edit
+: 1602775521:0;df -h
+: 1602775648:0;espanso edit
+: 1602775687:0;dot
+: 1602775693:0;mk espanso
+: 1602775694:0;la
+: 1602775698:0;cd espanso
+: 1602775838:0;espanso edit
+: 1602776287:0;la
+: 1602776298:0;cp ~/.config/espanso/default.yml .
+: 1602776299:0;la
+: 1602776302:0;v default.yml
+: 1602776367:0;bin
+: 1602776371:0;v relink.sh
+: 1602776438:0;so
+: 1602776444:0;sh relink.sh
+: 1602776450:0;v 
+: 1602776453:0;v relink.sh
+: 1602776461:0;sh relink.sh
+: 1602776491:0;man fzf
+: 1602776706:0;zsh
+: 1602776711:0;lo
+: 1602776713:0;la
+: 1602776718:0;cd
+: 1602776729:0;fd
+: 1602776730:0;pac
+: 1602776733:0;pac fd
+: 1602776737:0;zsh
+: 1602776747:0;so
+: 1602776753:0;zsh
+: 1602776789:0;fd --type d
+: 1602776801:0;zsh
+: 1602776815:0;so
+: 1602776859:0;zsh
+: 1602776864:0;so
+: 1602776871:0;zsh
+: 1602776940:0;so
+: 1602776944:0;zsh
+: 1602776980:0;la
+: 1602777085:0;rma .fzf.zsh .fzf.bash .shell.pre-oh-my-zsh .zcompdump .z .zsh_history .zshrc.pre-oh-my-zsh .zshrc.pre-oh-my-zsh-2020-10-15_10-29-11
+: 1602777088:0;so
+: 1602777091:0;cd
+: 1602777116:0;zsh
+: 1602777127:0;so
+: 1602777129:0;zsh
+: 1602777164:0;so
+: 1602777171:0;zsh
+: 1602777176:0;so
+: 1602777191:0;zsh
+: 1602777207:0;so
+: 1602777219:0;zsh
+: 1602777229:0;man fd
+: 1602777259:0;.config/oh-my-zsh/plugins/fzf 
+: 1602777261:0;la
+: 1602777268:0;zsh
+: 1602777483:0;.config/espanso/user 
+: 1602777483:0;la
+: 1602777485:0;..
+: 1602777487:0;rma user
+: 1602777505:0;zsh
+: 1602777517:0;nvim --startuptime vim.vim vim.vim
+: 1602777554:0;vpl
+: 1602777989:0;cd
+: 1602778127:0;v .ssh 
+: 1602778147:0;pwd
+: 1602778148:0;la
+: 1602778612:0;ls -a | wc -l
+: 1602778726:0;la
+: 1602778729:0;rma yay
+: 1602778731:0;la
+: 1602778761:0;rma Pictures Documents Music Public Templates Videos 
+: 1602778762:0;la
+: 1602778775:0;rm .bash_history Desktop 
+: 1602778778:0;rma .bash_history Desktop 
+: 1602778779:0;la
+: 1602778935:0;rm .dmrc gutentags_cache
+: 1602778939:0;rma gutentags_cache
+: 1602778940:0;la
+: 1602778949:0;vim
+: 1602778952:0;nrc
+: 1602778955:0;vpc
+: 1602779024:0;la
+: 1602779028:0;rma gutentags_cache
+: 1602779030:0;la
+: 1602779034:0;cd .config
+: 1602779035:0;la
+: 1602779039:0;cd all-the-tags
+: 1602779040:0;la
+: 1602779049:0;cd
+: 1602779050:0;la
+: 1602779059:0;rm .gitconfig 
+: 1602779246:0;v .zshenv
+: 1602779531:0;cd dotfiles/zsh
+: 1602779536:0;la
+: 1602779550:0;to varibles.zsh
+: 1602779551:0;la
+: 1602779572:0;v variable.zsh
+: 1602779603:0;rm variable.zsh 
+: 1602779604:0;v variable.zsh
+: 1602779992:0;la
+: 1602779996:0;...
+: 1602779997:0;la
+: 1602780027:0;rm .bashrc .tmux.conf .xsession-errors .xsession-errors.old .z
+: 1602780028:0;la
+: 1602780034:0;rm .zshrc
+: 1602780035:0;la
+: 1602780037:0;so
+: 1602780038:0;la
+: 1602780052:0;v .zshenv
+: 1602780546:0;bin
+: 1602780552:0;cd
+: 1602780554:0;cd dotfiles/zsh
+: 1602780561:0;mv variable.zsh variables.zsh
+: 1602780566:0;v variables.zsh
+: 1602780573:0;rm varibles.zsh
+: 1602780573:0;la
+: 1602780576:0;v variables.zsh
+: 1602780711:0;..
+: 1602780721:0;v .zshenv
+echo $VENDOR
+cd dotfiles/zsh
+v variables.zsh
+so
+so
+v variables.zsh
+so
+ la
+..
+..
+sa
+so
+la
+rm vimrc
+la
+so
+cd dotfiles/zsh
+la
+la
+so
+...
+v .zshenv
+la
+rm .z
+la
+vim
+pac vim
+la
+zsh
+lo
+la
+rm .zcompdump-malachi-5.8 .zcompdump.malachi.14450 .zcompdump
+la
+bin
+so
+la
+rm vimrc
+la
+..
+bin
+rma yay
+..
+..
+la
+la
+la
+v .zshenv
+vim
+la
+la
+v .ssr
+la
+ls -a | wc -l
+sh relink.sh
+la
+bin
+v relink.sh
+so
+so
+la
+..
+..
+la
+rm .tmux.conf .viminfo .z .zshrc vimrc
+la
+sh relink.sh
+la
+la
+to .zprofile
+la
+cp .zshenv .zprofile
+v .zprofile
+so
+so
+la
+echo $ZDOTDIR
+cd dotfiles/zsh
+v variables.zsh
+cd dotfiles/zsh
+v variables.zsh
+so
+cd
+v
+so
+la
+rm .z
+la
+so
+la
+so
+so
+bin
+cd
+cd dotfiles/zsh
+v aliases.zsh
+so
+so
+la
+so
+so
+so
+la
+la
+rm .z
+la
+: 1602782691:0;ls -a | wc -l
+: 1602782730:0;echo $XAUTHORITY
+: 1602782733:0;la
+: 1602782747:0;echo $XDG_RUNTIME_DIR
+: 1602782762:0;v .Xauthority
+: 1602782766:0;rm .Xauthority
+: 1602782771:0;cd dotfiles/zsh
+: 1602782775:0;v variables.zsh
+: 1602782815:0;la
+: 1602782888:0;sxh
+: 1602782910:0;kitty
+: 1602783017:0;cd .config
+: 1602783020:0;v .Xauthority
+: 1602783046:0;cd dotfiles/zsh
+: 1602783050:0;v variables.zsh
+: 1602783061:0;so
+: 1602783064:0;la
+: 1602783065:0;...
+: 1602783066:0;la
+: 1602783070:0;ls -a | wc -l
+: 1602784393:0;la
+: 1602784559:0;cd dotfiles/zsh
+: 1602784562:0;v variables.zsh
+: 1602784597:0;cd
+: 1602784603:0;rm .xsession-errors .xsession-errors.old
+: 1602784604:0;la
+: 1602784614:0;lo
+: 1602784615:0;la
+: 1602784628:0;as
+: 1602784630:0;la
+: 1602784639:0;ls -a | wc -l
+: 1602784695:0;export XAUTHORITY="$XDG_CONFIG_HOME/X11/Xauthority"
+: 1602784701:0;cd dotfiles/zsh
+: 1602784705:0;v variables.zsh
+: 1602784720:0;cd
+: 1602784723:0;rm .Xauthority
+: 1602784734:0;la
+: 1602784890:0;xauth -f ~/.Xauthority
+: 1602784933:0;la
+: 1602785007:0;v .zshenv
+: 1602785059:0;zsh
+: 1602785081:0;la
+: 1602785115:0;cd dotfiles/zsh
+: 1602785117:0;v variables.zsh
+: 1602785130:0;la
+: 1602785141:0;v .xprofile
+: 1602785201:0;v .zprofile
+: 1602785267:0;v .zshenv
+: 1602785274:0;la
+: 1602785279:0;v a.out
+: 1602785281:0;la
+la
+: 1602785315:0;mv .zshenv hello
+: 1602785317:0;la
+: 1602785443:0;la
+: 1602785444:0;ls
+: 1602785448:0;ls -a
+: 1602785462:2;nvim .xprofile
+: 1602785473:3;nvim .zprofile
+: 1602785511:0;source ~/dotfiles/zsh/variables.zsh
+: 1602785525:0;source ~/dotfiles/zsh/.zshrc
+: 1602785527:0;la
+: 1602785561:0;mv hello .zshenv
+: 1602785566:0;v v .zshenv
+: 1602785573:0;v .zshenv
+: 1602785608:0;rm .xprofile
+: 1602785608:0;la
+: 1602785612:0;v .zshenv
+: 1602785631:0;so
+: 1602785633:0;la
+v .zshenv
+so
+la
+la
+rm v
+la
+rm .zprofile
+la
+rm .xsession-errors.old
+la

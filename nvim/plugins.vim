@@ -16,6 +16,7 @@ else
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   let g:coc_global_extensions = ['coc-tsserver', 'coc-python', 'coc-sh', 'coc-clangd']
 endif
+
 " Programming
 Plug 'dense-analysis/ale' " linting and fixing
 Plug 'tpope/vim-fugitive' " git intergration
@@ -31,22 +32,27 @@ Plug 'metakirby5/codi.vim' " inline code meseges
 Plug 'ludovicchabant/vim-gutentags' " updating tags file
 Plug 'justinmk/vim-dirvish' " better file manager
 Plug 'mattn/emmet-vim' " html tags
-
-" Testing
 Plug 'airblade/vim-gitgutter'
 
+" Testing
+
 " Notetaking
-Plug 'vimwiki/vimwiki'
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+if &ft == 'markdown'
+  Plug 'vimwiki/vimwiki'
+  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+endif
 
 " Theam
+if &ft == 'js' || 'jsx' || 'ts' || 'tsx'
+  Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+endif
+
 Plug 'morhetz/gruvbox'
 Plug 'sheerun/vim-polyglot'
 Plug 'mboughaba/i3config.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'Rigellute/shades-of-purple.vim'
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'baskerville/vim-sxhkdrc'
 call plug#end()
 
