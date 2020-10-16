@@ -8,7 +8,7 @@ super + d
   rofi -show run
 
 super + t
-  kitty
+  alacritty --config-file ~/dotfiles/alacritty/alacritty.yml
 
 super + y
   firefox
@@ -29,7 +29,7 @@ super + shift + x
   kill -9 -1
 
 super + shift + r
-  reboot
+  i3-msg '[class=".*"] kill' reboot
 
 alt + super + control + shift + c
   amixer sset Master -5db

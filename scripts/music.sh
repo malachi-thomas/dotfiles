@@ -2,25 +2,23 @@
 
 sudo pacman -S youtube-dl
 
-mkdir ~/music
-# sudo rm -rv ~/music/*
-
-mkdir ~/music/all
-mkdir ~/music/anime-op
-mkdir ~/music/ost
-mkdir ~/music/orchestral
-mkdir ~/music/piano
-mkdir ~/music/calm
-mkdir ~/music/calm-'(h)'
-mkdir ~/music/lucas-king
-mkdir ~/music/jpop
-mkdir ~/music/en-pop
-mkdir ~/music/up-beat-'(h)'
-mkdir ~/music/dark
-mkdir ~/music/up-beat
-mkdir ~/music/slow-hip-hop
-mkdir ~/music/lsd
-mkdir ~/music/rap
+[ -f $HOME/music ] && mkdir ~/music
+[ -f $HOME/music/all ] && mkdir ~/music/all
+[ -f $HOME/music/anime-op ] && mkdir ~/music/anime-op
+[ -f $HOME/music/ost ] && mkdir ~/music/ost
+[ -f $HOME/music/orchestral ] && mkdir ~/music/orchestral
+[ -f $HOME/music/piano ] && mkdir ~/music/piano
+[ -f $HOME/music/calm ] && mkdir ~/music/calm
+[ -f $HOME/music/calm-'(h)' ] && mkdir ~/music/calm-'(h)'
+[ -f $HOME/music/lucas-king ] && mkdir ~/music/lucas-king
+[ -f $HOME/music/jpop ] && mkdir ~/music/jpop
+[ -f $HOME/music/en-pop ] && mkdir ~/music/en-pop
+[ -f $HOME/music/up-beat-'(h)' ] && mkdir ~/music/up-beat-'(h)'
+[ -f $HOME/music/dark ] && mkdir ~/music/dark
+[ -f $HOME/music/up-beat ] && mkdir ~/music/up-beat
+[ -f $HOME/music/slow-hip-hop ] && mkdir ~/music/slow-hip-hop
+[ -f $HOME/music/lsd ] && mkdir ~/music/lsd
+[ -f $HOME/music/rap ] && mkdir ~/music/rap
 
 # install all playlists
 if [ $# -eq 0 ]; then
@@ -89,4 +87,4 @@ youtube-dl -x -o ~/music/piano/"%(title)s.%(ext)s" https://www.youtube.com/playl
 fi
 if [ $1 = "rap" ]; then
 youtube-dl -x -o ~/music/rap/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLxgSVk7bX1kEzkG6EhWPzv4
-fi
+f

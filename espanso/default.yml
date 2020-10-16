@@ -1,6 +1,6 @@
 matches: 
-  # Dates
-  - trigger: ":date"
+
+  - trigger: "/date "
     replace: "{{mydate}}"
     vars:
       - name: mydate
@@ -8,18 +8,18 @@ matches:
         params:
           format: "%m/%d/%Y"
 
-  # Shell commands
-  - trigger: "shell~"
+  - trigger: "/shell "
     replace: "{{output}}"
     vars:
       - name: output
         type: shell
         params:
-          cmd: "echo Hello from your shell"
+          cmd: "echo Hello from your shell!"
 
-  - trigger: "hello "
-    replace: "echo Hi there! "
-
-  - trigger: ""
-    replace: ""
-
+  - trigger: ":excfg"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo vim $HOME/Library/Preferences/espanso/default.yml"

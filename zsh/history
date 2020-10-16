@@ -315,3 +315,756 @@ rm .zprofile
 la
 rm .xsession-errors.old
 la
+la
+dot
+commit "zsh updates"
+..
+la
+cd .config
+la
+..
+dot
+commit "zsh updates"
+bin
+v ssh.sh
+v ssh.sh
+git config --global user.email "thomasmalachi18@gmail"\
+git config --global user.name "banana_llarma"\
+
+dot
+commit "zsh updates"
+push
+sh music.sh
+: 1602790313:0;uefi
+: 1602790508:0;pac chrome
+pac google-chrome-dev
+: 1602790964:0;bin
+: 1602790966:0;v startup.sh
+: 1602790988:0;sh startup.sh
+: 1602791010:0;la
+: 1602791020:0;..
+: 1602791022:0;zsh
+: 1602791036:0;cd zsh
+: 1602791046:0;v history
+: 1602791050:0;la
+: 1602791063:0;v .zcompdump
+: 1602791155:0;autoload -Uz compinit && compinit‚Ä©\
+
+: 1602791163:0;v config.zsh
+: 1602791222:0;v .zshenv
+: 1602791230:0;cp ~/.zshenv .
+: 1602791231:0;la
+: 1602791233:0;v .zshenv
+: 1602791236:0;la
+: 1602791238:0;bin
+: 1602791246:0;v relink.sh
+: 1602791297:0;sh relink.sh
+: 1602791305:0;v relink.sh
+: 1602792024:0;[ -f hello ]
+: 1602792030:0;echo [ -f hello ]
+: 1602792045:0;[ ! -f hello ] && echo hello
+: 1602792048:0;[  -f hello ] && echo hello
+: 1602792054:0;la
+: 1602792060:0;v relink.sh
+: 1602792272:0;so
+: 1602792274:0;sh relink.sh
+: 1602792285:0;v relink.sh
+: 1602792349:0;lo
+: 1602792350:0;so
+: 1602792355:0;sh relink.sh
+: 1602792358:0;cd
+: 1602792360:0;la
+: 1602792526:0;bin
+: 1602792603:0;pac Kazam
+: 1602792645:0;kazam
+: 1602792678:0;bin
+: 1602792740:0;la
+: 1602792748:0;ranger
+: 1602792787:0;screenkey
+: 1602792791:0;pac screenkey
+: 1602792802:0;screenkey
+: 1602792807:0;kazam
+: 1602792842:0;bin
+: 1602792856:0;cd
+: 1602792864:0;cd dotfiles
+: 1602792882:0;pkill kazam
+: 1602792884:0;la
+: 1602792885:0;cd
+: 1602792885:0;la
+: 1602792892:0;v kazam_f18pef5x.movie
+: 1602792898:0;ls -l
+: 1602792910:0;ranger
+: 1602792958:0;rm kazam_f18pef5x.movie
+: 1602792973:0;ranger
+: 1602792994:0;rm *.movi
+: 1602792996:0;la
+: 1602792999:0;rm *.movie
+: 1602793000:0;la
+: 1602793005:0;kazam
+: 1602793033:0;bin
+: 1602793049:0;nvim react.sh
+: 1602793062:0;ranger
+: 1602793076:0;file
+: 1602793205:0;kazam
+: 1602793228:0;ranger
+: 1602793374:0;kit
+: 1602793384:0;bin
+: 1602793390:0;..
+: 1602793396:0;cd 
+: 1602793399:0;cd dotfiles
+: 1602793627:0;cd
+: 1602793634:0;cd Downloads
+: 1602793639:0;..
+: 1602793646:0;v music
+: 1602793920:0;cd Downloads
+: 1602793921:0;..
+: 1602793928:0;v Downloads
+: 1602794332:0;pacr zsh
+: 1602794341:0;cd
+: 1602794343:0;so
+: 1602794345:0;la
+: 1602794352:0;kitty
+: 1602794358:0;pac zsh
+: 1602794378:0;prompt off
+: 1602794380:0;cd
+: 1602794387:0;cd dotfiles
+: 1602794438:0;zsh
+: 1602794446:0;so
+: 1602794455:0;cd /
+: 1602794470:0;cd home/malachi/dotfiles/zsh
+: 1602794483:0;cd theam/pure
+: 1602794484:0;la
+: 1602794492:0;v pure.zsh
+: 1602794505:0;zsh
+: 1602794531:0;cdcd
+: 1602794533:0;cd
+: 1602794542:0;sh pure.plugin.zsh
+: 1602794554:0;source ./pure.plugin.zsh
+: 1602794566:0;zsh
+: 1602794575:0;so
+: 1602794577:0;cd
+: 1602794582:0;zsh
+: 1602794657:0;cd
+: 1602794669:0;zsh
+: 1602794686:0;cd
+: 1602794703:0;so
+: 1602794705:0;cd
+: 1602794716:0;cd 
+: 1602794739:0;zsh
+: 1602794754:0;cd hello
+: 1602794763:0;zsh
+: 1602794782:0;so
+: 1602794786:0;c
+: 1602794829:0;cd
+: 1602794848:0;rm kazam_ajo91qnp.movie kazam_ugvtpk43.movie
+: 1602794851:0;dow
+: 1602794852:0;la
+: 1602794863:0;rm com.toggl.TogglDesktop\(1\).flatpakref com.toggl.TogglDesktop.flatpakref kazam_ajo91qnp\ \(3\).movie 
+: 1602794864:0;la
+: 1602794865:0;..
+: 1602794866:0;la
+: 1602794879:0;v .gitconfig
+: 1602794990:0;echo $G
+: 1602795005:0;zsh
+: 1602795022:0;so
+: 1602795027:0;zsh
+: 1602795038:0;so
+: 1602795047:0;cd dotfiles
+: 1602795049:0;zsh
+: 1602795058:0;so
+: 1602795061:0;zsh
+: 1602795065:0;so
+: 1602795071:0;cd dotfiles
+: 1602795075:0;zsh
+: 1602795101:0;so
+: 1602795105:0;zsh
+: 1602795122:0;so
+: 1602795126:0;zsh
+: 1602795138:0;so
+: 1602795139:0;la
+: 1602795150:0;cd zsh
+: 1602795151:0;zsh
+: 1602795166:0;so
+: 1602795170:0;zsh
+: 1602795175:0;so
+: 1602795180:0;cd dotfiles
+: 1602795183:0;zsh
+: 1602795189:0;so
+: 1602795194:0;zsh
+: 1602795275:0;ÔÅÉÅ
+: 1602795276:0;zsh
+: 1602795285:0;so
+: 1602795289:0;zsh
+: 1602795294:0;so
+: 1602795301:0;zsh
+: 1602795325:0;so
+: 1602795330:0;zsh
+: 1602795334:0;so
+: 1602795346:0;zsh
+: 1602795350:0;so
+: 1602795354:0;cd qmk
+: 1602795361:0;zsh
+: 1602795373:0;so
+: 1602795377:0;cd plank-ez
+: 1602795387:0;zsh
+: 1602795394:0;so
+: 1602795396:0;cd plank-ez
+: 1602795399:0;..
+: 1602795401:0;cd iris-keyboard
+: 1602795455:0;zsh
+: 1602795462:0;so
+: 1602795465:0;zsh
+: 1602795580:0;cd Downloads
+: 1602795585:0;zsh
+: 1602795681:0;cd music
+: 1602795691:0;cd Downloads
+: 1602795767:0;so
+: 1602795771:0;zsh
+: 1602795787:0;zsh
+: 1602795850:0;echo $TERM\
+
+: 1602795884:0;zsh
+: 1602795891:0;so
+: 1602795893:0;zsh
+: 1602795908:0;ld 
+: 1602795910:0;cd dotfiles
+: 1602795913:0;zsh
+: 1602795926:0;so
+: 1602795931:0;zsh
+: 1602795946:0;cd dotfiles
+: 1602796055:0;zsh
+: 1602796067:0;cd Downloads
+: 1602796075:0;v planck_ez_dvorak-layout_qnLDA_edzQJ.bin
+: 1602796084:0;zsh
+: 1602796089:0;so
+: 1602796095:0;zsh
+: 1602796138:0;so
+: 1602796140:0;cd 
+: 1602796142:0;cd Downloads
+: 1602796145:0;..
+: 1602796152:0;cd dotfiles/espanso
+: 1602796174:0;PROMPT=$'%{$fg_bold[red]%}User@%m %{$fg[blue]%}%D{[%X]} %{$reset_color%}%{$fg[white]%}[%~]%{$reset_color%} $(git_prompt_info)\\
+%{$fg_bold[blue]%} %{^%{$reset_color%} '\
+
+: 1602796175:0;cd
+: 1602796177:0;PROMPT=$'%{$fg_bold[red]%}User@%m %{$fg[blue]%}%D{[%X]} %{$reset_color%}%{$fg[white]%}[%~]%{$reset_color%} $(git_prompt_info)\\
+%{$fg_bold[blue]%} %{^%{$reset_color%} '\
+
+: 1602796196:0;cd
+: 1602796202:0;cd music
+: 1602796208:0;..
+: 1602796212:0;cd dotfiles/espanso
+: 1602796225:0;zsh
+: 1602796231:0;so
+: 1602796234:0;..
+: 1602796238:0;cd dotfiles/espanso
+: 1602796247:0;cd
+: 1602796249:0;v dotfiles
+: 1602796296:0;zsh
+: 1602796300:0;so
+: 1602796302:0;cd dotfiles
+: 1602796303:0;zsh
+: 1602796332:0;so
+: 1602796336:0;la
+: 1602796338:0;zsh
+: 1602796349:0;so
+: 1602796352:0;zsh
+: 1602796357:0;so
+: 1602796362:0;zsh
+: 1602796415:0;so
+: 1602796419:0;zsh
+: 1602796429:0;so
+: 1602796431:0;zsh
+: 1602796438:0;sh relink.sh
+: 1602796439:0;so
+: 1602796444:0;cd music
+: 1602796446:0;zsh
+: 1602796455:0;so
+: 1602796458:0;cd anime-op
+: 1602796460:0;zsh
+: 1602796480:0;so
+: 1602796484:0;...
+: 1602796487:0;cd music
+: 1602796488:0;zsh
+: 1602796495:0;so
+: 1602796496:0;zsh
+: 1602796535:0;so
+: 1602796538:0;cd all
+: 1602796540:0;..
+: 1602797220:0;zsh
+: 1602797239:0;so
+: 1602797241:0;zsh
+: 1602797336:0;cd music
+: 1602797463:0;npm install --global pure-prompt
+: 1602797472:0;cd
+: 1602797475:0;npm install --global pure-prompt
+: 1602797481:0;npm install -g pure-prompt
+: 1602797509:0;sleep
+: 1602828988:0;npm install -g pure-prompt
+: 1602828994:0;npm i -g pure-prompt
+: 1602829023:0;sudo npm i -g pure-prompt
+: 1602829044:0;npm i -g pure-prompt
+: 1602829048:0;sudo npm i -g pure-prompt
+: 1602829163:0;npm set prefix ~/.npm\
+
+: 1602829166:0;zsh
+: 1602829197:0;cd .npm
+: 1602829198:0;la
+: 1602829213:0;zsh
+: 1602829256:0;so
+: 1602829271:0;npm set prefix ~/.npm\
+
+: 1602829275:0;npm i -g pure-prompt
+: 1602829283:0;so
+: 1602829287:0;zsh
+: 1602829297:0;so
+: 1602829303:0;zsh
+: 1602829324:0;so
+: 1602829437:0;zsh
+: 1602829456:0;npm i -g pure-prompt
+: 1602829461:0;la
+: 1602829472:0;v .npmrc
+: 1602829544:0;cd music
+: 1602829545:0;la
+: 1602829554:0;sh music.sh
+: 1602829610:0;bin
+: 1602829613:0;v music.sh
+: 1602829959:0;so
+: 1602829960:0;sh music.sh
+: 1602829977:0;v  music.sh
+: 1602830020:0;sh music.sh
+: 1602830031:0;[ ! -f $HOME/music/all ] && mkdir ~/music/all\
+
+: 1602830036:0;[ -f $HOME/music/all ] && mkdir ~/music/all\
+
+: 1602830055:0;so
+: 1602830056:0;sh music.sh
+: 1602830115:0;la
+: 1602830122:0;rma .oh-my-zsh
+: 1602830124:0;la
+: 1602830213:0;amixer set Master unmute
+: 1602830414:0;la
+: 1602830417:0;so
+: 1602830418:0;l
+: 1602830419:0;la
+: 1602830426:0;ls -a | wc -l
+: 1602830476:0;mk code
+: 1602830480:0;cd code
+: 1602830485:0;la
+: 1602830631:0;vrc
+: 1602830741:0;la
+: 1602830771:0;clone git@github.com:banana-llarma/learning-react.git
+: 1602830800:0;clone git@github.com:banana-llarma/mental-maths.git
+: 1602830846:0;la
+: 1602830851:0;mk react
+: 1602830856:0;mk learning-react mental-maths react
+: 1602830858:0;la
+: 1602830864:0;mv learning-react react
+: 1602830869:0;mv mental-maths react
+: 1602830869:0;la
+: 1602830871:0;reac
+: 1602830873:0;react
+: 1602830874:0;la
+: 1602830879:0;cd learning-react
+: 1602830880:0;al
+: 1602830881:0;la
+: 1602830898:0;v .gitignore
+: 1602830911:0;so
+: 1602830919:0;sh react.sh
+: 1602830961:0;bin
+: 1602830964:0;v react.sh
+: 1602830972:0;so
+: 1602830974:0;react
+: 1602830976:0;cd learning-react
+: 1602830987:0;rma node_modules package-lock.json package.json 
+: 1602830990:0;sh react.sh
+: 1602831114:0;la
+: 1602831127:0;commit "test"
+: 1602831131:0;push
+: 1602831153:0;v .gitignore
+: 1602831168:0;commit "test"
+: 1602831170:0;push
+: 1602831196:0;git rm -r --cached package.json 
+: 1602831200:0;git rm -r --cached package.json package-lock.json
+: 1602831201:0;la
+: 1602831208:0;git rm -r --cached package-lock.json
+: 1602831209:0;la
+: 1602831216:0;commit "test"
+: 1602831218:0;push
+: 1602831236:0;la
+: 1602831274:0;npm i prop-types
+: 1602831291:0;npm i styled-components
+: 1602831330:0;v src/components/Dropdown/index.js
+: 1602833237:0;ric
+: 1602833239:0;irc
+: 1602833272:0;so
+: 1602833926:0;irc
+: 1602835452:0;zsh
+: 1602835460:0;cd code
+: 1602835478:0;cd react
+: 1602835480:0;cd
+: 1602835484:0;cd dotfiles/zsh
+: 1602835486:0;la
+: 1602835489:0;cd theam/pure
+: 1602835490:0;la
+: 1602835508:0;v pure.zsh
+: 1602835655:0;zsh
+: 1602835703:0;so
+: 1602835766:0;zsh
+: 1602835785:0;so
+: 1602835896:0;‚ÉßÉ©
+: 1602835897:0;zsh
+: 1602835902:0;so
+: 1602835950:0;cd arch/'
+: 1602835951:0;zsh
+: 1602835984:0;pac zsh-pure-prompt
+: 1602836004:0;zsh
+: 1602836024:0;autoload -U promptinit; promptinit\
+prompt pure\
+
+: 1602836025:0;zsh
+: 1602836029:0;so
+: 1602836033:0;cd
+: 1602836039:0;zsh
+: 1602836048:0;so
+: 1602836049:0;cd
+: 1602836054:0;zsh
+: 1602836060:0;so
+: 1602836065:0;zsh
+: 1602836072:0;so
+: 1602836148:0;zsh
+: 1602836153:0;so
+: 1602836159:0;pac icons
+: 1602836171:0;pac nerd
+: 1602836284:0;cd
+: 1602836286:0;so
+: 1602836295:0;font
+: 1602836394:0;cd .local
+: 1602836394:0;la
+: 1602836400:0;cd share
+: 1602836400:0;la
+: 1602836479:0;pac nerd-fonts-dejavu-complete
+: 1602836514:0;cdo
+: 1602836516:0;cd
+: 1602836518:0;zsh
+: 1602836585:0;so
+: 1602836587:0;zsh
+: 1602836607:0;so
+: 1602836610:0;zsh
+: 1602836659:0;so
+: 1602836662:0;zsh
+: 1602836669:0;so
+: 1602836670:0;cd
+: 1602836672:0;cd code
+: 1602836678:0;cd react/learning-react
+: 1602836690:0;so
+: 1602836692:0;cd public
+: 1602836694:0;zsh
+: 1602836702:0;cd Downloads
+: 1602836706:0;..
+: 1602836707:0;cd dotfiles
+: 1602836741:0;find -f 
+: 1602836748:0;find --type f 
+: 1602836756:0;find -t f
+: 1602836758:0;la
+: 1602836784:0;find -type f
+: 1602836800:0;find -type f **
+: 1602836802:0;find -type f 
+: 1602836804:0;zsh
+: 1602839704:0;dot
+: 1602839709:0;cd espanso
+: 1602839710:0;v default.yml
+: 1602839788:0;sh relink.sh
+: 1602839800:0;espanso 
+: 1602839810:0;espanso edit
+: 1602839828:0;v default.yml
+: 1602839845:0;sh relink.sh
+: 1602839847:0;espanso edit
+: 1602839877:0;zsh
+: 1602839881:0;espanso edit
+: 1602839887:0;so
+: 1602839912:0;zsh
+: 1602839914:0;espanso edit
+: 1602840103:0;youtube.com
+: 1602840116:0;v test.t
+: 1602840326:0;la
+: 1602840357:0;zsh
+: 1602840379:0;la
+: 1602840380:0;so
+: 1602840382:0;con
+: 1602840415:0;update
+: 1602840679:0;espanso edit
+: 1602841117:0;cd
+: 1602841121:0;v ~/dotfiles/markdown-template.md
+: 1602841132:0;la
+: 1602841135:0;espanso edit
+: 1602841416:0;vim /home/malachi/library/preferences/espanso/default.yml
+: 1602841425:0;espanso edit
+: 1602842412:0;Hello from your shell!
+: 1602845213:0;zsh
+: 1602845220:0;ala
+: 1602845222:0;zsh
+: 1602845243:0;so
+: 1602845247:0;zsh
+: 1602845254:0;so
+: 1602845301:0;con
+: 1602845305:0;la
+: 1602845308:0;cd alarcitty
+: 1602845309:0;la
+: 1602845316:0;v alacritty.yml
+: 1602845319:0;so
+: 1602845357:0;alacritty --config-file
+: 1602845383:0;alacritty --config-file .config/alarcitty/alacritty.yml
+: 1602845410:0;alacritty --config-file ~/dotfiles/alacritty/alacritty.yml
+: 1602845413:0;cd 
+: 1602845416:0;zsh
+: 1602845453:0;so
+: 1602845454:0;ala
+: 1602845478:0;zsh
+: 1602845543:0;ala
+: 1602845569:0;la
+: 1602845578:0;vim
+: 1602845586:0;zsh
+: 1602845617:0;con
+: 1602845619:0;mk zsh
+: 1602845620:0;la
+: 1602845621:0;cd zsh
+: 1602845621:0;la
+: 1602845627:0;con
+: 1602845629:0;cd zsh
+: 1602845630:0;la
+: 1602845631:0;cd
+: 1602845633:0;zsh
+: 1602845654:0;cd code
+: 1602845656:0;ala
+: 1602845664:0;so
+: 1602845668:0;ala
+: 1602845724:0;espanso edit
+: 1602845785:0;es
+: 1602845787:0;espanso edit
+: 1602846097:0;zsh
+: 1602846100:0;la
+: 1602846117:0;alacritty --config-file ~/dotfiles/alacritty/alacritty.yml
+: 1602846120:0;ala
+: 1602846125:0;con
+: 1602846129:0;cd alarcitty
+: 1602846131:0;v alacritty.yml
+: 1602846137:0;ala
+: 1602846275:0;so
+: 1602846280:0;alacritty --config-file ~/dotfiles/alacritty/alacritty.yml
+: 1602846282:0;ala
+: 1602846311:0;so
+: 1602846314:0;ala
+: 1602846384:0;cd Downloads
+: 1602846385:0;zsh
+: 1602846389:0;nvmi
+: 1602846391:0;nvim
+: 1602846411:0;ala
+: 1602846418:0;so
+: 1602846422:0;alacritty --config-file ~/dotfiles/alacritty/alacritty.yml
+: 1602846425:0;zsh
+: 1602846429:0;con
+: 1602846432:0;cd zsh
+: 1602846433:0;la
+: 1602846435:0;cd
+: 1602846446:0;alacritty --config-file ~/dotfiles/alacritty/alacritty.yml
+: 1602846457:0;ala
+: 1602846506:0;alacritty --config-file ~/dotfiles/alacritty/alacritty.yml
+: 1602846519:0;ala
+: 1602846581:0;alacritty --config-file ~/dotfiles/alacritty/alacritty.yml
+: 1602846602:0;vim
+: 1602846607:0;vam
+: 1602846608:0;vim
+: 1602846631:0;ala
+: 1602846674:0;sxh
+: 1602846720:0;pkill sxhkd
+: 1602846724:0;sxhkd
+: 1602846757:0;bac
+: 1602846759:0;back
+: 1602846770:0;bin
+: 1602846772:0;v startup.sh
+: 1602847187:0;espanso edit
+: 1602847198:0;zsh
+: 1602847201:0;espanso edit
+: 1602847205:0;youtube.com
+: 1602847218:0;espanso edit
+: 1602847623:0;espanso restart
+: 1602847655:0;espanso edit
+: 1602847732:0;espanso detect
+: 1602847750:0;espanso edit
+: 1602847788:0;espanso restart
+: 1602847818:0;espanso edit
+: 1602847829:0;espanso detect
+: 1602847855:0;espanso edit
+: 1602847932:0;/you
+: 1602847971:0;espanso edit
+: 1602848033:0;con
+: 1602848037:0;cd espanso/user
+: 1602848062:0;v test.yml
+: 1602848072:0;espanso edit
+: 1602848161:0;espanso restart
+: 1602848193:0;zsh
+: 1602848197:0;v test.yml
+: 1602848204:0;espanso restart
+: 1602848225:0;v alarcitty.yml
+: 1602848229:0;rm alarcitty.yml
+: 1602848236:0;mv test.yml alacritty.yml
+: 1602848265:0;la
+: 1602848267:0;v alacritty.yml
+: 1602848311:0;espanso restart
+: 1602848318:0;v alacritty.yml
+: 1602848332:0;so
+: 1602848333:0;espanso restart
+: 1602848339:0;v alacritty.yml
+: 1602848355:0;espanso restart
+: 1602848357:0;v alacritty.yml
+: 1602848365:0;espanso restart
+: 1602848371:0;v alacritty.yml
+: 1602848390:0;espanso restart
+: 1602848469:0;v alacritty.yml
+: 1602848481:0;espanso restart
+: 1602848485:0;v alacritty.yml
+: 1602848493:0;espanso restart
+: 1602848512:0;kitty
+: 1602848549:0;v alacritty.yml
+: 1602848585:0;mv alacritty.yml terminal.yml
+: 1602848586:0;v terminal.yml
+: 1602848594:0;v web.yml
+: 1602848645:0;espanso restart
+: 1602848660:0;v ../default.yml
+: 1602848706:0;cd ~/.config/espanso/user
+: 1602848708:0;v terminal.yml
+: 1602848752:0;cd ~/config
+: 1602848762:0;v terminal.yml
+: 1602848767:0;cd ~/config
+: 1602848770:0;espanso restart
+: 1602848772:0;cd ~/.config
+: 1602848911:0;-
+: 1602848914:0;cd
+: 1602848923:0;espanso help
+: 1602848948:0;cd ~/.config
+: 1602848956:0;la
+: 1602848970:0;cd espanso
+: 1602848971:0;la
+: 1602848974:0;dot
+: 1602848976:0;bin
+: 1602848995:0;v relink.sh
+: 1602849093:0;espanso detect
+: 1602849180:0;la
+: 1602849190:0;dot
+: 1602849192:0;cd espanso
+: 1602849193:0;mk
+: 1602849197:0;mk user
+: 1602849197:0;la
+: 1602849242:0;cd
+: 1602849246:0;cd .config/es
+: 1602849248:0;cd .config/espanso
+: 1602849249:0;cd user
+: 1602849261:0;cp * ~/dotfiles/espanso/user
+: 1602849265:0;t
+: 1602849276:0;sh relink.sh
+: 1602849282:0;vrc
+: 1602849368:0;v default.yml
+: 1602849412:0;espanso restart
+: 1602851458:0;la
+: 1602851460:0;vrc
+: 1602851498:0;vim
+: 1602851503:0;sh relink.sh
+: 1602851508:0;vim
+: 1602851519:0;la
+: 1602851532:0;nvim
+: 1602852975:0;so
+: 1602852976:0;la
+: 1602852978:0;v default.yml
+: 1602853003:0;v user/web.yml
+: 1602853079:0;espanso restart
+: 1602853123:0;v user/web.yml
+: 1602853137:0;espanso restart
+: 1602853169:0;zsh
+: 1602853196:0;so
+: 1602853339:0;v user/web.yml
+: 1602853383:0;so
+: 1602853537:0;v user/terminal.yml
+: 1602853571:0;so
+: 1602853576:0;con
+: 1602853587:0;~/con
+: 1602853603:0;~/config
+: 1602853610:0;~/.config
+: 1602853612:0;con
+: 1602853671:0;zsh
+: 1602853704:0;so
+: 1602853711:0;esp
+: 1602853712:0;la
+: 1602853715:0;cd user
+: 1602853717:0;v web.yml
+: 1602853781:0;so
+: 1602853798:0;v web.yml
+: 1602854362:0;so
+: 1602854382:0;v web.yml
+: 1602854601:0;so
+: 1602854610:0;v web.yml
+: 1602854685:0;bin
+: 1602854691:0;v relink.sh
+: 1602854781:0;if [ -d /mnt/c ] {\
+\
+}
+: 1602854792:0;if [ -d /mnt/c ] {\
+echo hello "windows"\
+}
+: 1602854822:0;sh relink.sh
+: 1602854842:0;v relink.sh
+: 1602854857:0;sh relink.sh
+: 1602854869:0;v relink.sh
+: 1602854881:0;sh relink.sh
+: 1602854889:0;zsh
+: 1602854892:0;v relink.sh
+: 1602854909:0;sh relink.sh
+: 1602854918:0;v relink.sh
+: 1602854941:0;v install.sh
+: 1602854944:0;la
+: 1602854955:0;v relink.sh
+: 1602854966:0;sh relink.sh
+: 1602854969:0;v relink.sh
+: 1602854974:0;sh relink.sh
+: 1602854979:0;v relink.sh
+: 1602855004:0;sh relink.sh
+: 1602855008:0;v relink.sh
+: 1602855016:0;sh relink.sh
+: 1602855020:0;v relink.sh
+: 1602855566:0;echo $USER
+: 1602855601:0;uefi
+: 1602856283:0;bin
+: 1602856284:0;v relink.sh
+: 1602856505:0;vim
+: 1602856510:0;cd
+: 1602856514:0;v .vimrc
+: 1602856519:0;vim
+: 1602856542:0;curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim\
+
+: 1602856560:0;vim
+: 1602856584:0;rm test.t
+: 1602856584:0;la
+: 1602856588:0;v .vimrc
+: 1602856608:0;vim .vimrc
+: 1602856661:0;so
+: 1602856663:0;v .vimrc
+: 1602856680:0;vim .vimrc
+: 1602856699:0;sh relink.sh
+: 1602856702:0;vim .vimrc
+: 1602856709:0;vrc
+: 1602856775:0;so
+: 1602856779:0;vim music
+: 1602856789:0;vrc
+: 1602858724:0;irc
+: 1602858837:0;i3-msg bindsym '[class=".*"] kill'\
+
+: 1602858844:0;i3-msg '[class=".*"] kill'\
+
+: 1602858857:0;sxh
+: 1602859025:0;uefi
+: 1602859121:0;zsh
+: 1602859159:0;sxh
+: 1602859198:0;so
+: 1602859202:0;dot
+: 1602859226:0;commit "added espanso"

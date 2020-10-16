@@ -32,6 +32,7 @@ filetype plugin indent on
 set wildmode=longest,full
 if has('nvim')
   set inccommand=split
+  set listchars=tab:→\ ,eol:↲,trail:•
 endif
 set nobackup
 set nowritebackup
@@ -61,7 +62,6 @@ set lazyredraw
 set backspace=indent,eol,start
 set omnifunc=v:lua.vim.lsp.omnifunc
 set list
-set listchars=tab:→\ ,eol:↲,trail:•
 set completeopt=menuone,noinsert
 set noshowmode
 set tags=~/gutentags_cache

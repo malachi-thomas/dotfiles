@@ -43,10 +43,7 @@ if &ft == 'markdown'
 endif
 
 " Theam
-if &ft == 'js' || 'jsx' || 'ts' || 'tsx'
-  Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-endif
-
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'morhetz/gruvbox'
 Plug 'sheerun/vim-polyglot'
 Plug 'mboughaba/i3config.vim'

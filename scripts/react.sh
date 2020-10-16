@@ -3,7 +3,7 @@
 npm init
 npm i react
 npm i react-dom
-npm i browserlist
+# npm i browserlist
 npm i parcel-bundler
 npm i eslint
 npm i eslint-config-standard

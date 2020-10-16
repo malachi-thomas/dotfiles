@@ -48,8 +48,7 @@ let g:airline#extensions#tabline#show_tab_nr = 0 " no tab number
 let g:airline#extensions#tabline#show_tab_count = 0 " no tab number on right hand side
 
 " completion-nvim
-let g:completion_enable_snippet = 'UltiSnips'
-let g:completion_matching_strategy_list = ['exact']
+let g:completion_matching_strategy_list = ['exact', 'fuzzy']
 let g:completion_matching_ignore_case = 1
 let g:completion_trigger_keyword_length = 1
 let g:completion_trigger_on_delete = 0
@@ -59,9 +58,12 @@ let g:completion_sorting = 'none'
 let g:completion_confirm_key = ""
 let g:completion_enable_auto_paren = 0
 let g:completion_trigger_character = ['.']
+let g:completion_timer_cycle = 250
+
+
 let g:completion_chain_complete_list = {
       \'default' : [
-      \  {'complete_items': ['UltiSnips', 'tags', 'path', 'lsp', 'buffers']}
+      \  {'complete_items': ['tags', 'path', 'lsp', 'buffers']}
       \ ]}
 
 " vim-fzf

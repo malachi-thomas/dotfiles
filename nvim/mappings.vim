@@ -145,12 +145,12 @@ inoremap <silent><expr><up>
 inoremap <silent><expr><down>
       \ pumvisible() ? "\<c-n>" :
       \ "\<down><c-o>zz"
-inoremap <silent><expr><right>
-      \ pumvisible() ? "\<c-g>u<right>" :
-      \ "\<right>"
-inoremap <silent><expr><left>
-      \ pumvisible() ? "\<c-g>u<left>" :
-      \ "\<left>"
+" inoremap <silent><expr><right>
+"       \ pumvisible() ? "\<c-g>u<right>" :
+"       \ "\<right>"
+" inoremap <silent><expr><left>
+"       \ pumvisible() ? "\<c-g>u<left>" :
+"       \ "\<left>"
 imap <silent><expr><c-s>
       \ pumvisible() ? "\<c-g>u\<plug>(emmet-expand-abbr)" :
       \ "\<plug>(emmet-expand-abbr)"

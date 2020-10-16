@@ -6,8 +6,9 @@ font pango:Fira Code: 12px
 
 
 # startup things
-exec --no-startup-id exec nm-applet
-exec --no-startup-id exec setxkbmap us
+exec --no-startup-id nm-applet
+exec --no-startup-id setxkbmap us
+exec --no-startup-id amixer set Master unmute
 exec --no-startup-id exec ~/dotfiles/scripts/startup.sh
 exec --no-startup-id exec ~/dotfiles/scripts/sw.py
 # exec --no-startup-id exec ~/dotfiles/scripts/wacom-tablet.sh
@@ -15,8 +16,8 @@ exec --no-startup-id exec ~/dotfiles/scripts/sw.py
 exec_always --no-startup-id exec betterlockscreen -u ~/dotfiles/wallpapers/nord.png
 exec_always --no-startup-id exec autotiling
 exec_always --no-startup-id feh --bg-fill ~/dotfiles/wallpapers/nord.png
-# exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id sxhkd
+# exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # window things
 default_border pixel 1
@@ -28,6 +29,7 @@ floating_modifier $mod
 client.focused          #FE8019 #FE8019 #000000 #FE8019 
 client.background       #000000
 
+bindsym Mod4+Mod1+q [class=".*"] kill
 
 # i3 keybindings
 bindsym $mod+f fullscreen toggle

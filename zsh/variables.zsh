@@ -1,7 +1,7 @@
 export ZDOTDIR="$HOME/dotfiles/zsh"
 export MYVIMRC="$HOME/dotfiles/nvim/init.vim"
 
-export PATH=$PATH:$HOME/dotfiles/scripts/:**/node_modules/.bin/:$HOME/.local/bin/
+export PATH=$PATH:$HOME/dotfiles/scripts/:**/node_modules/.bin/:$HOME/.local/bin/:$Home/.npm/bin/
 export EDITOR="nvim"
 export BROWSER="chromium"
 export TODAY=`date +%d/%b/%Y`

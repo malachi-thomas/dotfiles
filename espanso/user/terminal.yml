@@ -1,0 +1,6 @@
+filter_class: "Alacritty"
+
+matches: 
+
+  - trigger: "con "
+    replace: "con\n"

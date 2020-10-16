@@ -1,10 +1,7 @@
+# Config files
 source ~/dotfiles/zsh/functions.zsh
 source ~/dotfiles/zsh/config.zsh
 source ~/dotfiles/zsh/aliases.zsh
-
-fpath+=~/dotfiles/zsh/theam/pure
-autoload -U promptinit; promptinit
-prompt pure
 
 # Plugins
 source ~/dotfiles/zsh/plugins/zsh-autosuggestions.zsh
@@ -16,5 +13,5 @@ source ~/dotfiles/zsh/fzf/completion.zsh
 source ~/dotfiles/zsh/fzf/key-bindings.zsh
 
 
-compinit -d ""
+compinit -d "~/.config/zsh"
 
