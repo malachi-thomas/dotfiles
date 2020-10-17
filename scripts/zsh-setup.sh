@@ -7,7 +7,7 @@ sudo pacman -S zsh curl git
 chsh -s $(which zsh)
 
 # install oh-my-zsh
-git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.config/oh-my-zsh
+# git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.config/oh-my-zsh
 
 # install zsh plugins
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh/plugins/zsh-syntax-highlighting

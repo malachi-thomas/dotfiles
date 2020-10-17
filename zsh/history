@@ -1068,3 +1068,343 @@ echo hello "windows"\
 : 1602859198:0;so
 : 1602859202:0;dot
 : 1602859226:0;commit "added espanso"
+: 1602873189:0;la
+: 1602873199:0;bin
+: 1602873201:0;v relink.sh
+: 1602873396:0;file
+: 1602873436:0;HOME
+: 1602873439:0;home
+: 1602873449:0;MONDAY ha-ha
+: 1602873453:0;-- AAA
+: 1602873485:0;pip install togglCLI
+: 1602873491:0;toggl
+: 1602873508:0;toggl project_users
+: 1602873548:0;espanso
+: 1602873551:0;espanso edit
+: 1602873555:0;esp
+: 1602873560:0;v user/web.yml
+: 1602873587:0;so
+: 1602873599:0;v user/web.yml
+: 1602873614:0;so
+: 1602873624:0;v user/web.yml
+: 1602873642:0;espanso restart
+: 1602873656:0;v user/web.yml
+: 1602873673:0;sh relink.sh
+: 1602873676:0;espanso restart
+: 1602873751:0;la
+: 1602873766:0;v .zshenv
+: 1602873775:0;cd dotfiles/zsh
+: 1602873785:0;v variables.zsh
+: 1602873791:0;bin
+: 1602873794:0;v rel
+: 1602873797:0;v relink.sh
+: 1602873813:0;cp ~/.zshenv .
+: 1602873814:0;la
+: 1602873823:0;mv .zshenv ../zsh
+: 1602873825:0;..
+: 1602873828:0;cd zsh
+: 1602873829:0;la
+: 1602873842:0;v .zshrc
+: 1602873850:0;v .zshenv
+: 1602873859:0;so
+: 1602873862:0;sh relink.sh
+: 1602873863:0;cd
+: 1602873866:0;la
+: 1602873873:0;ls -a | wc -l
+: 1602873890:0;cd code
+: 1602873891:0;la
+: 1602873902:0;mk javascript python
+: 1602873902:0;la
+: 1602873904:0;cd
+: 1602873911:0;bin
+: 1602873915:0;sxh
+: 1602873939:0;pac notify-send
+: 1602874028:0;pac notify-osd-customizable
+: 1602874089:0;la
+: 1602874092:0;rm rel
+: 1602874093:0;la
+: 1602874118:0;v install.sh
+: 1602874139:0;v zsh-setup.sh
+: 1602874175:0;espanso eddit
+: 1602874179:0;espanso edit
+: 1602874271:0;so
+: 1602874298:0;la
+: 1602874300:0;..
+: 1602874301:0;la
+: 1602874324:0;ls -l
+: 1602874327:0;ls -la
+: 1602874334:0;v .vim
+: 1602874347:0;la
+: 1602874412:0;uefi
+: 1602874416:0;zsh
+: 1602874460:0;so
+: 1602874477:0;uefi
+: 1602880362:0;cd code/react
+: 1602880363:0;la
+: 1602880367:0;cd learning-react
+: 1602880368:0;la
+: 1602880390:0;f
+: 1602880418:0;v src/Pages/styled.js 
+: 1602880455:0;vpc
+: 1602880591:0;v src/Pages/styled.js 
+: 1602880671:0;vpc
+: 1602880674:0;vrc
+: 1602880714:0;v src/Pages/styled.js 
+: 1602880727:0;v src/Pages/index.js 
+: 1602880748:0;vma
+: 1602880770:0;v src/Pages/index.js 
+: 1602880784:0;vma
+: 1602880806:0;v src/Pages/index.js 
+: 1602880818:0;vma
+: 1602880837:0;v src/Pages/index.js 
+: 1602882030:0;vma
+: 1602882031:0;vrc
+: 1602882524:0;vma
+: 1602883086:0;sxh
+: 1602883097:0;  betterlockscreen -s\
+
+: 1602883115:0;sxh
+: 1602883151:0;betterlockscreen -u ~/dotfiles/wallpapers/nord.png
+: 1602883161:0;pkill sxhkd
+: 1602883165:0;sxhkd
+: 1602883190:0;sxh
+: 1602883243:0;  betterlockscreen -s\
+
+: 1602915468:0;vpl
+: 1602915570:0;zsh
+: 1602915599:0;cd
+: 1602915603:0;cd .config/zsh
+: 1602915605:0;cd
+: 1602915609:0;cd dotfiles/zsh
+: 1602915612:0;v variables.zsh
+: 1602915678:0;la
+: 1602915691:0;react && cd learning-react/src
+: 1602915694:0;fzf
+: 1602915700:0;la
+: 1602915707:0;npm start
+: 1602915758:0;react && cd learning-react/src
+: 1602915760:0;v constants.js
+: 1602915869:0;vpc
+: 1602915922:0;bin
+: 1602915925:0;v startup.sh
+: 1602915961:0;so
+: 1602915968:0;la
+: 1602915980:0;ls -a | wc -l
+: 1602915994:0;files
+: 1602915996:0;file
+: 1602916519:0;copy ~/dotfiles/react/copy.this
+: 1602916520:0;react && cd learning-react/src
+: 1602916526:0;v ../package.json
+: 1602916555:0;pac fixjson
+: 1602916756:0;npm start
+: 1602916774:0;react && cd learning-react/src
+: 1602916775:0;la
+: 1602916781:0;f
+: 1602916800:0;v ../package.json
+: 1602917144:0;t
+: 1602917156:0;f
+: 1602917295:0;v ../package.json
+: 1602917392:0;react && cd learning-react/src
+: 1602917398:0;f
+: 1602919177:0;not
+: 1602919189:0;cd css
+: 1602919228:0;espanso edit
+: 1602919460:0;v center-absolute-item.md
+: 1602919518:0;vrc
+: 1602919558:0;v center-absolute-item.md
+: 1602919759:0;vpl
+: 1602919769:0;v center-absolute-item.md
+: 1602919804:0;react && cd learning-react/src
+: 1602919806:0;f
+: 1602926672:0;cd
+: 1602926675:0;clone https://github.com/dirtyhenry/pomodoro-cli
+: 1602926687:0;cd pomodoro-cli
+: 1602926688:0;make install
+: 1602926716:0;espanso edit
+: 1602926725:0;esp
+: 1602926727:0;cd user
+: 1602926729:0;v web.yml
+: 1602926753:0;so
+: 1602926762:0;v web.yml
+: 1602926771:0;so
+: 1602926851:0;pac timer
+: 1602926892:0;potato
+: 1602926925:0;beep
+: 1602926929:0;pac beep
+: 1602926932:0;beep
+: 1602927038:0;pac fplay
+: 1602927065:0;beep
+: 1602927073:0;beep --help
+: 1602927083:0;beep -n
+: 1602927093:0;beep -n aaa
+: 1602927096:0;beep --help
+: 1602927116:0;beep --device=
+: 1602927131:0;beep -e 
+: 1602927140:0;beep -e a 
+: 1602927178:0;echo -en "\007"\
+
+: 1602927193:0;echo -en "hello"\
+
+: 1602927209:0;echo -en "hello"\
+echo -ne '\a'
+: 1602927211:0;echo -ne '\a'
+: 1602927222:0;amixer set Master unmute
+: 1602927225:0;echo -en "hello"\
+echo -ne '\a'
+: 1602927230:0;echo -en "\007"\
+
+: 1602927239:0;printf '\a'
+: 1602927261:0;echo -en '\a'
+: 1602927279:0;sudo modprobe pcspkr
+: 1602927283:0;echo -en '\a'
+: 1602927295:0;beep
+: 1602927363:0;beep -f 300.7 -r 2 -d 100 -l 400
+: 1602927388:0;su
+chmod 4755 /usr/bin/beep
+: 1602927395:0;beep
+: 1602927405:0;sudo modprobe pcspkr
+: 1602927407:0;beep
+: 1602927417:0;echo -en '\a'
+: 1602927437:0;echo -en "\007"\
+
+: 1602927503:0;c=10; while [ $c -ge 0 ]; do espeak $c; let c--; done; sleep 1 ## here lengthy code\
+espeak "We are done with counting"\
+
+: 1602927513:0;pac spd-say
+: 1602927526:0;pac sound
+: 1602927597:0;pac bash-timer
+: 1602927675:0;bash-timer source ~/.bash-timer.sh\
+
+: 1602927731:0;esp
+: 1602927734:0;v user/web.yml
+: 1602927749:0;so
+: 1602927759:0;v user/web.yml
+: 1602927767:0;so
+: 1602927777:0;v user/web.yml
+: 1602927893:0;v default.yml
+: 1602927906:0;v user/spelling.yml
+: 1602927974:0;so
+: 1602927985:0;v user/spelling.yml
+: 1602928017:0;so
+: 1602928031:0;v user/spelling.yml
+: 1602928050:0;la
+: 1602928052:0;cd user
+: 1602928053:0;la
+: 1602928057:0;v spelling.yml
+: 1602928093:0;so
+: 1602928100:0;v spelling.yml
+: 1602928108:0;espanso restart
+: 1602928115:0;v spelling.yml
+: 1602928142:0;esp
+: 1602928143:0;cd user
+: 1602928144:0;la
+: 1602928149:0;v spelling.yml
+: 1602928170:0;so
+: 1602928241:0;espanso restart
+: 1602928261:0;con
+: 1602928279:0;so
+: 1602928321:0;mv spelling.yml hats.yml
+: 1602928323:0;so
+: 1602928332:0;v spelling.yml
+: 1602928335:0;v hats.yml
+: 1602928410:0;h so
+: 1602928411:0;so
+: 1602928439:0;mv hats.yml ../
+: 1602928440:0;la
+: 1602928450:0;..
+: 1602928451:0;la
+: 1602928466:0;espanso help
+: 1602928474:0;espanso path
+: 1602928487:0;sh relink.sh
+: 1602928488:0;sh 
+: 1602928589:0;esp
+: 1602928590:0;cd 
+: 1602928592:0;con 
+: 1602928594:0;cd espanso
+: 1602928607:0;esp
+: 1602928623:0;cp -f * ~/.config/espanso
+: 1602928632:0;cp -fr * ~/.config/espanso
+: 1602928651:0;mv hats.yml user
+: 1602928652:0;la
+: 1602928660:0;rm vim.vim
+: 1602928660:0;la
+: 1602928663:0;cd user
+: 1602928664:0;la
+: 1602928667:0;ls -l
+: 1602928670:0;la
+: 1602928672:0;..
+: 1602928672:0;la
+: 1602928678:0;ls -a
+: 1602928680:0;ls -l
+: 1602928698:0;rm -r *
+: 1602928700:0;la
+: 1602928716:0;cp default.yml ~/.config/espanso
+: 1602928721:0;v default.yml
+: 1602928729:0;cd user
+: 1602928730:0;la
+: 1602928734:0;cp * ~/dotfiles/espanso/user
+: 1602928739:0;cp -f * ~/dotfiles/espanso/user
+: 1602928744:0;la
+: 1602928744:0;t
+: 1602928750:0;tree
+: 1602928755:0;la
+: 1602928767:0;cp -f * ~/.config/espanso/user
+: 1602928771:0;la
+: 1602928772:0;cd 
+: 1602928783:0;cd .config/espanso
+: 1602928784:0;la
+: 1602928785:0;cd user
+: 1602928785:0;la
+: 1602928790:0;v spelling.yml
+: 1602928794:0;rm spelling.yml
+: 1602928798:0;la
+: 1602928801:0;v la
+: 1602928805:0;cd
+: 1602928807:0;-
+: 1602928807:0;..
+: 1602928809:0;-
+: 1602928810:0;cd
+: 1602928812:0;-
+: 1602928821:0;v spelling.yml
+: 1602928882:0;so
+: 1602928895:0;la
+: 1602928896:0;v spelling.yml
+: 1602928904:0;so
+: 1602928915:0;espanso restart
+: 1602928919:0;v spelling.yml
+: 1602928973:0;mv spelling.yml ../
+: 1602928980:0;v ../spelling.yml
+: 1602929036:0;espanso edit spelling\
+
+: 1602929184:0;..
+: 1602929185:0;la
+: 1602929187:0;cd user
+: 1602929188:0;la
+: 1602929189:0;..
+: 1602929191:0;cat spelling.yml
+: 1602929196:0;rm spelling.yml
+: 1602929197:0;la
+: 1602929204:0;v user/spelling.yml
+: 1602929226:0;Best regards,
+: 1602929227:0;Jon Snow
+: 1602929325:0;so
+: 1602929331:0;v user/spelling.yml
+: 1602929340:0;so
+: 1602929350:0;v user/spelling.yml
+: 1602929364:0;so
+: 1602929368:0;v
+: 1602929380:0;v user/spelling.yml
+: 1602929398:0;so
+: 1602929411:0;v user/spelling.yml
+: 1602929634:0;v default.yml
+: 1602929639:0;v user/spelling.yml
+: 1602930431:0;cp -r * ~/dotfiles/espanso
+: 1602930434:0;dot
+: 1602930435:0;esp
+: 1602930436:0;la
+: 1602930438:0;v default.yml
+: 1602930446:0;sh relink.sh
+: 1602930452:0;la
+: 1602930454:0;v default.yml
+: 1602930464:0;v default.yml
+: 1602930519:0;commit " espanso"

@@ -34,6 +34,7 @@ sudo pacman -S alsa-utils
 yay betterlockscreen
 yay neovim-nightly
 yay espanso
+yay notify-osd-customizable
 
 
 pip install togglCli

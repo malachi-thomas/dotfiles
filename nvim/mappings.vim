@@ -1,10 +1,10 @@
 "==================================================================================================
 let mapleader = ' '
 " Basic Movement
-nnoremap <silent><up> <up>:noh<cr>zz
-nnoremap <silent><down> <down>:noh<cr>zz
-nnoremap <silent><left> <left>:noh<cr>zz
-nnoremap <silent><right> <right>:noh<cr>zz
+nnoremap <silent><up> kzz
+nnoremap <silent><down> jzz
+nnoremap <silent><left> h
+nnoremap <silent><right> l
 nnoremap { {zz
 nnoremap } }zz
 nnoremap <pageup> <c-u>zz
@@ -119,6 +119,9 @@ nnoremap <space>tt :FloatermNew<cr>
 tnoremap<esc> <c-\><c-n>
 
 " Testing
+nnoremap <bs> <C-^>
+nnoremap / /\v
+vnoremap / /\v
 
 " Plugin Mappings 
 nmap <f1> <Plug>VimwikiNextLink
@@ -145,12 +148,12 @@ inoremap <silent><expr><up>
 inoremap <silent><expr><down>
       \ pumvisible() ? "\<c-n>" :
       \ "\<down><c-o>zz"
-" inoremap <silent><expr><right>
-"       \ pumvisible() ? "\<c-g>u<right>" :
-"       \ "\<right>"
-" inoremap <silent><expr><left>
-"       \ pumvisible() ? "\<c-g>u<left>" :
-"       \ "\<left>"
+inoremap <silent><expr><right>
+      \ pumvisible() ? "\<c-g>u<right>" :
+      \ "\<right>"
+inoremap <silent><expr><left>
+      \ pumvisible() ? "\<c-g>u<left>" :
+      \ "\<left>"
 imap <silent><expr><c-s>
       \ pumvisible() ? "\<c-g>u\<plug>(emmet-expand-abbr)" :
       \ "\<plug>(emmet-expand-abbr)"
@@ -195,7 +198,7 @@ endfunc
 
 "==================================================================================================
 
-if has('nvim')
+if has('nvim-0.5')
   nnoremap <silent>gr <cmd>lua vim.lsp.buf.references()<CR>
   nnoremap <silent>gd :lua vim.lsp.buf.definition()<cr>
   nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>

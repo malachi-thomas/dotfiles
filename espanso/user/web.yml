@@ -9,6 +9,12 @@ matches:
   - trigger: "gh "
     replace: "github.com\n"
 
+  - trigger: ":toggl "
+    replace: "track.toggl.com/timer\n"
+
+  - trigger: ":red "
+    replace: "reddit.com\n"
+
   # Emails
   - trigger: "email1 "
     replace: "malachithomas110@gmail.com"

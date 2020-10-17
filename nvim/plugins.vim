@@ -35,12 +35,11 @@ Plug 'mattn/emmet-vim' " html tags
 Plug 'airblade/vim-gitgutter'
 
 " Testing
+" Plug 'amirrezaask/fuzzy.nvim'
 
 " Notetaking
-if &ft == 'markdown'
-  Plug 'vimwiki/vimwiki'
-  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
-endif
+Plug 'vimwiki/vimwiki'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 " Theam
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }

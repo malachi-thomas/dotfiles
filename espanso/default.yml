@@ -1,3 +1,5 @@
+undo_backspace: false
+
 matches: 
 
   - trigger: "/date "

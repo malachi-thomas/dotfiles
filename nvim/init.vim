@@ -64,7 +64,7 @@ set omnifunc=v:lua.vim.lsp.omnifunc
 set list
 set completeopt=menuone,noinsert
 set noshowmode
-set tags=~/gutentags_cache
+set hlsearch
 set nocompatible
 
 " =============================================================================
@@ -90,6 +90,7 @@ augroup autocmds
   autocmd filetype python nnoremap <silent><buffer><c-p> :w<cr>:!python %<cr>
   autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
   autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
+  autocmd filetype markdown set ft=vimwiki
 
   if has('nvim-0.5')
     autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked

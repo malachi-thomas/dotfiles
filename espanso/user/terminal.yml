@@ -1,6 +1,10 @@
+name: terminal
+parent: default
+
 filter_class: "Alacritty"
 
 matches: 
 
-  - trigger: "con "
-    replace: "con\n"
+  - trigger: "aa "
+    replace: "this is a test"
+    

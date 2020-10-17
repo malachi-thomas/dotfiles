@@ -29,8 +29,8 @@ else
   # if windows
   [ ! -d /mnt/c/User/malac/AppData/Roaming/espanso ] && mkdir /mnt/c/User/malac/AppData/Roaming/espanso
   [ ! -d /mnt/c/User/malac/AppData/Roaming/espanso/user ] && mkdir /mnt/c/User/malac/AppData/Roaming/espanso/user
-  ln -f ~/dotfiles/espanso/default.yml /mnt/c/Users/malac/AppData/Roaming/espanso
-  ln -f ~/dotfiles/espanso/user/* /mnt/c/Users/malac/AppData/Roaming/espanso/user
+  cp -f ~/dotfiles/espanso/default.yml /mnt/c/Users/malac/AppData/Roaming/espanso
+  cp -f ~/dotfiles/espanso/user/* /mnt/c/Users/malac/AppData/Roaming/espanso/user
 fi
 
 

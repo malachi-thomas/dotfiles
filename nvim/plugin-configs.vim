@@ -59,8 +59,7 @@ let g:completion_confirm_key = ""
 let g:completion_enable_auto_paren = 0
 let g:completion_trigger_character = ['.']
 let g:completion_timer_cycle = 250
-
-
+let g:completion_enable_auto_popup = 0
 let g:completion_chain_complete_list = {
       \'default' : [
       \  {'complete_items': ['tags', 'path', 'lsp', 'buffers']}

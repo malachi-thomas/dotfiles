@@ -61,7 +61,11 @@ alias con='cd ~/.config'
 alias esp='cd ~/dotfiles/espanso'
 
 # Linux
-alias uefi='i3-msg "[class=".*"] kill" && sudo systemctl reboot --firmware-setup'
+uefi() {
+  sudo
+  i3-msg "[class=".*"] kill"
+  sudo systemctl reboot --firmware-setup
+}
 alias boot='reboot'
 alias back='kill -9 -1'
 alias aur='makepkg -si'

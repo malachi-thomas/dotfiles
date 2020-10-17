@@ -1,0 +1,14 @@
+name: spelling
+parent: default
+
+matches:
+
+  - trigger: "relitiv "
+    replace: "relitive "
+
+  - trigger: "absaloot "
+    replace: "absolute "
+
+  - trigger: "dont "
+    replace: "don't "
+
