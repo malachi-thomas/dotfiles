@@ -1,4 +1,6 @@
 undo_backspace: false
+backspace_limit: 10
+fast_inject: false
 
 matches: 
 

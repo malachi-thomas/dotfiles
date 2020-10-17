@@ -12,3 +12,5 @@ matches:
   - trigger: "dont "
     replace: "don't "
 
+  - trigger: "dzIn "
+    replace: "degin "
