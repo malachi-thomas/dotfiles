@@ -3,14 +3,20 @@ parent: default
 
 matches:
 
-  - trigger: "relitiv "
+  - trigger: "#relitiv "
     replace: "relitive "
 
-  - trigger: "absaloot "
+  - trigger: "#absaloot "
     replace: "absolute "
 
   - trigger: "dont "
     replace: "don't "
 
-  - trigger: "dzIn "
+  - trigger: "#dzIn "
     replace: "degin "
+
+  - trigger: "#develpu "
+    replace: "developer "
+
+  - trigger: "proget "
+    replace: "project "

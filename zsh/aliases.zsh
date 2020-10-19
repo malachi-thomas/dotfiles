@@ -62,8 +62,6 @@ alias esp='cd ~/dotfiles/espanso'
 
 # Linux
 uefi() {
-  sudo
-  i3-msg "[class=".*"] kill"
   sudo systemctl reboot --firmware-setup
 }
 alias boot='reboot'

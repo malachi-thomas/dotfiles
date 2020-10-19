@@ -1457,3 +1457,642 @@ espeak "We are done with counting"\
 : 1602932823:0;v relink.sh
 : 1602932896:0;so
 : 1602932902:0;commit " espanso"
+: 1602932905:0;push
+: 1602932996:0;uefi
+: 1602933945:0;echo --help
+: 1602933951:0;echo -
+: 1602933953:0;echo -help
+: 1602933957:0;echo -h
+: 1602933961:0;man echo
+: 1602934004:0;echo -e \
+: 1602934006:0;echo -e \a
+: 1602934021:0;echo -e \a hello
+: 1602934037:0;echo -e \v hello
+: 1602934043:0;echo -e \thello
+: 1602934121:0;react && cd learning-react/src
+: 1602934129:0;npm start
+: 1602934152:0;f
+: 1602934166:0;ranger
+: 1602934243:0;uefi
+: 1602941529:0;react && cd learning-react/src
+: 1602941530:0;la
+: 1602941534:0;f
+: 1602941540:0;cd components/Dropdown
+: 1602941547:0;-
+: 1602941550:0;..
+: 1602941553:0;cd -
+: 1602941560:0;..
+: 1602941571:0;v src/components/Dropdown 
+: 1602941658:0;react && cd learning-react/src
+: 1602941662:0;npm start
+: 1602941779:0;mkdir /mnt/usbstick
+: 1602941782:0;sudo mkdir /mnt/usbstick
+: 1602941798:0;su
+mount /dev/sda /mnt/usbstick
+: 1602942265:0;cd /run/media/malachi/EFI
+: 1602942266:0;la
+: 1602942268:0;..
+: 1602942268:0;la
+: 1602942271:0;cd EFI
+: 1602942272:0;ls
+: 1602942303:0;la
+: 1602942306:0;..
+: 1602942307:0;la
+: 1602942309:0;cd UNTITLED
+: 1602942310:0;la
+: 1602942316:0;ranger
+: 1602942341:0;cd PTM
+: 1602942342:0;la
+: 1602942378:0;mk ~/trading
+: 1602942390:0;cp -r * ~/trading
+: 1602942507:0;cd
+: 1602942508:0;la
+: 1602942510:0;cd trading
+: 1602942510:0;la
+: 1602942516:0;ranger
+: 1602942525:0;df -h
+: 1602942531:0;df -h ./
+: 1602942541:0;tree 
+: 1602942835:0;ranger
+: 1602944062:0;vrc
+: 1602944467:0;react && cd learning-react/src
+: 1602944469:0;v constants.js
+: 1602944481:0;vrc
+: 1602944525:0;f
+: 1602945787:0;df -h
+: 1602946528:0;esp
+: 1602946532:0;v user/spelling.yml
+: 1602946623:0;so
+: 1602967655:0;betterlockscreen -s
+: 1603013200:0;espanso edit spelling\
+
+: 1603018812:0;cd
+: 1603018834:0;mk the-keyboard-project
+: 1603018836:0;cd the-keyboard-project
+: 1603018837:0;la
+: 1603018860:0;cd
+: 1603018861:0;la
+: 1603018864:0;	how
+: 1603018865:0;dow
+: 1603018866:0;la
+: 1603018892:0;mv mv keyboard-layout.jpg ~/the-keyboard-project/keyboard-template.jpg
+: 1603018905:0;mv keyboard-layout.jpg ~/the-keyboard-project/keyboard-template.jpg
+: 1603018907:0;cd
+: 1603018909:0;cd the-keyboard-project
+: 1603018909:0;la
+: 1603018911:0;v keyboard-template.jpg
+: 1603018918:0;git init
+: 1603018919:0;la
+: 1603018929:0;commit "start"
+: 1603018943:0;git remote add origin https://github.com/banana-llarma/the-keyboard-project.git\
+git branch -M main\
+git push -u origin main\
+
+: 1603018990:0;push
+: 1603019100:0;git remote set-url origin git@github.com:banana-llarma/the-keyboard-project.git
+: 1603019103:0;push
+: 1603019140:0;la
+: 1603019146:0;to img.md
+: 1603019148:0;v img.md
+: 1603019306:0;commit "start"
+: 1603019309:0;push
+: 1603019354:0;v img.md
+: 1603019362:0;commit "start"
+: 1603019364:0;push
+: 1603019384:0;mv img.md README.MD
+: 1603019394:0;mv README.MD README.me
+: 1603019397:0;commit "start"
+: 1603019402:0;push
+: 1603019479:0;v README.me
+: 1603019486:0;commit "start"
+: 1603019489:0;push
+: 1603019599:0;v README.me
+: 1603019613:0;mv README.me README.md
+: 1603019615:0;commit "start"
+: 1603019617:0;push
+: 1603019706:0;mk layout
+: 1603019708:0;cd layout
+: 1603019721:0;to README.md
+: 1603019723:0;v README.md
+: 1603019733:0;..
+: 1603019752:0;mk assets
+: 1603019752:0;la
+: 1603019898:0;zsh
+: 1603019918:0;so
+: 1603019922:0;uefi
+: 1603020850:0;cd the-keyboard-project
+: 1603020851:0;la
+: 1603020857:0;cd
+: 1603020858:0;dot
+: 1603020860:0;dow
+: 1603021170:0;mv keyboard-layout\ \(3\).json ~/the-keyboard-project/assets
+: 1603021173:0;cd
+: 1603021175:0;cd the-keyboard-project
+: 1603021175:0;la
+: 1603021184:0;cd assets
+: 1603021205:0;mv keyboard-layout\ \(3\).json keyboard-template.json
+: 1603021206:0;la
+: 1603021247:0;..
+: 1603021247:0;la
+: 1603021273:0;mv keyboard-template.jpg layout/keyboard-template.jpg
+: 1603021275:0;cd assets
+: 1603021276:0;la
+: 1603021280:0;..
+: 1603021281:0;la
+: 1603021284:0;t
+: 1603021295:0;mv layout/keyboard-template.jpg assets
+: 1603021298:0;cd assets
+: 1603021298:0;la
+: 1603021368:0;..
+: 1603021455:0;react && cd learning-react/src
+: 1603021458:0;v index.js
+: 1603022354:0;dow
+: 1603022364:0;rm *.json
+: 1603022368:0;rm *.jpg
+: 1603022368:0;la
+: 1603022410:0;mv keyboard-layout.jpg ~/the-keyboard-project/default-layout.jpg
+: 1603022428:0;mv keyboard-layout.json ~/the-keyboard-project/assets/default-layout.json
+: 1603022429:0;cd
+: 1603022431:0;cd the-keyboard-project
+: 1603022438:0;mv default-layout.jpg assets
+: 1603022438:0;la
+: 1603022497:0;commit "start"
+: 1603022498:0;push
+: 1603022716:0;la
+: 1603022719:0;cd assets
+: 1603022719:0;la
+: 1603022732:0;mkdir default-layout
+: 1603022738:0;mv default-layout.jpg default-layout.jpg default-layout
+: 1603022739:0;la
+: 1603022745:0;mv default-layout.json keyboard-template.jpg default-layout
+: 1603022746:0;la
+: 1603022767:0;mk malachi\'s-custom-layout
+: 1603022768:0;la
+: 1603022799:0;mv keyboard-template.json malachi\'s-custom-layout/"malachi's-custom-layout".json
+: 1603022799:0;la
+: 1603022802:0;cd malachi\'s-custom-layout
+: 1603022802:0;la
+: 1603022813:0;mv malachi\'s-custom-layout.json malachis-custom-layout.json
+: 1603022814:0;la
+: 1603022829:0;mv malachis-custom-layout.json custom-layout.json
+: 1603022830:0;la
+: 1603022831:0;..
+: 1603022839:0;mv malachi\'s-custom-layout custom-layout
+: 1603022839:0;la
+: 1603022872:0;commit "start"
+: 1603022873:0;push
+: 1603022893:0;la
+: 1603022901:0;mv * ../layout
+: 1603022902:0;la
+: 1603022903:0;..
+: 1603022905:0;rma assets
+: 1603022911:0;la
+: 1603022919:0;cd layout
+: 1603022920:0;la
+: 1603022934:0;cp custom-layout default-layout ../assets
+: 1603022936:0;la
+: 1603022938:0;..
+: 1603022938:0;t
+: 1603022947:0;cp layout/* assets
+: 1603022952:0;cp -r layout/* assets
+: 1603022953:0;t
+: 1603022957:0;cd assets
+: 1603022958:0;rm README.md
+: 1603022959:0;la
+: 1603022970:0;cd custom-layout
+: 1603022973:0;la
+: 1603022974:0;..
+: 1603022978:0;cd default-layout
+: 1603022987:0;ranger
+: 1603023014:0;rm keyboard-template.jpg
+: 1603023016:0;la
+: 1603023016:0;..
+: 1603023019:0;la
+: 1603023034:0;..
+: 1603023044:0;cd assets
+: 1603023045:0;la
+: 1603023055:0;mk template
+: 1603023057:0;cd default-layout
+: 1603023058:0;la
+: 1603023059:0;..
+: 1603023062:0;cd layout
+: 1603023064:0;cd default-layout
+: 1603023065:0;la
+: 1603023079:0;mv keyboard-template.jpg ../../assets/template
+: 1603023083:0;../..
+: 1603023084:0;la
+: 1603023086:0;cd layout
+: 1603023091:0;..
+: 1603023092:0;la
+: 1603023094:0;cd assets
+: 1603023095:0;la
+: 1603023099:0;cd template
+: 1603023100:0;la
+: 1603023111:0;mv keyboard-template.jpg template.jpg
+: 1603023112:0;la
+: 1603023113:0;..
+: 1603023118:0;commit "start"
+: 1603023123:0;push
+: 1603023143:0;v README.md
+: 1603023154:0;commit "start"
+: 1603023156:0;push
+: 1603023938:0;dow
+: 1603023940:0;la
+: 1603023951:0;mv keyboard-layout.json custom-temp.json
+: 1603023951:0;la
+: 1603024012:0;..
+: 1603024019:0;mk my-keyboard
+: 1603024022:0;cd my-keyboard
+: 1603024023:0;la
+: 1603024036:0;clone git@github.com:banana-llarma/my-keyboard.git
+: 1603024041:0;la
+: 1603024044:0;cd my-keyboard
+: 1603024044:0;la
+: 1603024046:0;..
+: 1603024052:0;mv my-keyboard ../
+: 1603024053:0;la
+: 1603024061:0;..
+: 1603024067:0;mv my-keyboard hats
+: 1603024074:0;mv hats/my-keyboard ../
+: 1603024084:0;cd hats
+: 1603024084:0;la
+: 1603024088:0;mv my-keyboard ../
+: 1603024089:0;la
+: 1603024091:0;..
+: 1603024096:0;rma hats
+: 1603024101:0;cd my-keyboard
+: 1603024101:0;la
+: 1603024117:0;commit "start"
+: 1603024121:0;git push
+: 1603024771:0;dot
+: 1603024772:0;dow
+: 1603024772:0;la
+: 1603024786:0;mv keyboard-layout.jpg keyboard-layout.json ~/my-keyboard
+: 1603024788:0;cd
+: 1603024789:0;cd my-keyboard
+: 1603024789:0;la
+: 1603024797:0;mk layouts
+: 1603024815:0;mv keyboard-layout.jpg layouts/layer-1.jpg
+: 1603024824:0;mv keyboard-layout.json layouts/layer-1.json
+: 1603024826:0;cd layouts
+: 1603024827:0;la
+: 1603024836:0;commit "start"
+: 1603024838:0;push
+: 1603024851:0;to README.md
+: 1603024854:0;v README.md
+: 1603024889:0;commit "start"
+: 1603024891:0;push
+: 1603024921:0;git config --global user.email "thomasmalachi18@gmail"\
+git config --global user.name "banana_llarma"\
+
+: 1603024924:0;commit "start"
+: 1603024927:0;push
+: 1603024933:0;la
+: 1603024957:0;mv README.md ../
+: 1603024957:0;la
+: 1603024959:0;commit "start"
+: 1603024963:0;commit "start" && push
+: 1603024967:0;push
+: 1603024987:0;la
+: 1603024993:0;..
+: 1603024995:0;v README.md
+: 1603025031:0;commit "start" && push
+: 1603025041:0;v README.md
+: 1603025084:0;so
+: 1603025088:0;commit "start" && push
+: 1603025583:0;cd
+: 1603025586:0;pac qmk
+: 1603035434:0;qmk setup
+: 1603038796:0;dow
+: 1603038803:0;rm custom-temp.json planck_ez_dvorak-layout_qnLDA_edzQJ.bin planck_ez_dvorak-layout_qnLDA_wxjQD.bin
+: 1603038816:0;mv keyboard-layout.jpg keyboard-layout.json ~/the-keyboard-project
+: 1603038817:0;cd 
+: 1603038819:0;cd the-keyboard-project
+: 1603038820:0;la
+: 1603038837:0;mv keyboard-layout.jpg layout.jpg
+: 1603038847:0;mv keyboard-layout.json layout.json
+: 1603038848:0;la
+: 1603038858:0;cd la
+: 1603038860:0;cd layout
+: 1603038861:0;la
+: 1603038871:0;rma custom-layout default-layout
+: 1603038873:0;..
+: 1603038882:0;mv layout.jpg layout.json layout
+: 1603038884:0;la
+: 1603038894:0;rma assets
+: 1603038895:0;la
+: 1603038897:0;cd layout
+: 1603038898:0;la
+: 1603038908:0;v README.md
+: 1603038921:0;commit "start" && push
+: 1603038948:0;mk the-code
+: 1603038948:0;la
+: 1603038955:0;rma the-code
+: 1603038956:0;..
+: 1603038958:0;mk the-code
+: 1603038958:0;la
+: 1603038977:0;v README.md
+: 1603038984:0;so
+: 1603038988:0;commit "start" && push
+: 1603039012:0;v README.md
+: 1603039029:0;la
+: 1603039034:0;commit "start" && push
+: 1603039127:0;vpc
+: 1603039131:0;zsh
+: 1603039185:0;so
+: 1603039192:0;music 
+: 1603039196:0;all 
+: 1603039248:0;zsh
+: 1603039264:0;cd
+: 1603039269:0;cd dotfiles/zsh
+: 1603039271:0;v variables.zsh
+: 1603039280:0;so
+: 1603039283:0;cd fzf
+: 1603039286:0;la
+: 1603039291:0;cd
+: 1603039293:0;cd music/slow-hip-hop
+: 1603039299:0;cd
+: 1603039302:0;music 
+: 1603039303:0;la
+: 1603039310:0;fd -d
+: 1603039315:0;fd -d ./
+: 1603039320:0;f -d
+: 1603039323:0;zsh
+: 1603039329:0;-
+: 1603039330:0;cd
+: 1603039336:0;cd dotfiles/zsh
+: 1603039339:0;v variables.zsh
+: 1603039358:0;so
+: 1603039363:0;fzf 
+: 1603039366:0;la
+: 1603039367:0;cd
+: 1603039370:0;music 
+: 1603039372:0;cd
+: 1603039391:0;cd dotfiles/zsh
+: 1603039393:0;v [variables.zsh
+: 1603039397:0;v variables.zsh
+: 1603041904:0;fd -t
+: 1603041911:0;v variables.zsh
+: 1603041923:0;so
+: 1603041925:0;fd
+: 1603041928:0;fd -t
+: 1603041931:0;fd -tf
+: 1603041953:0;v variables.zsh
+: 1603041975:0;so
+: 1603041981:0;v variables.zsh
+: 1603041988:0;so
+: 1603041992:0;cd fzf
+: 1603041994:0;cd
+: 1603041997:0;cd music/lucas-king
+: 1603041999:0;la
+: 1603042001:0;cd
+: 1603042007:0;fd -tf
+: 1603042020:0;cd dotfiles/zsh
+: 1603042024:0;v variables.zsh
+: 1603042051:0;la
+: 1603042053:0;so
+: 1603042055:0;zsh
+: 1603042069:0;v
+: 1603042091:0;la
+: 1603042506:0;cd the-keyboard-project
+: 1603042508:0;v README.md
+: 1603042686:0;commit "start" && push
+: 1603047472:0;cd the-code
+: 1603047477:0;v keymap.c
+: 1603047499:0;lrc
+: 1603047535:0;pac clangd
+: 1603047564:0;clangd --version
+: 1603047598:0;pac clang-tools
+: 1603047618:0;pac llvm
+: 1603047679:0;v keymap.c
+: 1603048571:0;vrc
+: 1603048583:0;v keymap.c
+: 1603050934:0;..
+: 1603050939:0;cd dotfiles/qmk
+: 1603050940:0;la
+: 1603050943:0;cd iris-keyboard
+: 1603050943:0;la
+: 1603050947:0;v keymap.c
+: 1603053511:0;v rules.mk
+: 1603053662:0;v config.h
+: 1603053707:0;v keymap.c
+: 1603054195:0;cd
+: 1603054197:0;cd qmk_firmware
+: 1603054198:0;la
+: 1603054257:0;cd 
+: 1603054653:0;cd qmk_firmware
+: 1603054653:0;la
+: 1603054684:0;cd keyboards/kbdfans/kbd67/rev2/keymaps/
+: 1603054685:0;la
+: 1603054693:0;mk malachi
+: 1603054696:0;cd malachi
+: 1603054697:0;la
+: 1603054716:0;ln -f ~/dotfiles/qmk/iris-keyboard/* ./
+: 1603054717:0;la
+: 1603054720:0;...
+: 1603054720:0;..
+: 1603054722:0;...
+: 1603054722:0;..
+: 1603054724:0;la
+: 1603054726:0;..
+: 1603054754:0;make keebio/iris/rev4:default:flash\
+
+: 1603054763:0;cd qmk_firmware
+: 1603054765:0;make keebio/iris/rev4:default:flash\
+
+: 1603054793:0;make keebio/iris/rev4:malachi:flash\
+
+: 1603054808:0;make keebio/iris/rev4:malachi\
+
+: 1603054830:0;\
+make keebio/iris/rev4:default
+: 1603054935:0;make keebio/iris/rev4:pothix
+: 1603054939:0;ccd
+: 1603054940:0;cd
+: 1603054941:0;make keebio/iris/rev4:pothix
+: 1603054961:0;cd qmk_firmware/
+: 1603054962:0;la
+: 1603054964:0;make keebio/iris/rev4:pothix
+: 1603054978:0;cd keyboards/kbdfans/kbd67/rev2/keymaps/
+: 1603054979:0;la
+: 1603054986:0;..
+: 1603054987:0;la
+: 1603054991:0;..
+: 1603054991:0;la
+: 1603054999:0;..
+: 1603055024:0;fd -tf a
+: 1603055028:0;fd -tf aaaa
+: 1603055034:0;fd -tf iris
+: 1603055041:0;fd -td iris
+: 1603055045:0;fd  iris
+: 1603055059:0;cd keyboards/kbdfans/kbd67/rev2/keymaps/
+: 1603055060:0;l;
+: 1603055064:0;..
+: 1603055072:0;cd keymaps
+: 1603055073:0;la
+: 1603055081:0;....
+: 1603055082:0;..
+: 1603055096:0;cd keebio/iris
+: 1603055097:0;la
+: 1603055100:0;cd keymaps
+: 1603055100:0;la
+: 1603055103:0;mk malachi
+: 1603055108:0;la
+: 1603055112:0;cd malachi
+: 1603055113:0;la
+: 1603055117:0;ln -f ~/dotfiles/qmk/iris-keyboard/* ./
+: 1603055118:0;la
+: 1603055124:0;cd qmk_firmware/
+: 1603055130:0;make keebio/iris/rev4:malachi
+: 1603055147:0;cd
+: 1603055149:0;cd dotfiles/qmk
+: 1603055152:0;cd iris-keyboard
+: 1603055155:0;v config.h
+: 1603055371:0;v rules.mk
+: 1603055429:0;make keebio/iris/rev4:default
+: 1603055442:0;la
+: 1603055446:0;git status
+: 1603055463:0;la
+: 1603055466:0;make keebio/iris/rev4:default
+: 1603055483:0;pac qmk
+: 1603055491:0;yay qmk
+: 1603055533:0;sudo pacman -S git python python-pip python-setuptools libffi
+: 1603055543:0;python3 -m pip install --user qmk
+: 1603055560:0;qmk setup
+: 1603055586:0;qmk compile -kb iris -km default\
+
+: 1603055595:0;qmk compile -kb keebio/iris -km default\
+
+: 1603055604:0;make keebio/iris/rev4:default
+: 1603055612:0;qmk compile -kb clueboard/66/rev3 -km default\
+
+: 1603055627:0;qmk compile\
+
+: 1603055650:0;make keebio/iris/rev4:default
+: 1603055675:0;[2;[2;[2;irmware\
+- qmk compile\
+\
+âƒ¸ƒ² Could not determine keyboard!\
+âƒ¸ƒ² You must supply a configurator export, both `--keyboard` and `--keymap`, or be in a directory for a keyboard or keymap.\
+usage: qmk compile [-h] [-b] [-kb KEYBOARD] [-km KEYMAP] [filename]\
+\
+~/qmk_firmware\
+- make keebio/iris/rev4:default\
+QMK Firmware 0.10.40\
+Making keebio/iris/rev4 with keymap default\
+\
+avr-gcc (GCC) 10.2.0\
+Copyright (C) 2020 Free Software Foundation, Inc.\
+This is free software; see the source for copying conditions.  There is NO\
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\
+\
+Compiling: keyboards/keebio/iris/iris.c                                                            In file included from ./keyboards/keebio/iris/config.h:21,\
+                 from <command-line>:\
+quantum/config_common.h:28:18: fatal error: avr/io.h: No such file or directory\
+   28 | #        include <avr/io.h>\
+      |                  ^~~~~~~~~~\
+compilation terminated.\
+ [ERRORS]\
+ |\
+ |\
+ |\
+make[1]: *** [tmk_core/rules.mk:386: .build/obj_keebio_iris_rev4_default/keyboards/keebio/iris/iris.o] Error 1\
+Make finished with errors\
+make: *** [Makefile:584: keebio/iris/rev4:default] Error 1\
+\
+~/qmk_firmwarirmware\
+- qmk compile\
+\
+âƒ¸ƒ² Could not determine keyboard!\
+âƒ¸ƒ² You must supply a configurator export, both `--keyboard` and `--keymap`, or be in a directory for a keyboard or keymap.\
+usage: qmk compile [-h] [-b] [-kb KEYBOARD] [-km KEYMAP] [filename]\
+\
+~/qmk_firmware\
+- make keebio/iris/rev4:default\
+QMK Firmware 0.10.40\
+Making keebio/iris/rev4 with keymap default\
+\
+avr-gcc (GCC) 10.2.0\
+Copyright (C) 2020 Free Software Foundation, Inc.\
+This is free software; see the source for copying conditions.  There is NO\
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\
+\
+Compiling: keyboards/keebio/iris/iris.c                                                            In file included from ./keyboards/keebio/iris/config.h:21,\
+                 from <command-line>:\
+quantum/config_common.h:28:18: fatal error: avr/io.h: No such file or directory\
+   28 | #        include <avr/io.h>\
+      |                  ^~~~~~~~~~\
+compilation terminated.\
+ [ERRORS]\
+ |\
+ |\
+ |\
+make[1]: *** [tmk_core/rules.mk:386: .build/obj_keebio_iris_rev4_default/keyboards/keebio/iris/iris.o] Error 1\
+Make finished with errors\
+make: *** [Makefile:584: keebio/iris/rev4:default] Error 1\
+\
+~/qmk_firmwar
+: 1603055701:0;make keebio/iris/rev4:default
+: 1603055799:0;sleep
+: 1603089443:0;cd
+: 1603089449:0;qmk setup
+: 1603089480:0;pac arv-gcc
+: 1603089487:0;pac arv-
+: 1603089509:0;pac dfu
+: 1603089565:0;qmk compile -kb clueboard/66/rev3 -km default\
+
+: 1603089637:0;pac gcc
+: 1603089654:0;downgrade gcc gcc-libs
+: 1603089704:0;yay -S downgrade\
+
+: 1603089730:0;sudo nano /etc/pacman.conf\
+
+: 1603089741:0;sudo nvim /etc/pacman.conf\
+
+: 1603089780:0;sudo pacman -Syu\
+
+: 1603089949:0;sudo pacman -S downgrade\
+
+: 1603089961:0;sudo downgrade
+: 1603089972:0;sudo downgrade gcc
+: 1603090017:0;sudo downgrade gcc-lib
+: 1603090036:0;sudo downgrade gcc-libs
+: 1603090059:0;sudo downgrade gcc
+: 1603090086:0;qmk compile -kb clueboard/66/rev3 -km default\
+
+: 1603090117:0;downgrade avr-gcc
+: 1603090134:0;qmk setup
+: 1603090157:0;qmk compile -kb clueboard/66/rev3 -km default\
+
+: 1603090188:0;make keebio/iris/rev4:malachi
+: 1603090192:0;cd qmk_firmware
+: 1603090193:0;make keebio/iris/rev4:malachi
+: 1603090212:0;make keebio/iris/rev4:default
+: 1603090250:0;sudo make planck/rev4:default:flash
+: 1603090273:0;qmk setup
+: 1603090294:0;pac udev
+: 1603090331:0;cd keyboards
+: 1603090375:0;sudo make keebio/iris/rev4:default
+: 1603090382:0;cd qmk_firmware
+: 1603090383:0;sudo make keebio/iris/rev4:default
+: 1603090395:0;sudo make keebio/iris/rev4:malachi
+: 1603090415:0;cd keebio/iris/rev4/
+: 1603090416:0;la
+: 1603090420:0;..
+: 1603090423:0;la
+: 1603090427:0;cd keymaps
+: 1603090428:0;la
+: 1603090479:0;qmk setup
+: 1603090567:0;...
+: 1603090568:0;..
+: 1603090570:0;la
+: 1603090587:0;ls *.hex
+: 1603090591:0;la
+: 1603090592:0;make keebio/iris/rev4:default
+: 1603090626:0;..
+: 1603090632:0;rma qmk_firmware
+: 1603090635:0;qmk setup
+: 1603090966:0;cd qmk_firmware
+: 1603090970:0;make keebio/iris/rev4:default
+: 1603091013:0;dot
+: 1603091019:0;commit "start" && push
