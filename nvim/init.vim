@@ -20,8 +20,7 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 "==================================================================================================
 "Lua
 if has('nvim-0.5')
-  lua require('init')
-  lua require 'colorizer'.setup()
+  lua require 'init'
 endif
 
 "==================================================================================================
@@ -62,7 +61,7 @@ set lazyredraw
 set backspace=indent,eol,start
 set omnifunc=v:lua.vim.lsp.omnifunc
 set list
-set completeopt=menuone,noinsert
+set completeopt=menuone,noinsert,noselect
 set noshowmode
 set hlsearch
 set nocompatible

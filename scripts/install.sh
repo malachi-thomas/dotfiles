@@ -30,6 +30,8 @@ sudo pacman -S ripgrep
 sudo pacman -S input-wacom
 sudo pacman -S xf86-input-wacom
 sudo pacman -S alsa-utils
+sudo pacman -S redshift
+sudo pacman -S tmux
 
 yay betterlockscreen
 yay neovim-nightly

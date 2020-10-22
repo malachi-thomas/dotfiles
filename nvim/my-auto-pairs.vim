@@ -15,21 +15,21 @@ func Enter()
 endfunction
 
 func Rbrak()
-  if getline('.')[col('.') - 2] == '['
+  if getline('.')[col('.') - 2:col('.') - 1] == '[]'
     return "\<right>"
   endif
   return "]"
 endfunction
 
 func Rbrace()
-  if getline('.')[col('.') - 2] == '{'
+  if getline('.')[col('.') - 2:col('.') - 1] == '{}'
     return "\<right>"
   endif
   return "}"
 endfunction
 
 func Rpren()
-  if getline('.')[col('.') - 2] == '('
+  if getline('.')[col('.') - 2:col('.') - 1] == '()'
     return "\<right>"
   endif
   return ")"

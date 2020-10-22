@@ -13,7 +13,7 @@ matches:
     replace: "don't "
 
   - trigger: "#dzIn "
-    replace: "degin "
+    replace: "design "
 
   - trigger: "#develpu "
     replace: "developer "

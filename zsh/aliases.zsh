@@ -23,6 +23,8 @@ alias x='vifm .'
 alias tags='ctags -R --sort=1 --exclude=node_modules'
 alias v='nvim'
 alias f='rg --files | fzf | xargs -I "{}" nvim {}'
+alias tmux="TERM=screen-256color-bce tmux -2u"
+
 
 # Config Files
 alias vrc='v ~/dotfiles/nvim/init.vim'
@@ -55,10 +57,11 @@ alias javascript='cd ~/code/javascript'
 alias dow='cd ~/Downloads'
 alias vvim='cd ~/dotfiles/nvim'
 alias typescript='cd ~/code/typescript'
-alias not='cd ~/dotfiles/notes && f'
+alias not='cd ~/dotfiles/notes'
 alias react='cd ~/code/react'
 alias con='cd ~/.config'
 alias esp='cd ~/dotfiles/espanso'
+alias nots='v ~/dotfiles/notes/topics.md'
 
 # Linux
 uefi() {

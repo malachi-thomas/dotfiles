@@ -22,4 +22,6 @@ zstyle ':completion:*' list-colors $LS_COLORS
 zstyle ':completion:*' menu yes select
 zmodload zsh/complist
 _comp_options+=(globdots) # Include hidden files.
-# compinit
+
+# I don't know
+compinit -d "~/.config/zsh"

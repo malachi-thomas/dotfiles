@@ -130,111 +130,111 @@
 : 1602780576:0;v variables.zsh
 : 1602780711:0;..
 : 1602780721:0;v .zshenv
-echo $VENDOR
-cd dotfiles/zsh
-v variables.zsh
-so
-so
-v variables.zsh
-so
- la
-..
-..
-sa
-so
-la
-rm vimrc
-la
-so
-cd dotfiles/zsh
-la
-la
-so
-...
-v .zshenv
-la
-rm .z
-la
-vim
-pac vim
-la
-zsh
-lo
-la
-rm .zcompdump-malachi-5.8 .zcompdump.malachi.14450 .zcompdump
-la
-bin
-so
-la
-rm vimrc
-la
-..
-bin
-rma yay
-..
-..
-la
-la
-la
-v .zshenv
-vim
-la
-la
-v .ssr
-la
-ls -a | wc -l
-sh relink.sh
-la
-bin
-v relink.sh
-so
-so
-la
-..
-..
-la
-rm .tmux.conf .viminfo .z .zshrc vimrc
-la
-sh relink.sh
-la
-la
-to .zprofile
-la
-cp .zshenv .zprofile
-v .zprofile
-so
-so
-la
-echo $ZDOTDIR
-cd dotfiles/zsh
-v variables.zsh
-cd dotfiles/zsh
-v variables.zsh
-so
-cd
-v
-so
-la
-rm .z
-la
-so
-la
-so
-so
-bin
-cd
-cd dotfiles/zsh
-v aliases.zsh
-so
-so
-la
-so
-so
-so
-la
-la
-rm .z
-la
+: 1603181506:0;echo $VENDOR
+: 1603181506:0;cd dotfiles/zsh
+: 1603181506:0;v variables.zsh
+: 1603181506:0;so
+: 1603181506:0;so
+: 1603181506:0;v variables.zsh
+: 1603181506:0;so
+: 1603181506:0; la
+: 1603181506:0;..
+: 1603181506:0;..
+: 1603181506:0;sa
+: 1603181506:0;so
+: 1603181506:0;la
+: 1603181506:0;rm vimrc
+: 1603181506:0;la
+: 1603181506:0;so
+: 1603181506:0;cd dotfiles/zsh
+: 1603181506:0;la
+: 1603181506:0;la
+: 1603181506:0;so
+: 1603181506:0;...
+: 1603181506:0;v .zshenv
+: 1603181506:0;la
+: 1603181506:0;rm .z
+: 1603181506:0;la
+: 1603181506:0;vim
+: 1603181506:0;pac vim
+: 1603181506:0;la
+: 1603181506:0;zsh
+: 1603181506:0;lo
+: 1603181506:0;la
+: 1603181506:0;rm .zcompdump-malachi-5.8 .zcompdump.malachi.14450 .zcompdump
+: 1603181506:0;la
+: 1603181506:0;bin
+: 1603181506:0;so
+: 1603181506:0;la
+: 1603181506:0;rm vimrc
+: 1603181506:0;la
+: 1603181506:0;..
+: 1603181506:0;bin
+: 1603181506:0;rma yay
+: 1603181506:0;..
+: 1603181506:0;..
+: 1603181506:0;la
+: 1603181506:0;la
+: 1603181506:0;la
+: 1603181506:0;v .zshenv
+: 1603181506:0;vim
+: 1603181506:0;la
+: 1603181506:0;la
+: 1603181506:0;v .ssr
+: 1603181506:0;la
+: 1603181506:0;ls -a | wc -l
+: 1603181506:0;sh relink.sh
+: 1603181506:0;la
+: 1603181506:0;bin
+: 1603181506:0;v relink.sh
+: 1603181506:0;so
+: 1603181506:0;so
+: 1603181506:0;la
+: 1603181506:0;..
+: 1603181506:0;..
+: 1603181506:0;la
+: 1603181506:0;rm .tmux.conf .viminfo .z .zshrc vimrc
+: 1603181506:0;la
+: 1603181506:0;sh relink.sh
+: 1603181506:0;la
+: 1603181506:0;la
+: 1603181506:0;to .zprofile
+: 1603181506:0;la
+: 1603181506:0;cp .zshenv .zprofile
+: 1603181506:0;v .zprofile
+: 1603181506:0;so
+: 1603181506:0;so
+: 1603181506:0;la
+: 1603181506:0;echo $ZDOTDIR
+: 1603181506:0;cd dotfiles/zsh
+: 1603181506:0;v variables.zsh
+: 1603181506:0;cd dotfiles/zsh
+: 1603181506:0;v variables.zsh
+: 1603181506:0;so
+: 1603181506:0;cd
+: 1603181506:0;v
+: 1603181506:0;so
+: 1603181506:0;la
+: 1603181506:0;rm .z
+: 1603181506:0;la
+: 1603181506:0;so
+: 1603181506:0;la
+: 1603181506:0;so
+: 1603181506:0;so
+: 1603181506:0;bin
+: 1603181506:0;cd
+: 1603181506:0;cd dotfiles/zsh
+: 1603181506:0;v aliases.zsh
+: 1603181506:0;so
+: 1603181506:0;so
+: 1603181506:0;la
+: 1603181506:0;so
+: 1603181506:0;so
+: 1603181506:0;so
+: 1603181506:0;la
+: 1603181506:0;la
+: 1603181506:0;rm .z
+: 1603181506:0;la
 : 1602782691:0;ls -a | wc -l
 : 1602782730:0;echo $XAUTHORITY
 : 1602782733:0;la
@@ -286,7 +286,7 @@ la
 : 1602785274:0;la
 : 1602785279:0;v a.out
 : 1602785281:0;la
-la
+: 1603181506:0;la
 : 1602785315:0;mv .zshenv hello
 : 1602785317:0;la
 : 1602785443:0;la
@@ -305,39 +305,39 @@ la
 : 1602785612:0;v .zshenv
 : 1602785631:0;so
 : 1602785633:0;la
-v .zshenv
-so
-la
-la
-rm v
-la
-rm .zprofile
-la
-rm .xsession-errors.old
-la
-la
-dot
-commit "zsh updates"
-..
-la
-cd .config
-la
-..
-dot
-commit "zsh updates"
-bin
-v ssh.sh
-v ssh.sh
-git config --global user.email "thomasmalachi18@gmail"\
+: 1603181506:0;v .zshenv
+: 1603181506:0;so
+: 1603181506:0;la
+: 1603181506:0;la
+: 1603181506:0;rm v
+: 1603181506:0;la
+: 1603181506:0;rm .zprofile
+: 1603181506:0;la
+: 1603181506:0;rm .xsession-errors.old
+: 1603181506:0;la
+: 1603181506:0;la
+: 1603181506:0;dot
+: 1603181506:0;commit "zsh updates"
+: 1603181506:0;..
+: 1603181506:0;la
+: 1603181506:0;cd .config
+: 1603181506:0;la
+: 1603181506:0;..
+: 1603181506:0;dot
+: 1603181506:0;commit "zsh updates"
+: 1603181506:0;bin
+: 1603181506:0;v ssh.sh
+: 1603181506:0;v ssh.sh
+: 1603181506:0;git config --global user.email "thomasmalachi18@gmail"\
 git config --global user.name "banana_llarma"\
 
-dot
-commit "zsh updates"
-push
-sh music.sh
+: 1603181506:0;dot
+: 1603181506:0;commit "zsh updates"
+: 1603181506:0;push
+: 1603181506:0;sh music.sh
 : 1602790313:0;uefi
 : 1602790508:0;pac chrome
-pac google-chrome-dev
+: 1603181506:0;pac google-chrome-dev
 : 1602790964:0;bin
 : 1602790966:0;v startup.sh
 : 1602790988:0;sh startup.sh
@@ -1260,7 +1260,7 @@ echo -ne '\a'
 : 1602927295:0;beep
 : 1602927363:0;beep -f 300.7 -r 2 -d 100 -l 400
 : 1602927388:0;su
-chmod 4755 /usr/bin/beep
+: 1603181506:0;chmod 4755 /usr/bin/beep
 : 1602927395:0;beep
 : 1602927405:0;sudo modprobe pcspkr
 : 1602927407:0;beep
@@ -1488,7 +1488,7 @@ espeak "We are done with counting"\
 : 1602941779:0;mkdir /mnt/usbstick
 : 1602941782:0;sudo mkdir /mnt/usbstick
 : 1602941798:0;su
-mount /dev/sda /mnt/usbstick
+: 1603181506:0;mount /dev/sda /mnt/usbstick
 : 1602942265:0;cd /run/media/malachi/EFI
 : 1602942266:0;la
 : 1602942268:0;..
@@ -2096,3 +2096,1671 @@ make: *** [Makefile:584: keebio/iris/rev4:default] Error 1\
 : 1603090970:0;make keebio/iris/rev4:default
 : 1603091013:0;dot
 : 1603091019:0;commit "start" && push
+: 1603091033:0;uefi
+: 1603091832:0;avr-gcc --version
+: 1603091892:0;pac make
+: 1603091898:0;cd qmk_firmware
+: 1603091902:0;make keebio/iris/rev4:default
+: 1603091939:0;qmk compile -kb clueboard/66/rev3 -km default\
+
+: 1603091968:0;cd keyboards/keebio/iris
+: 1603091971:0;make keebio/iris/rev4:default
+: 1603091976:0;la
+: 1603091983:0;make rev4:default
+: 1603091992:0;..
+: 1603092004:0;cd iris
+: 1603092005:0;la
+: 1603092015:0;make ./rev4:default
+: 1603092022:0;...
+: 1603092022:0;..
+: 1603092028:0;make keebio/iris/rev4:default
+: 1603092042:0;qmk setup
+: 1603092068:0;sudo udevadm control --reload-rules\
+sudo udevadm trigger\
+
+: 1603092071:0;qmk setup
+: 1603092122:0;sudo dfu-programmer atmega32u4 erase --force\
+sudo dfu-programmer atmega32u4 flash your.hex\
+sudo dfu-programmer atmega32u4 reset\
+
+: 1603092125:0;la
+: 1603092129:0;pac dfu-
+: 1603092155:0;qmk setup
+: 1603092162:0;cd qmk_firmware
+: 1603092172:0;cd keyboards/keebio/iris
+: 1603092175:0;...
+: 1603092176:0;..
+: 1603092178:0;make keebio/iris/rev4:default
+: 1603093387:0;uefi
+: 1603093876:0;make keebio/iris/rev4:default
+: 1603093883:0;cd qmk_firmware
+: 1603093884:0;make keebio/iris/rev4:default
+: 1603093957:0;qmk setup
+: 1603094556:0;espanso edit 
+: 1603095856:0;sudo make keebio/iris/rev4:default
+: 1603096328:0;qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603096404:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603096448:0;qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603096503:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603096757:0;python3 -m pip install --user qmk
+: 1603096761:0;yay qmk
+: 1603096787:0;qmk compile -kb clueboard/66/rev3 -km default\
+
+: 1603096805:0;la
+: 1603096822:0;cd quantum
+: 1603096823:0;la
+: 1603096829:0;v config_common.h
+: 1603096909:0;la
+: 1603096913:0;qmk compile -kb clueboard/66/rev3 -km default\
+
+: 1603096964:0;qmk compile\
+
+: 1603096965:0;cd
+: 1603096966:0;qmk compile\
+
+: 1603097004:0;cd qmk_firmware
+: 1603097035:0;la
+: 1603097039:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603097055:0;cd keyboards/keebio/iris
+: 1603097055:0;la
+: 1603097064:0;v iris.c
+: 1603097072:0;v iris.h
+: 1603097080:0;so
+: 1603097082:0;...
+: 1603097083:0;..
+: 1603097088:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603097118:0;cd keyboards/keebio/iris
+: 1603097119:0;la
+: 1603097128:0;v iris.h
+: 1603097136:0;...
+: 1603097137:0;..
+: 1603097141:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603097144:0;cd
+: 1603097149:0;rma qmk_firmware
+: 1603097160:0;qmk setup
+: 1603097816:0;sudo udevadm control --reload-rules\
+sudo udevadm trigger\
+
+: 1603097862:0;sudo dfu-programmer atmega32u4 erase --force\
+sudo dfu-programmer atmega32u4 flash your.hex\
+sudo dfu-programmer atmega32u4 reset\
+
+: 1603097881:0;sudo pacman -S git python python-pip python-setuptools libffi
+: 1603097886:0;qmk
+: 1603097908:0;qmk new-keymap
+: 1603097938:0;qmk compile -kb keebio/iris/rev4 -km malachi
+: 1603098018:0;cd qm
+: 1603098021:0;cd qmk
+: 1603098022:0;la
+: 1603098026:0;cd qmk_firmware
+: 1603098026:0;la
+: 1603098040:0;cd keyboards/keebio/iris
+: 1603098041:0;la
+: 1603098043:0;cd keymaps
+: 1603098044:0;la
+: 1603098047:0;cd malachi
+: 1603098048:0;la
+: 1603098110:0;qmk compile -kb clueboard/66/rev3 -km default\
+
+: 1603098131:0;..
+: 1603098145:0;qmk flash -kb clueboard/66/rev3 -km default\
+
+: 1603098149:0;sudo qmk flash -kb clueboard/66/rev3 -km default\
+
+: 1603098176:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603098199:0;v keyboards/keebio/iris/config.h 
+: 1603098211:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603098227:0;v keyboards/keebio/iris/rev4/rev4.h 
+: 1603098234:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603098249:0;v keyboards/keebio/iris/iris.h 
+: 1603098254:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603098287:0;v tmk_core/common/eeconfig.h 
+: 1603098295:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603098315:0;sudo qmk flash -kb clueboard/66/rev3 -km default\
+
+: 1603098332:0;v keyboards/xd60/rev3/config.h 
+: 1603098388:0;cd qmk_firmware
+: 1603098391:0;la
+: 1603098400:0;sudo qmk flash -kb clueboard/66/rev3 -km default\
+
+: 1603098476:0;v quantum/config_common.h 
+: 1603098493:0;pac arv
+: 1603098501:0;v quantum/config_common.h 
+: 1603098512:0;sudo qmk flash -kb clueboard/66/rev3 -km default\
+
+: 1603098671:0;cp -rf ~/dotfiles/qmk/iris-keyboard/* ~/qmk_firmware/keyboards/keebio/iris/keymaps/malachi
+: 1603098691:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
+
+: 1603098701:0;cd
+: 1603098706:0;rma qmk_firmware
+: 1603098714:0;qmk setup
+: 1603099985:0;qmk new-keymap
+: 1603100003:0;cd qmk_firmware
+: 1603100047:0;ln -f ~/dotfiles/qmk/iris-keyboard/* ~/qmk_firmware/keyboards/keebio/iris/keymaps/malachi
+: 1603100054:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
+
+: 1603100074:0;la
+: 1603100081:0;qmk compile -kb clueboard/66/rev3 -km default\
+
+: 1603100087:0;sudo qmk compile -kb clueboard/66/rev3 -km default\
+
+: 1603100106:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100113:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603100124:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
+
+: 1603100129:0;qmk flash -kb keebio/iris/rev4 -km malachi\
+
+: 1603100142:0;qmk compile -kb keebio/iris/rev4 -km malachi\
+
+: 1603100164:0;qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100181:0;make keebio/iris/rev4:default
+: 1603100185:0;cd qmk_firmware
+: 1603100186:0;make keebio/iris/rev4:default
+: 1603100290:0;sudo make keebio/iris/rev4:default
+: 1603100300:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100308:0;qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100311:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100412:0;pac avr-libc gcc-avr
+: 1603100422:0;yay avr
+: 1603100454:0;qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100458:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100469:0;yay avr
+: 1603100506:0;la
+: 1603100515:0;sudo qmk compile -kb keebio/iris/rev4 -km malachi\
+
+: 1603100585:0;cd dotfiles/qmk/iris-keyboard
+: 1603100587:0;v keymap.c
+: 1603100644:0;la
+: 1603100655:0;yay avr
+: 1603100682:0;pacr arduino-avr-core
+: 1603100689:0;qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100693:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100698:0;sudo qmk compile -kb keebio/iris/rev4 -km malachi\
+
+: 1603100703:0;qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100710:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100725:0;yay avr
+: 1603100735:0;pacr avr
+: 1603100741:0;pacr avr-binutils
+: 1603100744:0;pac arduino-avr-core
+: 1603100752:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100763:0;qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100810:0;pac arduino-avr-core
+: 1603100826:0;pac avr
+: 1603100855:0;pac arduino-avr-core
+: 1603100864:0;qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603100866:0;la
+: 1603101285:0;pac qmk
+: 1603101291:0;qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603101295:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603101300:0;cd qmk_firmware
+: 1603101302:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603101321:0;la
+: 1603101332:0;pac avr
+: 1603101350:0;pacr avr-binutils
+: 1603101360:0;la
+: 1603101364:0;pac qmk
+: 1603101384:0;downgrade avr-gcc
+: 1603101394:0;pac qmk
+: 1603101404:0;qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603101408:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603101416:0;pac avr
+: 1603101428:0;qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603101432:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
+
+: 1603101514:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603101642:0;pac avr
+: 1603101690:0;la
+: 1603101708:0;cd
+: 1603101727:0;cd dotfiles/qmk/iris-keyboard
+: 1603101728:0;la
+: 1603101731:0;v keymap.c
+: 1603109735:0;v rules.mk
+: 1603109750:0;la
+: 1603109811:0;cd qmk_firmware
+: 1603109826:0;qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603110074:0;v keymap.c
+: 1603110154:0;ssssss
+: 1603110156:0;qmk flash -kb keebio/iris/rev4 -km default\
+
+: 1603110205:0;v keyboards/keebio/iris/keymaps/malachi/keymap.c 
+: 1603110220:0;qmk flash -kb keebio/iris/rev4 -km malachi\
+
+: 1603110339:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
+
+: 1603111216:0;la
+: 1603114395:0;dow
+: 1603114396:0;la
+: 1603114400:0;ranger
+: 1603114433:0;dow
+: 1603114434:0;la
+: 1603114436:0;rm keyboard-layout.svg
+: 1603114544:0;la
+: 1603114566:0;mv *.jpg ~/the-keyboard-project
+: 1603114572:0;mv *.json ~/the-keyboard-project
+: 1603114573:0;cd
+: 1603114575:0;cd the-keyboard-project
+: 1603114576:0;la
+: 1603114604:0;mv keyboard-layout.json normal-layout.json
+: 1603114615:0;mv keyboard-layout.jpg normal-layout.jpg
+: 1603114629:0;mv keyboard-layout\ \(1\).jpg custom-layout.jpg
+: 1603114645:0;mv keyboard-layout\ \(1\).json custom-layout.json
+: 1603114646:0;la
+: 1603114661:0;mv keyboard-layout\ \(2\).jpg custom-layout-layer-two.jpg
+: 1603114674:0;mv keyboard-layout\ \(2\).json custom-layout-layer-two
+: 1603114675:0;la
+: 1603114686:0;mv keyboard-layout\ \(3\).jpg game-layout.jpg
+: 1603114696:0;mv keyboard-layout\ \(3\).json game-layout.json
+: 1603114697:0;l
+: 1603114698:0;la
+: 1603114706:0;mv *.json layout
+: 1603114715:0;mv *.jpg layout
+: 1603114718:0;cd layout
+: 1603114719:0;la
+: 1603114746:0;rm *layout.*
+: 1603114747:0;la
+: 1603114764:0;..
+: 1603114767:0;cd layout
+: 1603114767:0;la
+: 1603114773:0;rm custom-layout-layer-two.jpg
+: 1603114773:0;la
+: 1603114781:0;file
+: 1603114945:0;dow
+: 1603114958:0;mv keyboard-layout\ \(1\).jpg custom-layout.jpg
+: 1603114966:0;mv keyboard-layout\ \(1\).json custom-layout.json
+: 1603114973:0;mv keyboard-layout\ \(2\).jpg custom-layout-layer-two.jpg
+: 1603114978:0;mv keyboard-layout\ \(2\).json custom-layout-layer-two
+: 1603114980:0;la
+: 1603115000:0;mv custom-layout-layer-two custom-layout-layer-two.json
+: 1603115000:0;la
+: 1603115010:0;mv keyboard-layout\ \(3\).jpg game-layout.jpg
+: 1603115014:0;mv keyboard-layout\ \(3\).json game-layout.json
+: 1603115024:0;mv cp *.json ~/the-keyboard-project
+: 1603115027:0;la
+: 1603115033:0;cp *.json ~/the-keyboard-project
+: 1603115041:0;la
+: 1603115067:0;cd the-keyboard-project
+: 1603115068:0;la
+: 1603115087:0;mv custom-layout-layer-two custom-layout-layer-two.json 
+: 1603115088:0;la
+: 1603115112:0;mv keyboard-layout.jpg normal-layout.jpg
+: 1603115128:0;mv keyboard-layout.json normal-layout.json
+: 1603115129:0;la
+: 1603115141:0;cp *.json ~/Downloads
+: 1603115142:0;la
+: 1603115152:0;cp *.jpg ~/the-keyboard-project
+: 1603115153:0;la
+: 1603115156:0;la
+: 1603115164:0;mv *.jpg layout
+: 1603115165:0;la
+: 1603115171:0;mv *.json layout
+: 1603115172:0;la
+: 1603115174:0;cd layout
+: 1603115175:0;la
+: 1603115276:0;..
+: 1603115281:0;mv the-keyboard-project hats
+: 1603115291:0;clone git@github.com:banana-llarma/the-keyborard-project.git
+: 1603115303:0;cd hats
+: 1603115311:0;cp -r * ~/the-keyborard-project
+: 1603115312:0;pp
+: 1603115313:0;cd
+: 1603115318:0;cd the-keyboard-project
+: 1603115318:0;la
+: 1603115321:0;cd the-keyboard-project
+: 1603115324:0;la
+: 1603115328:0;cd the-keyborard-project
+: 1603115329:0;la
+: 1603115362:0;cd
+: 1603115365:0;clone git@github.com:banana-llarma/the-keyboard-project.git
+: 1603115368:0;la
+: 1603115374:0;cd hats
+: 1603115384:0;cp -r * ~/the-keyboard-project
+: 1603115385:0;..
+: 1603115390:0;rma the-keyborard-project
+: 1603115394:0;cd the-keyboard-project
+: 1603115395:0;la
+: 1603115399:0;commit "start" && push
+: 1603115489:0;v README.md
+: 1603115670:0;commit "start" && push
+: 1603115910:0;mv keyboard-layout.jpg custom-layout.jpg
+: 1603115923:0;ranger
+: 1603115934:0;mv custom-layout.jpg ~/the-keyboard-project/layout
+: 1603115998:0;mv keyboard-layout.jpg ~/the-keyboard-project/layout/custom-layout-layer-two.jpg
+: 1603117242:0;la
+: 1603117277:0;rm *.jpg| rm *.json
+: 1603117278:0;la
+: 1603117347:0;cd
+: 1603117352:0;cd dotfiles/qmk
+: 1603117354:0;cd iris-keyboard
+: 1603117354:0;la
+: 1603117357:0;v keymap.c
+: 1603117363:0;cd
+: 1603117365:0;cd qmk_firmware
+: 1603117366:0;la
+: 1603119719:0;qmk flash -kb keebio/iris/rev4 -km malachi\
+
+: 1603119723:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
+
+: 1603120397:0;la
+: 1603120421:0;v keymap.c
+: 1603127478:0;not
+: 1603127481:0;la
+: 1603127483:0;cd .obsidian
+: 1603127487:0;cd
+: 1603127490:0;zsh
+: 1603127574:0;so
+: 1603127576:0;not
+: 1603127616:0;rma .obsidian
+: 1603127618:0;la
+: 1603127628:0;v topics.md
+: 1603127632:0;vrc
+: 1603127638:0;zsh
+: 1603127694:0;so
+: 1603127697:0;nots
+: 1603127792:0;la
+: 1603127805:0;cd
+: 1603127808:0;nots
+: 1603127986:0;vpr
+: 1603127988:0;vpc
+: 1603128559:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
+
+: 1603141136:0;df -h
+: 1603141237:0;ranger
+: 1603144002:0;betterlockscreen -s
+: 1603180884:0;vpl
+: 1603180902:0;vpc
+: 1603181038:0;vpl
+: 1603181454:0;cd
+: 1603181461:0;la
+: 1603181542:0;a
+: 1603181543:0;la
+: 1603181571:0;vim
+: 1603181578:0;la
+: 1603181587:0;v .vimrc
+: 1603181594:0;vim
+: 1603181620:0;vim .vimrc
+: 1603181645:0;la
+: 1603181650:0;v .vimrc
+: 1603181659:0;vim
+: 1603181731:0;vim
+: 1603181736:0;la
+: 1603181745:0;vim la
+: 1603181749:0;la
+: 1603181756:0;vma
+: 1603181766:0;sh relink.sh
+: 1603181768:0;vim
+: 1603181770:0;v .vimrc
+: 1603181772:0;la
+: 1603181778:0;dot
+: 1603181785:0;vvim 
+: 1603181790:0;v init.vim
+: 1603181793:0;nvim UltiSnips
+: 1603181799:0;nvim init.vim
+: 1603181807:0;vim init.vim
+: 1603181814:0;v init.vim
+: 1603181820:0;la
+: 1603181822:0;v init.vim
+: 1603181861:0;la
+: 1603182080:0;dot
+: 1603182082:0;cd alacritty
+: 1603182084:0;v alacritty.yml
+: 1603182112:0;la
+: 1603182113:0;v alacritty.yml
+: 1603182131:0;la
+: 1603183999:0;cd
+: 1603184007:0;cd code/react/mental-maths/src/components/Nav
+: 1603184012:0;v index.js
+: 1603184021:0;vrc
+: 1603184037:0;...
+: 1603184038:0;la
+: 1603184040:0;..
+: 1603184042:0;la
+: 1603184090:0;cd learning-react
+: 1603184090:0;la
+: 1603184094:0;cd src
+: 1603184099:0;npm start 
+: 1603186995:0;node -v
+: 1603188819:0;la
+: 1603188834:0;v constants.js
+: 1603188841:0;vrc
+: 1603188868:0;vpc
+: 1603188877:0;vrc
+: 1603188903:0;ala
+: 1603188938:0;la
+: 1603190309:0;sxh
+: 1603190364:0;pkill sxhkd
+: 1603190366:0;sxhkd
+: 1603190402:0;zxh
+: 1603190405:0;sxh
+: 1603190446:0;zsh
+: 1603190473:0;pkill sxhkd
+: 1603190479:0;sxhkd
+: 1603192352:0;la
+: 1603192356:0;mk shows
+: 1603192358:0;cd shows
+: 1603192359:0;la
+: 1603192364:0;mk misfits
+: 1603192366:0;cd misfits
+: 1603192369:0;..
+: 1603192374:0;mk trading
+: 1603192380:0;rma trading
+: 1603192382:0;..
+: 1603192389:0;mv trading shows
+: 1603192391:0;cd shows
+: 1603192392:0;la
+: 1603192395:0;cd misfits
+: 1603192401:0;mk season-two
+: 1603192401:0;la
+: 1603192518:0;cd
+: 1603192519:0;dow
+: 1603192520:0;la
+: 1603192535:0;mv *.mp4 ~/shows/misfits/season-two
+: 1603192536:0;la
+: 1603193845:0;mv *.mp4 ~/shows/misfits/season-two
+: 1603193845:0;cd
+: 1603193851:0;cd shows/misfits/season-two
+: 1603193855:0;ranger
+: 1603199555:0;..
+: 1603199560:0;mk season-three
+: 1603199562:0;dow
+: 1603199572:0;mv *.mp4 ~/shows/misfits/season-three
+: 1603199574:0;cd
+: 1603199578:0;cd shows/misfits/season-three
+: 1603199578:0;la
+: 1603199581:0;ranger
+: 1603200196:0;dow
+: 1603200197:0;la
+: 1603200201:0;mv *.mp4 ~/shows/misfits/season-three
+: 1603200237:0;ranger
+: 1603203913:0;la
+: 1603203916:0;mv *.mp4 ~/shows/misfits/season-three
+: 1603203917:0;cd
+: 1603203920:0;cd shows/misfits/season-three
+: 1603203920:0;la
+: 1603203926:0;rm EP.2.720p\ \(1\).mp4
+: 1603203926:0;la
+: 1603203930:0;rm EP.4.480p\ \(1\).mp4
+: 1603203931:0;la
+: 1603203939:0;ranger
+: 1603204577:0;vpc
+: 1603205028:0;la
+: 1603205382:0;espanso edit spelling
+: 1603209229:0;ranger
+: 1603209238:0;rm EP.1.720p.mp4 EP.2.720p.mp4 EP.3.720p.mp4 
+: 1603209239:0;la
+: 1603210355:0;cd
+: 1603210356:0;la
+: 1603210365:0;rma pomodoro-cli
+: 1603210367:0;la
+: 1603210543:0;react
+: 1603210547:0;v index.js
+: 1603210568:0;vpc
+: 1603210604:0;v index.js
+: 1603210648:0;vpc
+: 1603210684:0;v index.js
+: 1603210809:0;lrc
+: 1603210839:0;v index.js
+: 1603210877:0;vrc
+: 1603210882:0;v index.js
+: 1603211175:0;vrc
+: 1603211184:0;v index.js
+: 1603211195:0;vpc
+: 1603211208:0;vrc
+: 1603211217:0;v index.js
+: 1603211222:0;vrc
+: 1603211266:0;v index.js
+: 1603211373:0;vrc
+: 1603211393:0;v index.js
+: 1603211412:0;lrc
+: 1603211421:0;vrc
+: 1603211428:0;v index.js
+: 1603211438:0;vrc
+: 1603211552:0;v index.js
+: 1603211566:0;vpc
+: 1603211600:0;v index.js
+: 1603211612:0;la
+: 1603211628:0;v index.js
+: 1603211666:0;vrc
+: 1603211692:0;v index.js
+: 1603211936:0;vpc
+: 1603211937:0;vrc
+: 1603212043:0;v index.js
+: 1603212049:0;vrc
+: 1603212073:0;v index.js
+: 1603212091:0;vrc
+: 1603212115:0;v index.js
+: 1603212148:0;vrc
+: 1603212173:0;v index.js
+: 1603212192:0;vrc
+: 1603212310:0;npm install -g typescript-language-server\
+
+: 1603212316:0;v index.js
+: 1603212321:0;vrc
+: 1603212336:0;v index.js
+: 1603212349:0;vrc
+: 1603212385:0;v index.js
+: 1603212403:0;vrc
+: 1603212475:0;vpl
+: 1603212505:0;v index.js
+: 1603212524:0;vpl
+: 1603212572:0;vpc
+: 1603212649:0;v index.js
+: 1603212735:0;vpc
+: 1603212742:0;v index.js
+: 1603212748:0;lrc
+: 1603212827:0;v index.js
+: 1603212831:0;react
+: 1603212834:0;react && cd learning-react/src
+: 1603212836:0;v constants.js
+: 1603212852:0;cd
+: 1603212859:0;cd ~/.config/nvim/plugged
+: 1603212861:0;rma *
+: 1603212867:0;la
+: 1603212870:0;nvim
+: 1603212986:0;v
+: 1603213132:0;vpc
+: 1603213183:0;vpl
+: 1603213213:0;v constants.js
+: 1603213217:0;v 
+: 1603213222:0;vpl
+: 1603213229:0;vpc
+: 1603213257:0;lrc
+: 1603213278:0;vrc
+: 1603213306:0;vvim
+: 1603213308:0;v init.vim
+: 1603213333:0;v mappings.vim
+: 1603213372:0;vrc
+: 1603213417:0;vpl
+: 1603213428:0;vrc
+: 1603213447:0;[
+: 1603213448:0;vrc
+: 1603213500:0;vpc
+: 1603213628:0;vrc
+: 1603220485:0;cd
+: 1603220487:0;v test.js
+: 1603220495:0;la
+: 1603220505:0;update
+: 1603220624:0;v test.js
+: 1603220679:0;vpl
+: 1603220956:0;v test.js
+: 1603220985:0;vrc
+: 1603221019:0;v test.js
+: 1603221027:0;v
+: 1603221030:0;vpc
+: 1603221056:0;v test.js
+: 1603221066:0;v
+: 1603221084:0;pacr tsserver
+: 1603221097:0;pacr typescript-language-server
+: 1603221100:0;pac typescript-language-server
+: 1603221131:0;v test.js
+: 1603221165:0;la
+: 1603221170:0;vrc
+: 1603221290:0;la
+: 1603221299:0;ls -a | wc -l
+: 1603221301:0;v test.js
+: 1603221322:0;vrc
+: 1603221871:0;sh relink.sh
+: 1603221874:0;v test.js
+: 1603221904:0;vrc
+: 1603221986:0;v test.js
+: 1603222081:0;lrc
+: 1603222209:0;npm i -g typescript-language-server; npm i -g typescript\
+\
+
+: 1603222298:0;lrc
+: 1603222460:0;vrc
+: 1603222473:0;v test.js
+: 1603222495:0;vrc
+: 1603222515:0;lrc
+: 1603222617:0;vpc
+: 1603222620:0;vrc
+: 1603222626:0;lrc
+: 1603222829:0;vrc
+: 1603222853:0;lrc
+: 1603223285:0;cd shows/misfits/season-three
+: 1603223285:0;la
+: 1603223292:0;ranger
+: 1603224692:0;dow
+: 1603224694:0;ranger
+: 1603225055:0;cd shows/misfits/season-three
+: 1603225056:0;la
+: 1603226722:0;npm install -g typescript-language-server\
+
+: 1603226791:0;nvim
+: 1603226806:0;cd
+: 1603226808:0;v test.js
+: 1603226824:0;pac typescript-language-server
+: 1603227066:0;vpc
+: 1603227069:0;lrc
+: 1603227342:0;cd .cache/nvim/nvim_lsp
+: 1603227343:0;la
+: 1603227346:0;rma *
+: 1603227351:0;nvim
+: 1603227353:0;vrc
+: 1603227394:0;npm install -g typescript-language-server\
+
+: 1603227407:0;cdf
+: 1603227407:0;cd
+: 1603227409:0;v test.js
+: 1603229065:0;betterlockscreen -s
+: 1603260446:0;nvim
+: 1603260474:0;npm uninstall tsserver
+: 1603260478:0;nvim
+: 1603260496:0;npm uninstall  typescript-language-server\
+
+: 1603260504:0;npm uninstall  -g typescript-language-server\
+
+: 1603260508:0;v
+: 1603260521:0;v test.js
+: 1603260541:0;npm i -g typescript-language-server; npm i -g typescript\
+\
+
+: 1603260552:0;v
+: 1603260598:0;cd .cache/nvim/nvim_lsp
+: 1603260615:0;la
+: 1603260634:0;nvim
+: 1603260779:0;pac typescript-language-server 
+: 1603260795:0;pacr typescript-language-server
+: 1603260799:0;pacr typescript-language-server-bin
+: 1603260810:0;pacr typescript
+: 1603260813:0;v 
+: 1603260829:0;la
+: 1603260830:0;..
+: 1603260832:0;...
+: 1603260835:0;v test.js
+: 1603260877:0;npm install -g typescript-language-server\
+
+: 1603260881:0;v test.js
+: 1603260973:0;V
+: 1603260977:0;v
+: 1603261032:0;lrc
+: 1603261104:0;v test.js
+: 1603261164:0;lrc
+: 1603261175:0;v test.js
+: 1603261198:0;npm i -g typescript-language-server; npm i -g typescript\
+\
+
+: 1603261207:0;npm i -g javascript
+: 1603261210:0;v test.js
+: 1603261220:0;npm i -g tsserver
+: 1603261224:0;v test.js
+: 1603261245:0;vpc
+: 1603261365:0;cd code
+: 1603261370:0;mk javascript python
+: 1603261371:0;la
+: 1603261373:0;v javascript
+: 1603261376:0;cd javascript
+: 1603261384:0;npm init
+: 1603261390:0;v test.js
+: 1603261394:0;..
+: 1603261398:0;react && cd learning-react/src
+: 1603261399:0;v constants.js
+: 1603261440:0;update
+: 1603261532:0;v index.js
+: 1603261609:0;nvim
+: 1603261613:0;v index.js
+: 1603261717:0;nvim
+: 1603261832:0;pip install python-language-server
+: 1603261842:0;nvim
+: 1603261907:0;v index.js
+: 1603261917:0;vpl
+: 1603261924:0;v index.js
+: 1603261929:0;vpl
+: 1603262258:0;v Pages
+: 1603262261:0;v constants.js
+: 1603262272:0;v index.js
+: 1603262496:0;vma
+: 1603263992:0;la
+: 1603263995:0;v constants.js
+: 1603264006:0;v index.js
+: 1603264102:0;la
+: 1603264419:0;vpl
+: 1603264467:0;vrc
+: 1603264655:0;v test.js
+: 1603264687:0;v
+: 1603264762:0;vma
+: 1603265329:0;vpl
+: 1603265376:0;v constants.js
+: 1603265458:0;vpl
+: 1603265474:0;vma
+: 1603265534:0;v constants.js
+: 1603266591:0;v test.js
+: 1603266610:0;vrc
+: 1603266626:0;v test.js
+: 1603266944:0;lrc
+: 1603266995:0;vrc
+: 1603267006:0;v test.js
+: 1603267014:0;update
+: 1603267047:0;npm update
+: 1603267050:0;npm update -g
+: 1603267068:0;react && cd learning-react/src
+: 1603267070:0;v index.js
+: 1603267217:0;v thest.md
+: 1603267239:0;v index.js
+: 1603267271:0;la
+: 1603267276:0;rm thest.md
+: 1603267277:0;la
+: 1603267301:0;cd
+: 1603267304:0;vrc
+: 1603267336:0;v thest.md
+: 1603267359:0;vpl
+: 1603267400:0;v thest.md
+: 1603267429:0;vrc
+: 1603267476:0;v test.js
+: 1603267602:0;vpl
+: 1603267641:0;v test.js
+: 1603267739:0;lrc
+: 1603268148:0;v constants.js
+: 1603268159:0;la
+: 1603268177:0;rm test.js thest.md
+: 1603268179:0;la
+: 1603268201:0;rm package-lock.json
+: 1603268202:0;la
+: 1603268214:0;rma the-keyboard-project
+: 1603268216:0;la
+: 1603268255:0;react && cd learning-react/src
+: 1603268257:0;v index.js
+: 1603268285:0;la
+: 1603268321:0;v components/Nav/index.js
+: 1603268341:0;la
+: 1603268356:0;vrc
+: 1603268410:0;vpl
+: 1603268425:0;nvim --startuptime vim.vim vim.vim
+: 1603268437:0;rm vim.vim
+: 1603268438:0;la
+: 1603268440:0;v index.js
+: 1603268835:0;la
+: 1603268858:0;v index.js
+: 1603268905:0;v constants.js
+: 1603268910:0;v index.js
+: 1603268922:0;vma
+: 1603268952:0;v index.js
+: 1603268978:0;vma
+: 1603268988:0;v index.js
+: 1603269131:0;la
+: 1603269144:0;not
+: 1603269149:0;v topics.md
+: 1603269917:0;...
+: 1603269918:0;la
+: 1603269927:0;mk testing-node
+: 1603269930:0;cd testing-node
+: 1603269933:0;npm init
+: 1603269938:0;la
+: 1603269947:0;to index.js
+: 1603269949:0;v index.js
+: 1603270614:0;npm i express
+: 1603270626:0;npm i nodemon
+: 1603270645:0;v index.js
+: 1603270689:0;v package.json
+: 1603270714:0;npm start
+: 1603270722:0;v index.js
+: 1603271005:0;npm start
+: 1603271039:0;v index.js
+: 1603271338:0;node -v
+: 1603271620:0;v index.js
+: 1603271919:0;update
+: 1603272126:0;downgrade neovim-nightly
+: 1603272131:0;downgrade neovim
+: 1603272758:0;v index.js
+: 1603273731:0;cod
+: 1603273733:0;code
+: 1603273739:0;cd react/testing-node
+: 1603273743:0;node index.js
+: 1603274146:0;v javascript/promises.md 
+: 1603275285:0;update
+: 1603283824:0;vrc
+: 1603283828:0;v test.js
+: 1603283836:0;update
+: 1603283873:0;pac neovim-
+: 1603283884:0;pac neovim-nig
+: 1603284209:0;v test.js
+: 1603284216:0;v
+: 1603284258:0;v test.js
+: 1603284313:0;vrc
+: 1603284331:0;v test.js
+: 1603284350:0;pac typescript-language-server 
+: 1603284370:0;v test.js
+: 1603284545:0;npm i -g tsserver
+: 1603284620:0;npm i -g typescript-language-server; npm i -g typescript\
+\
+
+: 1603284696:0;v 
+: 1603284704:0;v test.js
+: 1603284812:0;v test.jsx
+: 1603284824:0;vpl
+: 1603289422:0;cd react/testing-node
+: 1603289422:0;la
+: 1603289463:0;cd code/react/testing-node
+: 1603289464:0;la
+: 1603289479:0;npm i nodemon
+: 1603289518:0;npm i -g nodemon
+: 1603289531:0;nodemon index.js
+: 1603289535:0;la
+: 1603289537:0;v package.json
+: 1603289550:0;zsh
+: 1603289565:0;la
+: 1603289615:0;cd node_modules/nodemon/bin
+: 1603289616:0;la
+: 1603289618:0;..
+: 1603289754:0;npm start
+: 1603289765:0;v package.json
+: 1603289773:0;nodemon index.js
+: 1603289784:0;v index.js
+: 1603290661:0;pac mangodb
+: 1603290665:0;pac mango
+: 1603300300:0;la
+: 1603300405:0;v index.js
+: 1603302380:0;cd code/react/testing-node
+: 1603302384:0;npm start
+: 1603302923:0;screenkey
+: 1603303301:0;la
+: 1603303308:0;v index.html
+: 1603303332:0;v index.js
+: 1603304205:0;npm uninstall nodemon
+: 1603304211:0;npm start
+: 1603304215:0;node index.html
+: 1603304220:0;node index.js
+: 1603304232:0;npm i nodemon
+: 1603304244:0;la
+: 1603304247:0;npm start
+: 1603304261:0;v index.html
+: 1603304281:0;v index.js
+: 1603304291:0;v index.html
+: 1603304317:0;..
+: 1603304320:0;cd learning-react
+: 1603304322:0;la
+: 1603304327:0;cd src
+: 1603304333:0;to server.js
+: 1603304333:0;la
+: 1603304338:0;rm constants.js
+: 1603304338:0;la
+: 1603304341:0;v server.js
+: 1603304362:0;cp ~/code/react/testing-node/index.js server.js
+: 1603304365:0;v server.js
+: 1603304414:0;node server.js
+: 1603304424:0;v  server.js
+: 1603304457:0;node server.js
+: 1603304730:0;..
+: 1603304740:0;cd testing-node
+: 1603304747:0;la
+: 1603304750:0;v index.js
+: 1603305084:0;v index.html
+: 1603305094:0;v index.js
+: 1603305103:0;rm html
+: 1603305105:0;v index.html
+: 1603305108:0;v index.js
+: 1603353341:0;v test.js
+: 1603353356:0;cd code/react/testing-node
+: 1603353358:0;v index.js
+: 1603353366:0;la
+: 1603353370:0;v test.js
+: 1603353385:0;vrc
+: 1603353394:0;v test.js
+: 1603353415:0;vrc
+: 1603353437:0;la
+: 1603353439:0;v index.js
+: 1603353442:0;cd
+: 1603353445:0;v test.js
+: 1603353457:0;rm test.js thest.md
+: 1603353460:0;cd code
+: 1603353462:0;v test.js
+: 1603353469:0;npm init
+: 1603353475:0;v test.js
+: 1603353479:0;la
+: 1603353486:0;rma test.js package.json
+: 1603353491:0;la
+: 1603353496:0;cd react
+: 1603353501:0;mv testing-node ../
+: 1603353502:0;la
+: 1603353503:0;..
+: 1603353504:0;la
+: 1603353511:0;mk testing
+: 1603353518:0;la
+: 1603353520:0;rma testing
+: 1603353522:0;la
+: 1603353534:0;cd testing-node
+: 1603353535:0;la
+: 1603353553:0;cat *
+: 1603353557:0;cat *.js
+: 1603353562:0;la
+: 1603353564:0;cat index.js
+: 1603353570:0;cat index.html
+: 1603353575:0;cat test.js
+: 1603353579:0;rm test.js
+: 1603353580:0;la
+: 1603353585:0;v index.js
+: 1603355945:0;pac redshift
+: 1603355952:0;biv
+: 1603355955:0;bin
+: 1603355957:0;v install.sh
+: 1603355992:0;redshift -l 51.5:0 -t 5400:5400 &\
+
+: 1603356210:0;redshift -l 51.50853 -0.12574 -t 5400:5400 &\
+
+: 1603356223:0;redshift -l 51.50853:-0.12574 -t 5400:5400 &\
+
+: 1603356274:0;redshift -l 51.5:0 -t 5400:5400 &\
+
+: 1603356353:0;redshift -l 51.5:0\
+
+: 1603356405:0;irc
+: 1603356537:0;redshift -l 51.5:0 -t 6000:4000\
+
+: 1603356547:0;pkill redshift
+: 1603356551:0;redshift -l 51.5:0 -t 6000:4000\
+
+: 1603356563:0;redshift -l 51.5:0 -t 4000:4000\
+
+: 1603356578:0;redshift -l 51.5:0 -t 3000:4000\
+
+: 1603356591:0;redshift -l 51.5:0 -t 2500:4000\
+
+: 1603356610:0;redshift -l 51.5:0 -t 5000:2500\
+
+: 1603356621:0;redshift -l 51.5:0 -t 5500:2500\
+
+: 1603356662:0;irc
+: 1603356814:0;la
+: 1603356820:0;rm test.jsx
+: 1603356821:0;la
+: 1603356830:0;lrc
+: 1603356952:0;code
+: 1603356954:0;la
+: 1603356964:0;mk python
+: 1603356968:0;cd python
+: 1603356969:0;la
+: 1603356973:0;v test.py
+: 1603357068:0;react
+: 1603357069:0;la
+: 1603357069:0;..
+: 1603357072:0;la
+: 1603358529:0;cd javascript
+: 1603358530:0;la
+: 1603358532:0;v test.js
+: 1603358536:0;rm package.json
+: 1603358537:0;v test.js
+: 1603358540:0;la
+: 1603358579:0;npm init -y
+: 1603358582:0;v test.js
+: 1603358600:0;vma
+: 1603358699:0;v test.js
+: 1603358712:0;..
+: 1603358715:0;cd testing-node
+: 1603358717:0;v index.js
+: 1603358747:0;vma
+: 1603359500:0;vrc
+: 1603359536:0;la
+: 1603359824:0;mv index.js server.js
+: 1603359826:0;v server.js
+: 1603359953:0;la
+: 1603362444:0;cd code/testing-node
+: 1603362458:0;npm start
+: 1603362467:0;nodemon .
+: 1603362469:0;la
+: 1603362475:0;v package.json
+: 1603362485:0;npm start
+: 1603362512:0;v index.html
+: 1603362649:0;la
+: 1603362653:0;..
+: 1603362653:0;la
+: 1603362664:0;cd react
+: 1603362665:0;la
+: 1603362672:0;cd learning-react
+: 1603362685:0;mk frontend backend
+: 1603362686:0;la
+: 1603362714:0;mv dist node_modules package-lock.json package.json public src frontend
+: 1603362715:0;la
+: 1603362726:0;mv .cache .eslintrc.json frontend
+: 1603362727:0;la
+: 1603362735:0;mv .gitignore .git frontend
+: 1603362736:0;la
+: 1603362739:0;tree
+: 1603362747:0;cd frontend/src
+: 1603362748:0;la
+: 1603362753:0;rm server.js
+: 1603362754:0;la
+: 1603362756:0;...
+: 1603362757:0;la
+: 1603362760:0;cd backend
+: 1603362761:0;la
+: 1603362899:0;npm i -g eslint
+: 1603362933:0;l
+: 1603362934:0;la
+: 1603362939:0;eslint init
+: 1603362945:0;zsh
+: 1603362982:0;la
+: 1603362985:0;cd .npm
+: 1603362986:0;la
+: 1603362989:0;cd bin
+: 1603362990:0;la
+: 1603362998:0;so
+: 1603363010:0;cd code
+: 1603363018:0;cd
+: 1603363037:0;v dotfiles/zsh/variables.zsh 
+: 1603363115:0;so
+: 1603363139:0;v dotfiles/zsh/variables.zsh 
+: 1603363181:0;cd code/react/learning-react
+: 1603363181:0;la
+: 1603363184:0;eslint init
+: 1603363203:0;npm init
+: 1603363211:0;eslint init
+: 1603363219:0;eslint --init
+: 1603363301:0;la
+: 1603363315:0;mv package-lock.json package.json .eslintrc.json backend
+: 1603363316:0;la
+: 1603363320:0;mv node_modules backend
+: 1603363321:0;la
+: 1603363324:0;cd backend
+: 1603363324:0;la
+: 1603363331:0;v server.js
+: 1603363334:0;la
+: 1603363338:0;cp ~/code/react/testing-node/index.js server.js
+: 1603363339:0;la
+: 1603363343:0;v server.js
+: 1603363416:0;cd code/testing-node
+: 1603363419:0;v server.js
+: 1603363637:0;npm i nodemon
+: 1603363646:0;v package.json
+: 1603363680:0;cd
+: 1603363688:0;cd code/react/learning-react/backend
+: 1603363689:0;la
+: 1603363694:0;npm start
+: 1603363705:0;v server.js
+: 1603364816:0;..
+: 1603364819:0;cd frontend
+: 1603364819:0;la
+: 1603364827:0;npm build
+: 1603364828:0;la
+: 1603364836:0;cd dist
+: 1603364837:0;la
+: 1603364840:0;v index.html
+: 1603364850:0;v src.7ed060e2.js
+: 1603364862:0;cd code/react/learning-react/backend
+: 1603364866:0;v server.js
+: 1603364921:0;cd code/react/learning-react/frontend
+: 1603364924:0;cd dist
+: 1603364959:0;pac firefix
+: 1603373412:0;amixer set Master 2+
+: 1603373425:0;amixer set Master playback 1+\
+
+: 1603373456:0;amixer set Master 2+
+: 1603373467:0;amixer set Master 10
+: 1603373471:0;amixer set Master 1
+: 1603373476:0;amixer set Master +1
+: 1603373479:0;amixer set Master +10
+: 1603373491:0;mocp
+: 1603373502:0;amixer --help
+: 1603373519:0;amixer sset master +10
+: 1603373524:0;amixer set master +10
+: 1603373942:0;amixer set Master +10
+: 1603373953:0;amixer set Master +10db
+: 1603373955:0;la
+: 1603373959:0;amixer set Master +10db
+: 1603373967:0;amixer set Master +10%
+: 1603373996:0;amixer set Master 5%+\
+
+: 1603374023:0;mocp
+: 1603374206:0;file
+: 1603374264:0;xev
+: 1603374286:0;vim
+: 1603374302:0;v
+: 1603374455:0;sxh
+: 1603374565:0;pkill sxhkd
+: 1603374570:0;sxhkd
+: 1603374575:0;sxh
+: 1603374587:0;sxhkd
+: 1603374861:0;bindsym XF86AudioRaiseVolume exec amixer -q set Master 1%+; exec notify-send 'volume-up'\
+
+: 1603374890:0;exec notify-send 'volume-up'\
+
+: 1603374954:0;back
+: 1603374964:0;c
+: 1603374966:0;la
+: 1603374988:0;v volume.sh
+: 1603374999:0;volume.sh up\
+
+: 1603375001:0;la
+: 1603375008:0;volume.sh up\
+
+: 1603375009:0;so
+: 1603375012:0;volume.sh up\
+
+: 1603375014:0;./volume.sh up\
+
+: 1603375020:0;v volume.sh
+: 1603375092:0;./volume.sh up\
+
+: 1603375120:0;pac  dunst
+: 1603375127:0;bin
+: 1603375129:0;v index.html
+: 1603375134:0;v install.sh
+: 1603375184:0;man dunst
+: 1603375231:0;v test.sh
+: 1603375246:0;sh ./test.sh
+: 1603375250:0;v test.sh
+: 1603375276:0;sh test.sh 1
+: 1603375279:0;sh test.sh 11
+: 1603375281:0;sh test.sh on
+: 1603375296:0;awk -F"[][]" '/dB/ { print $2 }' <(amixer sget Master)\
+
+: 1603375318:0;amixer -D pulse get Master | awk -F 'Left:|[][]' 'BEGIN {RS=""}{ print $3 }'\
+\
+
+: 1603375337:0;amixer -D pulse get Master
+: 1603375339:0;amixer -D pulse get Master | awk -F 'Left:|[][]' 'BEGIN {RS=""}{ print $3 }'\
+\
+
+: 1603375407:0;v test.sh
+: 1603375417:0;sh test.sh up
+: 1603375422:0;sh test.sh upp
+: 1603375423:0;sh test.sh up
+: 1603375430:0;sh test.sh down
+: 1603375451:0;v test.sh
+: 1603375524:0;rm test.sh
+: 1603375524:0;la
+: 1603375526:0;..
+: 1603375634:0;cd
+: 1603375637:0;cd code/react/learning-react/frontend
+: 1603375638:0;..
+: 1603375639:0;la
+: 1603375640:0;cd backend
+: 1603375641:0;la
+: 1603375646:0;v server.js
+: 1603375687:0;la
+: 1603375697:0;tmux
+: 1603375701:0;pac tmux
+: 1603375708:0;tmux
+: 1603375713:0;la
+: 1603375715:0;tmux
+: 1603375719:0;tmux -0
+: 1603375745:0;locale -a
+: 1603375777:0;sudo nvim /etc/locale.gen
+: 1603375815:0;locale -a
+: 1603375821:0;locale-gen
+: 1603375826:0;locale -a
+: 1603375831:0;tmux
+: 1603375859:0;sudo locale-gen
+: 1603375863:0;locale -a
+: 1603375867:0;tmux
+: 1603375909:0;sudo localectl set-locale LANG=en_GB.UTF-8
+: 1603375916:0;tmux
+: 1603375922:0;locale -a
+: 1603375934:0;sudo localectl set-locale LANG=en_US.UTF-8
+: 1603375969:0;sudo nvim /etc/locale.gen
+: 1603376010:0;sudo locale-gen
+: 1603376014:0;tmux
+: 1603376020:0;locale -a
+: 1603376066:0;tmux
+: 1603376078:0;bin
+: 1603376081:0;v install.sh
+: 1603376115:0;tmux
+: 1603376174:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
+: 1603376190:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'\
+
+: 1603376196:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
+: 1603376197:0;cd backend
+: 1603376209:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#ffffff'
+: 1603376213:0;cd backend
+: 1603376216:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#000'
+: 1603376218:0;cd backend
+: 1603376241:0;cd ++t 
+: 1603376270:0;sh color.sh
+: 1603376336:0;so
+: 1603376355:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'\
+
+: 1603376368:0;sh color.sh
+: 1603376408:0;928
+: 1603376413:0;sh color.sh
+: 1603376425:0;928374
+: 1603376446:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#928374'\
+
+: 1603376458:0;zsh
+: 1603376483:0;so
+: 1603376489:0;tmux
+: 1603376492:0;cd ++t 
+: 1603376504:0;tmux -0
+: 1603376511:0;tmux -2
+: 1603376513:0;cd ++t 
+: 1603376516:0;zsh
+: 1603376548:0;TERM=screen-256color-bce tmux
+: 1603376553:0;vim
+: 1603376561:0;v
+: 1603376582:0;bin
+: 1603376585:0;v react.sh
+: 1603376588:0;v relink.sh
+: 1603376632:0;sh relink.sh
+: 1603376634:0;cd
+: 1603376635:0;la
+: 1603376641:0;v .tmux.conf
+: 1603376648:0;tmux -2
+: 1603376652:0;nvim
+: 1603376674:0;tmux -2
+: 1603376688:0;tmux source-file ~/.tmux.conf
+: 1603376699:0;tmux
+: 1603376703:0;vim
+: 1603376709:0;v
+: 1603376721:0;v .tmux.conf
+: 1603376742:0;alias tmux="TERM=screen-256color-bce tmux"
+: 1603376745:0;tmux
+: 1603376747:0;v
+: 1603376762:0;tmux source-file ~/.tmux.conf
+: 1603376765:0;tmux
+: 1603376767:0;vim
+: 1603376773:0;v
+: 1603376788:0;alias tmux="TERM=screen-256color-bce tmux"
+: 1603376790:0;tmux
+: 1603376792:0;v
+: 1603376814:0;tmux -2
+: 1603376815:0;v
+: 1603376819:0;zsh
+: 1603376840:0;so
+: 1603376842:0;tmux
+: 1603376850:0;v
+: 1603376857:0;vma
+: 1603376929:0;v
+: 1603376933:0;vma
+: 1603377019:0;v
+: 1603377065:0;vma
+: 1603377103:0;v
+: 1603377112:0;vma
+: 1603377127:0;v
+: 1603377131:0;vma
+: 1603377168:0;v
+: 1603377176:0;vma
+: 1603377216:0;zsh
+: 1603377222:0;la
+: 1603377227:0;tmux
+: 1603377231:0;cd ++t 
+: 1603377232:0;zsh
+: 1603377246:0;tmux
+: 1603377263:0;v .tmux.conf
+: 1603377279:0;tmux source-file ~/.tmux.conf
+: 1603377287:0;tmux
+: 1603377291:0;v .tmux.conf
+: 1603377305:0;tmux
+: 1603377312:0;v .tmux.conf
+: 1603377434:0;tmux source-file ~/.tmux.conf
+: 1603377444:0;v .tmux.conf
+: 1603377481:0;tmux
+: 1603377491:0;tmux splitw
+: 1603377498:0;tmux split-window
+: 1603377502:0;tmux splitw-window
+: 1603377510:0;tmux splitw
+: 1603377530:0;tmux
+: 1603377533:0;v .tmux.conf
+: 1603377554:0;tmux
+: 1603377557:0;tmux source-file ~/.tmux.conf
+: 1603377566:0;tmux split-window
+: 1603377570:0;tmux splitw
+: 1603377664:0;tmux 
+: 1603377667:0;tmux splitw
+: 1603377671:0;tmux split-window
+: 1603377687:0;tmux usetw -g monitor-activity on\
+set -g visual-activity on\
+
+: 1603377688:0;setw -g monitor-activity on\
+set -g visual-activity on\
+
+: 1603377689:0;v .tmux.conf
+: 1603377863:0;tmux
+: 1603377881:0;la
+: 1603377885:0;tmux
+: 1603377886:0;la
+: 1603377888:0;v .tmux.conf
+: 1603377896:0;tmux split-window
+: 1603377899:0;tmux splitw
+: 1603378022:0;tmux splitw -v
+: 1603378024:0;tmux splitw -h
+: 1603378029:0;v .tmux.conf
+: 1603378039:0;tmux
+: 1603378075:0;v .tmux.conf
+: 1603378126:0;tmux kill-pane
+: 1603378143:0;v .tmux.conf
+: 1603378155:0;tmux
+: 1603378168:0;tmux kill-pane
+: 1603378174:0;v .tmux.conf
+: 1603378188:0;tmux 
+: 1603378192:0;tmux kill-pane
+: 1603378194:0;v .tmux.conf
+: 1603378226:0;zxh
+: 1603378228:0;sxh
+: 1603378244:0;pkill sxhkd
+: 1603378246:0;sxhkd
+: 1603378269:0;irc
+: 1603378275:0;zsh
+: 1603378288:0;sxh
+: 1603378334:0;tmux -2
+: 1603378341:0;v
+: 1603378350:0;sxh
+: 1603378372:0;pkill sxhkd
+: 1603378374:0;sxhkd
+: 1603378377:0;v
+: 1603378408:0;sxh
+: 1603378450:0;zsh
+: 1603378464:0;so
+: 1603378467:0;v
+: 1603378494:0;alias tmux="tmux"
+: 1603378496:0;tmux
+: 1603378500:0;v
+: 1603378509:0;sxh
+: 1603378520:0;pkill sxhkd
+: 1603378524:0;sxhkd
+: 1603378529:0;la
+: 1603378539:0;rma my-keyboard
+: 1603378543:0;la
+: 1603378551:0;rm volume.sh
+: 1603378552:0;la
+: 1603378564:0;v .tmux.conf
+: 1603378591:0;v
+: 1603378600:0;tmux -2
+: 1603378600:0;v
+: 1603378605:0;sxh
+: 1603378620:0;v
+: 1603378629:0;tmux -2
+: 1603378633:0;tmux -2
+: 1603378634:0;v
+: 1603378639:0;so
+: 1603378641:0;v 
+: 1603378681:0;tmux -2
+: 1603378683:0;v
+: 1603378690:0;bin
+: 1603378692:0;v relink.sh
+: 1603378768:0;sh relink.sh
+: 1603378772:0;..
+: 1603378772:0;la
+: 1603378775:0;cd alacritty
+: 1603378776:0;la
+: 1603378782:0;bin
+: 1603378784:0;v relink.sh
+: 1603378796:0;sh relink.sh
+: 1603378818:0;v relink.sh
+: 1603378825:0;..
+: 1603378826:0;la
+: 1603378829:0;cd alacritty
+: 1603378830:0;la
+: 1603378835:0;bin
+: 1603378836:0;v relink.sh
+: 1603378852:0;sh relink.sh
+: 1603378861:0;tmux -2
+: 1603378863:0;v
+: 1603378876:0;alacritty -e tmux -2
+: 1603378877:0;v
+: 1603378892:0;zsh
+: 1603378910:0;sxh
+: 1603378935:0;pkill sxhkd
+: 1603378937:0;sxhkd
+: 1603378949:0;sxh
+: 1603378969:0;pkill sxhkd
+: 1603378971:0;sxhkd
+: 1603378998:0;sxh
+: 1603379038:0;tmux -2c TERM=screen-256color-bce
+: 1603379041:0;la
+: 1603379051:0;sxhkd
+: 1603379067:0;sxh
+: 1603379101:0;so
+: 1603379104:0;pkill sxhkd
+: 1603379106:0;sxhkd
+: 1603379123:0;tmux -2c TERM=screen-256color-bce
+: 1603379149:0;tmux -2u
+: 1603379151:0;la
+: 1603379155:0;sxh
+: 1603379164:0;pkill sxhkd
+: 1603379170:0;sxhkd
+: 1603379172:0;v
+: 1603379223:0;echo TERM
+: 1603379228:0;echo $TERM
+: 1603379248:0;tmux set-option -ga terminal-overrides ",xterm-256color:Tc"\
+
+: 1603379253:0;v
+: 1603379293:0;zsh
+: 1603379308:0;v .tmux.conf
+: 1603379323:0;v
+: 1603379326:0;la
+: 1603379328:0;echo $TERM
+: 1603379338:0;tmux -2u
+: 1603379339:0;v
+: 1603379382:0;zsh
+: 1603379401:0;tmux -2u
+: 1603379403:0;v
+: 1603379410:0;zsh
+: 1603379431:0;sxh
+: 1603379440:0;pkill sxhkd
+: 1603379444:0;sxhkd
+: 1603379457:0;sxh
+: 1603379468:0;sxhkd
+: 1603379472:0;sxh
+: 1603379483:0;sxhkd
+: 1603379485:0;v
+: 1603379486:0;la
+: 1603379513:0;v .tmux.conf
+: 1603379550:0;zsh
+: 1603379563:0;alacritty -e TERM=TERM=screen-256color-bce tmux
+: 1603379576:0;alacritty --command TERM=screen-256color-bce tmux
+: 1603379584:0;alacritty --command TERM=screen-256color-bce; tmux
+: 1603379592:0;alacritty --command export TERM=screen-256color-bce; tmux
+: 1603379633:0;zsh
+: 1603379650:0;so
+: 1603379654:0;tmux
+: 1603379658:0;v
+: 1603379666:0;la
+: 1603379679:0;v .tmux.conf
+: 1603379696:0;v
+: 1603379698:0;la
+: 1603379700:0;echo $TERM
+: 1603379709:0;tmux -2u
+: 1603379719:0;v
+: 1603379727:0;echo $TERM
+: 1603379731:0;tmux -2u
+: 1603379734:0;tmux
+: 1603379806:0;zsh
+: 1603379823:0;tmux
+: 1603379829:0;v
+: 1603379833:0;tmux
+: 1603379847:0;la
+: 1603379866:0;v
+: 1603379909:0;la
+: 1603379917:0;mk .zprofile
+: 1603379924:0;rma .zprofile
+: 1603379929:0;v .zprofile
+: 1603379944:0;cp ~/dotfiles/zsh/variables.zsh .zprofile
+: 1603379947:0;v
+: 1603379966:0;echo $TERM
+: 1603379969:0;zsh
+: 1603379983:0;echo $TERM
+: 1603379985:0;v
+: 1603379987:0;la
+: 1603380019:0;v .tmux.conf
+: 1603380135:0;la
+: 1603380136:0;v
+: 1603380166:0;sxh
+: 1603380195:0;v
+: 1603380199:0;la
+: 1603380323:0;alacritty -e TERM=TERM=screen-256color-bce tmux
+: 1603380330:0;alacritty -e TERM=screen-256color-bce tmux
+: 1603380335:0;alacritty -e screen-256color-bce tmux
+: 1603380340:0;alacritty -e screen-256color-bce tmux -2u
+: 1603380349:0;alacritty -e TERM=screen-256color-bce tmux -2u
+: 1603380350:0;l
+: 1603380351:0;la
+: 1603380370:0;alacritty -e TERM=screen-256color-bce
+: 1603380376:0;alacritty -e $TERM=screen-256color-bce
+: 1603380383:0;alacritty -e export TERM=screen-256color-bce
+: 1603380388:0;alacritty -e tmux -2
+: 1603380391:0;la
+: 1603380414:0;rma .zprofile
+: 1603380417:0;la
+: 1603380425:0;v .tmux.conf
+: 1603380446:0;tmux
+: 1603380447:0;v
+: 1603380451:0;zsh
+: 1603380460:0;v
+: 1603380468:0;tmux exit
+: 1603380478:0;tmux kill-pane
+: 1603380503:0;la
+: 1603380505:0;v
+: 1603380511:0;tmux -2u
+: 1603380512:0;v
+: 1603380521:0;TERM=screen-256color-bce tmux
+: 1603380529:0;tmux set-option -ga terminal-overrides ",xterm-256color:Tc"\
+
+: 1603380530:0;v
+: 1603380533:0;..
+: 1603380535:0;cd
+: 1603380540:0;~
+: 1603380543:0;..
+: 1603380545:0;~
+: 1603380562:0;la
+: 1603380603:0;v .fehbg
+: 1603380611:0;la
+: 1603380632:0;TERM=screen-256color-bce tmux
+: 1603380634:0;la
+: 1603380634:0;v
+: 1603380641:0;TERM=screen-256color-bce tmux
+: 1603380642:0;v
+: 1603380649:0;v .tmux.conf
+: 1603380721:0;zsh
+: 1603380730:0;so
+: 1603380733:0;tmux
+: 1603380740:0;v
+: 1603380753:0;tmux -2u
+: 1603380754:0;v
+: 1603380783:0;zsh
+: 1603380808:0;v
+: 1603380814:0;tmux -2u
+: 1603380826:0;tmux
+: 1603380827:0;v
+: 1603380830:0;zsh
+: 1603380851:0;echo $TERM
+: 1603380852:0;la
+: 1603380859:0;tmux
+: 1603380860:0;v
+: 1603380908:0;v .tmux.conf
+: 1603380917:0;v
+: 1603380920:0;tmux
+: 1603380920:0;v
+: 1603381392:0;sxh
+: 1603381403:0;pkill sxhkd
+: 1603381407:0;sxhkd
+: 1603381414:0;sxh
+: 1603381422:0;sxhkd
+: 1603381426:0;tmux
+: 1603381428:0;v
+: 1603381432:0;zsh
+: 1603381437:0;echo $TERM
+: 1603381441:0;v .tmux.conf
+: 1603381596:0;zsh
+: 1603381603:0;so
+: 1603381611:0;v .zshenv
+: 1603381615:0;so
+: 1603381625:0;la
+: 1603381667:0;v
+: 1603381671:0;tmux
+: 1603381672:0;v
+: 1603381677:0;v .tmux.conf
+: 1603381729:0;la
+: 1603381733:0;tmux
+: 1603381735:0;v
+: 1603381739:0;tmux
+: 1603381741:0;v .tmux.conf
+: 1603381753:0;echo $TERM
+: 1603381772:0;zsh
+: 1603381781:0;echo $TERM
+: 1603381847:0;export TERM=xterm
+: 1603381849:0;echo $TERM
+: 1603381969:0;which tmux
+: 1603381976:0;tmux
+: 1603381977:0;which tmux
+: 1603382020:0;zsh
+: 1603382046:0;tmux -2u
+: 1603382049:0;v
+: 1603383757:0;v 
+: 1603383777:0;tmux -2u
+: 1603383778:0;v
+: 1603383796:0;tmux -2u
+: 1603383797:0;v
+: 1603383802:0;tmux
+: 1603383803:0;v
+: 1603384139:0;echo $TMUX
+: 1603384141:0;tmux
+: 1603384143:0;echo $TMUX
+: 1603384161:0;cd dotfiles/zsh
+: 1603384166:0;v variables.zsh
+: 1603384173:0;v .zshenv
+: 1603384322:0;so
+: 1603384354:0;v
+: 1603384375:0;la
+: 1603384376:0;v
+: 1603384382:0;v .tmux.conf
+: 1603384393:0;v
+: 1603384407:0;v .tmux.conf
+: 1603384410:0;so
+: 1603384412:0;v
+: 1603384438:0;la
+: 1603384465:0;v .tmux.conf
+: 1603384538:0;cd .config/zsh
+: 1603384540:0;cd
+: 1603384544:0;cd dotfiles/zsh
+: 1603384547:0;v variables.zsh
+: 1603384647:0;v 
+: 1603384653:0;v variables.zsh
+: 1603384660:0;so
+: 1603384666:0;v variables.zsh
+: 1603384744:0;la
+: 1603384794:0;cd dotfiles/zsh
+: 1603384796:0;v variables.zsh
+: 1603385267:0;cd dotfiles/zsh
+: 1603385268:0;v variables.zsh
+: 1603385499:0;echo $TMUX
+: 1603385511:0;v variables.zsh
+: 1603385517:0;echo $TMUX
+: 1603385637:0;v
+: 1603385653:0;pkill redshift
+: 1603385802:0;v .tmux.conf
+: 1603385843:0;cd code
+: 1603385953:0;ala
+: 1603386155:0;cat constants.js
+: 1603386239:0;ala
+: 1603386263:0;v .tmux.conf
+: 1603386389:0;cd dotfiles/zsh
+: 1603386391:0;v variables.zsh
+: 1603386441:0;v .tmux.conf
+: 1603386667:0;echo "set -g terminal-overrides 'xterm*:smcup@:rmcup@'" >> ~/.tmux.conf && tmux kill-server && tmux\
+
+: 1603387112:0;la
+: 1603387120:0;cd dotfiles
+: 1603387123:0;commit "start" && push

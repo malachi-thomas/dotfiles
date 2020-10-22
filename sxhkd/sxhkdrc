@@ -1,3 +1,9 @@
+
+XF86AudioRaiseVolume
+  amixer set Master 5%+
+XF86AudioLowerVolume
+  amixer set Master 5%-
+
 super + a
   betterlockscreen -l
 
@@ -8,7 +14,7 @@ super + d
   rofi -show run
 
 super + t
-  alacritty --config-file ~/dotfiles/alacritty/alacritty.yml
+  alacritty
 
 super + y
   firefox
@@ -28,8 +34,13 @@ super + shift + q
 super + shift + x
   kill -9 -1
 
+super + shift + m
+  i3-msg '[class=".*"] kill'; sleep 1; sudo systemctl reboot --firmware-setup
+
+
+
 super + shift + r
-  i3-msg '[class=".*"] kill' reboot
+  i3-msg '[class=".*"] kill'; reboot
 
 alt + super + control + shift + c
   amixer sset Master -5db

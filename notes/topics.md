@@ -16,4 +16,7 @@ Tags: #topics
 - [css](css/css.md)
 - [scss](scss/scss.md)
 
+
+## Nots On Learning
+
 - [zettelkasten](zettelkasten/zettelkasten.md)

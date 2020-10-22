@@ -13,5 +13,4 @@ source ~/dotfiles/zsh/fzf/completion.zsh
 source ~/dotfiles/zsh/fzf/key-bindings.zsh
 
 
-compinit -d "~/.config/zsh"
 

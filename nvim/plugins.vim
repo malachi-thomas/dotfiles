@@ -7,18 +7,22 @@ call plug#begin('~/.config/nvim/plugged')
 if has('nvim-0.5')
   Plug 'neovim/nvim-lspconfig'
   Plug 'nvim-lua/completion-nvim'
+  Plug 'nvim-treesitter/completion-treesitter'
   Plug 'steelsojka/completion-buffers'
   Plug 'nvim-lua/diagnostic-nvim'
-  Plug 'norcalli/nvim-colorizer.lua'
   Plug 'kristijanhusak/completion-tags'
+  Plug 'nvim-treesitter/nvim-treesitter'
+  Plug 'norcalli/nvim-colorizer.lua'
 else
   Plug 'machakann/vim-highlightedyank'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  let g:coc_global_extensions = ['coc-tsserver', 'coc-python', 'coc-sh', 'coc-clangd']
+  let g:coc_global_extensions = ['coc-tsserver', 'coc-python', 'coc-sh', 'coc-clangd', 'coc-tag']
 endif
 
 " Programming
 Plug 'dense-analysis/ale' " linting and fixing
+" Plug 'neomake/neomake'
+
 Plug 'tpope/vim-fugitive' " git intergration
 Plug 'tpope/vim-eunuch' " bash commands
 Plug 'SirVer/ultisnips' " snippets
@@ -35,7 +39,6 @@ Plug 'mattn/emmet-vim' " html tags
 Plug 'airblade/vim-gitgutter'
 
 " Testing
-" Plug 'amirrezaask/fuzzy.nvim'
 
 " Notetaking
 Plug 'vimwiki/vimwiki'
@@ -44,7 +47,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 " Theam
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'morhetz/gruvbox'
-Plug 'sheerun/vim-polyglot'
+" Plug 'sheerun/vim-polyglot'
 Plug 'mboughaba/i3config.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'

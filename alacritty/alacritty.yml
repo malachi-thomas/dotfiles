@@ -23,6 +23,14 @@ font:
   style: Bold Italic
   size: 11
 
+selection:
+  # This string contains all characters that are used as separators for "semantic words" in Alacritty.
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  
+
+keybindings:
+  - { key: Insert, mods: Control, action: Copy }
+
 
   # Gruvbox
 colors:
@@ -49,4 +57,3 @@ colors:
     magenta: '0xd3869b'
     cyan:    '0x8ec07c'
     white:   '0xebdbb2'
-
