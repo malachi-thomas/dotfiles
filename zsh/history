@@ -3764,3 +3764,87 @@ set -g visual-activity on\
 : 1603387112:0;la
 : 1603387120:0;cd dotfiles
 : 1603387123:0;commit "start" && push
+: 1603387129:0;la
+: 1603387136:0;rm markdown-template.md 
+: 1603387144:0;la
+: 1603387146:0;t
+: 1603387152:0;la
+: 1603387153:0;..
+: 1603387154:0;la
+: 1603387157:0;v .tmux.conf
+: 1603387302:0;v
+: 1603387312:0;cd dotfiles/zsh
+: 1603387314:0;v variables.zsh
+: 1603387322:0;tmux
+: 1603387333:0;echo $TMUX
+: 1603387342:0;echo $TERM
+: 1603387352:0;zsh 
+: 1603387370:0;v variables.zsh
+: 1603387432:0;la
+: 1603387434:0;v 
+: 1603387462:0;v
+: 1603387483:0;cd dotfiles/zsh
+: 1603387486:0;v variables.zsh
+: 1603387502:0;la
+: 1603387503:0;v
+: 1603387507:0;pkill redshift
+: 1603387509:0;v
+: 1603387516:0;echo $TERM
+: 1603387525:0;echo $TMUX
+: 1603387546:0;v .tmux.conf
+: 1603387560:0;v
+: 1603387580:0;la
+: 1603387586:0;cd dotfiles/zsh
+: 1603387589:0;v variables.zsh
+: 1603387597:0;echo $TMUX
+: 1603387603:0;tmux 
+: 1603387606:0;v
+: 1603387611:0;tmux -2u
+: 1603387613:0;v
+: 1603387619:0;zsh
+: 1603387665:0;la
+: 1603387677:0;v
+: 1603387683:0;zsh
+: 1603387690:0;tmux
+: 1603387691:0;v
+: 1603387775:0;alias tmux='TERM=xterm-256color tmux'\
+
+: 1603387778:0;tmux
+: 1603387779:0;v
+: 1603396436:0;cd dotfiles/zsh
+: 1603396440:0;v variables.zsh
+: 1603396464:0;tmux -2u
+: 1603396465:0;v 
+: 1603396490:0;echo $TERM
+: 1603396531:0;v .tmux.conf
+: 1603396555:0;tmux
+: 1603396558:0;v .tmux.conf
+: 1603396565:0;v 
+: 1603396569:0;tmux
+: 1603396571:0;v
+: 1603396617:0;vrc
+: 1603396661:0;v .tmux.conf
+: 1603396672:0;v
+: 1603396679:0;tmux -2u
+: 1603396681:0;v .tmux.conf
+: 1603396699:0;tmux -2u
+: 1603396701:0;v  .tmux.conf
+: 1603396715:0;tmux source-file ~/.tmux.conf
+: 1603396716:0;v
+: 1603396720:0;tmux
+: 1603396721:0;v 
+: 1603396766:0;echo $COLORTERM
+: 1603396784:0;v .tmux.conf
+: 1603396832:0;cd .config/zsh
+: 1603396838:0;cd
+: 1603396842:0;cd dotfiles/z
+: 1603396843:0;cd dotfiles/zsh
+: 1603396846:0;v variables.zsh
+: 1603396855:0;so
+: 1603396857:0;v
+: 1603396878:0;echo $TERM
+: 1603396931:0;v ~/dotfiles/zsh/variables.zsh
+: 1603396966:0;v
+: 1603396975:0;v ~/dotfiles/zsh/variables.zsh
+: 1603397018:0;dot
+: 1603397043:0;commit "got tmux 256 colors working" && push

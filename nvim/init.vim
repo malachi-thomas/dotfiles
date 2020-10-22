@@ -66,6 +66,7 @@ set noshowmode
 set hlsearch
 set nocompatible
 
+
 " =============================================================================
 " Vimscript
 
