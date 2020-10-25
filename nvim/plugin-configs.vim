@@ -54,14 +54,15 @@ let g:completion_trigger_keyword_length = 1
 let g:completion_trigger_on_delete = 0
 let g:completion_enable_auto_signature = 0
 let g:completion_enable_auto_hover = 0
-let g:completion_sorting = 'length'
+" let g:completion_sorting = 'length'
+let g:completion_sorting = 'none'
 let g:completion_confirm_key = ""
 let g:completion_enable_auto_paren = 0
 let g:completion_trigger_character = ['.']
 let g:completion_timer_cycle = 100
 let g:completion_enable_auto_popup = 1
 let g:completion_chain_complete_list = [
-      \  {'complete_items': ['tags', 'path', 'lsp', 'buffers', 'ts']}
+      \  {'complete_items': ['lsp', 'path', 'tags', 'buffers', 'ts']}
       \ ]
 
 " LSC
@@ -150,7 +151,7 @@ let g:loaded_netrw  = 1
 let g:vista_fzf_preview = ['right:0%']
 
 " vim-rooter
-let g:rooter_patterns = ['=src', '=nvim', '=dotfiles', '=plugged']
+let g:rooter_patterns = ['=src', '=nvim', '=dotfiles', '=plugged', '=notes', '=frontend','=backend']
 
 " vim-gutentags
 let g:gutentags_add_default_project_roots = 0
@@ -167,4 +168,9 @@ let g:gutentags_ctags_exclude = [ '*.git', '*.svg', '*.hg', '*/tests/*', 'build'
 
 
 
+" vim-clap
+let g:clap_provider_dotfiles = {
+      \ 'source': ['~/dotfiles/tmux/tmux.conf', '~/.spacevim', '~/.bashrc', '~/.tmux.conf'],
+      \ 'sink': 'e',
+      \ }
 

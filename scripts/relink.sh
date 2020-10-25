@@ -8,7 +8,7 @@ ln -f ~/dotfiles/nvim/lua/* ~/.config/nvim/lua
 ln -f ~/dotfiles/nvim/UltiSnips/* ~/.config/nvim/UltiSnips
 ln -f ~/dotfiles/nvim/init.vim ~/.vimrc
 ln -f ~/dotfiles/zsh/.zshenv ~/.zshenv
-ln -f ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+ln -f ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
 
 if [ ! -d /mnt/c ] ;then
 

@@ -34,7 +34,7 @@ bindsym Mod4+Mod1+q [class=".*"] kill
 
 # i3 keybindings
 bindsym $mod+f fullscreen toggle
-bindsym $mod+q kill
+bindsym $mod+w kill
 bindsym $mod+Shift+f floating toggle
 bindsym $mod+Shift+l restart
 

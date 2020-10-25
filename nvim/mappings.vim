@@ -23,6 +23,9 @@ inoremap <home> <c-o>^
 nnoremap <c-s> :w!<cr>
 nnoremap <c-c> :wqa!<cr>
 nnoremap <silent>ZZ :call TabClose()<cr>
+nnoremap <space>b :Clap buffers<cr> 
+nnoremap / /\v
+vnoremap / /\v
 
 " Splits
 nnoremap <space>vs :vsplit<cr>
@@ -36,9 +39,10 @@ nnoremap <c-left> <c-w>H
 nnoremap <c-right> <c-w>L
 
 " Tabs
-nnoremap <c-t> :tabe %<cr>
+nnoremap <c-t> :tabe<cr>
 nnoremap <tab> :tabn<cr>
 nnoremap <S-tab> :tabp<cr>
+nnoremap <c-w> :tabclose<cr>
 
 " Extra
 nnoremap y "*y
@@ -119,9 +123,7 @@ nnoremap <space>tt :FloatermNew<cr>
 tnoremap<esc> <c-\><c-n>
 
 " Testing
-nnoremap <bs> <C-^>
-nnoremap / /\v
-vnoremap / /\v
+
 
 " Plugin Mappings 
 nmap <f1> <Plug>VimwikiNextLink
@@ -133,9 +135,9 @@ nmap <f6> <Plug>VimwikiGoBackLink
 ca mv Move
 ca mk Mkdir
 inoremap <c-space> <c-r>=(UltiSnips#ExpandSnippetOrJump())<cr>
-nnoremap <space><space> :Files<cr>
+nnoremap <space><space> :Clap files<cr>
 nnoremap <space>f :Files %:h<cr>
-nnoremap <space><cr> :Tags<cr>
+nnoremap <space><cr> :Clap proj_tags<cr>
 nnoremap <space>sn :UltiSnipsEdit<cr>
 
 imap <silent><expr><tab>
@@ -189,7 +191,7 @@ func! TabClose()
   if winnr('$') > 1
     silent! close!
   elseif &ft == 'fzf' || &ft == ''
-    silent! x!
+    silent! bw! | q!
   elseif tabpagenr('$')
     silent! wq!
   else

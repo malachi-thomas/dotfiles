@@ -23,7 +23,7 @@ alias x='vifm .'
 alias tags='ctags -R --sort=1 --exclude=node_modules'
 alias v='nvim'
 alias f='rg --files | fzf | xargs -I "{}" nvim {}'
-alias tmux="TERM=screen-256color-bce tmux -2u"
+# alias tmux="TERM=screen-256color-bce tmux -2u"
 
 
 # Config Files

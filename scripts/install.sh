@@ -5,9 +5,6 @@ sudo pacman -S base-devel
 sudo pacman -S yay 
 sudo pacman -S polybar 
 sudo pacman -S chromium 
-sudo pacman -S firefox 
-sudo pacman -S brave 
-sudo pacman -S dmenu 
 sudo pacman -S neovim 
 sudo pacman -S moc 
 sudo pacman -S kitty 

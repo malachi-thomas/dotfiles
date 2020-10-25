@@ -16,6 +16,10 @@ set guicursor=
 set colorcolumn=100
 set termguicolors
 highlight ColorColumn ctermbg=0 guibg=lightgrey
+if exists('$TMUX')
+  autocmd BufEnter,FocusGained * call system("tmux rename-window " . expand("%:t"))
+  autocmd VimLeave * call system("tmux rename-window zsh")
+endif
 
 "==================================================================================================
 "Lua
@@ -65,6 +69,8 @@ set completeopt=menuone,noinsert,noselect
 set noshowmode
 set hlsearch
 set nocompatible
+set timeoutlen=500
+
 
 
 " =============================================================================

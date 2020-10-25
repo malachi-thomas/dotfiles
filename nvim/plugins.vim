@@ -39,15 +39,19 @@ Plug 'mattn/emmet-vim' " html tags
 Plug 'airblade/vim-gitgutter'
 
 " Testing
+Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
+Plug 'liuchengxu/vista.vim'
+
+
+
 
 " Notetaking
 Plug 'vimwiki/vimwiki'
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 " Theam
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'morhetz/gruvbox'
-" Plug 'sheerun/vim-polyglot'
+Plug 'sheerun/vim-polyglot'
 Plug 'mboughaba/i3config.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'

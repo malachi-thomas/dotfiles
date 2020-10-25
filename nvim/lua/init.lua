@@ -10,9 +10,7 @@ local configs = require'nvim_lsp/configs'
 require 'colorizer'.setup()
 
 -- Lsp
-require'nvim_lsp'.tsserver.setup{
-    filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" }
-  }
+require'nvim_lsp'.tsserver.setup{ on_attach=require'completion'.on_attach }
 require'nvim_lsp'.tsserver.setup{ on_attach=require'completion'.on_attach } -- you need a package.json or tsconfig.json
 require'nvim_lsp'.vimls.setup{ on_attach=require'completion'.on_attach }
 require'nvim_lsp'.pyls.setup { on_attach=require'completion'.on_attach } -- pip install python-language-server
@@ -24,16 +22,14 @@ require'nvim_lsp'.html.setup { on_attach=require'completion'.on_attach } -- LspI
 require'nvim_lsp'.rls.setup { on_attach=require'completion'.on_attach } -- ???
 
 require'nvim-treesitter.configs'.setup {
-    ensure_installed = "all",     -- one of "all", "language", or a list of languages
+    ensure_installed = "all",
     indent = {
       enable = true
     },
     highlight = {
-      enable = true,              -- false will disable the whole extension
-      disable = {},  -- list of language that will be disabled
+      enable = true,
+      disable = {},
     },
-
-
   }
 
 

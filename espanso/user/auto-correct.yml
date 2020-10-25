@@ -1,21 +1,26 @@
-name: spelling
+name: auto-correct
 parent: default
 
 matches:
 
-  - trigger: "#relitiv "
+  - trigger: "relitiv "
     replace: "relitive "
 
-  - trigger: "#absaloot "
+  - trigger: "absaloot "
     replace: "absolute "
 
   - trigger: "dont "
     replace: "don't "
 
-  - trigger: "#dzIn "
+  - trigger: "prosses "
+    replace: "process "
+  - trigger: "prosses."
+    replace: "process."
+
+  - trigger: "dezin "
     replace: "design "
 
-  - trigger: "#develpu "
+  - trigger: "develper "
     replace: "developer "
 
   - trigger: "proget "

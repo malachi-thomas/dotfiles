@@ -3848,3 +3848,777 @@ set -g visual-activity on\
 : 1603396975:0;v ~/dotfiles/zsh/variables.zsh
 : 1603397018:0;dot
 : 1603397043:0;commit "got tmux 256 colors working" && push
+: 1603397697:0;sh relink.sh
+: 1603397702:0;v
+: 1603397704:0;la
+: 1603397706:0;v ~/dotfiles/zsh/variables.zsh
+: 1603397722:0;la
+: 1603397727:0;v
+: 1603397732:0;tmux source-file ~/.tmux.conf
+: 1603397736:0;v
+: 1603397771:0;v ~/dotfiles/zsh/variables.zsh
+: 1603397778:0;so
+: 1603397781:0;v
+: 1603397798:0;echo $TERM
+: 1603397801:0;v ~/dotfiles/zsh/variables.zsh
+: 1603397818:0;zsh
+: 1603397832:0;so
+: 1603397835:0;tmux
+: 1603397837:0;la
+: 1603397859:0;tmux new-window
+: 1603397883:0;tmux splitw -h
+: 1603397926:0;v .tmux.conf
+: 1603397936:0;tmux source-file ~/.tmux.conf
+: 1603397946:0;v
+: 1603397973:0;v .tmux.conf
+: 1603398027:0;v
+: 1603398035:0;v .tmux.conf
+: 1603398045:0;v
+: 1603398050:0;v .tmux.conf
+: 1603398065:0;v
+: 1603398069:0;v .tmux.conf
+: 1603398084:0;v
+: 1603398100:0;v .tmux.conf
+: 1603398118:0;v
+: 1603398133:0;la
+: 1603398152:0;v .tmux.conf
+: 1603398156:0;v
+: 1603398196:0;v .tmux.conf
+: 1603398401:0;v
+: 1603398409:0;v .tmux.conf
+: 1603398457:0;v
+: 1603398465:0;tmux next-window
+: 1603398484:0;tmux next-layout
+: 1603398502:0;tmux previous-window
+: 1603398552:0;v ~/dotfiles/zsh/variables.zsh
+: 1603398566:0;sxhkd
+: 1603398655:0;cd
+: 1603398656:0;v
+: 1603398658:0;la
+: 1603398676:0;v .tmux.conf
+: 1603399419:0;vrc
+: 1603399438:0;v .tmux.conf
+: 1603402541:0;v
+: 1603403273:0;vrc
+: 1603403302:0;v
+: 1603403307:0;vrc
+: 1603403339:0;v
+: 1603403425:0;la
+: 1603403428:0;v tes
+: 1603403430:0;la
+: 1603403439:0;vma
+: 1603403482:0;v .tmux.conf
+: 1603403525:0;cd
+: 1603403546:0;la
+: 1603404931:0;irc
+: 1603404938:0;so
+: 1603404991:0;v
+: 1603405093:0;vma
+: 1603405157:0;vvim 
+: 1603405162:0;cd UltiSnips
+: 1603405163:0;la
+: 1603405172:0;v vim.snippets
+: 1603405174:0;v
+: 1603405203:0;la
+: 1603405204:0;..
+: 1603405205:0;la
+: 1603405217:0;rm tabpagenr\(\'\$\'\)\ ==\ \'1\'\ \&\&\ \&ft\ \!=\ \'fzf\'\ \&\& test.md
+: 1603405217:0;la
+: 1603405222:0;cd lua
+: 1603405223:0;la
+: 1603405234:0;rm month.lua test.html vimrc
+: 1603405238:0;v test.lua
+: 1603405243:0;rm test.lua
+: 1603405244:0;la
+: 1603405245:0;..
+: 1603405260:0;react && cd learning-react/src
+: 1603405266:0;cd learning-react/backend
+: 1603405270:0;npm start
+: 1603405335:0;pac better
+: 1603405346:0;pac betterlock
+: 1603405363:0;pac betterauto
+: 1603405401:0;betterlockscreen --help
+: 1603405410:0;betterlockscreen -s
+: 1603439433:0;v
+: 1603439531:0;la
+: 1603439536:0;vma
+: 1603439879:0;react 
+: 1603439883:0;cd learning-react/backend
+: 1603439884:0;la
+: 1603439893:0;npm start
+: 1603439899:0;v server.js
+: 1603439928:0;la
+: 1603439940:0;npm start
+: 1603440027:0;v api.js
+: 1603440499:0;timedatectl set-timezone Europe/London
+: 1603440525:0;timedatectl list-timezones
+: 1603440563:0;timedatectl set-timezone Europe/London
+: 1603440611:0;hwclock --systohc
+: 1603440630:0;zlsh
+: 1603440631:0;zsh
+: 1603442638:0;vrc
+: 1603442647:0;echo $TMUX
+: 1603442651:0;v api.js
+: 1603442754:0;sh music.sh
+: 1603442899:0;bin
+: 1603442902:0;v install.sh
+: 1603442955:0;vim
+: 1603442963:0;l
+: 1603442964:0;cd
+: 1603442968:0;v .vimrc
+: 1603442983:0;vrc
+: 1603442989:0;v .vimrc
+: 1603443015:0;react && cd learning-react/backend
+: 1603443016:0;la
+: 1603443023:0;cd
+: 1603443026:0;z backend
+: 1603443027:0;la
+: 1603443177:0;mk api
+: 1603443190:0;mv api.js api
+: 1603443190:0;la
+: 1603444945:0;v api/api.js
+: 1603445099:0;npm i express
+: 1603445111:0;la
+: 1603445113:0;v api/api.js
+: 1603445157:0;pac postman
+: 1603445240:0;z backend
+: 1603445241:0;la
+: 1603445258:0;cd api
+: 1603445260:0;v api.js
+: 1603445534:0;lrc
+: 1603445546:0;v api.js
+: 1603445559:0;vpl
+: 1603445577:0;lrc
+: 1603445631:0;v api.js
+: 1603446360:0;v index.html
+: 1603446370:0;v api.js
+: 1603448008:0;vpc
+: 1603448056:0;v api.js
+: 1603449022:0;q
+: 1603449489:0;z backend
+: 1603449506:0;nodemon api/api.js
+: 1603450306:0;not
+: 1603450307:0;la
+: 1603450312:0;v topics.md
+: 1603450384:0; vma
+: 1603450419:0;v topics.md
+: 1603453004:0;f
+: 1603458736:0;v .tmux.conf
+: 1603458775:0;tmux source-file ~/.tmux.conf
+: 1603458790:0;v .tmux.conf
+: 1603458846:0;tmux source-file ~/.tmux.conf
+: 1603458873:0;v .tmux.conf
+: 1603458948:0;tmux source-file ~/.tmux.conf
+: 1603458965:0;v .tmux.conf
+: 1603458992:0;tmux source-file ~/.tmux.conf
+: 1603459009:0;v .tmux.conf
+: 1603459017:0;tmux source-file ~/.tmux.conf
+: 1603459020:0;v .tmux.conf
+: 1603459088:0;la
+: 1603459093:0;tmux source-file ~/.tmux.conf
+: 1603459116:0;tmux source-file ~/.tmux.conf
+: 1603459134:0;tmux source-file ~/.tmux.conf
+: 1603459142:0;v .tmux.conf
+: 1603459231:0;tmux source-file ~/.tmux.conf
+: 1603459237:0;v .tmux.conf
+: 1603459248:0;tmux source-file ~/.tmux.conf 
+: 1603459262:0;v .tmux.conf
+: 1603459740:0;tmux source-file ~/.tmux.conf 
+: 1603459765:0;v .tmux.conf
+: 1603459774:0;tmux source-file ~/.tmux.conf 
+: 1603459785:0;v .tmux.conf
+: 1603459810:0;tmux source-file ~/.tmux.conf 
+: 1603459895:0;la
+: 1603460135:0;v .tmux.conf
+: 1603460156:0;tmux source-file ~/.tmux.conf 
+: 1603460163:0;v .tmux.conf
+: 1603460276:0;tmux source-file ~/.tmux.conf 
+: 1603460277:0;la
+: 1603460737:0;vw
+: 1603460738:0;v
+: 1603460748:0;v .tmux.conf
+: 1603460797:0;tmux source-file ~/.tmux.conf 
+: 1603460803:0;v .tmux.conf
+: 1603460852:0;tmux source-file ~/.tmux.conf 
+: 1603460899:0;v .tmux.conf
+: 1603461198:0;git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm\
+
+: 1603461222:0;v .tmux.conf
+: 1603461229:0;tmux source-file ~/.tmux.conf 
+: 1603461235:0;v .tmux.conf
+: 1603461292:0;tmux source-file ~/.tmux.conf 
+: 1603461319:0;v .tmux.conf
+: 1603461327:0;la
+: 1603461389:0;v .tmux.conf
+: 1603461604:0;vpl
+: 1603462065:0;nvim --startuptime vim.vim vim.vim
+: 1603462073:0;rm vim.vim
+: 1603462073:0;la
+: 1603462077:0;vma
+: 1603462220:0;vpc
+: 1603462742:0;v
+: 1603462744:0;vrc
+: 1603462748:0;vma
+: 1603463523:0;v .tmux.conf
+: 1603463534:0;vma
+: 1603464140:0;vpl
+: 1603464248:0;z 
+: 1603464248:0;s
+: 1603464251:0;z backend
+: 1603464254:0;v api/api.js
+: 1603464268:0;v
+: 1603464272:0;v test.js
+: 1603464355:0;vma
+: 1603464500:0;vrc
+: 1603464909:0;vpc
+: 1603465382:0;dot
+: 1603465385:0;cd tmux
+: 1603465385:0;la
+: 1603465394:0;mv .tmux.conf tmux.conf
+: 1603465397:0;bin
+: 1603465401:0;v relink.sh
+: 1603465420:0;vpc
+: 1603466283:0;la
+: 1603466286:0;z backend
+: 1603466286:0;la
+: 1603466290:0;cd api
+: 1603466292:0;v api.js
+: 1603466314:0;vma
+: 1603466433:0;v api.js
+: 1603466903:0;la
+: 1603466906:0;vpl
+: 1603466915:0;la
+: 1603466916:0;..
+: 1603466917:0;la
+: 1603466926:0;vpc
+: 1603466953:0;v api/index.html
+: 1603466970:0;vpc
+: 1603466973:0;v api/index.html
+: 1603467078:0;fd 
+: 1603467083:0;zsh
+: 1603467134:0;echo $FD
+: 1603467148:0;man fd
+: 1603467305:0;zsh
+: 1603467322:0;v api/index.html
+: 1603467544:0;vma
+: 1603467582:0;v api/index.html
+: 1603467759:0;v
+: 1603467765:0;
+: 1603467768:0;v api/index.html
+: 1603467793:0;cd
+: 1603467794:0;la
+: 1603467799:0;v api/index.html
+: 1603467825:0;cd
+: 1603467828:0;z backend
+: 1603467830:0;v api/api.js
+: 1603467939:0;pac rg
+: 1603467949:0;pac ripgrep
+: 1603467958:0;v
+: 1603467987:0;v package.json
+: 1603468012:0;pac mapel
+: 1603468082:0;v
+: 1603468470:0;v api/api.js
+: 1603468488:0;la
+: 1603468493:0;v api/api.js
+: 1603468542:0;v
+: 1603468594:0;la
+: 1603473663:0;v
+: 1603473681:0;z backend
+: 1603473684:0;v api/api.js
+: 1603475613:0;irc
+: 1603475622:0;pkill redshift
+: 1603475633:0;redshift
+: 1603475712:0;z backend
+: 1603475714:0;v api/api.js
+: 1603476704:0;vpc
+: 1603481254:0;v server.js
+: 1603481271:0;cp api/api.js server.js
+: 1603481274:0;v server.js
+: 1603481305:0;esp
+: 1603481309:0;espanso edit spelling
+: 1603482209:0;so
+: 1603482727:0;la
+: 1603482729:0;cd user
+: 1603482730:0;la
+: 1603482758:0;mv spelling.yml auto-correct.yml
+: 1603482761:0;v auto-correct.yml
+: 1603482867:0;sa
+: 1603482868:0;so
+: 1603482947:0;la
+: 1603482950:0;v auto-correct.yml
+: 1603482959:0;espanso edit auto-correct
+: 1603482974:0;la
+: 1603482976:0;..
+: 1603482979:0;espanso edit auto-correct
+: 1603482996:0;v espanso/user/auto-correct.yml
+: 1603483021:0;v ~/dotfiles/zsh/variables.zsh
+: 1603483029:0;la
+: 1603483041:0;cd
+: 1603483043:0;espanso edit auto-correct
+: 1603483051:0;so
+: 1603483063:0;espanso edit auto-correct.yml
+: 1603483068:0;espanso edit auto-correct
+: 1603483084:0;v ~/dotfiles/espanso/user/auto-correct.yml
+: 1603483091:0;so
+: 1603483098:0;la
+: 1603483102:0;esp
+: 1603483103:0;la
+: 1603483104:0;cd user
+: 1603483107:0;la
+: 1603483112:0;so
+: 1603483126:0;la
+: 1603483127:0;..
+: 1603483128:0;t
+: 1603483140:0;sh relink.sh
+: 1603483145:0;cd
+: 1603483151:0;cd .config/espanso
+: 1603483153:0;la
+: 1603483155:0;cd user
+: 1603483155:0;la
+: 1603483158:0;rm auto-correct.yml.yml
+: 1603483163:0;rm spelling.yml 
+: 1603483164:0;la
+: 1603483173:0;espanso edit auto-correct
+: 1603483188:0;v auto-correct.yml
+: 1603483206:0;v
+: 1603483213:0;so
+: 1603486696:0;pac emacs
+: 1603486883:0;emacs auto-correct.yml
+: 1603489097:0;emacs
+: 1603489109:0;yay emacs
+: 1603489214:0;emacs -en
+: 1603489278:0;emacs --no-window-system
+: 1603489450:0;la
+: 1603489489:0;cd .config
+: 1603489494:0;al
+: 1603489495:0;la
+: 1603489817:0;v .emacs
+: 1603489839:0;la
+: 1603489848:0;cd
+: 1603489891:0;la
+: 1603489893:0;cd .emacs.d
+: 1603489894:0;la
+: 1603489919:0;mk personal
+: 1603489921:0;cd personal
+: 1603489927:0;v init.el
+: 1603489944:0;la
+: 1603489946:0;emacs --no-window-system
+: 1603490065:0;cd .emacs.d
+: 1603490068:0;v init.el
+: 1603490072:0;emacs --no-window-system
+: 1603490082:0;cd .emacs.d
+: 1603490089:0;rm personal/init.el
+: 1603490091:0;v init.el
+: 1603490114:0;emacs --no-window-system
+: 1603490151:0;v init.el
+: 1603490158:0;emacs --no-window-system
+: 1603490218:0;v ~/.emacs.d/init.el
+: 1603490223:0;emacs --no-window-system
+: 1603490268:0;v ~/.emacs.d/init.el
+: 1603490274:0;emacs --no-window-system
+: 1603490419:0;emacs
+: 1603490486:0;v ~/.emacs.d/init.el
+: 1603490584:0;emacs
+: 1603490771:0;v ~/.emacs.d/init.el
+: 1603490777:0;emacs
+: 1603490919:0;v ~/.emacs.d/init.el
+: 1603491014:0;emacs
+: 1603491023:0;v ~/.emacs.d/init.el
+: 1603491055:0;emacs --no-window-system
+: 1603491257:0;mv ~/.emacs.d/init.el .emacs
+: 1603491260:0;emacs
+: 1603491702:0;v .emacs
+: 1603491711:0;emacs
+: 1603492687:0;git clone https://github.com/jwiegley/use-package.git ~/.emacs.d/site-lisp/use-package\
+cd ~/.emacs.d/site-lisp/use-package\
+
+: 1603492695:0;make
+: 1603492698:0;emacs
+: 1603523319:0;v .emacs
+: 1603523399:0;emacs --no-window-system
+: 1603524173:0;emacs
+: 1603524346:0;emacs --no-window-system
+: 1603524893:0;emacs
+: 1603525081:0;emacs --no-window-system
+: 1603525813:0;emacs
+: 1603525832:0;v .emacs
+: 1603525846:0;emacs
+: 1603526785:0;emacs --no-window-system
+: 1603526885:0;emacs
+: 1603526911:0;v .emacs
+: 1603527000:0;emacs
+: 1603527608:0;curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603527615:0;la
+: 1603527640:0;mv .emacs  ~/.emacs.d/personal/init.el
+: 1603527646:0;cd .emacs.d
+: 1603527646:0;la
+: 1603527659:0;mk theams
+: 1603527662:0;curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603527672:0;cd theams
+: 1603527689:0;to gruvbox-theme.el
+: 1603527691:0;curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603527718:0;curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el ~/.emacs.d/themes/\
+
+: 1603527723:0;la
+: 1603527728:0;v gruvbox-theme.el
+: 1603527815:0;v ../personal/init.el
+: 1603527890:0;emacs
+: 1603528139:0;emacs
+: 1603528205:0;v ../personal/init.el
+: 1603528219:0;emacs
+: 1603528227:0;v ../personal/init.el
+: 1603528247:0;curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603528259:0;la
+: 1603528287:0;curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603528294:0;la
+: 1603528296:0;rm gruvbox-theme.el
+: 1603528297:0;curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603528324:0;curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > gruvbox-theme.el\
+
+: 1603528328:0;la
+: 1603528329:0;v gruvbox-theme.el
+: 1603528332:0;emacs
+: 1603528392:0;v ~/.emacs.d/init.el
+: 1603528397:0;..
+: 1603528404:0;cd personal
+: 1603528405:0;v init.el
+: 1603528418:0;emacs
+: 1603528472:0;curl https://raw.github.com/leemachin/emacs-gruvbox-theme/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603528495:0;mkdir -p ~/.emacs.d/themes\
+
+: 1603528497:0;..
+: 1603528498:0;la
+: 1603528519:0;curl https://raw.github.com/leemachin/emacs-gruvbox-theme/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603528520:0;la
+: 1603528531:0;emacs
+: 1603528555:0;curl https://raw.github.com/leemachin/emacs-gruvbox-theme/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603528576:0;rma theams
+: 1603528582:0;la
+: 1603528587:0;v personal/init.el
+: 1603528600:0;emacs
+: 1603528680:0;cd themes
+: 1603528681:0;la
+: 1603528683:0;rm gruvbox-theme.el
+: 1603528685:0;curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603528699:0;v ~/.emacs.d/personal/init.el
+: 1603528705:0;emacs
+: 1603528806:0;v gruvbox-theme.el
+: 1603528882:0;emacs
+: 1603529069:0;v gruvbox-theme.el
+: 1603529073:0;v ~/.emacs.d/personal/init.el
+: 1603529086:0;emacs --no-window-system
+: 1603529123:0;emacs 
+: 1603529206:0;v ~/.emacs.d/personal/init.el
+: 1603529212:0;emacs 
+: 1603529366:0;v ~/.emacs.d/personal/init.el
+: 1603529385:0;emacs 
+: 1603529603:0;v ~/.emacs.d/personal/init.el
+: 1603529607:0;emacs 
+: 1603529647:0;v ~/.emacs.d/personal/init.el
+: 1603529656:0;emacs 
+: 1603529688:0;v ~/.emacs.d/personal/init.el
+: 1603529727:0;emacs 
+: 1603529766:0;v ~/.emacs.d/personal/init.el
+: 1603529774:0;emacs
+: 1603529784:0;la
+: 1603529786:0;v ~/.emacs.d/personal/init.el
+: 1603529794:0;emacs
+: 1603529819:0;mv ~/.emacs.d/personal/init.el .emacs
+: 1603529820:0;emacs
+: 1603529828:0;v .emacs
+: 1603529833:0;emacs
+: 1603529840:0;v .emacs
+: 1603529854:0;emacs
+: 1603529865:0;v .emacs
+: 1603529898:0;emacs
+: 1603529911:0;v .emacs
+: 1603529934:0;emacs
+: 1603529951:0;v .emacs
+: 1603529962:0;emacs
+: 1603529976:0;v .emacs
+: 1603529985:0;v 
+: 1603529987:0;emacs
+: 1603529996:0;v .emacs
+: 1603530005:0;emacs
+: 1603530010:0;v .emacs
+: 1603530016:0;emacs
+: 1603530022:0;v .emacs
+: 1603530033:0;emacs
+: 1603530046:0;v .emacs
+: 1603530056:0;emacs
+: 1603530072:0;v .emacs
+: 1603530082:0;em
+: 1603530084:0;emacs
+: 1603530101:0;curl https://raw.github.com/leemachin/emacs-gruvbox-theme/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603530109:0;emacs
+: 1603530176:0;cd .emacs.d/themes
+: 1603530178:0;rm gruvbox-theme.el
+: 1603530179:0;curl https://raw.github.com/leemachin/emacs-gruvbox-theme/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603530182:0;emacs
+: 1603530199:0;v .emacs
+: 1603530201:0;cd
+: 1603530203:0;v .emacs
+: 1603530244:0;cd .emacs.d/themes
+: 1603530245:0;rm gruvbox-theme.el
+: 1603530246:0;curl -L https://raw.github.com/Greduan/emacs-theme-gruvbox/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el\
+
+: 1603530250:0;la
+: 1603530254:0;rm .emacs
+: 1603530255:0;la
+: 1603530259:0;v ~/.emacs
+: 1603530270:0;emacs
+: 1603530279:0;v ~/.emacs
+: 1603530285:0;emacs
+: 1603530317:0;v ~/.emacs
+: 1603530320:0;emacs
+: 1603530325:0;v ~/.emacs
+: 1603530346:0;emacs
+: 1603530545:0;v ~/.emacs
+: 1603530551:0;emasc
+: 1603530554:0;emacs
+: 1603530917:0;emacs ~/.emacs
+: 1603537415:0;sxhkd
+: 1603537418:0;sxh
+: 1603537441:0;pkill sxhkd
+: 1603537444:0;sxhkd
+: 1603537598:0;mv .emacs .emacs.d/init.el
+: 1603537604:0;cd
+: 1603537617:0;emacs .emacs.d/init.el
+: 1603537976:0;cd .config
+: 1603537979:0;mk emacs
+: 1603537979:0;la
+: 1603537991:0;mk emacs
+: 1603537994:0;cd emacs
+: 1603537995:0;la
+: 1603538002:0;..
+: 1603538019:0;mv  ~/.emacs.d emacs
+: 1603538020:0;la
+: 1603538023:0;cd emacs
+: 1603538023:0;la
+: 1603538024:0;..
+: 1603538028:0;rm .emacs
+: 1603538031:0;cd emacs
+: 1603538034:0;ca
+: 1603538035:0;la
+: 1603538044:0;mv .emacs.d/* .
+: 1603538045:0;la
+: 1603538054:0;rma init.el\~ themes
+: 1603538055:0;la
+: 1603538063:0;rma .emacs.d
+: 1603538064:0;la
+: 1603538069:0;rma personal
+: 1603538070:0;la
+: 1603538079:0;cd
+: 1603538080:0;la
+: 1603538084:0;emacs
+: 1603538105:0;v ~/.config/emacs/init.el
+: 1603538510:0;emacs ~/.config/emacs/init.el
+: 1603538940:0;la
+: 1603538950:0;rma .emacs\~
+: 1603538954:0;emacs
+: 1603538980:0;emacs -q -l .config/emacs/init.el
+: 1603538990:0;cd .config/emacs
+: 1603538994:0;rm \#init.el\# init.el\~
+: 1603538995:0;la
+: 1603538999:0;emacs
+: 1603539005:0;la
+: 1603539015:0;emacs --help
+: 1603539053:0;emacs -q -L ~/.config/emacs
+: 1603539095:0;emacs --help
+: 1603539118:0;la
+: 1603539120:0;..
+: 1603539120:0;la
+: 1603539132:0;ls emacs
+: 1603539135:0;emacs
+: 1603539146:0;..
+: 1603539146:0;la
+: 1603539158:0;rm .emacs
+: 1603539159:0;la
+: 1603539192:0;emacs -q ~/.config/emacs/init.el
+: 1603539215:0;emacs -l -q ~/.config/emacs/init.el
+: 1603539227:0;emacs -lq ~/.config/emacs/init.el
+: 1603539399:0;emacs -q -l ~/.config/emacs/init.el
+: 1603539526:0;v ~/.config/emacs/init.el
+: 1603539543:0;emacs -q -l ~/.config/emacs/init.el
+: 1603539556:0;v ~/.config/emacs/init.el
+: 1603539710:0;emacs -q -l ~/.config/emacs/init.el
+: 1603539732:0;emacs
+: 1603539748:0;v ~/.config/emacs/init.el
+: 1603539754:0;emacs
+: 1603539765:0;v ~/.config/emacs/init.el
+: 1603539785:0;emacs
+: 1603539804:0;emacs --debug
+: 1603539819:0;emacs --debug-init
+: 1603539873:0;v ~/.config/emacs/init.el
+: 1603539930:0;cd .config/emacs
+: 1603539930:0;la
+: 1603539933:0;rm \#init.el\#
+: 1603539934:0;la
+: 1603539937:0;emacs --debug-init
+: 1603539962:0;v ~/.config/emacs/init.el
+: 1603540062:0;emacs
+: 1603540090:0;v ~/.config/emacs/init.el
+: 1603540099:0;emacs
+: 1603540117:0;v ~/.config/emacs/init.el
+: 1603540257:0;emacs
+: 1603540299:0;v ~/.config/emacs/init.el
+: 1603540417:0;emacs
+: 1603540476:0;v ~/.config/emacs/init.el
+: 1603540488:0;emacs
+: 1603540591:0;v ~/.config/emacs/init.el
+: 1603540618:0;emacs
+: 1603540636:0;v ~/.config/emacs/init.el
+: 1603540640:0;emacs
+: 1603540660:0;v ~/.config/emacs/init.el
+: 1603540670:0;emacs init.el
+: 1603540690:0;v ~/.config/emacs/init.el
+: 1603540697:0;emacs init.el
+: 1603540748:0;v ~/.config/emacs/init.el
+: 1603540752:0;emacs init.el
+: 1603540956:0;v ~/.config/emacs/init.el
+: 1603540961:0;emacs
+: 1603541045:0;v ~/.config/emacs/init.el
+: 1603541050:0;emacs
+: 1603541561:0;v ~/.config/emacs/init.el
+: 1603541567:0;emacs
+: 1603541987:0;v ~/.config/emacs/init.el
+: 1603542042:0;emacs
+: 1603542062:0;v ~/.config/emacs/init.el
+: 1603542279:0;emacs
+: 1603542562:0;v ~/.config/emacs/init.el
+: 1603542564:0;emacs
+: 1603542631:0;emacs
+: 1603542640:0;v ~/.config/emacs/init.el
+: 1603542665:0;v 
+: 1603542669:0;v ~/.config/emacs/init.el
+: 1603542694:0;emacs 
+: 1603543014:0;emacs init.el
+: 1603543494:0;v 
+: 1603543497:0;v ~/.config/emacs/init.el
+: 1603543512:0;emacs init.el
+: 1603546099:0;n
+: 1603546100:0;emacs init.el
+: 1603550890:0;emacs
+: 1603550945:0;cd
+: 1603550948:0;cd .config/
+: 1603550959:0;cd emacs/
+: 1603550960:0;la
+: 1603551006:0;:cd
+: 1603551008:0;d
+: 1603551008:0;cd
+: 1603551014:0;emacs init.el
+: 1603551748:0;emacs
+: 1603551919:0;emacs ~/
+: 1603551922:0;s
+: 1603551926:0;emacs ~/.config/emacs/init.el
+: 1603554603:0;emacs
+: 1603555268:0;emacs 
+: 1603556042:0;emacs ~/.config/emacs/init.el
+: 1603556277:0;time emacs --eval '(save-buffers-kill-terminal)'\
+
+: 1603556290:0;v ~/.config/emacs/init.el
+: 1603556294:0;emacs ~/.config/emacs/init.el
+: 1603558474:0;v ~/.config/emacs/init.el
+: 1603560541:0;emacs
+: 1603560896:0;emacs ~/.config/emacs/init.el
+: 1603568346:0;n
+: 1603568348:0;emacs ~/.config/emacs/init.el
+: 1603568372:0;n
+: 1603568373:0;emacs ~/.config/emacs/init.el
+: 1603569776:0;emacs
+: 1603570795:0;emacs 
+: 1603573820:0;emacs
+: 1603574158:0;emacs --no-window-system
+: 1603574225:0;emacs
+: 1603574957:0;cd .config/emacs
+: 1603574960:0;emacs
+: 1603576914:0;emacs init.el
+: 1603577062:0;v init.el
+: 1603577087:0;emacs init.el
+: 1603577103:0;la
+: 1603577116:0;rm init.el\~ places \*scratch\*
+: 1603577119:0;emacs init.el
+: 1603579778:0;cd
+: 1603579783:0;-
+: 1603579787:0;cd .config/emacs
+: 1603579788:0;la
+: 1603579805:0;mk -p ~/dotfiles/emacs
+: 1603579816:0;cp init.el ~/dotfiles/emacs
+: 1603579816:0;c
+: 1603579819:0;cd
+: 1603579821:0;dot
+: 1603579823:0;cd emacs
+: 1603579824:0;la
+: 1603579826:0;v init.el
+: 1603579832:0;emacs init.el
+: 1603579981:0;cp init.el ~/.config/emacs
+: 1603579984:0;emacs
+: 1603580023:0;cp init.el ~/.config/emacs
+: 1603580024:0;emacs
+: 1603580045:0;emacs ~/.config/emacs/init.el
+: 1603580177:0;v init.el
+: 1603580285:0;emacs ~/.config/emacs/init.el
+: 1603580301:0;cp init.el init.el ~/.config/emacs
+: 1603580306:0;cp init.el ~/.config/emacs
+: 1603580308:0;emacs ~/.config/emacs/init.el
+: 1603580540:0;emacs
+: 1603613009:0;emacs 
+: 1603614076:0;emacs ~/.config/emacs/init.el
+: 1603628095:0;emacs
+: 1603628342:0;emacs test.py
+: 1603628377:0;emacs ~/.config/emacs/init.el
+: 1603628790:0;v ~/.config/emacs/init.el
+: 1603628897:0;emacs ~/.config/emacs/init.el
+: 1603630102:0;not
+: 1603630108:0;emacs topics.md
+: 1603630255:0;emacs
+: 1603630270:0;emacs topics.md
+: 1603635387:0;emacs
+: 1603635630:0;emacs 
+: 1603638872:0;emacs ~/.config/emacs/init.el
+: 1603648611:0;C
+: 1603648613:0;emacs ~/.config/emacs/init.el
+: 1603658701:0;v ~/.config/emacs/init.el
+: 1603658735:0;emacs ~/.config/emacs/init.el
+: 1603659858:0;emacs -v
+: 1603659872:0;emacs --version
+: 1603659965:0;emacs ~/.config/emacs/init.el
+: 1603664931:0;cd .config/emacs
+: 1603664937:0;to emacs-test.el
+: 1603664938:0;la
+: 1603664944:0;v emacs-test.el
+: 1603665075:0;emacs
+: 1603665103:0;emacs ~/.config/emacs/init.el
+: 1603665911:0;emacs ~/.config/emacs/emacs.org
+: 1603665955:0;emacs ~/.config/emacs/init.el
+: 1603666398:0;emacs ~/.config/emacs/emacs.org
+: 1603666635:0;mv ~/.config/emacs/emacs.org ~/.config/emacs/init.org
+: 1603666641:0;emacs ~/.config/emacs/init.el
+: 1603666661:0;emacs ~/.config/emacs/init.org
+: 1603668586:0;emacs ~/.config/emacs/init.el
+: 1603668761:0;emacs ~/.config/emacs/init.org
+: 1603668787:0;emacs ~/.config/emacs/init.org\~
+: 1603668834:0;emacs ~/.config/emacs/init.el
+: 1603668971:0;emacs ~/.config/emacs/init.org\~
+: 1603669031:0;cd .config/emacs
+: 1603669052:0;cp emacs.org\~ init.org
+: 1603669059:0;emacs init.org
+: 1603669070:0;la
+: 1603669079:0;emacs init.org\~
+: 1603669096:0;emacs init.org
+: 1603669551:0;cp init.org ~/dotfiles/emacs/init.org
+: 1603669553:0;cd
+: 1603669554:0;dot
+: 1603669571:0;commit "started to use emacs" && push

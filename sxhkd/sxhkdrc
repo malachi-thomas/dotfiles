@@ -13,6 +13,9 @@ super + c
 super + d
   rofi -show run
 
+super + e
+  emacs
+
 super + t
   alacritty
 
