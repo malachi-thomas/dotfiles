@@ -4622,3 +4622,65 @@ cd ~/.emacs.d/site-lisp/use-package\
 : 1603669553:0;cd
 : 1603669554:0;dot
 : 1603669571:0;commit "started to use emacs" && push
+: 1603701972:0;emacs init.org
+: 1603702009:0;cd ~/.config/emacs
+: 1603702011:0;la
+: 1603702040:0;rm emacs.org\~ emacs-test.el init.el init.el\~ init.org\~ init.org Nothing\ found Nothing\ found\~ places projectile-bookmarks.eld test.org test.org\~ test.py
+: 1603702041:0;emacs
+: 1603702048:0;-
+: 1603702051:0;..
+: 1603702057:0;cd ~/dotfiles/emacs
+: 1603702058:0;la
+: 1603702064:0;rm init.el init.el\~ \#init.org\# 
+: 1603702066:0;emacs init.org
+: 1603702097:0;cd .config/emacs
+: 1603702098:0;la
+: 1603702104:0;v init.el
+: 1603702127:0;emacs -l -q ~/.config/emacs/init.el
+: 1603702135:0;emacs -l ~/.config/emacs/init.el
+: 1603702172:0;emacs init.org
+: 1603702385:0;emacs -l ~/.config/emacs/init.el
+: 1603702453:0;emacs -l ~/.config/emacs/init.el init.org
+: 1603702962:0;emacs -l ~/.config/emacs/init.el
+: 1603702966:0;la
+: 1603703007:0;rma .emacs .emacs.d .emacs\~ test.org \*scratch\* test.org\~ test.py
+: 1603703009:0;la
+: 1603703013:0;emacs
+: 1603703025:0;emacs -l ~/.config/emacs/init.el
+: 1603703066:0;emacs ~/dotfiles/emacs/init.org
+: 1603703162:0;cd ~/dotfiles/emacs
+: 1603703162:0;la
+: 1603703166:0;cd
+: 1603703168:0;la
+: 1603703176:0;cd ~/.config/emacs
+: 1603703177:0;la
+: 1603703193:0; v init.el
+: 1603703237:0;emacs ~/dotfiles/emacs/init.org
+: 1603703256:0;la
+: 1603703349:0;emacs ~/dotfiles/emacs/init.org
+: 1603703603:0;cd
+: 1603703604:0;la
+: 1603703612:0;rma .emacs.d
+: 1603703618:0;emacs -l ~/.config/emacs/init.el init.org
+: 1603703632:0;emacs -l ~/.config/emacs/init.el ~/dotfiles/emacs/init.org
+: 1603704258:0;zsh
+: 1603704289:0;emacs
+: 1603704655:0;emac
+: 1603704658:0;emacs
+: 1603704745:0;emacs 
+: 1603705350:0;emacs
+: 1603708283:0;emacs 
+: 1603708671:0;v ~/dotfiles/emacs/init.org
+: 1603708810:0;emacs
+: 1603710535:0;emas
+: 1603710538:0;emacs
+: 1603711796:0;emac
+: 1603711797:0;emacs
+: 1603719856:0;dot
+: 1603719857:0;..
+: 1603719873:0;cp ~/.config/emacs/init.el ~/dotfiles/emacs
+: 1603719874:0;dot
+: 1603719876:0;cd emacs
+: 1603719877:0;la
+: 1603719881:0;rm init.org
+: 1603719895:0;commit "configuing emacs" && push
