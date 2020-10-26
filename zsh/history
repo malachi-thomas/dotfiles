@@ -4684,3 +4684,10 @@ cd ~/.emacs.d/site-lisp/use-package\
 : 1603719877:0;la
 : 1603719881:0;rm init.org
 : 1603719895:0;commit "configuing emacs" && push
+: 1603727665:0;v ~/dotfiles/emacs/init.el
+: 1603741691:0;cd ~/dotfiles/emacs
+: 1603741692:0;la
+: 1603741693:0;v init.el
+: 1603741985:0;v ~/.config/emacs/init.el
+: 1603744134:0;dot
+: 1603744145:0;commit "multi cursers on emacs" && push
