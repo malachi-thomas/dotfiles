@@ -1,0 +1,36 @@
+
+(evil-define-key 'normal 'global
+  (kbd "C-s") 'save-buffer
+  (kbd "C-w") 'delete-window
+  (kbd ":") 'execute-extended-command)
+
+;; (general-define-key
+;;   (kbd "SPC") nil
+;;  (kbd "<escape>") 'keyboard-escape-quit)
+
+;; (general-define-key
+;;  :prefix "SPC"
+;;  (kbd "c d") 'cd
+;;  (kbd "f f") 'find-file
+;;  (kbd "h v") 'describe-variable
+;;  (kbd "h k") 'describe-key
+;;  (kbd "h m") 'describe-mode
+;;  (kbd "r c") 'eval-buffer
+;;  (kbd "r f") 'counsel-recentf)
+
+(general-create-definer leader
+  :prefix "SPC")
+
+(leader
+  :state 'normal
+  (kbd "c d") 'cd
+  (kbd "f f") 'find-file
+  (kbd "h v") 'describe-variable
+  (kbd "h k") 'describe-key
+  (kbd "h m") 'describe-mode
+  (kbd "r c") 'eval-buffer
+  (kbd "r f") 'counsel-recentf)
+
+
+(general-define-key
+ (kbd "M-a") 'cd)

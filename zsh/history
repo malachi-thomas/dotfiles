@@ -4691,3 +4691,88 @@ cd ~/.emacs.d/site-lisp/use-package\
 : 1603741985:0;v ~/.config/emacs/init.el
 : 1603744134:0;dot
 : 1603744145:0;commit "multi cursers on emacs" && push
+: 1603745404:0;emacs --no-window-system
+: 1603749558:0;la
+: 1603749569:0;cp ~/.config/emacs/init.el ~/dotfiles/emacs
+: 1603749847:0;sxh
+: 1603749869:0;pu
+: 1603749872:0;pkill sxhkd
+: 1603749876:0;sxhkd
+: 1603751116:0;cd ~/dotfiles/emacs
+: 1603751125:0;ctags -Re
+: 1603751127:0;la
+: 1603751132:0;emacs init.el
+: 1603751182:0;emacs TAGS
+: 1603751266:0;v TAGS
+: 1603751273:0;emacs 
+: 1603751325:0;cd ~/dotfiles/emacs
+: 1603751325:0;la
+: 1603751331:0;emacs init.el
+: 1603753763:0;v TAGS
+: 1603753769:0;cd ~/dotfiles/emacs
+: 1603753771:0;rm TAGS
+: 1603753774:0;emacs init.el
+: 1603753858:0;cd ~/dotfiles/emacs
+: 1603753861:0;v TAGS
+: 1603754117:0;cd ~/dotfiles/emacs
+: 1603754118:0;cd
+: 1603754121:0;cd .config
+: 1603754124:0;v TAGS
+: 1603754131:0;emacs
+: 1603754818:0;cd dotfiles/emacs
+: 1603754819:0;la
+: 1603754824:0;rm \#init.el\# TAGS 
+: 1603754828:0;emacs init.el
+: 1603754843:0;la
+: 1603754852:0;cd .config
+: 1603754852:0;la
+: 1603754870:0;emacs
+: 1603755108:0;ctags --help
+: 1603755157:0;cd dotfiles/emacs
+: 1603755158:0;la
+: 1603755171:0;ctags -eR ./hats
+: 1603755173:0;la
+: 1603755177:0;v TAGS
+: 1603755186:0;rm TAGS
+: 1603755195:0;ctags -eR -
+: 1603755196:0;la
+: 1603755203:0;ctags --tags
+: 1603755229:0;ctags -f test
+: 1603755230:0;la
+: 1603755236:0;ctags -eRf test
+: 1603755237:0;la
+: 1603755240:0;v test
+: 1603755247:0;cd dotfiles/emacs
+: 1603755248:0;la
+: 1603755309:0;betterlockscreen -s
+: 1603785778:0;emacs 
+: 1603787329:0;cd dotfiles/emacs
+: 1603787330:0;la
+: 1603787333:0;rm test
+: 1603791141:0;cd code/javascript
+: 1603791141:0;la
+: 1603791149:0;emacs package.json
+: 1603791191:0;rm package.json \#test.js\# 
+: 1603791192:0;la
+: 1603791198:0;rma .\#test.js
+: 1603791204:0;rma .log
+: 1603791205:0;la
+: 1603791212:0;npm init
+: 1603791220:0;emacs test.js
+: 1603791234:0;la
+: 1603791354:0;npm i -g javascript-typescript-langserver
+: 1603815682:0;emacs
+: 1603815690:0;v ~/dotfiles/emacs/init.el
+: 1603816167:0;cd dotfiles/emacs
+: 1603816168:0;la
+: 1603821481:0;cd dotfiles/emacs
+: 1603821482:0;la
+: 1603821486:0;rm \#init.el\# functions.el
+: 1603821487:0;la
+: 1603828191:0;v ~/dotfiles/emacs/packages.el
+: 1603829894:0;v ~/dotfiles/emacs/init.el
+: 1603835431:0;emacs --no-window-system
+: 1603835473:0;v code
+: 1603840526:0;dat
+: 1603840529:0;dot
+: 1603840547:0;commit "emacs  testing genarel.el" && push

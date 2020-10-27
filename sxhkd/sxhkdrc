@@ -14,7 +14,7 @@ super + d
   rofi -show run
 
 super + e
-  emacs -l ~/.config/emacs/init.el
+  emacs -l ~/dotfiles/emacs/init.el
 
 super + t
   alacritty
