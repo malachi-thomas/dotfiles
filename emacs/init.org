@@ -412,11 +412,11 @@
   #+begin_src emacs-lisp
 
 (setq inhibit-startup-message t)
-(setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
 (setq show-paren-style 'expression)
 (setq enable-recursive-minibuffers t)
 (setq org-hide-emphasis-markers t)
 (setq make-backup-files nil)
+
 ;; (setq-default display-line-numbers-type 'visual)
 (setq-default display-line-numbers-current-absolute t)
 (setq-default display-line-numbers-width 1)
@@ -559,7 +559,7 @@
     (when (string-equal (buffer-file-name)
       (expand-file-name "~/dotfiles/emacs/init.org"))
         (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org"))))
-        
+ 
 
    #+end_src
 
@@ -589,6 +589,9 @@
   (use-package web-mode)
   (use-package cl-lib)
 
+;;(use-package evil-little-word)
+
   #+end_src
 
 
+  

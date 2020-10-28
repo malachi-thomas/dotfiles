@@ -4789,3 +4789,15 @@ cd ~/.emacs.d/site-lisp/use-package\
 : 1603885074:0;emacs --debug-init
 : 1603886969:0;dot
 : 1603886977:0;commit "emacs added init.org" && push
+: 1603886985:0;cd 
+: 1603886985:0;s
+: 1603886988:0;cd dotfiles/emacs
+: 1603886988:0;la
+: 1603886999:0;rm functions.el \#init.el\# mappings.el mappings.el\~ packages.el test_init.el 
+: 1603887000:0;la
+: 1603887048:0;emacs init.org
+: 1603887081:0;la
+: 1603887294:0;emacs init.org
+: 1603887581:0;cd dotfiles/emacs
+: 1603887581:0;la
+: 1603887587:0;commit "emacs added init.org" && push

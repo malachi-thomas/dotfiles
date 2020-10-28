@@ -219,11 +219,11 @@
  "r f" 'counsel-recentf)
 
 (setq inhibit-startup-message t)
-(setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
 (setq show-paren-style 'expression)
 (setq enable-recursive-minibuffers t)
 (setq org-hide-emphasis-markers t)
 (setq make-backup-files nil)
+
 ;; (setq-default display-line-numbers-type 'visual)
 (setq-default display-line-numbers-current-absolute t)
 (setq-default display-line-numbers-width 1)
@@ -351,23 +351,25 @@
         (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org"))))
 
 (use-package iedit)
-(use-package general)
-(use-package which-key
-:ensure t
-:config
-(setq which-key-idle-delay 0.15)
-;; (setq which-key-idle-secondary-delay 0.05)
-(setq which-key-popup-type 'minibuffer)
+  (use-package general)
+  (use-package which-key
+  :ensure t
+  :config
+  (setq which-key-idle-delay 0.15)
+  ;; (setq which-key-idle-secondary-delay 0.05)
+  (setq which-key-popup-type 'minibuffer)
+  
+  (which-key-mode))
+          
+  (use-package projectile
+  :config
+  (projectile-mode +1)
+  (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map))
 
-(which-key-mode))
+  (use-package js2-mode)
+  (use-package rjsx-mode)
+  (use-package web-mode)
+  (use-package cl-lib)
 
-(use-package projectile
-:config
-(projectile-mode +1)
-(define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
-(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map))
-
-(use-package js2-mode)
-(use-package rjsx-mode)
-(use-package web-mode)
-(use-package cl-lib)
+;;(use-package evil-little-word)
