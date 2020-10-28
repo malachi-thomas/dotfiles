@@ -328,8 +328,7 @@
 
 (use-package magit
   :ensure t
-  :config
-  (magit-toggle-buffer-lock))
+  :config)
 (use-package evil-magit)
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
@@ -382,6 +381,7 @@
  "h k" 'describe-key
  "h m" 'describe-mode
  "c d" 'cd
+ "c b" 'counsel-ibuffer
  "r f" 'counsel-recentf
  "g s" 'magit-status
  )
