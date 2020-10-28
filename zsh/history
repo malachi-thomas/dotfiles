@@ -4801,3 +4801,10 @@ cd ~/.emacs.d/site-lisp/use-package\
 : 1603887581:0;cd dotfiles/emacs
 : 1603887581:0;la
 : 1603887587:0;commit "emacs added init.org" && push
+: 1603898220:0;la
+: 1603898276:0;cd ~/.config/emacs
+: 1603898278:0;rma *
+: 1603898280:0;la
+: 1603898286:0;rm .org-id-locations
+: 1603903618:0;dot
+: 1603903619:0;commit "emacs added init.org" && push

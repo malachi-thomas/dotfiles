@@ -177,46 +177,96 @@
   :config
   (format-all-mode))
 
+(use-package iedit)
+  (use-package general
+  :config
+  (general-evil-setup))
+  (use-package which-key
+  :ensure t
+  :config
+  (setq which-key-idle-delay 0.15)
+  ;; (setq which-key-idle-secondary-delay 0.05)
+  (setq which-key-popup-type 'minibuffer)
+  
+  (which-key-mode))
+          
+  (use-package projectile
+  :config
+  (projectile-mode +1)
+  (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map))
+
+  (use-package js2-mode)
+  (use-package rjsx-mode)
+  (use-package web-mode)
+  (use-package cl-lib)
+
+;;(use-package evil-little-word)
+
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
-(general-define-key
- :keymaps 'normal
- "C-s" 'save-buffer
- "C-w" 'delete-window
- ":" 'execute-extended-command
- "<M-left>" 'evil-window-left
- "<M-down>" 'evil-window-down
- "<M-up>" 'evil-window-up
- "<M-right>" 'evil-window-right
- "gd" 'lsp-find-implementation
- "u" 'undo-tree-undo
- "C-r" 'undo-tree-redo
- "n" 'evil-search-previous
- "N" 'evil-search-next
- "C-l" 'ma/avy-goto-line
- "C-f" 'ma/avy-goto-word-1
- "C-M-r" 'my/config-reload
- "/" 'swiper)
+    (general-def 'normal
+     "C-s" 'save-buffer
+     "C-w" 'delete-window
+     ":" 'execute-extended-command
+     "<M-left>" 'evil-window-left
+     "<M-down>" 'evil-window-down
+     "<M-up>" 'evil-window-up
+     "<M-right>" 'evil-window-right
+     "gd" 'lsp-find-implementation
+     "u" 'undo-tree-undo
+     "C-r" 'undo-tree-redo
+     "n" 'evil-search-previous
+     "N" 'evil-search-next
+     "C-l" 'ma/avy-goto-line
+     "C-f" 'ma/avy-goto-word-1
+     "C-M-r" 'my/config-reload
+     "/" 'swiper)
 
-(general-define-key
- :keymaps 'insert
- "<backspace>" 'smart-hungry-delete-backward-char
- "C-s" 'emmet-expand-line
- "C-SPC" 'yas-maybe-expand
- "<up>" 'evil-previous-line
- "<down>" 'evil-next-line)
+    (general-def 'insert
+     "<backspace>" 'smart-hungry-delete-backward-char
+     "C-s" 'emmet-expand-line
+     "C-SPC" 'yas-maybe-expand
+     "<up>" 'evil-previous-line
+     "<down>" 'evil-next-line)
 
-(general-define-key
- :prefix "SPC"
- :keymaps 'normal
- "SPC" 'counsel-fzf
- "s n" 'yas-new-snippet
- "f f" 'find-file
- "h v" 'describe-variable
- "h k" 'describe-key
- "h m" 'describe-mode
- "c d" 'cd
- "r f" 'counsel-recentf)
+(defun my/evil-multiedit-next-match ()
+  (interactive)
+  (evil-multiedit-match-and-next)
+  (evil-multiedit-next)
+  (recenter))
+(defun my/evil-multiedit-skip-next ()
+(interactive)
+  (evil-multiedit-toggle-or-restrict-region)
+  (evil-multiedit-next)
+  (recenter))
+(defun my/evil-multiedit-prev-match ()
+  (interactive)
+  (evil-multiedit-match-and-prev)
+  (evil-multiedit-prev)
+  (recenter)
+)
+
+    (general-def evil-multiedit-state-map
+    "C-n" 'my/evil-multiedit-next-match
+    "C-p" 'evil-multiedit-match-and-prev
+    "C-s" 'my/evil-multiedit-skip-next
+    "n" 'evil-multiedit-next
+    "N" 'evil-multiedit-prev
+    "<down>" 'evil-multiedit-next
+    "<up>" 'evil-multiedit-prev
+    )
+
+    (general-def 'normal
+     :prefix "SPC"
+     "SPC" 'counsel-fzf
+     "s n" 'yas-new-snippet
+     "f f" 'find-file
+     "h v" 'describe-variable
+     "h k" 'describe-key
+     "h m" 'describe-mode
+     "c d" 'cd
+     "r f" 'counsel-recentf)
 
 (setq inhibit-startup-message t)
 (setq show-paren-style 'expression)
@@ -349,27 +399,3 @@
     (when (string-equal (buffer-file-name)
       (expand-file-name "~/dotfiles/emacs/init.org"))
         (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org"))))
-
-(use-package iedit)
-  (use-package general)
-  (use-package which-key
-  :ensure t
-  :config
-  (setq which-key-idle-delay 0.15)
-  ;; (setq which-key-idle-secondary-delay 0.05)
-  (setq which-key-popup-type 'minibuffer)
-  
-  (which-key-mode))
-          
-  (use-package projectile
-  :config
-  (projectile-mode +1)
-  (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
-  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map))
-
-  (use-package js2-mode)
-  (use-package rjsx-mode)
-  (use-package web-mode)
-  (use-package cl-lib)
-
-;;(use-package evil-little-word)
