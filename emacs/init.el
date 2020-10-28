@@ -177,140 +177,6 @@
   :config
   (format-all-mode))
 
-(use-package iedit)
-  (use-package general
-  :config
-  (general-evil-setup))
-  (use-package which-key
-  :ensure t
-  :config
-  (setq which-key-idle-delay 0.15)
-  ;; (setq which-key-idle-secondary-delay 0.05)
-  (setq which-key-popup-type 'minibuffer)
-  
-  (which-key-mode))
-          
-  (use-package projectile
-  :config
-  (projectile-mode +1)
-  (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
-  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map))
-
-  (use-package js2-mode)
-  (use-package rjsx-mode)
-  (use-package web-mode)
-  (use-package cl-lib)
-
-;;(use-package evil-little-word)
-
-(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
-
-    (general-def 'normal
-     "C-s" 'save-buffer
-     "C-w" 'delete-window
-     ":" 'execute-extended-command
-     "<M-left>" 'evil-window-left
-     "<M-down>" 'evil-window-down
-     "<M-up>" 'evil-window-up
-     "<M-right>" 'evil-window-right
-     "gd" 'lsp-find-implementation
-     "u" 'undo-tree-undo
-     "C-r" 'undo-tree-redo
-     "n" 'evil-search-previous
-     "N" 'evil-search-next
-     "C-l" 'ma/avy-goto-line
-     "C-f" 'ma/avy-goto-word-1
-     "C-M-r" 'my/config-reload
-     "/" 'swiper)
-
-    (general-def 'insert
-     "<backspace>" 'smart-hungry-delete-backward-char
-     "C-s" 'emmet-expand-line
-     "C-SPC" 'yas-maybe-expand
-     "<up>" 'evil-previous-line
-     "<down>" 'evil-next-line)
-
-(defun my/evil-multiedit-next-match ()
-  (interactive)
-  (evil-multiedit-match-and-next)
-  (evil-multiedit-next)
-  (recenter))
-(defun my/evil-multiedit-skip-next ()
-(interactive)
-  (evil-multiedit-toggle-or-restrict-region)
-  (evil-multiedit-next)
-  (recenter))
-(defun my/evil-multiedit-prev-match ()
-  (interactive)
-  (evil-multiedit-match-and-prev)
-  (evil-multiedit-prev)
-  (recenter)
-)
-
-    (general-def evil-multiedit-state-map
-    "C-n" 'my/evil-multiedit-next-match
-    "C-p" 'evil-multiedit-match-and-prev
-    "C-s" 'my/evil-multiedit-skip-next
-    "n" 'evil-multiedit-next
-    "N" 'evil-multiedit-prev
-    "<down>" 'evil-multiedit-next
-    "<up>" 'evil-multiedit-prev
-    )
-
-    (general-def 'normal
-     :prefix "SPC"
-     "SPC" 'counsel-fzf
-     "s n" 'yas-new-snippet
-     "f f" 'find-file
-     "h v" 'describe-variable
-     "h k" 'describe-key
-     "h m" 'describe-mode
-     "c d" 'cd
-     "r f" 'counsel-recentf)
-
-(setq inhibit-startup-message t)
-(setq show-paren-style 'expression)
-(setq enable-recursive-minibuffers t)
-(setq org-hide-emphasis-markers t)
-(setq make-backup-files nil)
-
-;; (setq-default display-line-numbers-type 'visual)
-(setq-default display-line-numbers-current-absolute t)
-(setq-default display-line-numbers-width 1)
-(setq-default display-line-numbers-widen t)
-(setq-default tab-width 2)
-(setq-default indent-tabs-mode nil)
-
-(scroll-bar-mode -1) ; Disable visible scrollbar
-(tool-bar-mode -1) ; Disable the toolbar
-(tooltip-mode -1) ; Disable tooltips
-(set-fringe-mode 10) ; Give some breathing room
-(menu-bar-mode -1) ; Disable the menu bar
-(set-face-attribute 'default nil :font "Hack" :height 110)
-;; (show-paren-mode t)
-(electric-pair-mode t)
-(global-subword-mode 1)
-
-;; org title font size
-(dolist (face '((org-level-1 . 1.4)
-                (org-level-2 . 1.35)
-                (org-level-3 . 1.3)
-                (org-level-4 . 1.25)
-                (org-level-5 . 1.2)
-                (org-level-6 . 1.15)
-                (org-level-7 . 1.1)
-                (org-level-8 . 1.05))))
-;; org bulleted list start with a •
-
-(font-lock-add-keywords 'org-mode
-                        '(("^ *\\([-]\\) "
-                           (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))
-
-(add-hook 'text-mode-hook #'display-line-numbers-mode)
-(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
-(add-hook 'prog-mode-hook #'display-line-numbers-mode)
-(add-hook 'before-save-hook 'format-all-buffer)
-
 (evil-define-motion evil-next-line (count)
   "Move the cursor COUNT lines down."
   :type line
@@ -366,7 +232,7 @@
      :end end))
   (recenter))
 
-(defun avy-goto-word-1 (char &optional arg beg end symbol)
+  (defun avy-goto-word-1 (char &optional arg beg end symbol)
   (interactive (list (read-char "char: " t)
                      current-prefix-arg))
   (avy-with avy-goto-word-1
@@ -387,6 +253,8 @@
                 :beg beg
                 :end end)))
                 (recenter))
+                
+
 
 
 (defun ma/avy-goto-line ()
@@ -394,8 +262,170 @@
   (avy-goto-line)
   (recenter))
 
-(defun my/config-reload ()
+(defun my/evil-multiedit-next-match ()
+  (interactive)
+  (evil-multiedit-match-and-next)
+  (evil-multiedit-next)
+  (recenter))
+
+(defun my/evil-multiedit-prev-match ()
+  (interactive)
+  (evil-multiedit-match-and-prev)
+  (evil-multiedit-prev)
+  (recenter))
+
+(defun my/evil-multiedit-next ()
+  (interactive)
+  (evil-multiedit-next)
+  (recenter))
+
+(defun my/evil-multiedit-prev ()
+  (interactive)
+  (evil-multiedit-prev)
+  (recenter))
+
+(defun my/reload-config ()
   (interactive)
     (when (string-equal (buffer-file-name)
       (expand-file-name "~/dotfiles/emacs/init.org"))
         (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org"))))
+ 
+(defun my/indent ()
+  (interactive)
+  (setq-local indent-tabs-mode nil)
+  (setq-local c-basic-offset  2)
+  (setq-local coffee-tab-width  2)
+  (setq-local javascript-indent-level  2)
+  (setq-local js-indent-level  2)
+  (setq-local js2-basic-offset  2)
+  (setq-local web-mode-markup-indent-offset  2)
+  (setq-local web-mode-css-indent-offset  2)
+  (setq-local web-mode-code-indent-offset  2)
+  (setq-local css-indent-offset 2))
+
+(use-package general)
+
+  (use-package which-key
+  :ensure t
+  :config
+  (setq which-key-idle-delay 0.15)
+  (setq which-key-popup-type 'minibuffer)
+  (which-key-mode))
+          
+  (use-package projectile
+  :config
+  (projectile-mode +1)
+  (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map))
+
+  (use-package js2-mode)
+  (use-package rjsx-mode)
+  (use-package web-mode)
+  (use-package cl-lib)
+
+(use-package smartparens
+  :ensure t)
+
+(use-package magit
+  :ensure t
+  :config
+  (magit-toggle-buffer-lock))
+(use-package evil-magit)
+
+(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
+
+(general-def 'normal
+ "C-s" 'save-buffer
+ "C-w" 'delete-window
+ ":" 'execute-extended-command
+ "<M-left>" 'evil-window-left
+ "<M-down>" 'evil-window-down
+ "<M-up>" 'evil-window-up
+ "<M-right>" 'evil-window-right
+ "gd" 'lsp-find-implementation
+ "u" 'undo-tree-undo
+ "C-r" 'undo-tree-redo
+ "n" 'evil-search-previous
+ "N" 'evil-search-next
+ "C-l" 'ma/avy-goto-line
+ "C-f" 'ma/avy-goto-word-1
+ "C-M-r" 'my/reload-config
+ "/" 'swiper
+ )
+
+(general-def 'insert
+ "<backspace>" 'smart-hungry-delete-backward-char
+ "RET" 'newline-and-indent
+ "C-s" 'emmet-expand-line
+ "C-SPC" 'yas-expand
+ "<up>" 'evil-previous-line
+ "<down>" 'evil-next-line
+ )
+
+
+(general-def evil-multiedit-state-map
+"C-n" 'my/evil-multiedit-next-match
+"C-p" 'my/evil-multiedit-prev-match
+"C-s" 'evil-multiedit-toggle-or-restrict-region
+"n" 'my/evil-multiedit-next
+"N" 'my/evil-multiedit-prev
+"<down>" 'my/evil-multiedit-next
+"<up>" 'my/evil-multiedit-prev
+)
+
+(general-def 'normal
+ :prefix "SPC"
+ "SPC" 'counsel-fzf
+ "s n" 'yas-new-snippet
+ "f f" 'find-file
+ "h v" 'describe-variable
+ "h k" 'describe-key
+ "h m" 'describe-mode
+ "c d" 'cd
+ "r f" 'counsel-recentf
+ "g s" 'magit-status
+ )
+
+(setq inhibit-startup-message t)
+(setq show-paren-style 'expression)
+(setq enable-recursive-minibuffers t)
+(setq org-hide-emphasis-markers t)
+(setq make-backup-files nil)
+
+(setq-default display-line-numbers-width 1)
+(setq-default display-line-numbers-widen t)
+
+(scroll-bar-mode -1) ; Disable visible scrollbar
+(tool-bar-mode -1) ; Disable the toolbar
+(tooltip-mode -1) ; Disable tooltips
+(set-fringe-mode 10) ; Give some breathing room
+(menu-bar-mode -1) ; Disable the menu bar
+(set-face-attribute 'default nil :font "Hack" :height 110)
+;; (show-paren-mode t)
+;;(electric-pair-mode t)
+(global-subword-mode 1)
+
+;; org title font size
+(dolist (face '((org-level-1 . 1.4)
+                (org-level-2 . 1.35)
+                (org-level-3 . 1.3)
+                (org-level-4 . 1.25)
+                (org-level-5 . 1.2)
+                (org-level-6 . 1.15)
+                (org-level-7 . 1.1)
+                (org-level-8 . 1.05))))
+;; org bulleted list start with a •
+
+(font-lock-add-keywords 'org-mode
+                        '(("^ *\\([-]\\) "
+                           (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))
+
+(add-hook 'text-mode-hook #'display-line-numbers-mode)
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+(add-hook 'prog-mode-hook #'display-line-numbers-mode)
+(add-hook 'prog-mode-hook 
+  (lambda ()
+    (rainbow-delimiters-mode)
+    (display-line-numbers-mode)
+    (my/indent)))
+(add-hook 'before-save-hook 'format-all-buffer)
