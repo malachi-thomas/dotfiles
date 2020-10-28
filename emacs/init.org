@@ -1,4 +1,10 @@
-(require 'package)
+#+PROPERTY: header-args:emacs-lisp :tangle ./init.el :mkdirp yes
+
+* Package-archives
+
+  #+begin_src emacs-lisp
+  
+  (require 'package)
 (setq package-archives '(
                          ("melpa" . "https://melpa.org/packages/")
                          ("org" . "https://orgmode.org/elpa/")
@@ -24,6 +30,14 @@
 (require 'use-package)
 (setq use-package-always-ensure t)
 
+  #+end_src
+
+* Packages
+** UI packages
+   
+*** =all-the-icons=
+   #+begin_src emacs-lisp
+
 (use-package all-the-icons
   :ensure t
   :config
@@ -37,6 +51,10 @@
   (setq telephone-line-height 24
         telephone-line-evil-use-short-tag t)
   (telephone-line-mode 1))
+
+   #+end_src
+
+#+begin_src emacs-lisp
 
 (use-package js2-mode)
 (use-package rjsx-mode)
@@ -205,6 +223,13 @@
 (add-to-list 'org-structure-template-alist '("js" . "src javascipt"))
 (add-to-list 'org-structure-template-alist '("py" . "src python"))
 
+#+end_src
+
+
+* Mappings
+  
+#+begin_src emacs-lisp
+
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
 (general-define-key
@@ -241,6 +266,12 @@
  "h m" 'describe-mode
  "r c" 'eval-buffer
  "r f" 'counsel-recentf)
+
+#+end_src
+
+* Config
+  
+#+begin_src emacs-lisp
 
 (electric-pair-mode t)
 
@@ -279,6 +310,11 @@
                         '(("^ *\\([-]\\) "
                            (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))
 
+#+end_src
+
+* Hooks
+
+#+begin_src emacs-lisp
 (add-hook 'text-mode-hook #'display-line-numbers-mode)
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
 ;; (add-hook 'window-setup-hook 'dashboard-refresh-buffer)
@@ -291,6 +327,13 @@
       ;; (org-babel-tangle))))
 ;; 
 (add-hook 'org-mode-hook (lambda () (add-hook 'after-save-hook #'my/config-reload)))
+
+
+#+end_src
+
+* Functions
+  
+  #+begin_src emacs-lisp
 
 (evil-define-motion evil-next-line (count)
   "Move the cursor COUNT lines down."
@@ -386,6 +429,13 @@
     (when (string-equal (buffer-file-name)
       (expand-file-name "~/dotfiles/emacs/init.org"))
         (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org"))))
+        
+
+  #+end_src
+
+* Testing
+
+  #+begin_src emacs-lisp
 
 (use-package iedit)
 (use-package general)
@@ -396,3 +446,8 @@
 (setq which-key-side-window-max-height 0.25)
 (setq which-key-idle-delay 0.2)
 (setq which-key-prefix-prefix "+" )
+
+
+
+  #+end_src
+

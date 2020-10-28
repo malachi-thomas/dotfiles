@@ -40,17 +40,8 @@
 (use-package evil
   :config
   (evil-mode 1)
-  (evil-set-initial-state 'help-mode 'normal)
-  (evil-define-key 'insert 'global
-    (kbd "<up>") 'evil-previous-line
-    (kbd "<down>") 'evil-next-line)
-  (evil-define-key 'normal 'global
-    ;; (kbd "n") 'evil-search-previous
-    ;; (kbd "N") 'evil-search-next
-    (kbd "<M-left>") 'evil-window-left
-    (kbd "<M-down>") 'evil-window-down
-    (kbd "<M-up>") 'evil-window-up
-    (kbd "<M-right>") 'evil-window-right))
+  (evil-set-initial-state 'help-mode 'normal))
+
 ;; extra
 (use-package counsel
   :config
@@ -59,7 +50,12 @@
     (kbd "SPC r f") 'counsel-recentf
     (kbd "SPC c b") 'counsel-switch-buffer))
 
-(use-package all-the-icons); do this to install the icons :all-the-icons-install-fonts t
+(use-package all-the-icons
+  :ensure t
+  :config
+  (when (not (member "all-the-icons" (font-family-list)))
+    (all-the-icons-install-fonts t)))
+
 (use-package cl-lib)
 
 (use-package doom-themes
@@ -79,9 +75,7 @@
          (c-mode-hook . lsp-deferred)
          (css-mode-hook . lsp-deferred))
   :config
-  (setq lsp-keymap-prefix "C-l")
-  (evil-define-key 'normal 'global
-    (kbd "gd") 'lsp-find-implementation))
+  (setq lsp-keymap-prefix "C-l"))
 
 
 (use-package company
@@ -103,16 +97,11 @@
 
 (use-package undo-tree
   :config
-  (global-undo-tree-mode 1)
-  (evil-define-key 'normal 'global
-    (kbd "u") 'undo-tree-undo
-    (kbd "C-r") 'undo-tree-redo))
+  (global-undo-tree-mode 1))
 
 (use-package ivy
   :config
-  (setq ivy-use-virtual-buffers t)
-  (evil-define-key 'normal 'global
-    (kbd "/") 'swiper))
+  (setq ivy-use-virtual-buffers t))
 
 ;; (use-package ivy-prescient
 ;;   :after counsel
@@ -121,7 +110,6 @@
 
 (use-package org
   :hook ((org-mode-hook . (lambda () (add-hook 'after-save-hook #'reload-config))))
-
   :config
   (setq org-ellipsis " ▾"))
 
@@ -145,39 +133,19 @@
   (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
   (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map))
 
-;; (use-package dashboard
-;;   :ensure t
-;;   :config
-;;   (dashboard-setup-startup-hook)
-;;   (setq dashboard-set-heading-icons t)
-;;   (setq dashboard-set-file-icons t)
-;;   (setq dashboard-items '((recents  . 5)
-;;                           (projects . 5)
-;;                           (registers . 5)))
-;;   (evil-define-key 'normal dashboard-mode-map
-;;     (kbd "<down>") 'widget-forward
-;;     (kbd "<up>") 'widget-backward))
-
-
 (use-package emmet-mode
   :hook ((sgml-mode-hook . emmet-mode)
-         (css-mode-hook . emmet-mode))
-  :config
-  (setq emmet-self-closing-tag-style "/")
-  (setq emmet-expand-jsx-className? t)
-  (setq emmet-move-cursor-between-quotes t)
-  (evil-define-key 'normal 'global
-    (kbd "C-s") 'emmet-expand-line))
+         (css-mode-hook . emmet-mode)))
+:config
+(setq emmet-self-closing-tag-style "/")
+(setq emmet-expand-jsx-className? t)
+(setq emmet-move-cursor-between-quotes t)
 
 (use-package yasnippet
   :config
   (yas-global-mode 1)
   (setq yas-snippet-dirs '("~/dotfiles/emacs/snippets"))
-  (yas-reload-all)
-  (evil-define-key 'normal 'global
-    (kbd "SPC s n") 'yas-new-snippet)
-  (evil-define-key 'insert 'global
-    (kbd "C-SPC") yas-maybe-expand))
+  (yas-reload-all))
 
 (use-package evil-multiedit
   :config

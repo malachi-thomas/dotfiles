@@ -4776,3 +4776,6 @@ cd ~/.emacs.d/site-lisp/use-package\
 : 1603840526:0;dat
 : 1603840529:0;dot
 : 1603840547:0;commit "emacs  testing genarel.el" && push
+: 1603876495:0;emacs -q -l ~/dotfiles/emacs/test_init.el
+: 1603879316:0;dot
+: 1603879337:0;commit "emacs added init.org" && push

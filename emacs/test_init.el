@@ -24,20 +24,6 @@
 (require 'use-package)
 (setq use-package-always-ensure t)
 
-(use-package all-the-icons
-  :ensure t
-  :config
-  (when (not (member "all-the-icons" (font-family-list)))
-    (all-the-icons-install-fonts t)))
-   
-(use-package telephone-line
-  :config
-  (setq telephone-line-primary-right-separator 'telephone-line-abs-left
-        telephone-line-secondary-right-separator 'telephone-line-abs-hollow-left)
-  (setq telephone-line-height 24
-        telephone-line-evil-use-short-tag t)
-  (telephone-line-mode 1))
-
 (use-package js2-mode)
 (use-package rjsx-mode)
 (use-package web-mode)
@@ -55,6 +41,11 @@
     (kbd "SPC r f") 'counsel-recentf
     (kbd "SPC c b") 'counsel-switch-buffer))
 
+(use-package all-the-icons
+  :ensure t
+  :config
+  (when (not (member "all-the-icons" (font-family-list)))
+    (all-the-icons-install-fonts t)))
 
 (use-package cl-lib)
 
@@ -109,6 +100,7 @@
 ;;   (ivy-prescient-mode))
 
 (use-package org
+  :hook ((org-mode-hook . (lambda () (add-hook 'after-save-hook #'reload-config))))
   :config
   (setq org-ellipsis " ▾"))
 
@@ -118,6 +110,13 @@
   :custom
   (org-bullets-bullet-list '("◉" "○" "●" "○" "●" "○" "●")))
 
+(use-package telephone-line
+  :config
+  (setq telephone-line-primary-right-separator 'telephone-line-abs-left
+        telephone-line-secondary-right-separator 'telephone-line-abs-hollow-left)
+  (setq telephone-line-height 24
+        telephone-line-evil-use-short-tag t)
+  (telephone-line-mode 1))
 
 (use-package projectile
   :config
@@ -242,8 +241,6 @@
  "r c" 'eval-buffer
  "r f" 'counsel-recentf)
 
-(electric-pair-mode t)
-
 (setq inhibit-startup-message t)
 (setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
 (setq show-paren-style 'expression)
@@ -290,7 +287,7 @@
     ;; (let ((org-confirm-babel-evaluate nil))
       ;; (org-babel-tangle))))
 ;; 
-(add-hook 'org-mode-hook (lambda () (add-hook 'after-save-hook #'my/config-reload)))
+;; (add-hook 'org-mode-hook (lambda () (add-hook 'after-save-hook #'ma/org-babel-tangle-config)))
 
 (evil-define-motion evil-next-line (count)
   "Move the cursor COUNT lines down."
@@ -383,16 +380,16 @@
 
 (defun my/config-reload ()
   (interactive)
-    (when (string-equal (buffer-file-name)
-      (expand-file-name "~/dotfiles/emacs/init.org"))
-        (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org"))))
+  (org-babel-load-file (expand-file-name "~/.emacs.d/config.org")))
+
 
 (use-package iedit)
+
 (use-package general)
-(use-package which-key
-  :ensure t
-  :init (which-key-mode))
-(which-key-setup-minibuffer)
-(setq which-key-side-window-max-height 0.25)
-(setq which-key-idle-delay 0.2)
-(setq which-key-prefix-prefix "+" )
+(message "hello")
+(message "hello")
+(message "hello")
+(message "hello")
+(message "hello")
+(message "hello")
+(message "hello")

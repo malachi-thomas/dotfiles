@@ -1,40 +1,36 @@
+(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
 (general-define-key
  :keymaps 'normal
- (kbd "C-s") 'save-buffer
- (kbd "C-w") 'delete-window
- (kbd ":") 'execute-extended-command
- (kbd "ESC") 'keyboard-escape-quit)
+ "C-s" 'save-buffer
+ "C-w" 'delete-window
+ ":" 'execute-extended-command
+ "SPC" nil
+ "<M-left>" 'evil-window-left
+ "<M-down>" 'evil-window-down
+ "<M-up>" 'evil-window-up
+ "<M-right>" 'evil-window-right
+ "gd" 'lsp-find-implementation
+ "u" 'undo-tree-undo
+ "C-r" 'undo-tree-redo
+ "n" 'evil-search-previous
+ "N" 'evil-search-next
+ "SPC s n" 'yas-new-snippet
+ "/" 'swiper)
 
 (general-define-key
- :keymaps 'help-mode-map
- (kbd ":") 'cd)
-;; (general-define-key
-;;  :prefix "SPC"
-;;  (kbd "c d") 'cd
-;;  (kbd "f f") 'find-file
-;;  (kbd "h v") 'describe-variable
-;;  (kbd "h k") 'describe-key
-;;  (kbd "h m") 'describe-mode
-;;  (kbd "r c") 'eval-buffer
-;;  (kbd "r f") 'counsel-recentf)
+ :keymaps 'insert
+ "C-s" 'emmet-expand-line
+ "C-SPC" 'yas-maybe-expand
+ "<up>" 'evil-previous-line
+ "<down>" 'evil-next-line)
 
-(general-create-definer ma/leader
-  :prefix "SPC")
-
-;; (leader
-;;   :state 'normal
-
-
-(ma/leader 'normal
-  (kbd "c d") 'cd
-  (kbd "f f") 'find-file
-  (kbd "h v") 'describe-variable
-  (kbd "h k") 'describe-key
-  (kbd "h m") 'describe-mode
-  (kbd "r c") 'eval-buffer
-  (kbd "r f") 'counsel-recentf)
-;; (ma/leader 'normal
-;;   "a" 'org-agenda
-;;   "b" 'counsel-bookmark
-;;   "c" 'org-capture)
+(general-define-key
+ :prefix "SPC"
+ :keymaps 'normal
+ "f f" 'find-file
+ "h v" 'describe-variable
+ "h k" 'describe-key
+ "h m" 'describe-mode
+ "r c" 'eval-buffer
+ "r f" 'counsel-recentf)
