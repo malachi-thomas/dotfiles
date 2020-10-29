@@ -14,7 +14,7 @@ super + d
   rofi -show run
 
 super + e
-  emacs -l ~/dotfiles/emacs/init.el
+  emacsclient -a "" -c -e '(org-babel-load-file "~/dotfiles/emacs/init.org")'
 
 super + t
   alacritty

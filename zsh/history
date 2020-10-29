@@ -4808,3 +4808,50 @@ cd ~/.emacs.d/site-lisp/use-package\
 : 1603898286:0;rm .org-id-locations
 : 1603903618:0;dot
 : 1603903619:0;commit "emacs added init.org" && push
+: 1603919510:0;echo $SHELL
+: 1603927364:0;javascript
+: 1603927365:0;la
+: 1603927372:0;rma .log
+: 1603927374:0;la
+: 1603927378:0;emacs test.js
+: 1603927393:0;la
+: 1603929343:0;emacs test.js
+: 1603978746:0;emacs -v
+: 1603978754:0;emacs --help
+: 1603978761:0;emacs --version
+: 1603978948:0;emacsclient
+: 1603978952:0;emacsclient --help
+: 1603978978:0;emacsclient -a "" -c
+: 1603979053:0;emacsclient -help
+: 1603979098:0;cp ~/dotfiles/emacs/init.el ~/.emacs
+: 1603979103:0;emacsclient -a "" -c
+: 1603979207:0;emacsclient -c -l ~/.emacs
+: 1603979238:0;emacsclient --help
+: 1603979284:0;emacsclient -a "" -c
+: 1603979287:0;la
+: 1603979293:0;cd .emacs.d
+: 1603979294:0;la
+: 1603979308:0;cp ~/dotfiles/emacs/init.el ~/.emacs.d/init.el
+: 1603979310:0;emacsclient -a "" -c
+: 1603979352:0;la
+: 1603979357:0;..
+: 1603979358:0;la
+: 1603979369:0;v .emacs
+: 1603979387:0;emacsclient -a "" -c
+: 1603979530:0;emacsclient -a "" -c -e ~/dotfiles/emacs/init.el
+: 1603979553:0;emacs
+: 1603979572:0;emac
+: 1603980281:0;emacsclient -a "" -c -e '(org-babel-load-file)'
+: 1603980300:0;emacsclient -a "" -c -e '(org-babel-load-file "~/dotfiles/emacs/init.org")'
+: 1603980423:0;emacsclient -a "" -c -e '
+: 1603980425:0;sxh
+: 1603980446:0;bin
+: 1603980450:0;v startup.sh
+: 1603980477:0;bin
+: 1603980479:0;v startup.sh
+: 1603982228:0;cd dotfiles/emacs
+: 1603982228:0;la
+: 1603982234:0;rm \#testing.el\# testing.el\~ 
+: 1603982235:0;la
+: 1603982244:0;rm test.el
+: 1603982245:0;la

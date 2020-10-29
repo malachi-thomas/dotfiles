@@ -3,7 +3,7 @@
                          ("melpa" . "https://melpa.org/packages/")
                          ("org" . "https://orgmode.org/elpa/")
                          ("elpa" . "https://elpa.gnu.org/packages/")))
-(package-initialize)
+;; (package-initialize)
 (unless package-archive-contents
   (package-refresh-contents))
 (unless (package-installed-p 'use-package)
@@ -124,11 +124,35 @@
   :config
   (selectrum-prescient-mode))
 
+(use-package general
+  :ensure t)
+
+(use-package which-key
+:ensure t
+:config
+(setq which-key-idle-delay 0.15)
+(setq which-key-popup-type 'minibuffer)
+(which-key-mode))
+
+;;(use-package aggressive-indent
+  ;;:ensure t
+  ;;:config
+  ;;(global-aggressive-indent-mode 1))
+
+
+
+
+
 
 
 
 
 (use-package company
+  ;;:bind (:map company-active-map
+    ;;("<tab>" . company-complete-selection)
+    ;;("<up>" . company-select-previous)
+    ;;("<down>" . company-select-next-or-abort)
+    ;;)
   :config
   (global-company-mode)
   (setq company-idle-delay 0)
@@ -137,20 +161,21 @@
   (company-tng-configure-default))
 
 (use-package company-prescient
-  :config
-  (company-prescient-mode))
+  :after lsp-mode)
+
+(use-package company-box
+  :ensure t
+  :after company-mode)
+
+(use-package company-lsp
+  :ensure t
+  :requires company-mode lsp-mode
+  :commands company-lsp
+  :config (push 'company-lsp company-backends))
 
 (use-package lsp-mode
   :ensure t
-  :defer t
-  :commands (lsp lsp-deferred)
-  :hook ((html-mode-hook . lsp-deferred)
-         (web-mode-hook . lsp-deferred)
-         (js2-mode-hook . lsp-deferred)
-         (c-mode-hook . lsp-deferred)
-         (css-mode-hook . lsp-deferred))
-  :config
-  (setq lsp-keymap-prefix "C-l"))
+  :commands (lsp))
 
 (use-package emmet-mode
   :hook ((sgml-mode-hook . emmet-mode)
@@ -176,6 +201,19 @@
 (use-package format-all
   :config
   (format-all-mode))
+
+(use-package smartparens
+  :ensure t)
+
+(use-package tree-sitter
+  :ensure t)
+
+(use-package tree-sitter-langs
+  :ensure t
+  :requires tree-sitter
+  :hook (tree-sitter-after-on-hook . tree-sitter-hl-mode)
+  :config
+  (global-tree-sitter-mode))
 
 (evil-define-motion evil-next-line (count)
   "Move the cursor COUNT lines down."
@@ -286,9 +324,8 @@
 
 (defun my/reload-config ()
   (interactive)
-    (when (string-equal (buffer-file-name)
-      (expand-file-name "~/dotfiles/emacs/init.org"))
-        (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org"))))
+  (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org")))
+  
  
 (defun my/indent ()
   (interactive)
@@ -303,33 +340,11 @@
   (setq-local web-mode-code-indent-offset  2)
   (setq-local css-indent-offset 2))
 
-(use-package general)
+(defun my/lsp-config ()
+  (interactive)
+)
 
-  (use-package which-key
-  :ensure t
-  :config
-  (setq which-key-idle-delay 0.15)
-  (setq which-key-popup-type 'minibuffer)
-  (which-key-mode))
-          
-  (use-package projectile
-  :config
-  (projectile-mode +1)
-  (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
-  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map))
-
-  (use-package js2-mode)
-  (use-package rjsx-mode)
-  (use-package web-mode)
-  (use-package cl-lib)
-
-(use-package smartparens
-  :ensure t)
-
-(use-package magit
-  :ensure t
-  :config)
-(use-package evil-magit)
+(load "~/dotfiles/emacs/testing.el")
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
@@ -357,10 +372,10 @@
  "RET" 'newline-and-indent
  "C-s" 'emmet-expand-line
  "C-SPC" 'yas-expand
- "<up>" 'evil-previous-line
+ "<up>"'evil-previous-line
  "<down>" 'evil-next-line
+ "TAB" 'company-indent-or-complete-common
  )
-
 
 (general-def evil-multiedit-state-map
 "C-n" 'my/evil-multiedit-next-match
@@ -384,6 +399,8 @@
  "c b" 'counsel-ibuffer
  "r f" 'counsel-recentf
  "g s" 'magit-status
+ "<down>" 'split-window-below
+ "<right>" 'split-window-right
  )
 
 (setq inhibit-startup-message t)
@@ -391,6 +408,7 @@
 (setq enable-recursive-minibuffers t)
 (setq org-hide-emphasis-markers t)
 (setq make-backup-files nil)
+(blink-cursor-mode 0)
 
 (setq-default display-line-numbers-width 1)
 (setq-default display-line-numbers-widen t)
@@ -423,9 +441,28 @@
 (add-hook 'text-mode-hook #'display-line-numbers-mode)
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
+(add-hook 'prog-mode-hook 'company-mode)
+(add-hook 'company-mode-hook 'company-box-mode)
+
+(add-hook 'js-mode-hook (lambda ()
+  (lsp)
+  (lsp-ui-doc-mode)
+  (lsp-enable-which-key-integration)
+  (setq-local lsp-ui-peek-enable)
+  (setq-local lsp-log-io nil)
+  (setq-local lsp-signature-auto-activate t)
+  ;;(my/indent)
+  ))
+;;(add-hook 'html-mode-hook #'lsp)
+;;(add-hook 'web-mode-hook #'lsp)
+;;(add-hook 'js2-mode-hook #'lsp)
+;;(add-hook 'c-mode-hook #'lsp)
+;;(add-hook 'css-mode-hook #'lsp)
+
 (add-hook 'prog-mode-hook 
   (lambda ()
     (rainbow-delimiters-mode)
     (display-line-numbers-mode)
+    (smartparens-mode)
     (my/indent)))
 (add-hook 'before-save-hook 'format-all-buffer)

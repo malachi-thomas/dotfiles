@@ -9,7 +9,7 @@
                          ("melpa" . "https://melpa.org/packages/")
                          ("org" . "https://orgmode.org/elpa/")
                          ("elpa" . "https://elpa.gnu.org/packages/")))
-(package-initialize)
+;; (package-initialize)
 (unless package-archive-contents
   (package-refresh-contents))
 (unless (package-installed-p 'use-package)
@@ -36,7 +36,7 @@
 ** UI config
 *** =doom-theam=
     
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (use-package doom-themes
   :config
@@ -44,11 +44,11 @@
   (setq doom-themes-enable-italic t)
   (load-theme 'doom-gruvbox t))
     
-    #+end_src
+#+end_src
 
 *** =all-the-icons=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package all-the-icons
   :ensure t
@@ -56,11 +56,11 @@
   (when (not (member "all-the-icons" (font-family-list)))
     (all-the-icons-install-fonts t)))
     
-    #+end_src
+#+end_src
 
 *** =telephone-line=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (use-package telephone-line
   :config
@@ -70,11 +70,11 @@
         telephone-line-evil-use-short-tag t)
   (telephone-line-mode 1))
 
-    #+end_src
+#+end_src
 
 *** =dimmer=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package dimmer
   :config
@@ -82,35 +82,34 @@
   (setq dimmer-fraction 0.5)
   (dimmer-mode t))
     
-    #+end_src
+#+end_src
 
 ** Evil mode
 *** =evil=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (use-package evil
   :config
   (evil-mode 1)
   (evil-set-initial-state 'help-mode 'normal)
   (evil-set-initial-state 'info-mode 'normal))
-
     
-    #+end_src
+#+end_src
 
 *** =evil-commentary=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package evil-commentary
   :config
   (evil-commentary-mode))
 
-    #+end_src
+#+end_src
 
 *** =evil-multiedit=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package evil-multiedit
   :config
@@ -119,53 +118,53 @@
     (kbd "C-p") 'evil-multiedit-match-and-prev
     (kbd "C-a") 'evil-multiedit-match-all))
     
-    #+end_src
+#+end_src
 
 *** =evil-snipe=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package evil-snipe
   :config
   (evil-snipe-mode +1)
   (evil-snipe-override-mode +1))
  
-    #+end_src
+#+end_src
 
 *** =undo-tree=
     
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
     (use-package undo-tree
   :config
   (global-undo-tree-mode 1))
     
-    #+end_src
+#+end_src
 
 *** =swiper=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package swiper
 :ensure t)
     
-    #+end_src
+#+end_src
 
 ** Org mode
 *** =org=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package org
   :hook ((org-mode-hook . (lambda () (add-hook 'after-save-hook #'reload-config))))
   :config
   (setq org-ellipsis " ▾"))
     
-    #+end_src
+#+end_src
 
 *** =org-bullets=
     
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (use-package org-bullets
   :after org
@@ -173,11 +172,11 @@
   :custom
   (org-bullets-bullet-list '("◉" "○" "●" "○" "●" "○" "●")))
     
-    #+end_src
+#+end_src
 
 *** =org-tempo=
     
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (require 'org-tempo)
 (add-to-list 'org-structure-template-alist '("sh" . "src shell"))
@@ -185,40 +184,40 @@
 (add-to-list 'org-structure-template-alist '("js" . "src javascipt"))
 (add-to-list 'org-structure-template-alist '("py" . "src python"))
 
-    #+end_src
+#+end_src
 
 ** Cool tuff
 *** =counsel=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package counsel)
     
-    #+end_src
+#+end_src
 
 *** =saveplace=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
         (use-package saveplace
   :config
   (save-place-mode))
     
-    #+end_src
+#+end_src
 
 *** =smart-hungry-delete=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (use-package smart-hungry-delete
   :ensure t
   :defer nil
   :config (smart-hungry-delete-add-default-hooks))
 
-    #+end_src
+#+end_src
 
 *** =avy=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package avy
   :config
@@ -229,46 +228,96 @@
         '((avy-goto-char . avy-order-closest)
           (avy-goto-word-0 . avy-order-closest))))
     
-    #+end_src
+#+end_src
 
 *** =selectrum=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (use-package selectrum
   :config
   (selectrum-mode +1))
 
-    #+end_src
+#+end_src
 
 *** =selectrum-prescient=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (use-package selectrum-prescient
   :config
   (selectrum-prescient-mode))
 
-    #+end_src
+#+end_src
+
+*** =general=
+
+#+begin_src emacs-lisp
+
+(use-package general
+  :ensure t)
+    
+#+end_src
+
+*** =which-key=
+
+#+begin_src emacs-lisp
+
+  (use-package which-key
+  :ensure t
+  :config
+  (setq which-key-idle-delay 0.15)
+  (setq which-key-popup-type 'minibuffer)
+  (which-key-mode))
+    
+#+end_src
+
+*** =aggressive-indent=
+
+#+begin_src emacs-lisp
+    
+;;(use-package aggressive-indent
+  ;;:ensure t
+  ;;:config
+  ;;(global-aggressive-indent-mode 1))
+
+#+end_src
 
 *** ==
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
-    #+end_src
+#+end_src
 
 *** ==
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
-    #+end_src
+#+end_src
+
+*** ==
+
+#+begin_src emacs-lisp
+    
+#+end_src
+
+*** ==
+
+#+begin_src emacs-lisp
+    
+#+end_src
 
 ** Programming
 *** =company=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package company
+  ;;:bind (:map company-active-map
+    ;;("<tab>" . company-complete-selection)
+    ;;("<up>" . company-select-previous)
+    ;;("<down>" . company-select-next-or-abort)
+    ;;)
   :config
   (global-company-mode)
   (setq company-idle-delay 0)
@@ -276,39 +325,52 @@
   (setq company-selection-wrap-around t)
   (company-tng-configure-default))
     
-    #+end_src
+#+end_src
 
 *** =company-prescient=
     
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package company-prescient
-  :config
-  (company-prescient-mode))
+  :after lsp-mode)
     
-    #+end_src
+#+end_src
+
+*** =company-box=
+
+#+begin_src emacs-lisp
+
+(use-package company-box
+  :ensure t
+  :after company-mode)
+    
+#+end_src
+
+*** =company-lsp=
+
+  #+begin_src emacs-lisp
+
+(use-package company-lsp
+  :ensure t
+  :requires company-mode lsp-mode
+  :commands company-lsp
+  :config (push 'company-lsp company-backends))
+    
+  #+end_src
 
 *** =lsp-mode=
     
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package lsp-mode
   :ensure t
-  :defer t
-  :commands (lsp lsp-deferred)
-  :hook ((html-mode-hook . lsp-deferred)
-         (web-mode-hook . lsp-deferred)
-         (js2-mode-hook . lsp-deferred)
-         (c-mode-hook . lsp-deferred)
-         (css-mode-hook . lsp-deferred))
-  :config
-  (setq lsp-keymap-prefix "C-l"))
+  :commands (lsp))
      
-    #+end_src
+#+end_src
 
 *** =emmet-mode=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (use-package emmet-mode
   :hook ((sgml-mode-hook . emmet-mode)
@@ -318,20 +380,20 @@
   (setq emmet-expand-jsx-className? t)
   (setq emmet-move-cursor-between-quotes t))
     
-    #+end_src
+#+end_src
 
 *** =rainbow-delimiters=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
 (use-package rainbow-delimiters
   :ensure t)
     
-    #+end_src
+#+end_src
 
 *** =yasnippet=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (use-package yasnippet
   :config
@@ -339,27 +401,59 @@
   (setq yas-snippet-dirs '("~/dotfiles/emacs/snippets"))
   (yas-reload-all))
 
-    #+end_src
+#+end_src
 
 *** =flycheck=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (use-package flycheck
   :ensure t
   :init (global-flycheck-mode))
 
-    #+end_src
+#+end_src
 
 *** =format-all=
 
-    #+begin_src emacs-lisp
+#+begin_src emacs-lisp
     
 (use-package format-all
   :config
   (format-all-mode))
 
-    #+end_src
+#+end_src
+
+*** =smartparens=
+
+#+begin_src emacs-lisp
+    
+(use-package smartparens
+  :ensure t)
+
+#+end_src
+
+*** =tree-sitter=
+
+#+begin_src emacs-lisp
+    
+(use-package tree-sitter
+  :ensure t)
+
+#+end_src
+
+*** =tree-sitter-lang=
+
+#+begin_src emacs-lisp
+
+(use-package tree-sitter-langs
+  :ensure t
+  :requires tree-sitter
+  :hook (tree-sitter-after-on-hook . tree-sitter-hl-mode)
+  :config
+  (global-tree-sitter-mode))
+    
+#+end_src
+
 
 * Functions
 ** centering things 
@@ -480,9 +574,8 @@
 
 (defun my/reload-config ()
   (interactive)
-    (when (string-equal (buffer-file-name)
-      (expand-file-name "~/dotfiles/emacs/init.org"))
-        (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org"))))
+  (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org")))
+  
  
 (defun my/indent ()
   (interactive)
@@ -497,100 +590,80 @@
   (setq-local web-mode-code-indent-offset  2)
   (setq-local css-indent-offset 2))
 
+(defun my/lsp-config ()
+  (interactive)
+)
+
    #+end_src
 
 * Testing
 
-  #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
-  (use-package general)
-
-  (use-package which-key
-  :ensure t
-  :config
-  (setq which-key-idle-delay 0.15)
-  (setq which-key-popup-type 'minibuffer)
-  (which-key-mode))
-          
-  (use-package projectile
-  :config
-  (projectile-mode +1)
-  (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
-  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map))
-
-  (use-package js2-mode)
-  (use-package rjsx-mode)
-  (use-package web-mode)
-  (use-package cl-lib)
-
-(use-package smartparens
-  :ensure t)
-
-(use-package magit
-  :ensure t
-  :config)
-(use-package evil-magit)
+(load "~/dotfiles/emacs/testing.el")
   
   #+end_src
 
 * Mappings
-  
+ 
   #+begin_src emacs-lisp
 
-    (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
+(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
-    (general-def 'normal
-     "C-s" 'save-buffer
-     "C-w" 'delete-window
-     ":" 'execute-extended-command
-     "<M-left>" 'evil-window-left
-     "<M-down>" 'evil-window-down
-     "<M-up>" 'evil-window-up
-     "<M-right>" 'evil-window-right
-     "gd" 'lsp-find-implementation
-     "u" 'undo-tree-undo
-     "C-r" 'undo-tree-redo
-     "n" 'evil-search-previous
-     "N" 'evil-search-next
-     "C-l" 'ma/avy-goto-line
-     "C-f" 'ma/avy-goto-word-1
-     "C-M-r" 'my/reload-config
-     "/" 'swiper
-     )
+(general-def 'normal
+ "C-s" 'save-buffer
+ "C-w" 'delete-window
+ ":" 'execute-extended-command
+ "<M-left>" 'evil-window-left
+ "<M-down>" 'evil-window-down
+ "<M-up>" 'evil-window-up
+ "<M-right>" 'evil-window-right
+ "gd" 'lsp-find-implementation
+ "u" 'undo-tree-undo
+ "C-r" 'undo-tree-redo
+ "n" 'evil-search-previous
+ "N" 'evil-search-next
+ "C-l" 'ma/avy-goto-line
+ "C-f" 'ma/avy-goto-word-1
+ "C-M-r" 'my/reload-config
+ "/" 'swiper
+ )
 
-    (general-def 'insert
-     "<backspace>" 'smart-hungry-delete-backward-char
-     "RET" 'newline-and-indent
-     "C-s" 'emmet-expand-line
-     "C-SPC" 'yas-expand
-     "<up>" 'evil-previous-line
-     "<down>" 'evil-next-line
-     )
+(general-def 'insert
+ "<backspace>" 'smart-hungry-delete-backward-char
+ "RET" 'newline-and-indent
+ "C-s" 'emmet-expand-line
+ "C-SPC" 'yas-expand
+ "<up>"'evil-previous-line
+ "<down>" 'evil-next-line
+ "TAB" 'company-indent-or-complete-common
+ )
 
+(general-def evil-multiedit-state-map
+"C-n" 'my/evil-multiedit-next-match
+"C-p" 'my/evil-multiedit-prev-match
+"C-s" 'evil-multiedit-toggle-or-restrict-region
+"n" 'my/evil-multiedit-next
+"N" 'my/evil-multiedit-prev
+"<down>" 'my/evil-multiedit-next
+"<up>" 'my/evil-multiedit-prev
+)
 
-    (general-def evil-multiedit-state-map
-    "C-n" 'my/evil-multiedit-next-match
-    "C-p" 'my/evil-multiedit-prev-match
-    "C-s" 'evil-multiedit-toggle-or-restrict-region
-    "n" 'my/evil-multiedit-next
-    "N" 'my/evil-multiedit-prev
-    "<down>" 'my/evil-multiedit-next
-    "<up>" 'my/evil-multiedit-prev
-    )
-
-    (general-def 'normal
-     :prefix "SPC"
-     "SPC" 'counsel-fzf
-     "s n" 'yas-new-snippet
-     "f f" 'find-file
-     "h v" 'describe-variable
-     "h k" 'describe-key
-     "h m" 'describe-mode
-     "c d" 'cd
-     "c b" 'counsel-ibuffer
-     "r f" 'counsel-recentf
-     "g s" 'magit-status
-     )
+(general-def 'normal
+ :prefix "SPC"
+ "SPC" 'counsel-fzf
+ "s n" 'yas-new-snippet
+ "f f" 'find-file
+ "h v" 'describe-variable
+ "h k" 'describe-key
+ "h m" 'describe-mode
+ "c d" 'cd
+ "c b" 'counsel-ibuffer
+ "r f" 'counsel-recentf
+ "g s" 'magit-status
+ "<down>" 'split-window-below
+ "<right>" 'split-window-right
+ )
 
   #+end_src
 
@@ -603,6 +676,7 @@
 (setq enable-recursive-minibuffers t)
 (setq org-hide-emphasis-markers t)
 (setq make-backup-files nil)
+(blink-cursor-mode 0)
 
 (setq-default display-line-numbers-width 1)
 (setq-default display-line-numbers-widen t)
@@ -641,13 +715,33 @@
 (add-hook 'text-mode-hook #'display-line-numbers-mode)
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
+(add-hook 'prog-mode-hook 'company-mode)
+(add-hook 'company-mode-hook 'company-box-mode)
+
+(add-hook 'js-mode-hook (lambda ()
+  (lsp)
+  (lsp-ui-doc-mode)
+  (lsp-enable-which-key-integration)
+  (setq-local lsp-ui-peek-enable)
+  (setq-local lsp-log-io nil)
+  (setq-local lsp-signature-auto-activate t)
+  ;;(my/indent)
+  ))
+;;(add-hook 'html-mode-hook #'lsp)
+;;(add-hook 'web-mode-hook #'lsp)
+;;(add-hook 'js2-mode-hook #'lsp)
+;;(add-hook 'c-mode-hook #'lsp)
+;;(add-hook 'css-mode-hook #'lsp)
+
 (add-hook 'prog-mode-hook 
   (lambda ()
     (rainbow-delimiters-mode)
     (display-line-numbers-mode)
+    (smartparens-mode)
     (my/indent)))
 (add-hook 'before-save-hook 'format-all-buffer)
  
   #+end_src
 
  
+  
