@@ -4993,3 +4993,8 @@ cd ~/.emacs.d/site-lisp/use-package\
 : 1604094963:0;rm .\#test.org
 : 1604094977:0;la
 : 1604095117:0;commit "emacs added init.org" && push
+: 1604095275:0;la
+: 1604095279:0;v link.org
+: 1604095286:0;rm link.org
+: 1604095286:0;la
+: 1604095290:0;commit "emacs added init.org" && push
