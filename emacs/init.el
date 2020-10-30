@@ -53,6 +53,7 @@
 (use-package evil
   :config
   (evil-mode 1)
+  (evil-set-initial-state 'magit-status-mode 'normal)
   (evil-set-initial-state 'help-mode 'normal)
   (evil-set-initial-state 'info-mode 'normal))
 
@@ -96,11 +97,12 @@
 (add-to-list 'org-structure-template-alist '("js" . "src javascipt"))
 (add-to-list 'org-structure-template-alist '("py" . "src python"))
 
-(use-package counsel)
+(use-package counsel
+  :ensure t)
 
 (use-package saveplace
-:config
-(save-place-mode))
+  :config
+  (save-place-mode))
 
 (use-package smart-hungry-delete
   :ensure t
@@ -116,14 +118,6 @@
         '((avy-goto-char . avy-order-closest)
           (avy-goto-word-0 . avy-order-closest))))
 
-(use-package selectrum
-  :config
-  (selectrum-mode +1))
-
-(use-package selectrum-prescient
-  :config
-  (selectrum-prescient-mode))
-
 (use-package general
   :ensure t)
 
@@ -134,14 +128,17 @@
 (setq which-key-popup-type 'minibuffer)
 (which-key-mode))
 
-;;(use-package aggressive-indent
-  ;;:ensure t
-  ;;:config
-  ;;(global-aggressive-indent-mode 1))
+(use-package ivy
+  :ensure t
+  :config
+  (ivy-mode)
+  (setq ivy-use-virtual-buffers t)
+  (setq enable-recursive-minibuffers t))
 
-
-
-
+(use-package all-the-icons-ivy
+  :ensure t
+  :config
+  (all-the-icons-ivy-setup))
 
 
 
@@ -177,9 +174,11 @@
   :ensure t
   :commands (lsp))
 
+(use-package lsp-ui
+  :ensure t
+  :requires lsp-mode flycheck)
+
 (use-package emmet-mode
-  :hook ((sgml-mode-hook . emmet-mode)
-         (css-mode-hook . emmet-mode))
   :config
   (setq emmet-self-closing-tag-style "/")
   (setq emmet-expand-jsx-className? t)
@@ -193,6 +192,13 @@
   (yas-global-mode 1)
   (setq yas-snippet-dirs '("~/dotfiles/emacs/snippets"))
   (yas-reload-all))
+  ;; company backend with yasnippet
+  ;;(defun company-mode/backend-with-yas (backend)
+  ;;(if (and (listp backend) (member 'company-yasnippet backend))
+      ;;backend
+    ;;(append (if (consp backend) backend (list backend))
+            ;;'(:with company-yasnippet))))
+  ;;(setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
 
 (use-package flycheck
   :ensure t
@@ -270,7 +276,7 @@
      :end end))
   (recenter))
 
-  (defun avy-goto-word-1 (char &optional arg beg end symbol)
+(defun my/avy-goto-word-1 (char &optional arg beg end symbol)
   (interactive (list (read-char "char: " t)
                      current-prefix-arg))
   (avy-with avy-goto-word-1
@@ -376,7 +382,7 @@
  "<down>" 'evil-next-line
  "TAB" 'company-indent-or-complete-common
  )
-
+ 
 (general-def evil-multiedit-state-map
 "C-n" 'my/evil-multiedit-next-match
 "C-p" 'my/evil-multiedit-prev-match
@@ -395,6 +401,7 @@
  "h v" 'describe-variable
  "h k" 'describe-key
  "h m" 'describe-mode
+ "h f" 'describe-function
  "c d" 'cd
  "c b" 'counsel-ibuffer
  "r f" 'counsel-recentf
@@ -403,24 +410,32 @@
  "<right>" 'split-window-right
  )
 
+;;(general-def 'normal org-mode-map
+ ;;"a" 'counsel-ibuffer
+;;)
+;;(general-def 'insert eshell-mode-map
+  ;;"RET" 'eshell-queue-input)
+
 (setq inhibit-startup-message t)
 (setq show-paren-style 'expression)
 (setq enable-recursive-minibuffers t)
 (setq org-hide-emphasis-markers t)
 (setq make-backup-files nil)
-(blink-cursor-mode 0)
+(setq auto-save-default nil)
+(setq x-select-enable-clipboard t)
+(setq x-select-enable-primary t)
+ 
 
 (setq-default display-line-numbers-width 1)
 (setq-default display-line-numbers-widen t)
 
+(blink-cursor-mode 0)
 (scroll-bar-mode -1) ; Disable visible scrollbar
 (tool-bar-mode -1) ; Disable the toolbar
 (tooltip-mode -1) ; Disable tooltips
 (set-fringe-mode 10) ; Give some breathing room
 (menu-bar-mode -1) ; Disable the menu bar
 (set-face-attribute 'default nil :font "Hack" :height 110)
-;; (show-paren-mode t)
-;;(electric-pair-mode t)
 (global-subword-mode 1)
 
 ;; org title font size
@@ -443,14 +458,21 @@
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
 (add-hook 'prog-mode-hook 'company-mode)
 (add-hook 'company-mode-hook 'company-box-mode)
+;; (setq-local emmet-expand-jsx-className? nil)
 
-(add-hook 'js-mode-hook (lambda ()
+(add-hook 'rjsx-mode-hook (lambda ()
   (lsp)
   (lsp-ui-doc-mode)
   (lsp-enable-which-key-integration)
   (setq-local lsp-ui-peek-enable)
   (setq-local lsp-log-io nil)
+  (setq-local lsp-enable-folding nil)
+  (setq-local lsp-diagnostic-package :none)
+  (setq-local lsp-enable-snippet nil)
+  (setq-local lsp-enable-completion-at-point nil)
+  (setq-local lsp-enable-symbol-highlighting nil)
   (setq-local lsp-signature-auto-activate t)
+
   ;;(my/indent)
   ))
 ;;(add-hook 'html-mode-hook #'lsp)
@@ -466,3 +488,4 @@
     (smartparens-mode)
     (my/indent)))
 (add-hook 'before-save-hook 'format-all-buffer)
+ (setq byte-compile-warnings '(cl-functions))

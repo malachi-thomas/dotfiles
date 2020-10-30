@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: impmongoose
+# key: impmongoose
+# --
+const mongoose = require('mongoose')

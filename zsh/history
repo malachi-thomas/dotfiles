@@ -4855,3 +4855,141 @@ cd ~/.emacs.d/site-lisp/use-package\
 : 1603982235:0;la
 : 1603982244:0;rm test.el
 : 1603982245:0;la
+: 1603982351:0;git status
+: 1603983380:0;cd code/react/learning-react/frontend
+: 1603983380:0;la
+: 1603983389:0;npm install
+: 1603983592:0;cd
+: 1603983594:0;cd dotfiles/emacs
+: 1603983597:0;v init.el
+: 1603984511:0;cd code/react/learning-react/frontend
+: 1603984512:0;la
+: 1603984532:0;mv -r *.js *.jsx
+: 1603984535:0;la
+: 1603984554:0;cd src
+: 1603984555:0;la
+: 1603984562:0;rm \#index.js\# 
+: 1603984563:0;la
+: 1603984565:0;mv -r *.js *.jsx
+: 1603984566:0;la
+: 1603984571:0;rm .\#index.js
+: 1603984572:0;la
+: 1603984580:0;mv  *.js *.jsx
+: 1603984582:0;la
+: 1603984590:0;mv index.js index.jsx
+: 1603984590:0;la
+: 1603984880:0;emacs 
+: 1603987902:0;emacs
+: 1603988501:0;rma .emacs .emacs\~ .emacs.d
+: 1603988504:0;la
+: 1603988510:0;emacs
+: 1603988593:0;cd .emacs.d
+: 1603988593:0;la
+: 1603988596:0;..
+: 1603988597:0;la
+: 1603988607:0;cat .emacs
+: 1603990894:0;cd dotfiles/emacs/snippets/org-mode
+: 1603990895:0;la
+: 1603990901:0;cat test
+: 1603990905:0;rm test
+: 1603990907:0;la
+: 1604001571:0;vrc
+: 1604002148:0;emacs
+: 1604004677:0;cd
+: 1604004682:0;find-file
+: 1604005546:0;pkill emacsclient
+: 1604005561:0;pkill emacs
+: 1604005975:0;dot
+: 1604005975:0;la
+: 1604005980:0;cd emacs
+: 1604005981:0;la
+: 1604005985:0;rm \#testing.el\#
+: 1604005985:0;la
+: 1604005999:0;..
+: 1604006003:0;fzf .log
+: 1604006007:0;fzf
+: 1604006013:0;la
+: 1604006022:0;rma .log
+: 1604013112:0;betterlockscreen -s
+: 1604014289:0;betterlockscreen -s  
+: 1604043124:0;dot
+: 1604043130:0; cd emacs/snippets/rjsx-mode
+: 1604043130:0;la
+: 1604043137:0;mv express iexpress
+: 1604043138:0;la
+: 1604043141:0;rm +new-snippet+
+: 1604043292:0;mv iexpress impexpress
+: 1604043934:0;la
+: 1604044440:0;cd ~/code/react/learning-react/backend
+: 1604044447:0;la
+: 1604044454:0;node server.js
+: 1604044496:0;la
+: 1604044500:0;v package.json
+: 1604044514:0;npm start
+: 1604044521:0;start
+: 1604044530:0;npm start
+: 1604044960:0;node server.js
+: 1604044967:0;la
+: 1604044970:0;v server.js
+: 1604044976:0;la
+: 1604044985:0;rm test.js
+: 1604044986:0;la
+: 1604044991:0;rm .log
+: 1604044996:0;rma .log
+: 1604044998:0;la
+: 1604045009:0;npm start
+: 1604045149:0;npm i mongoose
+: 1604045161:0;npm start
+: 1604046229:0;npm install mongodb
+: 1604046239:0;npm start
+: 1604046455:0;npm i bodyParser
+: 1604046479:0;npm i body-parser
+: 1604046495:0;npm start
+: 1604046518:0;npm i path
+: 1604049770:0;v ~/dotfiles/emacs/testing.el
+: 1604049785:0;emacs
+: 1604049880:0;emacs ~/dotfiles/emacs/testing.el
+: 1604050160:0;emacs
+: 1604050268:0;emacsclient -a "" -c
+: 1604050301:0;emacsclient -a "" -c -e 'load "~/dotfiles/emacs/init.el"'
+: 1604050709:0;emacs
+: 1604050735:0;emacs -q -l ~/dotfiles/emacs/init.el
+: 1604050784:0;la
+: 1604050806:0;emacs ~/dotfiles/emacs/testing.el
+: 1604052717:0;emacsclient -a "" -c -e 'load "~/dotfiles/emacs/init.el"'
+: 1604052729:0;emacsclient -a "" -c -e '(load "~/dotfiles/emacs/init.el")'
+: 1604052870:0;dot
+: 1604052873:0;mk org-rome
+: 1604076011:0;emacs
+: 1604079222:0;emacs --version
+: 1604079314:0;pac emacs
+: 1604079323:0;yay emacs
+: 1604079438:0;yay emacs-native
+: 1604081502:0;emacs ~/dotfiles/emacs
+: 1604082123:0;emacs ~/dotfiles/emacs/testing.el
+: 1604093987:0;killall emacs
+: 1604094471:0;cd dotfiles
+: 1604094471:0;la
+: 1604094480:0;cd org-rome
+: 1604094480:0;la
+: 1604094485:0;rm *
+: 1604094487:0;al
+: 1604094490:0;rma *
+: 1604094491:0;la
+: 1604094495:0;rm .\#20201030101756-hats.org
+: 1604094496:0;la
+: 1604094505:0;rma test
+: 1604094571:0;cd dotfiles/org-rome
+: 1604094571:0;la
+: 1604094605:0;..
+: 1604094608:0;rma org-rome
+: 1604094631:0;mk testing-org-for-notetaking
+: 1604094795:0;cd testing-org-for-notetaking
+: 1604094796:0;la
+: 1604094800:0;rma *
+: 1604094801:0;la
+: 1604094807:0;rma .*
+: 1604094808:0;la
+: 1604094963:0;rm .\#test.org
+: 1604094977:0;la
+: 1604095117:0;commit "emacs added init.org" && push
