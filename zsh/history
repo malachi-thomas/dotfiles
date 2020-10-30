@@ -5000,3 +5000,39 @@ cd ~/.emacs.d/site-lisp/use-package\
 : 1604095290:0;commit "emacs added init.org" && push
 : 1604095344:0;la
 : 1604095385:0;commit "emacs added init.org" && push
+: 1604096213:0;la
+: 1604096248:0;~/dotfiles/emacs\
+
+: 1604096251:0;la
+: 1604096349:0;zsh
+: 1604096383:0;qexi
+: 1604096385:0;exit
+: 1604096388:0;exit
+: 1604096433:0;aaa- aaa\
+- aaa\
+- aaa\
+- aaa\
+- aaa\
+
+: 1604096548:0;emacs -Q
+: 1604097301:0;cd
+: 1604097303:0;la
+: 1604097305:0;cd
+: 1604097307:0;lahats
+: 1604097311:0;aaa- aaa\
+- aaa\
+- aaa\
+- aaa\
+- aaa\
+u
+: 1604097498:0;aaa- aaa\
+- aaa\
+- aaa\
+- aaa\
+- aaa\
+
+: 1604097560:0;hats
+: 1604097582:0;aaaa
+: 1604097618:0;cd ../
+: 1604097619:0;la
+: 1604098123:0;emacs ~/dotfiles/emacs/testing.el

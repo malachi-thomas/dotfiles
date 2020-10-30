@@ -33,15 +33,27 @@
   (setq mweb-filename-extensions '("html"))
   (multi-web-global-mode 1))
 
+(use-package vterm
+  :ensure t
+  :commands vterm)
+
+(general-def 'insert vterm-mode-map
+  "<backspace>" 'vterm-send-backspace
+  "<M-left>" 'evil-window-left
+  "<M-down>" 'evil-window-down
+  "<M-up>" 'evil-window-up
+  "<M-right>" 'evil-window-right
+  )
+
 ;; (use-package org-roam
 ;;   :ensure t)
 ;; (setq org-roam-directory "~/dotfiles/org-rome")
 
-;; (use-package evil-collection
-;;   :after evil
-;;   :ensure t
-;;   :config
-;;   (evil-collection-init))
+(use-package evil-collection
+  :after evil
+  :ensure t
+  :config
+  (evil-collection-init))
 
 (setq echo-keystrokes 0.1)
 ;; (setq eshell-prompt-regexp "^[^αλ\n]*[αλ] ")

@@ -346,13 +346,16 @@
   (setq-local web-mode-code-indent-offset  2)
   (setq-local css-indent-offset 2))
 
-(defun my/lsp-config ()
-  (interactive)
-)
+(defun backward-delete-word (arg)
+  "Delete characters backward until encountering the beginning of a word.
+With argument ARG, do this that many times."
+  (interactive "p")
+  (delete-region (point) (progn (backward-word arg) (point))))
 
 (load "~/dotfiles/emacs/testing.el")
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
+(global-set-key (kbd "<C-backspace>") 'backward-delete-word)
 
 (general-def 'normal
  "C-s" 'save-buffer
@@ -371,6 +374,7 @@
  "C-f" 'ma/avy-goto-word-1
  "C-M-r" 'my/reload-config
  "/" 'swiper
+ "M-t" 'vterm
  )
 
 (general-def 'insert

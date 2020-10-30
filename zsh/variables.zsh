@@ -29,6 +29,6 @@ setopt EXTENDED_HISTORY
 setopt autocd
 
 # Tmux on shell startup
-case $- in *i*)
-    [ -z "$TMUX" ] && exec tmux -2u
-esac
+# case $- in *i*)
+#     [ -z "$TMUX" ] && exec tmux -2u
+# esac
