@@ -24,3 +24,20 @@
           (css-mode "<style[^>]*>" "</style>")))
   (setq mweb-filename-extensions '("html"))
   (multi-web-global-mode 1))
+
+
+;; (use-package selectrum
+;;   :ensure t
+;;   :config
+;;   (selectrum-mode +1))
+
+(use-package mini-frame
+  :ensure f
+  :config
+  (custom-set-variables
+   '(mini-frame-show-parameters
+     '((top . 20)
+       (width . 0.5)
+       (left . 0.5)
+       (height . 1))))
+  (mini-frame-mode))

@@ -1,0 +1,167 @@
+Info 0    [12:18:5.156] Starting TS Server
+Info 1    [12:18:5.157] Version: 4.0.3
+Info 2    [12:18:5.157] Arguments: /usr/bin/node /usr/bin/tsserver --logFile /home/malachi/dotfiles/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/dc520a3ee43da2d58cc706f81d676d5a/tscancellation*
+Info 3    [12:18:5.157] Platform: linux NodeVersion: 14 CaseSensitive: true
+Info 4    [12:18:5.157] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [12:18:5.173] Search path: /home/malachi/dotfiles/react
+Info 6    [12:18:5.173] For info: /home/malachi/dotfiles/react/App.js :: No config files found.
+Info 7    [12:18:5.177] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 8    [12:18:6.195] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 1017ms
+Info 9    [12:18:6.195] Project '/dev/null/inferredProject1*' (Inferred)
+Info 10   [12:18:6.195] 	Files (10)
+
+Info 11   [12:18:6.195] -----------------------------------------------
+Info 12   [12:18:7.373] DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry/README.md :: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 13   [12:18:7.373] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry/README.md :: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 14   [12:18:7.373] DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry/package.json :: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 15   [12:18:7.373] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry/package.json :: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 16   [12:18:7.373] DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry/index.json :: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 17   [12:18:7.374] Elapsed:: 1ms DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry/index.json :: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 18   [12:18:8.376] DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry 0:: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 19   [12:18:8.376] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry 0:: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 20   [12:18:8.376] DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry 1:: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 21   [12:18:8.376] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry 1:: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 22   [12:18:8.376] DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry/types-registry 2:: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 23   [12:18:8.376] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry/types-registry 2:: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 24   [12:18:8.377] DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry/types-registry 3:: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 25   [12:18:8.377] Elapsed:: 0ms DirectoryWatcher:: Triggered with /home/malachi/.cache/typescript/4.0/node_modules/types-registry/types-registry 3:: WatchInfo: /home/malachi/.cache/typescript/4.0/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 26   [12:18:8.803] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 27   [12:18:8.804] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false Elapsed: 1ms
+Info 28   [12:18:11.51] Before ensureProjectForOpenFiles:
+Info 29   [12:18:11.51] After ensureProjectForOpenFiles:
+Info 30   [12:18:11.51] got projects updated in background, updating diagnostics for /home/malachi/dotfiles/react/App.js
+Info 31   [12:18:20.368] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 32   [12:18:20.375] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false Elapsed: 7ms
+Info 33   [12:18:20.375] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 34   [12:18:20.503] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 35   [12:18:20.507] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 4ms
+Info 36   [12:18:20.507] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 37   [12:18:20.508] getCompletionData: Get current token: 0
+Info 38   [12:18:20.509] getCompletionData: Is inside comment: 1
+Info 39   [12:18:20.509] getCompletionData: Get previous token 1: 0
+Info 40   [12:18:20.509] getCompletionData: Get previous token 2: 0
+Info 41   [12:18:20.509] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 42   [12:18:20.518] getSymbolsFromOtherSourceFileExports: Recomputing list
+Info 43   [12:18:20.522] forEachExternalModuleToImportFrom: filtered out 0 modules by package.json contents
+Info 44   [12:18:20.523] getSymbolsFromOtherSourceFileExports: 5
+Info 45   [12:18:20.528] getCompletionData: Semantic work: 19
+Info 46   [12:18:20.551] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 22
+Info 47   [12:18:22.173] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 48   [12:18:22.180] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 7ms
+Info 49   [12:18:22.180] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 50   [12:18:43.511] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 51   [12:18:43.517] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false Elapsed: 5ms
+Info 52   [12:18:43.517] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 53   [12:18:43.911] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 54   [12:18:43.915] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false Elapsed: 4ms
+Info 55   [12:18:43.915] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 56   [12:18:44.884] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 57   [12:18:44.889] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false Elapsed: 5ms
+Info 58   [12:18:44.889] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 59   [12:18:45.149] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 60   [12:18:45.152] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false Elapsed: 3ms
+Info 61   [12:18:45.152] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 62   [12:18:46.749] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 63   [12:18:46.752] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 10 structureChanged: false Elapsed: 3ms
+Info 64   [12:18:46.752] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 65   [12:18:47.168] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 66   [12:18:47.171] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 11 structureChanged: false Elapsed: 3ms
+Info 67   [12:18:47.171] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 68   [12:18:47.171] getCompletionData: Get current token: 0
+Info 69   [12:18:47.171] getCompletionData: Is inside comment: 0
+Info 70   [12:18:47.172] getCompletionData: Get previous token 1: 1
+Info 71   [12:18:47.172] getCompletionData: Get previous token 2: 0
+Info 72   [12:18:47.172] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 73   [12:18:47.181] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 74   [12:18:47.185] getCompletionData: Semantic work: 13
+Info 75   [12:18:47.206] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 20
+Info 76   [12:18:47.258] getCompletionData: Get current token: 0
+Info 77   [12:18:47.258] getCompletionData: Is inside comment: 0
+Info 78   [12:18:47.258] getCompletionData: Get previous token 1: 0
+Info 79   [12:18:47.259] getCompletionData: Get previous token 2: 1
+Info 80   [12:18:47.259] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 81   [12:18:47.265] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 82   [12:18:47.270] getCompletionData: Semantic work: 11
+Info 83   [12:18:47.287] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17
+Info 84   [12:18:47.292] getCompletionData: Get current token: 0
+Info 85   [12:18:47.292] getCompletionData: Is inside comment: 0
+Info 86   [12:18:47.293] getCompletionData: Get previous token 1: 0
+Info 87   [12:18:47.293] getCompletionData: Get previous token 2: 0
+Info 88   [12:18:47.293] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 89   [12:18:47.298] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 90   [12:18:47.301] getCompletionData: Semantic work: 8
+Info 91   [12:18:47.323] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 22
+Info 92   [12:18:47.387] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 93   [12:18:47.389] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 12 structureChanged: false Elapsed: 2ms
+Info 94   [12:18:47.389] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 95   [12:18:47.390] getCompletionData: Get current token: 0
+Info 96   [12:18:47.390] getCompletionData: Is inside comment: 0
+Info 97   [12:18:47.390] getCompletionData: Get previous token 1: 0
+Info 98   [12:18:47.390] getCompletionData: Get previous token 2: 0
+Info 99   [12:18:47.390] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 100  [12:18:47.392] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 101  [12:18:47.395] getCompletionData: Semantic work: 5
+Info 102  [12:18:47.403] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7
+Info 103  [12:18:47.407] getCompletionData: Get current token: 0
+Info 104  [12:18:47.407] getCompletionData: Is inside comment: 0
+Info 105  [12:18:47.407] getCompletionData: Get previous token 1: 0
+Info 106  [12:18:47.407] getCompletionData: Get previous token 2: 0
+Info 107  [12:18:47.407] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 108  [12:18:47.409] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 109  [12:18:47.410] getCompletionData: Semantic work: 3
+Info 110  [12:18:47.414] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 4
+Info 111  [12:18:47.417] getCompletionData: Get current token: 0
+Info 112  [12:18:47.417] getCompletionData: Is inside comment: 0
+Info 113  [12:18:47.417] getCompletionData: Get previous token 1: 0
+Info 114  [12:18:47.417] getCompletionData: Get previous token 2: 0
+Info 115  [12:18:47.417] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 116  [12:18:47.418] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 117  [12:18:47.420] getCompletionData: Semantic work: 3
+Info 118  [12:18:47.428] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6
+Info 119  [12:18:47.432] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 120  [12:18:47.437] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 13 structureChanged: false Elapsed: 5ms
+Info 121  [12:18:47.437] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 122  [12:18:47.437] getCompletionData: Get current token: 0
+Info 123  [12:18:47.438] getCompletionData: Is inside comment: 1
+Info 124  [12:18:47.438] getCompletionData: Get previous token 1: 0
+Info 125  [12:18:47.438] getCompletionData: Get previous token 2: 0
+Info 126  [12:18:47.438] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 127  [12:18:47.442] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 128  [12:18:47.443] getCompletionData: Semantic work: 5
+Info 129  [12:18:47.453] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10
+Info 130  [12:18:49.692] getCompletionData: Get current token: 0
+Info 131  [12:18:49.692] getCompletionData: Is inside comment: 0
+Info 132  [12:18:49.692] getCompletionData: Get previous token 1: 0
+Info 133  [12:18:49.692] getCompletionData: Get previous token 2: 0
+Info 134  [12:18:49.692] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 135  [12:18:49.698] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 136  [12:18:49.698] getCompletionData: Semantic work: 6
+Info 137  [12:18:49.702] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3
+Info 138  [12:18:52.756] getCompletionData: Get current token: 0
+Info 139  [12:18:52.756] getCompletionData: Is inside comment: 0
+Info 140  [12:18:52.756] getCompletionData: Get previous token 1: 0
+Info 141  [12:18:52.756] getCompletionData: Get previous token 2: 0
+Info 142  [12:18:52.756] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 143  [12:18:52.758] getSymbolsFromOtherSourceFileExports: Using cached list
+Info 144  [12:18:52.759] getCompletionData: Semantic work: 3
+Info 145  [12:18:52.762] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 3
+Info 146  [12:18:56.237] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 147  [12:18:56.240] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 14 structureChanged: false Elapsed: 3ms
+Info 148  [12:18:56.240] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 149  [12:18:57.457] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 150  [12:18:57.461] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 15 structureChanged: false Elapsed: 4ms
+Info 151  [12:18:57.461] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 152  [12:18:57.461] getCompletionData: Get current token: 0
+Info 153  [12:18:57.462] getCompletionData: Is inside comment: 0
+Info 154  [12:18:57.462] getCompletionData: Get previous token 1: 0
+Info 155  [12:18:57.462] getCompletionsAtPosition: isCompletionListBlocker: 0
+Info 156  [12:18:57.462] Returning an empty list because completion was requested in an invalid position.
+Info 157  [12:18:57.675] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 158  [12:18:57.679] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 16 structureChanged: false Elapsed: 4ms
+Info 159  [12:18:57.679] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 160  [12:18:58.204] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 161  [12:18:58.208] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 17 structureChanged: false Elapsed: 4ms
+Info 162  [12:18:58.208] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 163  [12:18:58.421] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 164  [12:18:58.425] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 18 structureChanged: false Elapsed: 4ms
+Info 165  [12:18:58.425] Different program with same set of files:: oldProgram.structureIsReused:: 2

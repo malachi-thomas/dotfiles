@@ -1,7 +1,5 @@
 #+PROPERTY: header-args:emacs-lisp :tangle ./init.el :mkdirp yes
 
-[[Package-archives]]
-
 * Package-archives
 
   #+begin_src emacs-lisp
@@ -269,18 +267,6 @@
 
 #+end_src
 
-*** =ivy-posframe=
-
-#+begin_src emacs-lisp
-
-(use-package ivy-posframe
-  :after ivy
-  :ensure t
-  :config
-  (ivy-posframe-mode 1))    
-
-#+end_src
-    
 *** =all-the-icons-ivy=
 
 #+begin_src emacs-lisp
@@ -292,10 +278,21 @@
     
 #+end_src
 
-*** ==
-
-#+begin_src emacs-lisp
+*** =mini-frame=
     
+#+begin_src emacs-lisp
+
+(use-package mini-frame
+  :ensure f
+  :config
+  (custom-set-variables
+   '(mini-frame-show-parameters
+     '((top . 20)
+       (width . 0.5)
+       (left . 0.5)
+       (height . 1))))
+  (mini-frame-mode))
+
 #+end_src
 
 *** ==
@@ -310,17 +307,12 @@
 #+begin_src emacs-lisp
 
 (use-package company
-  ;;:bind (:map company-active-map
-    ;;("<tab>" . company-complete-selection)
-    ;;("<up>" . company-select-previous)
-    ;;("<down>" . company-select-next-or-abort)
-    ;;)
   :config
-  (global-company-mode)
   (setq company-idle-delay 0)
   (setq company-minimum-prefix-length 1)
   (setq company-selection-wrap-around t)
-  (company-tng-configure-default))
+  (company-tng-mode)
+  (global-company-mode))
     
 #+end_src
 
@@ -476,17 +468,30 @@
 
 #+end_src
 
+*** ==
+
+#+begin_src emacs-lisp
+    
+#+end_src
+
 * Functions
 ** centering things
+*** evil-next-line
 
-   #+begin_src emacs-lisp
-   
+#+begin_src emacs-lisp
+
 (evil-define-motion evil-next-line (count)
   "Move the cursor COUNT lines down."
   :type line
   (let (line-move-visual)
     (evil-line-move (or count 1)))
   (recenter))
+
+#+end_src
+
+*** evil-previous-line
+
+#+begin_src emacs-lisp
 
 (evil-define-motion evil-previous-line (count)
   "Move the cursor COUNT lines up."
@@ -495,12 +500,24 @@
     (evil-line-move (- (or count 1))))
   (recenter))
 
+#+end_src
+
+*** evil-next-visual-line
+
+#+begin_src emacs-lisp
+
 (evil-define-motion evil-next-visual-line (count)
   "Move the cursor COUNT screen lines down."
   :type exclusive
   (let ((line-move-visual t))
     (evil-line-move (or count 1)))
   (recenter))
+
+#+end_src
+    
+*** evil-previous-visual-line
+
+#+begin_src emacs-lisp
 
 (evil-define-motion evil-previous-visual-line (count)
   "Move the cursor COUNT screen lines up."
@@ -509,32 +526,13 @@
     (evil-line-move (- (or count 1))))
   (recenter))
 
-(defun ma/avy-goto-char-2 (char1 char2 &optional arg beg end)
-  (interactive (list (let ((c1 (read-char "char 1: " t)))
-                       (if (memq c1 '(? ?\b))
-                           (keyboard-quit)
-                         c1))
-                     (let ((c2 (read-char "char 2: " t)))
-                       (cond ((eq c2 ?)
-                              (keyboard-quit))
-                             ((memq c2 avy-del-last-char-by)
-                              (keyboard-escape-quit)
-                              (call-interactively 'avy-goto-char-2))
-                             (t
-                              c2)))
-                     current-prefix-arg
-                     nil nil))
-  (when (eq char1 ?)
-    (setq char1 ?\n))
-  (when (eq char2 ?)
-    (setq char2 ?\n))
-  (avy-with avy-goto-char-2
-    (avy-jump
-     (regexp-quote (string char1 char2))
-     :window-flip arg
-     :beg beg
-     :end end))
-  (recenter))
+#+end_src
+
+
+
+*** my/avy-goto-word-1
+
+#+begin_src emacs-lisp
 
 (defun my/avy-goto-word-1 (char &optional arg beg end symbol)
   (interactive (list (read-char "char: " t)
@@ -557,14 +555,23 @@
                 :beg beg
                 :end end)))
                 (recenter))
-                
 
+#+end_src
+    
+*** my/avy-goto-line
 
+#+begin_src emacs-lisp
 
 (defun my/avy-goto-line ()
   (interactive)
   (avy-goto-line)
   (recenter))
+
+#+end_src
+
+*** my/evil-multiedit-next-match
+    
+#+begin_src emacs-lisp
 
 (defun my/evil-multiedit-next-match ()
   (interactive)
@@ -572,32 +579,57 @@
   (evil-multiedit-next)
   (recenter))
 
+#+end_src
+
+*** my/evil-multiedit-prev-match
+
+#+begin_src emacs-lisp
+
 (defun my/evil-multiedit-prev-match ()
   (interactive)
   (evil-multiedit-match-and-prev)
   (evil-multiedit-prev)
   (recenter))
 
+#+end_src
+
+*** my/evil-multiedit-next
+
+#+begin_src emacs-lisp
+
 (defun my/evil-multiedit-next ()
   (interactive)
   (evil-multiedit-next)
   (recenter))
+
+#+end_src
+
+*** my/evil-multiedit-prev
+
+#+begin_src emacs-lisp
 
 (defun my/evil-multiedit-prev ()
   (interactive)
   (evil-multiedit-prev)
   (recenter))
 
-   #+end_src
+#+end_src
 
-** extra
-
-   #+begin_src emacs-lisp
+** custom functions
+*** my/reload-config
+    
+#+begin_src emacs-lisp
 
 (defun my/reload-config ()
   (interactive)
   (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org")))
- 
+
+#+end_src
+   
+*** my/indent
+    
+#+begin_src emacs-lisp
+
 (defun my/indent ()
   (interactive)
   (setq-local indent-tabs-mode nil)
@@ -611,14 +643,37 @@
   (setq-local web-mode-code-indent-offset  2)
   (setq-local css-indent-offset 2))
 
-(defun backward-delete-word (arg)
-  "Delete characters backward until encountering the beginning of a word.
-With argument ARG, do this that many times."
+#+end_src
+   
+*** my/backward-delete-word
+    
+#+begin_src emacs-lisp
+
+(defun my/backward-delete-word (arg)
   (interactive "p")
   (delete-region (point) (progn (backward-word arg) (point))))
-  
-   #+end_src
 
+#+end_src
+    
+*** my/new-line-in-pairs
+    
+#+begin_src emacs-lisp
+
+(defun my/new-line-in-paris ()
+  (interactive)
+  (let ((break-open-pair (or (and (looking-back "{") (looking-at "}"))
+                             (and (looking-back ">") (looking-at "<"))
+                             (and (looking-back "(") (looking-at ")"))
+                             (and (looking-back "\\[") (looking-at "\\]")))))
+    (newline)
+    (when break-open-pair
+      (save-excursion
+        (newline)
+        (indent-for-tab-command)))
+    (indent-for-tab-command)))
+
+#+end_src
+    
 * Testing
 
 #+begin_src emacs-lisp
@@ -633,7 +688,7 @@ With argument ARG, do this that many times."
 #+begin_src emacs-lisp
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
-(global-set-key (kbd "<C-backspace>") 'backward-delete-word)
+(global-set-key (kbd "<C-backspace>") 'my/backward-delete-word)
 
 #+end_src
 
@@ -675,8 +730,9 @@ With argument ARG, do this that many times."
  "<up>"'evil-previous-line
  "<down>" 'evil-next-line
  "TAB" 'company-indent-or-complete-common
+ "RET" 'my/new-line-in-paris
  )
-
+ 
 #+end_src
 
 ** evil-multiedit
@@ -699,12 +755,24 @@ With argument ARG, do this that many times."
 
 #+begin_src emacs-lisp
 
-(general-def 'normal org-mode-map
- "RET" 'org-open-at-point
-)
+;; (general-def 'normal org-mode-map
+ ;; "RET" 'org-open-at-point
+;; )
 
 #+end_src
 
+** company
+
+#+begin_src emacs-lisp
+
+(general-def company-active-map
+ "<left>" 'left-char
+ "<right>" 'right-char
+ "<tab>" 'yas-next-field
+)
+
+#+end_src
+   
 ** learder-key
 
 #+begin_src emacs-lisp
@@ -817,3 +885,4 @@ With argument ARG, do this that many times."
 
 
   
+  map 

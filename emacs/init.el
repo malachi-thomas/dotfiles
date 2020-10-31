@@ -135,33 +135,36 @@
   (setq ivy-use-virtual-buffers t)
   (setq enable-recursive-minibuffers t))
 
-(use-package ivy-posframe
-  :after ivy
-  :ensure t
-  :config
-  (ivy-posframe-mode 1))
-
 (use-package all-the-icons-ivy
   :ensure t
   :config
   (all-the-icons-ivy-setup))
 
+(use-package mini-frame
+  :ensure f
+  :config
+  (custom-set-variables
+   '(mini-frame-show-parameters
+     '((top . 20)
+       (width . 0.5)
+       (left . 0.5)
+       (height . 1))))
+  (mini-frame-mode))
 
+
+
+(use-package swift-mode
+  :ensure t)
 
 
 
 (use-package company
-  ;;:bind (:map company-active-map
-    ;;("<tab>" . company-complete-selection)
-    ;;("<up>" . company-select-previous)
-    ;;("<down>" . company-select-next-or-abort)
-    ;;)
   :config
-  (global-company-mode)
   (setq company-idle-delay 0)
   (setq company-minimum-prefix-length 1)
   (setq company-selection-wrap-around t)
-  (company-tng-configure-default))
+  (company-tng-mode)
+  (global-company-mode))
 
 (use-package company-prescient
   :after lsp-mode)
@@ -255,33 +258,6 @@
     (evil-line-move (- (or count 1))))
   (recenter))
 
-(defun ma/avy-goto-char-2 (char1 char2 &optional arg beg end)
-  (interactive (list (let ((c1 (read-char "char 1: " t)))
-                       (if (memq c1 '(? ?\b))
-                           (keyboard-quit)
-                         c1))
-                     (let ((c2 (read-char "char 2: " t)))
-                       (cond ((eq c2 ?)
-                              (keyboard-quit))
-                             ((memq c2 avy-del-last-char-by)
-                              (keyboard-escape-quit)
-                              (call-interactively 'avy-goto-char-2))
-                             (t
-                              c2)))
-                     current-prefix-arg
-                     nil nil))
-  (when (eq char1 ?)
-    (setq char1 ?\n))
-  (when (eq char2 ?)
-    (setq char2 ?\n))
-  (avy-with avy-goto-char-2
-    (avy-jump
-     (regexp-quote (string char1 char2))
-     :window-flip arg
-     :beg beg
-     :end end))
-  (recenter))
-
 (defun my/avy-goto-word-1 (char &optional arg beg end symbol)
   (interactive (list (read-char "char: " t)
                      current-prefix-arg))
@@ -303,9 +279,6 @@
                 :beg beg
                 :end end)))
                 (recenter))
-                
-
-
 
 (defun my/avy-goto-line ()
   (interactive)
@@ -337,7 +310,7 @@
 (defun my/reload-config ()
   (interactive)
   (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org")))
- 
+
 (defun my/indent ()
   (interactive)
   (setq-local indent-tabs-mode nil)
@@ -351,16 +324,27 @@
   (setq-local web-mode-code-indent-offset  2)
   (setq-local css-indent-offset 2))
 
-(defun backward-delete-word (arg)
-  "Delete characters backward until encountering the beginning of a word.
-With argument ARG, do this that many times."
+(defun my/backward-delete-word (arg)
   (interactive "p")
   (delete-region (point) (progn (backward-word arg) (point))))
+
+(defun my/new-line-in-paris ()
+  (interactive)
+  (let ((break-open-pair (or (and (looking-back "{") (looking-at "}"))
+                             (and (looking-back ">") (looking-at "<"))
+                             (and (looking-back "(") (looking-at ")"))
+                             (and (looking-back "\\[") (looking-at "\\]")))))
+    (newline)
+    (when break-open-pair
+      (save-excursion
+        (newline)
+        (indent-for-tab-command)))
+    (indent-for-tab-command)))
 
 (load "~/dotfiles/emacs/testing.el")
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
-(global-set-key (kbd "<C-backspace>") 'backward-delete-word)
+(global-set-key (kbd "<C-backspace>") 'my/backward-delete-word)
 
 (general-def 'normal
  "C-s" 'save-buffer
@@ -390,6 +374,7 @@ With argument ARG, do this that many times."
  "<up>"'evil-previous-line
  "<down>" 'evil-next-line
  "TAB" 'company-indent-or-complete-common
+ "RET" 'my/new-line-in-paris
  )
 
 (general-def evil-multiedit-state-map
@@ -402,8 +387,14 @@ With argument ARG, do this that many times."
  "<up>" 'my/evil-multiedit-prev
 )
 
-(general-def 'normal org-mode-map
- "RET" 'org-open-at-point
+;; (general-def 'normal org-mode-map
+ ;; "RET" 'org-open-at-point
+;; )
+
+(general-def company-active-map
+ "<left>" 'left-char
+ "<right>" 'right-char
+ "<tab>" 'yas-next-field
 )
 
 (general-def 'normal
