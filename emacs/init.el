@@ -153,11 +153,6 @@
 
 
 
-(use-package swift-mode
-  :ensure t)
-
-
-
 (use-package company
   :config
   (setq company-idle-delay 0)
@@ -229,6 +224,11 @@
   :hook (tree-sitter-after-on-hook . tree-sitter-hl-mode)
   :config
   (global-tree-sitter-mode))
+
+(use-package swift-mode
+  :ensure t)
+
+
 
 (evil-define-motion evil-next-line (count)
   "Move the cursor COUNT lines down."
@@ -371,6 +371,7 @@
  "RET" 'newline-and-indent
  "C-s" 'emmet-expand-line
  "C-SPC" 'yas-expand
+ "C-n" 'yas-next-field
  "<up>"'evil-previous-line
  "<down>" 'evil-next-line
  "TAB" 'company-indent-or-complete-common

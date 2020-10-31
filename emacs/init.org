@@ -727,6 +727,7 @@
  "RET" 'newline-and-indent
  "C-s" 'emmet-expand-line
  "C-SPC" 'yas-expand
+ "C-n" 'yas-next-field
  "<up>"'evil-previous-line
  "<down>" 'evil-next-line
  "TAB" 'company-indent-or-complete-common
