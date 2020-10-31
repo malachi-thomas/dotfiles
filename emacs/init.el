@@ -44,11 +44,11 @@
         telephone-line-evil-use-short-tag t)
   (telephone-line-mode 1))
 
-;;(use-package dimmer
-  ;; :config
-  ;; (setq dimmer-adjustment-mode :foreground)
-  ;; (setq dimmer-fraction 0.5)
-  ;; (dimmer-mode t))
+;; (use-package dimmer
+   ;; :config
+   ;; (setq dimmer-adjustment-mode :foreground)
+   ;; (setq dimmer-fraction 0.5)
+   ;; (dimmer-mode t))
 
 (use-package evil
   :config

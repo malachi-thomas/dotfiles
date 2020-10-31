@@ -78,11 +78,11 @@
 
 #+begin_src emacs-lisp
 
-;;(use-package dimmer
-  ;; :config
-  ;; (setq dimmer-adjustment-mode :foreground)
-  ;; (setq dimmer-fraction 0.5)
-  ;; (dimmer-mode t))
+;; (use-package dimmer
+   ;; :config
+   ;; (setq dimmer-adjustment-mode :foreground)
+   ;; (setq dimmer-fraction 0.5)
+   ;; (dimmer-mode t))
     
 #+end_src
 
@@ -464,6 +464,16 @@
   :config
   (global-tree-sitter-mode))
     
+#+end_src
+
+** Languages
+*** =swift-mode=
+
+#+begin_src emacs-lisp
+
+(use-package swift-mode
+  :ensure t)
+
 #+end_src
 
 * Functions

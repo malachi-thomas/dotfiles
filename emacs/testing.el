@@ -14,8 +14,6 @@
   :ensure t
   :config)
 
-(use-package helm)
-
 (use-package multi-web-mode
   :ensure t
   :config
@@ -26,12 +24,3 @@
           (css-mode "<style[^>]*>" "</style>")))
   (setq mweb-filename-extensions '("html"))
   (multi-web-global-mode 1))
-
-(use-package swift-mode
-  :ensure t)
-
-(use-package ivy-posframe
-  :after ivy
-  :ensure t
-  :config
-  (ivy-posframe-mode 1))
