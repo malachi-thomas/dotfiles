@@ -5036,3 +5036,16 @@ u
 : 1604097618:0;cd ../
 : 1604097619:0;la
 : 1604098123:0;emacs ~/dotfiles/emacs/testing.el
+: 1604098418:0;killall emacs
+: 1604098522:0;vterm-send-right
+: 1604098523:0;la
+: 1604098542:0;cd
+: 1604098551:0;betterlockscreen -s  
+: 1604098854:0;aaaa
+: 1604098938:0;zsh
+: 1604099082:0;betterlockscreen -s  
+: 1604129128:0;killall emacs
+: 1604131058:0;df -h
+: 1604131498:0;cd dotfiles
+: 1604131501:0;mk org-rome
+: 1604132343:0;killall emacs

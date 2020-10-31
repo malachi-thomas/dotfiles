@@ -301,7 +301,7 @@
 
 
 
-(defun ma/avy-goto-line ()
+(defun my/avy-goto-line ()
   (interactive)
   (avy-goto-line)
   (recenter))
@@ -352,6 +352,19 @@ With argument ARG, do this that many times."
   (interactive "p")
   (delete-region (point) (progn (backward-word arg) (point))))
 
+(defun my/open-link ()
+  (interactive)
+  (org-open-at-point)
+  (delete-window))
+  
+(defcustom mouse-1-click-follows-link 450
+  (interactive)
+  :version "22.1"
+  :type '(choice (const :tag "Disabled" nil)
+		 (const :tag "Double click" double)
+                 (number :tag "Single click time limit" :value 450)
+                 (other :tag "Single click" t)))
+
 (load "~/dotfiles/emacs/testing.el")
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
@@ -370,8 +383,8 @@ With argument ARG, do this that many times."
  "C-r" 'undo-tree-redo
  "n" 'evil-search-previous
  "N" 'evil-search-next
- "C-l" 'ma/avy-goto-line
- "C-f" 'ma/avy-goto-word-1
+ "C-l" 'my/avy-goto-line
+ "C-f" 'my/avy-goto-word-1
  "C-M-r" 'my/reload-config
  "/" 'swiper
  "M-t" 'vterm
@@ -386,15 +399,19 @@ With argument ARG, do this that many times."
  "<down>" 'evil-next-line
  "TAB" 'company-indent-or-complete-common
  )
- 
+
 (general-def evil-multiedit-state-map
-"C-n" 'my/evil-multiedit-next-match
-"C-p" 'my/evil-multiedit-prev-match
-"C-s" 'evil-multiedit-toggle-or-restrict-region
-"n" 'my/evil-multiedit-next
-"N" 'my/evil-multiedit-prev
-"<down>" 'my/evil-multiedit-next
-"<up>" 'my/evil-multiedit-prev
+ "C-n" 'my/evil-multiedit-next-match
+ "C-p" 'my/evil-multiedit-prev-match
+ "C-s" 'evil-multiedit-toggle-or-restrict-region
+ "n" 'my/evil-multiedit-next
+ "N" 'my/evil-multiedit-prev
+ "<down>" 'my/evil-multiedit-next
+ "<up>" 'my/evil-multiedit-prev
+)
+
+(general-def 'normal org-mode-map
+ "RET" 'org-open-at-point
 )
 
 (general-def 'normal
@@ -413,12 +430,6 @@ With argument ARG, do this that many times."
  "<down>" 'split-window-below
  "<right>" 'split-window-right
  )
-
-;;(general-def 'normal org-mode-map
- ;;"a" 'counsel-ibuffer
-;;)
-;;(general-def 'insert eshell-mode-map
-  ;;"RET" 'eshell-queue-input)
 
 (setq inhibit-startup-message t)
 (setq show-paren-style 'expression)

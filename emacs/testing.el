@@ -49,11 +49,11 @@
 ;;   :ensure t)
 ;; (setq org-roam-directory "~/dotfiles/org-rome")
 
-(use-package evil-collection
-  :after evil
-  :ensure t
-  :config
-  (evil-collection-init))
+;; (use-package evil-collection
+;;   :after evil
+;;   :ensure t
+;;   :config
+;;   (evil-collection-init))
 
 (setq echo-keystrokes 0.1)
 ;; (setq eshell-prompt-regexp "^[^αλ\n]*[αλ] ")
