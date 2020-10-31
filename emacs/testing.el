@@ -25,12 +25,6 @@
   (setq mweb-filename-extensions '("html"))
   (multi-web-global-mode 1))
 
-
-;; (use-package selectrum
-;;   :ensure t
-;;   :config
-;;   (selectrum-mode +1))
-
 (use-package mini-frame
   :ensure f
   :config
