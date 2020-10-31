@@ -5080,3 +5080,5 @@ u
 : 1604151509:0;killall emacs
 : 1604151777:0;emacs
 : 1604151899:0;killall emacs
+: 1604155358:0;dot
+: 1604155372:0;commit "emacs added stuff to  init.org" && push
