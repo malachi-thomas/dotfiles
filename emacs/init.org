@@ -78,11 +78,11 @@
 
 #+begin_src emacs-lisp
 
-(use-package dimmer
-  :config
-  (setq dimmer-adjustment-mode :foreground)
-  (setq dimmer-fraction 0.5)
-  (dimmer-mode t))
+;;(use-package dimmer
+  ;; :config
+  ;; (setq dimmer-adjustment-mode :foreground)
+  ;; (setq dimmer-fraction 0.5)
+  ;; (dimmer-mode t))
     
 #+end_src
 
@@ -229,7 +229,7 @@
   (setq avy-background t)
   (setq avy-highlight-first t)
   (setq avy-orders-alist
-        '((avy-goto-char . avy-order-closest)
+        '((avy-goto-line . avy-order-closest)
           (avy-goto-word-0 . avy-order-closest))))
     
 #+end_src
@@ -269,6 +269,18 @@
 
 #+end_src
 
+*** =ivy-posframe=
+
+#+begin_src emacs-lisp
+
+(use-package ivy-posframe
+  :after ivy
+  :ensure t
+  :config
+  (ivy-posframe-mode 1))    
+
+#+end_src
+    
 *** =all-the-icons-ivy=
 
 #+begin_src emacs-lisp
@@ -575,7 +587,6 @@
 (defun my/reload-config ()
   (interactive)
   (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org")))
-  
  
 (defun my/indent ()
   (interactive)
@@ -595,11 +606,6 @@
 With argument ARG, do this that many times."
   (interactive "p")
   (delete-region (point) (progn (backward-word arg) (point))))
-
-(defun my/open-link ()
-  (interactive)
-  (org-open-at-point)
-  (delete-window))
   
    #+end_src
 
@@ -724,7 +730,7 @@ With argument ARG, do this that many times."
 (setq auto-save-default nil)
 (setq x-select-enable-clipboard t)
 (setq x-select-enable-primary t)
- 
+(setq echo-keystrokes 0.1)
 
 (setq-default display-line-numbers-width 1)
 (setq-default display-line-numbers-widen t)
@@ -747,8 +753,8 @@ With argument ARG, do this that many times."
                 (org-level-6 . 1.15)
                 (org-level-7 . 1.1)
                 (org-level-8 . 1.05))))
-;; org bulleted list start with a •
 
+;; org bulleted list start with a •
 (font-lock-add-keywords 'org-mode
                         '(("^ *\\([-]\\) "
                            (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))

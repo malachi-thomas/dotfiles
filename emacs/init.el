@@ -44,11 +44,11 @@
         telephone-line-evil-use-short-tag t)
   (telephone-line-mode 1))
 
-(use-package dimmer
-  :config
-  (setq dimmer-adjustment-mode :foreground)
-  (setq dimmer-fraction 0.5)
-  (dimmer-mode t))
+;;(use-package dimmer
+  ;; :config
+  ;; (setq dimmer-adjustment-mode :foreground)
+  ;; (setq dimmer-fraction 0.5)
+  ;; (dimmer-mode t))
 
 (use-package evil
   :config
@@ -115,7 +115,7 @@
   (setq avy-background t)
   (setq avy-highlight-first t)
   (setq avy-orders-alist
-        '((avy-goto-char . avy-order-closest)
+        '((avy-goto-line . avy-order-closest)
           (avy-goto-word-0 . avy-order-closest))))
 
 (use-package general
@@ -134,6 +134,12 @@
   (ivy-mode)
   (setq ivy-use-virtual-buffers t)
   (setq enable-recursive-minibuffers t))
+
+(use-package ivy-posframe
+  :after ivy
+  :ensure t
+  :config
+  (ivy-posframe-mode 1))
 
 (use-package all-the-icons-ivy
   :ensure t
@@ -331,7 +337,6 @@
 (defun my/reload-config ()
   (interactive)
   (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org")))
-  
  
 (defun my/indent ()
   (interactive)
@@ -351,19 +356,6 @@
 With argument ARG, do this that many times."
   (interactive "p")
   (delete-region (point) (progn (backward-word arg) (point))))
-
-(defun my/open-link ()
-  (interactive)
-  (org-open-at-point)
-  (delete-window))
-  
-(defcustom mouse-1-click-follows-link 450
-  (interactive)
-  :version "22.1"
-  :type '(choice (const :tag "Disabled" nil)
-		 (const :tag "Double click" double)
-                 (number :tag "Single click time limit" :value 450)
-                 (other :tag "Single click" t)))
 
 (load "~/dotfiles/emacs/testing.el")
 
@@ -439,7 +431,7 @@ With argument ARG, do this that many times."
 (setq auto-save-default nil)
 (setq x-select-enable-clipboard t)
 (setq x-select-enable-primary t)
- 
+(setq echo-keystrokes 0.1)
 
 (setq-default display-line-numbers-width 1)
 (setq-default display-line-numbers-widen t)
@@ -462,8 +454,8 @@ With argument ARG, do this that many times."
                 (org-level-6 . 1.15)
                 (org-level-7 . 1.1)
                 (org-level-8 . 1.05))))
-;; org bulleted list start with a •
 
+;; org bulleted list start with a •
 (font-lock-add-keywords 'org-mode
                         '(("^ *\\([-]\\) "
                            (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))

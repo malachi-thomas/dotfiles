@@ -5049,3 +5049,25 @@ u
 : 1604131498:0;cd dotfiles
 : 1604131501:0;mk org-rome
 : 1604132343:0;killall emacs
+: 1604133707:0;pac swift
+: 1604133800:0;pac swift-bin
+: 1604134103:0;cd ~/code/swift
+: 1604134104:0;al
+: 1604134107:0;swift test.swift
+: 1604134114:0;swift . 
+: 1604134117:0;swift
+: 1604134250:0;pac sourcekit
+: 1604134321:0;pac toolchain
+: 1604134357:0;pac xcode
+: 1604134467:0;pac sourcekit
+: 1604134572:0;killall emacs
+: 1604134946:0;pac code
+: 1604135037:0;cd ~/code/swift
+: 1604135039:0;code .
+: 1604135048:0;la
+: 1604135053:0;rma .\#test.swift
+: 1604135380:0;swift test.swift
+: 1604135702:0;cd ~/code/swift
+: 1604135703:0;la
+: 1604135707:0;swift test.swift
+: 1604139253:0;killall emacs
