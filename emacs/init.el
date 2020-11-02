@@ -119,7 +119,9 @@
           (avy-goto-word-0 . avy-order-closest))))
 
 (use-package general
-  :ensure t)
+  :ensure t
+  :config
+  (general-override-mode 1))
 
 (use-package which-key
 :ensure t
@@ -140,16 +142,26 @@
   :config
   (all-the-icons-ivy-setup))
 
-(use-package mini-frame
-  :ensure f
+(use-package ivy-posframe
+  :ensure t
+  :init
+  (setq ivy-posframe-display-functions-alist '((t . ivy-posframe-display-at-frame-top-center)))
+  (setq ivy-posframe-parameters
+      '((left-fringe . 8)
+        (right-fringe . 8)))
   :config
-  (custom-set-variables
-   '(mini-frame-show-parameters
-     '((top . 20)
-       (width . 0.5)
-       (left . 0.5)
-       (height . 1))))
-  (mini-frame-mode))
+  (ivy-posframe-mode))
+
+;; (use-package mini-frame
+  ;; :ensure f
+  ;; :config
+  ;; (custom-set-variables
+   ;; '(mini-frame-show-parameters
+     ;; '((top . 20)
+       ;; (width . 0.5)
+       ;; (left . 0.5)
+       ;; (height . 1))))
+  ;; (mini-frame-mode))
 
 
 
@@ -176,6 +188,8 @@
 
 (use-package lsp-mode
   :ensure t
+  :init
+  (setq lsp-log-io nil)
   :commands (lsp))
 
 (use-package lsp-ui
@@ -226,9 +240,25 @@
   (global-tree-sitter-mode))
 
 (use-package swift-mode
-  :ensure t)
+  :ensure t
+  :mode "\\.swift\\'")
 
+(use-package yaml-mode
+  :ensure t
+  :mode "\\.yml\\'")
 
+(use-package js2-mode
+  :ensure t
+  :mode "\\.js\\'"
+  :init
+  (setq js2-mode-show-parse-errors nil)
+  (setq js2-mode-show-strict-warnings nil))
+
+(use-package rjsx-mode
+  :ensure t
+  :mode "components\\/.*\\.js\\'"
+  :init
+  )
 
 (evil-define-motion evil-next-line (count)
   "Move the cursor COUNT lines down."
@@ -341,6 +371,43 @@
         (indent-for-tab-command)))
     (indent-for-tab-command)))
 
+(defun my/split-right ()
+  (interactive)
+  (split-window-horizontally))
+;;  (other-window 1 nil))
+
+(defun my/split-left ()
+  (interactive)
+  (split-window-right))
+;;  (other-window 1 nil))
+
+(defun my/split-up ()
+  (interactive)
+  (split-window-vertically)
+  (other-window 1 nil))
+
+(defun my/split-down ()
+  (interactive)
+  (split-window-below)
+  (other-window 1 nil))
+
+(defun my/org-force-open-current-window ()
+  (interactive)
+  (let ((org-link-frame-setup (quote
+                               ((vm . vm-visit-folder)
+                                (vm-imap . vm-visit-imap-folder)
+                                (gnus . gnus)
+                                (file . find-file)
+                                (wl . wl)))
+                              ))
+    (org-open-at-point)))
+
+(defun org-open-maybe (&optional arg)
+  (interactive "P")
+  (if arg
+      (org-open-at-point)
+    (org-force-open-current-window)))
+
 (load "~/dotfiles/emacs/testing.el")
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
@@ -411,8 +478,15 @@
  "c b" 'counsel-ibuffer
  "r f" 'counsel-recentf
  "g s" 'magit-status
- "<down>" 'split-window-below
- "<right>" 'split-window-right
+ "<up>" 'split-window-below
+ "<down>" 'split-window-vertically
+ "<left>" 'split-window-right
+ "<right>" 'split-window-horizontally
+ )
+
+(general-def 'normal org-mode-map
+ :prefix "SPC"
+ "r l" 'org-roam-insert
  )
 
 (setq inhibit-startup-message t)
@@ -424,9 +498,9 @@
 (setq x-select-enable-clipboard t)
 (setq x-select-enable-primary t)
 (setq echo-keystrokes 0.1)
-
-(setq-default display-line-numbers-width 1)
-(setq-default display-line-numbers-widen t)
+(setq vc-follow-symlinks t)
+(setq scroll-preserve-screen-position 'keep)
+(setq display-line-numbers-width-start t)
 
 (blink-cursor-mode 0)
 (scroll-bar-mode -1) ; Disable visible scrollbar
@@ -436,6 +510,8 @@
 (menu-bar-mode -1) ; Disable the menu bar
 (set-face-attribute 'default nil :font "Hack" :height 110)
 (global-subword-mode 1)
+(global-auto-revert-mode t)
+
 
 ;; org title font size
 (dolist (face '((org-level-1 . 1.4)
@@ -457,6 +533,8 @@
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
 (add-hook 'prog-mode-hook 'company-mode)
 (add-hook 'company-mode-hook 'company-box-mode)
+(add-hook 'write-file-hooks 'delete-trailing-whitespace)
+
 ;; (setq-local emmet-expand-jsx-className? nil)
 
 (add-hook 'rjsx-mode-hook (lambda ()
@@ -464,23 +542,14 @@
   (lsp-ui-doc-mode)
   (lsp-enable-which-key-integration)
   (setq-local lsp-ui-peek-enable)
-  (setq-local lsp-log-io nil)
   (setq-local lsp-enable-folding nil)
   (setq-local lsp-diagnostic-package :none)
   (setq-local lsp-enable-snippet nil)
   (setq-local lsp-enable-completion-at-point nil)
   (setq-local lsp-enable-symbol-highlighting nil)
-  (setq-local lsp-signature-auto-activate t)
+  (setq-local lsp-signature-auto-activate t)))
 
-  ;;(my/indent)
-  ))
-;;(add-hook 'html-mode-hook #'lsp)
-;;(add-hook 'web-mode-hook #'lsp)
-;;(add-hook 'js2-mode-hook #'lsp)
-;;(add-hook 'c-mode-hook #'lsp)
-;;(add-hook 'css-mode-hook #'lsp)
-
-(add-hook 'prog-mode-hook 
+(add-hook 'prog-mode-hook
   (lambda ()
     (rainbow-delimiters-mode)
     (display-line-numbers-mode)

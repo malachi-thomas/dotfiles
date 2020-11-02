@@ -3,7 +3,7 @@
 * Package-archives
 
   #+begin_src emacs-lisp
-  
+
 (require 'package)
 (setq package-archives '(
                          ("melpa" . "https://melpa.org/packages/")
@@ -31,19 +31,19 @@
 (setq use-package-always-ensure t)
 
   #+end_src
-  
+
 * Packages
 ** UI config
 *** =doom-theam=
-    
+
 #+begin_src emacs-lisp
-    
+
 (use-package doom-themes
   :config
   (setq doom-themes-enable-bold t)
   (setq doom-themes-enable-italic t)
   (load-theme 'doom-gruvbox t))
-    
+
 #+end_src
 
 *** =all-the-icons=
@@ -55,13 +55,13 @@
   :config
   (when (not (member "all-the-icons" (font-family-list)))
     (all-the-icons-install-fonts t)))
-    
+
 #+end_src
 
 *** =telephone-line=
 
 #+begin_src emacs-lisp
-    
+
 (use-package telephone-line
   :config
   (setq telephone-line-primary-right-separator 'telephone-line-abs-left
@@ -81,21 +81,21 @@
    ;; (setq dimmer-adjustment-mode :foreground)
    ;; (setq dimmer-fraction 0.5)
    ;; (dimmer-mode t))
-    
+
 #+end_src
 
 ** Evil mode
 *** =evil=
 
 #+begin_src emacs-lisp
-    
+
 (use-package evil
   :config
   (evil-mode 1)
   (evil-set-initial-state 'magit-status-mode 'normal)
   (evil-set-initial-state 'help-mode 'normal)
   (evil-set-initial-state 'info-mode 'normal))
-    
+
 #+end_src
 
 *** =evil-commentary=
@@ -118,7 +118,7 @@
     (kbd "C-n") 'evil-multiedit-match-and-next
     (kbd "C-p") 'evil-multiedit-match-and-prev
     (kbd "C-a") 'evil-multiedit-match-all))
-    
+
 #+end_src
 
 *** =evil-snipe=
@@ -129,17 +129,17 @@
   :config
   (evil-snipe-mode +1)
   (evil-snipe-override-mode +1))
- 
+
 #+end_src
 
 *** =undo-tree=
-    
+
 #+begin_src emacs-lisp
 
     (use-package undo-tree
   :config
   (global-undo-tree-mode 1))
-    
+
 #+end_src
 
 *** =swiper=
@@ -148,7 +148,7 @@
 
 (use-package swiper
 :ensure t)
-    
+
 #+end_src
 
 ** Org mode
@@ -160,25 +160,25 @@
   :hook ((org-mode-hook . (lambda () (add-hook 'after-save-hook #'reload-config))))
   :config
   (setq org-ellipsis " ▾"))
-    
+
 #+end_src
 
 *** =org-bullets=
-    
+
 #+begin_src emacs-lisp
-    
+
 (use-package org-bullets
   :after org
   :hook (org-mode . org-bullets-mode)
   :custom
   (org-bullets-bullet-list '("◉" "○" "●" "○" "●" "○" "●")))
-    
+
 #+end_src
 
 *** =org-tempo=
-    
+
 #+begin_src emacs-lisp
-    
+
 (require 'org-tempo)
 (add-to-list 'org-structure-template-alist '("sh" . "src shell"))
 (add-to-list 'org-structure-template-alist '("el" . "src emacs-lisp"))
@@ -194,7 +194,7 @@
 
 (use-package counsel
   :ensure t)
-    
+
 #+end_src
 
 *** =saveplace=
@@ -203,13 +203,13 @@
 (use-package saveplace
   :config
   (save-place-mode))
-    
+
 #+end_src
 
 *** =smart-hungry-delete=
 
 #+begin_src emacs-lisp
-    
+
 (use-package smart-hungry-delete
   :ensure t
   :defer nil
@@ -229,7 +229,7 @@
   (setq avy-orders-alist
         '((avy-goto-line . avy-order-closest)
           (avy-goto-word-0 . avy-order-closest))))
-    
+
 #+end_src
 
 *** =general=
@@ -237,8 +237,10 @@
 #+begin_src emacs-lisp
 
 (use-package general
-  :ensure t)
-    
+  :ensure t
+  :config
+  (general-override-mode 1))
+
 #+end_src
 
 *** =which-key=
@@ -251,7 +253,7 @@
   (setq which-key-idle-delay 0.15)
   (setq which-key-popup-type 'minibuffer)
   (which-key-mode))
-    
+
 #+end_src
 
 *** =ivy=
@@ -275,30 +277,46 @@
   :ensure t
   :config
   (all-the-icons-ivy-setup))
-    
+
+#+end_src
+
+*** =ivy-posframe=
+
+#+begin_src emacs-lisp
+
+(use-package ivy-posframe
+  :ensure t
+  :init
+  (setq ivy-posframe-display-functions-alist '((t . ivy-posframe-display-at-frame-top-center)))
+  (setq ivy-posframe-parameters
+      '((left-fringe . 8)
+        (right-fringe . 8)))
+  :config
+  (ivy-posframe-mode))
+
 #+end_src
 
 *** =mini-frame=
-    
+
 #+begin_src emacs-lisp
 
-(use-package mini-frame
-  :ensure f
-  :config
-  (custom-set-variables
-   '(mini-frame-show-parameters
-     '((top . 20)
-       (width . 0.5)
-       (left . 0.5)
-       (height . 1))))
-  (mini-frame-mode))
+;; (use-package mini-frame
+  ;; :ensure f
+  ;; :config
+  ;; (custom-set-variables
+   ;; '(mini-frame-show-parameters
+     ;; '((top . 20)
+       ;; (width . 0.5)
+       ;; (left . 0.5)
+       ;; (height . 1))))
+  ;; (mini-frame-mode))
 
 #+end_src
 
 *** ==
 
 #+begin_src emacs-lisp
-    
+
 #+end_src
 
 ** Programming
@@ -313,16 +331,16 @@
   (setq company-selection-wrap-around t)
   (company-tng-mode)
   (global-company-mode))
-    
+
 #+end_src
 
 *** =company-prescient=
-    
+
 #+begin_src emacs-lisp
 
 (use-package company-prescient
   :after lsp-mode)
-    
+
 #+end_src
 
 *** =company-box=
@@ -332,7 +350,7 @@
 (use-package company-box
   :ensure t
   :after company-mode)
-    
+
 #+end_src
 
 *** =company-lsp=
@@ -344,23 +362,25 @@
   :requires company-mode lsp-mode
   :commands company-lsp
   :config (push 'company-lsp company-backends))
-    
+
   #+end_src
 
 *** =lsp-mode=
-    
+
 #+begin_src emacs-lisp
 
 (use-package lsp-mode
   :ensure t
+  :init
+  (setq lsp-log-io nil)
   :commands (lsp))
-     
+
 #+end_src
 
 *** =lsp-ui=
 
 #+begin_src emacs-lisp
-    
+
 (use-package lsp-ui
   :ensure t
   :requires lsp-mode flycheck)
@@ -370,7 +390,7 @@
 *** =emmet-mode=
 
 #+begin_src emacs-lisp
-    
+
 (use-package emmet-mode
   :config
   (setq emmet-self-closing-tag-style "/")
@@ -385,13 +405,13 @@
 
 (use-package rainbow-delimiters
   :ensure t)
-    
+
 #+end_src
 
 *** =yasnippet=
 
 #+begin_src emacs-lisp
-    
+
 (use-package yasnippet
   :config
   (yas-global-mode 1)
@@ -410,7 +430,7 @@
 *** =flycheck=
 
 #+begin_src emacs-lisp
-    
+
 (use-package flycheck
   :ensure t
   :init (global-flycheck-mode))
@@ -420,7 +440,7 @@
 *** =format-all=
 
 #+begin_src emacs-lisp
-    
+
 (use-package format-all
   :config
   (format-all-mode))
@@ -430,7 +450,7 @@
 *** =smartparens=
 
 #+begin_src emacs-lisp
-    
+
 (use-package smartparens
   :ensure t)
 
@@ -439,7 +459,7 @@
 *** =tree-sitter=
 
 #+begin_src emacs-lisp
-    
+
 (use-package tree-sitter
   :ensure t)
 
@@ -455,7 +475,7 @@
   :hook (tree-sitter-after-on-hook . tree-sitter-hl-mode)
   :config
   (global-tree-sitter-mode))
-    
+
 #+end_src
 
 ** Languages
@@ -464,14 +484,44 @@
 #+begin_src emacs-lisp
 
 (use-package swift-mode
-  :ensure t)
+  :ensure t
+  :mode "\\.swift\\'")
 
 #+end_src
 
-*** ==
+*** =yaml-mode=
 
 #+begin_src emacs-lisp
-    
+
+(use-package yaml-mode
+  :ensure t
+  :mode "\\.yml\\'")
+
+#+end_src
+
+*** =js2-mode=
+
+#+begin_src emacs-lisp
+
+(use-package js2-mode
+  :ensure t
+  :mode "\\.js\\'"
+  :init
+  (setq js2-mode-show-parse-errors nil)
+  (setq js2-mode-show-strict-warnings nil))
+
+#+end_src
+
+*** =rjsx-mode=
+
+#+begin_src emacs-lisp
+
+(use-package rjsx-mode
+  :ensure t
+  :mode "components\\/.*\\.js\\'"
+  :init
+  )
+
 #+end_src
 
 * Functions
@@ -514,7 +564,7 @@
   (recenter))
 
 #+end_src
-    
+
 *** evil-previous-visual-line
 
 #+begin_src emacs-lisp
@@ -527,8 +577,6 @@
   (recenter))
 
 #+end_src
-
-
 
 *** my/avy-goto-word-1
 
@@ -557,7 +605,7 @@
                 (recenter))
 
 #+end_src
-    
+
 *** my/avy-goto-line
 
 #+begin_src emacs-lisp
@@ -570,7 +618,7 @@
 #+end_src
 
 *** my/evil-multiedit-next-match
-    
+
 #+begin_src emacs-lisp
 
 (defun my/evil-multiedit-next-match ()
@@ -617,7 +665,7 @@
 
 ** custom functions
 *** my/reload-config
-    
+
 #+begin_src emacs-lisp
 
 (defun my/reload-config ()
@@ -625,9 +673,9 @@
   (org-babel-load-file (expand-file-name "~/dotfiles/emacs/init.org")))
 
 #+end_src
-   
+
 *** my/indent
-    
+
 #+begin_src emacs-lisp
 
 (defun my/indent ()
@@ -644,9 +692,9 @@
   (setq-local css-indent-offset 2))
 
 #+end_src
-   
+
 *** my/backward-delete-word
-    
+
 #+begin_src emacs-lisp
 
 (defun my/backward-delete-word (arg)
@@ -654,9 +702,9 @@
   (delete-region (point) (progn (backward-word arg) (point))))
 
 #+end_src
-    
+
 *** my/new-line-in-pairs
-    
+
 #+begin_src emacs-lisp
 
 (defun my/new-line-in-paris ()
@@ -673,13 +721,87 @@
     (indent-for-tab-command)))
 
 #+end_src
-    
+
+*** my/split-right
+
+#+begin_src emacs-lisp
+
+(defun my/split-right ()
+  (interactive)
+  (split-window-horizontally))
+;;  (other-window 1 nil))
+
+#+end_src
+
+*** my/split-right
+
+#+begin_src emacs-lisp
+
+(defun my/split-left ()
+  (interactive)
+  (split-window-right))
+;;  (other-window 1 nil))
+
+#+end_src
+
+*** my/split-up
+
+#+begin_src emacs-lisp
+
+(defun my/split-up ()
+  (interactive)
+  (split-window-vertically)
+  (other-window 1 nil))
+
+#+end_src
+
+*** my/split-down
+
+
+#+begin_src emacs-lisp
+
+(defun my/split-down ()
+  (interactive)
+  (split-window-below)
+  (other-window 1 nil))
+
+#+end_src
+
+*** my/org-force-open-current-window
+
+#+begin_src emacs-lisp
+
+(defun my/org-force-open-current-window ()
+  (interactive)
+  (let ((org-link-frame-setup (quote
+                               ((vm . vm-visit-folder)
+                                (vm-imap . vm-visit-imap-folder)
+                                (gnus . gnus)
+                                (file . find-file)
+                                (wl . wl)))
+                              ))
+    (org-open-at-point)))
+
+#+end_src
+
+*** my/org-open-maybe
+
+#+begin_src emacs-lisp
+
+(defun org-open-maybe (&optional arg)
+  (interactive "P")
+  (if arg
+      (org-open-at-point)
+    (org-force-open-current-window)))
+
+#+end_src
+
 * Testing
 
 #+begin_src emacs-lisp
 
 (load "~/dotfiles/emacs/testing.el")
-  
+
   #+end_src
 
 * Mappings
@@ -733,7 +855,7 @@
  "TAB" 'company-indent-or-complete-common
  "RET" 'my/new-line-in-paris
  )
- 
+
 #+end_src
 
 ** evil-multiedit
@@ -773,8 +895,9 @@
 )
 
 #+end_src
-   
+
 ** learder-key
+*** all-filetypes
 
 #+begin_src emacs-lisp
 
@@ -791,14 +914,28 @@
  "c b" 'counsel-ibuffer
  "r f" 'counsel-recentf
  "g s" 'magit-status
- "<down>" 'split-window-below
- "<right>" 'split-window-right
+ "<up>" 'split-window-below
+ "<down>" 'split-window-vertically
+ "<left>" 'split-window-right
+ "<right>" 'split-window-horizontally
  )
 
 #+end_src
 
+*** org-mode-map
+
+#+begin_src emacs-lisp
+
+(general-def 'normal org-mode-map
+ :prefix "SPC"
+ "r l" 'org-roam-insert
+ )
+
+
+#+end_src
+
 * Config
-  
+
   #+begin_src emacs-lisp
 
 (setq inhibit-startup-message t)
@@ -810,9 +947,9 @@
 (setq x-select-enable-clipboard t)
 (setq x-select-enable-primary t)
 (setq echo-keystrokes 0.1)
-
-(setq-default display-line-numbers-width 1)
-(setq-default display-line-numbers-widen t)
+(setq vc-follow-symlinks t)
+(setq scroll-preserve-screen-position 'keep)
+(setq display-line-numbers-width-start t)
 
 (blink-cursor-mode 0)
 (scroll-bar-mode -1) ; Disable visible scrollbar
@@ -822,6 +959,8 @@
 (menu-bar-mode -1) ; Disable the menu bar
 (set-face-attribute 'default nil :font "Hack" :height 110)
 (global-subword-mode 1)
+(global-auto-revert-mode t)
+
 
 ;; org title font size
 (dolist (face '((org-level-1 . 1.4)
@@ -849,6 +988,8 @@
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
 (add-hook 'prog-mode-hook 'company-mode)
 (add-hook 'company-mode-hook 'company-box-mode)
+(add-hook 'write-file-hooks 'delete-trailing-whitespace)
+
 ;; (setq-local emmet-expand-jsx-className? nil)
 
 (add-hook 'rjsx-mode-hook (lambda ()
@@ -856,23 +997,14 @@
   (lsp-ui-doc-mode)
   (lsp-enable-which-key-integration)
   (setq-local lsp-ui-peek-enable)
-  (setq-local lsp-log-io nil)
   (setq-local lsp-enable-folding nil)
   (setq-local lsp-diagnostic-package :none)
   (setq-local lsp-enable-snippet nil)
   (setq-local lsp-enable-completion-at-point nil)
   (setq-local lsp-enable-symbol-highlighting nil)
-  (setq-local lsp-signature-auto-activate t)
+  (setq-local lsp-signature-auto-activate t)))
 
-  ;;(my/indent)
-  ))
-;;(add-hook 'html-mode-hook #'lsp)
-;;(add-hook 'web-mode-hook #'lsp)
-;;(add-hook 'js2-mode-hook #'lsp)
-;;(add-hook 'c-mode-hook #'lsp)
-;;(add-hook 'css-mode-hook #'lsp)
-
-(add-hook 'prog-mode-hook 
+(add-hook 'prog-mode-hook
   (lambda ()
     (rainbow-delimiters-mode)
     (display-line-numbers-mode)
@@ -882,8 +1014,3 @@
  (setq byte-compile-warnings '(cl-functions))
 
   #+end_src
-
-
-
-  
-  map 

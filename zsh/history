@@ -5082,3 +5082,120 @@ u
 : 1604151899:0;killall emacs
 : 1604155358:0;dot
 : 1604155372:0;commit "emacs added stuff to  init.org" && push
+: 1604164897:0;''''''''''''''''''''''''''''a''a'a''''''''''''','',,..ppyyffggccrrll'a,.pyfgcrr'''''',''''';;k
+: 1604165064:0;df -h
+: 1604166720:0;cd dot 
+: 1604166723:0;dot
+: 1604166728:0;la
+: 1604170063:0;so
+: 1604170265:0;sh music.sh
+: 1604170460:0;youtube-dl -x https://www.youtube.com/watch?v=RqR_fz9N0xo
+: 1604170468:0;bin
+: 1604170473:0;v music.sh
+: 1604170492:0;youtube-dl -x https://www.youtube.com/watch?v=RqR_fz9N0xo
+: 1604170506:0;pac youtube-dl
+: 1604170520:0;sh music.sh
+: 1604170778:0;youtube-dl https://www.youtube.com/watch?v=RqR_fz9N0xo
+: 1604170797:0;la
+: 1604170798:0;..
+: 1604170800:0;la
+: 1604170823:0;youtube-dl
+: 1604170829:0;youtube-dl https://www.youtube.com/watch?v=RqR_fz9N0xo
+: 1604170845:0;sh music.sh
+: 1604170871:0;bash
+cd dotfiles/scripts/
+sh music.sh 
+: 1604172947:0;bin
+: 1604172949:0;v music.sh
+: 1604172984:0;youtube-dl https://www.youtube.com/playlist?list=PLcr6smgplMLziUCOlzPSEpGA7D1XlBydI
+: 1604173903:0;update
+: 1604188502:0;youtube-dl --verbose
+: 1604188538:0;youtube-dl --update
+: 1604188558:0;pacr youtube
+: 1604188561:0;pacr youtube-dl
+: 1604188566:0;youtube-dl --update
+: 1604188570:0;pacr youtube-dl
+: 1604188592:0;sh music.sh
+: 1604188632:0;cd
+: 1604188633:0;cd music
+: 1604188634:0;la
+: 1604188636:0;tree
+: 1604188639:0;cd lsd
+: 1604188640:0;la
+: 1604189166:0;betterlockscreen -s  
+: 1604222888:0;la
+: 1604223433:0;killall emacs
+: 1604236572:0;pac anki
+: 1604236822:0;anki
+: 1604236930:0;timedatectl set-timezone Europe/London
+: 1604236933:0;time
+: 1604236969:0;timedatectl | grep local
+: 1604236981:0;timedatectl set-local-rtc 1
+: 1604236988:0;date
+: 1604237025:0;timedatectl status
+: 1604237042:0;timedatectl set-timezone gmt
+: 1604237046:0;timedatectl set-timezone GMT
+: 1604237052:0;date
+: 1604237060:0;timedatectl set-timezone GBT
+: 1604237085:0;timedatectl set-timezone UTC
+: 1604237089:0;date
+: 1604237113:0;timedatectl set-timezone GMT
+: 1604237115:0;date
+: 1604237160:0;timedatectl set-ntp true
+: 1604233566:0;date
+: 1604233596:0;power
+: 1604237232:0;date
+: 1604237245:0;timedatectl set-ntp true
+: 1604233670:0;su
+: 1604233700:0;power
+timedatectl set-ntp true
+: 1604237337:0;dote
+: 1604237338:0;date
+: 1604237344:0;timedatectl set-ntp true
+: 1604237348:0;anki
+: 1604233832:0;hwclock --show\
+
+: 1604233851:0;hwclock --systohc\
+
+: 1604233854:0;sudo hwclock --systohc\
+
+: 1604233860:0;hwclock --show\
+
+: 1604233865:0;timedatectl
+: 1604233905:0;timedatectl set-local-rtc 1\
+
+: 1604233908:0;sudo timedatectl set-local-rtc 1\
+
+: 1604233923:0;power
+: 1604234613:0;pac mvp
+: 1604234632:0;pac mpl
+: 1604234638:0;pac mpv
+: 1604258761:0;killall emacs
+: 1604268625:0;cd code/react/learning-react
+: 1604268626:0;la
+: 1604268718:0;rma .log
+: 1604268720:0;la
+: 1604268795:0;..
+: 1604268796:0;la
+: 1604268799:0;cd learning-react
+: 1604268800:0;la
+: 1604268807:0;cd frontend
+: 1604268807:0;la
+: 1604268811:0;rm .log
+: 1604268812:0;la
+: 1604268823:0;rma .log
+: 1604268825:0;la
+: 1604268884:0;betterlockscreen -s  
+: 1604313771:0;react
+: 1604313773:0;cd learning-react
+: 1604313775:0;code .
+: 1604313845:0;npm run start
+: 1604317087:0;killall code
+: 1604317094:0;killall vscode
+: 1604317474:0;git config --global core.editor "code --wait --new-window"\
+
+: 1604317475:0;la
+: 1604317488:0;cd
+: 1604317491:0;cd ~/dotfiles
+: 1604317492:0;la
+: 1604317495:0;commit

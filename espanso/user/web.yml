@@ -6,11 +6,14 @@ filter_title: "Chrome|Chromium"
 matches: 
 
   # websites
-  - trigger: "yt "
+  - trigger: ":yt "
     replace: "youtube.com\n"
 
-  - trigger: "gh "
+  - trigger: ":gh "
     replace: "github.com\n"
+
+  - trigger: ":dot "
+    replace: "github.com/banana-llarma/dotfiles\n"
 
   - trigger: ":toggl "
     replace: "track.toggl.com/timer\n"
