@@ -5199,3 +5199,20 @@ timedatectl set-ntp true
 : 1604317491:0;cd ~/dotfiles
 : 1604317492:0;la
 : 1604317495:0;commit
+: 1604317501:0;git commit
+: 1604317512:0;git config --global --unset core.editor\
+
+: 1604317517:0;git config --global core.editor "code --wait"\
+
+: 1604317522:0;git commit
+: 1604317668:0;code
+: 1604330406:0;npm start
+: 1604330412:0;cd backend
+: 1604330416:0;npm start
+: 1604331668:0;killall vscode
+: 1604331687:0;pkill code
+: 1604336680:0;ext install RobbOwen.synthwave-vscode
+: 1604336684:0;pac ext
+: 1604337269:0;pac visual-studio-code-bin
+: 1604337318:0;dot
+: 1604337331:0;commit "by by emacs" && push
