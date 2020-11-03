@@ -1,0 +1,91 @@
+// Place your key bindings in this file to override the defaults
+[
+  // ========== all modes ==========
+
+  { "key": "alt+left", "command": "workbench.action.focusLeftGroup", },
+  { "key": "alt+right", "command": "workbench.action.focusRightGroup", },
+  { "key": "alt+up", "command": "workbench.action.focusUpGroup", },
+  { "key": "alt+Down", "command": "workbench.action.focusDownGroup", },
+  { "key": "ctrl+t", "command": "workbench.action.terminal.toggleTerminal" },
+  { "key": "ctrl+w", "command": "workbench.action.closeActiveEditor"},
+
+  // ========== editorTextFocus && vim.mode == 'Normal' || !inputFocus ==========
+
+  { "key": "space space", "command": "workbench.action.quickOpen", "when": "editorTextFocus && vim.mode == 'Normal'|| !inputFocus" }, 
+  { "key": "space right", "command": "workbench.action.splitEditorRight", "when": "editorTextFocus && vim.mode == 'Normal' || !inputFocus" },
+  { "key": "space left", "command": "workbench.action.splitEditorLeft", "when": "editorTextFocus && vim.mode == 'Normal' || !inputFocus" },
+  { "key": "space up", "command": "workbench.action.splitEditorUp", "when": "editorTextFocus && vim.mode == 'Normal' || !inputFocus" },
+  { "key": "space down", "command": "workbench.action.splitEditorDown", "when": "editorTextFocus && vim.mode == 'Normal' || !inputFocus"},
+  { "key": "shift+;", "command": "workbench.action.showCommands", "when": "editorTextFocus && vim.mode == 'Normal' || !inputFocus" },
+  { "key": "tab", "command": "workbench.action.nextEditorInGroup", "when": "editorTextFocus && vim.mode == 'Normal' || !inputFocus" },
+  { "key": "ctrl+tab", "command": "workbench.action.previousEditorInGroup", "when": "editorTextFocus && vim.mode == 'Normal' || !inputFocus" },
+  { "key": "space s", "command": "workbench.action.openSnippets", "when": "editorTextFocus && vim.mode == 'Normal' || !inputFocus" },
+  // ========== editorTextFocus && vim.mode == 'Normal' ==========
+
+  // ctrl+a adds cursor to all occurrences of the word under the cursor
+  { "key": "ctrl+a", "command": "editor.action.changeAll", "when": "editorTextFocus && vim.mode == 'Normal'" },
+  // s<hift+up add cursor up
+  { "key": "shift+up", "command": "editor.action.insertCursorAbove", "when": "editorTextFocus && vim.mode == 'Normal'" },
+  // s<hift+up add cursor down
+  { "key": "shift+down", "command": "editor.action.insertCursorBelow", "when": "editorTextFocus && vim.mode == 'Normal'" },
+  // ctrl+n add cursor at next occurrence
+  { "key": "ctrl+n", "command": "editor.action.addSelectionToNextFindMatch", "when": "editorTextFocus && vim.mode != 'Insert'" },
+  // ctrl+p add cursor at previous occurrence
+  { "key": "ctrl+p","command": "editor.action.addSelectionToPreviousFindMatch", "when": "editorTextFocus && vim.mode == 'Insert'" },
+
+  // ========== side panel ==========
+  // ctrl+x open and closes extention side bar
+  { "key": "ctrl+x", "command": "workbench.view.extensions", "when": "!sideBarFocus" },
+  { "key": "ctrl+x", "command": "workbench.action.toggleSidebarVisibility", "when": "sideBarFocus" },
+  // space f open and closes file explorer side bar
+  { "key": "space f","command": "workbench.files.action.focusOpenEditorsView","when": "!sideBarFocus && editorTextFocus && vim.mode == 'Normal' || !sideBarFocus && !inputFocus" },
+  { "key": "space f","command": "workbench.action.toggleSidebarVisibility","when": "sideBarFocus && editorTextFocus && vim.mode == 'Normal' || sideBarFocus && !inputFocus" },
+
+  // ========== micglanius ==========
+  {
+    "key": "alt",
+    "command": "workbench.action.toggleMenuBar"
+  },
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

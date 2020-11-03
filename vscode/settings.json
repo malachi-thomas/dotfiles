@@ -1,0 +1,54 @@
+{
+    "editor.tabSize": 2,
+    "editor.wordWrapColumn": 100,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSurroundingLines": 50,
+    "edditor.fontSize": 16,
+    "editor.fontFamily": "Hack",
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.activityBar.visible": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.fontFamily": "monospace",
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 1,
+  
+    // vim stuff
+    // "vim.leader": "alt+x",
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.incsearch": true,
+    "vim.smartRelativeLine": true,
+    "vim.cursorStylePerMode.visualline": "block",
+  
+    // vim-sneak
+    "vim.sneak": true,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+  
+    "vim.easymotion": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.easymotionKeys": "aoeuhtns",
+  
+    // vim normal keybindings
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["ctrl+f"],
+        "after": ["leader", "leader", "leader", "b", "d", "w"],
+      },
+      {
+        "before": ["ctrl+l"],
+        "after": ["leader", "leader", "leader", "b", "d", "j", "k"]
+      },
+      {
+        "before": ["tab"],
+        "after": [":tabn"]
+      }
+    ],
+    "workbench.editor.showTabs": true,
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+  
+}

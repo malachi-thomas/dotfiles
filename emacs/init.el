@@ -44,12 +44,6 @@
         telephone-line-evil-use-short-tag t)
   (telephone-line-mode 1))
 
-;; (use-package dimmer
-   ;; :config
-   ;; (setq dimmer-adjustment-mode :foreground)
-   ;; (setq dimmer-fraction 0.5)
-   ;; (dimmer-mode t))
-
 (use-package evil
   :config
   (evil-mode 1)
@@ -67,11 +61,6 @@
     (kbd "C-n") 'evil-multiedit-match-and-next
     (kbd "C-p") 'evil-multiedit-match-and-prev
     (kbd "C-a") 'evil-multiedit-match-all))
-
-(use-package evil-snipe
-  :config
-  (evil-snipe-mode +1)
-  (evil-snipe-override-mode +1))
 
 (use-package undo-tree
 :config
@@ -151,114 +140,6 @@
         (right-fringe . 8)))
   :config
   (ivy-posframe-mode))
-
-;; (use-package mini-frame
-  ;; :ensure f
-  ;; :config
-  ;; (custom-set-variables
-   ;; '(mini-frame-show-parameters
-     ;; '((top . 20)
-       ;; (width . 0.5)
-       ;; (left . 0.5)
-       ;; (height . 1))))
-  ;; (mini-frame-mode))
-
-
-
-(use-package company
-  :config
-  (setq company-idle-delay 0)
-  (setq company-minimum-prefix-length 1)
-  (setq company-selection-wrap-around t)
-  (company-tng-mode)
-  (global-company-mode))
-
-(use-package company-prescient
-  :after lsp-mode)
-
-(use-package company-box
-  :ensure t
-  :after company-mode)
-
-(use-package company-lsp
-  :ensure t
-  :requires company-mode lsp-mode
-  :commands company-lsp
-  :config (push 'company-lsp company-backends))
-
-(use-package lsp-mode
-  :ensure t
-  :init
-  (setq lsp-log-io nil)
-  :commands (lsp))
-
-(use-package lsp-ui
-  :ensure t
-  :requires lsp-mode flycheck)
-
-(use-package emmet-mode
-  :config
-  (setq emmet-self-closing-tag-style "/")
-  (setq emmet-expand-jsx-className? t)
-  (setq emmet-move-cursor-between-quotes t))
-
-(use-package rainbow-delimiters
-  :ensure t)
-
-(use-package yasnippet
-  :config
-  (yas-global-mode 1)
-  (setq yas-snippet-dirs '("~/dotfiles/emacs/snippets"))
-  (yas-reload-all))
-  ;; company backend with yasnippet
-  ;;(defun company-mode/backend-with-yas (backend)
-  ;;(if (and (listp backend) (member 'company-yasnippet backend))
-      ;;backend
-    ;;(append (if (consp backend) backend (list backend))
-            ;;'(:with company-yasnippet))))
-  ;;(setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
-
-(use-package flycheck
-  :ensure t
-  :init (global-flycheck-mode))
-
-(use-package format-all
-  :config
-  (format-all-mode))
-
-(use-package smartparens
-  :ensure t)
-
-(use-package tree-sitter
-  :ensure t)
-
-(use-package tree-sitter-langs
-  :ensure t
-  :requires tree-sitter
-  :hook (tree-sitter-after-on-hook . tree-sitter-hl-mode)
-  :config
-  (global-tree-sitter-mode))
-
-(use-package swift-mode
-  :ensure t
-  :mode "\\.swift\\'")
-
-(use-package yaml-mode
-  :ensure t
-  :mode "\\.yml\\'")
-
-(use-package js2-mode
-  :ensure t
-  :mode "\\.js\\'"
-  :init
-  (setq js2-mode-show-parse-errors nil)
-  (setq js2-mode-show-strict-warnings nil))
-
-(use-package rjsx-mode
-  :ensure t
-  :mode "components\\/.*\\.js\\'"
-  :init
-  )
 
 (evil-define-motion evil-next-line (count)
   "Move the cursor COUNT lines down."

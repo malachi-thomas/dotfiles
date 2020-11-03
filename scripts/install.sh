@@ -29,11 +29,13 @@ sudo pacman -S xf86-input-wacom
 sudo pacman -S alsa-utils
 sudo pacman -S redshift
 sudo pacman -S tmux
+sudo pacman -S emacs
 
 yay betterlockscreen
 yay neovim-nightly
 yay espanso
 yay notify-osd-customizable
+yay visual-studio-code-bin
 
 
 pip install togglCli

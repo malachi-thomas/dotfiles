@@ -5216,3 +5216,104 @@ timedatectl set-ntp true
 : 1604337269:0;pac visual-studio-code-bin
 : 1604337318:0;dot
 : 1604337331:0;commit "by by emacs" && push
+: 1604337346:0;cd emacs
+: 1604337347:0;la
+: 1604337353:0;rma .\#testing.el
+: 1604337355:0;la
+: 1604337361:0;cd data
+: 1604337362:0;la
+: 1604337364:0;..
+: 1604337368:0;rma data
+: 1604337369:0;la
+: 1604337376:0;code .
+: 1604337392:0;emacs init.org
+: 1604337771:0;sudo pacman -s visual-studio-code-bin
+: 1604337776:0;sudo pacman -S visual-studio-code-bin
+: 1604337781:0;bin
+: 1604337784:0;v install.sh
+: 1604337866:0;sudo code
+: 1604337873:0;sudo code .
+: 1604337887:0;sudo code --user-data-dir
+: 1604350992:0;react && cd learning-react
+: 1604350993:0;la
+: 1604350995:0;code .
+: 1604354611:0;betterlockscreen -s  
+: 1604394250:0;cd .config
+: 1604394251:0;la
+: 1604394274:0;cd code-oss
+: 1604394275:0;la
+: 1604394276:0;..
+: 1604394277:0;la
+: 1604394316:0;cd code-oss
+: 1604394317:0;la
+: 1604394327:0;..
+: 1604394333:0;la
+: 1604394340:0;cd Code
+: 1604394340:0;la
+: 1604394349:0;bin
+: 1604394353:0;la
+: 1604394370:0;v relink.sh
+: 1604396553:0;bin
+: 1604396558:0;v move.sh
+: 1604396722:0;bin
+: 1604396726:0;code .
+: 1604396908:0;/usr/bin/python /home/malachi/.vscode/extensions/ms-python.python-2020.10.332292344/pythonFiles/pyvsc-run-isolated.py pip install -U pylint --user
+: 1604397839:0;sh move.sh
+: 1604397867:0;ex move.sh
+: 1604397873:0;sh move.sh
+: 1604398015:0;ln -q
+: 1604398018:0;ln ---help
+: 1604398020:0;ln --help
+: 1604398397:0;cd .config/Code/User/la
+: 1604398399:0;cd .config/Code/User/
+: 1604398399:0;la
+: 1604398441:0;mkdir ~/dotfiles/vscode
+: 1604398455:0;ln keybindings.json ~/dotfiles/vscode
+: 1604398463:0;ln settings.json ~/dotfiles/vscode
+: 1604398480:0;mkdir ~/dotfiles/vscode/snippets
+: 1604398488:0;cd snippets
+: 1604398489:0;la
+: 1604398507:0;ln * ~/dotfiles/vscode/snippets
+: 1604399086:0;./move.sh
+: 1604399160:0;pkill espanso
+: 1604399164:0;espanso
+: 1604399184:0;esp
+: 1604399191:0;v default.yml
+: 1604399201:0;espanso
+: 1604399256:0;la
+: 1604399264:0;cd ~/.config/espanso
+: 1604399265:0;la
+: 1604399266:0;v default.yml
+: 1604399275:0;espanso
+: 1604399315:0;la
+: 1604399462:0;cp -fr ~/dotfiles/espanso/* ~/.config/espanso
+: 1604399465:0;espanso
+: 1604399471:0;la
+: 1604399474:0;ll
+: 1604399507:0;v default.yml
+: 1604399521:0;espanso edit
+: 1604399537:0;rma *
+: 1604399541:0;espanso edit
+: 1604399548:0;sh move.sh
+: 1604399594:0;cd
+: 1604399598:0;cd dotfiles/vscode
+: 1604399598:0;la
+: 1604399600:0;cd snippets
+: 1604399603:0;v json.json
+: 1604400133:0;./music.sh
+: 1604400165:0;la
+: 1604400369:0;sh ./relink.sh
+: 1604400572:0;ln -fd ~/.config/nvim/* ~/dotfiles/nvim
+: 1604400578:0;sudo ln -fd ~/.config/nvim/* ~/dotfiles/nvim
+: 1604400888:0;cd dotfiles/zsh
+: 1604400889:0;la
+: 1604401216:0;....
+: 1604401218:0;cd
+: 1604401226:0;cd .config/Code/User/
+: 1604401227:0;la
+: 1604401274:0;sh 
+: 1604401282:0;sh ./relink.sh
+: 1604401290:0;espanso
+: 1604401329:0;..
+: 1604401333:0;git commit 
+: 1604401353:0;commit "added vscode" && push

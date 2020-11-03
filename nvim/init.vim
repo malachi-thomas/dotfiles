@@ -12,7 +12,7 @@ colorscheme gruvbox
 set background=dark
 set number
 set relativenumber
-set guicursor=
+" set guicursor=
 set colorcolumn=100
 set termguicolors
 highlight ColorColumn ctermbg=0 guibg=lightgrey
