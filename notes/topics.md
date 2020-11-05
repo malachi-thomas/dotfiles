@@ -4,7 +4,6 @@ Tags: #topics
 # Topics
 
 ## Programming Languages
-
 - [typscript](typescript/typescript.md)
 - [javascript](javascript/javascript.md)
 - [nodejs](nodejs/nodejs.md)
@@ -21,3 +20,4 @@ Tags: #topics
 ## Nots On Learning
 
 - [zettelkasten](zettelkasten/zettelkasten.md)
+

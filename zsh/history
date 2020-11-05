@@ -5103,8 +5103,8 @@ u
 : 1604170829:0;youtube-dl https://www.youtube.com/watch?v=RqR_fz9N0xo
 : 1604170845:0;sh music.sh
 : 1604170871:0;bash
-cd dotfiles/scripts/
-sh music.sh 
+: 1604405422:0;cd dotfiles/scripts/
+: 1604405422:0;sh music.sh 
 : 1604172947:0;bin
 : 1604172949:0;v music.sh
 : 1604172984:0;youtube-dl https://www.youtube.com/playlist?list=PLcr6smgplMLziUCOlzPSEpGA7D1XlBydI
@@ -5148,7 +5148,7 @@ sh music.sh
 : 1604237245:0;timedatectl set-ntp true
 : 1604233670:0;su
 : 1604233700:0;power
-timedatectl set-ntp true
+: 1604405422:0;timedatectl set-ntp true
 : 1604237337:0;dote
 : 1604237338:0;date
 : 1604237344:0;timedatectl set-ntp true
@@ -5317,3 +5317,396 @@ timedatectl set-ntp true
 : 1604401329:0;..
 : 1604401333:0;git commit 
 : 1604401353:0;commit "added vscode" && push
+: 1604401428:0;cd espanso
+: 1604401429:0;la
+: 1604401432:0;cd user
+: 1604401434:0;rm default.yml
+: 1604401436:0;..
+: 1604401436:0;.
+: 1604401437:0;...
+: 1604401440:0;cd ~/.config/espanso
+: 1604401442:0;la
+: 1604401444:0;cd user
+: 1604401444:0;la
+: 1604401446:0;rm default.yml
+: 1604401457:0;sh move.sh
+: 1604401463:0;sh relink.sh
+: 1604405357:0;zsh
+: 1604405422:0;edit
+: 1604412818:0;react 
+: 1604412821:0;cd learning-react
+: 1604412821:0;la
+: 1604413043:0;react && cd learning-react
+: 1604413044:0;la
+: 1604413047:0;edit
+: 1604413221:0;vscode://vscode.github-authentication/did-authenticate?windowid=1&code=bc427187f7844ce45a89&state=489a9607-28e7-4559-8047-669ce8c6511a
+: 1604414780:0;cd frontend
+: 1604414781:0;la
+: 1604414784:0;npm start
+: 1604414789:0;cd src
+: 1604414792:0;npm start
+: 1604414799:0;npm install
+: 1604414820:0;npm start
+: 1604414886:0;npm i parcel
+: 1604414904:0;npm start
+: 1604414945:0;..
+: 1604414947:0;npm start
+: 1604414957:0;parcel 
+: 1604414962:0;zsh
+: 1604415172:0;npm start
+: 1604415190:0;echo $PATH
+: 1604415257:0;la
+: 1604415260:0;cd frontend
+: 1604415262:0;la
+: 1604415264:0;npm start
+: 1604415277:0;react 
+: 1604415280:0;cd learning-react/frontend
+: 1604415283:0;parcel
+: 1604415293:0;cd node_modules/bin
+: 1604415297:0;cd node_modules/
+: 1604415298:0;la
+: 1604415309:0;cd la
+: 1604415310:0;la
+: 1604415319:0;cd .bin
+: 1604415320:0;la
+: 1604415328:0;zsh
+: 1604415412:0;so
+: 1604415415:0;parcel 
+: 1604415427:0;..
+: 1604415438:0;react && cd learning-react
+: 1604415444:0;cd frontend
+: 1604415449:0;cd src
+: 1604415451:0;npm start
+: 1604415458:0;..
+: 1604415460:0;npm start
+: 1604415470:0;parcel public/index.html
+: 1604415479:0;la
+: 1604415484:0;v public/index.html
+: 1604415520:0;parcel public/index.html
+: 1604415544:0;cd src
+: 1604415544:0;la
+: 1604415548:0;v index.js
+: 1604415583:0;npm start
+: 1604415592:0;parcel public/index.html
+: 1604415593:0;..
+: 1604415595:0;parcel public/index.html
+: 1604415640:0;node -v
+: 1604415660:0;npm i -g parcel-bundler
+: 1604415714:0;npm start
+: 1604415747:0;bin
+: 1604415749:0;v react.sh
+: 1604415755:0;-
+: 1604415770:0;la
+: 1604415778:0;npm uninstall parcel
+: 1604415787:0;v package.json
+: 1604415800:0;sh react.sh
+: 1604415890:0;parcel public/index.html
+: 1604415907:0;npm start
+: 1604415911:0;so
+: 1604415913:0;npm start
+: 1604415923:0;npm start
+: 1604415926:0;parcel public/index.html
+: 1604415965:0;npm run start
+: 1604416038:0;edit
+: 1604416044:0;npm run start
+: 1604416054:0;parcel public/index.html
+: 1604425972:0;not
+: 1604425975:0;edit
+: 1604426429:0;pac obsidion
+: 1604426451:0;pac obsidian
+: 1604427367:0;pac typora
+: 1604427505:0;typora
+: 1604427752:0;not
+: 1604427758:0;v topics.md
+: 1604427911:0;not
+: 1604427913:0;v topics.md
+: 1604428795:0;not
+: 1604428805:0;emacs --no-window-system
+: 1604428871:0;not
+: 1604428879:0;mv topics.md topics.org
+: 1604429208:0;pac notion
+: 1604429234:0;notion
+: 1604429941:0;vrc
+: 1604430434:0;sh relink.sh
+: 1604430436:0;v topics.md
+: 1604430454:0;vrc
+: 1604430476:0;pkill redshift
+: 1604431494:0;v --startuptime vim.vim vim.vim
+: 1604431497:0;la
+: 1604431500:0;rm vim.vim
+: 1604431501:0;la
+: 1604431506:0;nov
+: 1604431508:0;not
+: 1604431511:0;v topics.org
+: 1604431643:0;mv topics.org topics.md
+: 1604431645:0;v topics.md
+: 1604431653:0;la
+: 1604431655:0;v topics.md
+: 1604431693:0;sh relink.sh
+: 1604431695:0;v topics.md
+: 1604431838:0;v
+: 1604431856:0;vvim
+: 1604431857:0;la
+: 1604431860:0;v coc-settings.json
+: 1604431866:0;v
+: 1604431927:0;v coc-settings.json
+: 1604431980:0;not
+: 1604431982:0;vvim
+: 1604431993:0;rm tabpagenr\(\'\$\'\)\ ==\ \'1\'\ \&\&\ \&ft\ \!=\ \'fzf\'\ \&\& test.md
+: 1604431994:0;la
+: 1604431996:0;v coc-settings.json
+: 1604432311:0;edit
+: 1604432453:0;sh relink.sh
+: 1604432455:0;v coc-settings.json
+: 1604432466:0;v init.vim
+: 1604432477:0;v coc-settings.json
+: 1604432497:0;v mappings.vim
+: 1604432694:0;la
+: 1604432700:0;v mappings.vim
+: 1604432817:0;v coc-settings.json
+: 1604432950:0;la
+: 1604432974:0;v coc-settings.json
+: 1604432989:0;la
+: 1604432991:0;rm tabpagenr\(\'\$\'\)\ ==\ \'1\'\ \&\&\ \&ft\ \!=\ \'fzf\'\ \&\&
+: 1604432992:0;la
+: 1604432995:0;v coc-settings.json
+: 1604432996:0;la
+: 1604433000:0;cd UltiSnips
+: 1604433002:0;la
+: 1604433003:0;..
+: 1604433006:0;mk snippets
+: 1604433007:0;la
+: 1604433009:0;v coc-settings.json
+: 1604433142:0;vpl
+: 1604433924:0;la
+: 1604433928:0;sh relink.sh
+: 1604433930:0;v coc-settings.json
+: 1604434918:0;vpl
+: 1604434971:0;vrc
+: 1604435230:0;v init.vim
+: 1604435351:0;sh relink.sh
+: 1604435352:0;la
+: 1604435355:0;rm tabpagenr\(\'\$\'\)\ ==\ \'1\'\ \&\&\ \&ft\ \!=\ \'fzf\'\ \&\&
+: 1604435358:0;v init.vim
+: 1604435591:0;la
+: 1604435594:0;sh relink.sh
+: 1604435596:0;v coc-settings.json
+: 1604435602:0;v mappings.vim
+: 1604435651:0;sh relink.sh
+: 1604435653:0;v init.vim
+: 1604435940:0;la
+: 1604435942:0;sh relink.sh
+: 1604435947:0;v init.vim
+: 1604439269:0;v
+: 1604439314:0;sh relink.sh
+: 1604439315:0;v
+: 1604439409:0;la
+: 1604439414:0;vvim
+: 1604439415:0;la
+: 1604439417:0;v coc-settings.json
+: 1604439420:0;v init.vim
+: 1604440529:0;betterlockscreen -s  
+: 1604470765:0;vpl
+: 1604471430:0;react && cd learning-react
+: 1604471430:0;la
+: 1604471434:0;edit
+: 1604478523:0;dot
+: 1604478525:0;cd nvim
+: 1604478533:0;to vscode.vim
+: 1604478559:0;v vscode.vim
+: 1604478703:0;pacman -Ql nvim
+: 1604478708:0;pacman -Ql neovim
+: 1604478755:0;for i in `pacman -Ql neovim | awk '{print $2}'`; do if [ -x $i -a ! -d $i ]; then echo $i; fi; done\
+\
+
+: 1604478887:0;v vscode.vim
+: 1604479036:0;yay -S vscodium
+: 1604479051:0;pac vscodium
+: 1604490087:0;v ~/dotfiles/nvim/vscode.vim
+: 1604490364:0;vim
+: 1604490371:0;v
+: 1604490469:0;la
+: 1604490511:0;ls -a | wc -l
+: 1604490519:0;v
+: 1604492703:0;v test.js
+: 1604492777:0;la
+: 1604492909:0;v
+: 1604493024:0;v 
+: 1604493051:0;mv .vsnip ~/dotfiles/nvim/snippets
+: 1604493053:0;v
+: 1604493253:0;vpl
+: 1604493499:0;v
+: 1604493759:0;vvim
+: 1604493760:0;la
+: 1604493762:0;rm tabpagenr\(\'\$\'\)\ ==\ \'1\'\ \&\&\ \&ft\ \!=\ \'fzf\'\ \&\&
+: 1604493763:0;la
+: 1604493774:0;cd snippets
+: 1604493774:0;la
+: 1604494381:0;..
+: 1604494382:0;la
+: 1604494611:0;rm coc-settings.json startify.json test.md vscode.vim 
+: 1604494612:0;la
+: 1604494738:0;vma
+: 1604494788:0;cd snippets
+: 1604494788:0;la
+: 1604494794:0;cd .vsnip
+: 1604494794:0;la
+: 1604494829:0;..
+: 1604494833:0;rma .vsnip
+: 1604496558:0;vpl
+: 1604497254:0;la
+: 1604497255:0;..
+: 1604497256:0;la
+: 1604497264:0;v my-auto-pairs.vim
+: 1604497745:0;vma
+: 1604497985:0;la
+: 1604499838:0;v
+: 1604504707:0;vpl
+: 1604504769:0;vma
+: 1604508391:0;la
+: 1604508400:0;rma UltiSnips
+: 1604508401:0;la
+: 1604508403:0;...
+: 1604508404:0;la
+: 1604508418:0;cd code
+: 1604508418:0;la
+: 1604508424:0;cd javascript
+: 1604508425:0;la
+: 1604508432:0;..
+: 1604508435:0;mk nodejs
+: 1604508437:0;cd nodejs
+: 1604508438:0;la
+: 1604508447:0;v index.js
+: 1604518899:0;pac mongodb
+: 1604519035:0;rma /var/lib/pacman/db.lck
+: 1604519038:0;pac mongodb
+: 1604519671:0;free -h
+: 1604519731:0;cat /proc/cpuinfo
+: 1604519738:0;pac htop
+: 1604519743:0;htop
+: 1604520641:0;df -h
+: 1604520668:0;pac mongodb-tools-bin
+: 1604520740:0;mongo
+: 1604520747:0;mongodb.service
+: 1604527230:0;vpl
+: 1604528501:0;betterlockscreen -s  
+: 1604561168:0;vma
+: 1604561779:0;la
+: 1604561788:0;code
+: 1604561799:0;cd code
+: 1604561802:0;cd nodejs
+: 1604561803:0;la
+: 1604561805:0;v index.js
+: 1604562322:0;vma
+: 1604566341:0;vpl
+: 1604566370:0;v index.js
+: 1604566663:0;vrc
+: 1604566668:0;v index.js
+: 1604566739:0;systemctl enable bluez
+: 1604566747:0;pac bluez
+: 1604566773:0;pac  bluez-utils
+: 1604566828:0;bluetoothctl power on
+: 1604566844:0;bluetoothctl
+: 1604566867:0;systemctl enable bluetooth
+: 1604566874:0;systemctl start bluetooth
+: 1604567055:0;amixer set Master +10%
+: 1604567064:0;amixer set Master +5%
+: 1604567078:0;amixer
+: 1604567117:0;amixer sset Headphone +20%
+: 1604567126:0;amixer sset Speaker +20%
+: 1604567131:0;amixer sset Master +20%
+: 1604572720:0;vma
+: 1604573922:0;vpl
+: 1604574099:0;vvim
+: 1604574103:0;v init.vim
+: 1604574362:0;v init.vime
+: 1604574373:0;v init.vim
+: 1604574897:0;sh relink.sh
+: 1604574899:0;v coc-settings.json
+: 1604574906:0;v init.vim
+: 1604575125:0;vma
+: 1604576133:0;zsh
+: 1604576386:0;lrc
+: 1604576402:0;vim ~/dotfiles/nvim/lua/init.lua
+: 1604576418:0;lrc
+: 1604576502:0;vma
+: 1604576611:0;fd
+: 1604576619:0;fzf | fd
+: 1604576640:0;vma
+: 1604576743:0;man fd
+: 1604576771:0;fd -c
+: 1604576778:0;fd --color
+: 1604576803:0;zsh
+: 1604576844:0;rg | fzf
+: 1604576849:0;rg
+: 1604576866:0;vma
+: 1604576919:0;vvim
+: 1604576920:0;la
+: 1604576923:0;rm tabpagenr\(\'\$\'\)\ ==\ \'1\'\ \&\&\ \&ft\ \!=\ \'fzf\'\ \&\&
+: 1604576923:0;la
+: 1604576929:0;rm test.md
+: 1604576930:0;la
+: 1604577105:0;v init.vim
+: 1604577237:0;react 
+: 1604577240:0;cd learning-react
+: 1604577242:0;v .
+: 1604577247:0;v
+: 1604589292:0;vim 
+: 1604589297:0;la
+: 1604589302:0;rm .vimrc
+: 1604589303:0;vim 
+: 1604589305:0;vim
+: 1604589337:0;vim -u NONE constants.js
+: 1604592115:0;zsh
+: 1604592148:0;nots
+: 1604592855:0;vrh
+: 1604592857:0;vrc
+: 1604600796:0;la
+: 1604600803:0;rma *emacs*
+: 1604600812:0;rma *.emacs*
+: 1604600816:0;rma .emacs*
+: 1604600818:0;la
+: 1604600827:0;bin
+: 1604600830:0;v startup.sh
+: 1604600877:0;la
+: 1604600883:0;sh startup.sh
+: 1604600933:0;bin
+: 1604600934:0;v startup.sh
+: 1604600950:0;la
+: 1604600952:0;sh startup.sh
+: 1604600962:0;bin
+: 1604600963:0;v startup.sh
+: 1604603520:0;la
+: 1604603525:0;rm .vscode
+: 1604603527:0;rma .vscode
+: 1604603529:0;la
+: 1604603531:0;..
+: 1604603532:0;la
+: 1604603544:0;rm constants.js .constants.js.swp 
+: 1604603545:0;la
+: 1604603547:0;rm all-the-icons.ttf
+: 1604603549:0;la
+: 1604603574:0;vrc
+: 1604603694:0;vim
+: 1604603751:0;vrc
+: 1604606602:0;rma \~ file-icons.ttf fontawesome.ttf material-design-icons.ttf octicons.ttf org-roam topics.md weathericons.ttf
+: 1604606604:0;la
+: 1604606636:0;rm .html .lesshst .python_history .vim .viminfo .z
+: 1604606639:0;rma .html .lesshst .python_history .vim .viminfo .z
+: 1604606643:0;la
+: 1604606741:0;vpl
+: 1604607052:0;v --startuptime vim.vim vim.vim
+: 1604607058:0;rm vim.vim
+: 1604607058:0;la
+: 1604607068:0;v .gitconfig
+: 1604607080:0;la
+: 1604607164:0;vpl
+: 1604611713:0;vrc
+: 1604613220:0;cat
+: 1604613307:0;~/dotfiles
+: 1604613307:0;-
+: 1604613359:0;la
+: 1604613486:0;betterlockscreen -s  
+: 1604613998:0;vrc
+: 1604614097:0;dot
+: 1604614111:0;commit "back to vim " && push

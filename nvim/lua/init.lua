@@ -1,13 +1,4 @@
 -- basic varibles
-local vim = vim
-local api = vim.api
-local fn = vim.fn
-local filetype = api.nvim_eval("&filetype")
--- local completion = require('completion')
-local nvim_lsp = require'nvim_lsp'
-local configs = require'nvim_lsp/configs'
-
-require 'colorizer'.setup()
 
 -- Lsp
 require'nvim_lsp'.tsserver.setup{ on_attach=require'completion'.on_attach }
@@ -21,17 +12,22 @@ require'nvim_lsp'.cssls.setup { on_attach=require'completion'.on_attach } -- Lsp
 require'nvim_lsp'.html.setup { on_attach=require'completion'.on_attach } -- LspInstall html
 require'nvim_lsp'.rls.setup { on_attach=require'completion'.on_attach } -- ???
 
-require'nvim-treesitter.configs'.setup {
-    ensure_installed = "all",
-    indent = {
-      enable = true
-    },
-    highlight = {
-      enable = true,
-      disable = {},
+local actions = require('telescope.actions')
+
+-- If you want your function to run after another action you should define it as follows
+local test_action = actions._transform_action(function(prompt_bufnr)
+  print("This function ran after another action. Prompt_bufnr: " .. prompt_bufnr)
+  -- Enter your function logic here. You can take inspiration from lua/telescope/actions.lua
+end)
+
+require('telescope').setup {
+  defaults = {
+    mappings = {
+      i = {
+        ["<esc>"] = actions.close,
+      },
     },
   }
-
-
-
+}
+-- require'telescope.builtin'.find_files{ find_command = { "fd", "-tf", "--hidden" }}
 

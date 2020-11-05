@@ -5,3 +5,11 @@ Tags: #nodejs
 
 A get request retrieves data from the server
 
+k
+
+|      |      |      |
+| ---- | ---- | ---- |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+

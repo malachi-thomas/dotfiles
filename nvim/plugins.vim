@@ -3,60 +3,48 @@
 " Plugins
 
 call plug#begin('~/.config/nvim/plugged')
-
 if has('nvim-0.5')
   Plug 'neovim/nvim-lspconfig'
   Plug 'nvim-lua/completion-nvim'
-  Plug 'nvim-treesitter/completion-treesitter'
   Plug 'steelsojka/completion-buffers'
   Plug 'nvim-lua/diagnostic-nvim'
-  Plug 'kristijanhusak/completion-tags'
-  Plug 'nvim-treesitter/nvim-treesitter'
-  Plug 'norcalli/nvim-colorizer.lua'
+  Plug 'kyazdani42/nvim-web-devicons'
+  Plug 'romgrk/barbar.nvim'
 else
   Plug 'machakann/vim-highlightedyank'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  let g:coc_global_extensions = ['coc-tsserver', 'coc-python', 'coc-sh', 'coc-clangd', 'coc-tag']
 endif
 
-" Programming
-Plug 'dense-analysis/ale' " linting and fixing
-" Plug 'neomake/neomake'
+Plug 'mhinz/vim-startify'
+Plug 'dense-analysis/ale' 
+Plug 'tpope/vim-commentary' 
+Plug 'airblade/vim-rooter' 
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
+Plug 'junegunn/fzf.vim'
+Plug 'ludovicchabant/vim-gutentags' 
+Plug 'justinmk/vim-dirvish' 
+Plug 'mattn/emmet-vim'
+Plug 'rhysd/clever-f.vim'
+Plug 'wincent/scalpel'
+" testing
 
-Plug 'tpope/vim-fugitive' " git intergration
-Plug 'tpope/vim-eunuch' " bash commands
-Plug 'SirVer/ultisnips' " snippets
-Plug 'tpope/vim-commentary' " for esey commenting
-Plug 'airblade/vim-rooter' " set the root directory
-Plug 'machakann/vim-sandwich' " for sorrounding arrounding things
-Plug 'rhysd/clever-f.vim' " better f key
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " FZF
-Plug 'junegunn/fzf.vim' " FZF
-Plug 'metakirby5/codi.vim' " inline code meseges
-Plug 'ludovicchabant/vim-gutentags' " updating tags file
-Plug 'justinmk/vim-dirvish' " better file manager
-Plug 'mattn/emmet-vim' " html tags
-Plug 'airblade/vim-gitgutter'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-lua/telescope.nvim'
+Plug 'machakann/vim-sandwich'
+Plug 'frazrepo/vim-rainbow'
+Plug 'tpope/vim-fugitive'
 
-" Testing
-Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
-Plug 'liuchengxu/vista.vim'
-
-
-
-
-" Notetaking
 Plug 'vimwiki/vimwiki'
-
-" Theam
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-Plug 'morhetz/gruvbox'
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'sheerun/vim-polyglot'
-Plug 'mboughaba/i3config.vim'
 Plug 'ryanoasis/vim-devicons'
-Plug 'vim-airline/vim-airline'
-Plug 'Rigellute/shades-of-purple.vim'
-Plug 'baskerville/vim-sxhkdrc'
+Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/vim-vsnip-integ'
+Plug 'joshdick/onedark.vim' 
+Plug 'vim-airline/vim-airline' 
+Plug 'morhetz/gruvbox'
+
 call plug#end()
 
 "==================================================================================================

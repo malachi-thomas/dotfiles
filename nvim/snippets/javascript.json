@@ -1,0 +1,47 @@
+{
+  "rhttp": {
+    "prefix": "rhttp",
+    "body": [
+      "const http = require('http')"
+    ]
+  },
+  "rfs": {
+    "prefix": "rfs",
+    "body": [
+      "const fs = require('fs')"
+    ]
+  },
+  "rexpress": {
+    "prefix": "rexpress",
+    "body": [
+      "const express = require('express')",
+      "const app = express()"
+    ]
+  },
+  "func": {
+    "prefix": "func",
+    "body": [
+      "const $1 = ($2) => {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "lfunc": {
+    "prefix": "lfunc",
+    "body": [
+      "const $1 = ($2) => $0"
+    ]
+  },
+  "cl": {
+    "prefix": "cl",
+    "body": [
+      "console.log($0)"
+    ]
+  },
+  "req": {
+    "prefix": "req",
+    "body": [
+      "require('$0')"
+    ]
+  }
+}

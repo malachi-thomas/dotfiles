@@ -5,7 +5,7 @@ ln -f ~/.config/nvim/* ~/dotfiles/nvim
 ln -f ~/.config/nvim/lua/* ~/dotfiles/nvim/lua
 
 # zsh
-ln -f ~/.zshenv ~/dotfiles/zsh/varibles.zsh
+ln -f ~/.zshenv ~/dotfiles/zsh/.zshenv
 
 # espanso
 ln -f ~/.config/espanso/default.yml ~/dotfiles/espanso/default.yml

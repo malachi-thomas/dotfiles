@@ -7,7 +7,6 @@ i3-msg 'workspace 3; exec alacritty --config-file ~/dotfiles/alacritty/alacritty
 sleep 1
 i3-msg 'workspace 2; exec chromium'
 sleep 2
-i3-msg 'workspace 1'
-exec emacsclient -a "" -c -e '(org-babel-load-file "~/dotfiles/emacs/init.org")'
+i3-msg 'workspace 1 exec alacritty --config-file ~/dotfiles/alacritty/alacritty.yml'
 
 

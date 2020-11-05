@@ -3,52 +3,35 @@
     "editor.wordWrapColumn": 100,
     "editor.cursorBlinking": "solid",
     "editor.cursorSurroundingLines": 50,
-    "edditor.fontSize": 16,
     "editor.fontFamily": "Hack",
     "editor.mouseWheelZoom": true,
     "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
     "workbench.colorTheme": "Atom One Dark",
     "workbench.activityBar.visible": false,
     "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.fontFamily": "monospace",
+    "workbench.editor.showTabs": true,
+    "workbench.statusBar.visible": false,
+    "workbench.panel.defaultLocation": "right",
     "window.menuBarVisibility": "toggle",
     "window.zoomLevel": 1,
-  
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "breadcrumbs.enabled": false,
+    "zenMode.hideLineNumbers": false,
+    "search.showLineNumbers": true,
+    "terminal.integrated.fontFamily": "monospace",
+
     // vim stuff
-    // "vim.leader": "alt+x",
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.incsearch": true,
-    "vim.smartRelativeLine": true,
-    "vim.cursorStylePerMode.visualline": "block",
-  
-    // vim-sneak
-    "vim.sneak": true,
-    "vim.sneakUseIgnorecaseAndSmartcase": true,
-  
-    "vim.easymotion": true,
-    "vim.camelCaseMotion.enable": true,
-    "vim.easymotionKeys": "aoeuhtns",
-  
-    // vim normal keybindings
-    "vim.normalModeKeyBindingsNonRecursive": [
-      {
-        "before": ["ctrl+f"],
-        "after": ["leader", "leader", "leader", "b", "d", "w"],
-      },
-      {
-        "before": ["ctrl+l"],
-        "after": ["leader", "leader", "leader", "b", "d", "j", "k"]
-      },
-      {
-        "before": ["tab"],
-        "after": [":tabn"]
-      }
-    ],
-    "workbench.editor.showTabs": true,
-    "workbench.statusBar.visible": false,
-    "breadcrumbs.enabled": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
+    "sync.gist": "878464cb06ecf6855ce67ea7907d9935",
+    "vim.enableNeovim": true,
+    "vscode-neovim.logOutputToConsole": true,
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "$HOME/dotfiles/nvim/vscode.vim",
+    "vscode-neovim.mouseSelectionStartVisualMode": true,
+
   
 }
