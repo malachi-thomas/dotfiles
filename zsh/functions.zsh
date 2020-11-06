@@ -35,6 +35,9 @@ gacp() {
   git commit -am "$1"
   git push --all 
 }
+-() {
+  cd -
+}
 
 # v() {
 # if [ $# -eq 0 ]; then

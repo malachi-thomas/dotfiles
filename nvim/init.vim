@@ -10,14 +10,13 @@ source ~/dotfiles/nvim/my-auto-pairs.vim
 
 colorscheme gruvbox
 set background=dark
-set number
+" set number
 set guicursor=
 set relativenumber
 set termguicolors
 
 "==================================================================================================
 " Lua
-
 if has('nvim-0.5')
   lua require 'init'
 endif
@@ -70,7 +69,6 @@ set laststatus=2
 set showcmd
 set scrolloff=999
 
-
 " =============================================================================
 " Vimscript
 
@@ -82,7 +80,8 @@ augroup autocmds
   autocmd BufReadPost * normal g`"
   autocmd BufWritePre * %s/\t/  /ge
   autocmd BufWinEnter,WinEnter term://* start " if terminal window auto enter insert mode
-  " autocmd
+  autocmd BufWrite ~/.tmux.conf silent !tmux source-file ~/.tmux.conf " source ~/.tmux.conf when you save ~/.tmux.conf
+  autocmd BufRead ~/dotfiles/nvim/snippets/* set ft=jsonc
 
   if has('nvim-0.5')
     autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked

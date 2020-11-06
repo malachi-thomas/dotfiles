@@ -13,20 +13,21 @@ let g:ale_linters = {
       \ 'markdown': ['prettier'],
       \ 'vimwiki': ['prettier'],
       \ 'python': ['autopep8']
-      \}
+      \ }
 let g:ale_fixers = {
       \ 'typescript': ['prettier'],
       \ 'typescriptreact': ['prettier'],
       \ 'javascriptreact': ['prettier'],
       \ 'javascript': ['eslint'],
       \ 'json': ['fixjson'],
+      \ 'jsonc': ['fixjson'],
       \ 'scss': ['prettier'],
       \ 'sass': ['stylelint'],
       \ 'css': ['stylelint'],
       \ 'markdown': ['prettier'],
       \ 'vimwiki': ['prettier'],
       \ 'python': ['autopep8']
-      \}
+      \ }
 let g:ale_fix_on_save = 1
 let g:ale_set_highlights = 1
 let g:ale_linters_explicit = 1
@@ -66,7 +67,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-cr>"
 
 " vim-gutentags
 let g:gutentags_add_default_project_roots = 0
-" let g:gutentags_project_root = ['src', 'nvim', 'javascript']
 let g:gutentags_cache_dir = expand('~/.config/all-the-tags')
 let g:gutentags_exclude_filetypes = ['sxhkdrc']
 let g:gutentags_ctags_extra_args = [
@@ -83,7 +83,7 @@ let g:completion_trigger_keyword_length = 1
 let g:completion_trigger_on_delete = 0
 let g:completion_enable_auto_signature = 0
 let g:completion_enable_auto_hover = 0
-let g:completion_sorting = 'length'
+let g:completion_sorting = 'none'
 let g:completion_confirm_key = ""
 let g:completion_enable_auto_paren = 0
 let g:completion_trigger_character = ['.']
@@ -92,7 +92,7 @@ let g:completion_enable_auto_popup = 1
 let g:completion_enable_snippet = 'vim-vsnip'
 
 let g:completion_chain_complete_list = [
-      \  {'complete_items': ['lsp', 'path', 'buffers', 'vim-vsnip']}
+      \  {'complete_items': ['vim-vsnip', 'lsp', 'path', 'buffers']}
       \ ]
 
 " vim-vsnip
@@ -125,4 +125,29 @@ let g:ScalpelCommand='S'
 " vim-rainbow
 let g:rainbow_active = 1
 
+" startify
+let g:startify_session_dir = '~/dotfiles/nvim/session'
+let g:startify_files_number = 5
+let g:startify_lists = [
+          \ { 'type': 'files',     'header': ['   Files']            },
+          \ { 'type': 'sessions',  'header': ['   Sessions']       },
+          \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
+          \ ]
+let g:startify_bookmarks = [
+            \ { 'vrc': '~/.config/nvim/init.vim' },
+            \ { 'vma': '~/.config/nvim/mappings.vim' },
+            \ { 'vpc': '~/.config/nvim/plugin-configs.vim' },
+            \ { 'vpl': '~/.config/nvim/plugins.vim' },
+            \ ]
+let g:startify_custom_header = [
+      \ '    _  __     _      ',
+      \ '   / |/ /  __(_)_ _  ',
+      \ '  /    / |/ / /  ` \ ',
+      \ ' /_/|_/|___/_/_/_/_/ ',
+        \]
+
+" rooter
+let g:rooter_targets = '*'
+let g:rooter_silent_chdir = 1
+let g:rooter_patterns = ['=src', '=zsh', '=nvim', '=notes']
 

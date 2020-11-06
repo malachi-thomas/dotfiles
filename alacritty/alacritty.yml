@@ -5,7 +5,7 @@ window:
     lines: 0
   padding:
     x: 5
-    y: 11
+    y: 5
     title: Alacritty
 
 font:
@@ -28,7 +28,8 @@ selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   
 
-keybindings:
+key_bindings:
+  - { key: Insert, mods: Shift, action: Paste }
   - { key: Insert, mods: Control, action: Copy }
 
 

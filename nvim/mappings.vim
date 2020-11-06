@@ -9,6 +9,7 @@ nnoremap <pageup> <c-u>
 nnoremap <pagedown> <c-d>
 " nnoremap G Gzz
 nnoremap <home> ^
+nnoremap <end> $
 " nnoremap * *zz
 " nnoremap # #zz
 " nnoremap n nzz
@@ -29,7 +30,7 @@ nnoremap mm @m
 nnoremap M @@
 vnoremap / /\v
 nnoremap <tab> :BufferNext<cr>
-nnoremap <S-tab> :BufferPrevious<cr>
+nnoremap <M-tab> :BufferPrevious<cr>
 nnoremap <silent><c-w> :call BufferClose()<cr>
 
 " splits
@@ -54,11 +55,14 @@ nnoremap H <nop>
 nnoremap L <nop>
 nnoremap r <nop>
 nnoremap R <nop>
+vnoremap s <nop>
 
 " Visuale
 vnoremap <up> <up>zz
 vnoremap <down> <down>zz
 vnoremap p "_dP
+vnoremap <home> ^
+vnoremap <end> $<left>
 
 " terminal
 nnoremap <c-t> :60vs<cr>:term<cr>i
@@ -73,8 +77,10 @@ nnoremap ss :s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
 nnoremap Ss :s/\v<c-r>=expand("<cword>")<cr>//gc<left><left><left>
 nnoremap sg :%s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
 nnoremap Sg :%s/\v<c-r>=expand("<cword>")<cr>//gc<left><left><left>
-vnoremap s :s/\v//g<left><left>
-vnoremap S :s/\v//gc<left><left><left>
+vnoremap ss :s/\v//g<left><left><left>
+vnoremap st "1y:%s/\v<c-r>1//g<left><left>
+vnoremap SS :s/\v//gc<left><left><left><left>
+vnoremap St "1y:%s/\v<c-r>1//gc<left><left><left>
 
 " Command Mode
 ca vrc e ~/.config/nvim/init.vim
@@ -85,11 +91,16 @@ ca q q!
 ca w w!
 ca h vert h
 
+" filetype mappings
+autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
+autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
+autocmd filetype javascript nnoremap <silent><buffer><c-l> :!node %<cr>
+autocmd filetype python nnoremap <silent><buffer><c-l> :!python %<cr>
+
 " Plugin Mappings 
 "
 nnoremap <space><space> :Telescope find_files<cr>
 nnoremap <space>r :Telescope oldfiles<cr>
-nnoremap / :Telescope current_buffer_fuzzy_find<cr>
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
 nmap <f3> <Plug>VimwikiDiaryNextDay
@@ -102,6 +113,9 @@ imap <silent><expr><tab>
       \ vsnip#expandable() ? "\<Plug>(vsnip-expand)" :
       \ <sid>check_back_space() ? "\<tab>" :
       \ "\<plug>(completion_trigger)"
+imap <expr><expr><c-space>
+      \ vsnip#jumpable(1) ? "\<Plug>(vsnip-jump-next)" : 
+      \ "\<c-space>"
 inoremap <silent><expr><up>
       \ pumvisible() ? "\<c-p>" :
       \ "\<up>"
@@ -117,10 +131,9 @@ inoremap <silent><expr><left>
 imap <silent><expr><c-s>
       \ pumvisible() ? "\<c-g>u\<plug>(emmet-expand-abbr)" :
       \ "\<plug>(emmet-expand-abbr)"
-imap <expr> <c-n>
+imap <expr> <c-down>
       \ vsnip#jumpable(1) ? "\<Plug>(vsnip-jump-next)" :
       \ ""
-
 
 "==================================================================================================
 " functions
@@ -134,24 +147,29 @@ endfunc
 func! BufferClose()
   if len(getbufinfo({'buflisted':1})) > 1
     " more then one buffer open
-    if &readonly == 1 || &ft == ''
-      bd!
+    if &readonly == 1 || expand('%') == '' || &buftype == 'terminal'
+      silent bd!
     else
-      w! | bd!
+      silent w! | bd!
     endif
   else
     " only one buffer open
-    if &readonly == 1 || &ft == ''
-      q!
+    if &readonly == 1 || expand('%') == '' || &buftype == 'terminal'
+      silent q!
     else
-      wq!
+      silent wq!
     endif
   endif
 endfunc
 
+
+
 "==================================================================================================
 
 if has('nvim-0.5')
+  " nnoremap <silent>gr <cmd>lua vim.lsp.buf.references()<CR>
+  nnoremap <silent>gd :lua vim.lsp.buf.definition()<cr>
+  " nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
 else
   nnoremap <silent> <esc>OA <up>
   nnoremap <silent> <esc>OB <down>

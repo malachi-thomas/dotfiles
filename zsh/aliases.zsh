@@ -15,17 +15,15 @@ alias file='nautilus'
 alias to='touch'
 alias c='cd $(dirname "$(fzf -e)")'
 alias dl='youtube-dl -x -o "%(title)s.%(ext)s"'
-alias reset='git reset --hard HEAD'
 alias copy='xclip -selection "primary" <'
 alias t='tree -I node_modules'
 alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'
-alias x='vifm .'
 alias tags='ctags -R --sort=1 --exclude=node_modules'
 alias v='nvim'
 alias f='rg --files | fzf | xargs -I "{}" nvim {}'
 alias emacs='emacs -l ~/dotfiles/emacs/init.el'
 alias edit='code .&& exit'
-# alias tmux="TERM=screen-256color-bce tmux -2u"
+alias -s js=code
 
 
 # Config Files

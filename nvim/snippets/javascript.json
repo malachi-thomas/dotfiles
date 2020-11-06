@@ -22,7 +22,7 @@
     "prefix": "func",
     "body": [
       "const $1 = ($2) => {",
-      "\t$0",
+      "  $0",
       "}"
     ]
   },
@@ -42,6 +42,24 @@
     "prefix": "req",
     "body": [
       "require('$0')"
+    ]
+  },
+  "rpath": {
+    "prefix": "rpath",
+    "body": [
+      "const path = require('path')"
+    ]
+  },
+  "ros": {
+    "prefix": "ros",
+    "body": [
+      "const os = require('os')"
+    ]
+  },
+  "const": {
+    "prefix": "const",
+    "body": [
+      "const $1 = $0"
     ]
   }
 }

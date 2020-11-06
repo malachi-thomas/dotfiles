@@ -14,7 +14,7 @@
   "nn": {
     "prefix": "nn",
     "body": [
-      "nnoremap"
+      "nnoremap "
     ]
   },
   "cr": {
@@ -51,6 +51,14 @@
     "prefix": "up",
     "body": [
       "<up>"
+    ]
+  },
+  "func": {
+    "prefix": "func",
+    "body": [
+      "func! $1()",
+      "  $0",
+      "endfunc"
     ]
   },
   "expr": {

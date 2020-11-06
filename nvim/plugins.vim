@@ -10,6 +10,9 @@ if has('nvim-0.5')
   Plug 'nvim-lua/diagnostic-nvim'
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'romgrk/barbar.nvim'
+  Plug 'nvim-lua/popup.nvim'
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-lua/telescope.nvim'
 else
   Plug 'machakann/vim-highlightedyank'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -22,28 +25,25 @@ Plug 'airblade/vim-rooter'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
 Plug 'junegunn/fzf.vim'
 Plug 'ludovicchabant/vim-gutentags' 
-Plug 'justinmk/vim-dirvish' 
 Plug 'mattn/emmet-vim'
 Plug 'rhysd/clever-f.vim'
-Plug 'wincent/scalpel'
-" testing
-
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-lua/telescope.nvim'
+" Plug 'wincent/scalpel'
 Plug 'machakann/vim-sandwich'
-Plug 'frazrepo/vim-rainbow'
-Plug 'tpope/vim-fugitive'
-
-Plug 'vimwiki/vimwiki'
-Plug 'NLKNguyen/papercolor-theme'
-Plug 'sheerun/vim-polyglot'
-Plug 'ryanoasis/vim-devicons'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
-Plug 'joshdick/onedark.vim' 
+
+" testing
+Plug 'tpope/vim-fugitive'
+Plug 'euclidianAce/BetterLua.vim'
+
+" ui plugins
+Plug 'vimwiki/vimwiki'
+Plug 'sheerun/vim-polyglot'
+Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline' 
 Plug 'morhetz/gruvbox'
+Plug 'frazrepo/vim-rainbow'
+Plug 'neoclide/jsonc.vim'
 
 call plug#end()
 
