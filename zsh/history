@@ -5908,3 +5908,180 @@ u
 : 1604684381:0;rm coc-settings.json
 : 1604684382:0;la
 : 1604684401:0;commit "vim added starify"
+: 1604684403:0;push
+: 1604684408:0;la
+: 1604684412:0;cd
+: 1604684414:0;la
+: 1604684417:0;v index.js
+: 1604684472:0;vrc
+: 1604684676:0;la
+: 1604685213:0;vrc
+: 1604685217:0;v index.js
+: 1604688010:0;file
+: 1604688032:0;dow
+: 1604688033:0;la
+: 1604688036:0;rm *ez*
+: 1604688037:0;la
+: 1604688043:0;exec wally
+: 1604688047:0;file
+: 1604688110:0;pac vimb
+: 1604693199:0;dow
+: 1604693200:0;la
+: 1604693485:0;pac mongodb-bin
+: 1604693793:0;pac mongodb-tools-bin
+: 1604693820:0;systemctl enable --now mongodb
+: 1604693830:0;systemctl start --now mongodb
+: 1604693835:0;mongo
+: 1604698247:0;vrc
+: 1604698580:0;setxkbmap -print -verbose 10\
+
+: 1604698625:0;xset -r 36\
+
+: 1604698633:0;xset -r 10000\
+
+: 1604698645:0;xset -r 36\
+
+: 1604698652:0;xset --help
+: 1604698671:0;xset r 100
+: 1604698689:0;xset r off
+: 1604698878:0;xset r 10
+: 1604698885:0;xset r 10 10 10
+: 1604698894:0;xset --help
+: 1604698912:0;xset r on
+: 1604698918:0;xset r 10
+: 1604698924:0;xset r 10000
+: 1604698926:0;xset r 100
+: 1604698931:0;xset r 1000
+: 1604698939:0;xset r 100 100
+: 1604698941:0;xset r 100
+: 1604698943:0;xset r on 100
+: 1604698983:0;xset r on -r
+: 1604699061:0;xset r rate 200 25
+: 1604699094:0;xset r rate 200 50
+: 1604699116:0;xset r rate 200 20
+: 1604699192:0;v 
+: 1604699581:0;xset r on
+: 1604699584:0;v 
+: 1604699590:0;xset r on
+: 1604699593:0;v
+: 1604699806:0;v 
+: 1604699884:0;n
+: 1604699889:0;v
+: 1604700300:0;betterlockscreen -s  
+: 1604729839:0;v
+: 1604730211:0;nodejs
+: 1604730213:0;v index.js
+: 1604730297:0;vma
+: 1604730354:0;vrc
+: 1604730376:0;xset r on
+: 1604730380:0;v index.js
+: 1604730404:0;vrc
+: 1604730437:0;v
+: 1604730645:0;nodeks
+: 1604730650:0;nodejs
+: 1604730652:0;v index.js
+: 1604730762:0;node index.js
+: 1604731173:0;node
+: 1604731177:0;node index.js
+: 1604735252:0;lrc
+: 1604735346:0;cd ~/.config/nvim
+: 1604735347:0;la
+: 1604735351:0;rm tabpagenr\(\'\$\'\)\ ==\ \'1\'\ \&\&\ \&ft\ \!=\ \'fzf\'\ \&\&
+: 1604735351:0;la
+: 1604735365:0;rm coc-settings.json .netrwhist test.md
+: 1604735366:0;la
+: 1604735379:0;rma UltiSnips
+: 1604735380:0;la
+: 1604735387:0;mk autoload
+: 1604735387:0;la
+: 1604735456:0;cd autoload
+: 1604735457:0;la
+: 1604735465:0;v functions.vim
+: 1604735484:0;v ../my-auto-pairs.vim
+: 1604735549:0;la
+: 1604735555:0;vma
+: 1604735571:0;v functions.vim
+: 1604735615:0;la
+: 1604735659:0;v
+: 1604735806:0;la
+: 1604735810:0;..
+: 1604735820:0;cp autoload ~/dotfiles/nvim
+: 1604735825:0;cp -r autoload ~/dotfiles/nvim
+: 1604735826:0;la
+: 1604735829:0;v
+: 1604735910:0;la
+: 1604735935:0;v
+: 1604736184:0;cd .config/nvim
+: 1604736184:0;la
+: 1604736188:0;cd autoload
+: 1604736189:0;la
+: 1604736190:0;v functions.vim
+: 1604736225:0;vrc
+: 1604736390:0;la
+: 1604736391:0;..
+: 1604736397:0;mv autoload/functions.vim .u
+: 1604736400:0;mv autoload/functions.vim la
+: 1604736402:0;la
+: 1604736410:0;mv .u functions.vim
+: 1604736411:0;la
+: 1604736418:0;rm my-auto-pairs.vim
+: 1604736418:0;la
+: 1604736425:0;rma autoload
+: 1604736426:0;la
+: 1604736435:0;bin
+: 1604736438:0;v relink.sh
+: 1604736468:0;zsh
+: 1604736519:0;so
+: 1604736523:0;vfn
+: 1604736544:0;vma
+: 1604736640:0;vfn
+: 1604736673:0;vma
+: 1604736736:0;vfn
+: 1604736930:0;v relink.sh
+: 1604736944:0;la
+: 1604736965:0;cd spell
+: 1604736965:0;la
+: 1604736969:0;v en.utf-8.add.spl
+: 1604736991:0;vma
+: 1604737036:0;sh relink.sh
+: 1604737040:0;v 
+: 1604737634:0;vrc
+: 1604738360:0;xset --help
+: 1604738412:0;xset r 32 
+: 1604738426:0;xset r 32 on 10 10
+: 1604738450:0;xset r rate 200 20
+: 1604739599:0;vfn
+: 1604739603:0;..
+: 1604739605:0;so
+: 1604739607:0;vfn
+: 1604739621:0;la
+: 1604739624:0;vrc
+: 1604739817:0;grep -i "keyboard" /var/log/Xorg.0.log\
+
+: 1604739837:0;fzf xorg.conf
+: 1604739843:0;cd
+: 1604739844:0;fzf xorg.conf
+: 1604739846:0;fzf
+: 1604739922:0;nodejs
+: 1604739928:0;rm files
+: 1604739930:0;v index.js
+: 1604740836:0;node index.js
+: 1604740839:0;node .
+: 1604740940:0;vrc
+: 1604740972:0;v index.js
+: 1604740981:0;vrc
+: 1604741856:0;dot
+: 1604741861:0;mk keyboard
+: 1604744308:0;dow
+: 1604744308:0;la
+: 1604744317:0;rm *.mp*
+: 1604744318:0;la
+: 1604744331:0;rm abusaidm.html-snippets-0.2.1.vsix Learn_Piano_Chords.apkg nikitaKunevich.snippet-creator-0.0.5.vsix Piano_Basics_Notation_Keyboard_Illustrations_Audio.apkg Piano_Notes_and_Keys.apkg planck_ez_dvorak-layout_qnLDA_manvq.bin Postman-linux-x64-7.34.0.tar.gz RobbOwen.synthwave-vscode-0.1.8.vsix 
+: 1604744356:0;file
+: 1604744667:0;la
+: 1604744720:0;dow
+: 1604744728:0;mv keyboard-layout.jpg keyboard-layout.json ~/dotfiles/keyboard
+: 1604744733:0;cd ~/dotfiles/keyboard
+: 1604744733:0;la
+: 1604744742:0;v readme.md
+: 1604744825:0;commit 'added keyboad dir'

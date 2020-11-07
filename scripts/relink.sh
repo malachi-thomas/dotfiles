@@ -3,6 +3,8 @@
 # nvim
 ln -f ~/.config/nvim/* ~/dotfiles/nvim
 ln -f ~/.config/nvim/lua/* ~/dotfiles/nvim/lua
+ln -f ~/.config/nvim/spell* ~/dotfiles/nvim/spell
+
 
 # zsh
 ln -f ~/.zshenv ~/dotfiles/zsh/.zshenv

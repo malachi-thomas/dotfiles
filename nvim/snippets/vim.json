@@ -66,5 +66,11 @@
     "body": [
       "<expr>"
     ]
+  },
+  "nop": {
+    "prefix": "nop",
+    "body": [
+      "<nop>"
+    ]
   }
 }

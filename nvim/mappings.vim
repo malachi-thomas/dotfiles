@@ -1,26 +1,23 @@
 "==================================================================================================
 let mapleader = ' '
 " Basic Movement
-" nnoremap <silent><up> kzz
-" nnoremap <silent><down> jzz
 nnoremap <silent><left> h
 nnoremap <silent><right> l
+nnoremap <c-left> b
+nnoremap <c-right> w
+inoremap <c-left> <c-o>b
+inoremap <c-right> <c-o>w
 nnoremap <pageup> <c-u>
 nnoremap <pagedown> <c-d>
-" nnoremap G Gzz
 nnoremap <home> ^
 nnoremap <end> $
-" nnoremap * *zz
-" nnoremap # #zz
-" nnoremap n nzz
-" nnoremap N Nzz
 inoremap <home> <c-o>^
 
 " Buffers
 nnoremap <silent><c-s> :w!<cr>
 nnoremap <c-c> :wqa!<cr>
 nnoremap <silent> ZZ :call BufferClose()<cr>
-nnoremap <space>b :Clap buffers<cr> 
+nnoremap <space>b :Clap buffers<cr>
 nnoremap / /\v
 nnoremap <space><space> :Files<cr>
 
@@ -56,6 +53,8 @@ nnoremap L <nop>
 nnoremap r <nop>
 nnoremap R <nop>
 vnoremap s <nop>
+nnoremap <s-up> <nop>
+nnoremap <s-down> <nop>
 
 " Visuale
 vnoremap <up> <up>zz
@@ -72,7 +71,7 @@ tnoremap <M-down> <c-\><c-n><c-w>j
 tnoremap <M-left> <c-\><c-n><c-w>h
 tnoremap <M-right> <c-\><c-n><c-w>l
 
-"Substitutions 
+"Substitutions
 nnoremap ss :s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
 nnoremap Ss :s/\v<c-r>=expand("<cword>")<cr>//gc<left><left><left>
 nnoremap sg :%s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
@@ -97,7 +96,7 @@ autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
 autocmd filetype javascript nnoremap <silent><buffer><c-l> :!node %<cr>
 autocmd filetype python nnoremap <silent><buffer><c-l> :!python %<cr>
 
-" Plugin Mappings 
+" Plugin Mappings
 "
 nnoremap <space><space> :Telescope find_files<cr>
 nnoremap <space>r :Telescope oldfiles<cr>
@@ -111,10 +110,10 @@ nmap <f6> <Plug>VimwikiGoBackLink
 imap <silent><expr><tab>
       \ pumvisible() ? "\<Plug>(completion_confirm_completion)" :
       \ vsnip#expandable() ? "\<Plug>(vsnip-expand)" :
-      \ <sid>check_back_space() ? "\<tab>" :
+      \ Check_back_space() ? "\<tab>" :
       \ "\<plug>(completion_trigger)"
 imap <expr><expr><c-space>
-      \ vsnip#jumpable(1) ? "\<Plug>(vsnip-jump-next)" : 
+      \ vsnip#jumpable(1) ? "\<Plug>(vsnip-jump-next)" :
       \ "\<c-space>"
 inoremap <silent><expr><up>
       \ pumvisible() ? "\<c-p>" :
@@ -138,38 +137,21 @@ imap <expr> <c-down>
 "==================================================================================================
 " functions
 
-" if no caricters left
-func! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~ '\s'
-endfunc
-
-func! BufferClose()
-  if len(getbufinfo({'buflisted':1})) > 1
-    " more then one buffer open
-    if &readonly == 1 || expand('%') == '' || &buftype == 'terminal'
-      silent bd!
-    else
-      silent w! | bd!
-    endif
-  else
-    " only one buffer open
-    if &readonly == 1 || expand('%') == '' || &buftype == 'terminal'
-      silent q!
-    else
-      silent wq!
-    endif
-  endif
-endfunc
-
-
+inoremap { {}<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap <expr> <cr> Enter()
+inoremap <expr> <bs> Backspace()
+inoremap <expr> } Rbrace()
+inoremap <expr> ) Rpren()
+inoremap <expr> ] Rbrak()
+inoremap <expr><space> Space()
 
 "==================================================================================================
 
 if has('nvim-0.5')
-  " nnoremap <silent>gr <cmd>lua vim.lsp.buf.references()<CR>
-  nnoremap <silent>gd :lua vim.lsp.buf.definition()<cr>
-  " nnoremap <silent><space>rn :lua vim.lsp.buf.rename()<cr>
+  nnoremap gd <cmd>lua vim.lsp.buf.definition()<cr>
+  nnoremap <c-h> <cmd>lua vim.lsp.buf.hover()<cr>
 else
   nnoremap <silent> <esc>OA <up>
   nnoremap <silent> <esc>OB <down>
@@ -178,7 +160,7 @@ else
   inoremap <silent> <esc>OA <up>
   inoremap <silent> <esc>OB <down>
   inoremap <silent> <esc>OC <right>
-  inoremap <silent> <esc>OD <left>
+  inoremap <silen> <esc>OD <left>
 endif
 
 " nmap <silent>gq <plug>(Mac_Play)

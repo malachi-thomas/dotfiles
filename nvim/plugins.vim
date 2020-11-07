@@ -13,6 +13,7 @@ if has('nvim-0.5')
   Plug 'nvim-lua/popup.nvim'
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-lua/telescope.nvim'
+  Plug 'nvim-treesitter/nvim-treesitter'
 else
   Plug 'machakann/vim-highlightedyank'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -31,6 +32,8 @@ Plug 'rhysd/clever-f.vim'
 Plug 'machakann/vim-sandwich'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
+Plug 'metakirby5/codi.vim'
+Plug 'bkad/CamelCaseMotion'
 
 " testing
 Plug 'tpope/vim-fugitive'

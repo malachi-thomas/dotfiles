@@ -7,6 +7,7 @@ let g:ale_linters = {
       \ 'javascriptreact': ['eslint'],
       \ 'javascript': ['eslint'],
       \ 'json': ['fixjson'],
+      \ 'jsonc': ['fixjson'],
       \ 'scss': ['stylelint'],
       \ 'sass': ['stylelint'],
       \ 'css': ['stylelint'],
@@ -150,4 +151,5 @@ let g:startify_custom_header = [
 let g:rooter_targets = '*'
 let g:rooter_silent_chdir = 1
 let g:rooter_patterns = ['=src', '=zsh', '=nvim', '=notes']
+
 

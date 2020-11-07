@@ -24,6 +24,7 @@ alias f='rg --files | fzf | xargs -I "{}" nvim {}'
 alias emacs='emacs -l ~/dotfiles/emacs/init.el'
 alias edit='code .&& exit'
 alias -s js=code
+alias vfn='v ~/.config/nvim/functions.vim'
 
 
 # Config Files
@@ -63,6 +64,7 @@ alias con='cd ~/.config'
 alias esp='cd ~/dotfiles/espanso'
 alias nots='v ~/dotfiles/notes/topics.md'
 alias nodejs='cd ~/code/nodejs'
+
 
 # Linux
 uefi() {
