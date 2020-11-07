@@ -1,1 +1,1 @@
-![](./keyboard-layout.jpg)
+![](./keyboard-layout.png)

@@ -6085,3 +6085,12 @@ u
 : 1604744733:0;la
 : 1604744742:0;v readme.md
 : 1604744825:0;commit 'added keyboad dir'
+: 1604744826:0;push
+: 1604744870:0;ranger
+: 1604744894:0;dow
+: 1604744899:0;mv keyboard-layout.png ~/dotfiles/keyboard
+: 1604744902:0;dot
+: 1604744904:0;cd keyboard
+: 1604744904:0;la
+: 1604744907:0;v readme.md
+: 1604744923:0;commit 'added keyboad dir' && psh
