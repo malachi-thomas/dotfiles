@@ -6469,3 +6469,38 @@ u
 : 1604854391:0;la
 : 1604854428:0;commit 'started to use packadd'
 : 1604854432:0;commit 'started to use packadd' && push 
+: 1604854520:0;la
+: 1604854536:0;rma .log
+: 1604854538:0;la
+: 1604854575:0;cd nvim/pack/plugins/opt
+: 1604854575:0;la
+: 1604854577:0;cd ale
+: 1604854577:0;la
+: 1604854590:0;v .gitignore
+: 1604854603:0;la
+: 1604854611:0;cd
+: 1604854633:0;clone git@github.com:banana-llarma/dotfiles.git hats
+: 1604854652:0;cd hats
+: 1604854653:0;la
+: 1604854656:0;cd nvim/pack/plugins/opt
+: 1604854657:0;la
+: 1604854659:0;cd ale
+: 1604854660:0;la
+: 1604854676:0;cd
+: 1604854678:0;rm hats
+: 1604854680:0;rma hats
+: 1604854683:0;dot
+: 1604854686:0;cd nvim/pack/plugins/opt
+: 1604854687:0;la
+: 1604854690:0;cd barbar.nvim
+: 1604854690:0;la
+: 1604855235:0;..
+: 1604855235:0;la
+: 1604855238:0;rma ale
+: 1604855240:0;vrc
+: 1604855261:0;git submodule add https://github.com/dense-analysis/ale
+: 1604855265:0;la
+: 1604855274:0;git submodule add https://github.com/dense-analysis/ale
+: 1604855277:0;git submodule add https://github.com/dense-analysis/ale ale
+: 1604855283:0;la
+: 1604855326:0;commit 'started to use packadd' && push 
