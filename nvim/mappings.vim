@@ -11,7 +11,10 @@ nnoremap <pageup> <c-u>
 nnoremap <pagedown> <c-d>
 nnoremap <home> ^
 nnoremap <end> $
+nnoremap { }
+nnoremap } {
 inoremap <home> <c-o>^
+
 
 " Buffers
 nnoremap <silent><c-s> :w!<cr>
@@ -57,6 +60,9 @@ nnoremap <s-up> <nop>
 nnoremap <s-down> <nop>
 
 " Visuale
+vnoremap { }
+vnoremap } {
+
 vnoremap <up> <up>zz
 vnoremap <down> <down>zz
 vnoremap p "_dP
@@ -86,6 +92,8 @@ ca vrc e ~/.config/nvim/init.vim
 ca vma e ~/.config/nvim/mappings.vim
 ca vpl e ~/.config/nvim/plugins.vim
 ca vpc e ~/.config/nvim/plugin-configs.vim
+ca vfn e ~/.config/nvim/functions.vim
+ca lrc e ~/.config/nvim/lua/init.lua
 ca q q!
 ca w w!
 ca h vert h
@@ -114,7 +122,7 @@ imap <silent><expr><tab>
       \ "\<plug>(completion_trigger)"
 imap <expr><expr><c-space>
       \ vsnip#jumpable(1) ? "\<Plug>(vsnip-jump-next)" :
-      \ "\<c-space>"
+      \ ""
 inoremap <silent><expr><up>
       \ pumvisible() ? "\<c-p>" :
       \ "\<up>"
@@ -130,9 +138,6 @@ inoremap <silent><expr><left>
 imap <silent><expr><c-s>
       \ pumvisible() ? "\<c-g>u\<plug>(emmet-expand-abbr)" :
       \ "\<plug>(emmet-expand-abbr)"
-imap <expr> <c-down>
-      \ vsnip#jumpable(1) ? "\<Plug>(vsnip-jump-next)" :
-      \ ""
 
 "==================================================================================================
 " functions
@@ -140,6 +145,9 @@ imap <expr> <c-down>
 inoremap { {}<left>
 inoremap ( ()<left>
 inoremap [ []<left>
+inoremap ' ''<left>
+inoremap " ""<left>
+inoremap ` ``<left>
 inoremap <expr> <cr> Enter()
 inoremap <expr> <bs> Backspace()
 inoremap <expr> } Rbrace()

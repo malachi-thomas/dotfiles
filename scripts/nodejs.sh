@@ -9,9 +9,7 @@ npm i eslint-plugin-node
 npm i eslint-plugin-promise
 npm i eslint-plugin-standard
 npm i nodemon
-
-
-
+npm i express
 
 cp -f ~/dotfiles/.eslintrc.json .
 

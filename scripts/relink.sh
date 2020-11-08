@@ -4,7 +4,8 @@
 ln -f ~/.config/nvim/* ~/dotfiles/nvim
 ln -f ~/.config/nvim/lua/* ~/dotfiles/nvim/lua
 ln -f ~/.config/nvim/spell* ~/dotfiles/nvim/spell
-
+ln -f ~/.config/nvim/snippets* ~/dotfiles/nvim/snippets
+cp -r ~/.config/nvim/pack/plugins/opt/* ~/dotfiles/nvim/pack/plugins/opt
 
 # zsh
 ln -f ~/.zshenv ~/dotfiles/zsh/.zshenv
@@ -27,8 +28,3 @@ ln -f ~/.config/vifm/* ~/dotfiles/vifm
 
 # alacritty
 ln -f ~/.config/alacritty/alacritty.yml ~/dotfiles/alacritty/alacritty.yml
-
-# vscode
-ln -f ~/.config/Code/User/settings.json ~/dotfiles/vscode
-ln -f ~/.config/Code/User/keybindings.json ~/dotfiles/vscode
-ln -f ~/.config/Code/User/snippets/* ~/dotfiles/vscode/snippets

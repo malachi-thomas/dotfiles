@@ -20,12 +20,12 @@ else
 endif
 
 Plug 'mhinz/vim-startify'
-Plug 'dense-analysis/ale' 
-Plug 'tpope/vim-commentary' 
-Plug 'airblade/vim-rooter' 
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
+Plug 'dense-analysis/ale'
+Plug 'tpope/vim-commentary'
+Plug 'airblade/vim-rooter'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'ludovicchabant/vim-gutentags' 
+Plug 'ludovicchabant/vim-gutentags'
 Plug 'mattn/emmet-vim'
 Plug 'rhysd/clever-f.vim'
 " Plug 'wincent/scalpel'
@@ -38,15 +38,18 @@ Plug 'bkad/CamelCaseMotion'
 " testing
 Plug 'tpope/vim-fugitive'
 Plug 'euclidianAce/BetterLua.vim'
+Plug 'wellle/targets.vim'
+Plug 'nathanaelkane/vim-indent-guides'
+
 
 " ui plugins
 Plug 'vimwiki/vimwiki'
 Plug 'sheerun/vim-polyglot'
 Plug 'ryanoasis/vim-devicons'
-Plug 'vim-airline/vim-airline' 
 Plug 'morhetz/gruvbox'
 Plug 'frazrepo/vim-rainbow'
 Plug 'neoclide/jsonc.vim'
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
 

@@ -61,5 +61,62 @@
     "body": [
       "const $1 = $0"
     ]
+  },
+  "rmongoose": {
+    "prefix": "rmongoose",
+    "body": [
+      "const mongoose = require('mongoose')"
+    ]
+  },
+  "Rurl": {
+    "prefix": "Rurl",
+    "body": [
+      "const url = require('url')"
+    ]
+  },
+  "httpCreateServer": {
+    "prefix": "httpCreateServer",
+    "body": [
+      "http.createServer((req, res) => $1 {",
+      "\t$0",
+      "}).listen(port)"
+    ]
+  },
+  "Iurl": {
+    "prefix": "Iurl",
+    "body": [
+      "import url from 'url'"
+    ]
+  },
+  "Iexpress": {
+    "prefix": "Iexpress",
+    "body": [
+      "import express from 'express'",
+      "const app = express()"
+    ]
+  },
+  "appListen": {
+    "prefix": "appListen",
+    "body": [
+      "app.listen($1, () => $0)"
+    ]
+  },
+  "Ihttp": {
+    "prefix": "Ihttp",
+    "body": [
+      "import http from 'http'"
+    ]
+  },
+  "appGet": {
+    "prefix": "appGet",
+    "body": [
+      "app.get('$1', (req, res) => $0)"
+    ]
+  },
+  "Imongoose": {
+    "prefix": "Imongoose",
+    "body": [
+      "import mongoose from 'mongoose'"
+    ]
   }
 }

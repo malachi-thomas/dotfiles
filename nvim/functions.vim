@@ -35,6 +35,27 @@ func! Rpren()
   return ")"
 endfunc
 
+" func! Rquote()
+"   if getline('.')[col('.') - 2:col('.') - 1] == "''"
+"     return "\<right>"
+"   endif
+"   return "'"
+" endfunc
+
+" func! RDquote()
+"   if getline('.')[col('.') - 2:col('.') - 1] == '""'
+"     return "\<right>"
+"   endif
+"   return '"'
+" endfunc
+
+" func! Rtick()
+"   if getline('.')[col('.') - 2:col('.') - 1] == '``'
+"     return "\<right>"
+"   endif
+"   return '`'
+" endfunc
+
 func! Backspace()
   if getline('.')[col('.') - 2:col('.') - 1] == '{}'
     return "\<right>\<bs>\<bs>"
@@ -43,6 +64,12 @@ func! Backspace()
   elseif getline('.')[col('.') - 2:col('.') - 1] == '[]'
     return "\<right>\<bs>\<bs>"
   elseif getline('.')[col('.') - 3:col('.')] == '{  }'
+    return "\<right>\<bs>\<bs>"
+  elseif getline('.')[col('.') - 2:col('.') - 1] == "''"
+    return "\<right>\<bs>\<bs>"
+  elseif getline('.')[col('.') - 2:col('.') - 1] == '""'
+    return "\<right>\<bs>\<bs>"
+  elseif getline('.')[col('.') - 2:col('.') - 1] == '``'
     return "\<right>\<bs>\<bs>"
   endif
   return "\<bs>"

@@ -1,7 +1,7 @@
 "=================================================================================================
 " Source Files
 source ~/.config/nvim/functions.vim
-source ~/.config/nvim/plugins.vim
+source ~/.config/nvim/packadd.vim
 source ~/.config/nvim/plugin-configs.vim
 source ~/.config/nvim/mappings.vim
 "
@@ -18,7 +18,7 @@ set termguicolors
 "==================================================================================================
 " Lua
 if has('nvim-0.5')
-  lua require 'init'
+ lua require 'init'
 endif
 
 "==================================================================================================
@@ -70,15 +70,17 @@ set showcmd
 " set scrolloff=999
 set timeoutlen=1000 " how long vim waits for next key press
 set rtp+=~/.config/nvim/autoload/functions.vim
+set pumheight=10 " completion menu hight
+set pumwidth=30 " completion munu width
+
 
 " =============================================================================
 " Vimscript
-
 augroup autocmds
   autocmd!
   autocmd FileType markdown set ft=vimwiki
   autocmd FileType vimwiki setlocal spell
-  autocmd VimEnter,SourcePost * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
+"  autocmd VimEnter,SourcePost * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
   autocmd BufReadPost * normal g'"
   autocmd BufWritePre * %s/\t/  /ge
   autocmd BufWinEnter,WinEnter term://* start " if terminal window auto enter insert mode
@@ -92,8 +94,9 @@ augroup autocmds
   if has('nvim-0.5')
     autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked
     autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
-    autocmd BufEnter * lua require'completion'.on_attach() -- completion-nvim on all buffers
-    autocmd BufEnter * lua require'diagnostic'.on_attach()
+"    autocmd BufEnter * lua require'completion'.on_attach() -- completion-nvim on all buffers
+"    autocmd BufEnter * lua require'diagnostic'.on_attach()
   endif
 augroup end
+
 

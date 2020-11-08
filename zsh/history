@@ -6095,3 +6095,361 @@ u
 : 1604744907:0;v readme.md
 : 1604744923:0;commit 'added keyboad dir' && psh
 : 1604744926:0;commit 'added keyboad dir' && push
+: 1604745093:0;v readme.md
+: 1604745160:0;rm readme.md
+: 1604745164:0;rm keyboard-layout.jpg keyboard-layout.png 
+: 1604745166:0;la
+: 1604751509:0;pacr emacs
+: 1604757534:0;mongod
+: 1604757545:0;mongo
+: 1604757550:0;mongod
+: 1604757607:0;systemctl start --now mongodb
+: 1604757610:0;mongod
+: 1604757685:0;mongo
+: 1604757825:0;mongod
+: 1604757828:0;mongod test
+: 1604757833:0;mongod --help
+: 1604757996:0;nodejs
+: 1604757999:0;v index.js
+: 1604758118:0;mongod
+: 1604759725:0;vrc
+: 1604759804:0;vim
+: 1604759806:0;v
+: 1604760049:0;v index.js
+: 1604760351:0;node .
+: 1604760382:0;cd
+: 1604760387:0;node
+: 1604760394:0;nodejs
+: 1604760398:0;node index.js
+: 1604760756:0;bin
+: 1604760758:0;v nodejs.sh
+: 1604760775:0;sh nodejs.sh
+: 1604761007:0;node -v
+: 1604761082:0;v index.js
+: 1604761139:0;node index.js
+: 1604761311:0;mv index.js index.mjs
+: 1604761312:0;v index.mjs
+: 1604761317:0;node index.mjs
+: 1604761358:0;node .
+: 1604761364:0;node index.mjs
+: 1604763158:0;nodemon index.mjs
+: 1604763804:0;vpc
+: 1604763844:0;v index.mjs
+: 1604764473:0;mk src
+: 1604764473:0;la
+: 1604764484:0;mv index.mjs src/app.js
+: 1604764485:0;la
+: 1604764494:0;cd
+: 1604764501:0;cd code/nodejs/src
+: 1604764502:0;la
+: 1604764511:0;npm start 
+: 1604764526:0;v ../package.json
+: 1604764597:0;npm start 
+: 1604764643:0;nodejs
+: 1604764646:0;cd src
+: 1604764650:0;npm start
+: 1604764808:0;cd src
+: 1604764827:0;to database.mjs
+: 1604764839:0;to router.mjs
+: 1604764840:0;la
+: 1604765386:0;mongoOn
+: 1604765505:0;dow
+: 1604765505:0;la
+: 1604765579:0;tar -zxvf mongodb-linux-x86_64-3.2.18.tgz
+: 1604765873:0;npm i mongoose
+: 1604765899:0;cd src
+: 1604765901:0;v app.js
+: 1604766001:0;mv app.js app.mjs
+: 1604766002:0;v app.mjs
+: 1604785641:0;vim
+: 1604785642:0;vrc
+: 1604786637:0;nvim --startuptime vim.vim vim.vim
+: 1604786649:0;la
+: 1604786652:0;rm vim.vim
+: 1604786654:0;nvim --startuptime vim.vim vim.vim
+: 1604786668:0;rm vim.vim
+: 1604786669:0;la
+: 1604787084:0;vrc
+: 1604787103:0;nodejs
+: 1604787106:0;la
+: 1604787112:0;cd src
+: 1604787114:0;v app.mjs
+: 1604787421:0;vrc
+: 1604787477:0;la
+: 1604787487:0;v app.mjs
+: 1604787665:0;betterlockscreen -s  
+: 1604788137:0;vrc
+: 1604788228:0;v app.mjs
+: 1604788605:0;betterlockscreen -s  
+: 1604822275:0;vrc
+: 1604822514:0;v app.mjs
+: 1604823938:0;amixer set Master 12345+
+: 1604823970:0;amixer set Master 100+
+: 1604823981:0;amixer
+: 1604824008:0;amixer set app.mjs
+: 1604824170:0;vpl
+: 1604824335:0;la
+: 1604824341:0;rm **
+: 1604824343:0;rm **la
+: 1604824345:0;la
+: 1604824374:0;rma hats
+: 1604824379:0;la
+: 1604824386:0;rm *.emacs*
+: 1604824387:0;la
+: 1604824391:0;rm .emacs*
+: 1604824394:0;rma .emacs*
+: 1604824395:0;la
+: 1604824410:0;code
+: 1604824539:0;v
+: 1604824718:0;vpl
+: 1604826342:0;nodejs
+: 1604826345:0;la
+: 1604826351:0;v index.mjs
+: 1604826353:0;la
+: 1604826358:0;v index.mjs
+: 1604826364:0;rm index.mjs
+: 1604826365:0;la
+: 1604826369:0;cd src
+: 1604826370:0;la
+: 1604826391:0;v app.mjs
+: 1604826426:0;node app.mjs
+: 1604830717:0;mongod
+: 1604830721:0;nodejs
+: 1604830723:0;mongod
+: 1604830728:0;la
+: 1604830782:0;sudo rm /var/lib/mongodb/mongod.lock\
+
+: 1604830785:0;mongod
+: 1604830790:0;mongod --help
+: 1604830797:0;mongod --repair\
+
+: 1604830809:0;systemctl start --now mongodb
+: 1604830819:0;sudo service mongodb start\
+
+: 1604830830:0;systemctl enable --now mongodb
+: 1604830842:0;ls -l /var/lib/mongodb
+: 1604830847:0;sudo ls -l /var/lib/mongodb
+: 1604830866:0;mongo
+: 1604830878:0;mongod\
+
+: 1604830926:0;mongod
+: 1604830945:0;pacr mongo
+: 1604831001:0;systemctl enable --now mongodb
+: 1604831026:0;sudo -u mongodb mongod --repair --dbpath /var/lib/mongodb/\
+
+: 1604831033:0;mongod
+: 1604831074:0;  pamac search -a mongodb-bin\
+  pamac info -a mongodb-bin\
+
+: 1604831080:0;pacman -a 
+: 1604831107:0;yay mongo
+: 1604831112:0;yay mongodb
+: 1604831119:0;yay mongodb-bin
+: 1604831179:0;pac mongodb-tools
+: 1604831217:0;mongod
+: 1604839745:0;v /etc/mongod.conf
+: 1604839915:0;sudo nvim /etc/mongodb.conf
+: 1604839949:0;sudo service mongodb restart
+: 1604839974:0;sudo systemctl restart mongodb
+: 1604839990:0;nc -l 3000
+: 1604840003:0;mongod --port 23456\
+
+: 1604840021:0;mongod --port 27017
+: 1604840045:0;pacr mongodb-bin
+: 1604840048:0;pacr mongo-bin
+: 1604840055:0;pac mongodb-tools
+: 1604840062:0;pacr mongodb-tools
+: 1604840072:0;pacr mongodb-tools-bin
+: 1604840080:0;pac mongodb-b
+: 1604840097:0;pacr mongodb-bin-4.0
+: 1604840100:0;la
+: 1604840104:0;mongo
+: 1604841007:0;vpl
+: 1604841556:0;nodejs
+: 1604841557:0;cd src
+: 1604841559:0;v app.mjs
+: 1604841577:0;...
+: 1604841579:0;v
+: 1604841605:0;v react
+: 1604841750:0;
+: 1604841758:0;v react/index.js
+: 1604841768:0;cd react/learning-react
+: 1604841769:0;la
+: 1604841777:0;v frontend/src/index.js
+: 1604845661:0;
+: 1604845668:0;sudo vim Postman/files
+: 1604846726:0;pac mongodb
+: 1604846801:0;pacman-key --refresh-keys\
+
+: 1604846805:0;sudo pacman-key --refresh-keys\
+
+: 1604846873:0;update
+: 1604847376:0;cd ~/.config/nvim
+: 1604847379:0;mk pack
+: 1604847380:0;la
+: 1604847459:0;v
+: 1604847509:0;vrc
+: 1604848663:0;la
+: 1604848674:0;tree
+: 1604848676:0;la
+: 1604848677:0;v 
+: 1604848687:0;vrc
+: 1604849056:0;la
+: 1604849064:0;cp -r plugged pack
+: 1604849096:0;la
+: 1604849099:0;v
+: 1604849114:0;la
+: 1604849122:0;vvim
+: 1604849122:0;la
+: 1604849132:0;copy packadd.vim
+: 1604849139:0;v packadd.vim
+: 1604849158:0;v packadd.vim
+: 1604849302:0;cd pack
+: 1604849302:0;la
+: 1604849313:0;mv -r plugged/* ../
+: 1604849314:0;la
+: 1604849318:0;cd plugged
+: 1604849323:0;cp -r ../
+: 1604849324:0;la
+: 1604849330:0;cp -r ../
+: 1604849334:0;cp -R ../
+: 1604849338:0;cp --help
+: 1604849345:0;mv * ../
+: 1604849347:0;la
+: 1604849348:0;..
+: 1604849348:0;la
+: 1604849355:0;rma plugged
+: 1604849358:0;vrc
+: 1604849736:0;v
+: 1604849773:0;vrc
+: 1604849803:0;la
+: 1604849806:0;mk opt
+: 1604849812:0;mv * opt
+: 1604849814:0;la
+: 1604849816:0;vrc
+: 1604849914:0;rm *
+: 1604849918:0;la
+: 1604849921:0;rma opt
+: 1604849923:0;la
+: 1604850192:0;mk opt
+: 1604850194:0;cd opt
+: 1604850195:0;la
+: 1604850232:0;clone https://github.com/morhetz/gruvbox.git
+: 1604850240:0;la
+: 1604850242:0;vrc
+: 1604850291:0;la
+: 1604850293:0;..
+: 1604850297:0;mk test
+: 1604850298:0;la
+: 1604850303:0;mv opt test
+: 1604850304:0;vrc
+: 1604850738:0;nvim --startuptime vim.vim vim.vim
+: 1604850751:0;rm vim.vim
+: 1604850753:0;la
+: 1604850779:0;rma test
+: 1604850781:0;la
+: 1604850803:0;mk plugins
+: 1604850804:0;cd plugins
+: 1604850805:0;la
+: 1604850812:0;mk opt
+: 1604850814:0;cd opt
+: 1604850820:0;git clone https://github.com/k-takata/minpac.git
+: 1604850828:0;vrc
+: 1604851652:0;nvim --startuptime vim.vim vim.vim
+: 1604852280:0;la
+: 1604852284:0;rm vim.vim
+: 1604852286:0;v
+: 1604852288:0;vrc
+: 1604852565:0;nvim --startuptime vim.vim vim.vim
+: 1604852573:0;nvim
+: 1604852580:0;nvim --startuptime vim.vim vim.vim
+: 1604852591:0;nvim --startuptime nvim.vim nvim.vim
+: 1604852607:0;..
+: 1604852608:0;la
+: 1604852615:0;cd plugins
+: 1604852616:0;la
+: 1604852619:0;..
+: 1604852622:0;rm plugins
+: 1604852624:0;rma plugins
+: 1604852626:0;la
+: 1604852632:0;rm pack
+: 1604852634:0;rma pack
+: 1604852635:0;la
+: 1604852645:0;mv minpac plugins
+: 1604852646:0;la
+: 1604852652:0;nvim
+: 1604852657:0;nvim --startuptime nvim.vim nvim.vim
+: 1604852664:0;v plugins
+: 1604852671:0;cd plugins
+: 1604852672:0;la
+: 1604852676:0;ls opt
+: 1604852684:0;rma opt
+: 1604852685:0;la
+: 1604852689:0;mv start opt
+: 1604852690:0;la
+: 1604852692:0;nvim
+: 1604852697:0;nvim --startuptime nvim.vim nvim.vim
+: 1604852709:0;vpl
+: 1604852712:0;vrc
+: 1604852783:0;la
+: 1604852786:0;rm nvim.vim
+: 1604852787:0;la
+: 1604852788:0;v opt
+: 1604852803:0;..
+: 1604852809:0;la
+: 1604852853:0;v
+: 1604852896:0;nvim --startuptime nvim.vim nvim.vim
+: 1604852926:0;vrc
+: 1604852941:0;nvim --startuptime nvim.vim nvim.vim
+: 1604852989:0;la
+: 1604852994:0;rma plugged
+: 1604852996:0;la
+: 1604853000:0;nvim --startuptime nvim.vim nvim.vim
+: 1604853011:0;la
+: 1604853029:0;rm .netrwhist nvim.vim
+: 1604853030:0;la
+: 1604853042:0;v packadd.vim
+: 1604853271:0;la
+: 1604853276:0;cd pack/plugins
+: 1604853276:0;la
+: 1604853283:0;rm nvim-lspconfig
+: 1604853288:0;rma nvim-lspconfig
+: 1604853305:0;v ../../init.vim
+: 1604853338:0;la
+: 1604853343:0;rma nvim-lspconfig
+: 1604853345:0;v
+: 1604853348:0;la
+: 1604853351:0;cd opt
+: 1604853352:0;la
+: 1604853359:0;rma nvim-lspconfig
+: 1604853361:0;v
+: 1604853373:0;v ../../init.vim
+: 1604853378:0;v ../../../init.vim
+: 1604853730:0;ls ~/.config/nvim/pack/bundle/start | xargs -I{} git -C {} pull
+: 1604853753:0;ls ~/.config/nvim/pack/plugins/start | xargs -I{} git -C {} pull
+: 1604853763:0;ls ~/.config/nvim/pack/plugins/opt | xargs -I{} git -C {} pull
+: 1604853821:0;la
+: 1604853831:0;bin
+: 1604853835:0;v relink.sh
+: 1604853915:0;v move.sh
+: 1604853929:0;v relink.sh
+: 1604854132:0;dot
+: 1604854135:0;cd nvim
+: 1604854135:0;la
+: 1604854145:0;mk -p pack/plugins/opt
+: 1604854146:0;la
+: 1604854148:0;sh relink.sh
+: 1604854150:0;la
+: 1604854153:0;cd pack/plugins/opt
+: 1604854154:0;la
+: 1604854179:0;l;
+: 1604854183:0;bin
+: 1604854185:0;v relink.sh
+: 1604854215:0;sh relink.sh
+: 1604854218:0;la
+: 1604854224:0;dot
+: 1604854228:0;cd nvim/pack/plugins/opt
+: 1604854228:0;la
+: 1604854232:0;sa
+: 1604854233:0;la
+: 1604854246:0;commit 'started to use packadd'
