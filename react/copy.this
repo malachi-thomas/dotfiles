@@ -1,0 +1,6 @@
+  "scripts": {
+    "start": "parcel public/index.html",
+  },
+  "browserslist": [
+    "defaults"
+  ]

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: func
+# key: func
+# --
+(defun $1 ($2)
+  (ineractive)
+  $0)

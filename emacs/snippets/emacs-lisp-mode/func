@@ -1,0 +1,4 @@
+(defun ${1:funtion-name} (${2:prams})
+  (interactive)
+  $0
+  )

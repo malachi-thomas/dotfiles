@@ -1,0 +1,33 @@
+name: web
+parent: default
+
+filter_title: "Chrome|Chromium"
+
+matches: 
+
+  # websites
+  - trigger: ":yt "
+    replace: "youtube.com\n"
+
+  - trigger: ":gh "
+    replace: "github.com\n"
+
+  - trigger: ":dot "
+    replace: "github.com/banana-llarma/dotfiles\n"
+
+  - trigger: ":toggl "
+    replace: "track.toggl.com/timer\n"
+
+  - trigger: ":red "
+    replace: "reddit.com\n"
+
+  # Emails
+  - trigger: "email1 "
+    replace: "malachithomas110@gmail.com"
+
+  - trigger: "email2 "
+    replace: "thomasmalachi18@gmail.com"
+
+  # Random
+  - trigger: "uname "
+    replace: "banana_llarma"

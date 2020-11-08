@@ -1,0 +1,76 @@
+{
+  "plug": {
+    "prefix": "plug",
+    "body": [
+      "<plug>"
+    ]
+  },
+  "silent": {
+    "prefix": "silent",
+    "body": [
+      "<silent>"
+    ]
+  },
+  "nn": {
+    "prefix": "nn",
+    "body": [
+      "nnoremap "
+    ]
+  },
+  "cr": {
+    "prefix": "cr",
+    "body": [
+      "<cr>"
+    ]
+  },
+  "space": {
+    "prefix": "space",
+    "body": [
+      "<space>"
+    ]
+  },
+  "left": {
+    "prefix": "left",
+    "body": [
+      "<left>"
+    ]
+  },
+  "right": {
+    "prefix": "right",
+    "body": [
+      "<right>"
+    ]
+  },
+  "down": {
+    "prefix": "down",
+    "body": [
+      "<down>"
+    ]
+  },
+  "up": {
+    "prefix": "up",
+    "body": [
+      "<up>"
+    ]
+  },
+  "func": {
+    "prefix": "func",
+    "body": [
+      "func! $1()",
+      "  $0",
+      "endfunc"
+    ]
+  },
+  "expr": {
+    "prefix": "expr",
+    "body": [
+      "<expr>"
+    ]
+  },
+  "nop": {
+    "prefix": "nop",
+    "body": [
+      "<nop>"
+    ]
+  }
+}
