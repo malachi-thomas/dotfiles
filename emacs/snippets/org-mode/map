@@ -1,3 +1,0 @@
-(general-def '${1:state} ${2:mode-map}
-  $0
-)

@@ -1,2 +1,0 @@
-#+title: topics
-this is the topics file
