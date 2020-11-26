@@ -13,7 +13,9 @@ nnoremap <home> ^
 nnoremap <end> $
 nnoremap { }
 nnoremap } {
+nnoremap f f
 inoremap <home> <c-o>^
+
 
 
 " Buffers
@@ -25,17 +27,17 @@ nnoremap / /\v
 nnoremap <space><space> :Files<cr>
 
 nnoremap <space>s :e ~/dotfiles/nvim/snippets/<c-r>=expand(&ft)<cr>.json<cr>
-nnoremap m @
-nnoremap mm @m
-nnoremap M @@
+" nnoremap m @
+" nnoremap mm @m
+" nnoremap M @@
 vnoremap / /\v
 nnoremap <tab> :BufferNext<cr>
 nnoremap <M-tab> :BufferPrevious<cr>
 nnoremap <silent><c-w> :call BufferClose()<cr>
 
 " splits
-nnoremap <space>vs :vsplit<cr>
-nnoremap <space>sp :split<cr>
+" nnoremap <space>vs :vsplit<cr>
+" nnoremap <space>sp :split<cr>
 nnoremap <M-up> <c-w> k
 nnoremap <M-down> <c-w>j
 nnoremap <M-left> <c-w>h
@@ -83,7 +85,7 @@ nnoremap Ss :s/\v<c-r>=expand("<cword>")<cr>//gc<left><left><left>
 nnoremap sg :%s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
 nnoremap Sg :%s/\v<c-r>=expand("<cword>")<cr>//gc<left><left><left>
 vnoremap ss :s/\v//g<left><left><left>
-vnoremap st "1y:%s/\v<c-r>1//g<left><left>
+vnoremap st "1y:s/\v<c-r>1//g<left><left>
 vnoremap SS :s/\v//gc<left><left><left><left>
 vnoremap St "1y:%s/\v<c-r>1//gc<left><left><left>
 
@@ -102,10 +104,13 @@ ca h vert h
 autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
 autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
 autocmd filetype javascript nnoremap <silent><buffer><c-l> :!node %<cr>
+autocmd filetype rust nnoremap <silent><buffer><c-l> :!cargo run<cr>
 autocmd filetype python nnoremap <silent><buffer><c-l> :!python %<cr>
+autocmd filetype c nnoremap <silent><buffer><c-l> :w<cr>:!gcc %<cr>:!./a.out<cr>
+autocmd filetype cpp nnoremap <silent><buffer><c-l> :w<cr>:!g++ %<cr>:!./a.out<cr>
+" autocmd FileType rust nnoremap <silent><buffer><c-l> :<cr>:!rustc %<cr>:!./
 
 " Plugin Mappings
-"
 nnoremap <space><space> :Telescope find_files<cr>
 nnoremap <space>r :Telescope oldfiles<cr>
 nmap <f1> <Plug>VimwikiNextLink
@@ -145,9 +150,6 @@ imap <silent><expr><c-s>
 inoremap { {}<left>
 inoremap ( ()<left>
 inoremap [ []<left>
-inoremap ' ''<left>
-inoremap " ""<left>
-inoremap ` ``<left>
 inoremap <expr> <cr> Enter()
 inoremap <expr> <bs> Backspace()
 inoremap <expr> } Rbrace()
@@ -168,9 +170,10 @@ else
   inoremap <silent> <esc>OA <up>
   inoremap <silent> <esc>OB <down>
   inoremap <silent> <esc>OC <right>
-  inoremap <silen> <esc>OD <left>
+  inoremap <silent> <esc>OD <left>
 endif
 
 " nmap <silent>gq <plug>(Mac_Play)
 " nmap <silent>q <plug>(Mac_RecordNew)
+
 

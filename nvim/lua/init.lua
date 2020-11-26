@@ -1,14 +1,15 @@
--- Lsp
-require'nvim_lsp'.tsserver.setup{ on_attach=require'completion'.on_attach }
-require'nvim_lsp'.tsserver.setup{ on_attach=require'completion'.on_attach } -- you need a package.json or tsconfig.json
-require'nvim_lsp'.vimls.setup{ on_attach=require'completion'.on_attach }
-require'nvim_lsp'.pyls.setup { on_attach=require'completion'.on_attach } -- pip install python-language-server
-require'nvim_lsp'.sumneko_lua.setup { on_attach=require'completion'.on_attach } -- LspInstall sumneko_lua
-require'nvim_lsp'.bashls.setup { on_attach=require'completion'.on_attach } -- LspInstall bashls
-require'nvim_lsp'.clangd.setup { on_attach=require'completion'.on_attach } -- ???
-require'nvim_lsp'.cssls.setup { on_attach=require'completion'.on_attach } -- LspInstall cssls
-require'nvim_lsp'.html.setup { on_attach=require'completion'.on_attach } -- LspInstall html
-require'nvim_lsp'.rls.setup { on_attach=require'completion'.on_attach } -- ???
+
+local nvim_lsp = require'lspconfig'
+
+nvim_lsp.tsserver.setup {} -- you need a package.json or tsconfig.json
+nvim_lsp.vimls.setup {}
+nvim_lsp.pyls.setup{} -- use pip
+nvim_lsp.sumneko_lua.setup {}
+nvim_lsp.bashls.setup {}
+nvim_lsp.clangd.setup {}
+nvim_lsp.cssls.setup {}
+nvim_lsp.html.setup {}
+nvim_lsp.rust_analyzer.setup{} -- install rust_analyzer
 
 
 local actions = require('telescope.actions')
@@ -24,13 +25,14 @@ require('telescope').setup {
 require'nvim-treesitter.configs'.setup {
   ensure_installed = "maintained",
   indent = {
-    enable = true
+    enable = true,
+    disable = {'python'},
   },
   highlight = {
     enable = true,
-    disable = {},
+    disable = {'python'},
   },
 }
 
-
+vim.lsp.callbacks["textDocument/publishDiagnostics"] = function() end
 

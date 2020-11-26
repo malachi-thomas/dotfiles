@@ -1,0 +1,45 @@
+#!/usr/bin/env sh
+
+mkdir -p $HOME/.config/nvim/pack/plugins/opt
+cd $HOME/.config/nvim/pack/plugins/opt
+git clone https://github.com/nvim-lua/completion-nvim
+git clone https://github.com/neovim/nvim-lspconfig
+git clone https://github.com/steelsojka/completion-buffers
+git clone https://github.com/kristijanhusak/completion-tags
+git clone https://github.com/neovim/nvim-lspconfig
+git clone https://github.com/nvim-lua/completion-nvim
+git clone https://github.comsteelsojka/completion-buffers
+git clone https://github.com/nvim-lua/diagnostic-nvim
+git clone https://github.com/kyazdani42/nvim-web-devicons
+git clone https://github.com/romgrk/barbar.nvim
+git clone https://github.com/nvim-lua/popup.nvim
+git clone https://github.com/nvim-lua/plenary.nvim
+git clone https://github.com/nvim-lua/telescope.nvim
+git clone https://github.com/nvim-treesitter/nvim-treesitter
+git clone https://github.com/machakann/vim-highlightedyank
+git clone https://github.com/neoclide/coc.nvim
+git clone https://github.com/mhinz/vim-startify
+git clone https://github.com/dense-analysis/ale
+git clone https://github.com/tpope/vim-commentary
+git clone https://github.com/airblade/vim-rooter
+git clone https://github.com/junegunn/fzf
+git clone https://github.com/junegunn/fzf.vim
+git clone https://github.com/ludovicchabant/vim-gutentags
+git clone https://github.com/mattn/emmet-vim
+git clone https://github.com/rhysd/clever-f.vim
+git clone https://github.com/machakann/vim-sandwich
+git clone https://github.com/hrsh7th/vim-vsnip
+git clone https://github.com/hrsh7th/vim-vsnip-integ
+git clone https://github.com/metakirby5/codi.vim
+git clone https://github.com/bkad/CamelCaseMotion
+git clone https://github.com/tpope/vim-fugitive
+git clone https://github.com/euclidianAce/BetterLua.vim
+git clone https://github.com/wellle/targets.vim
+git clone https://github.com/nathanaelkane/vim-indent-guides
+git clone https://github.com/vimwiki/vimwiki
+git clone https://github.com/sheerun/vim-polyglot
+git clone https://github.com/ryanoasis/vim-devicons
+git clone https://github.com/morhetz/gruvbox
+git clone https://github.com/frazrepo/vim-rainbow
+git clone https://github.com/neoclide/jsonc.vim
+git clone https://github.com/itchyny/lightline.vim

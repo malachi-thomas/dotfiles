@@ -6508,3 +6508,3363 @@ u
 : 1604855336:0;git submodule add https://github.com/dense-analysis/ale ale
 : 1604855351:0;la
 : 1604855354:0;commit 'started to use packadd' && push 
+: 1604855381:0;cd
+: 1604855394:0;clone git@github.com:banana-llarma/dotfiles.git hats
+: 1604855417:0;la
+: 1604855419:0;cd hats
+: 1604855422:0;cd nvim/pack/plugins/opt
+: 1604855423:0;la
+: 1604855425:0;cd ale
+: 1604855426:0;la
+: 1604855441:0;..
+: 1604855451:0;cat .gitmodules
+: 1604855513:0;la
+: 1604855522:0;cat .gitmodules
+: 1604855532:0;git submodule
+: 1604855538:0;git submodule update
+: 1604855539:0;l
+: 1604855541:0;la
+: 1604855549:0;git submodule
+: 1604855629:0;la
+: 1604855910:0;..
+: 1604856174:0;nvim --startuptime nvim.vim nvim.vim
+: 1604856180:0;rm nvim.vim
+: 1604856210:0;git clone https://github.com/k-takata/minpac.git ~/.config/nvim/pack/minpac/opt/minpac\
+
+: 1604856225:0;dot
+: 1604856226:0;la
+: 1604856251:0;rma emacs org-roam org-rome term test 
+: 1604856255:0;cd nvim/pack/plugins/opt
+: 1604856255:0;la
+: 1604856257:0;..
+: 1604856259:0;rm la
+: 1604856260:0;la
+: 1604856263:0;..
+: 1604856263:0;la
+: 1604856274:0;git clone https://github.com/k-takata/minpac.git ~/.config/nvim/pack/minpac/opt/minpac\
+
+: 1604856276:0;la
+: 1604856279:0;cd pack
+: 1604856280:0;la
+: 1604856867:0;git clone https://github.com/k-takata/minpac.git ~/.config/nvim/pack/minpac/opt/minpac\
+
+: 1604856870:0;la
+: 1604856873:0;cd plugins
+: 1604856874:0;la
+: 1604856877:0;cd opt
+: 1604856878:0;la
+: 1604856881:0;..
+: 1604856883:0;la
+: 1604856888:0;cd pack
+: 1604856889:0;la
+: 1604856894:0;rma plugins
+: 1604856896:0;la
+: 1604856903:0;cd
+: 1604856913:0;cd .config/nvim/pack/minpac/opt
+: 1604856914:0;la
+: 1604856919:0;vrc
+: 1604857035:0;la
+: 1604857038:0;...
+: 1604857039:0;la
+: 1604857040:0;..
+: 1604857040:0;la
+: 1604857054:0;rma pack
+: 1604857062:0;git clone https://github.com/k-takata/minpac.git ~/.config/nvim/pack/minpac/opt/minpac\
+
+: 1604857070:0;vrc
+: 1604857086:0;v minpack.vim
+: 1604857113:0;la
+: 1604857119:0;v packadd.vim
+: 1604857177:0;vrc
+: 1604857636:0;cd pack
+: 1604857637:0;la
+: 1604857641:0;cd minpac/start
+: 1604857641:0;la
+: 1604857643:0;..
+: 1604857643:0;la
+: 1604857653:0;vrc
+: 1604857987:0;la
+: 1604857990:0;cd opt
+: 1604857991:0;la
+: 1604857993:0;..
+: 1604857995:0;la
+: 1604858003:0;v lua/init.lua
+: 1604858042:0;v minpack.vim
+: 1604858086:0;vrc
+: 1604858109:0;lrc
+: 1604858143:0;sh relink.sh
+: 1604858144:0;la
+: 1604858146:0;vrc
+: 1604858549:0;v lua/init.lua
+: 1604858559:0;vrc
+: 1604858657:0;v lua/init.lua
+: 1604858833:0;v
+: 1604858836:0;vrc
+: 1604858889:0;cd pack/minpac/start
+: 1604858890:0;la
+: 1604858909:0;rm vim-polyglot
+: 1604858912:0;rma vim-polyglot
+: 1604858914:0;la
+: 1604858916:0;vrc
+: 1604859099:0;nvim --startuptime nvim.vim nvim.vim
+: 1604859104:0;rm nvim.vim
+: 1604859105:0;la
+: 1604859108:0;vrc
+: 1604859240:0;rma *
+: 1604859242:0;la
+: 1604859244:0;..
+: 1604859245:0;la
+: 1604859247:0;vrc
+: 1604859313:0;la
+: 1604859315:0;...
+: 1604859317:0;v lua/init.lua
+: 1604859356:0;vrc
+: 1604859555:0;cd pack/minpac
+: 1604859555:0;la
+: 1604859557:0;cd opt
+: 1604859558:0;la
+: 1604859578:0;git clone https://github.com/neovim/nvim-lspconfig
+: 1604859597:0;clone https://github.com/nvim-lua/completion-nvim
+: 1604859601:0;vrc
+: 1604859863:0;nvim --startuptime nvim.vim nvim.vim
+: 1604860589:0;vrc
+: 1604860754:0;bin
+: 1604860762:0;v vim-plugins.sh
+: 1604860885:0;sh vim-plugins.sh
+: 1604860896:0;v vim-plugins.sh
+: 1604860921:0;sh vim-plugins.sh
+: 1604860936:0;v vim-plugins.sh
+: 1604860942:0;sh vim-plugins.sh
+: 1604860949:0;la
+: 1604860955:0;ex nodejs.sh vim-plugins.sh
+: 1604860955:0;la
+: 1604860958:0;v vim-plugins.sh
+: 1604860964:0;vpl
+: 1604861601:0;screenkey
+: 1604861629:0;sh vim-plugins.sh
+: 1604861752:0;la
+: 1604861788:0;cd .config/nvim/pack/minpac/opt
+: 1604861789:0;..
+: 1604861790:0;la
+: 1604861795:0;cd plugins
+: 1604861795:0;la
+: 1604861797:0;cd opt
+: 1604861798:0;la
+: 1604861801:0;l
+: 1604861802:0;la
+: 1604861849:0;vrc
+: 1604862583:0;cd
+: 1604862583:0;la
+: 1604862588:0;vrc
+: 1604862639:0;cd .config/nvim/pack/plugins/opt
+: 1604862653:0;la
+: 1604862670:0;rma nvim-lspconfig
+: 1604862673:0;vrc
+: 1604864371:0;n
+: 1604864373:0;vrc
+: 1604864404:0;la
+: 1604864409:0;rma vim-startify
+: 1604864413:0;vrc
+: 1604864484:0;rma nvim-lspconfig
+: 1604864486:0;vrc
+: 1604864541:0;rma nvim-lspconfig vim-startify
+: 1604864544:0;vrc
+: 1604864628:0;rma nvim-lspconfig vim-startify
+: 1604864629:0;vrc
+: 1604864680:0;...
+: 1604864681:0;..
+: 1604864687:0;mv minpack.vim packadd.vim
+: 1604864688:0;la
+: 1604865257:0;vrc
+: 1604866234:0;bin
+: 1604866236:0;v vim-plugins.sh
+: 1604866242:0;vrc
+: 1604867161:0;vrc
+: 1604867170:0;cd
+: 1604867176:0;cd .config/nvim/pack/
+: 1604867176:0;la
+: 1604867184:0;cd plugins/opt/
+: 1604867185:0;la
+: 1604867186:0;..
+: 1604867186:0;la
+: 1604867190:0;vrc
+: 1604867212:0;rma *
+: 1604867214:0;la
+: 1604867216:0;vrc
+: 1604867226:0;la
+: 1604867227:0;..
+: 1604867228:0;la
+: 1604867232:0;cd pack
+: 1604867232:0;la
+: 1604867236:0;rma minpac
+: 1604867237:0;la
+: 1604867238:0;vrc
+: 1604867509:0;la
+: 1604867510:0;..
+: 1604867511:0;la
+: 1604867516:0;v pack.vim
+: 1604867591:0;vrc
+: 1604867599:0;la
+: 1604867601:0;cd pack
+: 1604867602:0;la
+: 1604867604:0;cd plugins
+: 1604867604:0;la
+: 1604867607:0;tree
+: 1604867629:0;..
+: 1604867636:0;v pack.vim
+: 1604869408:0;vrc
+: 1604869460:0;v packadd.vim
+: 1604869505:0;git clone https://github.com/k-takata/minpac.git ~/.config/nvim/pack/minpac/opt/minpac\
+
+: 1604869521:0;v packadd.vim
+: 1604869785:0;vrc
+: 1604869807:0;la
+: 1604869808:0;cd pack
+: 1604869809:0;la
+: 1604869814:0;cd minpac
+: 1604869815:0;la
+: 1604869818:0;tree
+: 1604869829:0;vrc
+: 1604870686:0;nvim --startuptime nvim.vim nvim.vim
+: 1604870692:0;rma nvim.vim
+: 1604870694:0;la
+: 1604870695:0;..
+: 1604870696:0;.
+: 1604870698:0;..
+: 1604870739:0;vrc
+: 1604870847:0;cd pack
+: 1604870847:0;la
+: 1604870856:0;rma plugins minpac/opt/**
+: 1604870857:0;la
+: 1604870858:0;vrc
+: 1604870921:0;nvim --startuptime nvim.vim nvim.vim
+: 1604870975:0;rm nvim.vim
+: 1604870976:0;la
+: 1604870978:0;..
+: 1604870979:0;la
+: 1604871001:0;rma pack.vim packadd.vim pack plugin
+: 1604871002:0;la
+: 1604871007:0;v functions.vim
+: 1604871097:0;power
+: 1604873410:0;vrc
+: 1604874511:0;Z
+: 1604874513:0;vrc
+: 1604875355:0;power
+: 1604875411:0;sleep
+: 1604875467:0;betterlockscreen -s  
+: 1604906104:0;vrc
+: 1604906207:0;nodejs
+: 1604906841:0;mongo --shell\
+
+: 1604906847:0;pac mongodb
+: 1604906926:0;pac mongodb-4
+: 1604906931:0;pac mongodb
+: 1604906940:0;pac mongodb-bin-4
+: 1604906969:0;pac mongodb-bin-tool
+: 1604906977:0;pac mongodb-tool
+: 1604907008:0;mongo --shell\
+
+: 1604907012:0;mongod
+: 1604907014:0;mongod -
+: 1604907018:0;mongod --
+: 1604907026:0;screenkey
+: 1604907033:0;mongo --shell
+: 1604907044:0;mongod --port 27017
+: 1604907056:0;mongod --fork --logpath /var/log/mongodb.log\
+
+: 1604907061:0;mongod --help
+: 1604907129:0;systemctl start mongod.service\
+
+: 1604907144:0;pac mongod
+: 1604907155:0;service mongod start\
+
+: 1604907163:0;sudo systemctl start mongod.service\
+
+: 1604907175:0;systemctl tatus mongod.service\
+
+: 1604907182:0;sudo systemctl status mongod.service\
+
+: 1604907200:0;mongod --dbpath ~/mongodb-tutorial
+: 1604907211:0;mongod --dbpath ~/mongodb-tutorial --auth
+: 1604907216:0;mongo localhost:27017
+: 1604907220:0;mongod
+: 1604907223:0;mongo
+: 1604907230:0;mongodb
+: 1604907242:0;pac mongodb
+: 1604907343:0;systemctl enable --now mongodb
+: 1604907350:0;mongo
+: 1604907370:0;systemctl start --now mongodb
+: 1604907373:0;mongo
+: 1604907390:0;mango
+: 1604907392:0;mongo
+: 1604907396:0;mongodb
+: 1604907572:0;dow
+: 1604907586:0;rm mongodb-org-server_4.0.20_amd64.deb mongodb-org-server-4.4.1-1.amzn2.x86_64.rpm mongodb-org-server_4.4.1_amd64.deb mongodb-org-server-4.4.1-1.el7.s390x.rpm mongodb-linux-x86_64-3.2.18.tgz 
+: 1604907587:0;la
+: 1604907600:0;tar -zxvf mongodb-linux-x86_64-*-4.2.3.tgz\
+
+: 1604907603:0;la
+: 1604907611:0;tar -zxvf mongodb-linux-x86_64-4.0.20.tgz\
+
+: 1604907617:0;la
+: 1604907620:0;mongodb
+: 1604907637:0;dow
+: 1604907637:0;la
+: 1604907672:0;sudo cp mongodb-linux-x86_64-4.0.20/bin/* /usr/bin/\
+
+: 1604907678:0;mongodb
+: 1604907680:0;mongod
+: 1604907702:0;sudo mkdir -p /var/lib/mongo\
+
+: 1604907708:0;sudo mkdir -p /var/log/mongodb\
+
+: 1604907735:0;mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log --fork
+: 1604907747:0;mongod 
+: 1604907753:0;mongo
+: 1604907780:0;systemctl start --now mongodb
+: 1604907789:0;systemctl enable --now mongodb
+: 1604907793:0;mongo
+: 1604907824:0;pac docker
+: 1604907879:0;docker pull mongo
+: 1604907927:0;systemctl enable docker
+: 1604907933:0;systemctl start docker
+: 1604907937:0;docker pull mongo
+: 1604907950:0;sudo docker pull mongo
+: 1604908051:0;docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+: 1604908056:0;sudo docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+: 1604908086:0;docker --help
+: 1604908097:0;docker attach 
+: 1604908137:0;mongo 172.17.0.2:27017 \
+
+: 1604908180:0;docker container ls
+: 1604908183:0;sudo docker container ls
+: 1604908190:0;sudo docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+: 1604908217:0;sdocker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+: 1604908218:0;docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+: 1604908233:0;docker start mongo
+: 1604908236:0;sudo docker start mongo
+: 1604908247:0;docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+: 1604908256:0;cd /
+: 1604908256:0;la
+: 1604908265:0;cd
+: 1604908266:0;la
+: 1604908273:0;docker container list
+: 1604908276:0;sudo docker container list
+: 1604908289:0;docker exec -it mongo /bin/sh
+: 1604908292:0;sudo docker exec -it mongo /bin/sh
+: 1604911124:0;git clone https://github.com/Jorengarenar/minPlug.git ~/.config/nvim/pack/plugins/opt/minPlug/\
+
+: 1604911136:0;vrc
+: 1604911174:0;cd .config/nvim/
+: 1604911174:0;la
+: 1604911178:0;v minplug.vim
+: 1604911224:0;cd pack
+: 1604911233:0;rma plugins
+: 1604911235:0;la
+: 1604911236:0;vrc
+: 1604911579:0;cd .config/nvim/pack
+: 1604911579:0;la
+: 1604911584:0;..
+: 1604911601:0;vrc
+: 1604911622:0;rma plugged
+: 1604911624:0;vrc
+: 1604911661:0;cd pack
+: 1604911661:0;la
+: 1604911668:0;vrc
+: 1604911895:0;cd .config/nvim/pack
+: 1604911896:0;la
+: 1604911898:0;cd plugins/opt
+: 1604911898:0;la
+: 1604912024:0;nvim --startuptime nvim.vim nvim.vim
+: 1604912099:0;nvim
+: 1604912201:0;la
+: 1604912204:0;vrc
+: 1604912275:0;nvim --startuptime nvim.vim nvim.vim
+: 1604912282:0;rma nvim.vim
+: 1604912288:0;la
+: 1604912291:0;nvim --startuptime nvim.vim nvim.vim
+: 1604912363:0;vrc
+: 1604912439:0;cd .config/nvim/pack
+: 1604912439:0;la
+: 1604912442:0;rma plugins
+: 1604912443:0;la
+: 1604912444:0;..
+: 1604912448:0;rma pack
+: 1604912448:0;la
+: 1604912453:0;rm nvim-lspconfig
+: 1604912456:0;rma nvim-lspconfig
+: 1604912458:0;la
+: 1604912467:0;ls after
+: 1604912468:0;la
+: 1604912470:0;cd after
+: 1604912471:0;la
+: 1604912472:0;..
+: 1604912474:0;rma after
+: 1604912476:0;la
+: 1604912487:0;vrc
+: 1604913891:0;vpl
+: 1604914147:0;la
+: 1604914153:0;vpl
+: 1604914252:0;vrc
+: 1604914255:0;la
+: 1604914280:0;vpl
+: 1604914302:0;la
+: 1604914304:0;tree
+: 1604914309:0;la
+: 1604914312:0;cd plugged
+: 1604914313:0;la
+: 1604914345:0;vpl
+: 1604914382:0;la
+: 1604914383:0;cd
+: 1604914389:0;rm nvim.vim
+: 1604914389:0;la
+: 1604914395:0;rma .vim
+: 1604914398:0;la
+: 1604914404:0;vrc
+: 1604914406:0;la
+: 1604914410:0;vrc
+: 1604914428:0;la
+: 1604914436:0;cd .config/nvim
+: 1604914437:0;la
+: 1604914497:0;vpl
+: 1604914540:0;cd
+: 1604914555:0;cd .local/share/nvim/site/autoload
+: 1604914556:0;la
+: 1604914560:0;rma *
+: 1604914561:0;la
+: 1604914562:0;vrc
+: 1604914733:0;rma plug.vim
+: 1604914735:0;vrc
+: 1604914748:0;rma plug.vim
+: 1604914752:0;cd .config/nvim
+: 1604914753:0;la
+: 1604914756:0;cd ~/.config/nvim
+: 1604914759:0;rma plugged
+: 1604914761:0;vrc
+: 1604914934:0;nvim --startuptime nvim.vim nvim.vim
+: 1604914942:0;rm nvim.vim
+: 1604914943:0;la
+: 1604914953:0;rm minplug.vim
+: 1604914954:0;la
+: 1604916120:0;vrc
+: 1604916188:0;la
+: 1604916437:0;sudo systemctl status docker\
+
+: 1604916542:0;getent group docker
+: 1604916583:0;sudo gpasswd - malachi docker
+: 1604916593:0;sudo gpasswd -a malachi docker
+: 1604916597:0;docker info
+: 1604916634:0;newgrp docker
+: 1604916637:0;docker info
+: 1604916753:0;ls /
+: 1604916756:0;11
+: 1604916760:0;ls /11
+: 1604916763:0;la
+: 1604918888:0;pacr mongodb-bin-4.0
+: 1604918902:0;pacr mongodb-tools-bin
+: 1604918918:0;yay -S mongodb
+: 1604919653:0;pacman-key --refresh-keys
+: 1604919658:0;sudo pacman-key --refresh-keys
+: 1604919740:0;sudo nvim /etc/pacman.d/gnupg/gpg.conf
+: 1604919755:0;sudo pacman-key --refresh-keys
+: 1604919803:0;pacman-key --refresh-keys --keyserver hkp://keyserver.kjsl.com:80\
+
+: 1604919806:0;sudo pacman-key --refresh-keys --keyserver hkp://keyserver.kjsl.com:80\
+
+: 1604919841:0;sudo dirmngr < /dev/null
+: 1604919846:0;sudo pacman-key --refresh-keys
+: 1604919851:0;yay -S mongodb
+: 1604919900:0;sudo nvim /etc/pacman.d/gnupg/gpg.conf
+: 1604919950:0;sudo pacman-key --refresh-keys keyserver.ubuntu.com
+: 1604919958:0;sudo pacman-key --refresh-keys --keyserver keyserver.ubuntu.com\
+
+: 1604919980:0;zsh
+: 1604920014:0;yay -S mongodb
+: 1604920055:0;sudo nvim /etc/pacman.d/gnupg/gpg.conf
+: 1604920065:0;yay -S mongodb
+: 1604920101:0;sudo pacman-key --refresh-keys --keyserver keyserver.ubuntu.com\
+
+: 1604920166:0;pacman-key --refresh-keys --keyserver keyserver.ubuntu.com\
+
+: 1604920174:0;sudo nvim /etc/pacman.d/gnupg/gpg.conf
+: 1604920206:0;la
+: 1604920309:0;v .gnupg/gpg.conf
+: 1604920422:0;pacman-key --init
+: 1604920425:0;sudo pacman-key --init
+: 1604920432:0;pacman-key --refresh-keys --keyserver keyserver.ubuntu.com\
+
+: 1604920438:0;sudo pacman-key --refresh-keys --keyserver keyserver.ubuntu.com\
+
+: 1604920443:0;yay -S mongodb
+: 1604921098:0;gpg --recv-keys '27EDEAF22F3ABCEB50DB9A125CC908FDB71E12C2'
+: 1604921164:0;pac openssl
+: 1604921339:0;gpg --keyserver pool.sks-keyservers.net --recv-keys 27EDEAF22F3ABCEB50DB9A125CC908FDB71E12C2
+: 1604921345:0;yay -S mongodb
+: 1604921384:0;zsh
+: 1604921523:0;mongod
+: 1604921530:0;mongod --port 27017
+: 1604921584:0;yay -S mongodb-tools-bin
+: 1604921712:0;sudo systemctl status mongodb\
+
+: 1604921739:0;sudo systemctl enable mongodb\
+
+: 1604921752:0;sudo systemctl start mongodb\
+
+: 1604921756:0;mongod
+: 1604921759:0;mongod --port 27017
+: 1604921776:0;mongo
+: 1604921823:0;mongod
+: 1604921824:0;mongo
+: 1604921834:0;sudo mongod
+: 1604921836:0;sudo mongo
+: 1604921858:0;sudo rm /var/lib/mongodb/mongod.lock \
+
+: 1604921867:0;mongod -â€ƒ³repair
+: 1604921876:0;mongo
+: 1604921890:0;la
+: 1604921892:0;sh music.sh
+: 1604921923:0;sh ~/.config/polybar/launch
+: 1604921935:0;exec ~/.config/polybar/launch
+: 1604921942:0;pkill polkitd
+: 1604922054:0;mongo
+: 1604922091:0;mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log --fork
+: 1604922096:0;mongod --help
+: 1604922101:0;mongod --help | fzf
+: 1604922120:0;mongod --port 27017
+: 1604922165:0;mongo --port 28015
+: 1604922172:0;mongo "mongodb://mongodb0.example.com:28015"\
+
+: 1604922179:0;mongo --host mongodb0.example.com:28015\
+
+: 1604922226:0;pacman -U /var/cache/pacman/pkg/mongodb-3.0.4-1-armv7h.pkg.tar.xz\
+
+: 1604922229:0;sudo pacman -U /var/cache/pacman/pkg/mongodb-3.0.4-1-armv7h.pkg.tar.xz\
+
+: 1604922264:0;sudo systemctl start mongod
+: 1604922272:0;sudo systemctl enable mongod
+: 1604922274:0;sudo systemctl enable mongo
+: 1604922278:0;sudo systemctl enable mongodb
+: 1604922289:0;sudo systemctl status mongodb\
+
+: 1604922302:0;sudo systemctl start mongodb\
+
+: 1604922304:0;sudo systemctl status mongodb\
+
+: 1604922339:0;qsystemctl enable --now mongodb
+: 1604922340:0;systemctl enable --now mongodb
+: 1604922344:0;mongo
+: 1604922402:0;systemctl start mongodb\
+\
+
+: 1604922408:0;systemctl status -l  mongodb\
+\
+
+: 1604922420:0;sudo chown -R mongodb:mongodb
+: 1604922428:0;pac chown
+: 1604922447:0;sudo chown -R mongodb:mongodb
+: 1604922470:0;sudo -u mongodb /usr/bin/mongod --quiet --config /etc/mongodb.conf
+: 1604922474:0;systemctl status -l  mongodb\
+\
+
+: 1604922487:0;locale-gen
+: 1604922499:0;sudo locale-gen
+: 1604922504:0;systemctl status -l  mongodb\
+\
+
+: 1604922509:0;power
+: 1604922562:0;sudo locale-gen
+: 1604922567:0;sudo systemctl status mongodb\
+
+: 1604922609:0;vrc
+: 1604922613:0;zsh
+: 1604922681:0;so
+: 1604922700:0;\
+set -o vi\
+\
+
+: 1604922728:0;v
+: 1604922735:0;v -e a
+: 1604922739:0;la
+: 1604922740:0;v 
+: 1604922774:0;~
+: 1604922779:0;v
+: 1604922815:0;zsh
+: 1604922824:0;so
+: 1604922934:0;zsh
+: 1604922966:0;dot
+: 1604922967:0;cd zsh
+: 1604922974:0;v vi-mode.zsh
+: 1604922978:0;lo
+: 1604922978:0;so
+: 1604922982:0;la
+: 1604922991:0;zsh
+: 1604923005:0;mv vi-mode.zsh plugins
+: 1604923005:0;la
+: 1604923007:0;so
+: 1604923021:0;cc.,,
+: 1604923025:0;so
+: 1604923035:0;cd
+: 1604923145:0;zsh
+: 1604923151:0;so
+: 1604923159:0;la
+: 1604923200:0;zsh
+: 1604923204:0;so
+: 1604923206:0;cd
+: 1604923225:0;zsh
+: 1604923238:0;so
+: 1604923246:0;v
+: 1604923253:0;zsh
+: 1604923258:0;so
+: 1604923260:0;v
+: 1604923262:0;w
+: 1604923264:0;lo
+: 1604923267:0;v
+: 1604923270:0;zsh
+: 1604947616:0;bin
+: 1604947619:0;v startup.sh
+: 1604947681:0;sh startup.sh
+: 1604947700:0;sxh
+: 1604947737:0;cat dotfiles
+: 1604947762:0;vpl
+: 1604947806:0;vrc
+: 1604948440:0;la
+: 1604948442:0;zsh
+: 1604948449:0;so
+: 1604948734:0;MONGO
+: 1604948736:0;mongo
+: 1604948746:0;sudo systemctl status mongodb\
+
+: 1604948754:0;sudo systemctl start mongodb\
+
+: 1604948757:0;sudo systemctl status mongodb\
+
+: 1604948771:0;sudo systemctl enable mongodb\
+
+: 1604948776:0;mongod
+: 1604948838:0;mongo
+: 1604948943:0;mongo "mongodb://mongodb0.example.com:27017/testdb?tls=true"
+: 1604949042:0;mongod -f /etc/mongod.conf
+: 1604949054:0;mongod -f /etc/mongod.conf\
+\
+mongos -f /etc/mongos.conf
+: 1604949061:0;mongod --config /etc/mongod.conf  --configExpand "rest,exec"\
+mongos --config /etc/mongos.conf  --configExpand "rest,exec"
+: 1604949071:0;mongo
+: 1604949091:0;sudo systemctl status mongod
+: 1604949124:0;mongod
+: 1604949127:0;mongodb
+: 1604949129:0;mongo
+: 1604949160:0;sudo service mongod start
+: 1604949169:0;sudo systemctl
+: 1604949181:0;sudo systemctl start mongo
+: 1604949184:0;sudo systemctl start mongob
+: 1604949188:0;sudo systemctl start mongod
+: 1604949189:0;sudo systemctl start mongodb
+: 1604949196:0;sudo systemctl status mongodb
+: 1604949256:0;sudo systemctl start mongod.service\
+
+: 1604949272:0;sudo systemctl enable mongod\
+
+: 1604949285:0;sudo systemctl status mongod\
+
+: 1604949293:0;sudo systemctl restart mongod
+: 1604949295:0;sudo systemctl restart
+: 1604949299:0;sudo systemctl restart mongodb
+: 1604949304:0;sudo systemctl status mongodb\
+
+: 1604949344:0;sudo systemctl start mongod
+: 1604949365:0;sudo systemctl unmask mongod
+: 1604949377:0;sudo systemctl start mongod
+: 1604949385:0;sudo service mongod start
+: 1604949391:0;pac service
+: 1604949405:0;sudo rm -r /var/log/mongodb\
+sudo rm -r /var/lib/mongodb\
+
+: 1604949415:0;sudo systemctl enable mongod.service
+: 1604949420:0;sudo systemctl enable mongodb
+: 1604949422:0;la
+: 1604949429:0;sudo systemctl status mongodb\
+
+: 1604949462:0;mkdir -p /data/db
+: 1604949470:0;sudo mkdir -p /data/db
+: 1604949487:0;gpasswd -a malachi developers
+: 1604949495:0;groupadd developers
+: 1604949496:0;gpasswd -a malachi developers
+: 1604949503:0;sudo groupadd developers
+: 1604949505:0;gpasswd -a malachi developers
+: 1604949508:0;sudo gpasswd -a malachi developers
+: 1604949514:0;chown -R :developers /data/db/
+: 1604949520:0;sudo chown -R :developers /data/db/
+: 1604949526:0;chmod -R g+w /data/db/\
+
+: 1604949528:0;sudo chmod -R g+w /data/db/\
+
+: 1604949535:0;newgrp developers\
+
+: 1604949540:0;mongod
+: 1604949566:0;df -h /var/lib/mongodb/\
+
+: 1604949576:0;ls  -lisa /var/lib/mongodb
+: 1604949586:0;mongod --dbpath /var/lib/mongodb/ --repair
+: 1604949602:0;sudo mkdir -p  /var/lib/mongodb
+: 1604949622:0;df -h /var/lib/mongodb/
+: 1604949633:0;mongod --dbpath /var/lib/mongodb/ --repair\
+
+: 1604949640:0;ls  -lisa /var/lib/mongodb
+: 1604949663:0;sudo systemctl status mongodb\
+
+: 1604949668:0;sudo systemctl start mongodb\
+
+: 1604949675:0;sudo systemctl enable  mongodb\
+
+: 1604949683:0;sudo systemctl status mongodb\
+
+: 1604949695:0;mongo
+: 1604949696:0;mongob
+: 1604949700:0;mongod
+: 1604949714:0;pacr mongodb-tools-bin
+: 1604949720:0;pacr mongodb-bin
+: 1604949725:0;sa
+: 1604949727:0;so
+: 1604949737:0;pac mongodb-bin
+: 1604949774:0;mongo
+: 1604949784:0;sudo systemctl enable  mongodb\
+
+: 1604949787:0;mongo
+: 1604949793:0;sudo systemctl start mongodb\
+
+: 1604949796:0;mongo
+: 1604949810:0;pac mongodb-tool
+: 1604949836:0;mongo
+: 1604955370:0;vrc
+: 1604959531:0;betterlockscreen -s  
+: 1604959829:0;vrc
+: 1604960861:0;betterlockscreen -s  
+: 1604961364:0;vpl
+: 1604961712:0;vrc
+: 1604962912:0;betterlockscreen -s  
+: 1604963142:0;vrc
+: 1604963549:0;betterlockscreen -s  
+: 1604964039:0;vrc
+: 1604964072:0;betterlockscreen -s  
+: 1604966282:0;vrc
+: 1604966416:0;betterlockscreen -s  
+: 1604992228:0;vrc
+: 1604992382:0;n
+: 1604992384:0;vrc
+: 1604992892:0;sh color.sh
+: 1604993219:0;vpl
+: 1604993497:0;vrc
+: 1604998665:0;mongod
+: 1604998667:0;mongo
+: 1604998804:0;nodejs
+: 1604998805:0;la
+: 1604998810:0;npm i mongodb
+: 1604998840:0;mongo
+: 1604998843:0;mongod
+: 1605013062:0;bluetoothctl
+: 1605013258:0;bluetoothctl connect 08:EB:ED:4F:8F:1B
+: 1605013272:0;miv
+: 1605013274:0;bin
+: 1605013285:0;v sound-core-connect.sh
+: 1605013294:0;irc
+: 1605013334:0;bin
+: 1605013335:0;la
+: 1605013391:0;sh sound-core-connect.sh
+: 1605013399:0;bluetoothctl connect 08:EB:ED:4F:8F:1B
+: 1605013406:0;bluetoothctl power on
+: 1605013408:0;bluetoothctl connect 08:EB:ED:4F:8F:1B
+: 1605013411:0;bin
+: 1605013413:0;v sound-core-connect.sh
+: 1605013460:0;bin 
+: 1605013465:0;ex sound-core-connect.sh
+: 1605013466:0;la
+: 1605013469:0;rma completion-nvim
+: 1605013566:0;pac autoconect
+: 1605013666:0;sudo nvim /etc/bluetooth/main.conf
+: 1605013761:0;bluetoothctl discoverable
+: 1605013764:0;bluetoothctl discoverable on
+: 1605013794:0;bluetoothctl discoverable off
+: 1605013842:0;pac autoconect
+: 1605013854:0;pac autoconnect
+: 1605013915:0;irc
+: 1605014211:0;amixer set headset -50%
+: 1605014222:0;amixer sset headset -50%
+: 1605014272:0;amixer sset Master +20%
+: 1605014295:0;amixer sset Headphone +20%
+: 1605014304:0;amixer sset Speaker +20%
+: 1605014308:0;amixer
+: 1605014324:0;amixer --help
+: 1605014332:0;amixer -D
+: 1605014356:0;amixer controls
+: 1605014375:0;amixer contents
+: 1605014386:0;speaker-test -c 2
+: 1605014404:0;speaker-test -c 8
+: 1605014416:0;speaker-test -D default:PCH -c 8
+: 1605014466:0;sudo nvim /lib/systemd/system/bluetooth.service
+: 1605014499:0;sudo systemctl daemon-reload\
+sudo systemctl restart bluetooth
+: 1605014522:0;sh sound-core-connect.sh
+: 1605014540:0;bluetooth-autoconnect
+: 1605014574:0;sudo systemctl edit bluetooth
+: 1605015243:0;speaker-test -D default:PCH -c 8
+: 1605015246:0;speaker-test -c 2
+: 1605015268:0;alsamixer
+: 1605020270:0;sh sound-core-connect.sh
+: 1605020276:0;bluetooth-autoconnect
+: 1605020432:0;sxh
+: 1605020479:0;pkill sxhkd
+: 1605020502:0;back
+: 1605020515:0;sxh
+: 1605020524:0;irc
+: 1605021360:0;amixer
+: 1605021370:0;amixer sset Master +20%
+: 1605021376:0;mocp
+: 1605021504:0;gpasswd -a $USER audio
+: 1605021507:0;sudo gpasswd -a $USER audio
+: 1605021518:0;osstest
+: 1605021520:0;pac oss
+: 1605021542:0;pac oss-
+: 1605021555:0;pac oss-git
+: 1605021828:0;osstest
+: 1605021908:0;speaker-test -c 2 -t wav -D plughw:CODEC\
+
+: 1605021924:0;alsamixer -c CODEC;\
+
+: 1605021944:0;grep sound-slot /etc/modprobe.conf
+: 1605021962:0;m-a prepare\
+m-a update\
+m-a a-i oss4
+: 1605022136:0;bluetoothctl power off
+: 1605023475:0;screenkey
+: 1605023489:0;pkill screenkey
+: 1605023493:0;screenkey
+: 1605023515:0;vim
+: 1605023559:0;la
+: 1605023574:0;rma .vim*
+: 1605023577:0;la
+: 1605023578:0;vim
+: 1605023610:0;v
+: 1605030614:0;vrc
+: 1605033270:0;pac onoremap\
+
+: 1605033281:0;pac xscreensaver
+: 1605033424:0;xscreensaver
+: 1605033466:0;xscreensaver --help
+: 1605033479:0;xscreensaver-demo
+: 1605034244:0;file
+: 1605037524:0;vrc
+: 1605037546:0;v test.py
+: 1605037578:0;pac pyls
+: 1605037633:0;pip install python-language-server
+: 1605037638:0;v test.py
+: 1605038622:0;pac autopep8
+: 1605038631:0;v test.py
+: 1605041781:0;screenkey
+: 1605041917:0;pac beautifier
+: 1605041994:0;vpc
+: 1605042041:0;vpl
+: 1605042046:0;v test.js
+: 1605042072:0;js-beautify test.js
+: 1605042077:0;v test.js
+: 1605042085:0;js-beautify -w test.js
+: 1605042096:0;js-beautify -r test.js
+: 1605042100:0;v test.js
+: 1605043373:0;vrc
+: 1605043405:0;power
+: 1605078670:0;vrc
+: 1605078953:0;fixjson --help
+: 1605079197:0;non
+: 1605079198:0;not
+: 1605079202:0;v topics.md
+: 1605079241:0;npm -g prittier
+: 1605079252:0;vrc
+: 1605079295:0;v topics.md
+: 1605079309:0;npm -g prettier
+: 1605079314:0;npm i -g prettier
+: 1605079319:0;v topics.md
+: 1605079619:0;vpl
+: 1605079667:0;vma
+: 1605084456:0;vim
+: 1605084504:0;vim 
+: 1605084877:0;screenkey
+: 1605084887:0;v
+: 1605085216:0;bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+: 1605085220:0;pac wget
+: 1605085231:0;bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+: 1605089807:0;back
+: 1605089900:0;bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+: 1605090119:0;kite
+: 1605090120:0;rm -rf ~/.kite
+: 1605090123:0;bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+: 1605090144:0;la
+: 1605090146:0;vim
+: 1605090148:0;v
+: 1605090169:0;v test.py
+: 1605090359:0;v test.js
+: 1605091625:0;la
+: 1605091773:0;vpl
+: 1605091952:0;v test.js
+: 1605091992:0;la
+: 1605091996:0;rm -rf ~/.kite
+: 1605091996:0;la
+: 1605093004:0;v test.js
+: 1605093138:0;nodejs
+: 1605093142:0;v src/app.mjs
+: 1605093287:0;mongo
+: 1605093338:0;pac mongodb-compass
+: 1605093796:0;mongo
+: 1605096458:0;v src/app.mjs
+: 1605097164:0;npm i mongodb
+: 1605098807:0;node database.mjs
+: 1605101833:0;..
+: 1605101833:0;la
+: 1605101838:0;mk rust
+: 1605101840:0;cd rust
+: 1605101963:0;v test.rs
+: 1605101973:0;pac rust
+: 1605102045:0;pac rustup
+: 1605102075:0;rustup component add rls rust-analysis rust-src
+: 1605102095:0;pac rls
+: 1605102107:0;pac rustup
+: 1605102133:0;rustup component add rls rust-analysis rust-src\
+
+: 1605102179:0;cargo install cargo-rls-install
+: 1605102182:0;la
+: 1605102194:0;rustc test.rs
+: 1605102195:0;la
+: 1605102205:0;v test.rs
+: 1605102215:0;rustc test.rs
+: 1605102223:0;la
+: 1605102252:0;curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\
+
+: 1605102274:0;rustup self uninstall
+: 1605102277:0;curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\
+
+: 1605102686:0;nodejs
+: 1605102687:0;la
+: 1605102689:0;cd src
+: 1605102690:0;la
+: 1605102693:0;v database.mjs
+: 1605104847:0;rustc test.rs
+: 1605104848:0;la
+: 1605104854:0;./test
+: 1605104858:0;v test.rs
+: 1605104873:0;rustc test.rs
+: 1605104876:0;./test
+: 1605104879:0;la
+: 1605104881:0;v test.rs
+: 1605104893:0;sh test
+: 1605104904:0;./test
+: 1605104906:0;v  test.rs
+: 1605104920:0;rustc test.rs
+: 1605104939:0;v  test.rs
+: 1605104944:0;rustc test.rs
+: 1605104963:0;./test
+: 1605108222:0;file
+: 1605110450:0;v test.py
+: 1605110938:0;rustup update
+: 1605110945:0;rustup component add rls rust-analysis rust-src\
+
+: 1605110960:0;lrc
+: 1605110990:0;cd code/rust
+: 1605110994:0;v test.rs
+: 1605111011:0;rustc test.rs
+: 1605111014:0;v test.rs
+: 1605111045:0;rustup component add rls rust-analysis rust-src\
+
+: 1605111051:0;v test.rs
+: 1605111106:0;la
+: 1605111108:0;v test.rs
+: 1605111128:0;vrc
+: 1605111246:0;v test.rs
+: 1605111385:0;rustup component add rust-src
+: 1605111410:0;git clone https://github.com/rust-analyzer/rust-analyzer.git && cd rust-analyzer
+: 1605111430:0;la
+: 1605111436:0;pac rust_an
+: 1605111440:0;pac rust_
+: 1605111445:0;pac rust
+: 1605111456:0;pac rust-analyzer
+: 1605111550:0;v test.rs
+: 1605111577:0;lrc
+: 1605111631:0;v test.rs
+: 1605111649:0;lrc
+: 1605111713:0;v test.rs
+: 1605111807:0;cargo
+: 1605111825:0;cargo new first\
+
+: 1605111827:0;la
+: 1605111832:0;cd first
+: 1605111833:0;la
+: 1605111838:0;cd src
+: 1605111839:0;la
+: 1605111840:0;v main.rs
+: 1605111850:0;la
+: 1605111851:0;..
+: 1605111851:0;la
+: 1605111855:0;cd src
+: 1605111857:0;v main.rs
+: 1605116759:0;pkill pulseaudio
+: 1605121665:0;youtube-music
+: 1605121671:0;bin
+: 1605121674:0;v startup.sh
+: 1605121783:0;sh startup.sh
+: 1605121793:0;bin
+: 1605121794:0;v startup.sh
+: 1605121811:0;sh startup.sh
+: 1605121820:0;bin
+: 1605121822:0;v startup.sh
+: 1605121854:0;bin
+: 1605121856:0;v startup.sh
+: 1605121883:0;bin
+: 1605121885:0;v startup.sh
+: 1605122094:0;-msg 'exec --no-startup-id xterm -name ws1'
+: 1605122099:0;i3-msg 'exec --no-startup-id xterm -name ws1'
+: 1605122110:0;i3-msg 'exec --no-startup-id youtube-music -name ws1'
+: 1605122117:0;i3-msg 'exec --no-startup-id alarcitty -name ws1'
+: 1605122134:0;i3-msg 'exec alarcitty -name ws1'
+: 1605122946:0;mock
+: 1605122948:0;mocp
+: 1605123725:0;dl https://gogo-stream.com/download?id=Mzc5ODA=&title=Strike+the+Blood+episode+3&typesub=SUB&refer=https://www9.gogoanimehub.tv/
+: 1605123732:0;dl 'https://gogo-stream.com/download?id=Mzc5ODA=&title=Strike+the+Blood+episode+3&typesub=SUB&refer=https://www9.gogoanimehub.tv/'
+: 1605123830:0;dl https://www9.gogoanimehub.tv/strike-blood-episode-3#
+: 1605123857:0;dl https://www9.gogoanimehub.tv/strike-blood-episode-3
+: 1605125064:0;dow
+: 1605125064:0;la
+: 1605126044:0;mv EP.1.360p\ \(1\).mp4 EP.1.360p\ \(1\).mp4
+: 1605126046:0;la
+: 1605126056:0;ranger
+: 1605126071:0;dow
+: 1605126075:0;la
+: 1605126087:0;ranger
+: 1605126094:0;pac ranger
+: 1605126102:0;pacr ranger
+: 1605126108:0;pac ranger
+: 1605126111:0;ranger
+: 1605126172:0;pac vcl
+: 1605126178:0;pac vlc
+: 1605126225:0;ranger
+: 1605126231:0;sudo locale-gen
+: 1605126235:0;ranger
+: 1605126240:0;update
+: 1605126264:0;vlc EP.1.360p\ \(1\).mp4
+: 1605129108:0;betterlockscreen -s  
+: 1605171110:0;update
+: 1605191004:0;temp_file=$(mktemp -t "temp-"$(date +'%Y%m%d@%H:%M:%S')"-XXXXXX")\
+ls $temp_file\
+while true; do\
+    cat /sys/class/thermal/thermal_zone*/temp | tr '\n' ' ' >> "$temp_file"\
+    printf "\n" >> $temp_file\
+    sleep 2\
+done\
+
+: 1605191016:0;temp
+: 1605191019:0;pac temp
+: 1605191052:0;PROMPT_COMMAND='PS1="$(get_cpu_temperature) \u@\h:\w\$ "'\
+
+: 1605191054:0;cd
+: 1605191057:0;PROMPT_COMMAND='PS1="$(get_cpu_temperature) \u@\h:\w\$ "'\
+
+: 1605191071:0;irc
+: 1605191140:0;cd dotfiles/polybar
+: 1605191142:0;v launch.sh
+: 1605191155:0;polybar
+: 1605191159:0;sh launch.sh
+: 1605191162:0;v launch.sh
+: 1605191172:0;pac polybar
+: 1605191263:0;sudo rm /var/lib/pacman/db.lck
+: 1605195204:0;oecho $((2 ** 4))\
+
+: 1605195205:0;echo $((2 ** 4))\
+
+: 1605195221:0;cat /sys/class/power_supply/BAT0/power_now\
+
+: 1605195241:0;echo - | awk "{printf \"%.1f\", \\
+$(( \\
+  $(cat /sys/class/power_supply/BAT1/current_now) * \\
+  $(cat /sys/class/power_supply/BAT1/voltage_now) \\
+)) / 1000000000000 }" ; echo " W "\
+
+: 1605195253:0;upower -d
+: 1605195261:0;htop
+: 1605195304:0;alias bat='upower -i /org/freedesktop/UPower/devices/battery_BAT0| grep -E "state|to\ full|percentage"'\
+
+: 1605195305:0;bat
+: 1605195364:0;pacman -S lm_sensors
+: 1605195367:0;sudo pacman -S lm_sensors
+: 1605195373:0;sensors
+: 1605196441:0;polybar
+: 1605196445:0;sh launch.sh
+: 1605196448:0;cd dotfiles/polybar
+: 1605196449:0;sh launch.sh
+: 1605196461:0;la
+: 1605196466:0;v config
+: 1605196585:0;sh launch.sh
+: 1605196608:0;v config
+: 1605196623:0;sh launch.sh
+: 1605196651:0;v 
+: 1605196654:0;v config
+: 1605196666:0;sh launch.sh
+: 1605196671:0;v config
+: 1605196701:0;sh launch.sh
+: 1605198153:0;sh ~/dotfiles/polybar/launch.sh
+: 1605201900:0;pkill polybar
+: 1605201912:0;bin
+: 1605201915:0;v startup.sh
+: 1605201944:0;vim
+: 1605201949:0;v
+: 1605206786:0;pac twitch
+: 1605207703:0;file
+: 1605207995:0;fise
+: 1605207997:0;file
+: 1605208128:0;la
+: 1605208237:0;sh ~/dotfiles/polybar/launch.sh
+: 1605208248:0;pkill polybar
+: 1605208249:0;al
+: 1605208426:0;la
+: 1605208437:0;rma .kite
+: 1605208439:0;la
+: 1605208443:0;rma hats
+: 1605208444:0;la
+: 1605208794:0;file
+: 1605209683:0;xset 
+: 1605209700:0;xset r rate 200 20
+: 1605209777:0;file
+: 1605209848:0;dow
+: 1605209857:0;pac mvp
+: 1605209863:0;file
+: 1605209875:0;mpv EP.1.360p\ \(1\).mp4
+: 1605209882:0;zsh
+: 1605209902:0;so
+: 1605209907:0;zsh
+: 1605209919:0;so
+: 1605209925:0;vid EP.1.360p\ \(1\).mp4
+: 1605212251:0;pac
+: 1605212254:0;pac plover
+: 1605212695:0;file
+: 1605213105:0; with with with with with with with
+: 1605213138:0;pkill plover
+: 1605213602:0;file
+: 1605213625:0;dow
+: 1605213985:0;vid EP.2.720p.mp4
+: 1605219485:0;pac arduino
+: 1605219726:0;arduino --upload
+: 1605219741:0;arduino --help
+: 1605219753:0;arduino -w
+: 1605219974:0;arduino -w EP.1.360p\ \(1\).mp4
+: 1605219997:0;man arduino
+: 1605220015:0;arduino --upload 
+: 1605220021:0;dow
+: 1605220021:0;la
+: 1605220027:0;arduino 
+: 1605220041:0;la
+: 1605220058:0;arduino 
+: 1605220077:0;dow
+: 1605220078:0;la
+: 1605220082:0;cd cat
+: 1605220084:0;la
+: 1605220087:0;v cat.ino
+: 1605220100:0;arduino --upload  cat.ino
+: 1605220152:0;..
+: 1605220157:0;arduino --upload  cat
+: 1605220172:0;cd cat
+: 1605220172:0;la
+: 1605220277:0;arduino 
+: 1605220326:0;la
+: 1605220335:0;v test.ino
+: 1605220396:0;v blink.rs
+: 1605220404:0;rustc blink.rs
+: 1605220407:0;la
+: 1605220422:0;pac arm-none-eabi
+: 1605220438:0;pac teensy_loader_cli
+: 1605220450:0;teensy_loader_cli
+: 1605220453:0;pac teensy
+: 1605220480:0;teensy_loader_cli
+: 1605220481:0;so
+: 1605220497:0;la
+: 1605220583:0;cargo new first\
+
+: 1605220584:0;la
+: 1605220587:0;cd first
+: 1605220588:0;la
+: 1605220590:0;cd src
+: 1605220591:0;la
+: 1605220595:0;rustc main.rs
+: 1605220596:0;la
+: 1605220602:0;arduino -w main
+: 1605220621:0;arduino --upload main
+: 1605220666:0;pac libusb-dev
+: 1605220670:0;pac libusb
+: 1605220697:0;pac lib32-libusb lib32-libusb-compat
+: 1605220784:0;cd
+: 1605220787:0;arduino 
+: 1605221960:0;la
+: 1605221972:0;dow
+: 1605221973:0;la
+: 1605221986:0;cd sketch_nov12a
+: 1605221987:0;la
+: 1605222123:0;cd /lib/udev/rules.d
+: 1605222124:0;la
+: 1605222137:0;sudo nvim 49-teensy.rules
+: 1605222196:0;teeny_loader-cli
+: 1605222201:0;teeny_loader_cli
+: 1605222238:0;pac teensy
+: 1605222254:0;man teeny-loader-cli
+: 1605222267:0;pac teensy
+: 1605222512:0;teeny_loader_cli
+: 1605222521:0;teeny-loader-cli
+: 1605222523:0;pac teensy
+: 1605222562:0;la
+: 1605222565:0;pac teensy
+: 1605222712:0;sudo rm /var/lib/pacman/db.lck
+: 1605222735:0;arduino 
+: 1605222745:0;teensy-loader
+: 1605222761:0;teensy-loader-cli
+: 1605222765:0;teensy-loader-cli -w
+: 1605222834:0;cd code
+: 1605222839:0;mk teensy
+: 1605222841:0;cd teensy
+: 1605222842:0;la
+: 1605222846:0;v test.ino
+: 1605222871:0;teensy-loader-cli -w
+: 1605222873:0;teensy-loader-cli -w test.ino
+: 1605222894:0;teensy-loader-cli -w --list-mcus test.ino
+: 1605222907:0;teensy-loader-cli -r  test.ino
+: 1605222920:0;teensy-loader-cli -w  test.ino
+: 1605222922:0;la
+: 1605223008:0;gcc test.ino
+: 1605223012:0;gcc test.ino -o hello
+: 1605223013:0;la
+: 1605223023:0;mv test.ino test.c
+: 1605223028:0;gcc test.c -o hello
+: 1605223030:0;la
+: 1605223061:0;pac Teensyduino
+: 1605223117:0;pacr arduino-builder
+: 1605223121:0;pac Teensyduino
+: 1605223162:0;teensy-loader
+: 1605223176:0;so
+: 1605223202:0;teensy-loader-cli
+: 1605223206:0;teensy-loader-cli test.c
+: 1605223210:0;teensy-loader-cli test.c -w
+: 1605223237:0;power
+: 1605251048:0;teensy-loader
+: 1605251113:0;teensy-loader-cli
+: 1605251118:0;pac Teensyduino
+: 1605251131:0;teensy-loader-cli
+: 1605251135:0;teensy-loader-cli -w
+: 1605251137:0;teensy-loader-cli -w Arduino
+: 1605251173:0;pac arduino
+: 1605251180:0;arduino 
+: 1605251992:0;cd code
+: 1605251994:0;mk c
+: 1605251995:0;cd c
+: 1605251996:0;la
+: 1605251999:0;v test.c
+: 1605252076:0;lrc
+: 1605252082:0;v test.c
+: 1605252216:0;gcc test.c
+: 1605252261:0;la
+: 1605252268:0;v test.c
+: 1605252321:0;gcc test.c
+: 1605252323:0;la
+: 1605252328:0;./a.out
+: 1605252331:0;v test.c
+: 1605252414:0;gcc test.c
+: 1605252416:0;./a.out
+: 1605252419:0;v test.c
+: 1605252428:0;gcc test.c
+: 1605252430:0;./a.out
+: 1605252431:0;la
+: 1605252433:0;v test.c
+: 1605252449:0;gcc test.c
+: 1605252452:0;./a.out
+: 1605252462:0;v test.c
+: 1605252841:0;v a.out
+: 1605252928:0;v test.c
+: 1605253800:0;gcc test.c
+: 1605253803:0;./a.out
+: 1605253805:0;v test.c
+: 1605254017:0;arduino 
+: 1605254081:0;mk teensy
+: 1605254082:0;la
+: 1605254084:0;cd teensy
+: 1605254090:0;v test.c
+: 1605254103:0;arduino 
+: 1605254144:0;v test.c
+: 1605254149:0;arduino 
+: 1605254161:0;cd code/c/teensy
+: 1605254162:0;v test.c
+: 1605254169:0;gcc test.c
+: 1605254378:0;pac arduino-cli
+: 1605254389:0;arduino-cli compile
+: 1605254391:0;la
+: 1605254395:0;arduino-cli compile test.c
+: 1605254409:0;mv test.c test.ino
+: 1605254412:0;arduino-cli compile 
+: 1605254433:0;mv test.ino teensy.ino
+: 1605254434:0;la
+: 1605254439:0;arduino-cli compile 
+: 1605254464:0;arduino-cli -h
+: 1605254515:0;pac teensy
+: 1605254558:0;teensy-loader -h
+: 1605254564:0;pac teensy
+: 1605254664:0;pac teensy_loader_cli
+: 1605254667:0;pac teensy_loader
+: 1605254670:0;pac teensy-loader
+: 1605254687:0;pacr arduino
+: 1605254695:0;pac teensy-loader
+: 1605254735:0;cd Desktop\
+sudo cp 49-teensy.rules /etc/udev/rules.d/\
+tar -xvzf teensy_linux64.tar.gz\
+./teensy &
+: 1605254785:0;pac libusb
+: 1605254791:0;pac libusb-dev
+: 1605254794:0;pac libusb-
+: 1605254930:0;pacr teensy
+: 1605254938:0;pac teensy
+: 1605254948:0;pacr teensy-loader-cli
+: 1605254957:0;pacr tytools
+: 1605254965:0;pac teensy
+: 1605254982:0;teensy-loader
+: 1605254986:0;teensy-loader --help
+: 1605255001:0;man teensy-loader
+: 1605255013:0;pac teensy
+: 1605255025:0;pacr teensy-loader
+: 1605255038:0;teensy-loader-cli
+: 1605255045:0;cd code/c/teensy
+: 1605255045:0;la
+: 1605255052:0;teensy-loader-cli -w teensy.ino
+: 1605255069:0;teensy-loader-cli --mcu -w teensy.ino
+: 1605255124:0;la
+: 1605255130:0;mv teensy.ino test.c
+: 1605255130:0;la
+: 1605255133:0;gcc test.c
+: 1605255135:0;la
+: 1605255262:0;pac gcc-avr binutils-avr avr-libc
+: 1605255288:0;gcc-ar test.c
+: 1605255290:0;la
+: 1605255294:0;gcc-ar test.c
+: 1605255298:0;gcc-ar test.ino
+: 1605255366:0;cd
+: 1605255367:0;cd dow
+: 1605255368:0;dow
+: 1605255369:0;la
+: 1605255376:0;unzip blinky.zip
+: 1605255377:0;la
+: 1605255381:0;cd blinky
+: 1605255381:0;la
+: 1605255393:0;make
+: 1605255396:0;l
+: 1605255397:0;la
+: 1605255401:0;gcc blinky.c
+: 1605255408:0;gcc-ar blinky.c
+: 1605255499:0;pac teensyduino
+: 1605255548:0;teensy-loader-cli
+: 1605255565:0;teensy-loader-cli blinky.c
+: 1605255610:0;teensy-loader-cli --mcu=ATmega32u4
+: 1605255612:0;teensy-loader-cli --mcu=ATmega32u4 blinky.c
+: 1605255619:0;la
+: 1605255626:0;teensy-loader-cli --mcu=ATmega32u4 blinky.c -w
+: 1605255630:0;teensy-loader-cli --mcu=ATmega32u4 -w blinky.c
+: 1605255648:0;la
+: 1605255670:0;teensy-loader-cli --mcu -w teensy.ino
+: 1605255687:0;teensy-loader-cli --mcu=atmega32u4
+: 1605255695:0;teensy-loader-cli --mcu=atmega32u4 -h
+: 1605255698:0;teensy-loader-cli --mcu=atmega32u4 -w
+: 1605255703:0;teensy-loader-cli --mcu=atmega32u4 -w blinky.c
+: 1605255946:0;make 
+: 1605255954:0;la
+: 1605255966:0;rm blinky.lst Makefile blinky.o print.h usb_debug_only.h usb_debug_only.c print.c
+: 1605255968:0;make
+: 1605255975:0;gcc blinky.c
+: 1605255980:0;v blinky.c
+: 1605256002:0;gcc blinky.c
+: 1605256005:0;v blinky.c
+: 1605256013:0;gcc blinky.c
+: 1605256066:0;pac sdcc
+: 1605256082:0;sdcc blinky.c
+: 1605256083:0;la
+: 1605256089:0;rma .dep
+: 1605256090:0;la
+: 1605256093:0;sdcc blinky.c
+: 1605256108:0;sdcc
+: 1605256110:0;sdcc -h
+: 1605256151:0;pac arv
+: 1605256155:0;pac avr
+: 1605256174:0;gcc-ar blinky.c
+: 1605256188:0;pacr gcc-ar
+: 1605256191:0;pacr arv
+: 1605256216:0;arduino
+: 1605259291:0;dow
+: 1605259291:0;la
+: 1605259295:0;cd keybord
+: 1605259296:0;la
+: 1605259298:0;v keybord.ino
+: 1605260258:0;la
+: 1605260263:0;gcc-ar keybord.ino
+: 1605260274:0;gcc-ar -- keybord.ino
+: 1605260354:0;la
+: 1605260360:0;arduino
+: 1605261134:0;la
+: 1605261139:0;gcc keybord.ino
+: 1605261143:0;gcc-nm keybord.ino
+: 1605261148:0;gcc-ranlib keybord.ino
+: 1605261154:0;gcc-ar keybord.ino
+: 1605261183:0;arduino-cli keybord.ino
+: 1605261286:0;npm i -g ano
+: 1605261416:0;easy_install ino\
+
+: 1605261446:0;vpl
+: 1605261490:0;v keybord.ino
+: 1605261613:0;yay -S arduino-mk\
+
+: 1605261766:0;pac gcc
+: 1605261775:0;pac gcc-arv
+: 1605261777:0;pac gcc-avr
+: 1605261892:0;la
+: 1605261898:0;cd code/c/teensy
+: 1605261902:0;gcc test.c test.c
+: 1605261903:0;la
+: 1605261909:0;mv test.c test.ino
+: 1605261910:0;la
+: 1605261911:0;v test.ino
+: 1605261948:0;gcc test.ino
+: 1605262004:0;gcc-ar test.ino
+: 1605262016:0;arduino-cli test.ino
+: 1605262024:0;arduino-cli 
+: 1605262034:0;arduino-cli compile test.ino
+: 1605262044:0;mv test.ino teensy.ino
+: 1605262048:0;arduino-cli compile 
+: 1605262052:0;la
+: 1605265049:0;arduino-cli --help
+: 1605265082:0;man arduino-cli
+: 1605265087:0;man arduino
+: 1605265090:0;arduino
+: 1605265130:0;arduino-cli help core
+: 1605265140:0;arduino-cli config init
+: 1605265150:0;arduino-cli sketch new MyFirstSketch
+: 1605265154:0;la
+: 1605265157:0;cd MyFirstSketch
+: 1605265158:0;la
+: 1605265160:0;v MyFirstSketch.ino
+: 1605265411:0;vrc
+: 1605265418:0;v MyFirstSketch.ino
+: 1605265427:0;xset r rate 200 20
+: 1605265430:0;v MyFirstSketch.ino
+: 1605265569:0;arduino-cli core update-index
+: 1605265572:0;la
+: 1605265580:0;arduino-cli board list
+: 1605265592:0;arduino-cli core install arduino:samd
+: 1605265941:0;arduino-cli board list
+: 1605265998:0;sudo arduino-cli board list
+: 1605266010:0;arduino-cli board list
+: 1605266014:0;sudo arduino-cli board list
+: 1605266024:0;arduino-cli core update-index
+: 1605266029:0;arduino-cli board list
+: 1605266125:0;arduino-cli board listall mkr
+: 1605266130:0;arduino-cli board list
+: 1605266145:0;aarduino-cli board list
+: 1605266146:0;arduino-cli board list
+: 1605266248:0;pac winarv
+: 1605266251:0;pac winavra
+: 1605266253:0;pac winavr
+: 1605266361:0;teensy-loader-cli a
+: 1605266368:0;teensy-loader-cli -w
+: 1605266372:0;teensy-loader-cli -w MyFirstSketch.ino
+: 1605266444:0;teensy-loader-cli --mcu=ATmega32u4 -w MyFirstSketch.ino
+: 1605266455:0;to test.hex
+: 1605266459:0;teensy-loader-cli --mcu=ATmega32u4 -w test.hex
+: 1605266475:0;la
+: 1605270699:0;teensy-loader-cli --mcu=ATmega32u4 -w test.hex
+: 1605270736:0;not
+: 1605270739:0;la
+: 1605270743:0;mk c
+: 1605270748:0;v topics.md
+: 1605272234:0;la
+: 1605272291:0;teensy-loader-cli --help
+: 1605273053:0;la
+: 1605273058:0;arduino-cli board list
+: 1605273064:0;arduino-cli compile 
+: 1605273072:0;arduino-cli compile FQBN
+: 1605273117:0;arduino-cli compile FQBN ATMEGA32U4
+: 1605273154:0;arduino-cli board list
+: 1605273190:0;pac arduino
+: 1605273215:0;arduino-b
+: 1605273241:0;arduino-cli compile test.hex
+: 1605273244:0;arduino-cli compile MyFirstSketch.ino
+: 1605273259:0;git clone https://github.com/arduino/arduino-builder.git
+: 1605273265:0;cd arduino-builder
+: 1605273270:0;go build
+: 1605273351:0;arduino-cli board list
+: 1605273367:0;./arduino-builder -version
+: 1605273374:0;d
+: 1605273376:0;..
+: 1605273380:0;arduino-builder
+: 1605273384:0;arduino-builder --help
+: 1605273389:0;..
+: 1605273393:0;arduino-builder
+: 1605273394:0;la
+: 1605273399:0;cd
+: 1605273406:0;cd MyFirstSketch
+: 1605273413:0;rma arduino-builder 
+: 1605273419:0;arduino-builder
+: 1605273423:0;la
+: 1605273529:0;arduino MyFirstSketch.ino
+: 1605273570:0;cd MyFirstSketch
+: 1605273570:0;la
+: 1605273594:0;mv MyFirstSketch.ino.TEENSY2.hex MyFirstSketch.hex
+: 1605273595:0;la
+: 1605273609:0;teensy-loader-cli --mcu=ATmega32u4 -w MyFirstSketch.hex
+: 1605273629:0;la
+: 1605273647:0;teensy-loader-cli --mcu=ATmega32u4 -w MyFirstSketch.ino.TEENSY2.hex
+: 1605273668:0;teensy-loader-cli --mcu=ATmega32u4 -r MyFirstSketch.ino.TEENSY2.hex
+: 1605273681:0;teensy-loader-cli 
+: 1605273890:0;la
+: 1605273893:0;v MyFirstSketch.ino
+: 1605275248:0;la
+: 1605275253:0;rm *.hex
+: 1605275254:0;la
+: 1605275571:0;v makefile
+: 1605275599:0;la
+: 1605275599:0;..
+: 1605275614:0;mv MyFirstSketch ~/code/c/test
+: 1605275619:0;cd code/c
+: 1605275620:0;la
+: 1605275622:0;cd test
+: 1605275623:0;la
+: 1605275629:0;mv MyFirstSketch.ino test.ino
+: 1605275630:0;la
+: 1605275634:0;v test.ino
+: 1605275638:0;v makefile
+: 1605275652:0;la
+: 1605275664:0;.cd
+: 1605275665:0;cd
+: 1605275730:0;cd code/c/test
+: 1605275731:0;la
+: 1605275741:0;g++ test.ino
+: 1605275753:0;gcc test.ino
+: 1605275941:0;make
+: 1605275947:0;v makefile
+: 1605276074:0;make
+: 1605276082:0;v test.ino
+: 1605276086:0;v makefile
+: 1605276231:0;gcc -c test.ino 
+: 1605276232:0;la
+: 1605276241:0;gcc -c test.ino 
+: 1605276293:0;gcc -c test.ino gcc -c example.c\
+
+: 1605276294:0;gcc -c example.c\
+
+: 1605276300:0;to example.c
+: 1605276301:0;gcc -c example.c\
+
+: 1605276302:0;la
+: 1605276307:0;v example.o
+: 1605276316:0;objcopy --change-address 0xE0000 -O ihex example.o example.hex
+: 1605276317:0;lla
+: 1605276318:0;la
+: 1605276324:0;objcopy --change-address 0xE0000 -O ihex example.o example.hex
+: 1605277345:0;la
+: 1605277392:0;v test.ino
+: 1605278383:0;avrdude
+: 1605278397:0;avrdude test.ino a
+: 1605278399:0;avrdude test.ino
+: 1605278433:0;avr-gcc test.ino
+: 1605278441:0;avr-gcc --help
+: 1605278803:0;avr-gcc -o test.ino
+: 1605278807:0;la
+: 1605278817:0;avr-gcc -i test.ino test.hexa
+: 1605278853:0;avr-gcc test.ino -o test.hex
+: 1605278858:0;la
+: 1605278864:0;v test.ino
+: 1605278957:0;la
+: 1605278966:0;mv test.ino test.c
+: 1605278966:0;la
+: 1605278968:0;v test.c
+: 1605278985:0;avr-gcc test.ino -o test.hex
+: 1605278992:0;avr-gcc test.c
+: 1605279345:0;v test.c
+: 1605279367:0;gcc test.c
+: 1605279511:0;v makefile
+: 1605279806:0;make
+: 1605279810:0;v makefile
+: 1605279843:0;avr-gcc -Wall -Os test.c
+: 1605279849:0;v test.c
+: 1605279878:0;avr-gcc -Wall -Os test.c
+: 1605279879:0;la
+: 1605279884:0;rm example.c example.o
+: 1605279885:0;la
+: 1605279893:0;avr-gcc test.c
+: 1605279902:0;lla
+: 1605279903:0;la
+: 1605280001:0;v test.c
+: 1605280281:0;avr-gcc -help
+: 1605280283:0;avr-gcc -h
+: 1605280286:0;avr-gcc --help
+: 1605280484:0; -mmcu=atmega328p
+: 1605280499:0;avr-gcc -mmcu=atmega32u4 test.c
+: 1605280502:0;v test.c
+: 1605280508:0;avr-gcc -mmcu=atmega32u4 test.c
+: 1605280511:0;la
+: 1605280516:0;v test.c
+: 1605280521:0;avr-gcc -mmcu=atmega32u4 test.c
+: 1605280539:0;v test.c
+: 1605280548:0;avr-gcc -mmcu=atmega32u4 test.c
+: 1605280549:0;la
+: 1605280554:0;lla
+: 1605280555:0;ll
+: 1605280560:0;v a.out
+: 1605280576:0;la
+: 1605283502:0;avr-gcc test.c
+: 1605283507:0;v test.c
+: 1605283514:0;avr-gcc test.c
+: 1605283533:0;avr-gcc -Wcpp test.c
+: 1605283544:0;avr-gcc --help
+: 1605283675:0;gcc -c test.c
+: 1605283678:0;la
+: 1605283712:0;avr-gcc --help
+: 1605284112:0;gcc test.c test.c
+: 1605284113:0;la
+: 1605284123:0;avr-gcc test.c
+: 1605284128:0;man avr-gcc
+: 1605284229:0;avr-gcc -std=c11 -mmcu=atmega32u4 -O -o test.hex test.c\
+
+: 1605284231:0;la
+: 1605284234:0;rm a.out
+: 1605284235:0;la
+: 1605284237:0;avr-gcc -std=c11 -mmcu=atmega32u4 -O -o test.hex test.c\
+
+: 1605284277:0;la
+: 1605284279:0;v test.c
+: 1605284287:0;avr-gcc test.c
+: 1605284295:0;avr-gcc -std=c11 -mmcu=atmega32u4 -O -o test.hex test.c\
+
+: 1605284296:0;la
+: 1605284300:0;v test.hex
+: 1605284302:0;la
+: 1605284307:0;v test.c
+: 1605284318:0;avr-gcc -std=c11 -mmcu=atmega32u4 -O -o test.hex test.c\
+
+: 1605284353:0;avr-gcc -mmcu=atmega32u4\
+
+: 1605284360:0;avr-gcc --help
+: 1605284381:0;la
+: 1605284395:0;avr-gcc -mmcu=atmega32u4 test.c\
+
+: 1605284398:0;v test.c
+: 1605284403:0;avr-gcc -mmcu=atmega32u4 test.c\
+
+: 1605284414:0;pac ld
+: 1605284421:0;la
+: 1605284604:0;v test.c
+: 1605290953:0;v makefile
+: 1605291250:0;make
+: 1605291316:0;la
+: 1605291320:0;rm test.hex
+: 1605291323:0;make
+: 1605291465:0;v makefile
+: 1605291532:0;avr-gcc -Wall -O2 -I. -mmcu=atmega32u4
+: 1605291537:0;avr-gcc -Wall -O2 -I. -mmcu=atmega32u4 test.c
+: 1605291539:0;la
+: 1605291548:0;v test.c
+: 1605291553:0;avr-gcc -Wall -O2 -I. -mmcu=atmega32u4 test.c
+: 1605291557:0;la
+: 1605291559:0;v test.c
+: 1605291565:0;avr-gcc -Wall -O2 -I. -mmcu=atmega32u4 test.c
+: 1605291570:0;v test.c
+: 1605291580:0;avr-gcc -Wall -O2 -I. -mmcu=atmega32u4 test.c
+: 1605291582:0;la
+: 1605291591:0;v test.c
+: 1605291605:0;avr-gcc -Wall -O2 -I. -mmcu=atmega32u4 test.c
+: 1605291697:0;v test.c
+: 1605291714:0;gcc test.c
+: 1605291724:0;avr-gcc test.c
+: 1605291729:0;la
+: 1605291734:0;avr-gcc -Wall -O2 -I. -mmcu=atmega32u4 test.c
+: 1605291831:0;v test.c
+: 1605291836:0;avr-gcc -Wall -O2 -I. -mmcu=atmega32u4 test.c
+: 1605291839:0;v test.c
+: 1605291844:0;avr-gcc -Wall -O2 -I. -mmcu=atmega32u4 test.c
+: 1605291848:0;gcc test.c
+: 1605291880:0;rm a.out
+: 1605291882:0;v test.c
+: 1605291940:0;mv test.c test.ino
+: 1605291958:0;v test.c
+: 1605291962:0;v test.ino
+: 1605291965:0;rm test.c
+: 1605291967:0;v test.ino
+: 1605292131:0;screenkey
+: 1605292253:0;cd code/c/test
+: 1605292257:0;v test.ino
+: 1605292321:0;arduino-cli board list
+: 1605292359:0;sudo arduino-cli board list
+: 1605292375:0;pac arduino
+: 1605292413:0;v test.ino
+: 1605292415:0;la
+: 1605292418:0;cd code/c/test
+: 1605292420:0;v test.ino
+: 1605293178:0;systemd-analyze
+: 1605293192:0;systemd-analyze blame
+: 1605293308:0;systemctl disable NetworkManager-wait-online.service\
+\
+
+: 1605293315:0;systemd-analyze blame
+: 1605293326:0;systemctl mask NetworkManager-wait-online.service\
+\
+
+: 1605293330:0;systemd-analyze blame
+: 1605293345:0;la
+: 1605293348:0;arduino-cli board list
+: 1605293351:0;la
+: 1605293396:0;arduino-cli board list
+: 1605293551:0;cd code/c/test
+: 1605293552:0;v test.ino
+: 1605294867:0;la
+: 1605295053:0;..
+: 1605295054:0;la
+: 1605295067:0;mk ergo-board
+: 1605295070:0;cd ergo-board
+: 1605295070:0;la
+: 1605295079:0;mk layout
+: 1605295081:0;cd layout
+: 1605295085:0;dow
+: 1605295137:0;rma blink.rs blinky blinky.zip cat EP.1.360p\ \(1\).mp4 EP.1.360p.mp4.crdownload EP.2.720p.mp4 first EP.3.360p.mp4 keybord libusb-1.0.23.tar.bz2 MinecraftInstaller\(1\).msi MinecraftInstaller.msi mongodb-linux-x86_64-4.0.20 mongodb-linux-x86_64-4.0.20.tgz planck_ez_dvorak-layout_qnLDA_0LZj6.bin planck_ez_dvorak-layout_qnLDA_3we0G.bin planck_ez_dvorak-layout_qnLDA_3wEmz.bin planck_ez_dvorak-layout_qnLDA_6w7wR.bin planck_ez_dvorak-layout_qnLDA_aP9lb.bin planck_ez_dvorak-layout_qnLDA_DNBwK.bin planck_ez_dvorak-layout_qnLDA_qYMxA.bin planck_ez_dvorak-layout_qnLDA_RWo76.bin planck_ez_dvorak-layout_qnLDA_wxroJ.bin planck_ez_dvorak-layout_qnLDA_y9nMd.bin planck_ez_dvorak-layout_qnLDA_y9nZl.bin sketch_nov12a TeensyduinoInstall.linux64 TeensyRawHID.zip test.ino
+: 1605295139:0;la
+: 1605295153:0;mv keyboard-layout.jpg ~/code/ergo-board/layout
+: 1605295162:0;mv keyboard-layout.json ~/code/ergo-board/layout
+: 1605295164:0;-
+: 1605295165:0;la
+: 1605295179:0;mv keyboard-layout.jpg template.jpg
+: 1605295180:0;la
+: 1605295191:0;mv keyboard-layout.json template.json
+: 1605295191:0;la
+: 1605295194:0;mk json
+: 1605295195:0;la
+: 1605295198:0;mv template.json json
+: 1605295198:0;la
+: 1605295512:0;dow
+: 1605295512:0;la
+: 1605295518:0;mv keyboard-layout.jpg ~/code/ergo-board/layout
+: 1605295521:0;mv keyboard-layout.json ~/code/ergo-board/layout
+: 1605295522:0;-
+: 1605295523:0;la
+: 1605295532:0;mv keyboard-layout.jpg on-tap.jpg
+: 1605295533:0;la
+: 1605295540:0;mv keyboard-layout.json on-tap.json
+: 1605295541:0;la
+: 1605295545:0;mv on-tap.json json
+: 1605295545:0;la
+: 1605297796:0;..
+: 1605297798:0;git init
+: 1605297896:0;git remote add origin git@github.com:banana-llarma/ergo-board.git\
+git branch -M main\
+git push -u origin main\
+
+: 1605297897:0;la
+: 1605297902:0;git remote add origin git@github.com:banana-llarma/ergo-board.git\
+git branch -M main\
+git push -u origin main\
+
+: 1605297907:0;git remote add origin git@github.com:banana-llarma/ergo-board.git\
+
+: 1605297910:0;la
+: 1605297915:0;git branch -M main\
+
+: 1605297918:0;git add -A
+: 1605297919:0;la
+: 1605297923:0;push
+: 1605297929:0;git push -u origin main
+: 1605297944:0;commit 'first commit'
+: 1605297949:0;git push -u origin main
+: 1605297956:0;git status
+: 1605297958:0;la
+: 1605297967:0;commit 'first commit'
+: 1605297971:0;push
+: 1605297977:0;    git push --set-upstream origin master\
+
+: 1605298020:0;v readme.md
+: 1605298098:0;commit 'second commit' && push
+: 1605298117:0;v readme.md
+: 1605298153:0;commit 'third commit' && push
+: 1605298174:0;mk src
+: 1605298176:0;cd src
+: 1605298176:0;la
+: 1605298204:0;cd code/c/test
+: 1605298204:0;la
+: 1605298206:0;v ergo-bord.ino
+: 1605298211:0;v test.ino
+: 1605298330:0;dow
+: 1605298330:0;la
+: 1605299214:0;dow
+: 1605299230:0;vid EP.3.360p.mp4
+: 1605300616:0;vid EP.4.360p.mp4
+: 1605303299:0;arduino-cli board list
+: 1605303365:0;cat /etc/services
+: 1605303373:0;cat /etc/services | fzf
+: 1605303389:0;netstat -lntu
+: 1605303393:0;pac netstat
+: 1605303406:0;la
+: 1605303410:0;netstat -lntu
+: 1605303439:0;dmesg
+: 1605303448:0;sudo cat /proc/tty/driver/serial
+: 1605303507:0;arduino-cli board list
+: 1605303540:0;teensy-loader-cli 
+: 1605303554:0;teensy-loader-cli -v
+: 1605303557:0;teensy-loader-cli -v EP.10.720p.mp4
+: 1605303719:0;arduino-cli board list
+: 1605303731:0;sudo arduino-cli board list
+: 1605304528:0;/usr/share/arduino/arduino-builder -dump-prefs -logger=machine -hardware /usr/share/arduino/hardware -hardware /home/malachi/.arduino15/packages -tools /usr/share/arduino/tools-builder -tools /usr/share/arduino/hardware/tools/avr -tools /home/malachi/.arduino15/packages -built-in-libraries /usr/share/arduino/libraries -libraries /home/malachi/Arduino/libraries -fqbn=teensy:avr:teensy2:usb=hid,speed=16,keys=en-us -ide-version=10813 -build-path /tmp/arduino_build_50103 -warnings=all -build-cache /tmp/arduino_cache_374325 -verbose /home/malachi/code/c/test/test.ino
+: 1605304549:0;/usr/share/arduino/arduino-builder -compile -logger=machine -hardware /usr/share/arduino/hardware -hardware /home/malachi/.arduino15/packages -tools /usr/share/arduino/tools-builder -tools /usr/share/arduino/hardware/tools/avr -tools /home/malachi/.arduino15/packages -built-in-libraries /usr/share/arduino/libraries -libraries /home/malachi/Arduino/libraries -fqbn=teensy:avr:teensy2:usb=hid,speed=16,keys=en-us -ide-version=10813 -build-path /tmp/arduino_build_50103 -warnings=all -build-cache /tmp/arduino_cache_374325 -verbose /home/malachi/code/c/test/test.ino
+: 1605304553:0;la
+: 1605304565:0;vim 
+: 1605304577:0;v
+: 1605306821:0;betterlockscreen -s  
+: 1605344292:0;cd code/ergo-board/src
+: 1605344293:0;la
+: 1605344294:0;v 
+: 1605344296:0;v ergo-bord.ino
+: 1605344346:0;la
+: 1605344349:0;cd ergo-bord
+: 1605344350:0;la
+: 1605344352:0;..
+: 1605344353:0;la
+: 1605344398:0;rm ergo-bord
+: 1605344400:0;rm ergo-bord.ino
+: 1605344401:0;la
+: 1605344404:0;v ergo-bord/ergo-bord.ino
+: 1605346418:0;vrc
+: 1605346424:0;v ergo-bord/ergo-bord.ino
+: 1605352121:0;plover
+: 1605352151:0;vim
+: 1605352228:0;plover
+: 1605368154:0;la
+: 1605368156:0;..
+: 1605368157:0;la
+: 1605368185:0;v readme.md
+: 1605372717:0;cd code/ergo-board/src
+: 1605372717:0;la
+: 1605372719:0;cd ergo-bord
+: 1605372720:0;la
+: 1605372722:0;v readme.md
+: 1605372728:0;rm readme.md
+: 1605372730:0;v ergo-bord.ino
+: 1605372760:0;v test.h
+: 1605372946:0;v ergo-bord.ino
+: 1605372981:0;mv test.h test.c
+: 1605372982:0;v ergo-bord.ino
+: 1605373010:0;la
+: 1605373042:0;v ergo-bord.ino
+: 1605373272:0;mv ergo-bord.ino ergo-bord.c
+: 1605373279:0;avr-gcc ergo-bord.c
+: 1605376087:0;v ergo-bord.c
+: 1605376102:0;avr-gcc ergo-bord.c
+: 1605376128:0;v ergo-bord.c
+: 1605376160:0;rm test.c
+: 1605376187:0;avrdude 
+: 1605376190:0;avrdude  ergo-bord.c
+: 1605376208:0;avrdude -c c ergo-bord.c
+: 1605376210:0;la
+: 1605376222:0;avrdude -c arduino ergo-bord.c
+: 1605376223:0;la
+: 1605376245:0;avrdude -c atmega32u4 ergo-bord.c
+: 1605376257:0;arduino-cli board list
+: 1605376344:0;arduino-cli compile ergo-bord.c
+: 1605376350:0;la
+: 1605376353:0;..
+: 1605376358:0;mv ergo-bord src
+: 1605376361:0;la
+: 1605376364:0;cd src
+: 1605376365:0;la
+: 1605376367:0;..
+: 1605376370:0;mv src .
+: 1605376371:0;la
+: 1605376376:0;mv src ../
+: 1605376382:0;mv src/* .
+: 1605376383:0;la
+: 1605376386:0;rma src
+: 1605376388:0;la
+: 1605376391:0;arduino-cli compile ergo-bord.c
+: 1605376411:0;mv ergo-bord.c src.ino
+: 1605376417:0;arduino-cli compile
+: 1605376419:0;la
+: 1605376431:0;arduino-cli completion
+: 1605376433:0;arduino-cli completion src.ino
+: 1605376435:0;la
+: 1605376438:0;arduino-cli completion src.ino
+: 1605376439:0;la
+: 1605376471:0;arduino-cli update
+: 1605376483:0;arduino-cli compile src.ino
+: 1605376492:0;arduino-cli board list
+: 1605376541:0;arduino-cli core update-index
+: 1605376555:0;arduino-cli core search teensy
+: 1605376557:0;la
+: 1605376559:0;arduino-cli core search
+: 1605376591:0;arduino-cli compile arduino:avr
+: 1605376593:0;la
+: 1605376600:0;arduino-cli compile --help
+: 1605376611:0;arduino-cli compile -b arduino:avr src.ino
+: 1605376615:0;la
+: 1605376629:0;arduino-cli core install arduino:avr
+: 1605376632:0;arduino-cli compile -b arduino:avr src.ino
+: 1605376641:0;arduino-cli core list\
+
+: 1605376649:0;arduino-cli board listall\
+
+: 1605376677:0;arduino-cli core search
+: 1605376834:0;cd 
+: 1605376839:0;cd .arduino15
+: 1605376839:0;la
+: 1605376856:0;fzf bords
+: 1605376858:0;fzf 
+: 1605376892:0;la
+: 1605376892:0;..
+: 1605376925:0;arduino-cli core search uno
+: 1605376928:0;arduino-cli core search
+: 1605376936:0;arduino-cli core search t
+: 1605376939:0;arduino-cli core search te
+: 1605376940:0;arduino-cli core search ten
+: 1605377023:0;arduino-cli core searcharduino-cli core list
+: 1605377024:0;arduino-cli core list
+: 1605377142:0;la
+: 1605377147:0;cd code/ergo-board
+: 1605377148:0;la
+: 1605377150:0;cd src
+: 1605377150:0;la
+: 1605377158:0;avr-gcc 
+: 1605377161:0;la
+: 1605377163:0;avr-gcc  src.ino
+: 1605377178:0;mv src.ino test.c
+: 1605377187:0;avr-gcc test.c
+: 1605377236:0;v ergo-bord.c
+: 1605377239:0;v test.c
+: 1605377245:0;avr-gcc test.c
+: 1605377249:0;v test.c
+: 1605377269:0;avr-gcc test.c
+: 1605377272:0;v test.c
+: 1605377276:0;avr-gcc test.c
+: 1605377304:0;make
+: 1605377305:0;la
+: 1605377308:0;rm ergo-bord.c
+: 1605377309:0;la
+: 1605377311:0;make
+: 1605377475:0;make all
+: 1605377482:0;v makefile
+: 1605377759:0;arm-none-eabi-gcc
+: 1605377761:0;la
+: 1605377764:0;arm-none-eabi-gcc test.c
+: 1605377767:0;la
+: 1605377772:0;v makefile
+: 1605377808:0;make CC
+: 1605377811:0;make
+: 1605377815:0;v test.c
+: 1605377828:0;v makefile
+: 1605377834:0;make
+: 1605377839:0;la
+: 1605377848:0;v makefile
+: 1605377852:0;make
+: 1605377853:0;la
+: 1605377894:0;v makefile
+: 1605377902:0;make
+: 1605377905:0;v makefile
+: 1605377924:0;make
+: 1605377927:0;v makefile
+: 1605377935:0;make
+: 1605377937:0;la
+: 1605377938:0;v makefile
+: 1605377948:0;make
+: 1605377950:0;v makefile
+: 1605377956:0;make
+: 1605377958:0;la
+: 1605377970:0;mv test.c src.c
+: 1605377972:0;make
+: 1605377974:0;l
+: 1605377975:0;la
+: 1605378089:0;arduino .
+: 1605378099:0;la
+: 1605378105:0;mv src.c src.ino
+: 1605378107:0;arduino .
+: 1605378189:0;/usr/share/arduino/arduino-builder -compile -logger=machine -hardware /usr/share/arduino/hardware -hardware /home/malachi/.arduino15/packages -tools /usr/share/arduino/tools-builder -tools /usr/share/arduino/hardware/tools/avr -tools /home/malachi/.arduino15/packages -built-in-libraries /usr/share/arduino/libraries -libraries /home/malachi/Arduino/libraries -fqbn=teensy:avr:teensy2:usb=serial,speed=16,keys=en-us -ide-version=10813 -build-path /tmp/arduino_build_686680 -warnings=all -build-cache /tmp/arduino_cache_318964 -verbose /home/malachi/code/ergo-board/src/src.ino
+: 1605378220:0;/usr/share/arduino/hardware/teensy/../tools/avr/bin/avr-g++ -E -CC -x c++ -w -g -Wall -ffunction-sections -fdata-sections -fno-exceptions -fpermissive -felide-constructors -std=gnu++11 -mmcu=atmega32u4 -DTEENSYDUINO=153 -DARDUINO_ARCH_AVR -DARDUINO=10813 -DARDUINO_TEENSY2 -DF_CPU=16000000L -DUSB_SERIAL -DLAYOUT_US_ENGLISH -I/usr/share/arduino/hardware/teensy/avr/cores/teensy /tmp/arduino_build_633770/sketch/sketch_nov14a.ino.cpp -o /dev/null -DARDUINO_LIB_DISCOVERY_PHASE
+: 1605378238:0;/usr/share/arduino/hardware/teensy/../tools/avr/bin/avr-g++ -c -Os -g -Wall -ffunction-sections -fdata-sections -MMD -fno-exceptions -fpermissive -felide-constructors -std=gnu++11 -mmcu=atmega32u4 -DTEENSYDUINO=153 -DARDUINO_ARCH_AVR -DARDUINO=10813 -DARDUINO_TEENSY2 -DF_CPU=16000000L -DUSB_SERIAL -DLAYOUT_US_ENGLISH -I/tmp/arduino_build_633770/pch -I/usr/share/arduino/hardware/teensy/avr/cores/teensy /tmp/arduino_build_633770/sketch/sketch_nov14a.ino.cpp -o /tmp/arduino_build_633770/sketch/sketch_nov14a.ino.cpp.o
+: 1605378262:0;/usr/share/arduino/arduino-builder -dump-prefs -logger=machine -hardware /usr/share/arduino/hardware -hardware /home/malachi/.arduino15/packages -tools /usr/share/arduino/tools-builder -tools /usr/share/arduino/hardware/tools/avr -tools /home/malachi/.arduino15/packages -built-in-libraries /usr/share/arduino/libraries -libraries /home/malachi/Arduino/libraries -fqbn=teensy:avr:teensy2:usb=serial,speed=16,keys=en-us -ide-version=10813 -build-path /tmp/arduino_build_633770 -warnings=all -build-cache /tmp/arduino_cache_318964 -verbose /tmp/untitled187168908.tmp/sketch_nov14a/sketch_nov14a.ino
+: 1605378267:0;/usr/share/arduino/arduino-builder -compile -logger=machine -hardware /usr/share/arduino/hardware -hardware /home/malachi/.arduino15/packages -tools /usr/share/arduino/tools-builder -tools /usr/share/arduino/hardware/tools/avr -tools /home/malachi/.arduino15/packages -built-in-libraries /usr/share/arduino/libraries -libraries /home/malachi/Arduino/libraries -fqbn=teensy:avr:teensy2:usb=serial,speed=16,keys=en-us -ide-version=10813 -build-path /tmp/arduino_build_633770 -warnings=all -build-cache /tmp/arduino_cache_318964 -verbose /tmp/untitled187168908.tmp/sketch_nov14a/sketch_nov14a.ino
+: 1605378269:0;la
+: 1605378273:0;/usr/share/arduino/arduino-builder -compile -logger=machine -hardware /usr/share/arduino/hardware -hardware /home/malachi/.arduino15/packages -tools /usr/share/arduino/tools-builder -tools /usr/share/arduino/hardware/tools/avr -tools /home/malachi/.arduino15/packages -built-in-libraries /usr/share/arduino/libraries -libraries /home/malachi/Arduino/libraries -fqbn=teensy:avr:teensy2:usb=serial,speed=16,keys=en-us -ide-version=10813 -build-path /tmp/arduino_build_633770 -warnings=all -build-cache /tmp/arduino_cache_318964 -verbose /tmp/untitled187168908.tmp/sketch_nov14a/sketch_nov14a.ino
+: 1605387107:0;dow
+: 1605387116:0;vid EP.5.720p.mp4
+: 1605389420:0;v src.ino
+: 1605389427:0;la
+: 1605389429:0;v src.ino
+: 1605389467:0;la
+: 1605389476:0;rma ergo-bord makefile
+: 1605389478:0;la
+: 1605389482:0;arduino .
+: 1605389822:0;v src.ino
+: 1605428412:0;cd code/ergo-board
+: 1605428415:0;cd layout/json
+: 1605428537:0;..
+: 1605428537:0;la
+: 1605428538:0;..
+: 1605428541:0;cd src
+: 1605428541:0;la
+: 1605428544:0;arduino .
+: 1605428562:0;v src.ino
+: 1605429441:0;pkill screenkey
+: 1605429443:0;screenkey
+: 1605441440:0;dow
+: 1605441441:0;la
+: 1605441444:0;unzip easyeda-linux-x64-6.4.7.zip
+: 1605441445:0;la
+: 1605441458:0;./install.sh
+: 1605441461:0;sudo ./install.sh
+: 1605441465:0;la
+: 1605441469:0;sh ./install.sh
+: 1605441483:0;v How\ to\ install\ and\ uninstall.txt
+: 1605441505:0;sudo sh install.sh
+: 1605441509:0;v How\ to\ install\ and\ uninstall.txt
+: 1605441521:0;la
+: 1605441535:0;sudo sh install.sh
+: 1605441555:0;la
+: 1605441557:0;so
+: 1605441568:0;v How\ to\ install\ and\ uninstall.txt
+: 1605441605:0;la
+: 1605441615:0;sudo sh install.sh
+: 1605441644:0;y
+: 1605441685:0;plover
+: 1605441772:0; sat STKAB dap dap dap dap dat dat dat dat hat hat hat Nat Nat national aing
+: 1605445972:0;pkill plover
+: 1605446023:0;pac
+: 1605446030:0;pac easy
+: 1605446039:0;pac easyeda
+: 1605446213:0;esayeda
+: 1605446238:0;dow
+: 1605446244:0;sh uninstall.sh
+: 1605446256:0;sudo sh install.sh
+: 1605446266:0;sudo sh uninstall.sh
+: 1605446268:0;la
+: 1605446278:0;sudo sh install.sh
+: 1605446290:0;la
+: 1605446299:0;sudo sh uninstall.sh
+: 1605446300:0;la
+: 1605446303:0;pac easyeda
+: 1605452432:0;cd ~/code/ergo-board/src
+: 1605452433:0;v src.ino
+: 1605458380:0;cd ~/code/ergo-board/src
+: 1605458381:0;v src.ino
+: 1605458985:0;cd ~/code/ergo-board/src
+: 1605458986:0;v src.ino
+: 1605470806:0;dow
+: 1605470806:0;la
+: 1605470814:0;vid EP.6.720p.mp4
+: 1605470882:0;vid EP.5.720p.mp4
+: 1605471803:0;vid EP.6.720p.mp4
+: 1605473470:0;vid EP.7.720p.mp4
+: 1605511006:0;pac kicad
+: 1605512285:0;cd ~/code/ergo-board/src
+: 1605512285:0;..
+: 1605512294:0;mk pcb
+: 1605512360:0;la
+: 1605512364:0;cd cat
+: 1605512365:0;la
+: 1605512369:0;..
+: 1605512372:0;rma cat pcb
+: 1605512539:0;la
+: 1605512542:0;cd pcb
+: 1605512542:0;la
+: 1605512548:0;mk components
+: 1605512550:0;cd components
+: 1605512553:0;clone https://github.com/tmk/kicad_lib_tmk
+: 1605516621:0;update
+: 1605516659:0;df -h
+: 1605518718:0;cd ~/code/ergo-board/src
+: 1605518719:0;v src.ino
+: 1605522398:0;pac arm
+: 1605522415:0;pac arm-elf
+: 1605522425:0;pac arm-eif
+: 1605522428:0;pac arm-
+: 1605522453:0;pac arm-elf-gcc
+: 1605524659:0;pac Adafruit
+: 1605525039:0;sdcc src.ino
+: 1605525204:0;mv src.ino src.c
+: 1605525210:0;sdcc -c src.c
+: 1605525212:0;la
+: 1605525214:0;v src.c
+: 1605525218:0;sdcc -c src.c
+: 1605525225:0;v src.c
+: 1605525237:0;sdcc -c src.c
+: 1605525245:0;v src.c
+: 1605525263:0;sdcc -c src.c
+: 1605526038:0;la
+: 1605526039:0;v src.c
+: 1605526304:0;sdcc -c src.c
+: 1605526312:0;v src.c
+: 1605526318:0;la
+: 1605526321:0;rm a.out
+: 1605526322:0;v src.c
+: 1605526415:0;mk test
+: 1605526417:0;cd test
+: 1605526431:0;clone https://github.com/ChuckM/arm-blink-example
+: 1605526434:0;cd arm-blink-example
+: 1605526436:0;la
+: 1605526440:0;make
+: 1605526460:0;arm-none-eabi-gcc blink.c
+: 1605526475:0;v blink.c
+: 1605526483:0;arm-none-eabi-gcc blink.c
+: 1605526488:0;v blink.c
+: 1605526501:0;arm-none-eabi-gcc blink.c
+: 1605526510:0;v blink.c
+: 1605526517:0;arm-none-eabi-gcc blink.c
+: 1605526613:0;v blink.c
+: 1605526662:0;arm-none-eabi-gcc blink.c
+: 1605526664:0;v blink.c
+: 1605526713:0;arm-none-eabi-gcc blink.c
+: 1605526723:0;sdcc blink.c
+: 1605526725:0;la
+: 1605526749:0;rma blink.asm blink.ihx blink.ld blink.lk blink.lst blink.map blink.mem blink.rel blink.rst blink.sym Makefile README.md startup_ARMCM4.S
+: 1605526752:0;sdcc blink.c
+: 1605526753:0;la
+: 1605526762:0;rm *.cd
+: 1605526764:0;la
+: 1605526770:0;rm .cd
+: 1605526773:0;la
+: 1605526867:0;sdcc -c blink.c
+: 1605526868:0;la
+: 1605526917:0;objcopy -O ihex input-file output-file\
+
+: 1605526926:0;objcopy -O ihex blink.c\
+
+: 1605526932:0;objcopy -O ihex blink.c blink.hex\
+
+: 1605526934:0;la
+: 1605527104:0;man sdcc
+: 1605527108:0;sdcc
+: 1605527183:0;pac vscode
+: 1605529084:0;la
+: 1605529260:0;pac keli
+: 1605529269:0;pac keil
+: 1605529397:0;pac vscode
+: 1605529448:0;..
+: 1605529454:0;code arm-blink-example
+: 1605529603:0;pac vscode
+: 1605529644:0;code
+: 1605529720:0;la
+: 1605529721:0;..
+: 1605529722:0;la
+: 1605529725:0;rma *
+: 1605529726:0;la
+: 1605529729:0;code.
+: 1605529731:0;code .
+: 1605530855:0;la
+: 1605530857:0;v test.c
+: 1605532352:0;pio update
+: 1605532523:0;curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/master/scripts/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules\
+
+: 1605532570:0;code
+: 1605534895:0;sudo chmod 666 /dev/ttyACM0  \
+
+: 1605534918:0;code
+: 1605534941:0;sudo chmod 666 /dev/ttyACM0:\
+
+: 1605534982:0;code
+: 1605535017:0;sudo chmod 666 /dev/ttyACM0\
+
+: 1605535296:0;code
+: 1605535416:0;sudo chmod 666 /dev/ttyACM0\
+
+: 1605535563:0;la
+: 1605535570:0;sudo chmod 777 /dev/ttyACM0\
+
+: 1605535804:0;lsusb --verbose
+: 1605535808:0;pac lsusb
+: 1605535861:0;ls -lah /dev/ttyACM0
+: 1605535875:0;sudo ls -lah /dev/ttyACM0
+: 1605535896:0;ls -lah /dev/ttyACM0
+: 1605535916:0;gpasswd -a $USER dialout
+: 1605535946:0;sudo gpasswd -a $USER dialout
+: 1605535963:0;groupadd dialout
+: 1605535966:0;sudo groupadd dialout
+: 1605535969:0;sudo gpasswd -a $USER dialout
+: 1605535983:0;code
+: 1605535999:0;ls -lah /dev/ttyACM0
+: 1605536068:0;sudo gpasswd -a $USER dialout
+: 1605536073:0;ls -lah /dev/ttyACM0
+: 1605536091:0;sudo gpasswd -a $USER uucp
+: 1605536095:0;ls -
+: 1605536097:0;l
+: 1605536100:0;ls -lah /dev/ttyACM0
+: 1605536120:0;code
+: 1605536671:0;ls -l /dev/ttyACM0
+: 1605539669:0;cd code/ergo-board
+: 1605539671:0;code .
+: 1605539835:0;la
+: 1605539836:0;..
+: 1605539836:0;la
+: 1605540012:0;cd Progect\ Steno
+: 1605540015:0;code .
+: 1605540137:0;..
+: 1605540150:0;rma Progect\ Steno 
+: 1605540153:0;la
+: 1605540155:0;cd ergo-board
+: 1605540156:0;la
+: 1605540162:0;..
+: 1605540163:0;a
+: 1605540164:0;la
+: 1605540171:0;cd project-steno
+: 1605540172:0;la
+: 1605540187:0;..
+: 1605540199:0;mv ergo-board/* project-steno
+: 1605540207:0;mv ergo-board/** project-steno
+: 1605540212:0;cd ergo-board
+: 1605540212:0;la
+: 1605540226:0;mv src ../project-steno
+: 1605540232:0;la
+: 1605541653:0;cd src
+: 1605541653:0;la
+: 1605541656:0;..
+: 1605541659:0;la
+: 1605541666:0;mv .git ../project-steno
+: 1605541667:0;la
+: 1605541668:0;..
+: 1605541678:0;cd project-steno
+: 1605541679:0;la
+: 1605541700:0;commit 'started to use projectIO with vscode'
+: 1605541712:0;la
+: 1605541718:0;tree
+: 1605541731:0;git status
+: 1605541757:0;commit 'started to use projectIO with vscode'
+: 1605541763:0;push
+: 1605541783:0;la
+: 1605541790:0;v .gitignore
+: 1605541803:0;la
+: 1605541806:0;v .gitignore
+: 1605541812:0;la
+: 1605541820:0;v .gitignore
+: 1605541824:0;la
+: 1605541831:0;v .gitignore
+: 1605541850:0;git rm -r **
+: 1605541854:0;la
+: 1605541858:0;git rm -r -
+: 1605541864:0;git rm -r --cached **
+: 1605541865:0;la
+: 1605541871:0;cd include
+: 1605541872:0;la
+: 1605541875:0;v README
+: 1605541885:0;..
+: 1605541888:0;rma include
+: 1605541889:0;la
+: 1605541930:0;mk software
+: 1605541935:0;mk hardware
+: 1605541936:0;la
+: 1605541950:0;mv layout hardware
+: 1605541951:0;la
+: 1605541959:0;mv .pio software
+: 1605541959:0;la
+: 1605541966:0;mv lib software
+: 1605541966:0;la
+: 1605541976:0;mv src software
+: 1605541976:0;la
+: 1605541989:0;mv test software
+: 1605541990:0;la
+: 1605541997:0;mv .vscode software
+: 1605542004:0;mv platformio.ini software
+: 1605542005:0;la
+: 1605542011:0;cd pcb
+: 1605542011:0;la
+: 1605542014:0;..
+: 1605542017:0;rma pcb
+: 1605542018:0;la
+: 1605542023:0;ls
+: 1605542033:0;code software
+: 1605542149:0;cd software
+: 1605542155:0;rma test
+: 1605542156:0;la
+: 1605542251:0;..
+: 1605542294:0;commit 'organized hardware and software into different directorys' 
+: 1605542297:0;push
+: 1605542336:0;v readme.md
+: 1605542358:0;la
+: 1605542449:0;push
+: 1605542462:0;commit 'updated readme'
+: 1605542464:0;push
+: 1605542471:0;la
+: 1605542482:0;v readme.md
+: 1605542675:0;commit 'updated readme'
+: 1605542677:0;push
+: 1605542696:0;v readme.md
+: 1605543206:0;commit 'updated readme' && push 
+: 1605543221:0;v readme.md
+: 1605543295:0;commit 'updated readme' && push 
+: 1605543308:0;v readme.md
+: 1605543440:0;commit 'updated readme' && push 
+: 1605543605:0;v readme.md
+: 1605543626:0;commit 'updated readme' && push 
+: 1605543638:0;v readme.md
+: 1605543689:0;commit 'updated readme' && push 
+: 1605543702:0;v readme.md
+: 1605543711:0;commit 'updated readme' && push 
+: 1605543720:0;v readme.md
+: 1605543815:0;commit 'updated readme' && push 
+: 1605543827:0;v readme.md
+: 1605543839:0;commit 'updated readme' && push 
+: 1605543927:0;v readme.md
+: 1605544192:0;commit 'updated readme' && push 
+: 1605544205:0;v readme.md
+: 1605544223:0;commit 'updated readme' && push 
+: 1605544274:0;vma
+: 1605544318:0;v readme.md
+: 1605544603:0;commit 'updated readme' && push 
+: 1605544639:0;v readme.md
+: 1605545114:0;commit 'updated readme' && push 
+: 1605545128:0;v readme.md
+: 1605545141:0;commit 'updated readme' && push 
+: 1605545159:0;la
+: 1605545160:0;v readme.md
+: 1605545624:0;commit 'updated readme' && push 
+: 1605545642:0;v readme.md
+: 1605545676:0;commit 'updated readme' && push 
+: 1605545718:0;v readme.md
+: 1605545791:0;commit 'updated readme' && push 
+: 1605549138:0;v readme.md
+: 1605549171:0;commit 'updated readme' && push 
+: 1605549188:0;v readme.md
+: 1605549205:0;commit 'updated readme' && push 
+: 1605549222:0;v readme.md
+: 1605549245:0;commit 'updated readme' && push 
+: 1605549281:0;v readme.md
+: 1605549653:0;commit 'updated readme' && push 
+: 1605549990:0;la
+: 1605553043:0;dow
+: 1605553045:0;vid EP.7.720p.mp4
+: 1605553065:0;vid EP.8.720p.mp4
+: 1605559713:0;vid EP.9.720p.mp4
+: 1605561055:0;v readme.md
+: 1605616592:0;cd ~/code/project-steno/software
+: 1605616592:0;la
+: 1605616597:0;cd src
+: 1605616599:0;v main.cpp
+: 1605616889:0;..
+: 1605616889:0;la
+: 1605616900:0;rma project-steno
+: 1605616956:0;..
+: 1605616959:0;rma sof
+: 1605616963:0;rma software
+: 1605616979:0;la
+: 1605616982:0;cd software
+: 1605616983:0;la
+: 1605617203:0;rma include .gitignore test .vscode 
+: 1605617204:0;la
+: 1605617209:0;cd .pio
+: 1605617209:0;la
+: 1605617212:0;cd build
+: 1605617213:0;la
+: 1605617217:0;cd adafruit_itsybitsy_m4
+: 1605617217:0;la
+: 1605617243:0;..
+: 1605617245:0;.
+: 1605617245:0;..
+: 1605617249:0;rma software
+: 1605617293:0;cd software
+: 1605617293:0;la
+: 1605617296:0;rma .vscode
+: 1605617301:0;la
+: 1605617420:0;code
+: 1605619685:0;ping google.com
+: 1605619693:0;ping https://google.com
+: 1605619702:0;ping archlinux.org
+: 1605622739:0;cd software
+: 1605622743:0;cd ~/code/project-steno/software
+: 1605622746:0;cd src
+: 1605622746:0;la
+: 1605622748:0;v main.cpp
+: 1605637326:0;dow
+: 1605637326:0;la
+: 1605638781:0;betterlockscreen
+: 1605639328:0;rma easyeda-linux-x64-6.4.7.zip easyeda-linux-x64.zip How\ to\ install\ and\ uninstall.txt install.sh uninstall.sh
+: 1605639329:0;la
+: 1605639939:0;vid EP.9.720p.mp4
+: 1605639965:0;vid EP.10.720p.mp4
+: 1605644774:0;vid EP.11.720p.mp4
+: 1605646446:0;vid EP.12.360p.mp4
+: 1605647606:0;vid EP.13.720p.mp4
+: 1605682426:0;cd ~/code/project-steno/software
+: 1605682430:0;v src/main.cpp
+: 1605683075:0;vvib
+: 1605683076:0;vvim
+: 1605683079:0;update
+: 1605683158:0;cd ~/code/project-steno/software
+: 1605683161:0;cd src
+: 1605683163:0;v main.cpp
+: 1605684475:0;cd /dev/
+: 1605684475:0;la
+: 1605684488:0;ls -l /dev/ttyACM0
+: 1605688936:0;cd ~/code/project-steno/software/src
+: 1605688947:0;v main.cpp
+: 1605715391:0;cd
+: 1605715395:0;cd code/c/test
+: 1605715396:0;la
+: 1605715399:0;v test.c
+: 1605715405:0;rm makefile test.ino 
+: 1605715406:0;la
+: 1605715439:0;v test.c
+: 1605717072:0;mv test.c test.cpp
+: 1605717075:0;v test.cpp
+: 1605717084:0;gcc test.cpp
+: 1605717090:0;v test.cpp
+: 1605717132:0;la
+: 1605717134:0;gcc test.cpp
+: 1605717136:0;la
+: 1605717141:0;g++ test.cpp
+: 1605717142:0;la
+: 1605717146:0;./a.out
+: 1605717149:0;v test.cpp
+: 1605717168:0;g++ test.cpp
+: 1605717173:0;v test.cpp
+: 1605717185:0;g++ test.cpp
+: 1605717202:0;v test.cpp
+: 1605722871:0;cd ~/code/project-steno/software/src
+: 1605722872:0;v main.cpp
+: 1605726207:0;dow
+: 1605726211:0;vid EP.13.720p.mp4
+: 1605730280:0;mocp
+: 1605732951:0;vid  EP.14.720p.mp4
+: 1605733560:0;pac dynalist
+: 1605736479:0;vrc
+: 1605736488:0;v main.cpp
+: 1605736504:0;vrc
+: 1605736553:0;v main.cpp
+: 1605772266:0;pac kicad
+: 1605772568:0;dow
+: 1605772573:0;unzip layout.zip
+: 1605772574:0;l
+: 1605772575:0;la
+: 1605772606:0;kicad keyboard.sch
+: 1605772685:0;cd code/project-steno
+: 1605772686:0;la
+: 1605772690:0;cd hardware/layout
+: 1605772691:0;l
+: 1605772692:0;la
+: 1605772707:0;rm on-tap.jpg json/on-tap.json 
+: 1605772707:0;la
+: 1605772719:0;mv template.jpg template-v2.jpg
+: 1605772722:0;cd json
+: 1605772729:0;mv template.json template-v2.json
+: 1605773136:0;dow
+: 1605773374:0;rm keyboard-layout.json keyboard-layout.jpg keyboard.pro keyboard.sch 
+: 1605773375:0;la
+: 1605773390:0;rm fp-info-cache fp-lib-table keyboard.kicad_pcb sym-lib-table layout.zip 
+: 1605773391:0;la
+: 1605773401:0;rma keyboard_parts.pretty kicad_lib_tmk MX_Alps_Hybrid.pretty 
+: 1605773409:0;la
+: 1605773495:0;mv keyboard-layout.jpg ~/code/project-steno/hardware/layout/template-v1.jpg
+: 1605773500:0;mv keyboard-layout.json ~/
+: 1605773502:0;la
+: 1605773503:0;..
+: 1605773504:0;la
+: 1605773516:0;dow
+: 1605773534:0;mv keyboard-layout.json ~/code/project-steno/hardware/layout/json/template-v1.json
+: 1605773535:0;la
+: 1605773538:0;co
+: 1605773543:0;z proj
+: 1605773544:0;la
+: 1605773573:0;commit 'made template v1'
+: 1605773590:0;cd hardware/layout
+: 1605773591:0;la
+: 1605773596:0;mk raw-data
+: 1605773597:0;la
+: 1605773603:0;cd raw-data
+: 1605773618:0;mk template-v1
+: 1605773620:0;v template-v1
+: 1605775652:0;push
+: 1605776547:0;dow
+: 1605776547:0;la
+: 1605776549:0;la[3~
+: 1605776551:0;la
+: 1605776590:0;unzip easyeda-linux-x64-6.4.7.zip
+: 1605776592:0;la
+: 1605776600:0;sh install.sh
+: 1605776628:0;y
+: 1605776633:0;pac easyeda
+: 1605777132:0;cd
+: 1605777135:0;cd .config/plover
+: 1605777136:0;la
+: 1605777204:0;df -h .
+: 1605777211:0;df
+: 1605777226:0;du .
+: 1605777230:0;du -h .
+: 1605778391:0;cd ~/code/project-steno/software/src
+: 1605778393:0;v main.cpp
+: 1605782201:0;vpl
+: 1605782254:0;v main.cpp
+: 1605782264:0;lrc
+: 1605782286:0;v main.cpp
+: 1605819077:0;dow
+: 1605819104:0;vid  EP.14.720p.mp4
+: 1605819961:0;vid  EP.15.720p.mp4
+: 1605853080:0;cd ~/code/project-steno/software/src
+: 1605853081:0;v main.cpp
+: 1605863238:0;mv functions.h myFunctions.h
+: 1605863238:0;la
+: 1605863239:0;v main.cpp
+: 1605869024:0;pac clang-format
+: 1605869060:0;clang-format main.cpp
+: 1605869065:0;vpc
+: 1605869102:0;v main.cpp
+: 1605872242:0;commit 'started to code things up'
+: 1605872244:0;push
+: 1605872250:0;v main.cpp
+: 1605881748:0;vpc
+: 1605881777:0;v main.cpp
+: 1605897743:0;cd .config/plover
+: 1605897746:0;v main.json
+: 1605898040:0;cd ~/code/project-steno/software/src
+: 1605898046:0;v main.cpp
+: 1605900621:0;rma debounce.h dictionary.cpp 
+: 1605900623:0;la
+: 1605900626:0;v main.cpp
+: 1605900924:0;la
+: 1605900928:0;v main.cpp
+: 1605903629:0;cd .config/plover
+: 1605903631:0;v commands.json
+: 1605904297:0;commit 'sorted my code into multiple files' && push
+: 1605904310:0;v main.cpp
+: 1605905987:0;dow
+: 1605905989:0;vid  EP.15.720p.mp4
+: 1605906909:0;vid  EP.16.720p.mp4
+: 1605941097:0;cd ~/code/project-steno/software/src
+: 1605941104:0;v defaultOutput.h
+: 1605943427:0;v main.cpp
+: 1605943489:0;ls -l /dev/ttyACM0
+: 1605943492:0;ls -l /dev
+: 1605943566:0;cd /dev
+: 1605943567:0;la
+: 1605943650:0;-
+: 1605943654:0;v main.cpp
+: 1605943718:0;cd /dev
+: 1605943719:0;la
+: 1605955270:0;cd ~/code/project-steno/software/src
+: 1605955272:0;v defaultOutput.h
+: 1605966021:0;dow
+: 1605966030:0;mv keyboard-layout.json template-v1.json
+: 1605966042:0;mv keyboard-layout.jpg template-v1.jpg
+: 1605966043:0;la
+: 1605966453:0;mv keyboard-layout.jpg template-v2.jpg
+: 1605966468:0;mv keyboard-layout.json template-v2.json
+: 1605966490:0;mv *template* ~/code/project-steno/hardware/layout
+: 1605966491:0;la
+: 1605966494:0;cd
+: 1605966503:0;cd code/project-steno/hardware/layout
+: 1605966503:0;la
+: 1605966523:0;mv template-v1.json json
+: 1605966527:0;mv template-v2.json json
+: 1605966544:0;v raw-data/template-v2
+: 1605966560:0;v raw-data/template-v1
+: 1605966567:0;la
+: 1605966569:0;cd raw-data
+: 1605966570:0;la
+: 1605966573:0;rma template-v1
+: 1605966577:0;v template-v1
+: 1605966601:0;commit 'updated the template layouts' && push
+: 1605966797:0;vrc
+: 1605966876:0;v defaultOutput.h
+: 1605966890:0;vrc
+: 1605966904:0;v defaultOutput.h
+: 1605990856:0;dow
+: 1605990858:0;vid  EP.16.720p.mp4
+: 1605992377:0;vid  EP.17.720p.mp4
+: 1606029128:0;cd ~/code/project-steno/software/src
+: 1606029129:0;la
+: 1606031734:0;vrc
+: 1606031741:0;v main.cpp
+: 1606031765:0;vrc
+: 1606031788:0;v main.cpp
+: 1606031829:0;lrc
+: 1606031836:0;v main.cpp
+: 1606069620:0;commit 'backup testing rust' && push
+: 1606070956:0;sudo apt install -y git build-essential pkg-config\
+
+: 1606070965:0;pac install -y git build-essential pkg-config\
+
+: 1606070975:0;pac  build-essential pkg-config\
+
+: 1606070986:0;curl -sS https://webinstall.dev/rust | bash
+: 1606071104:0;rustup update
+: 1606071112:0;rustup target install thumbv7m-none-eabi\
+
+: 1606071121:0;la
+: 1606071134:0;pac pkg-config libusb-dev libusb-1.0 libftdi1-dev
+: 1606071272:0;rustup update\
+rustup toolchain install stable\
+rustup toolchain install 1.46.0\
+rustup default 1.46.0\
+
+: 1606072099:0;...
+: 1606072101:0;la
+: 1606072110:0;mkdir rust
+: 1606072110:0;la
+: 1606072112:0;cd rust
+: 1606072130:0;git clone https://cgit.pinealservo.com/BluePill_Rust/blue_pill_base ./utah-rust-blue-pill-code/\
+pushd ./utah-rust-blue-pill-code/\
+git reset --hard 5db28da\
+
+: 1606072231:0;la
+: 1606072235:0;cargo flash --release --chip STM32F103C8\
+
+: 1606072238:0;la
+: 1606072250:0;pushd utah-rust-blue-pill-code/\
+
+: 1606072265:0;la
+: 1606072273:0;cargo flash --release --chip STM32F103C8\
+
+: 1606072276:0;la
+: 1606072339:0;cargo embed --release\
+
+: 1606072469:0;cargo test
+: 1606073657:0;dow
+: 1606073658:0;vid  EP.17.720p.mp4
+: 1606075191:0;vid EP.18.720p.mp4
+: 1606076930:0;vid EP.19.720p.mp4
+: 1606080251:0;vid EP.20.720p.mp4
+: 1606112891:0;rustup --version
+: 1606112919:0;rustup --update
+: 1606112924:0;rustup --help
+: 1606112933:0;rustup update
+: 1606113016:0;cd code/rust
+: 1606113017:0;la
+: 1606113024:0;v hello.rs
+: 1606113212:0;la
+: 1606113220:0;v hello.rs
+: 1606113226:0;la
+: 1606113236:0;mk test
+: 1606113243:0;la
+: 1606113245:0;mk tes
+: 1606113246:0;la
+: 1606113248:0;mk test
+: 1606113250:0;rma tes
+: 1606113259:0;rma *
+: 1606113261:0;la
+: 1606113263:0;mk test
+: 1606113265:0;cd test
+: 1606113265:0;l
+: 1606113266:0;la
+: 1606113272:0;v test.rs
+: 1606113355:0;rma test test.rs
+: 1606113360:0;cargo init
+: 1606113363:0;la
+: 1606113367:0;..
+: 1606113371:0;cargo new test
+: 1606113372:0;la
+: 1606113377:0;cargo new test2
+: 1606113378:0;la
+: 1606113383:0;cd test2/src
+: 1606113384:0;la
+: 1606113385:0;..
+: 1606113385:0;la
+: 1606113389:0;cd src
+: 1606113389:0;la
+: 1606113391:0;v main.rs
+: 1606113485:0;vpc
+: 1606113507:0;v main.rs
+: 1606113685:0;v print.rs
+: 1606117793:0;vrc
+: 1606117829:0;v print.rs
+: 1606117840:0;vrc
+: 1606117877:0;v print.rs
+: 1606117938:0;sudo pacman -S \\
+  arm-none-eabi-gdb \\
+  minicom \\
+  openocd\
+
+: 1606117963:0;sudo pacman -S \\
+  bluez \\
+  bluez-utils \\
+  rfkill
+: 1606117975:0;cat /etc/udev/rules.d/99-ftdi.rules\
+\
+
+: 1606117989:0;cat /etc/udev/rules.d/99-openocd.rules
+: 1606118045:0;sudo nvim /etc/udev/rules.d/99-ftdi.rules
+: 1606118060:0;sudo nvim /etc/udev/rules.d/99-openocd.rules
+: 1606118072:0;sudo udevadm control --reload-rules\
+
+: 1606118085:0;lsusb | grep -i stm
+: 1606118090:0;pac lsusb
+: 1606118127:0;sudo pacman -S usbutils
+: 1606118130:0;lsusb | grep -i stm
+: 1606118200:0;ls -l /dev/bus/usb/003/004
+: 1606118213:0;sudo udevadm control --reload-rules
+: 1606118221:0;lsusb | grep -i ft232
+: 1606121424:0;rustup target add thumbv6m-none-eabi thumbv7m-none-eabi thumbv7em-none-eabi thumbv7em-none-eabihf\
+
+: 1606121444:0;cargo generate --git https://github.com/rust-embedded/cortex-m-quickstart
+: 1606121481:0;cargo install cargo-generate
+: 1606121620:0;cargo generate --git https://github.com/rust-embedded/cortex-m-quickstart
+: 1606121633:0;cd app
+: 1606121633:0;la
+: 1606121641:0;tail -n6 .cargo/config
+: 1606121659:0;cat memory.x
+: 1606121679:0;cargo build
+: 1606121699:0;la
+: 1606121723:0;cd src
+: 1606121724:0;la
+: 1606121726:0;v main.rs
+: 1606126671:0;cd
+: 1606126673:0;cd code/rust
+: 1606126675:0;cd test2
+: 1606126676:0;la
+: 1606126678:0;cd src
+: 1606126678:0;la
+: 1606126681:0;v main.rs
+: 1606128822:0;cd code/rust/test2
+: 1606128823:0;la
+: 1606128827:0;cd
+: 1606128831:0;cd code/rust/test2/src
+: 1606128832:0;la
+: 1606128838:0;v main.rs
+: 1606128855:0;rm main
+: 1606128857:0;v main.rs
+: 1606128864:0;la
+: 1606128866:0;v print.rs
+: 1606128903:0;la
+: 1606128906:0;v main.rs
+: 1606128936:0;mocp
+: 1606131755:0;rustup component add rustfmt\
+
+: 1606131767:0;cargo fmt
+: 1606131769:0;v main.rs
+: 1606131818:0;vpc
+: 1606131872:0;v main.rs
+: 1606131880:0;vrc
+: 1606131885:0;v main.rs
+: 1606132125:0;vrc
+: 1606132204:0;v main.rs
+: 1606135273:0;rustup override set nightly\
+
+: 1606136277:0;v main.rs
+: 1606136762:0;cd code/rust/test2/src
+: 1606136763:0;v main.rs
+: 1606140384:0;cargo atsamd21-hal
+: 1606140390:0;cargo --help
+: 1606140401:0;cargo 
+: 1606140454:0;rustup target add thumbv6m-none-eabi
+: 1606140471:0;rustup target add thumbv7em-none-eabihf
+: 1606140495:0;la
+: 1606140504:0;cargo build --examples
+: 1606140505:0;la
+: 1606140510:0;...
+: 1606140513:0;cargo build --examples
+: 1606140516:0;la
+: 1606140524:0;cargo build --example blinky_basic
+: 1606140526:0;cd code
+: 1606140527:0;cargo build --example blinky_basic
+: 1606140529:0;la
+: 1606140536:0;mk test
+: 1606140541:0;cd test
+: 1606140542:0;la
+: 1606140546:0;cargo build --example blinky_basic
+: 1606140548:0;la
+: 1606140553:0;cargo now test
+: 1606140555:0;la
+: 1606140560:0;cargo new test
+: 1606140561:0;la
+: 1606140564:0;cargo new test-ha
+: 1606140565:0;la
+: 1606140567:0;cd test-ha
+: 1606140571:0;cargo build --example blinky_basic
+: 1606140573:0;la
+: 1606140698:0;cargo install cargo-hf2
+: 1606140755:0;cargo hf2 --example ferris_img --release --pid 0x003d --vid 0x239a
+: 1606140757:0;la
+: 1606140794:0;sudo nvim /etc/udev/rules.d/99-adafruit-boards.rules
+: 1606140814:0;sudo udevadm control --reload-rules\
+sudo udevadm trigger\
+
+: 1606140821:0;cargo install cargo-hf2\
+\
+
+: 1606140827:0;cargo hf2 --example ferris_img --release --pid 0x003d --vid 0x239a
+: 1606140861:0;clone git@github.com:atsamd-rs/atsamd.git
+: 1606140901:0;cargo atsamd-hal
+: 1606140936:0;la
+: 1606140950:0;cd atsamd/boards/itsybitsy_m4/examples
+: 1606140951:0;la
+: 1606140964:0;...
+: 1606140965:0;la
+: 1606140966:0;..
+: 1606140966:0;la
+: 1606140984:0;cd metro_m0
+: 1606140994:0;rustup target add thumbv7em-none-eabihf
+: 1606141001:0;cargo build --examples
+: 1606141002:0;la
+: 1606141012:0;..
+: 1606141018:0;cd atsamd/boards/metro_m4
+: 1606141020:0;cargo build --examples
+: 1606141059:0;la
+: 1606141088:0;arm-none-eabi-objcopy -O binary \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic.bin
+: 1606141090:0;la
+: 1606141098:0;cargo build --example blinky_basic
+: 1606141135:0;la
+: 1606141139:0;cd examples
+: 1606141139:0;la
+: 1606141143:0;v blinky_basic.rs
+: 1606141165:0;cargo build --example blinky_basic
+: 1606141174:0;v blinky_basic.rs
+: 1606141182:0;cargo build --example blinky_basic
+: 1606141188:0;v blinky_basic.rs
+: 1606141209:0;..
+: 1606141216:0;cd metro_m4/examples
+: 1606141216:0;la
+: 1606141225:0;cargo build --example
+: 1606141235:0;cargo build --example serial
+: 1606141254:0;pac gcc-arm-embedded
+: 1606141298:0;cargo Crate atsamd51g
+: 1606141343:0;cargo install atsamd51g
+: 1606141363:0;cargo build --examples
+: 1606141390:0;la
+: 1606141426:0;ZZc
+: 1606141427:0;cdh
+: 1606141428:0;cd
+: 1606141433:0;cd code/rust/
+: 1606141433:0;la
+: 1606141436:0;mk test3
+: 1606141439:0;cd test3
+: 1606141442:0;cargo init
+: 1606141443:0;la
+: 1606141444:0;cd src
+: 1606141445:0;la
+: 1606141447:0;v main.rs
+: 1606141532:0;cargo install itsybitsy_m4
+: 1606141542:0;cargo run
+: 1606141557:0;v main.rs
+: 1606141563:0;cargo run
+: 1606141586:0;v main.rs
+: 1606141748:0;cargo install cookie_monster
+: 1606141760:0;v main.rs
+: 1606143901:0;cargo install cargo-hf2\
+
+: 1606143920:0;cargo hf2 --manifest-path metro_m0/Cargo.toml \\
+    --example blinky_basic --features unproven --release
+: 1606143922:0;..
+: 1606143923:0;la
+: 1606143925:0;..
+: 1606143925:0;la
+: 1606143928:0;cd test2
+: 1606143928:0;la
+: 1606143931:0;ZZ
+: 1606144020:0;rustup component add llvm-tools-preview
+: 1606144056:0;clone git@github.com:atsamd-rs/atsamd.git
+: 1606144548:0;cd atsamd/boards/itsybitsy_m4
+: 1606144549:0;la
+: 1606144626:0;cargo build --example blinky_basic
+: 1606144690:0;arm-none-eabi-objcopy -O binary \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic.bin
+: 1606144694:0;la
+: 1606144700:0;cargo build --example blinky_basic
+: 1606144713:0;rust-objcopy -O binary \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic.bin
+: 1606144743:0;cargo install uf2conv cargo-binutils
+: 1606144948:0;rust-objcopy -O binary \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic.bin
+: 1606144956:0;la
+: 1606144959:0;cd target
+: 1606144960:0;la
+: 1606144969:0;cd thumbv7em-none-eabihf
+: 1606144969:0;la
+: 1606144973:0;cd debug
+: 1606144973:0;la
+: 1606144983:0;cd build
+: 1606144984:0;la
+: 1606144991:0;cd itsybitsy_m4-d1fb47fc30380aee
+: 1606144992:0;la
+: 1606144996:0;...
+: 1606144997:0;..
+: 1606144999:0;...
+: 1606145007:0;cd itsybitsy_m4
+: 1606145008:0;la
+: 1606145091:0;uf2conv blinky_basic.bin --base 0x2000 --output blinky_basic.uf2
+: 1606145092:0;la
+: 1606145121:0;cargo build --examples
+: 1606145136:0;./build-all.py
+: 1606145149:0;cargo build --example blinky_basic
+: 1606145157:0;arm-none-eabi-objcopy -O binary \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic.bin
+: 1606145166:0;arm-none-eabi-objcopy     target/thumbv6m-none-eabi/debug/examples/blinky_basic \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic.bin
+: 1606145174:0;stty -F /dev/ttyACM1 ospeed 1200
+: 1606145183:0;stty -F /dev/ttyACM0 ospeed 1200
+: 1606145198:0;~/.arduino15/packages/arduino/tools/bossac/1.7.0/bossac -i -d \\
+    --port=ttyACM1 -U -e -w -v \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic.bin -R
+: 1606155207:0;cd shows
+: 1606155207:0;la
+: 1606155222:0;mk strike-the-blood
+: 1606155223:0;dow
+: 1606155225:0;la
+: 1606155257:0;mv *.mp4 ~/shows/strike-the-blood
+: 1606155258:0;la
+: 1606155267:0;cd
+: 1606155270:0;cd shows/strike-the-blood
+: 1606155271:0;la
+: 1606155275:0;..
+: 1606155279:0;dow
+: 1606155280:0;la
+: 1606155532:0;dl https://www.youtube.com/watch?v=DnT-LUQgc7s
+: 1606155537:0;youtube-dl https://www.youtube.com/watch?v=DnT-LUQgc7s
+: 1606155545:0;youtube-dl www.youtube.com/watch?v=DnT-LUQgc7s
+: 1606155550:0;youtube-dl youtube.com/watch?v=DnT-LUQgc7s
+: 1606155568:0;dl https://youtu.be/DnT-LUQgc7s
+: 1606158437:0;la
+: 1606158449:0;vid Considering\ Rust.opus
+: 1606158524:0;cd shows/strike-the-blood
+: 1606158525:0;la
+: 1606158532:0;vid EP.20.720p.mp4
+: 1606159167:0;vid EP.21.720p.mp4
+: 1606160789:0;vid EP.22.720p.mp4
+: 1606164632:0;vid EP.23.720p.mp4
+: 1606167986:0;cd
+: 1606167990:0;cd code/rust/test3
+: 1606167994:0;cd src
+: 1606167996:0;v main.rs
+: 1606168126:0;rustup target add thumbv7em-none-eabihf
+: 1606168127:0;la
+: 1606168135:0;..
+: 1606168136:0;rustup target add thumbv7em-none-eabihf
+: 1606168139:0;la
+: 1606168143:0;cd src
+: 1606168143:0;la
+: 1606168149:0;cargo build --target thumbv7em-none-eabihf
+: 1606168151:0;la
+: 1606168153:0;v main.rs
+: 1606168194:0;cargo install aux5
+: 1606168208:0;cargo run
+: 1606168258:0;rustc main.rs
+: 1606168274:0;v main.rs
+: 1606168330:0;cargo install aux4
+: 1606168333:0;cargo install aux6
+: 1606168337:0;cargo install aux
+: 1606168383:0;sudo pacman -S \\
+  arm-none-eabi-gdb \\
+  minicom \\
+  openocd
+: 1606168396:0;sudo pacman -S \\
+  bluez \\
+  bluez-utils \\
+  rfkill
+: 1606168411:0;cat /etc/udev/rules.d/99-ftdi.rules
+: 1606168417:0;cat /etc/udev/rules.d/99-openocd.rules
+: 1606168424:0;sudo udevadm control --reload-rules
+: 1606168432:0;lsusb | grep -i stm
+: 1606168434:0;lsusb | grep -i
+: 1606168435:0;lsusb | grep
+: 1606168438:0;lsusb
+: 1606168456:0;lsusb | grep Ada
+: 1606168483:0;ls -l /dev/bus/usb/003/004
+: 1606168515:0;ls -l /dev/bus/usb/001/002
+: 1606168530:0;sudo udevadm control --reload-rules
+: 1606168546:0;openocd -f interface/stlink-v2-1.cfg -f target/stm32f3x.cfg
+: 1606168822:0;betterlockscreen -s
+: 1606198843:0;pkill redshift
+: 1606199110:0;v main.rs
+: 1606200695:0;cd code/rust/test3
+: 1606200697:0;cd src
+: 1606200698:0;v main.rs
+: 1606207827:0;dow
+: 1606207827:0;la
+: 1606207863:0;mv keyboard-layout.jpg template-v1.1.jpg
+: 1606207864:0;la
+: 1606207875:0;mv keyboard-layout.json template-v1.1.json
+: 1606207876:0;la
+: 1606207888:0;mv *template* ~/code/project-steno/hardware/layout
+: 1606207889:0;cd
+: 1606207899:0;cd ~/code/project-steno/hardware/layout
+: 1606207900:0;la
+: 1606207907:0;mv *.json json
+: 1606207908:0;la
+: 1606207919:0;cd raw-data
+: 1606207924:0;v template-v1.1
+: 1606207928:0;la
+: 1606207929:0;..
+: 1606207956:0;commit 'new tempate' && push
+: 1606207965:0;la
+: 1606207966:0;..
+: 1606207969:0;cd software
+: 1606207970:0;la
+: 1606207976:0;cd src
+: 1606207977:0;la
+: 1606207983:0;...
+: 1606207984:0;la
+: 1606207987:0;cd rust
+: 1606207988:0;la
+: 1606207991:0;rma utah-rust-blue-pill-code
+: 1606208010:0;commit 'removed git submodule' && push
+: 1606208116:0;cd
+: 1606208121:0;cd dotfiles/wallpapers
+: 1606208124:0;ranger
+: 1606208126:0;la
+: 1606208145:0;power-line.png
+: 1606208146:0;la
+: 1606208150:0;v power-line.png
+: 1606208156:0;la
+: 1606208163:0;pac ranger
+: 1606208168:0;ranger
+: 1606208172:0;la
+: 1606208181:0;vifm
+: 1606208195:0;la
+: 1606208200:0;pac vifm
+: 1606208207:0;vifm
+: 1606208215:0;la
+: 1606208217:0;cd
+: 1606210162:0;plover
+: 1606210215:0;pkill plover
+: 1606210401:0;pkill plover
+: 1606210427:0;plover
+: 1606210666:0;so you you it it it it it10 aa
+: 1606210888:0;sa # 5 cot cat mat rat hat you # # #'ll'll'll pe he he he\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+ # # # it it it it # #'ll'll'll'll'll it it it'll'll it you you
+: 1606210971:0;cd code/project-steno/software
+: 1606210972:0;la
+: 1606210982:0;mk rust
+: 1606210983:0;..
+: 1606210984:0;la
+: 1606210987:0;rma rust
+: 1606210991:0;la
+: 1606210996:0;cd software
+: 1606210997:0;la
+: 1606210999:0;cd rust
+: 1606211004:0;cargo init
+: 1606211005:0;la
+: 1606211007:0;..
+: 1606211007:0;la
+: 1606211058:0;cd rust/src
+: 1606211059:0;la
+: 1606211060:0;v main.rs
+: 1606211923:0;..
+: 1606211923:0;la
+: 1606211926:0;cd target
+: 1606211926:0;la
+: 1606211937:0;..
+: 1606211938:0;la
+: 1606214199:0;v Cargo.toml
+: 1606214211:0;v src/main.rs
+: 1606214247:0;cargo lsbusb-rs
+: 1606214255:0;cargo libusb-rs
+: 1606214268:0;cargo libusb
+: 1606214275:0;cargo install libusb
+: 1606214297:0;la
+: 1606214299:0;v Cargo.toml
+: 1606214306:0;cargo install libusb
+: 1606214312:0;v Cargo.toml
+: 1606214321:0;v src/main.rs
+: 1606214496:0;cargo install keyboard.rs
+: 1606214508:0;la
+: 1606214510:0;cat Cargo.toml
+: 1606225190:0;v src/main.rs
+: 1606226347:0;sudo cargo run
+: 1606226350:0;la
+: 1606226353:0;sudo cargo run .
+: 1606226386:0;sudo rustc target/debug/examples
+: 1606226387:0;la
+: 1606226391:0;cd target
+: 1606226392:0;la
+: 1606226394:0;tree
+: 1606226400:0;cd debug/build
+: 1606226400:0;la
+: 1606226404:0;cd libc-67e97cd464d47c3b
+: 1606226404:0;la
+: 1606226407:0;..
+: 1606226408:0;la
+: 1606226409:0;tree
+: 1606226415:0;..
+: 1606226418:0;la
+: 1606226422:0;tree
+: 1606226423:0;la
+: 1606226429:0;rustc rust
+: 1606226436:0;la
+: 1606226441:0;...
+: 1606226441:0;la
+: 1606226443:0;cd src
+: 1606226444:0;la
+: 1606226446:0;rustc main.rs
+: 1606226450:0;la
+: 1606226463:0;rustc main.rs
+: 1606226480:0;cargo install inputBot
+: 1606226495:0;rustc main.rs
+: 1606226526:0;pac libx11-dev libxtst-dev libudev-dev
+: 1606226531:0;l
+: 1606226532:0;la
+: 1606226569:0;rustc keyboard.rs
+: 1606226637:0;v main.rs
+: 1606226645:0;rustc main.rs
+: 1606226666:0;cargo install inputbot
+: 1606226690:0;..
+: 1606226692:0;la
+: 1606226696:0;cd rust
+: 1606226698:0;v Cargo.toml
+: 1606226714:0;rustc src/main.rs
+: 1606228719:0;la
+: 1606228722:0;cd src
+: 1606228722:0;la
+: 1606228726:0;v main.rs
+: 1606229735:0;...
+: 1606229739:0;cd src
+: 1606229739:0;la
+: 1606229744:0;v main.cpp
+: 1606230273:0;.....
+: 1606230273:0;la
+: 1606230283:0;cd atsamd/boards/itsybitsy_m4
+: 1606230284:0;la
+: 1606230299:0;cargo build --examples
+: 1606230301:0;la
+: 1606230305:0;cargo run
+: 1606230312:0;cd src
+: 1606230313:0;la
+: 1606230321:0;v lib.rs
+: 1606230324:0;v pins.rs
+: 1606230328:0;..
+: 1606230328:0;la
+: 1606230331:0;cd examples
+: 1606230331:0;la
+: 1606230345:0;mv blinky_basic.rs ../src/main.rc
+: 1606230347:0;..
+: 1606230350:0;cargo run
+: 1606230356:0;cd src
+: 1606230356:0;la
+: 1606230359:0;v main.rc
+: 1606230370:0;mv main.rc main.rs
+: 1606230372:0;cargo run
+: 1606230382:0;...
+: 1606230391:0;rma atsamd
+: 1606230406:0;clone git@github.com:atsamd-rs/atsamd.git
+: 1606231120:0;cd atsamd/boards/itsybitsy_m4
+: 1606231120:0;la
+: 1606231129:0;cargo build --examples
+: 1606231173:0;cargo build --example blinky_basic
+: 1606231181:0;arm-none-eabi-objcopy -O binary \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic \\
+    target/thumbv6m-none-eabi/debug/examples/blinky_basic.bin
+: 1606231206:0;cargo build --manifest-path metro_m0/Cargo.toml --example blinky_basic
+: 1606231223:0;rustup component add llvm-tools-preview
+: 1606231231:0;cargo install uf2conv cargo-binutils
+: 1606231239:0;cargo objcopy --example blinky_basic --features unproven --release -- -O binary blinky_basic.bin\
+
+: 1606231275:0;la
+: 1606231286:0;uf2conv blinky_basic.bin --base 0x2000 --output blinky_basic.uf2
+: 1606231287:0;la
+: 1606231315:0;stty -F /dev/ttyACM1 ospeed 1200
+: 1606231320:0;stty -F /dev/ttyACM0 ospeed 1200
+: 1606231324:0;cd atsamd/boards/itsybitsy_m4
+: 1606231324:0;la
+: 1606231347:0;dfu-programmer blinky_basic.bin
+: 1606233856:0;la
+: 1606233861:0;cd
+: 1606240200:0;pac kicad
+: 1606241001:0;betterlockscreen
+: 1606242707:0;cd shows/strike-the-blood
+: 1606242709:0;vid EP.23.720p.mp4
+: 1606242779:0;vid EP.24.720p.mp4
+: 1606246843:0;la
+: 1606246847:0;dow
+: 1606246848:0;la
+: 1606248295:0;mkdir -p ~/shows/strike-the-blood-2
+: 1606248304:0;mv *.mp4 ~/shows/strike-the-blood-2
+: 1606248305:0;la
+: 1606248307:0;cd
+: 1606248311:0;cd shows/strike-the-blood-2
+: 1606248312:0;la
+: 1606248314:0;vid EP.1.720p.mp4
+: 1606252333:0;vid EP.2.720p.mp4
+: 1606254506:0;betterlockscreen -s
+: 1606289520:0;cd code/project-steno/software/rust
+: 1606289520:0;la
+: 1606289522:0;v Cargo.toml
+: 1606289530:0;cargo
+: 1606289532:0;cargo run
+: 1606289641:0;cargo install stm32f103xx
+: 1606289651:0;v Cargo.toml
+: 1606289688:0;cargo install stm32f103xx
+: 1606289694:0;cargo run
+: 1606289705:0;cd src
+: 1606289706:0;v main.rs
+: 1606289729:0;cargo run
+: 1606289785:0;cargo install itsybitsy_m4
+: 1606289819:0;..
+: 1606289820:0;v Cargo.toml
+: 1606289825:0;cargo run
+: 1606289861:0;rustup target add thumbv7em-none-eabihf
+: 1606289880:0;cargo hf2 --release --example blinky_basic
+: 1606289905:0;cd src
+: 1606289906:0;v main.rs main.rs
+: 1606289928:0;cargo run
+: 1606289975:0;v ../Cargo.toml
+: 1606289983:0;cargo run
+: 1606290056:0;cargo install eh_personality
+: 1606290069:0;cargo run
+: 1606290093:0;la
+: 1606290097:0;rustc main.rs
+: 1606290108:0;cargo run
+: 1606290126:0;cargo --verbose run
+: 1606290155:0;cd
+: 1606290161:0;cd atsamd/boards/itsybitsy_m4
+: 1606290168:0;cargo run
+: 1606290169:0;la
+: 1606290228:0;...
+: 1606290230:0;..
+: 1606290235:0;rma atsamd
+: 1606290237:0;la
+: 1606290265:0;clone git@github.com:atsamd-rs/atsamd.git
+: 1606290308:0;cd atsamd/boards/itsybitsy_m4
+: 1606290309:0;la
+: 1606290347:0;cargo build --examples
+: 1606290409:0;la
+: 1606290418:0;cargo build
+: 1606290423:0;cargo run
+: 1606290430:0;cd examples
+: 1606290430:0;la
+: 1606290437:0;rustc blinky_basic.rs
+: 1606290445:0;cargo install itsybitsy_m4
+: 1606295492:0;la
+: 1606295492:0;cd
+: 1606295498:0;z rust
+: 1606295499:0;la
+: 1606295502:0;cd src
+: 1606295502:0;la
+: 1606295503:0;v main.rs
+: 1606295721:0;la
+: 1606295789:0;mk modules
+: 1606295789:0;la
+: 1606295798:0;to modules/test.rs
+: 1606295800:0;v main.rs
+: 1606296729:0;la
+: 1606296736:0;mv modules/** ./
+: 1606296737:0;la
+: 1606296739:0;rma modules
+: 1606296741:0;la
+: 1606296743:0;v main.rs
+: 1606304726:0;vrc
+: 1606304736:0;v main.rs
+: 1606305918:0;lrc
+: 1606305931:0;v main.rs
+: 1606306111:0;vrc
+: 1606306129:0;v main.rs
+: 1606306553:0;update
+: 1606307053:0;nvim --help
+: 1606310933:0;nvim
+: 1606310941:0;v main.rs
+: 1606310943:0;v
+: 1606311289:0;lrc
+: 1606311428:0;v main.rs
+: 1606311802:0;bin
+: 1606311805:0;v install.sh
+: 1606311812:0;yay neovim-nightly\
+
+: 1606311874:0;lrc
+: 1606311951:0;yay neovim-nightly-git\
+
+: 1606312000:0;vim
+: 1606312002:0;nvim
+: 1606312014:0;update
+: 1606312220:0;nvim
+: 1606312308:0;lrc
+: 1606312416:0;yay neovim-nightly\
+
+: 1606312439:0;nvim
+: 1606312445:0;vrc
+: 1606313052:0;v test.py
+: 1606313139:0;pacr neovim-nightly
+: 1606313147:0;pacr neovim-nightly-git
+: 1606313151:0;pac neovim-nightly
+: 1606313160:0;nvim
+: 1606313170:0;nvim
+: 1606313184:0;v
+: 1606313272:0;curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage\
+chmod u+x nvim.appimage\
+./nvim.appimage\
+
+: 1606313283:0;pac neovim-nightly
+: 1606313292:0;pacr neovim-nightly
+: 1606313339:0;nvim
+: 1606313357:0;./app/examples/./nvim.appimage --appimage-extract\
+./squashfs-root/AppRun --version\
+\
+# Optional: exposing nvim globally\
+mv squashfs-root / && ln -s /squashfs-root/AppRun /usr/bin/nvim\
+nvim
+: 1606313380:0;pac neovim-git
+: 1606313737:0;pac neovim-nightly
+: 1606313764:0;nvim
+: 1606313952:0;vvim
+: 1606313952:0;la
+: 1606313954:0;...
+: 1606313959:0;cd .config/nvim/plugged
+: 1606313960:0;la
+: 1606313961:0;rma *
+: 1606313962:0;la
+: 1606313965:0;nvim
+: 1606314144:0;pacr neovim-nightly
+: 1606314155:0;pac neovim-git
+: 1606314687:0;nvim
+: 1606314691:0;vrc
+: 1606314703:0;lrc
+: 1606324361:0;dow
+: 1606324361:0;la
+: 1606324368:0;ls *mp4
+: 1606324378:0;cd ~/shows/strike-the-blood-2
+: 1606324379:0;la
+: 1606324383:0;-
+: 1606324390:0;mv EP.5.1080p.mp4 ~/shows/strike-the-blood-2
+: 1606327356:0;la
+: 1606327421:0;mkdir -p ~/shows/kenja-no-mago
+: 1606327434:0;mv *.mp4* ~/shows/kenja-no-mago
+: 1606327435:0;la
+: 1606327438:0;ls *mp4
+: 1606327440:0;d
+: 1606327441:0;-
+: 1606327443:0;..
+: 1606327446:0;cd kenja-no-mago
+: 1606327447:0;la
+: 1606327543:0;cd shows/strike-the-blood-2
+: 1606327545:0;vid EP.2.720p.mp4
+: 1606327959:0;vid EP.3.720p.mp4
+: 1606329419:0;vid EP.4.1080p.mp4
+: 1606331903:0;as
+: 1606331905:0;la
+: 1606333647:0;vid EP.5.1080p.mp4
+: 1606335645:0;vid EP.6.1080p.mp4
+: 1606337266:0;rm a.out
+: 1606337266:0;la
+: 1606374612:0;irc
+: 1606374980:0;vfn
+: 1606375183:0;cd ~/code/project-steno/software/rust/src
+: 1606375189:0;v main.rs
+: 1606375248:0;vfn
+: 1606375436:0;v main.rs
+: 1606378474:0;cd ~/code/project-steno/software/rust/src
+: 1606378478:0;v main.rs
+: 1606378484:0;cd ~/code/project-steno/software/rust/src
+: 1606378486:0;rma main.rs
+: 1606378488:0;v main.rs
+: 1606381088:0;dot
+: 1606381102:0;commit 'random updates' && push

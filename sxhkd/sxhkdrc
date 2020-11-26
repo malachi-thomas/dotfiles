@@ -22,6 +22,9 @@ super + t
 super + y
   firefox
 
+super + m
+  bluetooth-autoconnect
+
 alt + super + control + shift + x
     xdotool getactivewindow -- key h e l l o space w o r l d
 
@@ -42,6 +45,7 @@ super + shift + m
 
 
 
+
 super + shift + r
   i3-msg '[class=".*"] kill'; reboot
 
@@ -52,7 +56,7 @@ alt + super + control + shift + r
 
 
 alt + super + control + shift + a
-  notify-send "started Entertainment"; toggl start -o Entertainment 
+  notify-send "started Entertainment"; toggl start -o Entertainment
 
 alt + super + control + shift + s
   notify-send "stoped timer"; toggl stop

@@ -35,27 +35,6 @@ func! Rpren()
   return ")"
 endfunc
 
-" func! Rquote()
-"   if getline('.')[col('.') - 2:col('.') - 1] == "''"
-"     return "\<right>"
-"   endif
-"   return "'"
-" endfunc
-
-" func! RDquote()
-"   if getline('.')[col('.') - 2:col('.') - 1] == '""'
-"     return "\<right>"
-"   endif
-"   return '"'
-" endfunc
-
-" func! Rtick()
-"   if getline('.')[col('.') - 2:col('.') - 1] == '``'
-"     return "\<right>"
-"   endif
-"   return '`'
-" endfunc
-
 func! Backspace()
   if getline('.')[col('.') - 2:col('.') - 1] == '{}'
     return "\<right>\<bs>\<bs>"
@@ -107,4 +86,11 @@ function! Check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
+
+function! RustFormat()
+  normal mm
+  %s/\v((;|\{|\})@!.$\zs)/;/ge
+  %s/\v\{\zs;$|\}\zs;$//ge
+  normal gg=G`m
+endfunction
 

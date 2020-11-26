@@ -1,4 +1,4 @@
-Date: 30/Aug/2020  
+Date: 30/Aug/2020
 Tags: #typescript
 
 ## Files

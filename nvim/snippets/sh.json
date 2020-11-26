@@ -1,5 +1,5 @@
 {
-  "sh": {
+"sh": {
     "prefix": "sh",
     "body": [
       "#!/usr/bin/env sh"

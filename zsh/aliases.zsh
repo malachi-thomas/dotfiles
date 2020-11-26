@@ -25,6 +25,7 @@ alias emacs='emacs -l ~/dotfiles/emacs/init.el'
 alias edit='code .&& exit'
 alias -s js=code
 alias vfn='v ~/.config/nvim/functions.vim'
+alias vid='mpv'
 
 
 # Config Files
@@ -78,6 +79,7 @@ alias sleep='systemctl suspend'
 alias power='poweroff'
 alias i3='cd i3'
 alias update='yay -Syu; sudo pacman -Sc'
+alias pacman-keys='gpg --keyserver pool.sks-keyservers.net --recv-keys'
 
 # Windows
 if [ -d "/mnt/c/Users" ]

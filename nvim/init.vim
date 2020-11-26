@@ -1,10 +1,10 @@
 "=================================================================================================
 " Source Files
 source ~/.config/nvim/functions.vim
-source ~/.config/nvim/packadd.vim
+source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/plugin-configs.vim
 source ~/.config/nvim/mappings.vim
-"
+
 "==================================================================================================
 " Theme
 
@@ -17,8 +17,9 @@ set termguicolors
 
 "==================================================================================================
 " Lua
+
 if has('nvim-0.5')
- lua require 'init'
+  lua require 'init'
 endif
 
 "==================================================================================================
@@ -28,7 +29,7 @@ syntax enable
 filetype plugin indent on
 set wildmode=longest,full
 if has('nvim')
-  set listchars=tab:→\ ,eol:↲,trail:•
+  set listchars=tab:→\ ,eol:↲,trail:•,precedes:←,extends:→,nbsp:·
 endif
 set nobackup
 set nowritebackup
@@ -80,23 +81,26 @@ augroup autocmds
   autocmd!
   autocmd FileType markdown set ft=vimwiki
   autocmd FileType vimwiki setlocal spell
-"  autocmd VimEnter,SourcePost * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
+  autocmd VimEnter,SourcePost * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
   autocmd BufReadPost * normal g'"
   autocmd BufWritePre * %s/\t/  /ge
   autocmd BufWinEnter,WinEnter term://* start " if terminal window auto enter insert mode
   autocmd BufWrite ~/.tmux.conf silent !tmux source-file ~/.tmux.conf " source ~/.tmux.conf when you save ~/.tmux.conf
   autocmd BufRead ~/dotfiles/nvim/snippets/* set ft=jsonc
-  autocmd FocusGained,VimEnter * silent !xset r off
-  autocmd FocusLost,VimLeave * silent !xset r on
-  autocmd CursorMoved * normal zz
-  autocmd BufWritePre * %s/\s\+$//e
+  autocmd BufWritePre {*.c,*.cpp,*.h} normal mmgg=G`m
+  autocmd BufRead,BufEnter * call rainbow#load()
+  autocmd BufWritePre *.rs call RustFormat()
+  autocmd CursorMoved *  normal zz
+  autocmd vimenter,SourcePost * hi Search guibg=black guifg=#fe8019
+  autocmd BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
 
   if has('nvim-0.5')
     autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked
     autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
-"    autocmd BufEnter * lua require'completion'.on_attach() -- completion-nvim on all buffers
-"    autocmd BufEnter * lua require'diagnostic'.on_attach()
+    autocmd BufEnter * lua require'completion'.on_attach() -- completion-nvim on all buffers
+    " autocmd BufEnter * lua require'completion'.on_attach()
+
+
   endif
 augroup end
-
 

@@ -9,16 +9,16 @@ font pango:Fira Code: 12px
 exec --no-startup-id nm-applet
 exec --no-startup-id setxkbmap us
 exec --no-startup-id amixer set Master unmute
-exec --no-startup-id redshift -l 51.5:0 -t 5500:2500
+# exec --no-startup-id redshift -l 51.5:0 -t 5500:2500
 exec --no-startup-id exec ~/dotfiles/scripts/startup.sh
 exec --no-startup-id exec ~/dotfiles/scripts/sw.py
-# exec --no-startup-id exec ~/dotfiles/scripts/wacom-tablet.sh
 
 exec_always --no-startup-id exec betterlockscreen -u ~/dotfiles/wallpapers/nord.png
 exec_always --no-startup-id exec autotiling
 exec_always --no-startup-id feh --bg-fill ~/dotfiles/wallpapers/nord.png
 exec_always --no-startup-id sxhkd
-# exec_always --no-startup-id ~/.config/polybar/launch.sh
+exec_always --no-startup-id sh ~/dotfiles/scripts/sound-core-connect.sh
+exec~always --no-startup-id exec ~/dotfiles/polybar/launch.sh
 
 # window things
 default_border pixel 1
@@ -27,7 +27,7 @@ workspace_layout tabbed
 floating_modifier $mod
 
 #                       border  backgr. text    indicator
-client.focused          #FE8019 #FE8019 #000000 #FE8019 
+client.focused          #FE8019 #FE8019 #000000 #FE8019
 client.background       #000000
 
 bindsym Mod4+Mod1+q [class=".*"] kill
@@ -48,7 +48,7 @@ bindsym $mod+Shift+Left  move left 1415
 bindsym $mod+Shift+Right  move right 1415
 bindsym $mod+Shift+Up  move up 795
 bindsym $mod+Shift+Down  move down 795
-bindsym $mod+m fullscreen disable, floating enable, resize set 504 285, sticky enable, move window to position 1416 795
+# bindsym $mod+m fullscreen disable, floating enable, resize set 504 285, sticky enable, move window to position 1416 795
 
 # workspaces
 set $ws1 "1"

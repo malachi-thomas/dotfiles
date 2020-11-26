@@ -1,10 +1,6 @@
 if has('packages')
   if has('nvim-0.5')
-    " if filereadable('~/.config/nvim/pack/plugins/opt/nvim-lspconfig')
-      packadd! nvim-lspconfig
-    " else
-      " !git clone https://github.com/neovim/nvim-lspconfig ~/.config/nvim/pack/plugins/opt/nvim-lspconfig
-    " endif
+    packadd! nvim-lspconfig
     packadd! completion-nvim
     packadd! completion-buffers
     packadd! diagnostic-nvim

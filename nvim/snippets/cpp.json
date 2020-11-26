@@ -1,0 +1,118 @@
+{
+  "if": {
+    "prefix": "if",
+    "body": [
+      "if ($1) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "else": {
+    "prefix": "else",
+    "body": [
+      "else {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "printf": {
+    "prefix": "prinf",
+    "body": [
+      "printf($0)"
+    ]
+  },
+  "println": {
+    "prefix": "println",
+    "body": [
+      "println($0)"
+    ]
+  },
+  "scanf": {
+    "prefix": "scanf",
+    "body": [
+      "scanf($0)"
+    ]
+  },
+  "while": {
+    "prefix": "while",
+    "body": [
+      "while ($1) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "delay": {
+    "prefix": "delay",
+    "body": [
+      "delay($0);"
+    ]
+  },
+  "isPressed": {
+    "prefix": "isPressed",
+    "body": [
+      "isPressed()"
+    ]
+  },
+  "isReleased": {
+    "prefix": "isReleased",
+    "body": [
+      "isReleased()"
+    ]
+  },
+  "serial": {
+    "prefix": "serial",
+    "body": [
+      "Serial"
+    ]
+  },
+  "millis": {
+    "prefix": "millis",
+    "body": [
+      "millis();"
+    ]
+  },
+  "digitalRead": {
+    "prefix": "digitalRead",
+    "body": [
+      "digitalRead($0)"
+    ]
+  },
+  "for": {
+    "prefix": "for",
+    "body": [
+      "for (int i = 0; i < $1; i++) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "pragmaOnce": {
+    "prefix": "pragmaOnce",
+    "body": [
+      "#pragma once"
+    ]
+  },
+  "pinMode": {
+    "prefix": "pinMode",
+    "body": [
+      "pinMode($0)"
+    ]
+  },
+  "include": {
+    "prefix": "include",
+    "body": [
+      "#include $0"
+    ]
+  },
+  "keyboardPrint": {
+    "prefix": "keyboardPrint",
+    "body": [
+      "Keyboard.print($0)"
+    ]
+  },
+  "serialPrint": {
+    "prefix": "serialPrint",
+    "body": [
+      "Serial.println($0)"
+    ]
+  }
+}

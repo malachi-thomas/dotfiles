@@ -72,5 +72,29 @@
     "body": [
       "<nop>"
     ]
+  },
+  "ii": {
+    "prefix": "ii",
+    "body": [
+      "inoremap"
+    ]
+  },
+  "vv": {
+    "prefix": "vv",
+    "body": [
+      "vnoremap"
+    ]
+  },
+  "xx": {
+    "prefix": "xx",
+    "body": [
+      "xnoremap"
+    ]
+  },
+  "oo": {
+    "prefix": "oo",
+    "body": [
+      "onoremap"
+    ]
   }
 }

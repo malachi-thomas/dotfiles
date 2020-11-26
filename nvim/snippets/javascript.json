@@ -118,5 +118,53 @@
     "body": [
       "import mongoose from 'mongoose'"
     ]
+  },
+  "if": {
+    "prefix": "if",
+    "body": [
+      "if ($1) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "else": {
+    "prefix": "else",
+    "body": [
+      "else {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "for": {
+    "prefix": "for",
+    "body": [
+      "for (let i = 0; $1; i++)"
+    ]
+  },
+  "forOf": {
+    "prefix": "forOf",
+    "body": [
+      "for (i of $1) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "forin": {
+    "prefix": "forIn",
+    "body": [
+      "for (i in $1) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "map": {
+    "prefix": "map",
+    "body": [
+      "map($1 => $0)"
+    ]
+  },
+  "I": {
+    "prefix": "I",
+    "body": "import $0 from '$1'"
   }
 }

@@ -2,32 +2,25 @@
 
 " ale
 let g:ale_linters = {
-  \ 'typescript': ['eslint'],
-  \ 'typescriptreact': ['eslint'],
-  \ 'javascriptreact': ['eslint'],
-  \ 'javascript': ['eslint'],
-  \ 'json': ['fixjson'],
-  \ 'jsonc': ['fixjson'],
-  \ 'scss': ['stylelint'],
-  \ 'sass': ['stylelint'],
-  \ 'css': ['stylelint'],
-  \ 'markdown': ['prettier'],
-  \ 'vimwiki': ['prettier'],
-  \ 'python': ['autopep8']
+  \ 'javascript': 'eslint',
+  \ 'typescript': 'eslint',
+  \ 'javascriptreact': 'eslint',
+  \ 'typescriptreact': 'eslint',
+  \ 'json': 'fixjson',
+  \ 'jsonc': 'fixjson',
+  \ 'scss': 'stylelint',
+  \ 'sass': 'stylelint',
+  \ 'css': 'stylelint',
+  \ 'python': 'autopep8',
+  \ 'rust': 'analyzer'
   \ }
 let g:ale_fixers = {
-  \ 'typescript': ['prettier'],
-  \ 'typescriptreact': ['prettier'],
-  \ 'javascriptreact': ['prettier'],
-  \ 'javascript': ['eslint'],
-  \ 'json': ['fixjson'],
-  \ 'jsonc': ['fixjson'],
-  \ 'scss': ['prettier'],
-  \ 'sass': ['stylelint'],
-  \ 'css': ['stylelint'],
-  \ 'markdown': ['prettier'],
-  \ 'vimwiki': ['prettier'],
-  \ 'python': ['autopep8']
+  \ 'json': 'fixjson',
+  \ 'jsonc': 'fixjson',
+  \ 'scss': 'prettier',
+  \ 'sass': 'stylelint',
+  \ 'css': 'stylelint',
+  \ 'python': 'autopep8',
   \ }
 let g:ale_fix_on_save = 1
 let g:ale_set_highlights = 1
@@ -68,7 +61,7 @@ let g:completion_trigger_keyword_length = 1
 let g:completion_trigger_on_delete = 0
 let g:completion_enable_auto_signature = 0
 let g:completion_enable_auto_hover = 0
-let g:completion_sorting = 'length'
+let g:completion_sorting = 'none'
 let g:completion_confirm_key = ""
 let g:completion_enable_auto_paren = 0
 let g:completion_trigger_character = []
@@ -79,8 +72,7 @@ let g:completion_auto_change_source = 1
 
 
 let g:completion_chain_complete_list = [
-  \ {'complete_items': ['vim-vsnip']},
-  \ {'complete_items': ['lsp', 'buffer']},
+  \ {'complete_items': ['vim-vsnip' ,'lsp', 'buffer']},
   \{'mode': '<c-p>'},
   \{'mode': '<c-n>'}
   \ ]
@@ -93,9 +85,6 @@ let g:diagnostic_enable_virtual_text = 1
 let g:diagnostic_virtual_text_prefix = 'ﱢ'
 let g:space_before_virtual_text = 4
 let g:diagnostic_show_sign = 2
-
-" vim-rainbow
-let g:rainbow_active = 1
 
 " startify
 let g:startify_session_dir = '~/dotfiles/nvim/session'
@@ -123,10 +112,6 @@ let g:rooter_targets = '*'
 let g:rooter_silent_chdir = 1
 let g:rooter_patterns = ['=src', '=zsh', '=nvim', '=notes']
 
-" vim-snipe
-let g:snipe_jump_tokens = 'tehunosadicgprlmkwjvqzfybx'
-" nmap f <Plug>(snipe-f)
-" nmap F <Plug>(snipe-F)
 
 let g:clever_f_across_no_line = 1
 let g:clever_f_smart_case = 1
@@ -135,4 +120,7 @@ nmap , <Plug>(clever-f-repeat-back)
 
 let g:lightline = { 'colorscheme': 'gruvbox' }
 let g:indent_guides_enable_on_vim_startup = 1
+
+
+let g:indentLine_char_list = '|'
 
