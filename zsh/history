@@ -10031,3 +10031,20 @@ esac\
 : 1606551819:0;mv plank-ez planck-ez
 : 1606551820:0;la
 : 1606551840:0;commit 'new planck-ez layout' && push
+: 1606551847:0;la
+: 1606551850:0;cd planck-ez
+: 1606551852:0;la
+: 1606551859:0;mk source
+: 1606551859:0;la
+: 1606551862:0;cd source
+: 1606551912:0;dow
+: 1606551913:0;la
+: 1606551922:0;mv keyboard-layout.jpg keyboard-layout.json ~/dotfiles/keyboard-layouts/planck-ez
+: 1606551923:0;la
+: 1606551924:0;-
+: 1606551925:0;la
+: 1606551926:0;..
+: 1606551927:0;la
+: 1606551932:0;mv keyboard-layout.jpg layout
+: 1606551935:0;mv keyboard-layout.json json
+: 1606551939:0;commit 'new planck-ez layout' && push
