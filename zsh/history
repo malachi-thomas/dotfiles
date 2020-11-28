@@ -10073,3 +10073,5 @@ esac\
 : 1606552178:0;mv keyboard-layout.jpg layout
 : 1606552179:0;la
 : 1606552181:0;commit 'new planck-ez layout' && push
+: 1606552212:0;git add -a
+: 1606552215:0;git add -A
