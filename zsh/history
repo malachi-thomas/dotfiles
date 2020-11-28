@@ -10075,3 +10075,7 @@ esac\
 : 1606552181:0;commit 'new planck-ez layout' && push
 : 1606552212:0;git add -a
 : 1606552215:0;git add -A
+: 1606552222:0;git commit -m 'test' && push 
+: 1606552229:0;git push
+: 1606552243:0;rm layout/keyboard-layout.jpg json/keyboard-layout.json
+: 1606552247:0;commit 'new planck-ez layout' && push
