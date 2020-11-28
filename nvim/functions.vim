@@ -66,7 +66,7 @@ endfunc
 func! BufferClose()
   if len(getbufinfo({'buflisted':1})) > 1
     " more then one buffer open
-    if &readonly == 1 || expand('%') == '' || &buftype == 'terminal'
+    if &readonly == 1 || expand('%') == '' || &buftype == 'terminal' || &ft == 'fern'
       silent bd!
     else
       silent w! | bd!
@@ -75,6 +75,8 @@ func! BufferClose()
    " only one buffer open
     if &readonly == 1 || expand('%') == '' || &buftype == 'terminal'
       silent q!
+    elseif &ft == 'fern'
+      silent bw
     else
       silent wq!
     endif
@@ -89,8 +91,8 @@ endfunction
 
 function! RustFormat()
   normal mm
-  %s/\v((;|\{|\})@!.$\zs)/;/ge
-  %s/\v\{\zs;$|\}\zs;$//ge
+  %s/\v((;|\{|\}|\,)@!.$\zs)/;/ge
+  " %s/\v\{\zs;$|\}\zs;$//ge
   normal gg=G`m
 endfunction
 

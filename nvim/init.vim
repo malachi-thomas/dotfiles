@@ -93,6 +93,10 @@ augroup autocmds
   autocmd CursorMoved *  normal zz
   autocmd vimenter,SourcePost * hi Search guibg=black guifg=#fe8019
   autocmd BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
+  " autocmd VimEnter * if argc() == 0 | Fern . | endif " if vim opens without a file it will open wit Fern .
+  " autocmd VimEnter * if len(getbufinfo({'buflisted':1})) == 1 && expand('%') == '' | Fern . | endif
+
+
 
   if has('nvim-0.5')
     autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked

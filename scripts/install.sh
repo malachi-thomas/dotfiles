@@ -30,7 +30,7 @@ sudo pacman -S xf86-input-wacom
 sudo pacman -S alsa-utils
 sudo pacman -S redshift
 sudo pacman -S tmux
-sudo pacman -S emacs
+sudo pacman -S adobe-source-han-sans-jp-fonts
 
 yay betterlockscreen
 yay neovim-nightly

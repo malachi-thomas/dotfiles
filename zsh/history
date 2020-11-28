@@ -9868,3 +9868,166 @@ nvim
 : 1606378488:0;v main.rs
 : 1606381088:0;dot
 : 1606381102:0;commit 'random updates' && push
+: 1606381431:0;-
+: 1606381433:0;v main.rs
+: 1606382692:0;pac xfonts-intl-japanese
+: 1606382699:0;pac japanese
+: 1606382746:0;pac Gothic
+: 1606382804:0;pac routed-gothic-fonts
+: 1606382863:0;pac 	adobe-source-han-sans-jp-fonts
+: 1606382874:0;bin
+: 1606382876:0;v install.sh
+: 1606382916:0;cd
+: 1606382918:0;cd music
+: 1606382922:0;tree
+: 1606382931:0;sh music.sh
+: 1606382942:0;cd
+: 1606382948:0;cd ~/music
+: 1606382948:0;la
+: 1606382951:0;tree
+: 1606382968:0;la
+: 1606382983:0;cd lucas-king
+: 1606382983:0;la
+: 1606382992:0;mocp .
+: 1606383317:0;export LANG=ja_JP.eucJP
+: 1606383324:0;cd music
+: 1606383325:0;la
+: 1606383326:0;cd all
+: 1606383327:0;la
+: 1606383351:0;echo -n "Which language would you like to use (default en_GB)?"\
+read LANGUAGE\
+case $LANGUAGE in\
+        j) export LANG=ja_JP.eucJP\
+        export LC_ALL=ja_JP.eucJP\
+        echo "Language is set to Japanese"\
+        ;;\
+        ja) export LANG=ja_JP.eucJP\
+        export LC_ALL=ja_JP.eucJP\
+        echo "Language is set to Japanese"\
+        ;;\
+        en ) export LANG=en_GB.UTF-8, export LC_ALL=en_GB.UTF-8\
+        echo "Language is set to English GB"\
+        ;;\
+        * ) echo "Using default English GB"\
+        ;;\
+esac\
+
+: 1606383359:0;la
+: 1606383366:0;cd ~/music
+: 1606383367:0;la
+: 1606383368:0;cd all
+: 1606383369:0;la
+: 1606388001:0;v
+: 1606388169:0;cd ~/code/project-steno/software/rust/src
+: 1606388171:0;v main.rs
+: 1606388309:0;mocp
+: 1606388532:0;irc
+: 1606388670:0;mocp
+: 1606390951:0;pac rpi
+: 1606390965:0;pac rpi-ima
+: 1606391142:0;ls -al /dev/sda
+: 1606391153:0;sudo rpi-imager
+: 1606398442:0;v
+: 1606398463:0;v .
+: 1606398469:0;vpl
+: 1606398514:0;irc
+: 1606398535:0;zsh
+: 1606398960:0;vpl
+: 1606398999:0;v
+: 1606399008:0;v 
+: 1606399027:0;z src
+: 1606399030:0;v main.rs
+: 1606399085:0;vma
+: 1606399417:0;vrc
+: 1606399544:0;v
+: 1606399642:0;vrc
+: 1606399715:0;v
+: 1606399919:0;vrc
+: 1606399949:0;v
+: 1606399956:0;vrc
+: 1606399965:0;v
+: 1606401991:0;vrc
+: 1606401995:0;v
+: 1606402002:0;vrc
+: 1606409969:0;cd ~/shows/strike-the-blood-2
+: 1606409970:0;vid EP.6.1080p.mp4
+: 1606410534:0;vid EP.7.1080p.mp4
+: 1606415671:0;dow
+: 1606415671:0;la
+: 1606415675:0;cd ~/shows/strike-the-blood-2
+: 1606415680:0;vid EP.8.1080p.mp4
+: 1606417697:0;..
+: 1606417701:0;cd kenja-no-mago
+: 1606417702:0;la
+: 1606417736:0;dow
+: 1606417744:0;ls *mp4*
+: 1606417746:0;la
+: 1606417751:0;mv *.mp4* ~/shows/kenja-no-mago
+: 1606417759:0;cd ~/shows/kenja-no-mago
+: 1606417759:0;la
+: 1606417768:0;rma EP.11.1080p.mp4.crdownload
+: 1606417770:0;la
+: 1606417927:0;l
+: 1606417928:0;la
+: 1606421118:0;dow
+: 1606421121:0;mv *.mp4* ~/shows/kenja-no-mago
+: 1606421123:0;-
+: 1606421124:0;la
+: 1606421127:0;dow
+: 1606421127:0;la
+: 1606421146:0;-
+: 1606421148:0;la
+: 1606421158:0;rm *crd
+: 1606421159:0;la
+: 1606421162:0;rm *crd*
+: 1606421163:0;la
+: 1606421205:0;vid EP.1.1080p.mp4
+: 1606422555:0;vid EP.2.1080p.mp4
+: 1606424118:0;vid EP.3.1080p.mp4
+: 1606425632:0;vid EP.4.1080p.mp4
+: 1606428211:0;betterlockscreen -s
+: 1606467961:0;vpl
+: 1606516365:0;cd ~/shows/kenja-no-mago
+: 1606516365:0;la
+: 1606516410:0;dow
+: 1606516411:0;la
+: 1606516419:0;-
+: 1606516419:0;la
+: 1606516657:0;vid EP.4.1080p.mp4
+: 1606516693:0;vid EP.5.1080p.mp4
+: 1606518868:0;betterlockscreen -s
+: 1606551636:0;dot
+: 1606551638:0;cd keyboard
+: 1606551639:0;la
+: 1606551649:0;rm keyboard-layout.json
+: 1606551658:0;..
+: 1606551658:0;la
+: 1606551667:0;mv keyboard keyboard-layouts
+: 1606551668:0;la
+: 1606551671:0;cd keyboard-layouts
+: 1606551671:0;la
+: 1606551678:0;mk plank-ez
+: 1606551680:0;cd plank-ez
+: 1606551681:0;la
+: 1606551695:0;mk json layout
+: 1606551696:0;la
+: 1606551700:0;dow
+: 1606551701:0;la
+: 1606551706:0;mv *.mp4* ~/shows/kenja-no-mago
+: 1606551706:0;la
+: 1606551723:0;rma Considering\ Rust.opus easyeda-linux-x64-6.4.7.zip easyeda-linux-x64.zip How\ to\ install\ and\ uninstall.txt install.sh mpv-shot0001.jpg mpv-shot0002.jpg mpv-shot0003.jpg mpv-shot0004.jpg mpv-shot0005.jpg pathman-v0.5.2-linux-amd64.tar.gz uninstall.sh 
+: 1606551726:0;la
+: 1606551735:0;ranger
+: 1606551751:0;mv keyboard-layout.json keyboard-layout.jpg ~/dotfiles/keyboard-layouts/plank-ez
+: 1606551753:0;-
+: 1606551754:0;la
+: 1606551758:0;mv keyboard-layout.jpg layout
+: 1606551758:0;la
+: 1606551761:0;mv keyboard-layout.json json
+: 1606551762:0;la
+: 1606551809:0;..
+: 1606551813:0;cd keyboard-layouts/
+: 1606551813:0;la
+: 1606551819:0;mv plank-ez planck-ez
+: 1606551820:0;la
+: 1606551840:0;commit 'new planck-ez layout' && push

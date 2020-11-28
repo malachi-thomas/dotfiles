@@ -96,5 +96,17 @@
       "\t$0",
       "}"
     ]
+  },
+  "vec": {
+    "prefix": "vec",
+    "body": [
+      "vec![$0]"
+    ]
+  },
+  "enumerate": {
+    "prefix": "enumerate",
+    "body": [
+      "enumerate()"
+    ]
   }
 }
