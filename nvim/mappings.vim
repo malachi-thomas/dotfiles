@@ -15,6 +15,10 @@ nnoremap { }
 nnoremap } {
 nnoremap f f
 inoremap <home> <c-o>^
+nnoremap <ScrollWheelUp> k
+nnoremap <ScrollWheelDown> j
+inoremap <ScrollWheelUp> <up>
+inoremap <ScrollWheelDown> <down>
 
 
 

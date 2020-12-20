@@ -37,7 +37,7 @@ yay neovim-nightly
 yay espanso
 yay notify-osd-customizable
 yay visual-studio-code-bin
-
+yay autotiling
 
 pip install togglCli
 pip3 install pynvim

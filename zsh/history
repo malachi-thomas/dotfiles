@@ -1,575 +1,3 @@
-: 1602773470:0;cd
-: 1602773479:0;cd dotfiles/history
-: 1602773481:0;la
-: 1602773483:0;..
-: 1602773486:0;to history
-: 1602773487:0;la
-: 1602773495:0;rma history
-: 1602773498:0;cd zsh
-: 1602773501:0;la
-: 1602773504:0;v history
-: 1602773784:0;zsh
-: 1602774500:0;amixer set 
-: 1602774511:0;amixer set Master unmute
-: 1602774753:0;espanso edit
-: 1602775521:0;df -h
-: 1602775648:0;espanso edit
-: 1602775687:0;dot
-: 1602775693:0;mk espanso
-: 1602775694:0;la
-: 1602775698:0;cd espanso
-: 1602775838:0;espanso edit
-: 1602776287:0;la
-: 1602776298:0;cp ~/.config/espanso/default.yml .
-: 1602776299:0;la
-: 1602776302:0;v default.yml
-: 1602776367:0;bin
-: 1602776371:0;v relink.sh
-: 1602776438:0;so
-: 1602776444:0;sh relink.sh
-: 1602776450:0;v 
-: 1602776453:0;v relink.sh
-: 1602776461:0;sh relink.sh
-: 1602776491:0;man fzf
-: 1602776706:0;zsh
-: 1602776711:0;lo
-: 1602776713:0;la
-: 1602776718:0;cd
-: 1602776729:0;fd
-: 1602776730:0;pac
-: 1602776733:0;pac fd
-: 1602776737:0;zsh
-: 1602776747:0;so
-: 1602776753:0;zsh
-: 1602776789:0;fd --type d
-: 1602776801:0;zsh
-: 1602776815:0;so
-: 1602776859:0;zsh
-: 1602776864:0;so
-: 1602776871:0;zsh
-: 1602776940:0;so
-: 1602776944:0;zsh
-: 1602776980:0;la
-: 1602777085:0;rma .fzf.zsh .fzf.bash .shell.pre-oh-my-zsh .zcompdump .z .zsh_history .zshrc.pre-oh-my-zsh .zshrc.pre-oh-my-zsh-2020-10-15_10-29-11
-: 1602777088:0;so
-: 1602777091:0;cd
-: 1602777116:0;zsh
-: 1602777127:0;so
-: 1602777129:0;zsh
-: 1602777164:0;so
-: 1602777171:0;zsh
-: 1602777176:0;so
-: 1602777191:0;zsh
-: 1602777207:0;so
-: 1602777219:0;zsh
-: 1602777229:0;man fd
-: 1602777259:0;.config/oh-my-zsh/plugins/fzf 
-: 1602777261:0;la
-: 1602777268:0;zsh
-: 1602777483:0;.config/espanso/user 
-: 1602777483:0;la
-: 1602777485:0;..
-: 1602777487:0;rma user
-: 1602777505:0;zsh
-: 1602777517:0;nvim --startuptime vim.vim vim.vim
-: 1602777554:0;vpl
-: 1602777989:0;cd
-: 1602778127:0;v .ssh 
-: 1602778147:0;pwd
-: 1602778148:0;la
-: 1602778612:0;ls -a | wc -l
-: 1602778726:0;la
-: 1602778729:0;rma yay
-: 1602778731:0;la
-: 1602778761:0;rma Pictures Documents Music Public Templates Videos 
-: 1602778762:0;la
-: 1602778775:0;rm .bash_history Desktop 
-: 1602778778:0;rma .bash_history Desktop 
-: 1602778779:0;la
-: 1602778935:0;rm .dmrc gutentags_cache
-: 1602778939:0;rma gutentags_cache
-: 1602778940:0;la
-: 1602778949:0;vim
-: 1602778952:0;nrc
-: 1602778955:0;vpc
-: 1602779024:0;la
-: 1602779028:0;rma gutentags_cache
-: 1602779030:0;la
-: 1602779034:0;cd .config
-: 1602779035:0;la
-: 1602779039:0;cd all-the-tags
-: 1602779040:0;la
-: 1602779049:0;cd
-: 1602779050:0;la
-: 1602779059:0;rm .gitconfig 
-: 1602779246:0;v .zshenv
-: 1602779531:0;cd dotfiles/zsh
-: 1602779536:0;la
-: 1602779550:0;to varibles.zsh
-: 1602779551:0;la
-: 1602779572:0;v variable.zsh
-: 1602779603:0;rm variable.zsh 
-: 1602779604:0;v variable.zsh
-: 1602779992:0;la
-: 1602779996:0;...
-: 1602779997:0;la
-: 1602780027:0;rm .bashrc .tmux.conf .xsession-errors .xsession-errors.old .z
-: 1602780028:0;la
-: 1602780034:0;rm .zshrc
-: 1602780035:0;la
-: 1602780037:0;so
-: 1602780038:0;la
-: 1602780052:0;v .zshenv
-: 1602780546:0;bin
-: 1602780552:0;cd
-: 1602780554:0;cd dotfiles/zsh
-: 1602780561:0;mv variable.zsh variables.zsh
-: 1602780566:0;v variables.zsh
-: 1602780573:0;rm varibles.zsh
-: 1602780573:0;la
-: 1602780576:0;v variables.zsh
-: 1602780711:0;..
-: 1602780721:0;v .zshenv
-: 1603181506:0;echo $VENDOR
-: 1603181506:0;cd dotfiles/zsh
-: 1603181506:0;v variables.zsh
-: 1603181506:0;so
-: 1603181506:0;so
-: 1603181506:0;v variables.zsh
-: 1603181506:0;so
-: 1603181506:0; la
-: 1603181506:0;..
-: 1603181506:0;..
-: 1603181506:0;sa
-: 1603181506:0;so
-: 1603181506:0;la
-: 1603181506:0;rm vimrc
-: 1603181506:0;la
-: 1603181506:0;so
-: 1603181506:0;cd dotfiles/zsh
-: 1603181506:0;la
-: 1603181506:0;la
-: 1603181506:0;so
-: 1603181506:0;...
-: 1603181506:0;v .zshenv
-: 1603181506:0;la
-: 1603181506:0;rm .z
-: 1603181506:0;la
-: 1603181506:0;vim
-: 1603181506:0;pac vim
-: 1603181506:0;la
-: 1603181506:0;zsh
-: 1603181506:0;lo
-: 1603181506:0;la
-: 1603181506:0;rm .zcompdump-malachi-5.8 .zcompdump.malachi.14450 .zcompdump
-: 1603181506:0;la
-: 1603181506:0;bin
-: 1603181506:0;so
-: 1603181506:0;la
-: 1603181506:0;rm vimrc
-: 1603181506:0;la
-: 1603181506:0;..
-: 1603181506:0;bin
-: 1603181506:0;rma yay
-: 1603181506:0;..
-: 1603181506:0;..
-: 1603181506:0;la
-: 1603181506:0;la
-: 1603181506:0;la
-: 1603181506:0;v .zshenv
-: 1603181506:0;vim
-: 1603181506:0;la
-: 1603181506:0;la
-: 1603181506:0;v .ssr
-: 1603181506:0;la
-: 1603181506:0;ls -a | wc -l
-: 1603181506:0;sh relink.sh
-: 1603181506:0;la
-: 1603181506:0;bin
-: 1603181506:0;v relink.sh
-: 1603181506:0;so
-: 1603181506:0;so
-: 1603181506:0;la
-: 1603181506:0;..
-: 1603181506:0;..
-: 1603181506:0;la
-: 1603181506:0;rm .tmux.conf .viminfo .z .zshrc vimrc
-: 1603181506:0;la
-: 1603181506:0;sh relink.sh
-: 1603181506:0;la
-: 1603181506:0;la
-: 1603181506:0;to .zprofile
-: 1603181506:0;la
-: 1603181506:0;cp .zshenv .zprofile
-: 1603181506:0;v .zprofile
-: 1603181506:0;so
-: 1603181506:0;so
-: 1603181506:0;la
-: 1603181506:0;echo $ZDOTDIR
-: 1603181506:0;cd dotfiles/zsh
-: 1603181506:0;v variables.zsh
-: 1603181506:0;cd dotfiles/zsh
-: 1603181506:0;v variables.zsh
-: 1603181506:0;so
-: 1603181506:0;cd
-: 1603181506:0;v
-: 1603181506:0;so
-: 1603181506:0;la
-: 1603181506:0;rm .z
-: 1603181506:0;la
-: 1603181506:0;so
-: 1603181506:0;la
-: 1603181506:0;so
-: 1603181506:0;so
-: 1603181506:0;bin
-: 1603181506:0;cd
-: 1603181506:0;cd dotfiles/zsh
-: 1603181506:0;v aliases.zsh
-: 1603181506:0;so
-: 1603181506:0;so
-: 1603181506:0;la
-: 1603181506:0;so
-: 1603181506:0;so
-: 1603181506:0;so
-: 1603181506:0;la
-: 1603181506:0;la
-: 1603181506:0;rm .z
-: 1603181506:0;la
-: 1602782691:0;ls -a | wc -l
-: 1602782730:0;echo $XAUTHORITY
-: 1602782733:0;la
-: 1602782747:0;echo $XDG_RUNTIME_DIR
-: 1602782762:0;v .Xauthority
-: 1602782766:0;rm .Xauthority
-: 1602782771:0;cd dotfiles/zsh
-: 1602782775:0;v variables.zsh
-: 1602782815:0;la
-: 1602782888:0;sxh
-: 1602782910:0;kitty
-: 1602783017:0;cd .config
-: 1602783020:0;v .Xauthority
-: 1602783046:0;cd dotfiles/zsh
-: 1602783050:0;v variables.zsh
-: 1602783061:0;so
-: 1602783064:0;la
-: 1602783065:0;...
-: 1602783066:0;la
-: 1602783070:0;ls -a | wc -l
-: 1602784393:0;la
-: 1602784559:0;cd dotfiles/zsh
-: 1602784562:0;v variables.zsh
-: 1602784597:0;cd
-: 1602784603:0;rm .xsession-errors .xsession-errors.old
-: 1602784604:0;la
-: 1602784614:0;lo
-: 1602784615:0;la
-: 1602784628:0;as
-: 1602784630:0;la
-: 1602784639:0;ls -a | wc -l
-: 1602784695:0;export XAUTHORITY="$XDG_CONFIG_HOME/X11/Xauthority"
-: 1602784701:0;cd dotfiles/zsh
-: 1602784705:0;v variables.zsh
-: 1602784720:0;cd
-: 1602784723:0;rm .Xauthority
-: 1602784734:0;la
-: 1602784890:0;xauth -f ~/.Xauthority
-: 1602784933:0;la
-: 1602785007:0;v .zshenv
-: 1602785059:0;zsh
-: 1602785081:0;la
-: 1602785115:0;cd dotfiles/zsh
-: 1602785117:0;v variables.zsh
-: 1602785130:0;la
-: 1602785141:0;v .xprofile
-: 1602785201:0;v .zprofile
-: 1602785267:0;v .zshenv
-: 1602785274:0;la
-: 1602785279:0;v a.out
-: 1602785281:0;la
-: 1603181506:0;la
-: 1602785315:0;mv .zshenv hello
-: 1602785317:0;la
-: 1602785443:0;la
-: 1602785444:0;ls
-: 1602785448:0;ls -a
-: 1602785462:2;nvim .xprofile
-: 1602785473:3;nvim .zprofile
-: 1602785511:0;source ~/dotfiles/zsh/variables.zsh
-: 1602785525:0;source ~/dotfiles/zsh/.zshrc
-: 1602785527:0;la
-: 1602785561:0;mv hello .zshenv
-: 1602785566:0;v v .zshenv
-: 1602785573:0;v .zshenv
-: 1602785608:0;rm .xprofile
-: 1602785608:0;la
-: 1602785612:0;v .zshenv
-: 1602785631:0;so
-: 1602785633:0;la
-: 1603181506:0;v .zshenv
-: 1603181506:0;so
-: 1603181506:0;la
-: 1603181506:0;la
-: 1603181506:0;rm v
-: 1603181506:0;la
-: 1603181506:0;rm .zprofile
-: 1603181506:0;la
-: 1603181506:0;rm .xsession-errors.old
-: 1603181506:0;la
-: 1603181506:0;la
-: 1603181506:0;dot
-: 1603181506:0;commit "zsh updates"
-: 1603181506:0;..
-: 1603181506:0;la
-: 1603181506:0;cd .config
-: 1603181506:0;la
-: 1603181506:0;..
-: 1603181506:0;dot
-: 1603181506:0;commit "zsh updates"
-: 1603181506:0;bin
-: 1603181506:0;v ssh.sh
-: 1603181506:0;v ssh.sh
-: 1603181506:0;git config --global user.email "thomasmalachi18@gmail"\
-git config --global user.name "banana_llarma"\
-
-: 1603181506:0;dot
-: 1603181506:0;commit "zsh updates"
-: 1603181506:0;push
-: 1603181506:0;sh music.sh
-: 1602790313:0;uefi
-: 1602790508:0;pac chrome
-: 1603181506:0;pac google-chrome-dev
-: 1602790964:0;bin
-: 1602790966:0;v startup.sh
-: 1602790988:0;sh startup.sh
-: 1602791010:0;la
-: 1602791020:0;..
-: 1602791022:0;zsh
-: 1602791036:0;cd zsh
-: 1602791046:0;v history
-: 1602791050:0;la
-: 1602791063:0;v .zcompdump
-: 1602791155:0;autoload -Uz compinit && compinit‚Ä©\
-
-: 1602791163:0;v config.zsh
-: 1602791222:0;v .zshenv
-: 1602791230:0;cp ~/.zshenv .
-: 1602791231:0;la
-: 1602791233:0;v .zshenv
-: 1602791236:0;la
-: 1602791238:0;bin
-: 1602791246:0;v relink.sh
-: 1602791297:0;sh relink.sh
-: 1602791305:0;v relink.sh
-: 1602792024:0;[ -f hello ]
-: 1602792030:0;echo [ -f hello ]
-: 1602792045:0;[ ! -f hello ] && echo hello
-: 1602792048:0;[  -f hello ] && echo hello
-: 1602792054:0;la
-: 1602792060:0;v relink.sh
-: 1602792272:0;so
-: 1602792274:0;sh relink.sh
-: 1602792285:0;v relink.sh
-: 1602792349:0;lo
-: 1602792350:0;so
-: 1602792355:0;sh relink.sh
-: 1602792358:0;cd
-: 1602792360:0;la
-: 1602792526:0;bin
-: 1602792603:0;pac Kazam
-: 1602792645:0;kazam
-: 1602792678:0;bin
-: 1602792740:0;la
-: 1602792748:0;ranger
-: 1602792787:0;screenkey
-: 1602792791:0;pac screenkey
-: 1602792802:0;screenkey
-: 1602792807:0;kazam
-: 1602792842:0;bin
-: 1602792856:0;cd
-: 1602792864:0;cd dotfiles
-: 1602792882:0;pkill kazam
-: 1602792884:0;la
-: 1602792885:0;cd
-: 1602792885:0;la
-: 1602792892:0;v kazam_f18pef5x.movie
-: 1602792898:0;ls -l
-: 1602792910:0;ranger
-: 1602792958:0;rm kazam_f18pef5x.movie
-: 1602792973:0;ranger
-: 1602792994:0;rm *.movi
-: 1602792996:0;la
-: 1602792999:0;rm *.movie
-: 1602793000:0;la
-: 1602793005:0;kazam
-: 1602793033:0;bin
-: 1602793049:0;nvim react.sh
-: 1602793062:0;ranger
-: 1602793076:0;file
-: 1602793205:0;kazam
-: 1602793228:0;ranger
-: 1602793374:0;kit
-: 1602793384:0;bin
-: 1602793390:0;..
-: 1602793396:0;cd 
-: 1602793399:0;cd dotfiles
-: 1602793627:0;cd
-: 1602793634:0;cd Downloads
-: 1602793639:0;..
-: 1602793646:0;v music
-: 1602793920:0;cd Downloads
-: 1602793921:0;..
-: 1602793928:0;v Downloads
-: 1602794332:0;pacr zsh
-: 1602794341:0;cd
-: 1602794343:0;so
-: 1602794345:0;la
-: 1602794352:0;kitty
-: 1602794358:0;pac zsh
-: 1602794378:0;prompt off
-: 1602794380:0;cd
-: 1602794387:0;cd dotfiles
-: 1602794438:0;zsh
-: 1602794446:0;so
-: 1602794455:0;cd /
-: 1602794470:0;cd home/malachi/dotfiles/zsh
-: 1602794483:0;cd theam/pure
-: 1602794484:0;la
-: 1602794492:0;v pure.zsh
-: 1602794505:0;zsh
-: 1602794531:0;cdcd
-: 1602794533:0;cd
-: 1602794542:0;sh pure.plugin.zsh
-: 1602794554:0;source ./pure.plugin.zsh
-: 1602794566:0;zsh
-: 1602794575:0;so
-: 1602794577:0;cd
-: 1602794582:0;zsh
-: 1602794657:0;cd
-: 1602794669:0;zsh
-: 1602794686:0;cd
-: 1602794703:0;so
-: 1602794705:0;cd
-: 1602794716:0;cd 
-: 1602794739:0;zsh
-: 1602794754:0;cd hello
-: 1602794763:0;zsh
-: 1602794782:0;so
-: 1602794786:0;c
-: 1602794829:0;cd
-: 1602794848:0;rm kazam_ajo91qnp.movie kazam_ugvtpk43.movie
-: 1602794851:0;dow
-: 1602794852:0;la
-: 1602794863:0;rm com.toggl.TogglDesktop\(1\).flatpakref com.toggl.TogglDesktop.flatpakref kazam_ajo91qnp\ \(3\).movie 
-: 1602794864:0;la
-: 1602794865:0;..
-: 1602794866:0;la
-: 1602794879:0;v .gitconfig
-: 1602794990:0;echo $G
-: 1602795005:0;zsh
-: 1602795022:0;so
-: 1602795027:0;zsh
-: 1602795038:0;so
-: 1602795047:0;cd dotfiles
-: 1602795049:0;zsh
-: 1602795058:0;so
-: 1602795061:0;zsh
-: 1602795065:0;so
-: 1602795071:0;cd dotfiles
-: 1602795075:0;zsh
-: 1602795101:0;so
-: 1602795105:0;zsh
-: 1602795122:0;so
-: 1602795126:0;zsh
-: 1602795138:0;so
-: 1602795139:0;la
-: 1602795150:0;cd zsh
-: 1602795151:0;zsh
-: 1602795166:0;so
-: 1602795170:0;zsh
-: 1602795175:0;so
-: 1602795180:0;cd dotfiles
-: 1602795183:0;zsh
-: 1602795189:0;so
-: 1602795194:0;zsh
-: 1602795275:0;ÔÅÉÅ
-: 1602795276:0;zsh
-: 1602795285:0;so
-: 1602795289:0;zsh
-: 1602795294:0;so
-: 1602795301:0;zsh
-: 1602795325:0;so
-: 1602795330:0;zsh
-: 1602795334:0;so
-: 1602795346:0;zsh
-: 1602795350:0;so
-: 1602795354:0;cd qmk
-: 1602795361:0;zsh
-: 1602795373:0;so
-: 1602795377:0;cd plank-ez
-: 1602795387:0;zsh
-: 1602795394:0;so
-: 1602795396:0;cd plank-ez
-: 1602795399:0;..
-: 1602795401:0;cd iris-keyboard
-: 1602795455:0;zsh
-: 1602795462:0;so
-: 1602795465:0;zsh
-: 1602795580:0;cd Downloads
-: 1602795585:0;zsh
-: 1602795681:0;cd music
-: 1602795691:0;cd Downloads
-: 1602795767:0;so
-: 1602795771:0;zsh
-: 1602795787:0;zsh
-: 1602795850:0;echo $TERM\
-
-: 1602795884:0;zsh
-: 1602795891:0;so
-: 1602795893:0;zsh
-: 1602795908:0;ld 
-: 1602795910:0;cd dotfiles
-: 1602795913:0;zsh
-: 1602795926:0;so
-: 1602795931:0;zsh
-: 1602795946:0;cd dotfiles
-: 1602796055:0;zsh
-: 1602796067:0;cd Downloads
-: 1602796075:0;v planck_ez_dvorak-layout_qnLDA_edzQJ.bin
-: 1602796084:0;zsh
-: 1602796089:0;so
-: 1602796095:0;zsh
-: 1602796138:0;so
-: 1602796140:0;cd 
-: 1602796142:0;cd Downloads
-: 1602796145:0;..
-: 1602796152:0;cd dotfiles/espanso
-: 1602796174:0;PROMPT=$'%{$fg_bold[red]%}User@%m %{$fg[blue]%}%D{[%X]} %{$reset_color%}%{$fg[white]%}[%~]%{$reset_color%} $(git_prompt_info)\\
-%{$fg_bold[blue]%} %{^%{$reset_color%} '\
-
-: 1602796175:0;cd
-: 1602796177:0;PROMPT=$'%{$fg_bold[red]%}User@%m %{$fg[blue]%}%D{[%X]} %{$reset_color%}%{$fg[white]%}[%~]%{$reset_color%} $(git_prompt_info)\\
-%{$fg_bold[blue]%} %{^%{$reset_color%} '\
-
-: 1602796196:0;cd
-: 1602796202:0;cd music
-: 1602796208:0;..
-: 1602796212:0;cd dotfiles/espanso
-: 1602796225:0;zsh
-: 1602796231:0;so
-: 1602796234:0;..
-: 1602796238:0;cd dotfiles/espanso
-: 1602796247:0;cd
-: 1602796249:0;v dotfiles
-: 1602796296:0;zsh
-: 1602796300:0;so
-: 1602796302:0;cd dotfiles
-: 1602796303:0;zsh
-: 1602796332:0;so
-: 1602796336:0;la
-: 1602796338:0;zsh
-: 1602796349:0;so
-: 1602796352:0;zsh
-: 1602796357:0;so
 : 1602796362:0;zsh
 : 1602796415:0;so
 : 1602796419:0;zsh
@@ -10086,3 +9514,911 @@ esac\
 : 1606552282:0;mv keyboard-layout.jpg layout
 : 1606552285:0;mv keyboard-layout.json json
 : 1606552292:0;commit 'new planck-ez layout'
+: 1606552297:0;push
+: 1606554290:0;mocp
+: 1606554372:0;pulseaudio -k
+: 1606555359:0;dow
+: 1606555359:0;la
+: 1606555365:0;wally
+: 1606555368:0;./wally
+: 1606555381:0;./wally planck_ez_dvorak-keyboard-layout-v2_ODwZg_Rg6K4.bin
+: 1606557347:0;dow
+: 1606557355:0;./wally
+: 1606571713:0;pulseaudio -k
+: 1606571720:0;mocp 
+: 1606573532:0;file
+: 1606574980:0;cd ~/code/project-steno/software/src
+: 1606574981:0;la
+: 1606574988:0;v main.cpp
+: 1606584941:0;cd ~/code/project-steno/software/src
+: 1606584942:0;la
+: 1606584948:0;rma defaultOutput.h.gch
+: 1606584950:0;la
+: 1606585134:0;v main.cpp
+: 1606585327:0;ls -lah /dev/ttyACM0
+: 1606586601:0;dow
+: 1606586601:0;la
+: 1606586608:0;cd ~/shows/kenja-no-mago
+: 1606586608:0;la
+: 1606586642:0;..
+: 1606586668:0;mk code-geass-1
+: 1606586675:0;mk code-geass-2 code-geass-3
+: 1606586676:0;la
+: 1606586992:0;htop
+: 1606587058:0;pac bashtop
+: 1606587066:0;bashtop
+: 1606593936:0;cd ~/shows/kenja-no-mago
+: 1606593938:0;vid EP.5.1080p.mp4
+: 1606593988:0;vid 
+: 1606593993:0;vid EP.6.1080p.mp4
+: 1606599112:0;cd ~/shows/kenja-no-mago
+: 1606599145:0;vid EP.7.1080p.mp4
+: 1606643355:0;pulseaudio -k
+: 1606644080:0;z src
+: 1606644082:0;la
+: 1606644086:0;v main.cpp
+: 1606647128:0;z src
+: 1606647132:0;v main.cpp
+: 1606648614:0;pulseaudio -k
+: 1606658991:0;irc
+: 1606659053:0;pac autotile
+: 1606659059:0;pac tile
+: 1606659113:0;pac auto-tiling
+: 1606659125:0;pac autotil
+: 1606659183:0;pac autotiling
+: 1606659188:0;dow
+: 1606659191:0;dot
+: 1606659192:0;cd
+: 1606659199:0;bin
+: 1606659201:0;v install.sh
+: 1606659287:0;z src
+: 1606659291:0;v main.cpp
+: 1606660796:0;lrc
+: 1606660801:0;v main.cpp
+: 1606660885:0;lrc
+: 1606660916:0;v main.cpp
+: 1606660923:0;lrc
+: 1606661007:0;v main.cpp
+: 1606663458:0;pulseaudio -k
+: 1606668175:0;..
+: 1606668176:0;la
+: 1606668179:0;cd software
+: 1606668179:0;la
+: 1606668183:0;rma rust
+: 1606668185:0;la
+: 1606668196:0;v .gitignore
+: 1606668205:0;cd src
+: 1606668206:0;la
+: 1606668209:0;v main.cpp
+: 1606670612:0;cd ~/shows/kenja-no-mago
+: 1606670613:0;la
+: 1606670619:0;vid EP.8.1080p.mp4
+: 1606671677:0;vid EP.9.1080p.mp4
+: 1606672803:0;vid EP.10.1080p.mp4
+: 1606675589:0;vid EP.11.1080p.mp4
+: 1606675598:0;la
+: 1606675609:0;mpv EP.11.1080p.mp4
+: 1606677041:0;vid EP.12.1080p.mp4
+: 1606678604:0;dow
+: 1606678604:0;la
+: 1606678615:0;rm EP.11.1080p.mp4
+: 1606678621:0;cd shows
+: 1606678621:0;la
+: 1606678633:0;mv *.mp4* ~/shows/code-geass-1
+: 1606678634:0;la
+: 1606678658:0;pulseaudio -k
+: 1606678891:0;mk Gunjou-no-Magmel
+: 1606678892:0;la
+: 1606678906:0;mv Gunjou-no-Magmel gunjou-no-magmel 
+: 1606678907:0;la
+: 1606679877:0;dow
+: 1606679878:0;la
+: 1606680836:0;bashtop
+: 1606681157:0;la
+: 1606681251:0;cd ~/shows/code-geass-1
+: 1606681326:0;vid EP.1.360p.mp4
+: 1606683082:0;dfow
+: 1606683083:0;dow
+: 1606683083:0;la
+: 1606683343:0;cd ~/shows/code-geass-1
+: 1606683347:0;vid EP.2.720p.mp4
+: 1606686522:0;mv EP.13.1080p\ \(1\).mp4 EP.13.1080p.mp4
+: 1606686523:0;la
+: 1606720522:0;dow
+: 1606720523:0;la
+: 1606720591:0;z src
+: 1606720592:0;la
+: 1606720594:0;v main.cpp
+: 1606723395:0;v defaultOutput2.h
+: 1606723409:0;rma defaultOutput2.h
+: 1606723411:0;la
+: 1606723441:0;v main.cpp
+: 1606726442:0;mocp
+: 1606726452:0;pulseaudio -k
+: 1606737666:0;mocp
+: 1606740934:0;pulseaudio -k
+: 1606745575:0;bashtop
+: 1606747668:0;pulseaudio -k
+: 1606749591:0;pac gnome
+: 1606759765:0;cd ~/shows/code-geass-1
+: 1606759771:0;vid EP.3.360p.mp4
+: 1606759946:0;..
+: 1606759950:0;cd gunjou-no-magmel
+: 1606759951:0;la
+: 1606759953:0;dow
+: 1606759953:0;la
+: 1606760102:0;lla
+: 1606760103:0;la
+: 1606762946:0;dow
+: 1606762946:0;la
+: 1606762973:0;mv *mp4* ~/shows/gunjou-no-magmel
+: 1606762975:0;cd
+: 1606762979:0;cd shows/gunjou-no-magmel
+: 1606762982:0;vid EP.1.1080p.mp4
+: 1606764300:0;vid EP.2.1080p.mp4
+: 1606768559:0;cd shows/gunjou-no-magmel
+: 1606768560:0;vid EP.2.1080p.mp4
+: 1606768589:0;irc
+: 1606772929:0;cd shows/gunjou-no-magmel
+: 1606772956:0;vid EP.3.1080p.mp4
+: 1606774370:0;vi
+: 1606774386:0;vid EP.4.1080p.mp4
+: 1606813390:0;z src
+: 1606813392:0;v main.cpp
+: 1606816481:0;cd /run/media/malachi/mircoSD
+: 1606816482:0;la
+: 1606816484:0;v TEST.TXT
+: 1606816494:0;la
+: 1606816526:0;-
+: 1606816529:0;v main.cpp
+: 1606817122:0;pulseaudio -k
+: 1606826092:0;polybar
+: 1606826095:0;irc
+: 1606832431:0;z src
+: 1606832432:0;la
+: 1606832436:0;v main.cpp
+: 1606832542:0;cd /run/media/malachi/mircoSD
+: 1606832544:0;la
+: 1606832547:0;v TEST1.TXT
+: 1606832550:0;v TEST.TXT
+: 1606832553:0;rma *
+: 1606832556:0;la
+: 1606832564:0;rma ¬ÉÄ¬ÉÄ¬ÉÄ¬ÉÄ¬ÉÄ¬ÉÄ¬ÉÄ¬ÉÄ.¬∑ TEST.TXT TEST1.TXT
+: 1606832585:0;..
+: 1606832588:0;la
+: 1606832595:0;cd mircoSD
+: 1606832596:0;la
+: 1606832600:0;rma TEST1.TXT TEST.TXT
+: 1606832601:0;la
+: 1606832603:0;rma ¬ÉÄ¬ÉÄ¬ÉÄ¬ÉÄ¬ÉÄ¬ÉÄ¬ÉÄ¬ÉÄ.¬∑
+: 1606832607:0;la
+: 1606832615:0;..
+: 1606832642:0;z src
+: 1606832645:0;v main.cpp
+: 1606847190:0;cd ~/shows/gunjou-no-magmel
+: 1606847193:0;vid EP.4.1080p.mp4
+: 1606847228:0;vid EP.5.1080p.mp4
+: 1606848688:0;vid EP.6.1080p.mp4
+: 1606854740:0;cd ~/shows/gunjou-no-magmel
+: 1606854752:0;vid EP.6.1080p.mp4
+: 1606854807:0;mocpa
+: 1606854813:0;mocp
+: 1606854825:0;pulseaudio -k
+: 1606854897:0;vid EP.7.1080p.mp4
+: 1606894664:0;z src
+: 1606894667:0;v sdCard.h
+: 1606894887:0;mocp
+: 1606894898:0;pulseaudio -k
+: 1606897555:0;cd music
+: 1606897556:0;la
+: 1606897557:0;tree
+: 1606897689:0;mocp
+: 1606902556:0;ls -lah /dev/tty
+: 1606902559:0;ls -lah /dev/
+: 1606902599:0;ls -lah /dev/ttyACM0
+: 1606903402:0;commit 'started to make sdCard class' && push
+: 1606903408:0;la
+: 1606903409:0;..
+: 1606903410:0;la
+: 1606903415:0;z src
+: 1606903416:0;la
+: 1606903423:0;rma sdCard.h.gch
+: 1606903425:0;la
+: 1606903921:0;update
+: 1606904023:0;pulseaudio -k
+: 1606904096:0;v sdCard.h
+: 1606904612:0;sh music.sh
+: 1606904628:0;bin
+: 1606904630:0;v music.sh
+: 1606904637:0;youtube-dl -x -o ~/music/lsd/"%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLcr6smgplMLziUCOlzPSEpGA7D1XlBydI\
+
+: 1606904683:0;youtube-dl -x -o https://www.youtube.com/watch?v=r8Yqbi4uVUg&list=PLcr6smgplMLxawhRZWoZWV7OECistxRr8
+: 1606904707:0;youtube-dl https://www.youtube.com/watch?v=r8Yqbi4uVUg&list=PLcr6smgplMLxawhRZWoZWV7OECistxRr8
+: 1606904739:0;youtube-dl https://youtu.be/r8Yqbi4uVUg?list=PLcr6smgplMLxawhRZWoZWV7OECistxRr8
+: 1606904758:0;alias youtube-dl='youtube-dl'
+: 1606904760:0;youtube-dl https://youtu.be/r8Yqbi4uVUg?list=PLcr6smgplMLxawhRZWoZWV7OECistxRr8
+: 1606904766:0;zsh
+: 1606904781:0;dl https://youtu.be/r8Yqbi4uVUg?list=PLcr6smgplMLxawhRZWoZWV7OECistxRr8
+: 1606904802:0;dl https://www.youtube.com/watch?v=r8Yqbi4uVUg&list=PLcr6smgplMLxawhRZWoZWV7OECistxRr8&index=1
+: 1606904813:0;dl https://youtu.be/r8Yqbi4uVUg?list=PLcr6smgplMLxawhRZWoZWV7OECistxRr8
+: 1606904844:0;dl https://www.youtube.com/watch?v=KiMGo9QDwpU
+: 1606904855:0;pac youtube-dl
+: 1606904871:0;sudo youtube-dl https://www.youtube.com/watch?v=KiMGo9QDwpU
+: 1606904875:0;bash
+: 1606904921:0;youtube-dl https://www.youtube.com/watch?v=KiMGo9QDwpU
+: 1606904921:0;zsh
+: 1606915190:0;pulseaudio -k
+: 1606915234:0;z src
+: 1606915237:0;v main.cpp
+: 1606919024:0;cd /run/media/malachi/mircoSD
+: 1606919025:0;la
+: 1606919026:0;v HELLO
+: 1606919041:0;..
+: 1606919051:0;zsh
+: 1606924793:0;cd /run/media/malachi/mircoSD
+: 1606924797:0;usb
+: 1606924799:0;la
+: 1606924818:0;cd mircoSD
+: 1606924818:0;la
+: 1606924819:0;v TEST1
+: 1606924895:0;cd .config/plover
+: 1606924900:0;v main.json
+: 1606924929:0;cp main.json /run/media/malachi/mircoSD/TEST1
+: 1606924930:0;la
+: 1606924932:0;v TEST1
+: 1606924941:0;..
+: 1606925722:0;cd .config/plover
+: 1606925724:0;v main.json
+: 1606928432:0;cd ~/shows/code-geass-1
+: 1606928432:0;la
+: 1606928505:0;pac brave
+: 1606928650:0;brave
+: 1606929178:0;dow
+: 1606929178:0;la
+: 1606929472:0;cd ~/shows/code-geass-1
+: 1606929473:0;..
+: 1606929476:0;cd ~/shows/code-geass-1
+: 1606929482:0;vid EP.3.360p.mp4
+: 1606930345:0;vid EP.4.720p.mp4
+: 1606931572:0;la
+: 1606931583:0;dow
+: 1606931583:0;la
+: 1606931586:0;-
+: 1606931587:0;la
+: 1606934730:0;..
+: 1606941945:0;cd gunjou-no-magmel
+: 1606941947:0;la
+: 1606941954:0;vid EP.7.1080p.mp4
+: 1606941967:0;vid EP.8.1080p.mp4
+: 1606945185:0;cd ~/.config/plover
+: 1606945188:0;code main.json
+: 1606982835:0;z src
+: 1606982846:0;v jsonDictionary.h
+: 1606988020:0;usb
+: 1606988022:0;cd mircoSD
+: 1606988022:0;la
+: 1606988037:0;mv TEST1 TEST1.TXT
+: 1606988038:0;la
+: 1606988039:0;..
+: 1606988052:0;-
+: 1606988057:0;z src
+: 1606988168:0;la
+: 1606988171:0;v jsonDictionary.h
+: 1606990168:0;usb
+: 1606990169:0;cd mircoSD
+: 1606990170:0;la
+: 1606990171:0;v TEST1.TXT
+: 1606992894:0;pulseaudio -k
+: 1606997551:0;cd ~/.config/plover
+: 1606997554:0;du .
+: 1606997559:0;du -h .
+: 1606997561:0;la
+: 1606997585:0;v main.json
+: 1607010534:0;pac git build-essential pkg-config
+: 1607010543:0;curl -sS https://webinstall.dev/rust | bash\
+
+: 1607010580:0;rustup update\
+rustup toolchain install stable\
+rustup toolchain install 1.46.0\
+rustup default 1.46.0\
+
+: 1607010720:0;rustup override set 1.46.0
+: 1607010725:0;rustup run 1.46.0 \\
+	cargo install cargo-flash --version 0.8.0\
+
+: 1607010872:0;rustup target install thumbv7m-none-eabi\
+
+: 1607010881:0;pac pkg-config libusb-dev libusb-1.0 libftdi1-dev\
+
+: 1607010891:0;rustup run 1.46.0 \\
+	cargo install cargo-flash --version 0.8.0\
+rustup run 1.46.0 \\
+	cargo install cargo-embed --version 0.8.0\
+
+: 1607011010:0;cargo flash --list-probes
+: 1607011017:0;cargo flash --list-probes\
+
+: 1607011055:0;...
+: 1607011057:0;git clone https://cgit.pinealservo.com/BluePill_Rust/blue_pill_base ./utah-rust-blue-pill-code/\
+pushd ./utah-rust-blue-pill-code/\
+git reset --hard 5db28da\
+
+: 1607011064:0;la
+: 1607011075:0;cd src
+: 1607011075:0;la
+: 1607011077:0;v main.rs
+: 1607011109:0;cargo flash --release --chip STM32F103C8
+: 1607011175:0;v main.rs
+: 1607011241:0;cargo flash --release --chip STM32F103C8
+: 1607011248:0;v main.rs
+: 1607011310:0;cargo flash --release --chip STM32F103C8
+: 1607011329:0;cargo install cortex_m_semihosting;
+: 1607011336:0;cargo flash --release --chip STM32F103C8
+: 1607011406:0;cargo flash --list-probes
+: 1607011467:0;cargo flash --release --chip STM32F103C8
+: 1607011491:0;..
+: 1607011493:0;cargo flash --release --chip STM32F103C8
+: 1607011497:0;cd utah-rust-blue-pill-code
+: 1607011498:0;cargo flash --release --chip STM32F103C8
+: 1607011540:0;v Cargo.toml
+: 1607011553:0;cargo install cortex-m-semihosting
+: 1607011565:0;la
+: 1607011567:0;v Cargo.lock
+: 1607011573:0;v Cargo.toml
+: 1607011588:0;cargo flash --release --chip STM32F103C8
+: 1607011592:0;v Cargo.toml
+: 1607011602:0;cargo flash --release --chip STM32F103C8
+: 1607011616:0;cargo install panic-semihosting
+: 1607011629:0;v Cargo.toml
+: 1607011635:0;cargo flash --release --chip STM32F103C8
+: 1607011723:0;cargo install stm32f103xx-hal
+: 1607011738:0;v Cargo.toml
+: 1607011743:0;cargo flash --release --chip STM32F103C8
+: 1607011946:0;..
+: 1607011947:0;git clone https://github.com/lupyuen/stm32-blue-pill-rust.git\
+cd stm32-blue-pill-rust\
+
+: 1607011952:0;la
+: 1607011981:0;cargo flash --release --chip STM32F103C8
+: 1607012040:0;cd src
+: 1607012041:0;la
+: 1607012042:0;v main.rs
+: 1607012172:0;..
+: 1607012174:0;git clone https://github.com/TeXitoi/blue-pill-quickstart.git my-new-project\
+cd my-new-project\
+rm -fr .git LICENSE README.md st-link-v2-blue-pill.jpg\
+
+: 1607012179:0;la
+: 1607012181:0;cd src
+: 1607012182:0;la
+: 1607012183:0;v main.rs
+: 1607012199:0;openocd
+: 1607012208:0;cargo run
+: 1607012266:0;cargo flash --release --chip STM32F103C8
+: 1607012485:0;v main.rs
+: 1607012496:0;..
+: 1607012498:0;la
+: 1607012509:0;rma stm32-blue-pill-rust utah-rust-blue-pill-code my-new-project 
+: 1607012511:0;la
+: 1607012523:0;z src
+: 1607012524:0;la
+: 1607012549:0;cd ~/.config/plover
+: 1607012557:0;cp main.json main1.json
+: 1607012561:0;v main1.json
+: 1607012635:0;cd ~/.config/plover
+: 1607012637:0;v main1.json
+: 1607012705:0;cd ~/.config/plover
+: 1607012707:0;v main1.json
+: 1607012751:0;cd ~/.config/plover
+: 1607012752:0;v main1.json
+: 1607012787:0;cd ~/.config/plover
+: 1607012791:0;vim main1.json
+: 1607012881:0;nvim main1.json
+: 1607012957:0;z src
+: 1607012959:0;v keys.h
+: 1607012962:0;v main.cpp
+: 1607017539:0;cd shows/code-geass-1
+: 1607017546:0;vid EP.4.720p.mp4
+: 1607017575:0;vid EP.5.360p.mp4
+: 1607025704:0;commit "starting to make a dictionary struct in c++" && push
+: 1607027094:0;vid EP.6.720p.mp4
+: 1607027855:0;vid EP.7.720p.mp4
+: 1607030041:0;v main.cpp
+: 1607033392:0;v test.js
+: 1607033545:0;v main.cpp
+: 1607065130:0;z src
+: 1607065134:0;v test.js
+: 1607066994:0;v main.cpp
+: 1607067148:0;pulseaudio -k
+: 1607075759:0;lla
+: 1607075760:0;la
+: 1607075771:0;commit "removeing old files" && push
+: 1607075778:0;v main.cpp
+: 1607080754:0;sxh
+: 1607080772:0;pkill sxhkd
+: 1607080804:0;update
+: 1607080835:0;v main.cpp
+: 1607088322:0;z src
+: 1607088324:0;v main.cpp
+: 1607095107:0;v defaultOutput.h
+: 1607115262:0;z src
+: 1607115265:0;v keys.h
+: 1607115511:0;cd shows/code-geass-1
+: 1607115512:0;la
+: 1607115518:0;rma mpv-shot0001.jpg
+: 1607115521:0;vid EP.7.720p.mp4
+: 1607115541:0;vid EP.8.720p.mp4
+: 1607152984:0;z src
+: 1607152988:0;v main.cpp
+: 1607163185:0;bashtop
+: 1607175269:0;nvim --startuptime nvim.vim nvim.vim
+: 1607175278:0;vpl
+: 1607175350:0;nvim --startuptime nvim.vim nvim.vim
+: 1607175364:0;rma nvim.vim
+: 1607178694:0;AAOPAOPAOPAOPAOPAOPAOPAOPAOPAOPAOPAOP
+: 1607178695:0;AOP
+: 1607178720:0;z src
+: 1607178722:0;v keys.h
+: 1607178725:0;v main.cpp
+: 1607179511:0;z src
+: 1607179513:0;v main.cpp
+: 1607184272:0;v debounce.h
+: 1607208090:0;cd shows/code-geass-1
+: 1607208092:0;vid EP.8.720p.mp4
+: 1607208214:0;vid EP.9.1080p.mp4
+: 1607243840:0;z src
+: 1607243844:0;v debounce.h
+: 1607244990:0;v defaultOutput.h
+: 1607253166:0;la
+: 1607253168:0;ls -lah /dev/ttyACM0
+: 1607253171:0;ls -lah /dev/ttyACM1
+: 1607253175:0;ls -lah /dev/
+: 1607253196:0;v debounce.h
+: 1607253610:0;ls -lah /dev/ttyACM0
+: 1607254333:0;v defaultOutput.h
+: 1607257646:0;commit "save debounce.h" && push
+: 1607257653:0;v defaultOutput.h
+: 1607259055:0;google-chrome-unstable https://hats
+: 1607259102:0;man google-chrome-unstable 
+: 1607259118:0;google-chrome-unstable --incognito hello
+: 1607259165:0;google-chrome-unstable --incognito https://www.youtube.com/watch?v=veb8e789xuo
+: 1607259199:0;google-chrome-unstable --incognito https://youtu.be/veb8e789xuo
+: 1607259222:0;sxh
+: 1607259269:0;google-chrome-unstable --incognito https://youtu.be/veb8e789xuo
+: 1607259274:0;sxh
+: 1607259672:0;la
+: 1607259684:0;z src
+: 1607259687:0;v main.cpp
+: 1607293452:0;cd shows/code-geass-1
+: 1607293455:0;vid EP.10
+: 1607293463:0;vid EP.10.720p.mp4
+: 1607328128:0;update
+: 1607342499:0;100 / 50
+: 1607342503:0;sh 100 / 50
+: 1607342509:0;math
+: 1607342513:0;sh
+100 / 50
+: 1607359312:0;chromium hats
+: 1607359321:0;google-chrome-unstable --incognito
+: 1607359324:0;google-chrome-unstable --incognito hats
+: 1607364803:0;z src
+: 1607364806:0;v main.cpp
+: 1607411269:0;z src
+: 1607411272:0;v main.cpp
+: 1607416728:0;..
+: 1607416728:0;la
+: 1607416736:0;cd project-steno-teensy2
+: 1607416737:0;la
+: 1607416743:0;..
+: 1607416746:0;la
+: 1607416766:0;cp src/** project-steno-teensy2/src
+: 1607416771:0;cd project-steno-teensy2/src
+: 1607416771:0;la
+: 1607416776:0;v main.cpp
+: 1607416831:0;code .
+: 1607416856:0;..
+: 1607416857:0;code .
+: 1607416954:0;cd src
+: 1607416957:0;v main.cpp
+: 1607417035:0;..
+: 1607417037:0;cd src
+: 1607417043:0;v main.cpp
+: 1607417047:0;code .
+: 1607417056:0;..
+: 1607417059:0;code .
+: 1607417570:0;v platformio.ini
+: 1607418051:0;ls -lah /dev/ttyACM0
+: 1607418055:0;ls -lah /dev
+: 1607418414:0;ls -lah /dev/ttyACM0
+: 1607419231:0;kicad
+: 1607419863:0;z src
+: 1607419866:0;la
+: 1607419875:0;commit "save" && push
+: 1607419891:0;git branch 
+: 1607419901:0;git branch -M testing
+: 1607419907:0;git branch
+: 1607419918:0;git branch --help
+: 1607424511:0;pac LibreCAD
+: 1607424536:0;librecad
+: 1607424555:0;dow
+: 1607424556:0;la
+: 1607424565:0;dow
+: 1607424569:0;librecad d1510c25424e0e18a214d89b9d8c44ff71071968_switch.dxf
+: 1607519577:0;z src
+: 1607519578:0;...
+: 1607519579:0;la
+: 1607519582:0;cd hardware
+: 1607519582:0;la
+: 1607519590:0;mk top-plate
+: 1607519595:0;la
+: 1607519600:0;mk case
+: 1607519601:0;la
+: 1607519612:0;mk steno-keycaps
+: 1607519613:0;la
+: 1607519645:0;mk pcb
+: 1607519646:0;la
+: 1607519767:0;cd layout
+: 1607519767:0;la
+: 1607519807:0;file
+: 1607519838:0;z src
+: 1607519839:0;...
+: 1607519841:0;cd hardware
+: 1607519842:0;la
+: 1607519844:0;cd layout
+: 1607519844:0;la
+: 1607519867:0;mv template-v2.jpg layout-split.jpg
+: 1607519867:0;la
+: 1607520023:0;cd raw-data
+: 1607520024:0;la
+: 1607520027:0;rm template-v1.1
+: 1607520036:0;..
+: 1607520036:0;la
+: 1607520046:0;rm template-v1.1.jpg
+: 1607520047:0;la
+: 1607520053:0;rm template-v1.jpg
+: 1607520076:0;...
+: 1607520077:0;..
+: 1607520087:0;mv project-steno steno-in-one
+: 1607520088:0;la
+: 1607520090:0;z src
+: 1607520093:0;..
+: 1607520101:0;cd steno-in-one/hardware/layout
+: 1607520102:0;la
+: 1607520106:0;dow
+: 1607520116:0;mv steno-in-one-v1.jpg steno-in-one-v1.jpg -
+: 1607520125:0;mv steno-in-one-v1.jpg steno-in-one-v1.jpg ~/code/steno-in-one/hardware
+: 1607520134:0;mv steno-in-one-v1.jpg  ~/code/steno-in-one/hardware
+: 1607520136:0;la
+: 1607520146:0;mv steno-in-one-v1.json ~/code/steno-in-one/hardware
+: 1607520147:0;-
+: 1607520148:0;la
+: 1607520153:0;..
+: 1607520153:0;la
+: 1607520183:0;...
+: 1607520187:0;cd steno-in-one
+: 1607520189:0;file .
+: 1607520241:0;cd hardware
+: 1607520242:0;cd layout
+: 1607520243:0;la
+: 1607520270:0;mv layout-split.jpg steno-in-one-split.jpg
+: 1607520271:0;la
+: 1607520290:0;mv steno-in-one-v1.json steno-in-one.json
+: 1607520291:0;la
+: 1607520299:0;mv steno-in-one.json json
+: 1607520300:0;la
+: 1607520306:0;cd json
+: 1607520306:0;la
+: 1607520311:0;rm template-v1.1.json
+: 1607520312:0;la
+: 1607520319:0;rm template-v1.json
+: 1607520333:0;mv template-v2.json steno-in-one-split.json
+: 1607520425:0;la
+: 1607520429:0;rm steno-in-one-split.json
+: 1607520430:0;..
+: 1607520431:0;la
+: 1607520434:0;rm steno-in-one-split.jpg
+: 1607520460:0;-
+: 1607520461:0;..
+: 1607520462:0;dow
+: 1607520462:0;la
+: 1607520474:0;mv steno-in-one-split.jpg ~/code/steno-in-one
+: 1607520494:0;mv steno-in-one-split.json ~/code/steno-in-one/hardware/layout
+: 1607520496:0;-
+: 1607520496:0;la
+: 1607520499:0;..
+: 1607520499:0;la
+: 1607520501:0;..
+: 1607520501:0;la
+: 1607520508:0;mv steno-in-one-split.jpg hardware/layout
+: 1607520512:0;cd hardware/layout
+: 1607520512:0;la
+: 1607520526:0;mk steno-in-one
+: 1607520533:0;mk steno-in-one-split
+: 1607520534:0;la
+: 1607520545:0;cd json
+: 1607520545:0;la
+: 1607520547:0;..
+: 1607520549:0;cd raw-data
+: 1607520551:0;la
+: 1607520557:0;rm *
+: 1607520559:0;la
+: 1607522492:0;dow
+: 1607522492:0;la
+: 1607522503:0;rma d1510c25424e0e18a214d89b9d8c44ff71071968_switch.dxf d1510c25424e0e18a214d89b9d8c44ff71071968_switch.dxf\~ planck_ez_dvorak-keyboard-layout-v2_ODwZg_oyvg4.bin planck_ez_dvorak-keyboard-layout-v2_ODwZg_Rg6K4.bin planck_ez_dvorak-layout_qnLDA_DNBwK.bin SD-1.2.4.zip steno-in-one.jpg steno-in-one.json steno-in-one-split.jpg steno-in-one-split.json 
+: 1607522509:0;la
+: 1607522520:0;-
+: 1607522521:0;la
+: 1607522524:0;..
+: 1607522525:0;la
+: 1607522539:0;rma json raw-data steno-in-one-split.jpg steno-in-one-split.json steno-in-one-v1.jpg
+: 1607522540:0;la
+: 1607522548:0;cd steno-in-one/
+: 1607522548:0;la
+: 1607522577:0;mk json raw-data images
+: 1607522577:0;..
+: 1607522579:0;cd steno-in-one-split
+: 1607522583:0;mk json raw-data images
+: 1607522583:0;la
+: 1607522657:0;..
+: 1607522659:0;cd steno-in-one
+: 1607522661:0;la
+: 1607522664:0;dow
+: 1607522665:0;la
+: 1607522668:0;rm steno-in-one-split.jpg steno-in-one-split.json
+: 1607522697:0;la
+: 1607522713:0;mv steno-in-one.jpg steno-in-one.json steno-in-one-split.jpg steno-in-one-split.json ~/code/steno-in-one/hardware
+: 1607522715:0;-
+: 1607522716:0;..
+: 1607522717:0;la
+: 1607522731:0;mv steno-in-one.jpg steno-in-one.json layout/steno-in-one
+: 1607522739:0;mv steno-in-one-split.jpg steno-in-one-split.json layout/steno-in-one-split
+: 1607522740:0;la
+: 1607522742:0;cd layout
+: 1607522752:0;la
+: 1607522755:0;cd steno-in-one
+: 1607522756:0;la
+: 1607522778:0;v raw-data/steno-in-one
+: 1607522781:0;..
+: 1607522785:0;la
+: 1607522786:0;..
+: 1607522787:0;la
+: 1607522793:0;cd layout
+: 1607522793:0;la
+: 1607522796:0;cd steno-in-one
+: 1607522796:0;la
+: 1607522802:0;mv steno-in-one.jpg images
+: 1607522805:0;mv steno-in-one.json json
+: 1607522806:0;la
+: 1607522811:0;mk readme.md
+: 1607522819:0;rma readme.md
+: 1607522823:0;v readme.md
+: 1607522930:0;la
+: 1607522935:0;v readme.md
+: 1607522955:0;la
+: 1607522978:0;commit "changeing file structure" && push
+: 1607522992:0;checkout
+: 1607523003:0;la
+: 1607523010:0;git push -f
+: 1607523029:0;git branch -M main
+: 1607523030:0;la
+: 1607523034:0;commit "changeing file structure" && push
+: 1607523044:0;push
+: 1607523068:0;git push origin origin/master
+: 1607523106:0;la
+: 1607523112:0;commit "changeing file structure" && push
+: 1607523117:0;git push
+: 1607523168:0;git checkout testing
+: 1607523175:0;git checkout -b testing
+: 1607523176:0;la
+: 1607523179:0;commit "changeing file structure" && push
+: 1607523188:0;git add -A
+: 1607523193:0;git commit -m 'test' && push 
+: 1607523200:0;git push -f
+: 1607523206:0;git push --set-upstream origin testing
+: 1607523360:0;z src
+: 1607523361:0;..
+: 1607523362:0;la
+: 1607523365:0;cd steno-in-one
+: 1607523389:0;la
+: 1607523392:0;cd hardware
+: 1607523393:0;la
+: 1607523396:0;cd layout
+: 1607523396:0;la
+: 1607523399:0;cd steno-in-one/la
+: 1607523401:0;la
+: 1607523403:0;cd steno-in-one
+: 1607523404:0;la
+: 1607523408:0;v readme.md
+: 1607523413:0;cd images
+: 1607523414:0;la
+: 1607523416:0;..
+: 1607523426:0;la
+: 1607523440:0;cp readme.md ../steno-in-one-split
+: 1607523441:0;..
+: 1607523441:0;la
+: 1607523443:0;cd steno-in-one-split
+: 1607523446:0;v readme.md
+: 1607523456:0;la
+: 1607523464:0;mv steno-in-one-split.json json
+: 1607523468:0;mv steno-in-one-split.jpg images
+: 1607523469:0;la
+: 1607524533:0;v readme.md
+: 1607524538:0;commit "changeing file structure" && push
+: 1607524765:0;la
+: 1607524768:0;..
+: 1607524768:0;la
+: 1607524773:0;cd steno-in-one
+: 1607524775:0;v readme.md
+: 1607524832:0;la
+: 1607524834:0;v images
+: 1607524838:0;v readme.md
+: 1607527520:0;vim
+: 1607540307:0;cd code/steno-in-one
+: 1607540307:0;la
+: 1607540309:0;v readme.md
+: 1607540613:0;commit "updated the readme.md" && push
+: 1607540637:0;v readme.md
+: 1607540652:0;commit "updated the readme.md" && push
+: 1607540662:0;v readme.md
+: 1607540676:0;commit "updated the readme.md" && push
+: 1607540707:0;cd software
+: 1607540708:0;la
+: 1607540715:0;rma project-steno-teensy2 
+: 1607540717:0;la
+: 1607540752:0;commit "remmoved #unnesesery# dir" && push
+: 1607540763:0;cd src
+: 1607540764:0;la
+: 1607540767:0;..
+: 1607545896:0;cd
+: 1607545904:0;cd shows/code-geass-1
+: 1607545904:0;la
+: 1607605355:0;pac pocket
+: 1607618256:0;dow
+: 1607618256:0;la
+: 1607618260:0;rm elementaryos-5.1-stable.20200814.iso
+: 1607618287:0;dl https://s13.eplayvid.com/vids/la_casa_de_papel_season_1_-_episode_09___5a5ab9a13a9e6.mp4
+: 1607619174:0;dl https://123movies.net/watch/vJYA0W0d-money-heist-season-1/episode-10.html
+: 1607619178:0;youtube-dl https://123movies.net/watch/vJYA0W0d-money-heist-season-1/episode-10.html
+: 1607619400:0;pac amazon
+: 1607619417:0;pac prime-video
+: 1607619423:0;pac amazon
+: 1607619432:0;pac amazon-prime
+: 1607672552:0;cd code/javascript
+: 1607672567:0;v binarySerchCalculator.js
+: 1607679938:0;mv binarySerchCalculator.js binarySearchCalculator.js
+: 1607679939:0;la
+: 1607682734:0;v binarySerchCalculator.js
+: 1607682738:0;la
+: 1607682746:0;v binarySerchCalculator.js
+: 1607682751:0;v binarySearchCalculator.js
+: 1607682755:0;mv binarySerchCalculator.js binarySearchCalculator.js
+: 1607682757:0;v binarySearchCalculator.js
+: 1607682759:0;la
+: 1607682766:0;v binarySearchCalculator.js
+: 1607683002:0;la
+: 1607683028:0;v binarySearchCalculator.js
+: 1607869652:0;cd .config/plover
+: 1607869655:0;v main1.json
+: 1607869663:0;vim main1.json
+: 1607931265:0;z src
+: 1607931268:0;...
+: 1607931275:0;cd steno-in-one/software/src
+: 1607931276:0;la
+: 1607931279:0;v main.cpp
+: 1607980324:0;\uf71b
+: 1608024610:0;chromium https://test.omnifocus.com/custom/mRAgWGDlpun
+: 1608121956:0;v Cherry-MX-Low-Profile.kicad_mod
+: 1608122003:0;la
+: 1608122015:0;mv Cherry-MX-Low-Profile.kicad_mod Downloads
+: 1608243033:0;cd shows
+: 1608243051:0;mk andou-july
+: 1608243053:0;dow
+: 1608243258:0;cd ~/shows
+: 1608243258:0;la
+: 1608243273:0;rma gunjou-no-magmel kenja-no-mago misfits strike-the-blood strike-the-blood-2
+: 1608243275:0;la
+: 1608244265:0;dow
+: 1608244266:0;la
+: 1608244304:0;mv *.mp4 ~/shows/andou-july
+: 1608244305:0;la
+: 1608244309:0;rm Cherry-MX-Low-Profile.kicad_mod Keebio-Parts.pretty-master.zip
+: 1608244311:0;la
+: 1608244499:0;irc
+: 1608244563:0;pkill redshift
+: 1608247001:0;la
+: 1608247019:0;-
+: 1608247020:0;la
+: 1608247053:0;mk backup-anime
+: 1608247055:0;-
+: 1608247061:0;mv *.mp4 ~/shows/backup-anime
+: 1608247062:0;la
+: 1608303478:0;cd dotfiles/notes
+: 1608303478:0;la
+: 1608303488:0;mk hardware software
+: 1608303508:0;mv c css html javascript learning software
+: 1608303509:0;la
+: 1608303515:0;rm topics.md
+: 1608303516:0;la
+: 1608303520:0;tree heleth
+: 1608303528:0;rma heleth 
+: 1608303532:0;la
+: 1608303544:0;mv nodejs python rust scss software
+: 1608303545:0;al
+: 1608303546:0;as
+: 1608303549:0;la
+: 1608303554:0;rma org
+: 1608303555:0;la
+: 1608303562:0;mv typescript software
+: 1608303562:0;la
+: 1608303565:0;rm a.out
+: 1608303566:0;la
+: 1608303570:0;tree zettelkasten
+: 1608303584:0;mk brain 
+: 1608303587:0;mv zettelkasten brain
+: 1608303588:0;la
+: 1608303594:0;cd hardware
+: 1608303595:0;la
+: 1608303619:0;mk components
+: 1608303619:0;la
+: 1608303624:0;cd components
+: 1608303624:0;la
+: 1608303635:0;v resistor
+: 1608303641:0;la
+: 1608303643:0;v resistor.md
+: 1608303647:0;rm resistor
+: 1608303648:0;v resistor.md
+: 1608303836:0;v capacitor.md
+: 1608303850:0;v resistor.md
+: 1608303859:0;v capacitor.md
+: 1608304007:0;la
+: 1608304556:0;v measurements.md
+: 1608304564:0;v power-measurements.md
+: 1608330103:0;cd shows/andou-july
+: 1608330122:0;vid EP.1.720p.mp4
+: 1608370608:0;not
+: 1608370609:0;la
+: 1608370612:0;cd hardware
+: 1608370612:0;la
+: 1608370616:0;cd components
+: 1608370617:0;la
+: 1608370618:0;v 
+: 1608373398:0;la
+: 1608373438:0;v dc.md
+: 1608373517:0;v measurements.md
+: 1608373519:0;la
+: 1608373523:0;v power-measurements.md
+: 1608373639:0;la
+: 1608373642:0;v measurements.md
+: 1608373645:0;rm measurements.md
+: 1608373646:0;la
+: 1608373653:0;rm dc.md
+: 1608373654:0;la
+: 1608373664:0;v capacitor.md
+: 1608373749:0;la
+: 1608373837:0;v diodes
+: 1608374258:0;la
+: 1608374267:0;mv diodes diodes.md
+: 1608374268:0;la
+: 1608374270:0;v diodes.md
+: 1608374275:0;la
+: 1608374282:0;v power-measurements.md
+: 1608374297:0;mv power-measurements.md power.md
+: 1608374298:0;la
+: 1608374300:0;v power.md
+: 1608374306:0;la
+: 1608386392:0;cd
+: 1608386404:0;cd .config/espanso
+: 1608386405:0;la
+: 1608386408:0;cd user
+: 1608386408:0;la
+: 1608386416:0;v web.yml
+: 1608451417:0;not
+: 1608451420:0;cd hardware
+: 1608451420:0;la
+: 1608451424:0;cd components
+: 1608451425:0;la
+: 1608451428:0;v power.md
+: 1608452501:0;v variable-resistor.md
+: 1608452523:0;v resistor.md
+: 1608453797:0;v power.md
+: 1608454007:0;commit "new notes"

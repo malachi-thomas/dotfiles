@@ -80,6 +80,7 @@ alias power='poweroff'
 alias i3='cd i3'
 alias update='yay -Syu; sudo pacman -Sc'
 alias pacman-keys='gpg --keyserver pool.sks-keyservers.net --recv-keys'
+alias usb='cd /run/media/malachi'
 
 # Windows
 if [ -d "/mnt/c/Users" ]

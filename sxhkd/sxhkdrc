@@ -23,7 +23,7 @@ super + y
   firefox
 
 super + m
-  bluetooth-autoconnect
+  pulseaudio -k
 
 alt + super + control + shift + x
     xdotool getactivewindow -- key h e l l o space w o r l d
@@ -60,6 +60,9 @@ alt + super + control + shift + a
 
 alt + super + control + shift + s
   notify-send "stoped timer"; toggl stop
+
+alt + super + control + shift + d
+  google-chrome-unstable --incognito https://youtu.be/veb8e789xuo
 
 alt + super + control + shift + f
    notify-send "started Focus"; toggl start -o Focus

@@ -34,3 +34,4 @@ setopt autocd
 #     [ -z "$TMUX" ] && exec tmux -2u
 # esac
 
+source "$HOME/.cargo/env"

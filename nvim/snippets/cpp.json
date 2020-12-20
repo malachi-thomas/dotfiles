@@ -44,7 +44,7 @@
   "delay": {
     "prefix": "delay",
     "body": [
-      "delay($0);"
+      "delay($0)"
     ]
   },
   "isPressed": {
@@ -68,7 +68,7 @@
   "millis": {
     "prefix": "millis",
     "body": [
-      "millis();"
+      "millis()"
     ]
   },
   "digitalRead": {
@@ -113,6 +113,60 @@
     "prefix": "serialPrint",
     "body": [
       "Serial.println($0)"
+    ]
+  },
+  "return": {
+    "prefix": "return",
+    "body": [
+      "return $0;"
+    ]
+  },
+  "sdRemove": {
+    "prefix": "sdRemove",
+    "body": [
+      "SD.remove($0)"
+    ]
+  },
+  "sdExists": {
+    "prefix": "sdExists",
+    "body": [
+      "SD.exists($0)"
+    ]
+  },
+  "sdBegin": {
+    "prefix": "sdBegin",
+    "body": [
+      "SD.begin($0)"
+    ]
+  },
+  "sdOpen": {
+    "prefix": "sdOpen",
+    "body": [
+      "SD.open($0)"
+    ]
+  },
+  "FILE_WRITE": {
+    "prefix": "fileWrite",
+    "body": [
+      "FILE_WRITE"
+    ]
+  },
+  "FILE_READ": {
+    "prefix": "fileRead",
+    "body": [
+      "FILE_READ"
+    ]
+  },
+  "sdrmdir": {
+    "prefix": "sdrmdir",
+    "body": [
+      "SD.rmdir($0)"
+    ]
+  },
+  "sdMkdir": {
+    "prefix": "sdMkdir",
+    "body": [
+      "SD.mkdir($0)"
     ]
   }
 }

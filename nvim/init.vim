@@ -68,12 +68,10 @@ set noshowmode
 set noruler
 set laststatus=2
 set showcmd
-" set scrolloff=999
 set timeoutlen=1000 " how long vim waits for next key press
 set rtp+=~/.config/nvim/autoload/functions.vim
 set pumheight=10 " completion menu hight
 set pumwidth=30 " completion munu width
-
 
 " =============================================================================
 " Vimscript
@@ -89,22 +87,18 @@ augroup autocmds
   autocmd BufRead ~/dotfiles/nvim/snippets/* set ft=jsonc
   autocmd BufWritePre {*.c,*.cpp,*.h} normal mmgg=G`m
   autocmd BufRead,BufEnter * call rainbow#load()
-  autocmd BufWritePre *.rs call RustFormat()
-  autocmd CursorMoved *  normal zz
+  " autocmd BufWritePre *.rs call RustFormat()
+  autocmd CursorMoved,BufWrite * normal zz
   autocmd vimenter,SourcePost * hi Search guibg=black guifg=#fe8019
   autocmd BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
   " autocmd VimEnter * if argc() == 0 | Fern . | endif " if vim opens without a file it will open wit Fern .
   " autocmd VimEnter * if len(getbufinfo({'buflisted':1})) == 1 && expand('%') == '' | Fern . | endif
-
-
 
   if has('nvim-0.5')
     autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked
     autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
     autocmd BufEnter * lua require'completion'.on_attach() -- completion-nvim on all buffers
     " autocmd BufEnter * lua require'completion'.on_attach()
-
-
   endif
 augroup end
 

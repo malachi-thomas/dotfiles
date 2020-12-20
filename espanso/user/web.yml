@@ -6,7 +6,7 @@ filter_title: "Chrome|Chromium"
 matches: 
 
   # websites
-  - trigger: ":yt "
+  - trigger: "ytq "
     replace: "youtube.com\n"
 
   - trigger: ":gh "
@@ -18,8 +18,8 @@ matches:
   - trigger: ":toggl "
     replace: "track.toggl.com/timer\n"
 
-  - trigger: ":red "
-    replace: "reddit.com\n"
+  - trigger: "redq "
+    replace: "reddit.com/r/"
 
   # Emails
   - trigger: "email1 "

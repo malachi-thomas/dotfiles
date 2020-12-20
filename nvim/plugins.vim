@@ -13,7 +13,7 @@ call plug#begin('~/.config/nvim/plugged')
 if has('nvim-0.5')
   Plug 'neovim/nvim-lspconfig'
   Plug 'nvim-lua/completion-nvim'
-  " Plug 'steelsojka/completion-buffers'
+  Plug 'steelsojka/completion-buffers'
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'romgrk/barbar.nvim'
   Plug 'nvim-lua/popup.nvim'
@@ -38,17 +38,15 @@ Plug 'rhysd/clever-f.vim'
 Plug 'machakann/vim-sandwich'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
-Plug 'metakirby5/codi.vim'
-Plug 'bkad/CamelCaseMotion'
 
 " testing
 Plug 'tpope/vim-fugitive'
-Plug 'euclidianAce/BetterLua.vim'
 Plug 'wellle/targets.vim'
 Plug 'tpope/vim-repeat'
 Plug 'mboughaba/i3config.vim'
-Plug 'Yggdroot/indentLine'
-Plug 'rust-lang/rust.vim'
+Plug 'liuchengxu/vista.vim'
+
+
 
 
 " ui plugins
@@ -58,6 +56,7 @@ Plug 'morhetz/gruvbox'
 Plug 'frazrepo/vim-rainbow'
 Plug 'neoclide/jsonc.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'Yggdroot/indentLine'
 
 call plug#end()
 
