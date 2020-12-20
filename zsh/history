@@ -10427,3 +10427,14 @@ rm -fr .git LICENSE README.md st-link-v2-blue-pill.jpg\
 : 1608454802:0;mv power.md words.md
 : 1608454806:0;v words.md
 : 1608454812:0;commit "new notes"
+: 1608454814:0;push
+: 1608454850:0;la
+: 1608454862:0;vpc
+: 1608454874:0;v resistor.md
+: 1608455003:0;v data-comunicacion.md
+: 1608455048:0;v words.md
+: 1608455387:0;not
+: 1608455392:0;cd brain/zettelkasten
+: 1608455393:0;la
+: 1608455395:0;v zettelkasten.md
+: 1608455465:0;commit "new notes"
