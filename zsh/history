@@ -10422,3 +10422,8 @@ rm -fr .git LICENSE README.md st-link-v2-blue-pill.jpg\
 : 1608452523:0;v resistor.md
 : 1608453797:0;v power.md
 : 1608454007:0;commit "new notes"
+: 1608454009:0;push
+: 1608454795:0;v power.md
+: 1608454802:0;mv power.md words.md
+: 1608454806:0;v words.md
+: 1608454812:0;commit "new notes"

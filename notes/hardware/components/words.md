@@ -10,7 +10,7 @@
 - Watts = voltage * current, V * I
 - IC = integrated circuit
 - Ohms Law = ?
-- I2C | IIC = Inter-Integrated Circuit
+- I2C | IIC = Inter-Integrated Circuit  
 I2C is a serial communication protocol, so data is transferred bit by bit along a single wire (the SDA line).
 - UART = 
 - SPI = 
