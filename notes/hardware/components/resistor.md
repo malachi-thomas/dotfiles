@@ -16,3 +16,17 @@ resistance to control voltage or current of that circuit or part of that
 circuit.
 
 A variable resistor is a resistor that can change it's resistance value
+
+### What is a pullup resistor
+
+A pull-up resistor has two terminals one connects to VCC and the other one
+connects to the pin you want to pull HIGH
+
+A pull-up resistor changes the pin voltage from LOW to HIGH
+
+### What is a pulldown resistor
+
+A pull-down resistor has two terminals one connects to GND and the other one
+connects to the pin you want to pull LOW
+
+A pull-down resistor changes the pin voltage from HIGH to LOW

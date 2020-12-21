@@ -10438,3 +10438,18 @@ rm -fr .git LICENSE README.md st-link-v2-blue-pill.jpg\
 : 1608455393:0;la
 : 1608455395:0;v zettelkasten.md
 : 1608455465:0;commit "new notes"
+: 1608455467:0;push
+: 1608455479:0;la
+: 1608501000:0;cd shows/andou-july
+: 1608501004:0;la
+: 1608501020:0;vid EP.2.720p.mp4
+: 1608536979:0;not
+: 1608536981:0;cd hardware/components
+: 1608536982:0;la
+: 1608536984:0;v data-comunicacion.md
+: 1608537374:0;v words.md
+: 1608538908:0;echo $SHELL
+: 1608541110:0;v resistor.md
+: 1608542743:0;la
+: 1608542748:0;v mcu.md
+: 1608545206:0;commit "new notes" && push

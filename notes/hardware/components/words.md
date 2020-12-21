@@ -10,6 +10,8 @@
 - Watts = voltage * current, V * I
 - IC = integrated circuit
 - I2C | IIC = Inter-Integrated Circuit  
-- UART = 
-- SPI = 
+- UART = universal asynchronous receiver-transmitter
+- SPI = Serial Peripheral Interface
 - Ohms Law = ?
+- pullup resisters
+- what is pullup
