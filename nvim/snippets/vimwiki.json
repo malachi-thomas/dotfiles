@@ -10,5 +10,15 @@
     "body": [
       "![]($0)"
     ]
+  },
+  "whys": {
+    "prefix": "whys",
+    "body": [
+      "### What is $1",
+      "",
+      "### When is $1 used",
+      "",
+      "### Why is $1 used"
+    ]
   }
 }
