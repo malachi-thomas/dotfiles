@@ -39,6 +39,12 @@ gacp() {
   cd -
 }
 
+edit() {
+  code $1 && exit
+}
+
+
+
 # v() {
 # if [ $# -eq 0 ]; then
 #   nvim -p $(fzf -e)

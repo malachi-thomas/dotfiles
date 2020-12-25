@@ -9997,7 +9997,7 @@ rm -fr .git LICENSE README.md st-link-v2-blue-pill.jpg\
 : 1607342503:0;sh 100 / 50
 : 1607342509:0;math
 : 1607342513:0;sh
-100 / 50
+: 1608839712:0;100 / 50
 : 1607359312:0;chromium hats
 : 1607359321:0;google-chrome-unstable --incognito
 : 1607359324:0;google-chrome-unstable --incognito hats
@@ -10472,3 +10472,83 @@ rm -fr .git LICENSE README.md st-link-v2-blue-pill.jpg\
 : 1608716034:0;v electric-flow.md
 : 1608716056:0;v electric-types.md
 : 1608716783:0;commit "new notes" && push
+: 1608716890:0;...
+: 1608716895:0;cd software/nodejs
+: 1608716896:0;la
+: 1608716902:0;rm put-request.md\~
+: 1608716903:0;la
+: 1608716906:0;rm hats.md
+: 1608716907:0;la
+: 1608716913:0;v nodejs.md
+: 1608716918:0;rm nodejs.md
+: 1608716919:0;la
+: 1608761094:0;cd shows/andou-july
+: 1608761098:0;vid EP.4
+: 1608761100:0;vid EP.4.720p.mp4
+: 1608805424:0;la
+: 1608805426:0;bin
+: 1608805427:0;la
+: 1608805430:0;v wacom-tablet.sh
+: 1608805457:0;sh  ./wacom-tablet.sh
+: 1608836746:0;sudo cd /
+: 1608836748:0;la
+: 1608836752:0;cd /
+: 1608836755:0;la
+: 1608836805:0;cgd
+: 1608836806:0;cd
+: 1608837112:0;zsh
+: 1608837131:0;ls
+: 1608837588:0;la 
+: 1608837865:0;la
+: 1608837990:0;zsh
+: 1608838253:0;not
+: 1608838257:0;la
+: 1608838261:0;zsh
+: 1608838300:0;vim brain
+: 1608838306:0;vim -u NONE constants.js
+: 1608838396:0;v constants.js
+: 1608838438:0;rm constants.js
+: 1608838524:0;cd software
+: 1608838524:0;la
+: 1608838530:0;cd nodejs
+: 1608838530:0;la
+: 1608838532:0;vim delete-request.md
+: 1608838722:0;la
+: 1608838724:0;v get-request.md
+: 1608838796:0;la
+: 1608839204:0;cd /
+: 1608839212:0;la
+: 1608839489:0;zsh
+: 1608839712:0;q
+: 1608839738:0;,llllnn
+: 1608839739:0;[3~j[3~[3~[3~kxji
+: 1608839751:0;zsh
+: 1608839760:0;c
+: 1608839775:0;la
+: 1608839780:0;cd
+: 1608839782:0;la
+: 1608839784:0;c
+: 1608839858:0;la
+: 1608840266:0;la
+: 1608840267:0;..
+: 1608840395:0;la
+: 1608840407:0;vrc
+: 1608883922:0;zsh
+: 1608884006:0;Linux
+: 1608884045:0;echo $OSTYPE
+: 1608884072:0;zsh
+: 1608884584:0;edit .
+: 1608884624:0;v
+: 1608884628:0;edit
+: 1608884636:0;zsh
+: 1608884699:0;so
+: 1608884706:0;zsh
+: 1608884714:0;so
+: 1608884727:0;zsh
+: 1608884763:0;so
+: 1608884770:0;zsh
+: 1608884794:0;so
+: 1608884810:0;zsh
+: 1608885018:0;commit "orgernized my zsh stuff" && push
+: 1608885027:0;cd dotfiles
+: 1608885029:0;commit "orgernized my zsh stuff" && push
