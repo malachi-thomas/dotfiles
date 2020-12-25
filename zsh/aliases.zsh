@@ -86,17 +86,12 @@ then
 fi
 
 # Windows
-# if [[ "$OSTYPE" == "win32" ]]
-# then
-#   alias win='cd /mnt/c/Users/malac'
-# fi
+if [[ "$OSTYPE" == "win32" ]]
+then
+  alias win='cd /mnt/c/Users/malac'
+fi
 
 # Programming
-alias live='live-server --browser=brave'
-alias sas='sass --watch'
-alias scss='sass --watch'
-alias ga='git add -A'
-alias gp='git push --all'
 alias rmnpm='rm -R node_modules package.json package-lock.json'
 
 # Git

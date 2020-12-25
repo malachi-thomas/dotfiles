@@ -1,3 +1,0 @@
-[submodule "nvim/pack/plugins/opt/ale"]
-	path = nvim/pack/plugins/opt/ale
-	url = https://github.com/dense-analysis/ale

@@ -2,8 +2,7 @@ export ZDOTDIR="$HOME/dotfiles/zsh"
 export MYVIMRC="$HOME/dotfiles/nvim/init.vim"
 export KEYTIMEOUT=1
 
-
-export PATH=$PATH:$HOME/dotfiles/scripts/:node_modules/.bin/:$HOME/.local/bin/:$HOME/.npm/bin/
+export PATH=$PATH:$HOME/dotfiles/scripts/:**/node_modules/.bin/:$HOME/.local/bin/:$HOME/.npm/bin/
 export EDITOR="nvim"
 export BROWSER="chromium"
 export TODAY=`date +%d/%b/%Y`
@@ -25,13 +24,3 @@ export HISTFILE=~/dotfiles/zsh/history
 setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 setopt EXTENDED_HISTORY
-
-# Set auto cd
-setopt autocd
-
-# Tmux on shell startup
-# case $- in *i*)
-#     [ -z "$TMUX" ] && exec tmux -2u
-# esac
-
-source "$HOME/.cargo/env"
