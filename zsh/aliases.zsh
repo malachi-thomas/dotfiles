@@ -56,14 +56,13 @@ alias nots='v ~/dotfiles/notes/topics.md'
 alias nodejs='cd ~/code/nodejs'
 
 # Linux
-if [[ "$OSTYPE" == "linux-gnu"* ]]
+if [[ $OSTYPE == "linux-gnu" ]]
 then
   alias ls='ls -F --color=auto'
   alias la='ls -aF --color=auto'
   alias ll='ls -laF --color=auto'
   alias power='poweroff'
   alias update='yay -Syu; sudo pacman -Sc'
-  # alias usb='cd /run/media/malachi'
   alias boot='reboot'
   alias back='kill -9 -1'
   alias aur='makepkg -si'
@@ -72,25 +71,25 @@ then
   alias pacman-keys='gpg --keyserver pool.sks-keyservers.net --recv-keys'
   alias vid='mpv'
   alias copy='xclip -selection "primary" <'
+  alias file='nautilus'
   uefi() {
     sudo systemctl reboot --firmware-setup
-    alias file='nautilus'
   }
 fi
 
 # Mac OS
-if [[ "$OSTYPE = darwin" ]]
+if [[ $OSTYPE == "darwin" ]]
+then
   alias ls='ls -FG'
   alias la='ls -aFG'
   alias ll='ls -laFG'
-then
 fi
 
 # Windows
-if [[ "$OSTYPE = win32" ]]
-then
-  alias win='cd /mnt/c/Users/malac'
-fi
+# if [[ "$OSTYPE" == "win32" ]]
+# then
+#   alias win='cd /mnt/c/Users/malac'
+# fi
 
 # Programming
 alias live='live-server --browser=brave'

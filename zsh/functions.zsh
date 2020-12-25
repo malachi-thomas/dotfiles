@@ -6,15 +6,15 @@ usb() {
   sudo xzcat -f $1 | sudo dd bs=4M of=$2
 }
 
-vifm(){
-  local dst="$(command vifm --choose-dir - "$@")"
-  if [ -z "$dst" ]
-  then
-    echo 'Directory picking cancelled/failed'
-    return 1
-  fi
-  cd "$dst"
-}
+# vifm(){
+#   local dst="$(command vifm --choose-dir - "$@")"
+#   if [ -z "$dst" ]
+#   then
+#     echo 'Directory picking cancelled/failed'
+#     return 1
+#   fi
+#   cd "$dst"
+# }
 
 pac() { 
   for f in "$@"

@@ -10552,3 +10552,125 @@ rm -fr .git LICENSE README.md st-link-v2-blue-pill.jpg\
 : 1608885018:0;commit "orgernized my zsh stuff" && push
 : 1608885027:0;cd dotfiles
 : 1608885029:0;commit "orgernized my zsh stuff" && push
+: 1608885134:0;zsh
+: 1608885269:0;cd zsh
+: 1608885269:0;la
+: 1608885278:0;zsh
+: 1608885290:0;echo $OSTYPE
+: 1608885305:0;la
+: 1608885399:0;so
+: 1608885401:0;la
+: 1608885404:0;zsh
+: 1608885447:0;so
+: 1608885448:0;la
+: 1608888461:0;  alias ls='ls -F --color=auto'\
+
+: 1608888463:0;ls
+: 1608888504:0;so
+: 1608888505:0;la
+: 1608888567:0;so
+: 1608888569:0;file
+: 1608888573:0;la
+: 1608890480:0;if [[ "$OSTYPE" == "linux-gnu" ]]\
+then\
+  alias ls='ls -F --color=auto'\
+  alias la='ls -aF --color=auto'\
+  alias ll='ls -laF --color=auto'\
+  alias power='poweroff'\
+  alias update='yay -Syu; sudo pacman -Sc'\
+  # alias usb='cd /run/media/malachi'\
+  alias boot='reboot'\
+  alias back='kill -9 -1'\
+  alias aur='makepkg -si'\
+  alias sleep='systemctl suspend'\
+  alias pacman='sudo pacman'\
+  alias pacman-keys='gpg --keyserver pool.sks-keyservers.net --recv-keys'\
+  alias vid='mpv'\
+  alias copy='xclip -selection "primary" <'\
+  alias file='nautilus'\
+  uefi() {\
+    sudo systemctl reboot --firmware-setup\
+  }\
+fi\
+
+: 1608890497:0;if [[ "$OSTYPE" == "linux-gnu" ]]\
+then\
+  alias ls='ls -F --color=auto'\
+  alias la='ls -aF --color=auto'\
+  alias ll='ls -laF --color=auto'\
+  alias power='poweroff'\
+  alias update='yay -Syu; sudo pacman -Sc'\
+  alias boot='reboot'\
+  alias back='kill -9 -1'\
+  alias aur='makepkg -si'\
+  alias sleep='systemctl suspend'\
+  alias pacman='sudo pacman'\
+  alias pacman-keys='gpg --keyserver pool.sks-keyservers.net --recv-keys'\
+  alias vid='mpv'\
+  alias copy='xclip -selection "primary" <'\
+  alias file='nautilus'\
+  uefi() {\
+    sudo systemctl reboot --firmware-setup\
+  }\
+fi\
+
+: 1608890499:0;ls
+: 1608890513:0;if [[ "$OSTYPE" == "darwin" ]]\
+  alias ls='ls -FG'\
+  alias la='ls -aFG'\
+  alias ll='ls -laFG'\
+then\
+fi\
+
+: 1608890515:0;ls
+: 1608890529:0;if [[ "$OSTYPE" == "darwin" ]]\
+  return 1\
+then\
+fi\
+
+: 1608890540:0;if [[ "$OSTYPE" == "darwin" ]]\
+  echo "hello"\
+then\
+fi\
+
+: 1608890556:0;if [[ "$OSTYPE" == "win32" ]]\
+  echo "hello"\
+then\
+fi\
+
+: 1608890716:0;echo $OSTYPE
+: 1608890721:0;zsh
+: 1608890776:0;la
+: 1608890778:0;zsh
+: 1608890785:0;la
+: 1608891318:0;if [[ $OSTYPE == "win32" ]]\
+  echo "hello"\
+then\
+fi\
+
+: 1608891327:0;if [[ $OSTYPE == "win32" \
+then\
+fi\
+
+: 1608891366:0;if [[ $OSTYPE == "darwin" ]]\
+then\
+  alias ls='ls -FG'\
+  alias la='ls -aFG'\
+  alias ll='ls -laFG'\
+fi\
+
+: 1608891379:0;if [[ $OSTYPE == "darwin" ]]\
+then\
+  echo "hello"\
+fi\
+
+: 1608891390:0;if [[ $OSTYPE == "linux-gnu" ]]\
+then\
+  echo "hello"\
+fi\
+
+: 1608891394:0;zsh
+: 1608891405:0;la
+: 1608891408:0;ls
+: 1608891477:0;dot
+: 1608891479:0;commit "orgernized my zsh stuff" && push
