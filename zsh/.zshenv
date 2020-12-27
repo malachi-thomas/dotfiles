@@ -1,5 +1,5 @@
 export ZDOTDIR="$HOME/dotfiles/zsh"
-export MYVIMRC="$HOME/dotfiles/nvim/init.vim"
+export MYVIMRC="$HOME/.config/nvim/init.vim"
 export KEYTIMEOUT=1
 
 export PATH=$PATH:$HOME/dotfiles/scripts/:**/node_modules/.bin/:$HOME/.local/bin/:$HOME/.npm/bin/

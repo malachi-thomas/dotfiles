@@ -15,3 +15,5 @@
 - Ohms Law = ?
 - pullup resisters
 - what is pullup
+- vbus = ?
+- decoupling capacitor = ?

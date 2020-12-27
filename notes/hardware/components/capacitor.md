@@ -7,3 +7,7 @@ negative charge, and the other gets a positive charge. A capacitor does
 not dissipate energy, unlike a resistor.
 
 A capacitor is used to clean up any noise or AC for sensitive component
+
+### What is a decoupling capacitor
+
+

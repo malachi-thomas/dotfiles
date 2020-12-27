@@ -7,8 +7,6 @@ bindkey -s '^[' '' # Unmap esc
 bindkey -s '^n' '^[c' # bind alt+c to ctrl+n
 bindkey -v
 
-
-
 # Prompt
 autoload -U colors && colors
 PS1='

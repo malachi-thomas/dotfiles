@@ -14,6 +14,7 @@ alias dl='youtube-dl -x -o "%(title)s.%(ext)s"'
 alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'
 alias v='nvim'
 alias f='rg --files | fzf | xargs -I "{}" nvim {}'
+alias storage='du -h'
 
 
 # Config Files
@@ -86,16 +87,13 @@ then
 fi
 
 # Windows
-if [[ "$OSTYPE" == "win32" ]]
+if [[ $OSTYPE == "win32" ]]
 then
   alias win='cd /mnt/c/Users/malac'
 fi
 
-# Programming
-alias rmnpm='rm -R node_modules package.json package-lock.json'
-
 # Git
-alias commit='git add -A; git commit -m'
+# alias commit='git add -A; git commit -m'
 alias push='git push'
 alias clone='git clone'
 alias checkout='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git checkout {}'
@@ -103,4 +101,9 @@ alias merge='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git merge {}'
 alias reset='git reset --hard'
 alias pull='git pull'
 alias status='git status'
+commit() {
+  git add -A
+  git commit -m $1
+  git push
+}
 
