@@ -101,6 +101,13 @@ alias merge='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git merge {}'
 alias reset='git reset --hard'
 alias pull='git pull'
 alias status='git status'
+gitStartup() {
+  git init
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin git@github.com:$GITNAME/$1.git
+  git push -u origin main
+}
 commit() {
   git add -A
   git commit -m $1
