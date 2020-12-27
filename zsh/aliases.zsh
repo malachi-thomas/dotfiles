@@ -103,11 +103,13 @@ alias pull='git pull'
 alias status='git status'
 gitStartup() {
   git init
+  git add -A
   git commit -m "first commit"
   git branch -M main
   git remote add origin git@github.com:$GITNAME/$1.git
   git push -u origin main
 }
+  # echo git@github.com:$GITNAME/$1.git
 commit() {
   git add -A
   git commit -m $1

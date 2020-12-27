@@ -1,7 +1,8 @@
 #!/usr/bin/env 
 
 # install zsh and other #dependntsEs#
-sudo pacman -S zsh curl git
+# sudo pacman -S zsh curl git
+echo "install zsh"
 
 # change default shell to zsh
 chsh -s $(which zsh)
@@ -10,13 +11,9 @@ chsh -s $(which zsh)
 # git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.config/oh-my-zsh
 
 # install zsh plugins
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/plugins/zsh-autosuggestions
-git clone https://github.com/agkozak/zsh-z ~/.config/zsh/plugins/zsh-z
 
-# install zsh pure prompt
-# mkdir -p "$HOME/.zsh"
-# git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
+mkdir -p ~/dotfiles/zsh/plugins/zsh-syntax-highlighting
 
-
+curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/testing-stuff/zsh/plugins/zsh-z.zsh > ~/dotfiles/zsh/plugins/zsh-z.zsh
+curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/testing-stuff/zsh/plugins/zsh-autosuggestions.zsh > ~/dotfiles/zsh/plugins/zsh-autosuggestions.zsh
 

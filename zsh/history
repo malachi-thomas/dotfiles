@@ -10835,3 +10835,285 @@ fi\
 : 1609069418:0;gitStartup test
 : 1609069424:0;la
 : 1609069432:0;commit "new notes"
+: 1609069444:0;..
+: 1609069447:0;mk test
+: 1609069449:0;cd test
+: 1609069456:0;gitStartup test
+: 1609069462:0;la
+: 1609069468:0;rma *
+: 1609069470:0;la
+: 1609069474:0;rma .git
+: 1609069475:0;la
+: 1609069476:0;gitStartup test
+: 1609069494:0;zsh
+: 1609069516:0;so
+: 1609069519:0;gitStartup test
+: 1609069524:0;zsh
+: 1609069529:0;so
+: 1609069532:0;gitStartup test
+: 1609069537:0;zsh
+: 1609069589:0;la
+: 1609069592:0;gitStartup test
+: 1609069595:0;so
+: 1609069597:0;gitStartup test
+: 1609069604:0;la
+: 1609069609:0;touch hello
+: 1609069611:0;gitStartup test
+: 1609069619:0;zsh
+: 1609069636:0;so
+: 1609069638:0;gitStartup test
+: 1609069644:0;la
+: 1609069660:0;zlh
+: 1609069662:0; zsh
+: 1609069680:0;so
+: 1609069682:0;gitStartup test
+: 1609069691:0;zsh
+: 1609069706:0;so
+: 1609069710:0;gitStartup test
+: 1609069747:0;la
+: 1609069748:0;git push -u origin main
+: 1609069760:0;git remote add origin git@github.com:banana-llarma/test.git
+: 1609069763:0;git push -u origin main
+: 1609069766:0;push
+: 1609069771:0;    git push --set-upstream origin main\
+
+: 1609069802:0;git init\
+git add README.md\
+git commit -m "first commit"\
+git branch -M main\
+git remote add origin git@github.com:banana-llarma/test.git\
+git push -u origin main\
+
+: 1609069805:0;la
+: 1609069850:0;zsh
+: 1609069874:0;la
+: 1609069876:0;push 
+: 1609069885:0;    git push --set-upstream origin main\
+
+: 1609069896:0;git remote add origin git@github.com:banana-llarma/test.git    git push --set-upstream origin main\
+
+: 1609069897:0;git remote add origin git@github.com:banana-llarma/test.git
+: 1609069904:0;rma .git
+: 1609069912:0;gitStartup test
+: 1609069921:0;la
+: 1609069924:0;zsh
+: 1609069943:0;push
+: 1609069952:0;git push -u origin main
+: 1609070002:0;gitStartup test1
+: 1609070019:0;echo "# test1" >> README.md\
+git init\
+git add README.md\
+git commit -m "first commit"\
+git branch -M main\
+git remote add origin git@github.com:banana-llarma/test1.git\
+git push -u origin main\
+
+: 1609070032:0;git remote add origin git@github.com:banana-llarma/test1.git\
+git branch -M main\
+git push -u origin main\
+
+: 1609070038:0;la
+: 1609070041:0;cd .git
+: 1609070041:0;la
+: 1609070043:0;..
+: 1609070044:0;la
+: 1609070052:0;commit "new notes"
+: 1609070058:0;git push -u origin main
+: 1609070066:0;git push -u origin
+: 1609070083:0;    git push --set-upstream origin main\
+
+: 1609070099:0;git remote add origin git@github.com:banana-llarma/test1.git
+: 1609070104:0;git branch -M main
+: 1609070105:0;la
+: 1609070111:0;git push -u origin main
+: 1609070130:0;commit "new notes"
+: 1609070140:0;    git push --set-upstream origin main\
+
+: 1609070145:0;checkout
+: 1609070147:0;la
+: 1609070158:0;echo "# test1" >> README.md\
+git init\
+git add README.md\
+git commit -m "first commit"\
+git branch -M main\
+git remote add origin git@github.com:banana-llarma/test1.git\
+git push -u origin main\
+
+: 1609070164:0;rma .git
+: 1609070166:0;echo "# test1" >> README.md\
+git init\
+git add README.md\
+git commit -m "first commit"\
+git branch -M main\
+git remote add origin git@github.com:banana-llarma/test1.git\
+git push -u origin main\
+
+: 1609070171:0;la
+: 1609070182:0;zsh
+: 1609070234:0;so
+: 1609070240:0;gitStartup test2
+: 1609070255:0;la
+: 1609070258:0;rma .git
+: 1609070262:0;gitStartup test2
+: 1609070272:0;zsh
+: 1609070283:0;la
+: 1609070285:0;rma .git
+: 1609070286:0;la
+: 1609070288:0;so
+: 1609070292:0;gitStartup test2
+: 1609070301:0;rma .git
+: 1609070318:0;la
+: 1609070321:0;gitStartup test3
+: 1609070333:0;la
+: 1609070335:0;zsh
+: 1609070388:0;gitStartup test3
+: 1609070390:0;so
+: 1609070393:0;gitStartup test3
+: 1609070401:0;zsh
+: 1609070451:0;echo $GITNAME
+: 1609070457:0;zsh
+: 1609070481:0;echo $GITNAME
+: 1609070500:0;cd test
+: 1609070501:0;la
+: 1609070504:0;rma .git
+: 1609070507:0;gitStartup test3
+: 1609070513:0;zsh
+: 1609070531:0;so
+: 1609070533:0;gitStartup test3
+: 1609070548:0;rma .git
+: 1609070549:0;la
+: 1609070551:0;rm README.md
+: 1609070552:0;la
+: 1609070635:0;gitStartup test
+: 1609070644:0;la
+: 1609070649:0;rma * .
+: 1609070651:0;rma * .*
+: 1609070654:0;rma * *.*
+: 1609070663:0;rma * .*
+: 1609070664:0;rma * .
+: 1609070666:0;rma * .**
+: 1609070671:0;rma .*
+: 1609070672:0;la
+: 1609070678:0;..
+: 1609070682:0;rma test
+: 1609070682:0;la
+: 1609074353:0;bin
+: 1609074354:0;la
+: 1609074357:0;v zsh-setup.sh
+: 1609074683:0;curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/testing-stuff/zsh/plugins/zsh-z.zsh
+: 1609074685:0;la
+: 1609074701:0;curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/testing-stuff/zsh/plugins/zsh-z.zsh hat
+: 1609074702:0;la
+: 1609074707:0;curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/testing-stuff/zsh/plugins/zsh-z.zsh > hat
+: 1609074708:0;la
+: 1609074716:0;rm hat
+: 1609074727:0;v zsh-setup.sh
+: 1609074799:0;la
+: 1609074800:0;curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/testing-stuff/zsh/plugins/zsh-z.zsh > zsh-z.zsh\
+curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/testing-stuff/zsh/plugins/zsh-autosuggestions.zsh > zsh-autosuggestions.zsh\
+
+: 1609074802:0;la
+: 1609074807:0;v zsh-autosuggestions.zsh
+: 1609074815:0;rm zsh-autosuggestions.zsh zsh-z.zsh
+: 1609074816:0;la
+: 1609074820:0;v zsh-setup.sh
+: 1609078727:0;curl -L https://downgit.github.io/#/home?url=https://github.com/banana-llarma/dotfiles/blob/testing-stuff/zsh/plugins
+: 1609078767:0;curl -L https://downgit.github.io/#/home?url=https://github.com/banana-llarma/dotfiles/blob/testing-stuff/zsh/plugins hats
+: 1609078776:0;wget https://downgit.github.io/#/home?url=https://github.com/banana-llarma/dotfiles/blob/testing-stuff/zsh/plugins
+: 1609078920:0;la
+: 1609078975:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting
+: 1609078981:0;la
+: 1609078984:0;cd zsh
+: 1609079003:0;v zsh-setup.sh
+: 1609079014:0;cd zsh-syntax-highlighting
+: 1609079015:0;la
+: 1609079059:0;rm zsh
+: 1609079275:0;la
+: 1609079283:0;..
+: 1609079288:0;rma zsh-syntax-highlighting
+: 1609079298:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting temp
+: 1609079304:0;la
+: 1609079313:0;v zsh-setup.sh
+: 1609079405:0;cd dotfiles/zsh
+: 1609079406:0;la
+: 1609079408:0;cd plugins
+: 1609079408:0;la
+: 1609079413:0;cd zsh-syntax-highlighting/
+: 1609079413:0;la
+: 1609079426:0;cd temp
+: 1609079427:0;la
+: 1609079431:0;..
+: 1609079433:0;mk test
+: 1609079452:0;mv temp/zsh-syntax-highlighting.zsh temp/highlighters test
+: 1609079453:0;la
+: 1609079455:0;cd test
+: 1609079455:0;la
+: 1609079457:0;..
+: 1609079463:0;v zsh-setup.sh
+: 1609079607:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/dotfiles/zsh/temp\
+mv ~/dotfiles/zsh/temp/zsh-syntax-highlighting.zsh ~/dotfiles/zsh/temp/highlighters ~/dotfiles/zsh/zsh-syntax-highlighting\
+
+: 1609079614:0;la
+: 1609079616:0;..
+: 1609079618:0;cd zsh
+: 1609079618:0;la
+: 1609079646:0;bin
+: 1609079652:0;sh zsh-setup.sh
+: 1609079656:0;la
+: 1609079659:0;v zsh-setup.sh
+: 1609079748:0;..
+: 1609079749:0;cd zsh
+: 1609079750:0;la
+: 1609079756:0;rma temp
+: 1609079758:0;la
+: 1609079774:0;rm .zsh
+: 1609079775:0;la
+: 1609079781:0;rma zsh-syntax-highlighting
+: 1609079782:0;la
+: 1609079789:0;bin 
+: 1609079791:0;v zsh-setup.sh
+: 1609079805:0;mv plugins test
+: 1609079806:0;la
+: 1609079807:0;mkdir -p ~/dotfiles/zsh/plugins/zsh-syntax-highlighting\
+\
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/dotfiles/zsh/plugins/temp\
+mv ~/dotfiles/zsh/temp/zsh-syntax-highlighting.zsh ~/dotfiles/zsh/temp/highlighters ~/dotfiles/zsh/plugins/zsh-syntax-highlighting\
+rm -r ~/dotfiles/zsh/plugins/temp\
+\
+curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/testing-stuff/zsh/plugins/zsh-z.zsh > ~/dotfiles/zsh/plugins/zsh-z.zsh\
+curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/testing-stuff/zsh/plugins/zsh-autosuggestions.zsh > ~/dotfiles/zsh/plugins/zsh-autosuggestions.zsh\
+
+: 1609079837:0;cd plugins
+: 1609079837:0;la
+: 1609079859:0;rma temp
+: 1609079860:0;la
+: 1609079870:0;cd zsh-syntax-highlighting
+: 1609079871:0;la
+: 1609079880:0;..
+: 1609079881:0;la
+: 1609079882:0;..
+: 1609079890:0;mv test plugins
+: 1609079891:0;la
+: 1609079894:0;cd plugins
+: 1609079895:0;la
+: 1609079897:0;cd zsh-syntax-highlighting
+: 1609079898:0;la
+: 1609079911:0;mv test ../plugins
+: 1609079914:0;la
+: 1609079915:0;..
+: 1609079915:0;la
+: 1609079918:0;..
+: 1609079918:0;la
+: 1609079923:0;cd plugins
+: 1609079923:0;la
+: 1609079925:0;cd test
+: 1609079925:0;la
+: 1609079927:0;..
+: 1609079931:0;rma zsh-syntax-highlighting
+: 1609079934:0;cd test
+: 1609079934:0;la
+: 1609079937:0;mv zsh-syntax-highlighting ..
+: 1609079938:0;la
+: 1609079939:0;..
+: 1609079939:0;la
+: 1609079978:0;commit "updated zsh-setup.sh"
