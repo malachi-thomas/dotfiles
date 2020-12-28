@@ -10788,3 +10788,8 @@ fi\
 : 1609196904:0;vim aliases.zsh
 : 1609196911:0;v aliases.zsh
 : 1609196919:0;commit "changed stuff in aliases file"
+: 1609196926:0;push
+: 1609196948:0;la
+: 1609196953:0;git status
+: 1609196958:0;git add -A
+: 1609196964:0;git commit * -m "test"
