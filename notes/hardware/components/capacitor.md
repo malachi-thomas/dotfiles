@@ -8,6 +8,6 @@ not dissipate energy, unlike a resistor.
 
 A capacitor is used to clean up any noise or AC for sensitive component
 
-### What is a decoupling capacitor
+### What is a decoupling capacitor/bypass capacitor
 
 

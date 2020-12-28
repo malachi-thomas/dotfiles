@@ -57,7 +57,7 @@ alias nots='v ~/dotfiles/notes/topics.md'
 alias nodejs='cd ~/code/nodejs'
 
 # Linux
-if [[ $OSTYPE == "linux-gnu" ]]
+if [[ $OSTYPE == "linux-gnu"* ]]
 then
   alias ls='ls -F --color=auto'
   alias la='ls -aF --color=auto'
@@ -76,6 +76,7 @@ then
   uefi() {
     sudo systemctl reboot --firmware-setup
   }
+echo "hello linux"
 fi
 
 # Mac OS

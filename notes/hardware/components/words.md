@@ -1,4 +1,4 @@
-### Power
+### words
 
 - Voltage = Electric pressure
 - Current = Electric flow, 
@@ -12,8 +12,12 @@
 - I2C | IIC = Inter-Integrated Circuit  
 - UART = universal asynchronous receiver-transmitter
 - SPI = Serial Peripheral Interface
-- Ohms Law = ?
 - pullup resisters
 - what is pullup
+
+### I don't know
 - vbus = ?
+- Ohms Law = ?
 - decoupling capacitor = ?
+- full bridge rectifier = ?
+- crystal oscillator = ?
