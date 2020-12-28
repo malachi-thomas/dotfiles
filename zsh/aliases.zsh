@@ -76,7 +76,6 @@ then
   uefi() {
     sudo systemctl reboot --firmware-setup
   }
-echo "hello linux"
 fi
 
 # Mac OS

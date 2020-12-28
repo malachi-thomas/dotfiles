@@ -10797,3 +10797,10 @@ fi\
 : 1609197011:0;git branch
 : 1609197135:0;v aliases.zsh
 : 1609197141:0;commit "changed stuff in aliases file"
+: 1609197156:0;ssh pi@raspberrypi
+: 1609197196:0;git branch
+: 1609197223:0;git branch -d testing-stuff
+: 1609197465:0;zsh
+: 1609197475:0;commit "changed stuff in aliases file"
+: 1609197479:0;cd dotfiles
+: 1609197481:0;commit "changed stuff in aliases file"
