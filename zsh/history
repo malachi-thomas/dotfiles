@@ -10804,3 +10804,11 @@ fi\
 : 1609197475:0;commit "changed stuff in aliases file"
 : 1609197479:0;cd dotfiles
 : 1609197481:0;commit "changed stuff in aliases file"
+: 1609197485:0;ssh pi@raspberrypi
+: 1609197707:0;v aliases.zsh
+: 1609197709:0;la
+: 1609197711:0;rm aliases.zsh
+: 1609197712:0;la
+: 1609197715:0;cd zsh
+: 1609197717:0;v aliases.zsh
+: 1609197723:0;commit "changed stuff in aliases file"
