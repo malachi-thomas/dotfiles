@@ -10771,3 +10771,11 @@ fi\
 : 1609239464:0;vimrc
 : 1609239469:0;vim .vimrc
 : 1609239491:0;commit "added vimrc command to aliases.zsh"
+: 1609239503:0;ssh pi@raspberrypi
+: 1609240009:0;la
+: 1609240011:0;cd dotfiles
+: 1609240013:0;cd vim
+: 1609240013:0;la
+: 1609240016:0;v .vimrc
+: 1609240036:0;zsh
+: 1609240044:0;commit "added vimrc command to aliases.zsh"
