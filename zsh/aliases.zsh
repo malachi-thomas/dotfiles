@@ -15,7 +15,7 @@ alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'
 alias v='nvim'
 alias f='rg --files | fzf | xargs -I "{}" nvim {}'
 alias storage='du -h'
-
+alias vimrc='curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/main/vim/.vimrc > ~/.vimrc'
 
 # Config Files
 alias vrc='v ~/.config/nvim/init.vim'
