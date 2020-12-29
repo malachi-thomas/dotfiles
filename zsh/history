@@ -1,112 +1,3 @@
-: 1602915869:0;vpc
-: 1602915922:0;bin
-: 1602915925:0;v startup.sh
-: 1602915961:0;so
-: 1602915968:0;la
-: 1602915980:0;ls -a | wc -l
-: 1602915994:0;files
-: 1602915996:0;file
-: 1602916519:0;copy ~/dotfiles/react/copy.this
-: 1602916520:0;react && cd learning-react/src
-: 1602916526:0;v ../package.json
-: 1602916555:0;pac fixjson
-: 1602916756:0;npm start
-: 1602916774:0;react && cd learning-react/src
-: 1602916775:0;la
-: 1602916781:0;f
-: 1602916800:0;v ../package.json
-: 1602917144:0;t
-: 1602917156:0;f
-: 1602917295:0;v ../package.json
-: 1602917392:0;react && cd learning-react/src
-: 1602917398:0;f
-: 1602919177:0;not
-: 1602919189:0;cd css
-: 1602919228:0;espanso edit
-: 1602919460:0;v center-absolute-item.md
-: 1602919518:0;vrc
-: 1602919558:0;v center-absolute-item.md
-: 1602919759:0;vpl
-: 1602919769:0;v center-absolute-item.md
-: 1602919804:0;react && cd learning-react/src
-: 1602919806:0;f
-: 1602926672:0;cd
-: 1602926675:0;clone https://github.com/dirtyhenry/pomodoro-cli
-: 1602926687:0;cd pomodoro-cli
-: 1602926688:0;make install
-: 1602926716:0;espanso edit
-: 1602926725:0;esp
-: 1602926727:0;cd user
-: 1602926729:0;v web.yml
-: 1602926753:0;so
-: 1602926762:0;v web.yml
-: 1602926771:0;so
-: 1602926851:0;pac timer
-: 1602926892:0;potato
-: 1602926925:0;beep
-: 1602926929:0;pac beep
-: 1602926932:0;beep
-: 1602927038:0;pac fplay
-: 1602927065:0;beep
-: 1602927073:0;beep --help
-: 1602927083:0;beep -n
-: 1602927093:0;beep -n aaa
-: 1602927096:0;beep --help
-: 1602927116:0;beep --device=
-: 1602927131:0;beep -e 
-: 1602927140:0;beep -e a 
-: 1602927178:0;echo -en "\007"\
-
-: 1602927193:0;echo -en "hello"\
-
-: 1602927209:0;echo -en "hello"\
-echo -ne '\a'
-: 1602927211:0;echo -ne '\a'
-: 1602927222:0;amixer set Master unmute
-: 1602927225:0;echo -en "hello"\
-echo -ne '\a'
-: 1602927230:0;echo -en "\007"\
-
-: 1602927239:0;printf '\a'
-: 1602927261:0;echo -en '\a'
-: 1602927279:0;sudo modprobe pcspkr
-: 1602927283:0;echo -en '\a'
-: 1602927295:0;beep
-: 1602927363:0;beep -f 300.7 -r 2 -d 100 -l 400
-: 1602927388:0;su
-: 1603181506:0;chmod 4755 /usr/bin/beep
-: 1602927395:0;beep
-: 1602927405:0;sudo modprobe pcspkr
-: 1602927407:0;beep
-: 1602927417:0;echo -en '\a'
-: 1602927437:0;echo -en "\007"\
-
-: 1602927503:0;c=10; while [ $c -ge 0 ]; do espeak $c; let c--; done; sleep 1 ## here lengthy code\
-espeak "We are done with counting"\
-
-: 1602927513:0;pac spd-say
-: 1602927526:0;pac sound
-: 1602927597:0;pac bash-timer
-: 1602927675:0;bash-timer source ~/.bash-timer.sh\
-
-: 1602927731:0;esp
-: 1602927734:0;v user/web.yml
-: 1602927749:0;so
-: 1602927759:0;v user/web.yml
-: 1602927767:0;so
-: 1602927777:0;v user/web.yml
-: 1602927893:0;v default.yml
-: 1602927906:0;v user/spelling.yml
-: 1602927974:0;so
-: 1602927985:0;v user/spelling.yml
-: 1602928017:0;so
-: 1602928031:0;v user/spelling.yml
-: 1602928050:0;la
-: 1602928052:0;cd user
-: 1602928053:0;la
-: 1602928057:0;v spelling.yml
-: 1602928093:0;so
-: 1602928100:0;v spelling.yml
 : 1602928108:0;espanso restart
 : 1602928115:0;v spelling.yml
 : 1602928142:0;esp
@@ -10812,3 +10703,56 @@ fi\
 : 1609197715:0;cd zsh
 : 1609197717:0;v aliases.zsh
 : 1609197723:0;commit "changed stuff in aliases file"
+: 1609197812:0;la
+: 1609197814:0;.
+: 1609197815:0;..
+: 1609197823:0;la
+: 1609197907:0;bin
+: 1609197912:0;v ssh.sh
+: 1609197980:0;power
+: 1609230497:0;ssh pi@raspberrypi
+: 1609230814:0;vrc
+: 1609231085:0;ls  | ssh desktopIpAddress pbcopy\
+
+: 1609231266:0;ls  | ssh ip@raspberrypi pbcopy\
+
+: 1609231305:0;exit
+: 1609231374:0;ssh pi@raspberrypi
+: 1609231865:0;la
+: 1609231896:0;v .zshrc
+: 1609232081:0;zshrc
+: 1609232085:0;v .zshrc
+: 1609232179:0;la
+: 1609232185:0;ls
+: 1609232187:0;la
+: 1609232197:0;cd music
+: 1609232197:0;la
+: 1609232199:0;mocp
+: 1609232210:0;exit
+: 1609234179:0;cd
+: 1609234183:0;la
+: 1609234195:0;exit
+: 1609234212:0;ls
+: 1609234215:0;la
+: 1609234223:0;exit
+: 1609234264:0;q
+: 1609234557:0;ssh pi@raspberrypi
+: 1609237317:0;exit
+: 1609237317:0;q
+: 1609237323:0;la
+: 1609237331:0;v .vimrc
+: 1609237337:0;vrc
+: 1609237357:0;vim .vimrc
+: 1609238807:0;la
+: 1609238810:0;ls cat
+: 1609238814:0;v .vimrc
+: 1609238824:0;vim .vimrc
+: 1609239282:0;cp .vimrc ~/dotfiles/vim/.vimrc
+: 1609239287:0;dow
+: 1609239289:0;dot
+: 1609239292:0;cd vim
+: 1609239293:0;la
+: 1609239297:0;rm vimrc
+: 1609239299:0;v .vimrc
+: 1609239306:0;commit ""
+: 1609239317:0;commit "added new vimrc"

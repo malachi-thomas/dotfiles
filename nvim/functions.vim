@@ -87,12 +87,3 @@ function! Check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
-
-
-function! RustFormat()
-  normal mm
-  %s/\v((;|\{|\}|\,)@!.$\zs)/;/ge
-  " %s/\v\{\zs;$|\}\zs;$//ge
-  normal gg=G`m
-endfunction
-

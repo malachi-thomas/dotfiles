@@ -11,8 +11,6 @@ nnoremap <pageup> <c-u>
 nnoremap <pagedown> <c-d>
 nnoremap <home> ^
 nnoremap <end> $
-nnoremap { }
-nnoremap } {
 nnoremap f f
 inoremap <home> <c-o>^
 nnoremap <ScrollWheelUp> k
@@ -66,8 +64,6 @@ nnoremap <s-up> <nop>
 nnoremap <s-down> <nop>
 
 " Visuale
-vnoremap { }
-vnoremap } {
 
 vnoremap <up> <up>zz
 vnoremap <down> <down>zz
@@ -76,7 +72,7 @@ vnoremap <home> ^
 vnoremap <end> $<left>
 
 " terminal
-nnoremap <c-t> :60vs<cr>:term<cr>i
+" nnoremap <c-t> :60vs<cr>:term<cr>i
 tnoremap <esc> <C-\><C-n>
 tnoremap <M-up> <c-\><c-n><c-w>k
 tnoremap <M-down> <c-\><c-n><c-w>j
@@ -176,8 +172,5 @@ else
   inoremap <silent> <esc>OC <right>
   inoremap <silent> <esc>OD <left>
 endif
-
-" nmap <silent>gq <plug>(Mac_Play)
-" nmap <silent>q <plug>(Mac_RecordNew)
 
 

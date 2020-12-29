@@ -2,7 +2,7 @@
 
 sudo pacman -S openssh xclip
 git config --global user.email "thomasmalachi18@gmail"
-git config --global user.name "banana_llarma"
+git config --global user.name "banana-llarma"
 
 ssh-keygen -t rsa -b 4096 -C "thomasmalachi18@gmail.com"
 eval "$(ssh-agent -s)"
