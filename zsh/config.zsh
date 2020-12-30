@@ -7,22 +7,19 @@ bindkey -s '^[' '' # Unmap esc
 bindkey -s '^n' '^[c' # bind alt+c to ctrl+n
 bindkey -v
 
-_git_repo_name() { 
-    gittopdir=$(git rev-parse --git-dir 2> /dev/null)
-    if [[ "foo$gittopdir" == "foo.git" ]]; then
-        echo " "`basename $(pwd)`":"
-    fi
-}
-_git_branch_name() {
-    git branch 2>/dev/null | awk '/^\*/ { print $2 }'
+git_branch_name() {
+  branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
+  if [[ $branch != "" ]];
+  then
+    echo ' ('$branch')'
+  fi
 }
 
 # Prompt
 setopt prompt_subst
 autoload -U colors && colors
 PS1='
-
-%F{magenta}%n@%m%f%F{cyan}$(_git_repo_name)$(_git_branch_name)%f %F{blue}%~
+%F{magenta}%n@%m%f%F{cyan}$(git_branch_name)%f %F{blue}%~
 %F{red}-%f '
 
 # Basic auto/tab complete

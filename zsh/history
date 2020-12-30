@@ -10835,3 +10835,234 @@ fi\
 : 1609333081:0;so
 : 1609333091:0;la
 : 1609333148:0;commit "added branch and "
+: 1609333158:0;la
+: 1609333315:0;cd
+: 1609333324:0;ps1=""
+: 1609333329:0;prompt=""
+: 1609333332:0;cd
+: 1609333337:0;prompt="\n"
+: 1609333341:0;cd
+: 1609333345:0;la
+: 1609333349:0;so
+: 1609333357:0;cd
+: 1609333362:0;..
+: 1609333375:0;so
+: 1609333449:0;cd dotfiles
+: 1609333471:0;lo
+: 1609333473:0;la
+: 1609333474:0;cd
+: 1609333478:0;..
+: 1609333481:0;cd
+: 1609334179:0;bin
+: 1609334180:0;la
+: 1609334186:0;zsh
+: 1609334191:0;cd dotfiles
+: 1609334195:0;bin
+: 1609334199:0;la
+: 1609334216:0;_git_branch_name
+: 1609334222:0;_git_repo_name
+: 1609334224:0;..
+: 1609334277:0;function git_current_branch() {\
+    ref=$(git symbolic-ref HEAD 2> /dev/null) || \\
+    ref=$(git rev-parse --short HEAD 2> /dev/null) || return\
+    echo ${ref#refs/heads/}\
+}\
+
+: 1609334284:0;git_current_branch
+: 1609334330:0;function git_current_branch() {\
+    ref=$(git symbolic-ref HEAD 2> /dev/null) || \\
+    ref=$(git rev-parse --short HEAD 2> /dev/null) || return\
+    echo ${ref#refs/heads/}\
+}\
+\
+function git_status_is_clean() {\
+    lines=$(git status --porcelain | egrep -v '^\?\? ' | wc -l)\
+    test $lines = 0\
+}\
+\
+function git_unknown_files() {\
+    lines=$(git status --porcelain | egrep '^\?\? ' | wc -l)\
+    test $lines = 0\
+}\
+\
+function git_stash_is_clean() {\
+    lines=$(git stash list | wc -l)\
+    test $lines = 0\
+}\
+\
+function git_no_branches() {\
+    lines=$(git branch | wc -l)\
+    test $lines = 1\
+}\
+\
+function git_single_remote() {\
+    lines=$(git remote | wc -l)\
+    test $lines -le 1\
+}\
+\
+function git_no_remote() {\
+    lines=$(git remote | wc -l)\
+    test $lines = 0\
+}\
+\
+function git_branch_is_pushed() {\
+    git_no_remote || git diff-tree --quiet origin/master master\
+}\
+\
+#-----------------------------------------------------------------------------\
+\
+function git_prompt_precmd() {\
+    if [ -z `git_current_branch` ]; then\
+        GITINFO=""\
+    else\
+        GITINFO=" [`git_current_branch`"\
+        if ! git_status_is_clean; then\
+            GITINFO="$GITINFO*"\
+        fi\
+        if ! git_unknown_files; then\
+            GITINFO="${GITINFO}?"\
+        fi\
+        if ! git_branch_is_pushed; then\
+            GITINFO="$GITINFOâƒ¾ƒº"\
+        fi\
+        if ! git_stash_is_clean; then\
+            GITINFO="$GITINFOâƒ¸°"\
+        fi\
+        if ! git_no_branches; then\
+            GITINFO="$GITINFOâƒ¬¥"\
+        fi\
+        if ! git_single_remote; then\
+            GITINFO="$GITINFOÂ®"\
+        fi\
+        GITINFO="$GITINFO]"\
+    fi\
+    echo $GITINFO\
+}\
+
+: 1609334343:0;function git_current_branch() {\
+    ref=$(git symbolic-ref HEAD 2> /dev/null) || \\
+    ref=$(git rev-parse --short HEAD 2> /dev/null) || return\
+    echo ${ref#refs/heads/}\
+}\
+\
+function git_status_is_clean() {\
+    lines=$(git status --porcelain | egrep -v '^\?\? ' | wc -l)\
+    test $lines = 0\
+}\
+\
+function git_unknown_files() {\
+    lines=$(git status --porcelain | egrep '^\?\? ' | wc -l)\
+    test $lines = 0\
+}\
+\
+function git_stash_is_clean() {\
+    lines=$(git stash list | wc -l)\
+    test $lines = 0\
+}\
+\
+function git_no_branches() {\
+    lines=$(git branch | wc -l)\
+    test $lines = 1\
+}\
+\
+function git_single_remote() {\
+    lines=$(git remote | wc -l)\
+    test $lines -le 1\
+}\
+\
+function git_no_remote() {\
+    lines=$(git remote | wc -l)\
+    test $lines = 0\
+}\
+\
+function git_branch_is_pushed() {\
+    git_no_remote || git diff-tree --quiet origin/master master\
+}\
+\
+\
+\
+function git_prompt_precmd() {\
+    if [ -z `git_current_branch` ]; then\
+        GITINFO=""\
+    else\
+        GITINFO=" [`git_current_branch`"\
+        if ! git_status_is_clean; then\
+            GITINFO="$GITINFO*"\
+        fi\
+        if ! git_unknown_files; then\
+            GITINFO="${GITINFO}?"\
+        fi\
+        if ! git_branch_is_pushed; then\
+            GITINFO="$GITINFOâƒ¾ƒº"\
+        fi\
+        if ! git_stash_is_clean; then\
+            GITINFO="$GITINFOâƒ¸°"\
+        fi\
+        if ! git_no_branches; then\
+            GITINFO="$GITINFOâƒ¬¥"\
+        fi\
+        if ! git_single_remote; then\
+            GITINFO="$GITINFOÂ®"\
+        fi\
+        GITINFO="$GITINFO]"\
+    fi\
+    echo $GITINFO\
+}\
+
+: 1609334348:0;git_prompt_precmd
+: 1609334350:0;la
+: 1609334429:0;echo $gittopdir
+: 1609334434:0;git_prompt_precmd
+: 1609334451:0;so
+: 1609334453:0;..
+: 1609334454:0;bin
+: 1609334457:0;la
+: 1609334466:0;  if [[ "foo$gittopdir" == "foo.git" ]]\
+  then\
+    echo " "`basename $(pwd)`":"\
+  fi\
+
+: 1609334468:0;..
+: 1609334469:0;  if [[ "foo$gittopdir" == "foo.git" ]]\
+  then\
+    echo " "`basename $(pwd)`":"\
+  fi\
+
+: 1609334482:0;  if [[ "$gittopdir" == ".git" ]]\
+  then\
+    echo " "`basename $(pwd)`":"\
+  fi\
+
+: 1609334509:0;  if [[ "$gittopdir" == **".git" ]]\
+\
+echo true\
+fi
+: 1609334514:0;  if [[ "$gittopdir" == **".git" ]]\
+then\
+echo true\
+fi
+: 1609334523:0;bin
+: 1609334525:0;so
+: 1609334527:0;la
+: 1609334530:0;..
+: 1609334532:0;la
+: 1609334642:0;so
+: 1609334646:0;..
+: 1609334647:0;la
+: 1609334648:0;cd dotfiles
+: 1609334661:0;so
+: 1609334663:0;cd dotfiles
+: 1609334678:0;so
+: 1609334680:0;cd dot
+: 1609334683:0;la
+: 1609334706:0;so
+: 1609334821:0;..
+: 1609334823:0;cd dotfiles
+: 1609334840:0;so
+: 1609334841:0;..
+: 1609334843:0;cd dotfiles
+: 1609334880:0;lo
+: 1609334882:0;cd
+: 1609334884:0;cd dotfiles
+: 1609334885:0;bin
+: 1609334918:0;commit "added branch name to zsh prompt"
