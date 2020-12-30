@@ -21,3 +21,6 @@
 - decoupling capacitor = ?
 - full bridge rectifier = ?
 - crystal oscillator = ?
+- smoothing capacitor
+- node in a ic = ?
+

@@ -1,104 +1,3 @@
-: 1602928108:0;espanso restart
-: 1602928115:0;v spelling.yml
-: 1602928142:0;esp
-: 1602928143:0;cd user
-: 1602928144:0;la
-: 1602928149:0;v spelling.yml
-: 1602928170:0;so
-: 1602928241:0;espanso restart
-: 1602928261:0;con
-: 1602928279:0;so
-: 1602928321:0;mv spelling.yml hats.yml
-: 1602928323:0;so
-: 1602928332:0;v spelling.yml
-: 1602928335:0;v hats.yml
-: 1602928410:0;h so
-: 1602928411:0;so
-: 1602928439:0;mv hats.yml ../
-: 1602928440:0;la
-: 1602928450:0;..
-: 1602928451:0;la
-: 1602928466:0;espanso help
-: 1602928474:0;espanso path
-: 1602928487:0;sh relink.sh
-: 1602928488:0;sh 
-: 1602928589:0;esp
-: 1602928590:0;cd 
-: 1602928592:0;con 
-: 1602928594:0;cd espanso
-: 1602928607:0;esp
-: 1602928623:0;cp -f * ~/.config/espanso
-: 1602928632:0;cp -fr * ~/.config/espanso
-: 1602928651:0;mv hats.yml user
-: 1602928652:0;la
-: 1602928660:0;rm vim.vim
-: 1602928660:0;la
-: 1602928663:0;cd user
-: 1602928664:0;la
-: 1602928667:0;ls -l
-: 1602928670:0;la
-: 1602928672:0;..
-: 1602928672:0;la
-: 1602928678:0;ls -a
-: 1602928680:0;ls -l
-: 1602928698:0;rm -r *
-: 1602928700:0;la
-: 1602928716:0;cp default.yml ~/.config/espanso
-: 1602928721:0;v default.yml
-: 1602928729:0;cd user
-: 1602928730:0;la
-: 1602928734:0;cp * ~/dotfiles/espanso/user
-: 1602928739:0;cp -f * ~/dotfiles/espanso/user
-: 1602928744:0;la
-: 1602928744:0;t
-: 1602928750:0;tree
-: 1602928755:0;la
-: 1602928767:0;cp -f * ~/.config/espanso/user
-: 1602928771:0;la
-: 1602928772:0;cd 
-: 1602928783:0;cd .config/espanso
-: 1602928784:0;la
-: 1602928785:0;cd user
-: 1602928785:0;la
-: 1602928790:0;v spelling.yml
-: 1602928794:0;rm spelling.yml
-: 1602928798:0;la
-: 1602928801:0;v la
-: 1602928805:0;cd
-: 1602928807:0;-
-: 1602928807:0;..
-: 1602928809:0;-
-: 1602928810:0;cd
-: 1602928812:0;-
-: 1602928821:0;v spelling.yml
-: 1602928882:0;so
-: 1602928895:0;la
-: 1602928896:0;v spelling.yml
-: 1602928904:0;so
-: 1602928915:0;espanso restart
-: 1602928919:0;v spelling.yml
-: 1602928973:0;mv spelling.yml ../
-: 1602928980:0;v ../spelling.yml
-: 1602929036:0;espanso edit spelling\
-
-: 1602929184:0;..
-: 1602929185:0;la
-: 1602929187:0;cd user
-: 1602929188:0;la
-: 1602929189:0;..
-: 1602929191:0;cat spelling.yml
-: 1602929196:0;rm spelling.yml
-: 1602929197:0;la
-: 1602929204:0;v user/spelling.yml
-: 1602929226:0;Best regards,
-: 1602929227:0;Jon Snow
-: 1602929325:0;so
-: 1602929331:0;v user/spelling.yml
-: 1602929340:0;so
-: 1602929350:0;v user/spelling.yml
-: 1602929364:0;so
-: 1602929368:0;v
-: 1602929380:0;v user/spelling.yml
 : 1602929398:0;so
 : 1602929411:0;v user/spelling.yml
 : 1602929634:0;v default.yml
@@ -10779,3 +10678,67 @@ fi\
 : 1609240016:0;v .vimrc
 : 1609240036:0;zsh
 : 1609240044:0;commit "added vimrc command to aliases.zsh"
+: 1609240126:0;la
+: 1609240179:0;exit
+: 1609240181:0;exit
+: 1609251401:0;ssh pi@raspberrypi
+: 1609251425:0;echo $OSTYPE
+: 1609251431:0;cd dotfiles
+: 1609251437:0;la
+: 1609251445:0;..
+: 1609251561:0;v .vimrc
+: 1609271026:0;l
+: 1609271027:0;la
+: 1609271041:0;l
+: 1609271042:0;la
+: 1609271045:0;vim keyboard-layout.json
+: 1609271125:0;vrc
+: 1609271214:0;sh color.sh
+: 1609271299:0;cd dotfiles/vim
+: 1609271304:0;vim .vimrc
+: 1609274337:0;ssh pi@raspberrypi
+: 1609274356:0;ssh malachi@malachi
+: 1609274361:0;la
+: 1609274378:0;rm test.ino test.js test.py
+: 1609274380:0;la
+: 1609274391:0;rm keyboard-layout.json
+: 1609274392:0;la
+: 1609274739:0;not
+: 1609274755:0;cd hardware/components
+: 1609274766:0;vim words.md
+: 1609275088:0;cd dotfiles/notes/hardware/components
+: 1609275093:0;v words.md
+: 1609277964:0;cd shows/andou-july
+: 1609277966:0;vid EP.5.720p.mp4
+: 1609277982:0;vid EP.6.720p.mp4
+: 1609328453:0;ssh malachi@malachi
+: 1609328456:0;la
+: 1609328467:0;ssh malachi@malachi
+: 1609328480:0;q
+: 1609330555:0;ls -lah /dev/ttyACM0
+: 1609330559:0;la
+: 1609330561:0;ls
+: 1609330572:0;alias ls='ls'
+: 1609330572:0;ls
+: 1609330575:0;ls -F
+: 1609330583:0;ls -F --color=auto
+: 1609330703:0;PROMPT="%m"
+: 1609330708:0;zlh
+: 1609330709:0;zsh
+: 1609330734:0;so
+: 1609330810:0;PROMPT="%n@%m"
+: 1609330813:0;la
+: 1609330815:0;zsh
+: 1609330849:0;la
+: 1609330871:0;so
+: 1609330905:0;cfd
+: 1609330906:0;cd
+: 1609330908:0;ssh malachi@malachi
+: 1609330915:0;ssh raspberrypi@pi
+: 1609330920:0;cd
+: 1609330921:0;exit
+: 1609330924:0;exit
+: 1609330926:0;ssh raspberrypi@pi
+: 1609330932:0;ssh pi@raspberrypi
+: 1609330943:0;dot
+: 1609330959:0;commit "added hostname and user to zsh prompt"

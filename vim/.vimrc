@@ -1,4 +1,5 @@
 
+hi! Character guibg=#928374
 set background=dark
 
 syntax enable

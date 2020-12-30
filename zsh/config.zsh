@@ -10,7 +10,7 @@ bindkey -v
 # Prompt
 autoload -U colors && colors
 PS1='
-%F{blue}%~
+%F{magenta}%n@%m %F{blue}%~
 %F{red}-%f '
 
 # Basic auto/tab complete
