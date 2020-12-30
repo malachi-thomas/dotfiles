@@ -1,8 +1,8 @@
 {
-"sh": {
-    "prefix": "sh",
+"bash": {
+    "prefix": "bash",
     "body": [
-      "#!/usr/bin/env sh"
+      "#!/usr/bin/env bash
     ]
   }
 }
