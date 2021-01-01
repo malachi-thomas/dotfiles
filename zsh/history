@@ -1,202 +1,3 @@
-: 1602929398:0;so
-: 1602929411:0;v user/spelling.yml
-: 1602929634:0;v default.yml
-: 1602929639:0;v user/spelling.yml
-: 1602930431:0;cp -r * ~/dotfiles/espanso
-: 1602930434:0;dot
-: 1602930435:0;esp
-: 1602930436:0;la
-: 1602930438:0;v default.yml
-: 1602930446:0;sh relink.sh
-: 1602930452:0;la
-: 1602930454:0;v default.yml
-: 1602930464:0;v default.yml
-: 1602930519:0;commit " espanso"
-: 1602930524:0;updot
-: 1602930526:0;push
-: 1602930608:0;git push -f
-: 1602930616:0;push
-: 1602932317:0;la
-: 1602932317:0;t
-: 1602932320:0;la
-: 1602932322:0;cd
-: 1602932330:0;esp
-: 1602932335:0;rm hats.yml
-: 1602932336:0;la
-: 1602932351:0;cd
-: 1602932365:0;cd .config/espanso
-: 1602932368:0;cp -r * ~/dotfiles/espanso
-: 1602932376:0;la
-: 1602932377:0;cd user
-: 1602932378:0;la
-: 1602932380:0;rm la
-: 1602932383:0;la
-: 1602932383:0;..
-: 1602932389:0;la
-: 1602932391:0;cd user
-: 1602932392:0;la
-: 1602932394:0;rm la
-: 1602932395:0;..
-: 1602932397:0;v default.yml
-: 1602932402:0;cd
-: 1602932409:0;v user/spelling.yml
-: 1602932445:0;so
-: 1602932456:0;v user/terminal.yml
-: 1602932473:0;so
-: 1602932523:0;v default.yml
-: 1602932530:0;so
-: 1602932550:0;vim
-: 1602932565:0;la
-: 1602932572:0;cd
-: 1602932574:0;la
-: 1602932577:0;v .vimrc
-: 1602932603:0;vim -u .vimrc
-: 1602932719:0;esp 
-: 1602932720:0;la
-: 1602932736:0;v user/spelling.yml
-: 1602932754:0;so
-: 1602932759:0;v user/spelling.yml
-: 1602932799:0;so
-: 1602932813:0;bin
-: 1602932823:0;v relink.sh
-: 1602932896:0;so
-: 1602932902:0;commit " espanso"
-: 1602932905:0;push
-: 1602932996:0;uefi
-: 1602933945:0;echo --help
-: 1602933951:0;echo -
-: 1602933953:0;echo -help
-: 1602933957:0;echo -h
-: 1602933961:0;man echo
-: 1602934004:0;echo -e \
-: 1602934006:0;echo -e \a
-: 1602934021:0;echo -e \a hello
-: 1602934037:0;echo -e \v hello
-: 1602934043:0;echo -e \thello
-: 1602934121:0;react && cd learning-react/src
-: 1602934129:0;npm start
-: 1602934152:0;f
-: 1602934166:0;ranger
-: 1602934243:0;uefi
-: 1602941529:0;react && cd learning-react/src
-: 1602941530:0;la
-: 1602941534:0;f
-: 1602941540:0;cd components/Dropdown
-: 1602941547:0;-
-: 1602941550:0;..
-: 1602941553:0;cd -
-: 1602941560:0;..
-: 1602941571:0;v src/components/Dropdown 
-: 1602941658:0;react && cd learning-react/src
-: 1602941662:0;npm start
-: 1602941779:0;mkdir /mnt/usbstick
-: 1602941782:0;sudo mkdir /mnt/usbstick
-: 1602941798:0;su
-: 1603181506:0;mount /dev/sda /mnt/usbstick
-: 1602942265:0;cd /run/media/malachi/EFI
-: 1602942266:0;la
-: 1602942268:0;..
-: 1602942268:0;la
-: 1602942271:0;cd EFI
-: 1602942272:0;ls
-: 1602942303:0;la
-: 1602942306:0;..
-: 1602942307:0;la
-: 1602942309:0;cd UNTITLED
-: 1602942310:0;la
-: 1602942316:0;ranger
-: 1602942341:0;cd PTM
-: 1602942342:0;la
-: 1602942378:0;mk ~/trading
-: 1602942390:0;cp -r * ~/trading
-: 1602942507:0;cd
-: 1602942508:0;la
-: 1602942510:0;cd trading
-: 1602942510:0;la
-: 1602942516:0;ranger
-: 1602942525:0;df -h
-: 1602942531:0;df -h ./
-: 1602942541:0;tree 
-: 1602942835:0;ranger
-: 1602944062:0;vrc
-: 1602944467:0;react && cd learning-react/src
-: 1602944469:0;v constants.js
-: 1602944481:0;vrc
-: 1602944525:0;f
-: 1602945787:0;df -h
-: 1602946528:0;esp
-: 1602946532:0;v user/spelling.yml
-: 1602946623:0;so
-: 1602967655:0;betterlockscreen -s
-: 1603013200:0;espanso edit spelling\
-
-: 1603018812:0;cd
-: 1603018834:0;mk the-keyboard-project
-: 1603018836:0;cd the-keyboard-project
-: 1603018837:0;la
-: 1603018860:0;cd
-: 1603018861:0;la
-: 1603018864:0;	how
-: 1603018865:0;dow
-: 1603018866:0;la
-: 1603018892:0;mv mv keyboard-layout.jpg ~/the-keyboard-project/keyboard-template.jpg
-: 1603018905:0;mv keyboard-layout.jpg ~/the-keyboard-project/keyboard-template.jpg
-: 1603018907:0;cd
-: 1603018909:0;cd the-keyboard-project
-: 1603018909:0;la
-: 1603018911:0;v keyboard-template.jpg
-: 1603018918:0;git init
-: 1603018919:0;la
-: 1603018929:0;commit "start"
-: 1603018943:0;git remote add origin https://github.com/banana-llarma/the-keyboard-project.git\
-git branch -M main\
-git push -u origin main\
-
-: 1603018990:0;push
-: 1603019100:0;git remote set-url origin git@github.com:banana-llarma/the-keyboard-project.git
-: 1603019103:0;push
-: 1603019140:0;la
-: 1603019146:0;to img.md
-: 1603019148:0;v img.md
-: 1603019306:0;commit "start"
-: 1603019309:0;push
-: 1603019354:0;v img.md
-: 1603019362:0;commit "start"
-: 1603019364:0;push
-: 1603019384:0;mv img.md README.MD
-: 1603019394:0;mv README.MD README.me
-: 1603019397:0;commit "start"
-: 1603019402:0;push
-: 1603019479:0;v README.me
-: 1603019486:0;commit "start"
-: 1603019489:0;push
-: 1603019599:0;v README.me
-: 1603019613:0;mv README.me README.md
-: 1603019615:0;commit "start"
-: 1603019617:0;push
-: 1603019706:0;mk layout
-: 1603019708:0;cd layout
-: 1603019721:0;to README.md
-: 1603019723:0;v README.md
-: 1603019733:0;..
-: 1603019752:0;mk assets
-: 1603019752:0;la
-: 1603019898:0;zsh
-: 1603019918:0;so
-: 1603019922:0;uefi
-: 1603020850:0;cd the-keyboard-project
-: 1603020851:0;la
-: 1603020857:0;cd
-: 1603020858:0;dot
-: 1603020860:0;dow
-: 1603021170:0;mv keyboard-layout\ \(3\).json ~/the-keyboard-project/assets
-: 1603021173:0;cd
-: 1603021175:0;cd the-keyboard-project
-: 1603021175:0;la
-: 1603021184:0;cd assets
-: 1603021205:0;mv keyboard-layout\ \(3\).json keyboard-template.json
-: 1603021206:0;la
-: 1603021247:0;..
 : 1603021247:0;la
 : 1603021273:0;mv keyboard-template.jpg layout/keyboard-template.jpg
 : 1603021275:0;cd assets
@@ -11076,3 +10877,50 @@ fi
 : 1609335220:0;bin
 : 1609335227:0;v my-zsh-files.sh
 : 1609335280:0;commit "added my-zsh-files"
+: 1609335341:0;la
+: 1609335347:0;ssh pi@raspberrypi
+: 1609336499:0;dot
+: 1609336519:0;q
+: 1609336526:0;la
+: 1609336528:0;cd dotfiles
+: 1609336612:0;cd
+: 1609336613:0;cd .ssh
+: 1609336614:0;la
+: 1609336617:0;cat id_rsa
+: 1609336637:0;cd .ssh
+: 1609336638:0;la
+: 1609336641:0;cat id_rsa.pub
+: 1609336896:0;la
+: 1609336911:0;ifconfig
+: 1609336958:0;ssh malachi@192.168.1.233
+: 1609336963:0;la
+: 1609337294:0;q
+: 1609367638:0;cd shows/andou-july
+: 1609367641:0;vid EP.7.720p.mp4
+: 1609370502:0;power
+: 1609406087:0;vot
+: 1609406088:0;not
+: 1609406091:0;cd hardware/components
+: 1609406092:0;v words.md
+: 1609407607:0;la
+: 1609407637:0;v electrisity-basics.md
+: 1609411160:0;v usb-type-c.md
+: 1609412701:0;v test.c
+: 1609412896:0;v test.cpp
+: 1609413269:0;la
+: 1609413274:0;rm *test*
+: 1609413275:0;la
+: 1609413302:0;v test.py
+: 1609414062:0;la
+: 1609414067:0;lrc
+: 1609414097:0;v test.py
+: 1609460437:0;cd shows/andou-july
+: 1609460441:0;vid EP.8.1080p.mp4
+: 1609461036:0;cd shows/andou-july
+: 1609461045:0;vid EP.7.720p.mp4
+: 1609492054:0;rnot
+: 1609492056:0;not
+: 1609492061:0;cd hardware/components
+: 1609492065:0;v electric-types.md
+: 1609492070:0;v electrisity-basics.md
+: 1609498776:0;commit "added some notes"

@@ -168,5 +168,13 @@
     "body": [
       "SD.mkdir($0)"
     ]
+  },
+  "func": {
+    "prefix": "func",
+    "body": [
+      "void $1() {",
+      "",
+      "}"
+    ]
   }
 }

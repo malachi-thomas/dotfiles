@@ -24,5 +24,19 @@
       "if $1:",
       "\t$0"
     ]
+  },
+  "func": {
+    "prefix": "func",
+    "body": [
+      "def $1():",
+      "\t"
+    ]
+  },
+  "while": {
+    "prefix": "while",
+    "body": [
+      "while $1:",
+      "\t"
+    ]
   }
 }
