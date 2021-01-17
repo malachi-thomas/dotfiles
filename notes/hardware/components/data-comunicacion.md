@@ -12,5 +12,6 @@ SDA(serial data). both pins need to be pulled up
 
 ### What is UART
 
+
 ### What is Serial
 

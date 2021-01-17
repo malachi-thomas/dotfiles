@@ -1,4 +1,23 @@
 {
+    "editor.tabSize": 2,
+    "editor.wordWrapColumn": 100,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSurroundingLines": 50,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Hack",
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.activityBar.visible": false,
     "workbench.startupEditor": "newUntitledFile",
-    "C_Cpp.updateChannel": "Insiders"
+    "terminal.integrated.fontFamily": "monospace",
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 1,
+  
+    "workbench.editor.showTabs": true,
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "kite.showWelcomeNotificationOnStartup": false,
 }

@@ -1,1330 +1,3 @@
-: 1603021247:0;la
-: 1603021273:0;mv keyboard-template.jpg layout/keyboard-template.jpg
-: 1603021275:0;cd assets
-: 1603021276:0;la
-: 1603021280:0;..
-: 1603021281:0;la
-: 1603021284:0;t
-: 1603021295:0;mv layout/keyboard-template.jpg assets
-: 1603021298:0;cd assets
-: 1603021298:0;la
-: 1603021368:0;..
-: 1603021455:0;react && cd learning-react/src
-: 1603021458:0;v index.js
-: 1603022354:0;dow
-: 1603022364:0;rm *.json
-: 1603022368:0;rm *.jpg
-: 1603022368:0;la
-: 1603022410:0;mv keyboard-layout.jpg ~/the-keyboard-project/default-layout.jpg
-: 1603022428:0;mv keyboard-layout.json ~/the-keyboard-project/assets/default-layout.json
-: 1603022429:0;cd
-: 1603022431:0;cd the-keyboard-project
-: 1603022438:0;mv default-layout.jpg assets
-: 1603022438:0;la
-: 1603022497:0;commit "start"
-: 1603022498:0;push
-: 1603022716:0;la
-: 1603022719:0;cd assets
-: 1603022719:0;la
-: 1603022732:0;mkdir default-layout
-: 1603022738:0;mv default-layout.jpg default-layout.jpg default-layout
-: 1603022739:0;la
-: 1603022745:0;mv default-layout.json keyboard-template.jpg default-layout
-: 1603022746:0;la
-: 1603022767:0;mk malachi\'s-custom-layout
-: 1603022768:0;la
-: 1603022799:0;mv keyboard-template.json malachi\'s-custom-layout/"malachi's-custom-layout".json
-: 1603022799:0;la
-: 1603022802:0;cd malachi\'s-custom-layout
-: 1603022802:0;la
-: 1603022813:0;mv malachi\'s-custom-layout.json malachis-custom-layout.json
-: 1603022814:0;la
-: 1603022829:0;mv malachis-custom-layout.json custom-layout.json
-: 1603022830:0;la
-: 1603022831:0;..
-: 1603022839:0;mv malachi\'s-custom-layout custom-layout
-: 1603022839:0;la
-: 1603022872:0;commit "start"
-: 1603022873:0;push
-: 1603022893:0;la
-: 1603022901:0;mv * ../layout
-: 1603022902:0;la
-: 1603022903:0;..
-: 1603022905:0;rma assets
-: 1603022911:0;la
-: 1603022919:0;cd layout
-: 1603022920:0;la
-: 1603022934:0;cp custom-layout default-layout ../assets
-: 1603022936:0;la
-: 1603022938:0;..
-: 1603022938:0;t
-: 1603022947:0;cp layout/* assets
-: 1603022952:0;cp -r layout/* assets
-: 1603022953:0;t
-: 1603022957:0;cd assets
-: 1603022958:0;rm README.md
-: 1603022959:0;la
-: 1603022970:0;cd custom-layout
-: 1603022973:0;la
-: 1603022974:0;..
-: 1603022978:0;cd default-layout
-: 1603022987:0;ranger
-: 1603023014:0;rm keyboard-template.jpg
-: 1603023016:0;la
-: 1603023016:0;..
-: 1603023019:0;la
-: 1603023034:0;..
-: 1603023044:0;cd assets
-: 1603023045:0;la
-: 1603023055:0;mk template
-: 1603023057:0;cd default-layout
-: 1603023058:0;la
-: 1603023059:0;..
-: 1603023062:0;cd layout
-: 1603023064:0;cd default-layout
-: 1603023065:0;la
-: 1603023079:0;mv keyboard-template.jpg ../../assets/template
-: 1603023083:0;../..
-: 1603023084:0;la
-: 1603023086:0;cd layout
-: 1603023091:0;..
-: 1603023092:0;la
-: 1603023094:0;cd assets
-: 1603023095:0;la
-: 1603023099:0;cd template
-: 1603023100:0;la
-: 1603023111:0;mv keyboard-template.jpg template.jpg
-: 1603023112:0;la
-: 1603023113:0;..
-: 1603023118:0;commit "start"
-: 1603023123:0;push
-: 1603023143:0;v README.md
-: 1603023154:0;commit "start"
-: 1603023156:0;push
-: 1603023938:0;dow
-: 1603023940:0;la
-: 1603023951:0;mv keyboard-layout.json custom-temp.json
-: 1603023951:0;la
-: 1603024012:0;..
-: 1603024019:0;mk my-keyboard
-: 1603024022:0;cd my-keyboard
-: 1603024023:0;la
-: 1603024036:0;clone git@github.com:banana-llarma/my-keyboard.git
-: 1603024041:0;la
-: 1603024044:0;cd my-keyboard
-: 1603024044:0;la
-: 1603024046:0;..
-: 1603024052:0;mv my-keyboard ../
-: 1603024053:0;la
-: 1603024061:0;..
-: 1603024067:0;mv my-keyboard hats
-: 1603024074:0;mv hats/my-keyboard ../
-: 1603024084:0;cd hats
-: 1603024084:0;la
-: 1603024088:0;mv my-keyboard ../
-: 1603024089:0;la
-: 1603024091:0;..
-: 1603024096:0;rma hats
-: 1603024101:0;cd my-keyboard
-: 1603024101:0;la
-: 1603024117:0;commit "start"
-: 1603024121:0;git push
-: 1603024771:0;dot
-: 1603024772:0;dow
-: 1603024772:0;la
-: 1603024786:0;mv keyboard-layout.jpg keyboard-layout.json ~/my-keyboard
-: 1603024788:0;cd
-: 1603024789:0;cd my-keyboard
-: 1603024789:0;la
-: 1603024797:0;mk layouts
-: 1603024815:0;mv keyboard-layout.jpg layouts/layer-1.jpg
-: 1603024824:0;mv keyboard-layout.json layouts/layer-1.json
-: 1603024826:0;cd layouts
-: 1603024827:0;la
-: 1603024836:0;commit "start"
-: 1603024838:0;push
-: 1603024851:0;to README.md
-: 1603024854:0;v README.md
-: 1603024889:0;commit "start"
-: 1603024891:0;push
-: 1603024921:0;git config --global user.email "thomasmalachi18@gmail"\
-git config --global user.name "banana_llarma"\
-
-: 1603024924:0;commit "start"
-: 1603024927:0;push
-: 1603024933:0;la
-: 1603024957:0;mv README.md ../
-: 1603024957:0;la
-: 1603024959:0;commit "start"
-: 1603024963:0;commit "start" && push
-: 1603024967:0;push
-: 1603024987:0;la
-: 1603024993:0;..
-: 1603024995:0;v README.md
-: 1603025031:0;commit "start" && push
-: 1603025041:0;v README.md
-: 1603025084:0;so
-: 1603025088:0;commit "start" && push
-: 1603025583:0;cd
-: 1603025586:0;pac qmk
-: 1603035434:0;qmk setup
-: 1603038796:0;dow
-: 1603038803:0;rm custom-temp.json planck_ez_dvorak-layout_qnLDA_edzQJ.bin planck_ez_dvorak-layout_qnLDA_wxjQD.bin
-: 1603038816:0;mv keyboard-layout.jpg keyboard-layout.json ~/the-keyboard-project
-: 1603038817:0;cd 
-: 1603038819:0;cd the-keyboard-project
-: 1603038820:0;la
-: 1603038837:0;mv keyboard-layout.jpg layout.jpg
-: 1603038847:0;mv keyboard-layout.json layout.json
-: 1603038848:0;la
-: 1603038858:0;cd la
-: 1603038860:0;cd layout
-: 1603038861:0;la
-: 1603038871:0;rma custom-layout default-layout
-: 1603038873:0;..
-: 1603038882:0;mv layout.jpg layout.json layout
-: 1603038884:0;la
-: 1603038894:0;rma assets
-: 1603038895:0;la
-: 1603038897:0;cd layout
-: 1603038898:0;la
-: 1603038908:0;v README.md
-: 1603038921:0;commit "start" && push
-: 1603038948:0;mk the-code
-: 1603038948:0;la
-: 1603038955:0;rma the-code
-: 1603038956:0;..
-: 1603038958:0;mk the-code
-: 1603038958:0;la
-: 1603038977:0;v README.md
-: 1603038984:0;so
-: 1603038988:0;commit "start" && push
-: 1603039012:0;v README.md
-: 1603039029:0;la
-: 1603039034:0;commit "start" && push
-: 1603039127:0;vpc
-: 1603039131:0;zsh
-: 1603039185:0;so
-: 1603039192:0;music 
-: 1603039196:0;all 
-: 1603039248:0;zsh
-: 1603039264:0;cd
-: 1603039269:0;cd dotfiles/zsh
-: 1603039271:0;v variables.zsh
-: 1603039280:0;so
-: 1603039283:0;cd fzf
-: 1603039286:0;la
-: 1603039291:0;cd
-: 1603039293:0;cd music/slow-hip-hop
-: 1603039299:0;cd
-: 1603039302:0;music 
-: 1603039303:0;la
-: 1603039310:0;fd -d
-: 1603039315:0;fd -d ./
-: 1603039320:0;f -d
-: 1603039323:0;zsh
-: 1603039329:0;-
-: 1603039330:0;cd
-: 1603039336:0;cd dotfiles/zsh
-: 1603039339:0;v variables.zsh
-: 1603039358:0;so
-: 1603039363:0;fzf 
-: 1603039366:0;la
-: 1603039367:0;cd
-: 1603039370:0;music 
-: 1603039372:0;cd
-: 1603039391:0;cd dotfiles/zsh
-: 1603039393:0;v [variables.zsh
-: 1603039397:0;v variables.zsh
-: 1603041904:0;fd -t
-: 1603041911:0;v variables.zsh
-: 1603041923:0;so
-: 1603041925:0;fd
-: 1603041928:0;fd -t
-: 1603041931:0;fd -tf
-: 1603041953:0;v variables.zsh
-: 1603041975:0;so
-: 1603041981:0;v variables.zsh
-: 1603041988:0;so
-: 1603041992:0;cd fzf
-: 1603041994:0;cd
-: 1603041997:0;cd music/lucas-king
-: 1603041999:0;la
-: 1603042001:0;cd
-: 1603042007:0;fd -tf
-: 1603042020:0;cd dotfiles/zsh
-: 1603042024:0;v variables.zsh
-: 1603042051:0;la
-: 1603042053:0;so
-: 1603042055:0;zsh
-: 1603042069:0;v
-: 1603042091:0;la
-: 1603042506:0;cd the-keyboard-project
-: 1603042508:0;v README.md
-: 1603042686:0;commit "start" && push
-: 1603047472:0;cd the-code
-: 1603047477:0;v keymap.c
-: 1603047499:0;lrc
-: 1603047535:0;pac clangd
-: 1603047564:0;clangd --version
-: 1603047598:0;pac clang-tools
-: 1603047618:0;pac llvm
-: 1603047679:0;v keymap.c
-: 1603048571:0;vrc
-: 1603048583:0;v keymap.c
-: 1603050934:0;..
-: 1603050939:0;cd dotfiles/qmk
-: 1603050940:0;la
-: 1603050943:0;cd iris-keyboard
-: 1603050943:0;la
-: 1603050947:0;v keymap.c
-: 1603053511:0;v rules.mk
-: 1603053662:0;v config.h
-: 1603053707:0;v keymap.c
-: 1603054195:0;cd
-: 1603054197:0;cd qmk_firmware
-: 1603054198:0;la
-: 1603054257:0;cd 
-: 1603054653:0;cd qmk_firmware
-: 1603054653:0;la
-: 1603054684:0;cd keyboards/kbdfans/kbd67/rev2/keymaps/
-: 1603054685:0;la
-: 1603054693:0;mk malachi
-: 1603054696:0;cd malachi
-: 1603054697:0;la
-: 1603054716:0;ln -f ~/dotfiles/qmk/iris-keyboard/* ./
-: 1603054717:0;la
-: 1603054720:0;...
-: 1603054720:0;..
-: 1603054722:0;...
-: 1603054722:0;..
-: 1603054724:0;la
-: 1603054726:0;..
-: 1603054754:0;make keebio/iris/rev4:default:flash\
-
-: 1603054763:0;cd qmk_firmware
-: 1603054765:0;make keebio/iris/rev4:default:flash\
-
-: 1603054793:0;make keebio/iris/rev4:malachi:flash\
-
-: 1603054808:0;make keebio/iris/rev4:malachi\
-
-: 1603054830:0;\
-make keebio/iris/rev4:default
-: 1603054935:0;make keebio/iris/rev4:pothix
-: 1603054939:0;ccd
-: 1603054940:0;cd
-: 1603054941:0;make keebio/iris/rev4:pothix
-: 1603054961:0;cd qmk_firmware/
-: 1603054962:0;la
-: 1603054964:0;make keebio/iris/rev4:pothix
-: 1603054978:0;cd keyboards/kbdfans/kbd67/rev2/keymaps/
-: 1603054979:0;la
-: 1603054986:0;..
-: 1603054987:0;la
-: 1603054991:0;..
-: 1603054991:0;la
-: 1603054999:0;..
-: 1603055024:0;fd -tf a
-: 1603055028:0;fd -tf aaaa
-: 1603055034:0;fd -tf iris
-: 1603055041:0;fd -td iris
-: 1603055045:0;fd  iris
-: 1603055059:0;cd keyboards/kbdfans/kbd67/rev2/keymaps/
-: 1603055060:0;l;
-: 1603055064:0;..
-: 1603055072:0;cd keymaps
-: 1603055073:0;la
-: 1603055081:0;....
-: 1603055082:0;..
-: 1603055096:0;cd keebio/iris
-: 1603055097:0;la
-: 1603055100:0;cd keymaps
-: 1603055100:0;la
-: 1603055103:0;mk malachi
-: 1603055108:0;la
-: 1603055112:0;cd malachi
-: 1603055113:0;la
-: 1603055117:0;ln -f ~/dotfiles/qmk/iris-keyboard/* ./
-: 1603055118:0;la
-: 1603055124:0;cd qmk_firmware/
-: 1603055130:0;make keebio/iris/rev4:malachi
-: 1603055147:0;cd
-: 1603055149:0;cd dotfiles/qmk
-: 1603055152:0;cd iris-keyboard
-: 1603055155:0;v config.h
-: 1603055371:0;v rules.mk
-: 1603055429:0;make keebio/iris/rev4:default
-: 1603055442:0;la
-: 1603055446:0;git status
-: 1603055463:0;la
-: 1603055466:0;make keebio/iris/rev4:default
-: 1603055483:0;pac qmk
-: 1603055491:0;yay qmk
-: 1603055533:0;sudo pacman -S git python python-pip python-setuptools libffi
-: 1603055543:0;python3 -m pip install --user qmk
-: 1603055560:0;qmk setup
-: 1603055586:0;qmk compile -kb iris -km default\
-
-: 1603055595:0;qmk compile -kb keebio/iris -km default\
-
-: 1603055604:0;make keebio/iris/rev4:default
-: 1603055612:0;qmk compile -kb clueboard/66/rev3 -km default\
-
-: 1603055627:0;qmk compile\
-
-: 1603055650:0;make keebio/iris/rev4:default
-: 1603055675:0;[2;[2;[2;irmware\
-- qmk compile\
-\
-âƒ¸ƒ² Could not determine keyboard!\
-âƒ¸ƒ² You must supply a configurator export, both `--keyboard` and `--keymap`, or be in a directory for a keyboard or keymap.\
-usage: qmk compile [-h] [-b] [-kb KEYBOARD] [-km KEYMAP] [filename]\
-\
-~/qmk_firmware\
-- make keebio/iris/rev4:default\
-QMK Firmware 0.10.40\
-Making keebio/iris/rev4 with keymap default\
-\
-avr-gcc (GCC) 10.2.0\
-Copyright (C) 2020 Free Software Foundation, Inc.\
-This is free software; see the source for copying conditions.  There is NO\
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\
-\
-Compiling: keyboards/keebio/iris/iris.c                                                            In file included from ./keyboards/keebio/iris/config.h:21,\
-                 from <command-line>:\
-quantum/config_common.h:28:18: fatal error: avr/io.h: No such file or directory\
-   28 | #        include <avr/io.h>\
-      |                  ^~~~~~~~~~\
-compilation terminated.\
- [ERRORS]\
- |\
- |\
- |\
-make[1]: *** [tmk_core/rules.mk:386: .build/obj_keebio_iris_rev4_default/keyboards/keebio/iris/iris.o] Error 1\
-Make finished with errors\
-make: *** [Makefile:584: keebio/iris/rev4:default] Error 1\
-\
-~/qmk_firmwarirmware\
-- qmk compile\
-\
-âƒ¸ƒ² Could not determine keyboard!\
-âƒ¸ƒ² You must supply a configurator export, both `--keyboard` and `--keymap`, or be in a directory for a keyboard or keymap.\
-usage: qmk compile [-h] [-b] [-kb KEYBOARD] [-km KEYMAP] [filename]\
-\
-~/qmk_firmware\
-- make keebio/iris/rev4:default\
-QMK Firmware 0.10.40\
-Making keebio/iris/rev4 with keymap default\
-\
-avr-gcc (GCC) 10.2.0\
-Copyright (C) 2020 Free Software Foundation, Inc.\
-This is free software; see the source for copying conditions.  There is NO\
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\
-\
-Compiling: keyboards/keebio/iris/iris.c                                                            In file included from ./keyboards/keebio/iris/config.h:21,\
-                 from <command-line>:\
-quantum/config_common.h:28:18: fatal error: avr/io.h: No such file or directory\
-   28 | #        include <avr/io.h>\
-      |                  ^~~~~~~~~~\
-compilation terminated.\
- [ERRORS]\
- |\
- |\
- |\
-make[1]: *** [tmk_core/rules.mk:386: .build/obj_keebio_iris_rev4_default/keyboards/keebio/iris/iris.o] Error 1\
-Make finished with errors\
-make: *** [Makefile:584: keebio/iris/rev4:default] Error 1\
-\
-~/qmk_firmwar
-: 1603055701:0;make keebio/iris/rev4:default
-: 1603055799:0;sleep
-: 1603089443:0;cd
-: 1603089449:0;qmk setup
-: 1603089480:0;pac arv-gcc
-: 1603089487:0;pac arv-
-: 1603089509:0;pac dfu
-: 1603089565:0;qmk compile -kb clueboard/66/rev3 -km default\
-
-: 1603089637:0;pac gcc
-: 1603089654:0;downgrade gcc gcc-libs
-: 1603089704:0;yay -S downgrade\
-
-: 1603089730:0;sudo nano /etc/pacman.conf\
-
-: 1603089741:0;sudo nvim /etc/pacman.conf\
-
-: 1603089780:0;sudo pacman -Syu\
-
-: 1603089949:0;sudo pacman -S downgrade\
-
-: 1603089961:0;sudo downgrade
-: 1603089972:0;sudo downgrade gcc
-: 1603090017:0;sudo downgrade gcc-lib
-: 1603090036:0;sudo downgrade gcc-libs
-: 1603090059:0;sudo downgrade gcc
-: 1603090086:0;qmk compile -kb clueboard/66/rev3 -km default\
-
-: 1603090117:0;downgrade avr-gcc
-: 1603090134:0;qmk setup
-: 1603090157:0;qmk compile -kb clueboard/66/rev3 -km default\
-
-: 1603090188:0;make keebio/iris/rev4:malachi
-: 1603090192:0;cd qmk_firmware
-: 1603090193:0;make keebio/iris/rev4:malachi
-: 1603090212:0;make keebio/iris/rev4:default
-: 1603090250:0;sudo make planck/rev4:default:flash
-: 1603090273:0;qmk setup
-: 1603090294:0;pac udev
-: 1603090331:0;cd keyboards
-: 1603090375:0;sudo make keebio/iris/rev4:default
-: 1603090382:0;cd qmk_firmware
-: 1603090383:0;sudo make keebio/iris/rev4:default
-: 1603090395:0;sudo make keebio/iris/rev4:malachi
-: 1603090415:0;cd keebio/iris/rev4/
-: 1603090416:0;la
-: 1603090420:0;..
-: 1603090423:0;la
-: 1603090427:0;cd keymaps
-: 1603090428:0;la
-: 1603090479:0;qmk setup
-: 1603090567:0;...
-: 1603090568:0;..
-: 1603090570:0;la
-: 1603090587:0;ls *.hex
-: 1603090591:0;la
-: 1603090592:0;make keebio/iris/rev4:default
-: 1603090626:0;..
-: 1603090632:0;rma qmk_firmware
-: 1603090635:0;qmk setup
-: 1603090966:0;cd qmk_firmware
-: 1603090970:0;make keebio/iris/rev4:default
-: 1603091013:0;dot
-: 1603091019:0;commit "start" && push
-: 1603091033:0;uefi
-: 1603091832:0;avr-gcc --version
-: 1603091892:0;pac make
-: 1603091898:0;cd qmk_firmware
-: 1603091902:0;make keebio/iris/rev4:default
-: 1603091939:0;qmk compile -kb clueboard/66/rev3 -km default\
-
-: 1603091968:0;cd keyboards/keebio/iris
-: 1603091971:0;make keebio/iris/rev4:default
-: 1603091976:0;la
-: 1603091983:0;make rev4:default
-: 1603091992:0;..
-: 1603092004:0;cd iris
-: 1603092005:0;la
-: 1603092015:0;make ./rev4:default
-: 1603092022:0;...
-: 1603092022:0;..
-: 1603092028:0;make keebio/iris/rev4:default
-: 1603092042:0;qmk setup
-: 1603092068:0;sudo udevadm control --reload-rules\
-sudo udevadm trigger\
-
-: 1603092071:0;qmk setup
-: 1603092122:0;sudo dfu-programmer atmega32u4 erase --force\
-sudo dfu-programmer atmega32u4 flash your.hex\
-sudo dfu-programmer atmega32u4 reset\
-
-: 1603092125:0;la
-: 1603092129:0;pac dfu-
-: 1603092155:0;qmk setup
-: 1603092162:0;cd qmk_firmware
-: 1603092172:0;cd keyboards/keebio/iris
-: 1603092175:0;...
-: 1603092176:0;..
-: 1603092178:0;make keebio/iris/rev4:default
-: 1603093387:0;uefi
-: 1603093876:0;make keebio/iris/rev4:default
-: 1603093883:0;cd qmk_firmware
-: 1603093884:0;make keebio/iris/rev4:default
-: 1603093957:0;qmk setup
-: 1603094556:0;espanso edit 
-: 1603095856:0;sudo make keebio/iris/rev4:default
-: 1603096328:0;qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603096404:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603096448:0;qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603096503:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603096757:0;python3 -m pip install --user qmk
-: 1603096761:0;yay qmk
-: 1603096787:0;qmk compile -kb clueboard/66/rev3 -km default\
-
-: 1603096805:0;la
-: 1603096822:0;cd quantum
-: 1603096823:0;la
-: 1603096829:0;v config_common.h
-: 1603096909:0;la
-: 1603096913:0;qmk compile -kb clueboard/66/rev3 -km default\
-
-: 1603096964:0;qmk compile\
-
-: 1603096965:0;cd
-: 1603096966:0;qmk compile\
-
-: 1603097004:0;cd qmk_firmware
-: 1603097035:0;la
-: 1603097039:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603097055:0;cd keyboards/keebio/iris
-: 1603097055:0;la
-: 1603097064:0;v iris.c
-: 1603097072:0;v iris.h
-: 1603097080:0;so
-: 1603097082:0;...
-: 1603097083:0;..
-: 1603097088:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603097118:0;cd keyboards/keebio/iris
-: 1603097119:0;la
-: 1603097128:0;v iris.h
-: 1603097136:0;...
-: 1603097137:0;..
-: 1603097141:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603097144:0;cd
-: 1603097149:0;rma qmk_firmware
-: 1603097160:0;qmk setup
-: 1603097816:0;sudo udevadm control --reload-rules\
-sudo udevadm trigger\
-
-: 1603097862:0;sudo dfu-programmer atmega32u4 erase --force\
-sudo dfu-programmer atmega32u4 flash your.hex\
-sudo dfu-programmer atmega32u4 reset\
-
-: 1603097881:0;sudo pacman -S git python python-pip python-setuptools libffi
-: 1603097886:0;qmk
-: 1603097908:0;qmk new-keymap
-: 1603097938:0;qmk compile -kb keebio/iris/rev4 -km malachi
-: 1603098018:0;cd qm
-: 1603098021:0;cd qmk
-: 1603098022:0;la
-: 1603098026:0;cd qmk_firmware
-: 1603098026:0;la
-: 1603098040:0;cd keyboards/keebio/iris
-: 1603098041:0;la
-: 1603098043:0;cd keymaps
-: 1603098044:0;la
-: 1603098047:0;cd malachi
-: 1603098048:0;la
-: 1603098110:0;qmk compile -kb clueboard/66/rev3 -km default\
-
-: 1603098131:0;..
-: 1603098145:0;qmk flash -kb clueboard/66/rev3 -km default\
-
-: 1603098149:0;sudo qmk flash -kb clueboard/66/rev3 -km default\
-
-: 1603098176:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603098199:0;v keyboards/keebio/iris/config.h 
-: 1603098211:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603098227:0;v keyboards/keebio/iris/rev4/rev4.h 
-: 1603098234:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603098249:0;v keyboards/keebio/iris/iris.h 
-: 1603098254:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603098287:0;v tmk_core/common/eeconfig.h 
-: 1603098295:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603098315:0;sudo qmk flash -kb clueboard/66/rev3 -km default\
-
-: 1603098332:0;v keyboards/xd60/rev3/config.h 
-: 1603098388:0;cd qmk_firmware
-: 1603098391:0;la
-: 1603098400:0;sudo qmk flash -kb clueboard/66/rev3 -km default\
-
-: 1603098476:0;v quantum/config_common.h 
-: 1603098493:0;pac arv
-: 1603098501:0;v quantum/config_common.h 
-: 1603098512:0;sudo qmk flash -kb clueboard/66/rev3 -km default\
-
-: 1603098671:0;cp -rf ~/dotfiles/qmk/iris-keyboard/* ~/qmk_firmware/keyboards/keebio/iris/keymaps/malachi
-: 1603098691:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
-
-: 1603098701:0;cd
-: 1603098706:0;rma qmk_firmware
-: 1603098714:0;qmk setup
-: 1603099985:0;qmk new-keymap
-: 1603100003:0;cd qmk_firmware
-: 1603100047:0;ln -f ~/dotfiles/qmk/iris-keyboard/* ~/qmk_firmware/keyboards/keebio/iris/keymaps/malachi
-: 1603100054:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
-
-: 1603100074:0;la
-: 1603100081:0;qmk compile -kb clueboard/66/rev3 -km default\
-
-: 1603100087:0;sudo qmk compile -kb clueboard/66/rev3 -km default\
-
-: 1603100106:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100113:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603100124:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
-
-: 1603100129:0;qmk flash -kb keebio/iris/rev4 -km malachi\
-
-: 1603100142:0;qmk compile -kb keebio/iris/rev4 -km malachi\
-
-: 1603100164:0;qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100181:0;make keebio/iris/rev4:default
-: 1603100185:0;cd qmk_firmware
-: 1603100186:0;make keebio/iris/rev4:default
-: 1603100290:0;sudo make keebio/iris/rev4:default
-: 1603100300:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100308:0;qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100311:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100412:0;pac avr-libc gcc-avr
-: 1603100422:0;yay avr
-: 1603100454:0;qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100458:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100469:0;yay avr
-: 1603100506:0;la
-: 1603100515:0;sudo qmk compile -kb keebio/iris/rev4 -km malachi\
-
-: 1603100585:0;cd dotfiles/qmk/iris-keyboard
-: 1603100587:0;v keymap.c
-: 1603100644:0;la
-: 1603100655:0;yay avr
-: 1603100682:0;pacr arduino-avr-core
-: 1603100689:0;qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100693:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100698:0;sudo qmk compile -kb keebio/iris/rev4 -km malachi\
-
-: 1603100703:0;qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100710:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100725:0;yay avr
-: 1603100735:0;pacr avr
-: 1603100741:0;pacr avr-binutils
-: 1603100744:0;pac arduino-avr-core
-: 1603100752:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100763:0;qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100810:0;pac arduino-avr-core
-: 1603100826:0;pac avr
-: 1603100855:0;pac arduino-avr-core
-: 1603100864:0;qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603100866:0;la
-: 1603101285:0;pac qmk
-: 1603101291:0;qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603101295:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603101300:0;cd qmk_firmware
-: 1603101302:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603101321:0;la
-: 1603101332:0;pac avr
-: 1603101350:0;pacr avr-binutils
-: 1603101360:0;la
-: 1603101364:0;pac qmk
-: 1603101384:0;downgrade avr-gcc
-: 1603101394:0;pac qmk
-: 1603101404:0;qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603101408:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603101416:0;pac avr
-: 1603101428:0;qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603101432:0;sudo qmk compile -kb keebio/iris/rev4 -km default\
-
-: 1603101514:0;sudo qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603101642:0;pac avr
-: 1603101690:0;la
-: 1603101708:0;cd
-: 1603101727:0;cd dotfiles/qmk/iris-keyboard
-: 1603101728:0;la
-: 1603101731:0;v keymap.c
-: 1603109735:0;v rules.mk
-: 1603109750:0;la
-: 1603109811:0;cd qmk_firmware
-: 1603109826:0;qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603110074:0;v keymap.c
-: 1603110154:0;ssssss
-: 1603110156:0;qmk flash -kb keebio/iris/rev4 -km default\
-
-: 1603110205:0;v keyboards/keebio/iris/keymaps/malachi/keymap.c 
-: 1603110220:0;qmk flash -kb keebio/iris/rev4 -km malachi\
-
-: 1603110339:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
-
-: 1603111216:0;la
-: 1603114395:0;dow
-: 1603114396:0;la
-: 1603114400:0;ranger
-: 1603114433:0;dow
-: 1603114434:0;la
-: 1603114436:0;rm keyboard-layout.svg
-: 1603114544:0;la
-: 1603114566:0;mv *.jpg ~/the-keyboard-project
-: 1603114572:0;mv *.json ~/the-keyboard-project
-: 1603114573:0;cd
-: 1603114575:0;cd the-keyboard-project
-: 1603114576:0;la
-: 1603114604:0;mv keyboard-layout.json normal-layout.json
-: 1603114615:0;mv keyboard-layout.jpg normal-layout.jpg
-: 1603114629:0;mv keyboard-layout\ \(1\).jpg custom-layout.jpg
-: 1603114645:0;mv keyboard-layout\ \(1\).json custom-layout.json
-: 1603114646:0;la
-: 1603114661:0;mv keyboard-layout\ \(2\).jpg custom-layout-layer-two.jpg
-: 1603114674:0;mv keyboard-layout\ \(2\).json custom-layout-layer-two
-: 1603114675:0;la
-: 1603114686:0;mv keyboard-layout\ \(3\).jpg game-layout.jpg
-: 1603114696:0;mv keyboard-layout\ \(3\).json game-layout.json
-: 1603114697:0;l
-: 1603114698:0;la
-: 1603114706:0;mv *.json layout
-: 1603114715:0;mv *.jpg layout
-: 1603114718:0;cd layout
-: 1603114719:0;la
-: 1603114746:0;rm *layout.*
-: 1603114747:0;la
-: 1603114764:0;..
-: 1603114767:0;cd layout
-: 1603114767:0;la
-: 1603114773:0;rm custom-layout-layer-two.jpg
-: 1603114773:0;la
-: 1603114781:0;file
-: 1603114945:0;dow
-: 1603114958:0;mv keyboard-layout\ \(1\).jpg custom-layout.jpg
-: 1603114966:0;mv keyboard-layout\ \(1\).json custom-layout.json
-: 1603114973:0;mv keyboard-layout\ \(2\).jpg custom-layout-layer-two.jpg
-: 1603114978:0;mv keyboard-layout\ \(2\).json custom-layout-layer-two
-: 1603114980:0;la
-: 1603115000:0;mv custom-layout-layer-two custom-layout-layer-two.json
-: 1603115000:0;la
-: 1603115010:0;mv keyboard-layout\ \(3\).jpg game-layout.jpg
-: 1603115014:0;mv keyboard-layout\ \(3\).json game-layout.json
-: 1603115024:0;mv cp *.json ~/the-keyboard-project
-: 1603115027:0;la
-: 1603115033:0;cp *.json ~/the-keyboard-project
-: 1603115041:0;la
-: 1603115067:0;cd the-keyboard-project
-: 1603115068:0;la
-: 1603115087:0;mv custom-layout-layer-two custom-layout-layer-two.json 
-: 1603115088:0;la
-: 1603115112:0;mv keyboard-layout.jpg normal-layout.jpg
-: 1603115128:0;mv keyboard-layout.json normal-layout.json
-: 1603115129:0;la
-: 1603115141:0;cp *.json ~/Downloads
-: 1603115142:0;la
-: 1603115152:0;cp *.jpg ~/the-keyboard-project
-: 1603115153:0;la
-: 1603115156:0;la
-: 1603115164:0;mv *.jpg layout
-: 1603115165:0;la
-: 1603115171:0;mv *.json layout
-: 1603115172:0;la
-: 1603115174:0;cd layout
-: 1603115175:0;la
-: 1603115276:0;..
-: 1603115281:0;mv the-keyboard-project hats
-: 1603115291:0;clone git@github.com:banana-llarma/the-keyborard-project.git
-: 1603115303:0;cd hats
-: 1603115311:0;cp -r * ~/the-keyborard-project
-: 1603115312:0;pp
-: 1603115313:0;cd
-: 1603115318:0;cd the-keyboard-project
-: 1603115318:0;la
-: 1603115321:0;cd the-keyboard-project
-: 1603115324:0;la
-: 1603115328:0;cd the-keyborard-project
-: 1603115329:0;la
-: 1603115362:0;cd
-: 1603115365:0;clone git@github.com:banana-llarma/the-keyboard-project.git
-: 1603115368:0;la
-: 1603115374:0;cd hats
-: 1603115384:0;cp -r * ~/the-keyboard-project
-: 1603115385:0;..
-: 1603115390:0;rma the-keyborard-project
-: 1603115394:0;cd the-keyboard-project
-: 1603115395:0;la
-: 1603115399:0;commit "start" && push
-: 1603115489:0;v README.md
-: 1603115670:0;commit "start" && push
-: 1603115910:0;mv keyboard-layout.jpg custom-layout.jpg
-: 1603115923:0;ranger
-: 1603115934:0;mv custom-layout.jpg ~/the-keyboard-project/layout
-: 1603115998:0;mv keyboard-layout.jpg ~/the-keyboard-project/layout/custom-layout-layer-two.jpg
-: 1603117242:0;la
-: 1603117277:0;rm *.jpg| rm *.json
-: 1603117278:0;la
-: 1603117347:0;cd
-: 1603117352:0;cd dotfiles/qmk
-: 1603117354:0;cd iris-keyboard
-: 1603117354:0;la
-: 1603117357:0;v keymap.c
-: 1603117363:0;cd
-: 1603117365:0;cd qmk_firmware
-: 1603117366:0;la
-: 1603119719:0;qmk flash -kb keebio/iris/rev4 -km malachi\
-
-: 1603119723:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
-
-: 1603120397:0;la
-: 1603120421:0;v keymap.c
-: 1603127478:0;not
-: 1603127481:0;la
-: 1603127483:0;cd .obsidian
-: 1603127487:0;cd
-: 1603127490:0;zsh
-: 1603127574:0;so
-: 1603127576:0;not
-: 1603127616:0;rma .obsidian
-: 1603127618:0;la
-: 1603127628:0;v topics.md
-: 1603127632:0;vrc
-: 1603127638:0;zsh
-: 1603127694:0;so
-: 1603127697:0;nots
-: 1603127792:0;la
-: 1603127805:0;cd
-: 1603127808:0;nots
-: 1603127986:0;vpr
-: 1603127988:0;vpc
-: 1603128559:0;sudo qmk flash -kb keebio/iris/rev4 -km malachi\
-
-: 1603141136:0;df -h
-: 1603141237:0;ranger
-: 1603144002:0;betterlockscreen -s
-: 1603180884:0;vpl
-: 1603180902:0;vpc
-: 1603181038:0;vpl
-: 1603181454:0;cd
-: 1603181461:0;la
-: 1603181542:0;a
-: 1603181543:0;la
-: 1603181571:0;vim
-: 1603181578:0;la
-: 1603181587:0;v .vimrc
-: 1603181594:0;vim
-: 1603181620:0;vim .vimrc
-: 1603181645:0;la
-: 1603181650:0;v .vimrc
-: 1603181659:0;vim
-: 1603181731:0;vim
-: 1603181736:0;la
-: 1603181745:0;vim la
-: 1603181749:0;la
-: 1603181756:0;vma
-: 1603181766:0;sh relink.sh
-: 1603181768:0;vim
-: 1603181770:0;v .vimrc
-: 1603181772:0;la
-: 1603181778:0;dot
-: 1603181785:0;vvim 
-: 1603181790:0;v init.vim
-: 1603181793:0;nvim UltiSnips
-: 1603181799:0;nvim init.vim
-: 1603181807:0;vim init.vim
-: 1603181814:0;v init.vim
-: 1603181820:0;la
-: 1603181822:0;v init.vim
-: 1603181861:0;la
-: 1603182080:0;dot
-: 1603182082:0;cd alacritty
-: 1603182084:0;v alacritty.yml
-: 1603182112:0;la
-: 1603182113:0;v alacritty.yml
-: 1603182131:0;la
-: 1603183999:0;cd
-: 1603184007:0;cd code/react/mental-maths/src/components/Nav
-: 1603184012:0;v index.js
-: 1603184021:0;vrc
-: 1603184037:0;...
-: 1603184038:0;la
-: 1603184040:0;..
-: 1603184042:0;la
-: 1603184090:0;cd learning-react
-: 1603184090:0;la
-: 1603184094:0;cd src
-: 1603184099:0;npm start 
-: 1603186995:0;node -v
-: 1603188819:0;la
-: 1603188834:0;v constants.js
-: 1603188841:0;vrc
-: 1603188868:0;vpc
-: 1603188877:0;vrc
-: 1603188903:0;ala
-: 1603188938:0;la
-: 1603190309:0;sxh
-: 1603190364:0;pkill sxhkd
-: 1603190366:0;sxhkd
-: 1603190402:0;zxh
-: 1603190405:0;sxh
-: 1603190446:0;zsh
-: 1603190473:0;pkill sxhkd
-: 1603190479:0;sxhkd
-: 1603192352:0;la
-: 1603192356:0;mk shows
-: 1603192358:0;cd shows
-: 1603192359:0;la
-: 1603192364:0;mk misfits
-: 1603192366:0;cd misfits
-: 1603192369:0;..
-: 1603192374:0;mk trading
-: 1603192380:0;rma trading
-: 1603192382:0;..
-: 1603192389:0;mv trading shows
-: 1603192391:0;cd shows
-: 1603192392:0;la
-: 1603192395:0;cd misfits
-: 1603192401:0;mk season-two
-: 1603192401:0;la
-: 1603192518:0;cd
-: 1603192519:0;dow
-: 1603192520:0;la
-: 1603192535:0;mv *.mp4 ~/shows/misfits/season-two
-: 1603192536:0;la
-: 1603193845:0;mv *.mp4 ~/shows/misfits/season-two
-: 1603193845:0;cd
-: 1603193851:0;cd shows/misfits/season-two
-: 1603193855:0;ranger
-: 1603199555:0;..
-: 1603199560:0;mk season-three
-: 1603199562:0;dow
-: 1603199572:0;mv *.mp4 ~/shows/misfits/season-three
-: 1603199574:0;cd
-: 1603199578:0;cd shows/misfits/season-three
-: 1603199578:0;la
-: 1603199581:0;ranger
-: 1603200196:0;dow
-: 1603200197:0;la
-: 1603200201:0;mv *.mp4 ~/shows/misfits/season-three
-: 1603200237:0;ranger
-: 1603203913:0;la
-: 1603203916:0;mv *.mp4 ~/shows/misfits/season-three
-: 1603203917:0;cd
-: 1603203920:0;cd shows/misfits/season-three
-: 1603203920:0;la
-: 1603203926:0;rm EP.2.720p\ \(1\).mp4
-: 1603203926:0;la
-: 1603203930:0;rm EP.4.480p\ \(1\).mp4
-: 1603203931:0;la
-: 1603203939:0;ranger
-: 1603204577:0;vpc
-: 1603205028:0;la
-: 1603205382:0;espanso edit spelling
-: 1603209229:0;ranger
-: 1603209238:0;rm EP.1.720p.mp4 EP.2.720p.mp4 EP.3.720p.mp4 
-: 1603209239:0;la
-: 1603210355:0;cd
-: 1603210356:0;la
-: 1603210365:0;rma pomodoro-cli
-: 1603210367:0;la
-: 1603210543:0;react
-: 1603210547:0;v index.js
-: 1603210568:0;vpc
-: 1603210604:0;v index.js
-: 1603210648:0;vpc
-: 1603210684:0;v index.js
-: 1603210809:0;lrc
-: 1603210839:0;v index.js
-: 1603210877:0;vrc
-: 1603210882:0;v index.js
-: 1603211175:0;vrc
-: 1603211184:0;v index.js
-: 1603211195:0;vpc
-: 1603211208:0;vrc
-: 1603211217:0;v index.js
-: 1603211222:0;vrc
-: 1603211266:0;v index.js
-: 1603211373:0;vrc
-: 1603211393:0;v index.js
-: 1603211412:0;lrc
-: 1603211421:0;vrc
-: 1603211428:0;v index.js
-: 1603211438:0;vrc
-: 1603211552:0;v index.js
-: 1603211566:0;vpc
-: 1603211600:0;v index.js
-: 1603211612:0;la
-: 1603211628:0;v index.js
-: 1603211666:0;vrc
-: 1603211692:0;v index.js
-: 1603211936:0;vpc
-: 1603211937:0;vrc
-: 1603212043:0;v index.js
-: 1603212049:0;vrc
-: 1603212073:0;v index.js
-: 1603212091:0;vrc
-: 1603212115:0;v index.js
-: 1603212148:0;vrc
-: 1603212173:0;v index.js
-: 1603212192:0;vrc
-: 1603212310:0;npm install -g typescript-language-server\
-
-: 1603212316:0;v index.js
-: 1603212321:0;vrc
-: 1603212336:0;v index.js
-: 1603212349:0;vrc
-: 1603212385:0;v index.js
-: 1603212403:0;vrc
-: 1603212475:0;vpl
-: 1603212505:0;v index.js
-: 1603212524:0;vpl
-: 1603212572:0;vpc
-: 1603212649:0;v index.js
-: 1603212735:0;vpc
-: 1603212742:0;v index.js
-: 1603212748:0;lrc
-: 1603212827:0;v index.js
-: 1603212831:0;react
-: 1603212834:0;react && cd learning-react/src
-: 1603212836:0;v constants.js
-: 1603212852:0;cd
-: 1603212859:0;cd ~/.config/nvim/plugged
-: 1603212861:0;rma *
-: 1603212867:0;la
-: 1603212870:0;nvim
-: 1603212986:0;v
-: 1603213132:0;vpc
-: 1603213183:0;vpl
-: 1603213213:0;v constants.js
-: 1603213217:0;v 
-: 1603213222:0;vpl
-: 1603213229:0;vpc
-: 1603213257:0;lrc
-: 1603213278:0;vrc
-: 1603213306:0;vvim
-: 1603213308:0;v init.vim
-: 1603213333:0;v mappings.vim
-: 1603213372:0;vrc
-: 1603213417:0;vpl
-: 1603213428:0;vrc
-: 1603213447:0;[
-: 1603213448:0;vrc
-: 1603213500:0;vpc
-: 1603213628:0;vrc
-: 1603220485:0;cd
-: 1603220487:0;v test.js
-: 1603220495:0;la
-: 1603220505:0;update
-: 1603220624:0;v test.js
-: 1603220679:0;vpl
-: 1603220956:0;v test.js
-: 1603220985:0;vrc
-: 1603221019:0;v test.js
-: 1603221027:0;v
-: 1603221030:0;vpc
-: 1603221056:0;v test.js
-: 1603221066:0;v
-: 1603221084:0;pacr tsserver
-: 1603221097:0;pacr typescript-language-server
-: 1603221100:0;pac typescript-language-server
-: 1603221131:0;v test.js
-: 1603221165:0;la
-: 1603221170:0;vrc
-: 1603221290:0;la
-: 1603221299:0;ls -a | wc -l
-: 1603221301:0;v test.js
-: 1603221322:0;vrc
-: 1603221871:0;sh relink.sh
-: 1603221874:0;v test.js
-: 1603221904:0;vrc
-: 1603221986:0;v test.js
-: 1603222081:0;lrc
-: 1603222209:0;npm i -g typescript-language-server; npm i -g typescript\
-\
-
-: 1603222298:0;lrc
-: 1603222460:0;vrc
-: 1603222473:0;v test.js
-: 1603222495:0;vrc
-: 1603222515:0;lrc
-: 1603222617:0;vpc
-: 1603222620:0;vrc
-: 1603222626:0;lrc
-: 1603222829:0;vrc
-: 1603222853:0;lrc
-: 1603223285:0;cd shows/misfits/season-three
-: 1603223285:0;la
-: 1603223292:0;ranger
-: 1603224692:0;dow
-: 1603224694:0;ranger
-: 1603225055:0;cd shows/misfits/season-three
-: 1603225056:0;la
-: 1603226722:0;npm install -g typescript-language-server\
-
-: 1603226791:0;nvim
-: 1603226806:0;cd
-: 1603226808:0;v test.js
-: 1603226824:0;pac typescript-language-server
-: 1603227066:0;vpc
-: 1603227069:0;lrc
-: 1603227342:0;cd .cache/nvim/nvim_lsp
-: 1603227343:0;la
-: 1603227346:0;rma *
-: 1603227351:0;nvim
-: 1603227353:0;vrc
-: 1603227394:0;npm install -g typescript-language-server\
-
-: 1603227407:0;cdf
-: 1603227407:0;cd
-: 1603227409:0;v test.js
-: 1603229065:0;betterlockscreen -s
-: 1603260446:0;nvim
-: 1603260474:0;npm uninstall tsserver
-: 1603260478:0;nvim
-: 1603260496:0;npm uninstall  typescript-language-server\
-
-: 1603260504:0;npm uninstall  -g typescript-language-server\
-
-: 1603260508:0;v
-: 1603260521:0;v test.js
-: 1603260541:0;npm i -g typescript-language-server; npm i -g typescript\
-\
-
-: 1603260552:0;v
-: 1603260598:0;cd .cache/nvim/nvim_lsp
-: 1603260615:0;la
-: 1603260634:0;nvim
-: 1603260779:0;pac typescript-language-server 
-: 1603260795:0;pacr typescript-language-server
-: 1603260799:0;pacr typescript-language-server-bin
-: 1603260810:0;pacr typescript
-: 1603260813:0;v 
-: 1603260829:0;la
-: 1603260830:0;..
-: 1603260832:0;...
-: 1603260835:0;v test.js
-: 1603260877:0;npm install -g typescript-language-server\
-
-: 1603260881:0;v test.js
-: 1603260973:0;V
-: 1603260977:0;v
-: 1603261032:0;lrc
-: 1603261104:0;v test.js
-: 1603261164:0;lrc
-: 1603261175:0;v test.js
-: 1603261198:0;npm i -g typescript-language-server; npm i -g typescript\
-\
-
-: 1603261207:0;npm i -g javascript
-: 1603261210:0;v test.js
-: 1603261220:0;npm i -g tsserver
-: 1603261224:0;v test.js
-: 1603261245:0;vpc
-: 1603261365:0;cd code
-: 1603261370:0;mk javascript python
-: 1603261371:0;la
-: 1603261373:0;v javascript
-: 1603261376:0;cd javascript
-: 1603261384:0;npm init
-: 1603261390:0;v test.js
-: 1603261394:0;..
-: 1603261398:0;react && cd learning-react/src
-: 1603261399:0;v constants.js
-: 1603261440:0;update
-: 1603261532:0;v index.js
-: 1603261609:0;nvim
-: 1603261613:0;v index.js
-: 1603261717:0;nvim
-: 1603261832:0;pip install python-language-server
-: 1603261842:0;nvim
-: 1603261907:0;v index.js
-: 1603261917:0;vpl
-: 1603261924:0;v index.js
-: 1603261929:0;vpl
-: 1603262258:0;v Pages
-: 1603262261:0;v constants.js
-: 1603262272:0;v index.js
-: 1603262496:0;vma
-: 1603263992:0;la
-: 1603263995:0;v constants.js
-: 1603264006:0;v index.js
-: 1603264102:0;la
-: 1603264419:0;vpl
-: 1603264467:0;vrc
-: 1603264655:0;v test.js
-: 1603264687:0;v
-: 1603264762:0;vma
-: 1603265329:0;vpl
-: 1603265376:0;v constants.js
-: 1603265458:0;vpl
-: 1603265474:0;vma
-: 1603265534:0;v constants.js
-: 1603266591:0;v test.js
-: 1603266610:0;vrc
-: 1603266626:0;v test.js
-: 1603266944:0;lrc
-: 1603266995:0;vrc
-: 1603267006:0;v test.js
-: 1603267014:0;update
-: 1603267047:0;npm update
-: 1603267050:0;npm update -g
-: 1603267068:0;react && cd learning-react/src
-: 1603267070:0;v index.js
-: 1603267217:0;v thest.md
-: 1603267239:0;v index.js
-: 1603267271:0;la
-: 1603267276:0;rm thest.md
-: 1603267277:0;la
-: 1603267301:0;cd
-: 1603267304:0;vrc
-: 1603267336:0;v thest.md
-: 1603267359:0;vpl
-: 1603267400:0;v thest.md
-: 1603267429:0;vrc
-: 1603267476:0;v test.js
-: 1603267602:0;vpl
-: 1603267641:0;v test.js
-: 1603267739:0;lrc
-: 1603268148:0;v constants.js
-: 1603268159:0;la
-: 1603268177:0;rm test.js thest.md
-: 1603268179:0;la
-: 1603268201:0;rm package-lock.json
-: 1603268202:0;la
-: 1603268214:0;rma the-keyboard-project
-: 1603268216:0;la
-: 1603268255:0;react && cd learning-react/src
-: 1603268257:0;v index.js
-: 1603268285:0;la
-: 1603268321:0;v components/Nav/index.js
-: 1603268341:0;la
-: 1603268356:0;vrc
-: 1603268410:0;vpl
-: 1603268425:0;nvim --startuptime vim.vim vim.vim
-: 1603268437:0;rm vim.vim
-: 1603268438:0;la
-: 1603268440:0;v index.js
-: 1603268835:0;la
-: 1603268858:0;v index.js
-: 1603268905:0;v constants.js
-: 1603268910:0;v index.js
-: 1603268922:0;vma
-: 1603268952:0;v index.js
-: 1603268978:0;vma
-: 1603268988:0;v index.js
-: 1603269131:0;la
-: 1603269144:0;not
-: 1603269149:0;v topics.md
-: 1603269917:0;...
-: 1603269918:0;la
-: 1603269927:0;mk testing-node
-: 1603269930:0;cd testing-node
-: 1603269933:0;npm init
 : 1603269938:0;la
 : 1603269947:0;to index.js
 : 1603269949:0;v index.js
@@ -10944,3 +9617,593 @@ fi
 : 1609578953:0;commit "added some notes"
 : 1609578987:0;v usb-type-c.md
 : 1609579298:0;commit "added some notes"
+: 1609579603:0;la
+: 1609620252:0;cd shows/andou-july
+: 1609620257:0;vid EP.10.1080p.mp4
+: 1609623555:0;power
+: 1609709121:0;cd shows/andou-july
+: 1609709128:0;vid EP.11.1080p.mp4
+: 1609710551:0;power
+: 1609800867:0;cd 
+: 1609800869:0;cd andou-july
+: 1609800873:0;cd shows/andou-july
+: 1609800880:0;vid EP.12.720p.mp4
+: 1609802423:0;..
+: 1609802442:0;cd backup-anime
+: 1609802444:0;la
+: 1609802449:0;vid EP.1.1080p.mp4
+: 1609835393:0;bashtop
+: 1609880683:0;cd shows
+: 1609880696:0;mk hinamatsuri
+: 1609880698:0;cd hinamatsuri
+: 1609880699:0;la
+: 1609880710:0;cd ~/Downloads
+: 1609880711:0;la
+: 1609880719:0;rm plugins\ \(1\).zip plugins.zip zsh-z.zsh.zip 
+: 1609880720:0;la
+: 1609881929:0;..
+: 1609881933:0;cd shows/backup-anime
+: 1609881933:0;la
+: 1609881936:0;vid EP.1.1080p.mp4
+: 1609882577:0;vid EP.2.360p.mp4
+: 1609883961:0;power
+: 1609922587:0;dow
+: 1609922589:0;la
+: 1609922595:0;rm EP.4.1080p.mp4.crdownload
+: 1609922596:0;la
+: 1609922682:0;..
+: 1609922687:0;cd shows
+: 1609922737:0;mk musaigen-no-phantom-world
+: 1609922737:0;la
+: 1609922743:0;cd backup-anime
+: 1609922744:0;la
+: 1609922764:0;mv mv * ../musaigen-no-phantom-world
+: 1609922768:0;la
+: 1609922769:0;..
+: 1609922771:0;la
+: 1609922776:0;ls musaigen-no-phantom-world
+: 1609922778:0;..
+: 1609922779:0;la
+: 1609922783:0;cd shows
+: 1609922784:0;la
+: 1609922788:0;rm andou-july
+: 1609922792:0;rma andou-july
+: 1609922794:0;la
+: 1609922797:0;rm backup-anime
+: 1609922798:0;la
+: 1609922805:0;mk code-geass
+: 1609922810:0;mv code-geass-1 code-geass
+: 1609922816:0;mv code-geass-2 code-geass
+: 1609922819:0;mv code-geass-3
+: 1609922823:0;mv code-geass-3 code-geass
+: 1609922827:0;cd code-geass
+: 1609922828:0;la
+: 1609922832:0;rm code-geass-2 code-geass-3
+: 1609922833:0;la
+: 1609922841:0;rma code-geass-2 code-geass-3
+: 1609922842:0;la
+: 1609922854:0;llla
+: 1609926139:0;dow
+: 1609926139:0;la
+: 1609928185:0;dow
+: 1609928186:0;la
+: 1609929046:0;irc
+: 1609929098:0;sxh
+: 1609929104:0;irc
+: 1609929250:0;la
+: 1609966370:0;cd Downloads
+: 1609966370:0;la
+: 1609966387:0;rm *.crdown
+: 1609966390:0;rm *.crdown*
+: 1609966391:0;la
+: 1609967132:0;cd
+: 1609967137:0;cd shows/musaigen-no-phantom-world
+: 1609967138:0;la
+: 1609967142:0;vid EP.3.360p.mp4
+: 1609969739:0;power
+: 1610009049:0;cd dotfiles/notes/hardware/components
+: 1610009049:0;la
+: 1610040787:0;vrc
+: 1610040912:0;update
+: 1610040971:0;pac neovim-git
+: 1610041099:0;nvim -v
+: 1610041106:0;vrc
+: 1610041115:0;vim main.rs
+: 1610041144:0;cd code/javascript
+: 1610041145:0;la
+: 1610041147:0;v binarySearchCalculator.js
+: 1610051013:0;cd shows/musaigen-no-phantom-world
+: 1610051014:0;la
+: 1610051019:0;vid EP.4.1080p.mp4
+: 1610052635:0;power 
+: 1610139131:0;la
+: 1610139134:0;cd shows/musaigen-no-phantom-world
+: 1610139137:0;..
+: 1610139140:0;cd hinamatsuri
+: 1610139140:0;la
+: 1610139143:0;dow
+: 1610139143:0;la
+: 1610139156:0;mv *.mp4 ~/shows/hinamatsuri
+: 1610139157:0;..
+: 1610139161:0;cd shows/hinamatsuri
+: 1610139162:0;la
+: 1610139171:0;..
+: 1610139179:0;cd musaigen-no-phantom-world
+: 1610139183:0;vid EP.5.1080p.mp4
+: 1610141003:0;la
+: 1610141013:0;vid EP.6.1080p.mp4
+: 1610141832:0;power
+: 1610181662:0;not
+: 1610181665:0;cd hardware/components
+: 1610181667:0;v mcu.md
+: 1610271721:0;not
+: 1610271723:0;cd hardware/components
+: 1610271725:0;v mcu.md
+: 1610289464:0;not
+: 1610289466:0;cd hardware/components
+: 1610289469:0;v words.md
+: 1610293084:0;la
+: 1610295633:0;v votage-regulator.md
+: 1610295809:0;la
+: 1610296269:0;v mcu.md
+: 1610313067:0;cd sho
+: 1610313073:0;cd shows/hinamatsuri
+: 1610313075:0;..
+: 1610313078:0;cd musaigen-no-phantom-world
+: 1610313080:0;la
+: 1610313085:0;vid EP.6.1080p.mp4
+: 1610314264:0;power
+: 1610353774:0;not
+: 1610353777:0;cd hardware/components
+: 1610353778:0;la
+: 1610353783:0;v words.md
+: 1610353973:0;v reddit-post.md
+: 1610386749:0;irc
+: 1610386773:0;cd dotfiles/wallpapers
+: 1610386774:0;la
+: 1610386814:0;irc
+: 1610386829:0;cd dotfiles/wallpapers
+: 1610386829:0;la
+: 1610398182:0;cd shows/musaigen-no-phantom-world
+: 1610398186:0;vid EP.7.1080p.mp4
+: 1610399604:0;power
+: 1610438385:0;cd dotfiles/notes/hardware/components
+: 1610438386:0;la
+: 1610452331:0;pac speedtest
+: 1610452370:0;speedtest
+: 1610452378:0;speedtest --help
+: 1610452386:0;speedtest
+: 1610452387:0;speedtest 
+: 1610460963:0;la
+: 1610462036:0;mocp
+: 1610462955:0;sh music.sh
+: 1610465442:0;cd shows/musaigen-no-phantom-world
+: 1610465443:0;la
+: 1610483579:0;cd shows/musaigen-no-phantom-world
+: 1610483584:0;vid EP.8.360p.mp4
+: 1610485854:0;la
+: 1610485873:0;rm EP.2.360p.mp4 EP.1.1080p.mp4 EP.3.360p.mp4 EP.4.1080p.mp4 EP.5.1080p.mp4 EP.6.1080p.mp4 EP.7.1080p.mp4 EP.8.360p.mp4
+: 1610485874:0;la
+: 1610485875:0;..
+: 1610485877:0;la
+: 1610485891:0;mv musaigen-no-phantom-world backup-anime
+: 1610485891:0;la
+: 1610485892:0;..
+: 1610485896:0;power
+: 1610524340:0;dow
+: 1610524341:0;al
+: 1610524342:0;la
+: 1610524348:0;cd Nanatsu\ no\ Taizai
+: 1610524349:0;la
+: 1610524414:0;cd shows
+: 1610524414:0;la
+: 1610524423:0;mk kabukichou-sherlock
+: 1610524423:0;la
+: 1610524427:0;cd kabukichou-sherlock
+: 1610524427:0;la
+: 1610524702:0;..
+: 1610524703:0;la
+: 1610524716:0;rm \[DCFS\]\ Nanatsu\ no\ Taizai\ -\ Kamigami\ no\ Gekirin\ 01-24\ \[720p\ -\ Sub\ ITA\ -\ AAC\].torrent
+: 1610524716:0;la
+: 1610524719:0;cd \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 01\ \~\ 24\ \[1080p\]\[Multiple\ Subtitle\]
+: 1610524720:0;la
+: 1610524726:0;..
+: 1610524727:0;la
+: 1610542233:0;cd shows
+: 1610542233:0;la
+: 1610542237:0;cd hinamatsuri
+: 1610542242:0;du -h .
+: 1610542244:0;la
+: 1610558738:0;cd Downloads
+: 1610558738:0;la
+: 1610558746:0;cd '[Erai-raws] Kabukichou Sherlock - 01 ~ 24 [1080p][Multiple Subtitle]\
+la\
+'
+: 1610558753:0;cd '[Erai-raws] Kabukichou Sherlock - 01 ~ 24 [1080p][Multiple Subtitle]'
+: 1610558754:0;la
+: 1610558759:0;..
+: 1610558762:0;la
+: 1610558762:0;..
+: 1610558764:0;la
+: 1610558772:0;cd
+: 1610558772:0;la
+: 1610558948:0;xev
+: 1610561371:0;la
+: 1610561373:0;dow
+: 1610561374:0;la
+: 1610565591:0;mv *.mp4 ~/shows/kabukichou-sherlock
+: 1610565592:0;la
+: 1610565593:0;cd
+: 1610565597:0;cd shows/kabukichou-sherlock
+: 1610565598:0;la
+: 1610565836:0;dow
+: 1610565836:0;la
+: 1610565846:0;rm *.crdown*
+: 1610565847:0;la
+: 1610571712:0;cd
+: 1610571716:0;cd shows/kabukichou-sherlock
+: 1610571718:0;vid EP.1.360p.mp4
+: 1610573329:0;power
+: 1610626153:0;cd Documents
+: 1610626154:0;la
+: 1610626156:0;..
+: 1610626157:0;cd Dow
+: 1610626159:0;cd Downloads
+: 1610626160:0;la
+: 1610626163:0;cd \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 01\ \~\ 24\ \[1080p\]\[Multiple\ Subtitle\]
+: 1610626165:0;la
+: 1610626170:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 01\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1610626174:0;la
+: 1610643530:0;vim .
+: 1610643546:0;sudo vim .
+: 1610643667:0;ls | vim .
+: 1610643677:0;cd shows/kabukichou-sherlock
+: 1610643685:0;\ls | vim -
+: 1610643728:0;la
+: 1610643829:0;vim .
+: 1610643846:0;so vim .
+: 1610643853:0;source vim .
+: 1610643863:0;sudo vim .
+: 1610643872:0;sudo nvim .
+: 1610643880:0;nvim .
+: 1610643883:0;nvim -
+: 1610644362:0;pac stm32cube
+: 1610644417:0;pac ncurses5-compat-libs
+: 1610644456:0;sudo pacman-key --refresh-keys --keyserver keyserver.ubuntu.com\
+
+: 1610644473:0;pac stm32cube
+: 1610644513:0;pacman-key --refresh-keys C52048C0C0748FEE227D47A2702353E0F7E48EDB\
+
+: 1610644519:0;sudo pacman-key --refresh-keys C52048C0C0748FEE227D47A2702353E0F7E48EDB\
+
+: 1610644532:0;pac stm32cube
+: 1610644660:0;pacman -Sy C52048C0C0748FEE227D47A2702353E0F7E48EDB
+: 1610644680:0;pacman-key --init\
+pacman-key --populate\
+pacman-key --refresh-keys\
+pacman -Sy archlinux-keyring\
+\
+
+: 1610644690:0;pac stm32cube
+: 1610644706:0;pac ncurses5-compat-libs
+: 1610644755:0;pacman-key --init
+: 1610644760:0;root pacman-key --init
+: 1610644770:0;sudo pacman-key --init
+: 1610644810:0;su
+: 1610644853:0;yay stm32cubeide
+: 1610644894:0;pacman -Syu
+: 1610644934:0;pacr gcc
+: 1610644940:0;update
+: 1610809290:0;pacman-key --init
+: 1610809290:0;pacman-key --populate
+: 1610809290:0;pacman-key --refresh-keys
+: 1610809290:0;pacman -Sy archlinux-keyring
+: 1610809290:0;yay stm32cubeide
+: 1610645095:0;pac ncurses5-compat-libs
+: 1610645781:0;yay stm32cubeide
+: 1610645791:0;update
+: 1610645833:0;sudo pacman-key --lsign-key CEB167EFB5722BD6
+: 1610645836:0;yay stm32cubeide
+: 1610645859:0;sudo pacman-key --lsign-key C52048C0C0748FEE227D47A2702353E0F7E48EDB
+: 1610645880:0;sudo pacman-key --refresh-keys
+: 1610645894:0;pacman -Syu
+: 1610645969:0;sudo pacman-key --refresh-keys
+: 1610645973:0;sudo pacman-key --lsign-key C52048C0C0748FEE227D47A2702353E0F7E48EDB
+: 1610645976:0;yay stm32cubeide
+: 1610646003:0;gpgconf --kill all
+: 1610646006:0;yay stm32cubeide
+: 1610646100:0;pac ncurses5-compat-libs
+: 1610646167:0;update
+: 1610646294:0;sudo pacman-key --refresh-keys
+: 1610646302:0;pac stm32cube
+: 1610646337:0;update
+: 1610646504:0;yay stm32cubeide
+: 1610646718:0;sudo sh ./st-stm32cubeide_VERSION_ARCHITECHURE.PACKAGE
+: 1610646861:0;pac stm32cube
+: 1610656260:0;dow
+: 1610656260:0;la
+: 1610656266:0;mv \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 01\ \~\ 24\ \[1080p\]\[Multiple\ Subtitle\] ~/shows
+: 1610656266:0;..
+: 1610656267:0;la
+: 1610656270:0;cd shows
+: 1610656271:0;la
+: 1610656275:0;cd \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 01\ \~\ 24\ \[1080p\]\[Multiple\ Subtitle\]
+: 1610656276:0;la
+: 1610656283:0;mv * ../kabukichou-sherlock
+: 1610656284:0;la
+: 1610656285:0;..
+: 1610656287:0;cd kabukichou-sherlock
+: 1610656288:0;la
+: 1610656292:0;..
+: 1610656293:0;la
+: 1610656299:0;rma '[Erai-raws] Kabukichou Sherlock - 01 ~ 24 [1080p][Multiple Subtitle]/'
+: 1610656302:0;la
+: 1610656305:0;cd kabukichou-sherlock
+: 1610656306:0;la
+: 1610656366:0;..
+: 1610656367:0;la
+: 1610656372:0;mv hinamatsuri backup-anime
+: 1610656373:0;la
+: 1610656378:0;cd code-geass
+: 1610656378:0;la
+: 1610656381:0;cd code-geass-1
+: 1610656382:0;la
+: 1610656384:0;..
+: 1610657003:0;la
+: 1610657008:0;cd kabukichou-sherlock
+: 1610657009:0;la
+: 1610657016:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 02\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1610706575:0;pac stm32cube
+: 1610706635:0;la
+: 1610706646:0;update
+: 1610735621:0;pac stm32cube
+: 1610740378:0;cd shows/kabukichou-sherlock
+: 1610740378:0;la
+: 1610740386:0;rm *EP.*
+: 1610740386:0;la
+: 1610740415:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 03\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1610740441:0;cd shows/kabukichou-sherlock
+: 1610740441:0;la
+: 1610740458:0;to 10 1 '1' '10' 2 '2'
+: 1610740458:0;la
+: 1610740468:0;rm 1 2 10
+: 1610740469:0;la
+: 1610740479:0;to '1' '10' '2'
+: 1610740480:0;la
+: 1610740482:0;rm 1 2 10
+: 1610740483:0;la
+: 1610740504:0;ranger
+: 1610740513:0;pac gcc
+: 1610740520:0;ranger
+: 1610744865:0;pac ÂµVision
+: 1610744870:0;pac uVision
+: 1610744930:0;cd
+: 1610744932:0;not
+: 1610744934:0;cd hardware/components
+: 1610744934:0;la
+: 1610744938:0;v words.md
+: 1610747175:0;power
+: 1610796940:0;not
+: 1610796941:0;cd hardware/components
+: 1610796943:0;v words.md
+: 1610804227:0;pac stm32cubeide
+: 1610804248:0;pacr stm32cubemx
+: 1610804251:0;pac stm32cubeide
+: 1610804263:0;pacr stm32cubeide
+: 1610804267:0;pacr stm32cube
+: 1610804278:0;yay -Syu
+: 1610806871:0;irc
+: 1610808867:0;npm i -g vuejs
+: 1610809066:0;vue create
+: 1610809069:0;pac vue
+: 1610809094:0;vue create
+: 1610809099:0;bash
+: 1610809274:0;pac vuejs
+: 1610809290:0;vue create
+: 1610809290:0;zsh
+: 1610809294:0;cd code/javascript
+: 1610809294:0;la
+: 1610809298:0;..
+: 1610809299:0;cd nodejs
+: 1610809300:0;la
+: 1610809313:0;cd src
+: 1610809314:0;la
+: 1610809319:0;v app.mjs
+: 1610809358:0;la
+: 1610809366:0;mv app.mjs index.mjs
+: 1610809366:0;la
+: 1610809370:0;v index.mjs
+: 1610809409:0;..
+: 1610809410:0;la
+: 1610809413:0;mk test1
+: 1610809416:0;cd test
+: 1610809416:0;la
+: 1610809419:0;cd test1
+: 1610809420:0;la
+: 1610809427:0;npm init
+: 1610809438:0;la
+: 1610809448:0;npm express
+: 1610809451:0;la
+: 1610809454:0;npm i express
+: 1610809506:0;la
+: 1610809543:0;npm i nodemon
+: 1610809575:0;la
+: 1610809764:0;mk src
+: 1610809767:0;cd src
+: 1610809767:0;la
+: 1610809771:0;v index.js
+: 1610809957:0;pac vscode
+: 1610810580:0;dot
+: 1610810580:0;la
+: 1610810588:0;cd vscode
+: 1610810588:0;la
+: 1610810590:0;v keybindings.json
+: 1610810594:0;v settings.json
+: 1610811191:0;plover
+: 1610811196:0;pac plover
+: 1610814408:0;cd dotfiles/vscode
+: 1610814408:0;la
+: 1610814411:0;cat keybindings.json
+: 1610814415:0;cat settings.json
+: 1610814415:0;la
+: 1610814907:0;plover
+: 1610814909:0;pac plover
+: 1610814922:0;pacr plover
+: 1610814925:0;pacr plover-git
+: 1610814931:0;pac plover-git
+: 1610814953:0;plover
+: 1610814965:0;pac plover
+: 1610815569:0;cd .config/Code\ -\ OSS
+: 1610815570:0;la
+: 1610815574:0;cd User
+: 1610815575:0;la
+: 1610815596:0;ln -f keybindings.json settings.json ~/dotfiles/vscode
+: 1610815597:0;la
+: 1610815603:0;plover
+: 1610815624:0;pac plover-git
+: 1610815737:0;plover
+: 1610815740:0;pac plover
+: 1610815765:0;irc
+: 1610815785:0;xset r rate 200 20
+: 1610815796:0;xset r
+: 1610815801:0;xset r rate 200 20
+: 1610817326:0;cd dotfiles/nvim
+: 1610817326:0;la
+: 1610817340:0;cd .config/Code\ -\ OSS
+: 1610817341:0;la
+: 1610817343:0;cd User
+: 1610817343:0;la
+: 1610817346:0;cd snippets
+: 1610817346:0;la
+: 1610817360:0;cd snippets
+: 1610817361:0;la
+: 1610817394:0;cd dotfiles/vscode
+: 1610817395:0;la
+: 1610817405:0;ln -f * ../../vscode/snippets
+: 1610817425:0;..
+: 1610817427:0;la
+: 1610817428:0;..
+: 1610817431:0;cd vscode
+: 1610817432:0;la
+: 1610817434:0;cd snippets
+: 1610817434:0;la
+: 1610817460:0;ln -f * ~/.config/Code\ -\ OSS/User/snippets
+: 1610820103:0;pac vscode
+: 1610820110:0;yay vscode
+: 1610820850:0;cd dotfiles/vscode
+: 1610820850:0;la
+: 1610820872:0;ln -f settings.json ~/.config/Code/User/settings.json
+: 1610820900:0;ln -f keybindings.json ~/.config/Code/User/keybindings.json
+: 1610823931:0;code ~/dotfiles
+: 1610824451:0;cd code/javascript
+: 1610824452:0;la
+: 1610824453:0;..
+: 1610824457:0;cd node
+: 1610824458:0;la
+: 1610824460:0;cd nodejs
+: 1610824461:0;la
+: 1610824464:0;cd test1
+: 1610824466:0;code .
+: 1610825804:0;dow
+: 1610825804:0;la
+: 1610825870:0;mv \[HorribleSubs\]\ Fruits\ Basket\ S2\ \(2019\)\ -\ Complete\ \[1080p\] fruits-basket-season-2
+: 1610825871:0;la
+: 1610825903:0;cd shows/kabukichou-sherlock
+: 1610825908:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 04\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1610828293:0;power
+: 1610873823:0;cd code
+: 1610873825:0;code .
+: 1610873832:0;zh
+: 1610873834:0;zsh
+: 1610873888:0;code .
+: 1610873916:0;edit .
+: 1610873926:0;so
+: 1610873928:0;edit .
+: 1610873948:0;exit
+: 1610873951:0;edit .
+: 1610873959:0;code .
+: 1610873971:0;edit .
+: 1610873977:0;zsh
+: 1610873989:0;code .
+: 1610873991:0;zsh
+: 1610874003:0;edit .
+: 1610875406:0;cd code/nodejs
+: 1610875409:0;edit .
+: 1610881342:0;cd dotfiles/vscode
+: 1610881345:0;v keybindings.json
+: 1610881505:0;cd ..
+: 1610881507:0;la
+: 1610881511:0;code .
+: 1610881517:0;edit .
+: 1610883806:0;edit code/nodejs
+: 1610884234:0;code
+: 1610884541:0;git config --global user.email "malachithomas110@gmail.com"
+: 1610884693:0;vscode://vscode.github-authentication/did-authenticate?windowid=1&code=59d93e333764b4c0f5af&state=173a8812-e539-4e8e-a502-328b8e63b5bc
+: 1610884776:0;cd dotfiles/vscode
+: 1610884779:0;cat keybindings.json
+: 1610884783:0;cat settings.json
+: 1610884786:0;la
+: 1610888366:0;code .
+: 1610888380:0;code
+: 1610895347:0;cd src
+: 1610895347:0;la
+: 1610895354:0;node 
+: 1610895358:0;node .
+: 1610895786:0;q
+: 1610896586:0;exit
+: 1610900235:0;code
+: 1610900316:0;youtube-dl https://123movies.net/watch/vJYA0W0d-money-heist-season-1/episode-10.html
+: 1610900560:0;cd Downloads
+: 1610900561:0;al
+: 1610900561:0;la
+: 1610900871:0;mv \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 01\ \~\ 25\ \[720p\] fruits-basket-season-1
+: 1610900871:0;la
+: 1610900888:0;mv fruits-basket-2019-season-1 
+: 1610900905:0;mv fruits-basket-season-1 fruits-basket-2019-season-1 
+: 1610900906:0;la
+: 1610900918:0;mv fruits-basket-season-2 fruits-basket-2019-season-2 
+: 1610900919:0;la
+: 1610900941:0;mv fruits-basket-2019-season-1 fruits-basket-2019-season-2 ~/shows/
+: 1610900942:0;la
+: 1610900943:0;..
+: 1610900949:0;cd shows
+: 1610900950:0;la
+: 1610900953:0;du .
+: 1610900957:0;du -h .
+: 1610900964:0;df -h .
+: 1610900966:0;df -h
+: 1610901164:0;node .
+: 1610901166:0;cd shrc
+: 1610901168:0;cd src
+: 1610901170:0;node .
+: 1610901662:0;cd dotfiles/nvim
+: 1610901662:0;la
+: 1610901664:0;cd snippets
+: 1610901666:0;la
+: 1610901673:0;v javascript.json
+: 1610901686:0;cd dotfiles/nvim
+: 1610901688:0;cd snippets
+: 1610901688:0;la
+: 1610901727:0;ln -f * ~/.config/Code/User/snippets
+: 1610901760:0;ln -f ~/.config/Code/User/snippets/* ~/dotfiles/vscode/snippets
+: 1610902056:0;..
+: 1610902063:0;nodemon src/index.js
+: 1610902211:0;npm run 
+: 1610902216:0;npm run start
+: 1610902220:0;npm run run
+: 1610902240:0;npm start
+: 1610902311:0;npm dev
+: 1610902314:0;npm run dev
+: 1610903776:0;dot
+: 1610903781:0;cd vscode/snippets
+: 1610903792:0;vim ../settings.json
+: 1610903800:0;vim ../keybindings.json
+: 1610905242:0;screenkey
+: 1610905725:0;edit code/nodejs
+: 1610906364:0;npm run dev
+: 1610906443:0;nodemon src/index.js
+: 1610906446:0;la
+: 1610906449:0;cd src
+: 1610906449:0;la
+: 1610907139:0;cd dotfiles
+: 1610907158:0;commit "started to use vscode"

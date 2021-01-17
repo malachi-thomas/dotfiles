@@ -10,7 +10,7 @@
 ### I don't know
 - pullup resisters
 - what is pullup
-- vbus = ?
+- VBUS = ?
 - Ohms Law = ?
 - decoupling capacitor = ?
 - full bridge rectifier = ?
@@ -20,4 +20,7 @@
 - negative voltage = ?
 - earth = ?
 - earth vs ground = ?
+- linear regulator = A linear voltage regulator lowers the current Voltage and the access voltage gets turned into heat
+- copper pours
+
 

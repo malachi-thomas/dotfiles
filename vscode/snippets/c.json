@@ -1,0 +1,36 @@
+{
+  "stdio": {
+    "prefix": "Istdio",
+    "body": [
+      "#include <stdio.h>"
+    ]
+  },
+  "include": {
+    "prefix": "include",
+    "body": [
+      "#include <$0>"
+    ]
+  },
+  "printf": {
+    "prefix": "printf",
+    "body": [
+      "printf($0)"
+    ]
+  },
+  "setup": {
+    "prefix": "setup",
+    "body": [
+      "void setup() {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "loop": {
+    "prefix": "loop",
+    "body": [
+      "void loop() {",
+      "\t$0",
+      "}"
+    ]
+  }
+}

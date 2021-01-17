@@ -1,19 +1,170 @@
 {
-		"cl": {
-			"prefix": ["cl"],
-			"body": ["console.log($0)"],
-			"description": ""
-		},
-		"ce": {
-			"prefix": ["ce"],
-			"body": ["console.error($0)"],
-			"description": ""
-		},
-		"test": {
-			"prefix": "test",
-			"body": [
-				"cats $1 are $2 ha-ha-ha $0",
-			]
-		},
-		
+  "rhttp": {
+    "prefix": "rhttp",
+    "body": [
+      "const http = require('http')"
+    ]
+  },
+  "rfs": {
+    "prefix": "rfs",
+    "body": [
+      "const fs = require('fs')"
+    ]
+  },
+  "rexpress": {
+    "prefix": "rexpress",
+    "body": [
+      "const express = require('express')",
+      "const app = express()"
+    ]
+  },
+  "func": {
+    "prefix": "func",
+    "body": [
+      "const $1 = ($2) => {",
+      "  $0",
+      "}"
+    ]
+  },
+  "lfunc": {
+    "prefix": "lfunc",
+    "body": [
+      "const $1 = ($2) => $0"
+    ]
+  },
+  "cl": {
+    "prefix": "cl",
+    "body": [
+      "console.log($0)"
+    ]
+  },
+  "req": {
+    "prefix": "req",
+    "body": [
+      "require('$0')"
+    ]
+  },
+  "rpath": {
+    "prefix": "rpath",
+    "body": [
+      "const path = require('path')"
+    ]
+  },
+  "ros": {
+    "prefix": "ros",
+    "body": [
+      "const os = require('os')"
+    ]
+  },
+  "const": {
+    "prefix": "const",
+    "body": [
+      "const $1 = $0"
+    ]
+  },
+  "rmongoose": {
+    "prefix": "rmongoose",
+    "body": [
+      "const mongoose = require('mongoose')"
+    ]
+  },
+  "Rurl": {
+    "prefix": "Rurl",
+    "body": [
+      "const url = require('url')"
+    ]
+  },
+  "httpCreateServer": {
+    "prefix": "httpCreateServer",
+    "body": [
+      "http.createServer((req, res) => $1 {",
+      "\t$0",
+      "}).listen(port)"
+    ]
+  },
+  "Iurl": {
+    "prefix": "Iurl",
+    "body": [
+      "import url from 'url'"
+    ]
+  },
+  "Iexpress": {
+    "prefix": "Iexpress",
+    "body": [
+      "import express from 'express'",
+      "const app = express()"
+    ]
+  },
+  "appListen": {
+    "prefix": "appListen",
+    "body": [
+      "app.listen($1, () => $0)"
+    ]
+  },
+  "Ihttp": {
+    "prefix": "Ihttp",
+    "body": [
+      "import http from 'http'"
+    ]
+  },
+  "appGet": {
+    "prefix": "appGet",
+    "body": [
+      "app.get('$1', (req, res) => $0)"
+    ]
+  },
+  "Imongoose": {
+    "prefix": "Imongoose",
+    "body": [
+      "import mongoose from 'mongoose'"
+    ]
+  },
+  "if": {
+    "prefix": "if",
+    "body": [
+      "if ($1) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "else": {
+    "prefix": "else",
+    "body": [
+      "else {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "for": {
+    "prefix": "for",
+    "body": [
+      "for (let i = 0; $1; i++)"
+    ]
+  },
+  "forOf": {
+    "prefix": "forOf",
+    "body": [
+      "for (i of $1) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "forin": {
+    "prefix": "forIn",
+    "body": [
+      "for (i in $1) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "map": {
+    "prefix": "map",
+    "body": [
+      "map($1 => $0)"
+    ]
+  },
+  "I": {
+    "prefix": "I",
+    "body": "import $0 from '$1'"
+  }
 }

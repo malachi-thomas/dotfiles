@@ -40,8 +40,13 @@ gacp() {
 }
 
 edit() {
-  code $1 && exit
+  code $1;
+  exit
 }
+# code() {
+#   code $1
+#   exit
+# }
 
 
 

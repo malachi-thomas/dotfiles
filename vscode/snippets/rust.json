@@ -1,0 +1,112 @@
+{
+  "pfn": {
+    "prefix": "pfn",
+    "body": [
+      "pub fn $1() {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "fn": {
+    "prefix": "fn",
+    "body": [
+      "fn $1() {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "mod": {
+    "prefix": "mod",
+    "body": [
+      "mod "
+    ]
+  },
+  "print": {
+    "prefix": "print",
+    "body": [
+      "println!(\"$0\")"
+    ]
+  },
+  "letString": {
+    "prefix": "letString",
+    "body": [
+      "let $0 = String::from($0)"
+    ]
+  },
+  "if": {
+    "prefix": "if",
+    "body": [
+      "if $1 {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "len": {
+    "prefix": "len",
+    "body": [
+      "len()"
+    ]
+  },
+  "loop": {
+    "prefix": "loop",
+    "body": [
+      "loop {$0}"
+    ]
+  },
+  "else": {
+    "prefix": "else",
+    "body": [
+      "else {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "while": {
+    "prefix": "while",
+    "body": [
+      "while $1 {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "iter": {
+    "prefix": "iter",
+    "body": [
+      "iter()"
+    ]
+  },
+  "for": {
+    "prefix": "for",
+    "body": [
+      "for $1 in $2 {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "no_std": {
+    "prefix": "no_std",
+    "body": [
+      "#![no_std]"
+    ]
+  },
+  "main": {
+    "prefix": "main",
+    "body": [
+      "fn main() {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "vec": {
+    "prefix": "vec",
+    "body": [
+      "vec![$0]"
+    ]
+  },
+  "enumerate": {
+    "prefix": "enumerate",
+    "body": [
+      "enumerate()"
+    ]
+  }
+}

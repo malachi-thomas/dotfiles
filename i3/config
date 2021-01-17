@@ -17,6 +17,7 @@ exec --no-startup-id exec xset r rate 200 20
 exec_always --no-startup-id exec betterlockscreen -u ~/dotfiles/wallpapers/nord.png
 exec_always --no-startup-id exec autotiling
 exec_always --no-startup-id feh --bg-fill ~/dotfiles/wallpapers/nord.png
+# exec_always --no-startup-id feh --bg-fill ~/dotfiles/wallpapers/power-line.png
 exec_always --no-startup-id sxhkd
 exec_always --no-startup-id sh ~/dotfiles/scripts/sound-core-connect.sh
 # exec_always --no-startup-id exec ~/dotfiles/polybar/launch.sh
@@ -49,7 +50,7 @@ bindsym $mod+Shift+Left  move left 1415
 bindsym $mod+Shift+Right  move right 1415
 bindsym $mod+Shift+Up  move up 795
 bindsym $mod+Shift+Down  move down 795
-# bindsym $mod+m fullscreen disable, floating enable, resize set 504 285, sticky enable, move window to position 1416 795
+bindsym $mod+Shift+z fullscreen disable, floating enable, resize set 504 285, sticky enable, move window to position 1416 795
 
 # workspaces
 set $ws1 "1"
@@ -73,6 +74,10 @@ bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
+
+bindsym $alt+t workspace number $ws1
+bindsym $alt+c workspace number $ws2
+bindsym $alt+m workspace number $ws3
 
 bindsym $mod+Shift+1 move container to workspace number $ws1
 bindsym $mod+Shift+2 move container to workspace number $ws2
