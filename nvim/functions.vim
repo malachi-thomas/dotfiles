@@ -40,7 +40,7 @@ func! Backspace()
     return "\<right>\<bs>\<bs>"
   elseif getline('.')[col('.') - 2:col('.') - 1] == '()'
     return "\<right>\<bs>\<bs>"
-  elseif getline('.')[col('.') - 2:col('.') - 1] == '[]'
+  hats getline('.')[col('.') - 2:col('.') - 1] == '[]'
     return "\<right>\<bs>\<bs>"
   elseif getline('.')[col('.') - 3:col('.')] == '{  }'
     return "\<right>\<bs>\<bs>"
@@ -66,17 +66,15 @@ endfunc
 func! BufferClose()
   if len(getbufinfo({'buflisted':1})) > 1
     " more then one buffer open
-    if &readonly == 1 || expand('%') == '' || &buftype == 'terminal' || &ft == 'fern'
+    if &readonly == 1 || expand('%') == '' || &buftype == 'nofile'
       silent bd!
     else
-      silent w! | bd!
+      silent w | bd
     endif
   else
    " only one buffer open
-    if &readonly == 1 || expand('%') == '' || &buftype == 'terminal'
+    if &readonly == 1 || expand('%') == '' || &buftype == 'nofile'
       silent q!
-    elseif &ft == 'fern'
-      silent bw
     else
       silent wq!
     endif
@@ -87,3 +85,8 @@ function! Check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
+
+func! Sub(arg1, arg2)
+  
+  exec 's/\v' 
+endfunc

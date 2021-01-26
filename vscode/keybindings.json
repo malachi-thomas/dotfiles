@@ -2,31 +2,40 @@
 [
     // mappings
     { "key": "ctrl+tab", "command": "workbench.action.nextEditor" },
-    { "key": "ctrl+shift+tab", "command": "workbench.action.previousEditor"},
+    { "key": "ctrl+shift+tab", "command": "workbench.action.previousEditor" },
     { "key": "ctrl+t", "command": "workbench.action.terminal.toggleTerminal" },
     { "key": "ctrl+w", "command": "workbench.action.closeActiveEditor" },
     { "key": "ctrl+n", "command": "editor.action.addSelectionToNextFindMatch", "when": "editorFocus" },
     { "key": "ctrl+alt+n", "command": "editor.action.addSelectionToPreviousFindMatch" },
     { "key": "ctrl+j", "command": "editor.action.showHover", "when": "editorTextFocus" },
-    { "key": "ctrl+alt+t","command": "workbench.action.focusActiveEditorGroup" },
-    
+    { "key": "ctrl+alt+t", "command": "workbench.action.focusActiveEditorGroup" },
+    { "key": "ctrl+k", "command": "editor.action.revealDefinition", "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor" },
+    { "key": "ctrl+a", "command": "editor.action.replaceAll", "when": "editorFocus && findWidgetVisible" },
+    { "key": "ctrl+alt+a", "command": "editor.action.selectHighlights", "when": "editorFocus" },
+    { "key": "ctrl+shift+f", "command": "workbench.action.gotoSymbol" },
+    { "key": "ctrl+o", "command": "editor.action.addCommentLine", "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+shift+o", "command": "editor.action.removeCommentLine", "when": "editorTextFocus && !editorReadonly" },
+
     // panle mappings
     { "key": "ctrl+alt+x", "command": "workbench.view.extensions", "when": "!sideBarFocus || activeViewlet != 'workbench.view.extensions'" },
-    { "key": "ctrl+alt+f", "command": "workbench.view.explorer", "when": "!sideBarFocus || activeViewlet != 'workbench.view.explorer'"},
+    { "key": "ctrl+alt+f", "command": "workbench.view.explorer", "when": "!sideBarFocus || activeViewlet != 'workbench.view.explorer'" },
     { "key": "ctrl+n", "command": "explorer.newFile", "when": "explorerViewletFocus" },
-    { "key": "backspace", "command": "deleteFile", "when": "explorerViewletFocus" },
+    { "key": "backspace", "command": "deleteFile", "when": "explorerViewletFocus && !inputFocus" },
     { "key": "ctrl+d", "command": "explorer.newFolder", "when": "explorerViewletFocus" },
     { "key": "ctrl+r", "command": "renameFile", "when": "explorerViewletVisible" },
     { "key": "ctrl+alt+d", "command": "workbench.view.debug", "when": "!sideBarFocus || activeViewlet != 'workbench.view.debug'" },
-    { "key": "ctrl+alt+s", "command": "workbench.view.search", "when": "searchViewletVisible" },
+    { "key": "ctrl+alt+s", "command": "workbench.view.search", "when": "!searchViewletVisible" },
     { "key": "ctrl+alt+x", "command": "workbench.action.closeSidebar", "when": "sideBarFocus && activeViewlet == 'workbench.view.extensions'" },
     { "key": "ctrl+alt+f", "command": "workbench.action.closeSidebar", "when": "sideBarFocus && activeViewlet == 'workbench.view.explorer'" },
     { "key": "ctrl+alt+d", "command": "workbench.action.closeSidebar", "when": "sideBarFocus && activeViewlet == 'workbench.view.debug'" },
     { "key": "ctrl+alt+s", "command": "workbench.action.closeSidebar", "when": "searchViewletVisible" },
-    
+    { "key": "escape", "command": "workbench.action.closeSidebar", "when": "sideBarFocus" },
+    { "key": "ctrl+alt+r", "command": "workbench.action.replaceInFiles", "when": "!sideBarFocus || activeViewlet != 'workbench.view.extensions'" },
+    { "key": "ctrl+alt+r", "command": "workbench.action.closeSidebar", "when": "sideBarFocus && activeViewlet == 'workbench.view.search'" },
+
     // arrow keys
     { "key": "ctrl+up", "command": "editor.action.insertCursorAbove", "when": "editorTextFocus" },
-    { "key": "ctrl+down", "command": "editor.action.insertCursorBelow", "when": "editorTextFocus" },    
+    { "key": "ctrl+down", "command": "editor.action.insertCursorBelow", "when": "editorTextFocus" },
     { "key": "ctrl+alt+up", "command": "workbench.action.moveEditorToAboveGroup" },
     { "key": "ctrl+alt+down", "command": "workbench.action.moveEditorToBelowGroup" },
     { "key": "ctrl+alt+left", "command": "workbench.action.moveEditorToLeftGroup" },
@@ -39,11 +48,21 @@
     { "key": "shift+alt+down", "command": "editor.action.moveLinesDownAction", "when": "editorTextFocus && !editorReadonly" },
     { "key": "shift+alt+left", "command": "editor.action.moveCarretLeftAction" },
     { "key": "shift+alt+right", "command": "editor.action.moveCarretRightAction" },
-    { "key": "ctrl+shift+f", "command": "-workbench.view.search", "when": "!searchViewletVisible" },
     
     // unmappings
     { "key": "ctrl+shift+n", "command": "-workbench.action.newWindow" },
     { "key": "ctrl+alt+s", "command": "-platformio-ide.serialMonitor" },
-    { "key": "ctrl+n", "command": "-workbench.action.files.newUntitledFile" },
-    
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "tab",
+        "command": "-markdown.extension.onTabKey",
+        "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus && !hasOtherSuggestions && !hasSnippetCompletions && !inSnippetMode && !suggestWidgetVisible && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.reindentlines"
+    },
 ]

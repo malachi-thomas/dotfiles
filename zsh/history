@@ -1,738 +1,3 @@
-: 1603269938:0;la
-: 1603269947:0;to index.js
-: 1603269949:0;v index.js
-: 1603270614:0;npm i express
-: 1603270626:0;npm i nodemon
-: 1603270645:0;v index.js
-: 1603270689:0;v package.json
-: 1603270714:0;npm start
-: 1603270722:0;v index.js
-: 1603271005:0;npm start
-: 1603271039:0;v index.js
-: 1603271338:0;node -v
-: 1603271620:0;v index.js
-: 1603271919:0;update
-: 1603272126:0;downgrade neovim-nightly
-: 1603272131:0;downgrade neovim
-: 1603272758:0;v index.js
-: 1603273731:0;cod
-: 1603273733:0;code
-: 1603273739:0;cd react/testing-node
-: 1603273743:0;node index.js
-: 1603274146:0;v javascript/promises.md 
-: 1603275285:0;update
-: 1603283824:0;vrc
-: 1603283828:0;v test.js
-: 1603283836:0;update
-: 1603283873:0;pac neovim-
-: 1603283884:0;pac neovim-nig
-: 1603284209:0;v test.js
-: 1603284216:0;v
-: 1603284258:0;v test.js
-: 1603284313:0;vrc
-: 1603284331:0;v test.js
-: 1603284350:0;pac typescript-language-server 
-: 1603284370:0;v test.js
-: 1603284545:0;npm i -g tsserver
-: 1603284620:0;npm i -g typescript-language-server; npm i -g typescript\
-\
-
-: 1603284696:0;v 
-: 1603284704:0;v test.js
-: 1603284812:0;v test.jsx
-: 1603284824:0;vpl
-: 1603289422:0;cd react/testing-node
-: 1603289422:0;la
-: 1603289463:0;cd code/react/testing-node
-: 1603289464:0;la
-: 1603289479:0;npm i nodemon
-: 1603289518:0;npm i -g nodemon
-: 1603289531:0;nodemon index.js
-: 1603289535:0;la
-: 1603289537:0;v package.json
-: 1603289550:0;zsh
-: 1603289565:0;la
-: 1603289615:0;cd node_modules/nodemon/bin
-: 1603289616:0;la
-: 1603289618:0;..
-: 1603289754:0;npm start
-: 1603289765:0;v package.json
-: 1603289773:0;nodemon index.js
-: 1603289784:0;v index.js
-: 1603290661:0;pac mangodb
-: 1603290665:0;pac mango
-: 1603300300:0;la
-: 1603300405:0;v index.js
-: 1603302380:0;cd code/react/testing-node
-: 1603302384:0;npm start
-: 1603302923:0;screenkey
-: 1603303301:0;la
-: 1603303308:0;v index.html
-: 1603303332:0;v index.js
-: 1603304205:0;npm uninstall nodemon
-: 1603304211:0;npm start
-: 1603304215:0;node index.html
-: 1603304220:0;node index.js
-: 1603304232:0;npm i nodemon
-: 1603304244:0;la
-: 1603304247:0;npm start
-: 1603304261:0;v index.html
-: 1603304281:0;v index.js
-: 1603304291:0;v index.html
-: 1603304317:0;..
-: 1603304320:0;cd learning-react
-: 1603304322:0;la
-: 1603304327:0;cd src
-: 1603304333:0;to server.js
-: 1603304333:0;la
-: 1603304338:0;rm constants.js
-: 1603304338:0;la
-: 1603304341:0;v server.js
-: 1603304362:0;cp ~/code/react/testing-node/index.js server.js
-: 1603304365:0;v server.js
-: 1603304414:0;node server.js
-: 1603304424:0;v  server.js
-: 1603304457:0;node server.js
-: 1603304730:0;..
-: 1603304740:0;cd testing-node
-: 1603304747:0;la
-: 1603304750:0;v index.js
-: 1603305084:0;v index.html
-: 1603305094:0;v index.js
-: 1603305103:0;rm html
-: 1603305105:0;v index.html
-: 1603305108:0;v index.js
-: 1603353341:0;v test.js
-: 1603353356:0;cd code/react/testing-node
-: 1603353358:0;v index.js
-: 1603353366:0;la
-: 1603353370:0;v test.js
-: 1603353385:0;vrc
-: 1603353394:0;v test.js
-: 1603353415:0;vrc
-: 1603353437:0;la
-: 1603353439:0;v index.js
-: 1603353442:0;cd
-: 1603353445:0;v test.js
-: 1603353457:0;rm test.js thest.md
-: 1603353460:0;cd code
-: 1603353462:0;v test.js
-: 1603353469:0;npm init
-: 1603353475:0;v test.js
-: 1603353479:0;la
-: 1603353486:0;rma test.js package.json
-: 1603353491:0;la
-: 1603353496:0;cd react
-: 1603353501:0;mv testing-node ../
-: 1603353502:0;la
-: 1603353503:0;..
-: 1603353504:0;la
-: 1603353511:0;mk testing
-: 1603353518:0;la
-: 1603353520:0;rma testing
-: 1603353522:0;la
-: 1603353534:0;cd testing-node
-: 1603353535:0;la
-: 1603353553:0;cat *
-: 1603353557:0;cat *.js
-: 1603353562:0;la
-: 1603353564:0;cat index.js
-: 1603353570:0;cat index.html
-: 1603353575:0;cat test.js
-: 1603353579:0;rm test.js
-: 1603353580:0;la
-: 1603353585:0;v index.js
-: 1603355945:0;pac redshift
-: 1603355952:0;biv
-: 1603355955:0;bin
-: 1603355957:0;v install.sh
-: 1603355992:0;redshift -l 51.5:0 -t 5400:5400 &\
-
-: 1603356210:0;redshift -l 51.50853 -0.12574 -t 5400:5400 &\
-
-: 1603356223:0;redshift -l 51.50853:-0.12574 -t 5400:5400 &\
-
-: 1603356274:0;redshift -l 51.5:0 -t 5400:5400 &\
-
-: 1603356353:0;redshift -l 51.5:0\
-
-: 1603356405:0;irc
-: 1603356537:0;redshift -l 51.5:0 -t 6000:4000\
-
-: 1603356547:0;pkill redshift
-: 1603356551:0;redshift -l 51.5:0 -t 6000:4000\
-
-: 1603356563:0;redshift -l 51.5:0 -t 4000:4000\
-
-: 1603356578:0;redshift -l 51.5:0 -t 3000:4000\
-
-: 1603356591:0;redshift -l 51.5:0 -t 2500:4000\
-
-: 1603356610:0;redshift -l 51.5:0 -t 5000:2500\
-
-: 1603356621:0;redshift -l 51.5:0 -t 5500:2500\
-
-: 1603356662:0;irc
-: 1603356814:0;la
-: 1603356820:0;rm test.jsx
-: 1603356821:0;la
-: 1603356830:0;lrc
-: 1603356952:0;code
-: 1603356954:0;la
-: 1603356964:0;mk python
-: 1603356968:0;cd python
-: 1603356969:0;la
-: 1603356973:0;v test.py
-: 1603357068:0;react
-: 1603357069:0;la
-: 1603357069:0;..
-: 1603357072:0;la
-: 1603358529:0;cd javascript
-: 1603358530:0;la
-: 1603358532:0;v test.js
-: 1603358536:0;rm package.json
-: 1603358537:0;v test.js
-: 1603358540:0;la
-: 1603358579:0;npm init -y
-: 1603358582:0;v test.js
-: 1603358600:0;vma
-: 1603358699:0;v test.js
-: 1603358712:0;..
-: 1603358715:0;cd testing-node
-: 1603358717:0;v index.js
-: 1603358747:0;vma
-: 1603359500:0;vrc
-: 1603359536:0;la
-: 1603359824:0;mv index.js server.js
-: 1603359826:0;v server.js
-: 1603359953:0;la
-: 1603362444:0;cd code/testing-node
-: 1603362458:0;npm start
-: 1603362467:0;nodemon .
-: 1603362469:0;la
-: 1603362475:0;v package.json
-: 1603362485:0;npm start
-: 1603362512:0;v index.html
-: 1603362649:0;la
-: 1603362653:0;..
-: 1603362653:0;la
-: 1603362664:0;cd react
-: 1603362665:0;la
-: 1603362672:0;cd learning-react
-: 1603362685:0;mk frontend backend
-: 1603362686:0;la
-: 1603362714:0;mv dist node_modules package-lock.json package.json public src frontend
-: 1603362715:0;la
-: 1603362726:0;mv .cache .eslintrc.json frontend
-: 1603362727:0;la
-: 1603362735:0;mv .gitignore .git frontend
-: 1603362736:0;la
-: 1603362739:0;tree
-: 1603362747:0;cd frontend/src
-: 1603362748:0;la
-: 1603362753:0;rm server.js
-: 1603362754:0;la
-: 1603362756:0;...
-: 1603362757:0;la
-: 1603362760:0;cd backend
-: 1603362761:0;la
-: 1603362899:0;npm i -g eslint
-: 1603362933:0;l
-: 1603362934:0;la
-: 1603362939:0;eslint init
-: 1603362945:0;zsh
-: 1603362982:0;la
-: 1603362985:0;cd .npm
-: 1603362986:0;la
-: 1603362989:0;cd bin
-: 1603362990:0;la
-: 1603362998:0;so
-: 1603363010:0;cd code
-: 1603363018:0;cd
-: 1603363037:0;v dotfiles/zsh/variables.zsh 
-: 1603363115:0;so
-: 1603363139:0;v dotfiles/zsh/variables.zsh 
-: 1603363181:0;cd code/react/learning-react
-: 1603363181:0;la
-: 1603363184:0;eslint init
-: 1603363203:0;npm init
-: 1603363211:0;eslint init
-: 1603363219:0;eslint --init
-: 1603363301:0;la
-: 1603363315:0;mv package-lock.json package.json .eslintrc.json backend
-: 1603363316:0;la
-: 1603363320:0;mv node_modules backend
-: 1603363321:0;la
-: 1603363324:0;cd backend
-: 1603363324:0;la
-: 1603363331:0;v server.js
-: 1603363334:0;la
-: 1603363338:0;cp ~/code/react/testing-node/index.js server.js
-: 1603363339:0;la
-: 1603363343:0;v server.js
-: 1603363416:0;cd code/testing-node
-: 1603363419:0;v server.js
-: 1603363637:0;npm i nodemon
-: 1603363646:0;v package.json
-: 1603363680:0;cd
-: 1603363688:0;cd code/react/learning-react/backend
-: 1603363689:0;la
-: 1603363694:0;npm start
-: 1603363705:0;v server.js
-: 1603364816:0;..
-: 1603364819:0;cd frontend
-: 1603364819:0;la
-: 1603364827:0;npm build
-: 1603364828:0;la
-: 1603364836:0;cd dist
-: 1603364837:0;la
-: 1603364840:0;v index.html
-: 1603364850:0;v src.7ed060e2.js
-: 1603364862:0;cd code/react/learning-react/backend
-: 1603364866:0;v server.js
-: 1603364921:0;cd code/react/learning-react/frontend
-: 1603364924:0;cd dist
-: 1603364959:0;pac firefix
-: 1603373412:0;amixer set Master 2+
-: 1603373425:0;amixer set Master playback 1+\
-
-: 1603373456:0;amixer set Master 2+
-: 1603373467:0;amixer set Master 10
-: 1603373471:0;amixer set Master 1
-: 1603373476:0;amixer set Master +1
-: 1603373479:0;amixer set Master +10
-: 1603373491:0;mocp
-: 1603373502:0;amixer --help
-: 1603373519:0;amixer sset master +10
-: 1603373524:0;amixer set master +10
-: 1603373942:0;amixer set Master +10
-: 1603373953:0;amixer set Master +10db
-: 1603373955:0;la
-: 1603373959:0;amixer set Master +10db
-: 1603373967:0;amixer set Master +10%
-: 1603373996:0;amixer set Master 5%+\
-
-: 1603374023:0;mocp
-: 1603374206:0;file
-: 1603374264:0;xev
-: 1603374286:0;vim
-: 1603374302:0;v
-: 1603374455:0;sxh
-: 1603374565:0;pkill sxhkd
-: 1603374570:0;sxhkd
-: 1603374575:0;sxh
-: 1603374587:0;sxhkd
-: 1603374861:0;bindsym XF86AudioRaiseVolume exec amixer -q set Master 1%+; exec notify-send 'volume-up'\
-
-: 1603374890:0;exec notify-send 'volume-up'\
-
-: 1603374954:0;back
-: 1603374964:0;c
-: 1603374966:0;la
-: 1603374988:0;v volume.sh
-: 1603374999:0;volume.sh up\
-
-: 1603375001:0;la
-: 1603375008:0;volume.sh up\
-
-: 1603375009:0;so
-: 1603375012:0;volume.sh up\
-
-: 1603375014:0;./volume.sh up\
-
-: 1603375020:0;v volume.sh
-: 1603375092:0;./volume.sh up\
-
-: 1603375120:0;pac  dunst
-: 1603375127:0;bin
-: 1603375129:0;v index.html
-: 1603375134:0;v install.sh
-: 1603375184:0;man dunst
-: 1603375231:0;v test.sh
-: 1603375246:0;sh ./test.sh
-: 1603375250:0;v test.sh
-: 1603375276:0;sh test.sh 1
-: 1603375279:0;sh test.sh 11
-: 1603375281:0;sh test.sh on
-: 1603375296:0;awk -F"[][]" '/dB/ { print $2 }' <(amixer sget Master)\
-
-: 1603375318:0;amixer -D pulse get Master | awk -F 'Left:|[][]' 'BEGIN {RS=""}{ print $3 }'\
-\
-
-: 1603375337:0;amixer -D pulse get Master
-: 1603375339:0;amixer -D pulse get Master | awk -F 'Left:|[][]' 'BEGIN {RS=""}{ print $3 }'\
-\
-
-: 1603375407:0;v test.sh
-: 1603375417:0;sh test.sh up
-: 1603375422:0;sh test.sh upp
-: 1603375423:0;sh test.sh up
-: 1603375430:0;sh test.sh down
-: 1603375451:0;v test.sh
-: 1603375524:0;rm test.sh
-: 1603375524:0;la
-: 1603375526:0;..
-: 1603375634:0;cd
-: 1603375637:0;cd code/react/learning-react/frontend
-: 1603375638:0;..
-: 1603375639:0;la
-: 1603375640:0;cd backend
-: 1603375641:0;la
-: 1603375646:0;v server.js
-: 1603375687:0;la
-: 1603375697:0;tmux
-: 1603375701:0;pac tmux
-: 1603375708:0;tmux
-: 1603375713:0;la
-: 1603375715:0;tmux
-: 1603375719:0;tmux -0
-: 1603375745:0;locale -a
-: 1603375777:0;sudo nvim /etc/locale.gen
-: 1603375815:0;locale -a
-: 1603375821:0;locale-gen
-: 1603375826:0;locale -a
-: 1603375831:0;tmux
-: 1603375859:0;sudo locale-gen
-: 1603375863:0;locale -a
-: 1603375867:0;tmux
-: 1603375909:0;sudo localectl set-locale LANG=en_GB.UTF-8
-: 1603375916:0;tmux
-: 1603375922:0;locale -a
-: 1603375934:0;sudo localectl set-locale LANG=en_US.UTF-8
-: 1603375969:0;sudo nvim /etc/locale.gen
-: 1603376010:0;sudo locale-gen
-: 1603376014:0;tmux
-: 1603376020:0;locale -a
-: 1603376066:0;tmux
-: 1603376078:0;bin
-: 1603376081:0;v install.sh
-: 1603376115:0;tmux
-: 1603376174:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
-: 1603376190:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'\
-
-: 1603376196:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
-: 1603376197:0;cd backend
-: 1603376209:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#ffffff'
-: 1603376213:0;cd backend
-: 1603376216:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#000'
-: 1603376218:0;cd backend
-: 1603376241:0;cd ++t 
-: 1603376270:0;sh color.sh
-: 1603376336:0;so
-: 1603376355:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'\
-
-: 1603376368:0;sh color.sh
-: 1603376408:0;928
-: 1603376413:0;sh color.sh
-: 1603376425:0;928374
-: 1603376446:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#928374'\
-
-: 1603376458:0;zsh
-: 1603376483:0;so
-: 1603376489:0;tmux
-: 1603376492:0;cd ++t 
-: 1603376504:0;tmux -0
-: 1603376511:0;tmux -2
-: 1603376513:0;cd ++t 
-: 1603376516:0;zsh
-: 1603376548:0;TERM=screen-256color-bce tmux
-: 1603376553:0;vim
-: 1603376561:0;v
-: 1603376582:0;bin
-: 1603376585:0;v react.sh
-: 1603376588:0;v relink.sh
-: 1603376632:0;sh relink.sh
-: 1603376634:0;cd
-: 1603376635:0;la
-: 1603376641:0;v .tmux.conf
-: 1603376648:0;tmux -2
-: 1603376652:0;nvim
-: 1603376674:0;tmux -2
-: 1603376688:0;tmux source-file ~/.tmux.conf
-: 1603376699:0;tmux
-: 1603376703:0;vim
-: 1603376709:0;v
-: 1603376721:0;v .tmux.conf
-: 1603376742:0;alias tmux="TERM=screen-256color-bce tmux"
-: 1603376745:0;tmux
-: 1603376747:0;v
-: 1603376762:0;tmux source-file ~/.tmux.conf
-: 1603376765:0;tmux
-: 1603376767:0;vim
-: 1603376773:0;v
-: 1603376788:0;alias tmux="TERM=screen-256color-bce tmux"
-: 1603376790:0;tmux
-: 1603376792:0;v
-: 1603376814:0;tmux -2
-: 1603376815:0;v
-: 1603376819:0;zsh
-: 1603376840:0;so
-: 1603376842:0;tmux
-: 1603376850:0;v
-: 1603376857:0;vma
-: 1603376929:0;v
-: 1603376933:0;vma
-: 1603377019:0;v
-: 1603377065:0;vma
-: 1603377103:0;v
-: 1603377112:0;vma
-: 1603377127:0;v
-: 1603377131:0;vma
-: 1603377168:0;v
-: 1603377176:0;vma
-: 1603377216:0;zsh
-: 1603377222:0;la
-: 1603377227:0;tmux
-: 1603377231:0;cd ++t 
-: 1603377232:0;zsh
-: 1603377246:0;tmux
-: 1603377263:0;v .tmux.conf
-: 1603377279:0;tmux source-file ~/.tmux.conf
-: 1603377287:0;tmux
-: 1603377291:0;v .tmux.conf
-: 1603377305:0;tmux
-: 1603377312:0;v .tmux.conf
-: 1603377434:0;tmux source-file ~/.tmux.conf
-: 1603377444:0;v .tmux.conf
-: 1603377481:0;tmux
-: 1603377491:0;tmux splitw
-: 1603377498:0;tmux split-window
-: 1603377502:0;tmux splitw-window
-: 1603377510:0;tmux splitw
-: 1603377530:0;tmux
-: 1603377533:0;v .tmux.conf
-: 1603377554:0;tmux
-: 1603377557:0;tmux source-file ~/.tmux.conf
-: 1603377566:0;tmux split-window
-: 1603377570:0;tmux splitw
-: 1603377664:0;tmux 
-: 1603377667:0;tmux splitw
-: 1603377671:0;tmux split-window
-: 1603377687:0;tmux usetw -g monitor-activity on\
-set -g visual-activity on\
-
-: 1603377688:0;setw -g monitor-activity on\
-set -g visual-activity on\
-
-: 1603377689:0;v .tmux.conf
-: 1603377863:0;tmux
-: 1603377881:0;la
-: 1603377885:0;tmux
-: 1603377886:0;la
-: 1603377888:0;v .tmux.conf
-: 1603377896:0;tmux split-window
-: 1603377899:0;tmux splitw
-: 1603378022:0;tmux splitw -v
-: 1603378024:0;tmux splitw -h
-: 1603378029:0;v .tmux.conf
-: 1603378039:0;tmux
-: 1603378075:0;v .tmux.conf
-: 1603378126:0;tmux kill-pane
-: 1603378143:0;v .tmux.conf
-: 1603378155:0;tmux
-: 1603378168:0;tmux kill-pane
-: 1603378174:0;v .tmux.conf
-: 1603378188:0;tmux 
-: 1603378192:0;tmux kill-pane
-: 1603378194:0;v .tmux.conf
-: 1603378226:0;zxh
-: 1603378228:0;sxh
-: 1603378244:0;pkill sxhkd
-: 1603378246:0;sxhkd
-: 1603378269:0;irc
-: 1603378275:0;zsh
-: 1603378288:0;sxh
-: 1603378334:0;tmux -2
-: 1603378341:0;v
-: 1603378350:0;sxh
-: 1603378372:0;pkill sxhkd
-: 1603378374:0;sxhkd
-: 1603378377:0;v
-: 1603378408:0;sxh
-: 1603378450:0;zsh
-: 1603378464:0;so
-: 1603378467:0;v
-: 1603378494:0;alias tmux="tmux"
-: 1603378496:0;tmux
-: 1603378500:0;v
-: 1603378509:0;sxh
-: 1603378520:0;pkill sxhkd
-: 1603378524:0;sxhkd
-: 1603378529:0;la
-: 1603378539:0;rma my-keyboard
-: 1603378543:0;la
-: 1603378551:0;rm volume.sh
-: 1603378552:0;la
-: 1603378564:0;v .tmux.conf
-: 1603378591:0;v
-: 1603378600:0;tmux -2
-: 1603378600:0;v
-: 1603378605:0;sxh
-: 1603378620:0;v
-: 1603378629:0;tmux -2
-: 1603378633:0;tmux -2
-: 1603378634:0;v
-: 1603378639:0;so
-: 1603378641:0;v 
-: 1603378681:0;tmux -2
-: 1603378683:0;v
-: 1603378690:0;bin
-: 1603378692:0;v relink.sh
-: 1603378768:0;sh relink.sh
-: 1603378772:0;..
-: 1603378772:0;la
-: 1603378775:0;cd alacritty
-: 1603378776:0;la
-: 1603378782:0;bin
-: 1603378784:0;v relink.sh
-: 1603378796:0;sh relink.sh
-: 1603378818:0;v relink.sh
-: 1603378825:0;..
-: 1603378826:0;la
-: 1603378829:0;cd alacritty
-: 1603378830:0;la
-: 1603378835:0;bin
-: 1603378836:0;v relink.sh
-: 1603378852:0;sh relink.sh
-: 1603378861:0;tmux -2
-: 1603378863:0;v
-: 1603378876:0;alacritty -e tmux -2
-: 1603378877:0;v
-: 1603378892:0;zsh
-: 1603378910:0;sxh
-: 1603378935:0;pkill sxhkd
-: 1603378937:0;sxhkd
-: 1603378949:0;sxh
-: 1603378969:0;pkill sxhkd
-: 1603378971:0;sxhkd
-: 1603378998:0;sxh
-: 1603379038:0;tmux -2c TERM=screen-256color-bce
-: 1603379041:0;la
-: 1603379051:0;sxhkd
-: 1603379067:0;sxh
-: 1603379101:0;so
-: 1603379104:0;pkill sxhkd
-: 1603379106:0;sxhkd
-: 1603379123:0;tmux -2c TERM=screen-256color-bce
-: 1603379149:0;tmux -2u
-: 1603379151:0;la
-: 1603379155:0;sxh
-: 1603379164:0;pkill sxhkd
-: 1603379170:0;sxhkd
-: 1603379172:0;v
-: 1603379223:0;echo TERM
-: 1603379228:0;echo $TERM
-: 1603379248:0;tmux set-option -ga terminal-overrides ",xterm-256color:Tc"\
-
-: 1603379253:0;v
-: 1603379293:0;zsh
-: 1603379308:0;v .tmux.conf
-: 1603379323:0;v
-: 1603379326:0;la
-: 1603379328:0;echo $TERM
-: 1603379338:0;tmux -2u
-: 1603379339:0;v
-: 1603379382:0;zsh
-: 1603379401:0;tmux -2u
-: 1603379403:0;v
-: 1603379410:0;zsh
-: 1603379431:0;sxh
-: 1603379440:0;pkill sxhkd
-: 1603379444:0;sxhkd
-: 1603379457:0;sxh
-: 1603379468:0;sxhkd
-: 1603379472:0;sxh
-: 1603379483:0;sxhkd
-: 1603379485:0;v
-: 1603379486:0;la
-: 1603379513:0;v .tmux.conf
-: 1603379550:0;zsh
-: 1603379563:0;alacritty -e TERM=TERM=screen-256color-bce tmux
-: 1603379576:0;alacritty --command TERM=screen-256color-bce tmux
-: 1603379584:0;alacritty --command TERM=screen-256color-bce; tmux
-: 1603379592:0;alacritty --command export TERM=screen-256color-bce; tmux
-: 1603379633:0;zsh
-: 1603379650:0;so
-: 1603379654:0;tmux
-: 1603379658:0;v
-: 1603379666:0;la
-: 1603379679:0;v .tmux.conf
-: 1603379696:0;v
-: 1603379698:0;la
-: 1603379700:0;echo $TERM
-: 1603379709:0;tmux -2u
-: 1603379719:0;v
-: 1603379727:0;echo $TERM
-: 1603379731:0;tmux -2u
-: 1603379734:0;tmux
-: 1603379806:0;zsh
-: 1603379823:0;tmux
-: 1603379829:0;v
-: 1603379833:0;tmux
-: 1603379847:0;la
-: 1603379866:0;v
-: 1603379909:0;la
-: 1603379917:0;mk .zprofile
-: 1603379924:0;rma .zprofile
-: 1603379929:0;v .zprofile
-: 1603379944:0;cp ~/dotfiles/zsh/variables.zsh .zprofile
-: 1603379947:0;v
-: 1603379966:0;echo $TERM
-: 1603379969:0;zsh
-: 1603379983:0;echo $TERM
-: 1603379985:0;v
-: 1603379987:0;la
-: 1603380019:0;v .tmux.conf
-: 1603380135:0;la
-: 1603380136:0;v
-: 1603380166:0;sxh
-: 1603380195:0;v
-: 1603380199:0;la
-: 1603380323:0;alacritty -e TERM=TERM=screen-256color-bce tmux
-: 1603380330:0;alacritty -e TERM=screen-256color-bce tmux
-: 1603380335:0;alacritty -e screen-256color-bce tmux
-: 1603380340:0;alacritty -e screen-256color-bce tmux -2u
-: 1603380349:0;alacritty -e TERM=screen-256color-bce tmux -2u
-: 1603380350:0;l
-: 1603380351:0;la
-: 1603380370:0;alacritty -e TERM=screen-256color-bce
-: 1603380376:0;alacritty -e $TERM=screen-256color-bce
-: 1603380383:0;alacritty -e export TERM=screen-256color-bce
-: 1603380388:0;alacritty -e tmux -2
-: 1603380391:0;la
-: 1603380414:0;rma .zprofile
-: 1603380417:0;la
-: 1603380425:0;v .tmux.conf
-: 1603380446:0;tmux
-: 1603380447:0;v
-: 1603380451:0;zsh
-: 1603380460:0;v
-: 1603380468:0;tmux exit
-: 1603380478:0;tmux kill-pane
-: 1603380503:0;la
-: 1603380505:0;v
-: 1603380511:0;tmux -2u
-: 1603380512:0;v
-: 1603380521:0;TERM=screen-256color-bce tmux
-: 1603380529:0;tmux set-option -ga terminal-overrides ",xterm-256color:Tc"\
-
-: 1603380530:0;v
-: 1603380533:0;..
-: 1603380535:0;cd
-: 1603380540:0;~
-: 1603380543:0;..
-: 1603380545:0;~
-: 1603380562:0;la
-: 1603380603:0;v .fehbg
-: 1603380611:0;la
-: 1603380632:0;TERM=screen-256color-bce tmux
-: 1603380634:0;la
-: 1603380634:0;v
-: 1603380641:0;TERM=screen-256color-bce tmux
-: 1603380642:0;v
-: 1603380649:0;v .tmux.conf
-: 1603380721:0;zsh
-: 1603380730:0;so
 : 1603380733:0;tmux
 : 1603380740:0;v
 : 1603380753:0;tmux -2u
@@ -10207,3 +9472,605 @@ pacman -Sy archlinux-keyring\
 : 1610906449:0;la
 : 1610907139:0;cd dotfiles
 : 1610907158:0;commit "started to use vscode"
+: 1610909343:0;npm run dev
+: 1610909351:0;la
+: 1610909353:0;..
+: 1610909356:0;npm run dev
+: 1610909362:0;la
+: 1610909389:0;npm run dev
+: 1610909394:0;cd src
+: 1610909401:0;la
+: 1610909424:0;npm run dev
+: 1610913872:0;cd shows/kabukichou-sherlock
+: 1610913881:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 05\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1610916538:0;as
+: 1610918261:0;power
+: 1610965164:0;cd shows
+: 1610965167:0;du -h .
+: 1610965308:0;ls -R
+: 1610965311:0;ls -Rr
+: 1610965312:0;ls -r
+: 1610965317:0;ls -d
+: 1610965323:0;tree 
+: 1610965340:0;tree -I trading
+: 1610965354:0;dow
+: 1610965355:0;la
+: 1610965466:0;..
+: 1610965469:0;edit code/nodejs
+: 1610965860:0;vim  app/build.rs
+: 1610970121:0;npm run dev
+: 1610975437:0;la
+: 1610977680:0;npm run dev
+: 1610980614:0;nodemon src/index.js
+: 1610985559:0;nodemon index.js
+: 1610986031:0;npm run dev
+: 1610989616:0;cd code
+: 1610989616:0;la
+: 1610989621:0;mk electron
+: 1610989623:0;cd electron
+: 1610989623:0;la
+: 1610989628:0;mk test-project
+: 1610989630:0;cd test-project
+: 1610989630:0;la
+: 1610989636:0;npm init  of
+: 1610989639:0;npm init -y
+: 1610989641:0;la
+: 1610989655:0;npm i electron
+: 1610999933:0;la
+: 1610999940:0;vim package.json
+: 1610999948:0;electron 
+: 1610999960:0;electron --help
+: 1610999995:0;..
+: 1611000002:0;cd test-project
+: 1611000039:0;cd shows/
+: 1611000043:0;cd kabukichou-sherlock
+: 1611000047:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 06\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1611003611:0;cd code
+: 1611003613:0;cd electron
+: 1611003613:0;la
+: 1611003617:0;cd test-project
+: 1611003619:0;la
+: 1611003627:0;rma node_modules package.json package-lock.json
+: 1611003636:0;npx create-electron-app .\
+
+: 1611003653:0;irc
+: 1611003669:0;pac autotiling
+: 1611003693:0;autotiling
+: 1611004240:0;npm start
+: 1611004266:0;..
+: 1611004270:0;cd electron/test-project
+: 1611004270:0;la
+: 1611004274:0;edit .
+: 1611004697:0;betterlockscreen -s
+: 1611043429:0;npm start
+: 1611044014:0;npm install -g vue-cli\
+
+: 1611044072:0;..
+: 1611044075:0;cd electron
+: 1611044080:0;mk vue
+: 1611044084:0;cd vue
+: 1611044085:0;la
+: 1611044089:0;mk test-project
+: 1611044091:0;cd test-project
+: 1611044092:0;..
+: 1611044099:0;rma test-project 
+: 1611044200:0;la
+: 1611044205:0;cd vue
+: 1611044206:0;la
+: 1611044217:0;cd test-project
+: 1611044218:0;la
+: 1611044227:0;npm install -g vue-cli\
+
+: 1611044253:0;la
+: 1611044261:0;npm install -g vue-cli\
+
+: 1611044277:0;vue init simulatedgreg/electron-vue .
+: 1611044354:0;npm run dev
+: 1611044358:0;la
+: 1611044364:0;vim package.json
+: 1611044377:0;npm run dev
+: 1611044408:0;rma *
+: 1611044410:0;la
+: 1611044414:0;rm .*
+: 1611044415:0;la
+: 1611044418:0;rma .*
+: 1611044419:0;la
+: 1611044432:0;vue init simulatedgreg/electron-vue my-project
+: 1611044459:0;cd my-project
+: 1611044464:0;npm install
+: 1611044819:0;npm run dev
+: 1611044849:0;npm start
+: 1611044851:0;npm run dev
+: 1611044889:0;cd code/electron/vue/test-project
+: 1611044890:0;la
+: 1611044902:0;rma my-project
+: 1611044907:0;la
+: 1611044928:0;npx create-electron-app .\
+
+: 1611044995:0;..
+: 1611045003:0;mk test-project2
+: 1611045007:0;cd test-project2
+: 1611045007:0;la
+: 1611045030:0;vue create electron-vue\
+
+: 1611045041:0;la
+: 1611045062:0;npm uninstall -g vue-cli\
+  npm install -g @vue/cli
+: 1611045420:0;la
+: 1611045426:0;vue create electron-vue\
+
+: 1611045472:0;la
+: 1611045476:0;cd electron-vue
+: 1611045476:0;la
+: 1611045485:0;npm run serve
+: 1611045649:0;cd ~/code/electron/vue/test-project2/electron-vue/
+: 1611045650:0;la
+: 1611045660:0;npm run serve
+: 1611045670:0;la
+: 1611045673:0;npm start
+: 1611045677:0;npm run dev
+: 1611045682:0;v package.json
+: 1611045701:0;npm run serve
+: 1611045716:0;..
+: 1611045719:0;la
+: 1611045723:0;cd test-project
+: 1611045724:0;la
+: 1611045727:0;mk test-project
+: 1611045737:0;rma vue
+: 1611045743:0;la
+: 1611045748:0;cd test-project
+: 1611045748:0;la
+: 1611045824:0;npm i electron
+: 1611045830:0;lla
+: 1611045831:0;la
+: 1611045836:0;npm init -y
+: 1611045837:0;la
+: 1611045929:0;electron .
+: 1611045948:0;v package.json
+: 1611045958:0;edit .
+: 1611045980:0;la
+: 1611045986:0;rma ./*
+: 1611045988:0;la
+: 1611045998:0;npx create-electron-app .\
+
+: 1611046066:0;la
+: 1611046095:0;electron .
+: 1611046197:0;..
+: 1611046205:0;mk custom-electron-app
+: 1611046208:0;cd custom-electron-app
+: 1611046208:0;la
+: 1611046211:0;npm init -y
+: 1611046214:0;npm i electron
+: 1611046228:0;edit .
+: 1611046306:0;electron .
+: 1611046796:0;cd ~/code/electron/test-project
+: 1611046797:0;la
+: 1611046800:0;cd src
+: 1611046801:0;la
+: 1611046806:0;v main.js
+: 1611048064:0;electron .
+: 1611052833:0;npm start
+: 1611052840:0;npm run dev
+: 1611052848:0;cat package.json
+: 1611052900:0;npm start
+: 1611053537:0;la
+: 1611053554:0;npm start
+: 1611054159:0;electron .
+: 1611054207:0;cd ~/code/electron/test-project
+: 1611054208:0;la
+: 1611054213:0;cd src
+: 1611054217:0;v main.js
+: 1611054830:0;npm start
+: 1611054909:0;la
+: 1611054915:0;cat package.json
+: 1611054935:0;electron src/main.js
+: 1611054944:0;electron .
+: 1611054972:0;la
+: 1611055000:0;npm start
+: 1611059647:0;electron .
+: 1611059650:0;la
+: 1611059657:0;electron src/main.js
+: 1611059667:0;npm run start
+: 1611059731:0;npm start
+: 1611060343:0;electron src/main.js
+: 1611060832:0;exit
+: 1611060836:0;exit
+: 1611061069:0;electron src/main.js
+: 1611063153:0;exit
+: 1611063156:0;electron src/main.js
+: 1611066638:0;exit
+: 1611066640:0;electron src/main.js
+: 1611066974:0;dow
+: 1611066975:0;la
+: 1611066993:0;mv The\ Sacred\ Blacksmith\ \(720p\)\(V2\) the-sacred-blacksmith
+: 1611066994:0;la
+: 1611067009:0;mv the-sacred-blacksmith ~/shows
+: 1611067011:0;la
+: 1611067012:0;..
+: 1611067013:0;la
+: 1611068379:0;cd code
+: 1611068379:0;la
+: 1611068382:0;cd electron
+: 1611068382:0;la
+: 1611068390:0;rma test-project
+: 1611068400:0;mk electron-vue
+: 1611068402:0;cd electron-vue
+: 1611068403:0;la
+: 1611068417:0;vue create .
+: 1611068520:0;npm run serve
+: 1611068527:0;la
+: 1611068532:0;ll
+: 1611068635:0;vue add electron-builder
+: 1611069922:0;cd code/electron
+: 1611069923:0;la
+: 1611069925:0;cd custom-electron-app
+: 1611069925:0;la
+: 1611069929:0;electron src/main.js
+: 1611070357:0;-
+: 1611070365:0;cd ~/code/electron/custom-electron-app
+: 1611070371:0;npm start
+: 1611070379:0;electron src/main.js
+: 1611073880:0;cd ~/code/electron/custom-electron-app
+: 1611073880:0;la
+: 1611073893:0;electron src/main.js
+: 1611085948:0;cd shows/kabukichou-sherlock
+: 1611085953:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 07\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1611092390:0;...
+: 1611092391:0;la
+: 1611092403:0;pac stm32cubeide
+: 1611092418:0;update
+: 1611134218:0;cd ~/
+: 1611134224:0;cd ~/code/electron/custom-electron-app
+: 1611134224:0;la
+: 1611134228:0;electron src/main.js
+: 1611137228:0;not
+: 1611137235:0;cd software/css
+: 1611137236:0;la
+: 1611137247:0;v flex-basis.md
+: 1611137263:0;v flex.md
+: 1611137268:0;rm flex.md
+: 1611137269:0;la
+: 1611137277:0;v flex-direction.md
+: 1611137336:0;la
+: 1611137341:0;v flexbox.md
+: 1611156038:0;xset r rate 200 20
+: 1611159824:0;pac plover
+: 1611159854:0;rma
+: 1611159860:0;sudo rm /var/lib/pacman/db.lck
+: 1611159861:0;pac plover
+: 1611159999:0;plover
+: 1611160017:0;pac python
+: 1611160021:0;pac python3
+: 1611160198:0;npm i vue
+: 1611160206:0;cat package.json
+: 1611160628:0;npm uninstall vue
+: 1611160631:0;cat package.json
+: 1611170692:0;as
+: 1611170731:0;cd ~/code/electron/custom-electron-app
+: 1611170731:0;la
+: 1611170748:0;al
+: 1611170749:0;la
+: 1611170757:0;electron .
+: 1611170762:0;la
+: 1611170765:0;v package.json
+: 1611170775:0;la
+: 1611170776:0;cd src
+: 1611170777:0;la
+: 1611170780:0;..
+: 1611170781:0;la
+: 1611170788:0;electron src/main.js
+: 1611171252:0;npm i usb
+: 1611171308:0;electron src/main.js
+: 1611171336:0;npm i usb
+: 1611171340:0;cat package.json
+: 1611171373:0;pac libudev
+: 1611171385:0;electron src/main.js
+: 1611171902:0;cd ~/code/electron/custom-electron-app
+: 1611171905:0;electron src/main.js
+: 1611172310:0;npm install
+: 1611172518:0;electron src/main.js
+: 1611172792:0;npm i electron-reload
+: 1611172822:0;electron src/main.js
+: 1611173312:0;cd shows/kabukichou-sherlock
+: 1611173322:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 08\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1611174911:0;l
+: 1611174914:0;bin
+: 1611174915:0;la
+: 1611174969:0;v toggl.sh
+: 1611174976:0;la
+: 1611174981:0;sxh
+: 1611175008:0;v test.sh
+: 1611175045:0;sh test.sh
+: 1611175105:0;npm i usb
+: 1611175108:0;electron src/main.js
+: 1611217404:0;cd /
+: 1611217405:0;la
+: 1611217746:0;npm child_process
+: 1611217749:0;npm i child_process
+: 1611217753:0;npm child_process
+: 1611217756:0;electron src/main.js
+: 1611243697:0;pac stm32cubeide
+: 1611243718:0;pacr stm32cubeMX
+: 1611243720:0;pacr stm32cubemx
+: 1611243726:0;pac stm32cubemx
+: 1611259121:0;cd shows/kabukichou-sherlock
+: 1611259124:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 09\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1611263047:0;electron src/main.js
+: 1611268131:0;betterlockscreen -s
+: 1611301453:0;electron src/main.js
+: 1611307994:0;la
+: 1611308006:0;..
+: 1611308052:0;mv custom-electron-app electron-steno-in-one
+: 1611308053:0;la
+: 1611308055:0;cd electron-steno-in-one
+: 1611308056:0;la
+: 1611308075:0;v package.json
+: 1611308142:0;gitStartup electron-steno-in-one
+: 1611308216:0;la
+: 1611308219:0;rma .git
+: 1611308221:0;la
+: 1611308231:0;git init
+: 1611308233:0;la
+: 1611308252:0;commit 'started electron-steno-in-one'
+: 1611308261:0;git remote add origin git@github.com:banana-llarma/electron-steno-in-one.git
+: 1611308267:0;git push -u origin main\
+
+: 1611308278:0;git branch -M main
+: 1611308281:0;git push -u origin main\
+
+: 1611308297:0;du -h .
+: 1611308301:0;la
+: 1611308316:0;v .gitignore
+: 1611308334:0;git push -u origin main\
+
+: 1611308345:0;la
+: 1611308350:0;rma .git
+: 1611308354:0;git init
+: 1611308359:0;git branch -M main
+: 1611308365:0;commit 'started electron-steno-in-one'
+: 1611308384:0;git push -u origin main\
+
+: 1611308393:0;git commit -m "first commit"
+: 1611308402:0;la
+: 1611308406:0;git push -u origin main\
+
+: 1611308413:0;git remote add origin git@github.com:banana-llarma/electron-steno-in-one.git
+: 1611308414:0;git push -u origin main\
+
+: 1611308422:0;la
+: 1611308646:0;electron src/main.js\
+
+: 1611309506:0;z electron
+: 1611309507:0;la
+: 1611309512:0;cd electron-steno-in-one
+: 1611309512:0;la
+: 1611309539:0;v .git
+: 1611309545:0;v .gitignore
+: 1611309577:0;commit 'removed .vscode folder'
+: 1611309620:0;la
+: 1611309625:0;rma .vscode 
+: 1611309627:0;la
+: 1611309632:0;edit .
+: 1611309783:0;electron src/main.js\
+
+: 1611329073:0;npm i mongodb
+: 1611331039:0;commit ''
+: 1611331044:0;commit ' '
+: 1611331051:0;commit 'save'
+: 1611332373:0;electron src/main.js\
+
+: 1611333376:0;cd src/
+: 1611333377:0;la
+: 1611333383:0;node file.js
+: 1611333393:0;electron src/main.js\
+
+: 1611333401:0;..
+: 1611333403:0;electron src/main.js\
+
+: 1611333827:0;electron .
+: 1611333922:0;electron src/main.js\
+
+: 1611334246:0;node src/file.js
+: 1611334263:0;cd src
+: 1611334265:0;node file.js
+: 1611334267:0;..
+: 1611334268:0;la
+: 1611334288:0;electron src/main.js\
+
+: 1611334905:0;npm run start
+: 1611334963:0;npm start
+: 1611335028:0;npm run start
+: 1611335090:0;cd src
+: 1611335093:0;electron .
+: 1611335104:0;..
+: 1611335111:0;electron src/main.js\
+
+: 1611335122:0;electron .
+: 1611341879:0;electron .
+: 1611341915:0;npm run start
+: 1611341933:0;electron .
+: 1611342231:0;npm run start
+: 1611342319:0;electron .
+: 1611344879:0;cd shows/kabukichou-sherlock
+: 1611344880:0;la
+: 1611344885:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 10\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1611346363:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 11\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1611388754:0;pac alsa
+: 1611388873:0;electron .
+: 1611388889:0;npm start
+: 1611393592:0;node .
+: 1611393616:0;node src/main.js
+: 1611393865:0;node .
+: 1611393873:0;npm node
+: 1611393876:0;npm run node
+: 1611393882:0;node .
+: 1611393885:0;npm run node
+: 1611393933:0;npm start
+: 1611393945:0;npm run node
+: 1611410752:0;z steno-in
+: 1611410753:0;la
+: 1611410758:0;v .gitignore
+: 1611410768:0;v things-to-do.md
+: 1611410841:0;la
+: 1611410844:0;v .
+: 1611410943:0;cd dotfiles/nvim/snippets
+: 1611410943:0;la
+: 1611410947:0;v javascript.json
+: 1611410959:0;vma
+: 1611413551:0;:FloatermToggle
+: 1611415704:0;nnoremap <c-z> u
+: 1611415987:0;cd
+: 1611415989:0;z steno-in
+: 1611416002:0;v src/file.js
+: 1611416039:0;node .
+: 1611416041:0;la
+: 1611416045:0;..
+: 1611416046:0;la
+: 1611416107:0;node .
+: 1611416716:0;n
+: 1611416718:0;npm run node
+: 1611424066:0;node .
+: 1611428079:0;npm run node
+: 1611428383:0;node src/main.js
+: 1611428584:0;npm start
+: 1611428592:0;npm run node
+: 1611428724:0;npm start
+: 1611428727:0;npm run node
+: 1611428738:0;npm backend/file.js
+: 1611428745:0;node backend/file.js
+: 1611431488:0;cd shows/kabukichou-sherlock
+: 1611431493:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 12\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1611433446:0;npm start
+: 1611433656:0;betterlockscreen -s
+: 1611476274:0;electron .
+: 1611479948:0;pac plover
+: 1611489813:0;bashtop
+: 1611489859:0;sudo lspci -v | less\
+
+: 1611489888:0;lshw
+: 1611489890:0;pac lshw
+: 1611489947:0;neofetch
+: 1611489952:0;pac neofetch
+: 1611489956:0;neofetch
+: 1611495525:0;pac plover-git
+: 1611495545:0;plover
+: 1611495628:0;pac pkgver
+: 1611495654:0;plover
+: 1611495664:0;pacr plover-git
+: 1611495674:0;pac pkgver
+: 1611495680:0;pac plover-git
+: 1611495716:0;yay -Syu
+: 1611495860:0;pac plover
+: 1611495993:0; pip install plover-plugins-manager
+: 1611496021:0;pac plover
+: 1611496041:0;plover
+: 1611496075:0;sudo rma /usr/bin/plover
+: 1611496081:0;sudo rm -r /usr/bin/plover
+: 1611496083:0;la
+: 1611496085:0;plover
+: 1611496104:0;pac plover
+: 1611496120:0;plover
+: 1611496422:0;la
+: 1611496436:0;pac python3
+: 1611496446:0;pacr python
+: 1611496456:0;pacr python3
+: 1611496458:0;pacr python
+: 1611496462:0;pacr python-pip
+: 1611496465:0;python
+: 1611496475:0;..
+: 1611496482:0;plover
+: 1611496494:0;pacr plover
+: 1611496496:0;pacr plover-git
+: 1611496503:0;la
+: 1611496509:0;cd /usr/bin
+: 1611496510:0;la
+: 1611496516:0;sudo rm -r /usr/bin/plover
+: 1611496518:0;..
+: 1611496527:0;pac plover-git
+: 1611496549:0;plover
+: 1611496965:0;pac plover
+: 1611496977:0;ploner
+: 1611496979:0;plover
+: 1611497083:0;electron .
+: 1611510046:0;cd
+: 1611510047:0;la
+: 1611510056:0;s
+: 1611510057:0;su
+startx
+xstart
+: 1611510155:0;pac lightdm
+: 1611510160:0;update
+: 1611510399:0;pacr lightdm
+: 1611510403:0;lightdm
+: 1611510409:0;pac lightdm
+: 1611510422:0;systemctl start lightdm
+: 1611510431:0;sudo systemctl start lightdm
+: 1611510448:0;sudo systemctl enable lightdm
+: 1611510452:0;sudo systemctl start lightdm
+: 1611510465:0;power
+: 1611510515:0;sudo systemctl status lightdm
+: 1611510589:0;vim /etc/lightdm/lightdm.conf
+: 1611510652:0;lightdm --test-mode --debug
+: 1611510695:0;pac lightdm-gtk-greeter
+: 1611510705:0;lightdm --test-mode --debug
+: 1611510738:0;pac lightdm-slick-greeter
+: 1611510812:0;vim /etc/lightdm/lightdm.conf
+: 1611510871:0;sudo vim /etc/lightdm/lightdm.conf
+: 1611510921:0;lightdm --test-mode --debug
+: 1611510930:0;systemctl start lightdm
+: 1611517107:0;cd shows/kabukichou-sherlock
+: 1611517113:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 13\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1611517122:0;pac mpv
+: 1611517137:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 13\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1611519562:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 14\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1611563761:0;electron .
+: 1611563963:0;npm run node
+: 1611563972:0;pac nodejs
+: 1611563981:0;pac npm
+: 1611563992:0;npm run node
+: 1611564039:0;node src/file.js
+: 1611564646:0;electron .
+: 1611565018:0;npm run node
+: 1611565029:0;node src/file.js
+: 1611565223:0;electron .
+: 1611573082:0;npm install
+: 1611573086:0;electron .
+: 1611573343:0;npm i electron-reloader
+: 1611573383:0;electron .
+: 1611574739:0;npm i electron-hot-loader
+: 1611575114:0;file
+: 1611575166:0;pac Nautilus
+: 1611575173:0;pac nautilus
+: 1611575196:0;file
+: 1611575254:0;reboot
+: 1611583449:0;npm uninstall electron-reloder
+: 1611583455:0;cat package.json
+: 1611583473:0;npm uninstall electron-hot-loader
+: 1611583487:0;cat package.json
+: 1611583506:0;npm uninstall electron-reload electron-reloader
+: 1611583512:0;cat package.json
+: 1611583525:0;npm uninstall mongodb
+: 1611583529:0;npm uninstall usb
+: 1611583532:0;cat package.json
+: 1611583593:0;electron .
+: 1611583601:0;npm start
+: 1611583685:0;npm i electron-reload
+: 1611583737:0;electron .
+: 1611587695:0;npm i electron-reload
+: 1611587698:0;electron .
+: 1611596009:0;pac plover-git
+: 1611596041:0;plover
+: 1611596066:0;/usr/bin/plover
+: 1611605827:0;cd shows/kabukichou-sherlock
+: 1611605831:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 15\ \[1080p\]\[Multiple\ Subtitle\].mkv
+: 1611611801:0;betterlockscreen -s
+: 1611647228:0;xset r rate 200 20
+: 1611647247:0;electron .
+: 1611654962:0;not
+: 1611654963:0;la
+: 1611654974:0;mk cooking
+: 1611654974:0;la
+: 1611654977:0;cd cooking
+: 1611654978:0;la
+: 1611655068:0;v waffle-mix.md
+: 1611655813:0;commit 'added cooking notes'

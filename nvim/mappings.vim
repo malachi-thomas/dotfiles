@@ -11,14 +11,8 @@ nnoremap <pageup> <c-u>
 nnoremap <pagedown> <c-d>
 nnoremap <home> ^
 nnoremap <end> $
-nnoremap f f
+nnoremap f <plug>(clever-f-f)
 inoremap <home> <c-o>^
-nnoremap <ScrollWheelUp> k
-nnoremap <ScrollWheelDown> j
-inoremap <ScrollWheelUp> <up>
-inoremap <ScrollWheelDown> <down>
-
-
 
 " Buffers
 nnoremap <silent><c-s> :w!<cr>
@@ -29,10 +23,7 @@ nnoremap / /\v
 nnoremap <space><space> :Files<cr>
 
 nnoremap <space>s :e ~/dotfiles/nvim/snippets/<c-r>=expand(&ft)<cr>.json<cr>
-" nnoremap m @
-" nnoremap mm @m
-" nnoremap M @@
-vnoremap / /\v
+vnoremap <c-f> /\v
 nnoremap <tab> :BufferNext<cr>
 nnoremap <M-tab> :BufferPrevious<cr>
 nnoremap <silent><c-w> :call BufferClose()<cr>
@@ -49,11 +40,13 @@ nnoremap <M-right> <c-w>l
 inoremap <c-h> <c-w>
 cnoremap <c-h> <c-w>
 nnoremap <esc> <esc>:nohl<cr>
+nnoremap <c-z> u
+nnoremap <c-f> /\v
+inoremap <c-f> <esc>/\v
 
 " Unmap
 nnoremap K <nop>
 nnoremap Q <nop>
-nnoremap <c-z> <nop>
 nnoremap S <nop>
 nnoremap H <nop>
 nnoremap L <nop>
@@ -64,20 +57,37 @@ nnoremap <s-up> <nop>
 nnoremap <s-down> <nop>
 
 " Visuale
-
 vnoremap <up> <up>zz
 vnoremap <down> <down>zz
 vnoremap p "_dP
 vnoremap <home> ^
 vnoremap <end> $<left>
+vnoremap <s-up> <up>
+vnoremap <s-down> <down>
+vnoremap <s-left> <left>
+vnoremap <s-right> <right>
+inoremap <s-up> <esc>v<up>
+inoremap <s-down> <esc>v<down>
+inoremap <s-left> <esc>v<left>
+inoremap <s-right> <esc>v<right>
+nnoremap <s-up> v<up>
+nnoremap <s-down> v<down>
+nnoremap <s-left> v<left>
+nnoremap <s-right> v<right>
+nnoremap <s-home> v<home>
+nnoremap <s-end> v<end>
+inoremap <s-home> <esc>v<home>
+inoremap <s-end> <esc>v<end>
+vnoremap <bs> d
 
 " terminal
-" nnoremap <c-t> :60vs<cr>:term<cr>i
-tnoremap <esc> <C-\><C-n>
+tnoremap <esc> <C-\><C-n>:x<cr>
 tnoremap <M-up> <c-\><c-n><c-w>k
 tnoremap <M-down> <c-\><c-n><c-w>j
 tnoremap <M-left> <c-\><c-n><c-w>h
 tnoremap <M-right> <c-\><c-n><c-w>l
+nnoremap <c-t> :FloatermToggle<cr>
+tnoremap <c-t> <c-\><c-n>:FloatermToggle<cr>
 
 "Substitutions
 nnoremap ss :s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
@@ -111,7 +121,7 @@ autocmd filetype cpp nnoremap <silent><buffer><c-l> :w<cr>:!g++ %<cr>:!./a.out<c
 " autocmd FileType rust nnoremap <silent><buffer><c-l> :<cr>:!rustc %<cr>:!./
 
 " Plugin Mappings
-nnoremap <space><space> :Telescope find_files<cr>
+nnoremap <c-p> :FZF<cr>
 nnoremap <space>r :Telescope oldfiles<cr>
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel

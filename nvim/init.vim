@@ -71,8 +71,7 @@ set showcmd
 set timeoutlen=1000 " how long vim waits for next key press
 set rtp+=~/.config/nvim/autoload/functions.vim
 set pumheight=10 " completion menu hight
-set pumwidth=30 " completion munu width
-
+set pumwidth=30 " completion munu widtha
 " =============================================================================
 " Vimscript
 augroup autocmds

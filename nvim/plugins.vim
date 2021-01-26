@@ -41,10 +41,11 @@ Plug 'hrsh7th/vim-vsnip-integ'
 
 " testing
 Plug 'tpope/vim-fugitive'
-Plug 'wellle/targets.vim'
+
 Plug 'tpope/vim-repeat'
 Plug 'mboughaba/i3config.vim'
 Plug 'liuchengxu/vista.vim'
+Plug 'voldikss/vim-floaterm'
 
 
 

@@ -1,18 +1,18 @@
 {
-  "rhttp": {
-    "prefix": "rhttp",
+  "reHttp": {
+    "prefix": "reHttp",
     "body": [
       "const http = require('http')"
     ]
   },
-  "rfs": {
-    "prefix": "rfs",
+  "reFs": {
+    "prefix": "reFs",
     "body": [
       "const fs = require('fs')"
     ]
   },
-  "rexpress": {
-    "prefix": "rexpress",
+  "reExpress": {
+    "prefix": "reExpress",
     "body": [
       "const express = require('express')",
       "const app = express()"
@@ -26,32 +26,20 @@
       "}"
     ]
   },
-  "lfunc": {
-    "prefix": "lfunc",
-    "body": [
-      "const $1 = ($2) => $0"
-    ]
-  },
   "cl": {
     "prefix": "cl",
     "body": [
       "console.log($0)"
     ]
   },
-  "req": {
-    "prefix": "req",
-    "body": [
-      "require('$0')"
-    ]
-  },
-  "rpath": {
-    "prefix": "rpath",
+  "rePath": {
+    "prefix": "rePath",
     "body": [
       "const path = require('path')"
     ]
   },
-  "ros": {
-    "prefix": "ros",
+  "reOs": {
+    "prefix": "reOs",
     "body": [
       "const os = require('os')"
     ]
@@ -62,14 +50,14 @@
       "const $1 = $0"
     ]
   },
-  "rmongoose": {
-    "prefix": "rmongoose",
+  "reMongoose": {
+    "prefix": "reMongoose",
     "body": [
       "const mongoose = require('mongoose')"
     ]
   },
-  "Rurl": {
-    "prefix": "Rurl",
+  "reUrl": {
+    "prefix": "reUrl",
     "body": [
       "const url = require('url')"
     ]
@@ -82,14 +70,14 @@
       "}).listen(port)"
     ]
   },
-  "Iurl": {
-    "prefix": "Iurl",
+  "imUrl": {
+    "prefix": "imUrl",
     "body": [
       "import url from 'url'"
     ]
   },
-  "Iexpress": {
-    "prefix": "Iexpress",
+  "imExpress": {
+    "prefix": "imExpress",
     "body": [
       "import express from 'express'",
       "const app = express()"
@@ -98,11 +86,11 @@
   "appListen": {
     "prefix": "appListen",
     "body": [
-      "app.listen($1, () => $0)"
+      "app.listen(${1:${port}}, () => $0)"
     ]
   },
-  "Ihttp": {
-    "prefix": "Ihttp",
+  "imHttp": {
+    "prefix": "imHttp",
     "body": [
       "import http from 'http'"
     ]
@@ -113,8 +101,8 @@
       "app.get('$1', (req, res) => $0)"
     ]
   },
-  "Imongoose": {
-    "prefix": "Imongoose",
+  "imMongoose": {
+    "prefix": "imMongoose",
     "body": [
       "import mongoose from 'mongoose'"
     ]
@@ -149,7 +137,7 @@
       "}"
     ]
   },
-  "forin": {
+  "forIn": {
     "prefix": "forIn",
     "body": [
       "for (i in $1) {",
@@ -163,8 +151,100 @@
       "map($1 => $0)"
     ]
   },
-  "I": {
-    "prefix": "I",
-    "body": "import $0 from '$1'"
-  }
+  "moduleExports": {
+    "prefix": "moduleExports",
+    "body": [
+      "module.exports = "
+    ]
+  },
+  "reRouter": {
+    "prefix": "reRouter",
+    "body": [
+      "const router = express.Router"
+    ]
+  },
+  "require": {
+    "prefix": "require",
+    "body": [
+      "const $1 = require('$0')"
+    ]
+  },
+  "getElementById": {
+    "prefix": "getElementById",
+    "body": [
+      "document.getElementById('$0')"
+    ]
+  },
+  "getElementByClassName": {
+    "prefix": "getElementByClassName",
+    "body": [
+      "document.getElementByClassName('$0')"
+    ]
+  },
+  "getElementsById": {
+    "prefix": "getElementsById",
+    "body": [
+      "document.getElementsByID('$0)"
+    ]
+  },
+  "getElementsByClassName": {
+    "prefix": "getElementsByClassName",
+    "body": [
+      "document.getElementsByClassName($0)"
+    ]
+  },
+  "querySelector": {
+    "prefix": "querySelector",
+    "body": [
+      "document.querySelector('$0')"
+    ]
+  },
+  "querySelectorAll": {
+    "prefix": "querySelectorAll",
+    "body": [
+      "document.querySelectorAll($0)"
+    ]
+  },
+  "reCp": {
+    "prefix": "reCp",
+    "body": [
+      "const cp = require('child_process')"
+    ]
+  },
+  "NfsWriteFile": {
+    "prefix": "NfsWriteFile",
+    "body": [
+      "fs.writeFile(${1:file}, ${2:data}, err => $0)"
+    ]
+  },
+  "NfsOpen": {
+    "prefix": "NfsOpen",
+    "body": [
+      "fs.open(${1:path}, ${2:flag}, (err, fd) => $0)"
+    ]
+  },
+  "NfsReadFile": {
+    "prefix": "NfsReadFile",
+    "body": [
+      "fs.readFile(${1:path}, 'utf8', (err, data) => $0)"
+    ]
+  },
+  "NfsReadFileSync": {
+    "prefix": "NfsReadFileSync",
+    "body": [
+      "fs.readFileSync(${0:path}, 'utf8')"
+    ]
+  },
+  "NfsReaddir": {
+    "prefix": "NfsReaddir",
+    "body": [
+      "fs.readdir(${1:path}, (err, files) => $0)"
+    ]
+  },
+  "NfsReaddirSync": {
+    "prefix": "NfsReaddirSync",
+    "body": [
+      "fs.readdirSync(${0:path}, 'utf8')"
+    ]
+  },
 }
