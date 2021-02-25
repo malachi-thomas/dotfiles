@@ -246,5 +246,5 @@
     "body": [
       "fs.readdirSync(${0:path}, 'utf8')"
     ]
-  },
+  }
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-xsetwacom set "Wacom Intuos BT S Pad pad" Button 1 'key ctrl insert' # 
+xsetwacom set "Wacom Intuos BT S Pad pad" Button 1 'key ctrl insert'
 xsetwacom set "Wacom Intuos BT S Pad pad" Button 2 'key shift insert'
 xsetwacom set "Wacom Intuos BT S Pad pad" Button 3 'key PgDn'
 xsetwacom set "Wacom Intuos BT S Pad pad" Button 8 'key PgUp'

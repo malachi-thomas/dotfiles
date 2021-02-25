@@ -1,5 +1,4 @@
-"=================================================================================================
-" Source Files
+
 source ~/.config/nvim/functions.vim
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/plugin-configs.vim
@@ -15,15 +14,15 @@ set guicursor=
 set relativenumber
 set termguicolors
 
-"==================================================================================================
-" Lua
+""==================================================================================================
+"" Lua
 
 if has('nvim-0.5')
-  lua require 'init'
+lua require 'init'
 endif
 
-"==================================================================================================
-" Basic Config
+""==================================================================================================
+"" Basic Config
 
 syntax enable
 filetype plugin indent on
@@ -59,7 +58,7 @@ set lazyredraw
 set backspace=indent,eol,start
 set omnifunc=v:lua.vim.lsp.omnifunc
 set list
-set completeopt=menuone,noinsert
+set completeopt=menuone,noinsert,noselect
 set noshowmode
 set hlsearch
 set nocompatible
@@ -80,12 +79,12 @@ augroup autocmds
   autocmd FileType vimwiki setlocal spell
   autocmd VimEnter,SourcePost * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
   autocmd BufReadPost * normal g'"
-  autocmd BufWritePre * %s/\t/  /ge
+  autocmd BufWritePre * if (&filetype != 'make')| %s/\t/  /ge | endif
   autocmd BufWinEnter,WinEnter term://* start " if terminal window auto enter insert mode
   autocmd BufWrite ~/.tmux.conf silent !tmux source-file ~/.tmux.conf " source ~/.tmux.conf when you save ~/.tmux.conf
   autocmd BufRead ~/dotfiles/nvim/snippets/* set ft=jsonc
   autocmd BufWritePre {*.c,*.cpp,*.h} normal mmgg=G`m
-  autocmd BufRead,BufEnter * call rainbow#load()
+  " autocmd BufRead,BufEnter * call rainbow#load()
   " autocmd BufWritePre *.rs call RustFormat()
   autocmd CursorMoved,BufWrite * normal zz
   autocmd vimenter,SourcePost * hi Search guibg=black guifg=#fe8019

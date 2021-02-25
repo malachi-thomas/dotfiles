@@ -81,7 +81,7 @@ func! BufferClose()
   endif
 endfunc
 
-function! Check_back_space() abort
+func! Check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction

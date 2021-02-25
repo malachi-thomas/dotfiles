@@ -73,6 +73,7 @@ then
   alias vid='mpv'
   alias copy='xclip -selection "primary" <'
   alias file='nautilus'
+  alias plover='~/Downloads/plover-4.0.0.dev8.66.g685bd33-x86_64.AppImage'
   uefi() {
     sudo systemctl reboot --firmware-setup
   }

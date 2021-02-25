@@ -3,7 +3,7 @@ export MYVIMRC="$HOME/.config/nvim/init.vim"
 export KEYTIMEOUT=1
 export GITNAME="banana-llarma"
 
-export PATH=$PATH:$HOME/dotfiles/scripts/:**/node_modules/.bin/:$HOME/.local/bin/:$HOME/.npm/bin/
+export PATH=$PATH:$HOME/dotfiles/scripts/:**/node_modules/.bin/:$HOME/.local/bin/:$HOME/.npm/bin/:$HOME/Downloads/lite-1.11/
 export EDITOR="nvim"
 export BROWSER="chromium"
 export TODAY=`date +%d/%b/%Y`
@@ -13,7 +13,7 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#928374'
 export TERM=screen-256color
 
 # Fzf settings
-export FZF_DEFAULT_COMMAND="fd -tf --hidden --exclude 'node_modules' --exclude 'react-app-env.d.ts, !.git, !.cache, !dist' "
+export FZF_DEFAULT_COMMAND="fd -tf --hidden --exclude 'node_modules/**, react-app-env, .git/**'"
 export FZF_DEFAULT_OPTS="--reverse -e --bind=ctrl-h:backward-kill-word "
 export FZF_CTRL_T_COMMAND="fd -tf --hidden --exclude '.git' --exclude 'node_modules'"
 export FZF_ALT_C_COMMAND="fd -td --hidden --exclude '.git' --exclude 'node_modules'"

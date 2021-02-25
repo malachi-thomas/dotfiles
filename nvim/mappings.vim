@@ -1,50 +1,32 @@
 "==================================================================================================
 let mapleader = ' '
-" Basic Movement
+" Normal mode
 nnoremap <silent><left> h
 nnoremap <silent><right> l
 nnoremap <c-left> b
 nnoremap <c-right> w
-inoremap <c-left> <c-o>b
-inoremap <c-right> <c-o>w
 nnoremap <pageup> <c-u>
 nnoremap <pagedown> <c-d>
-nnoremap <home> ^
+nnoremap <home> 0^
 nnoremap <end> $
 nnoremap f <plug>(clever-f-f)
-inoremap <home> <c-o>^
-
-" Buffers
 nnoremap <silent><c-s> :w!<cr>
 nnoremap <c-c> :wqa!<cr>
-nnoremap <silent> ZZ :call BufferClose()<cr>
 nnoremap <space>b :Clap buffers<cr>
 nnoremap / /\v
 nnoremap <space><space> :Files<cr>
-
 nnoremap <space>s :e ~/dotfiles/nvim/snippets/<c-r>=expand(&ft)<cr>.json<cr>
-vnoremap <c-f> /\v
 nnoremap <tab> :BufferNext<cr>
 nnoremap <M-tab> :BufferPrevious<cr>
 nnoremap <silent><c-w> :call BufferClose()<cr>
-
-" splits
-" nnoremap <space>vs :vsplit<cr>
-" nnoremap <space>sp :split<cr>
+nnoremap <silent>ZZ :call BufferClose()<cr>
 nnoremap <M-up> <c-w> k
 nnoremap <M-down> <c-w>j
 nnoremap <M-left> <c-w>h
 nnoremap <M-right> <c-w>l
-
-" Extra
-inoremap <c-h> <c-w>
-cnoremap <c-h> <c-w>
-nnoremap <esc> <esc>:nohl<cr>
 nnoremap <c-z> u
 nnoremap <c-f> /\v
-inoremap <c-f> <esc>/\v
-
-" Unmap
+nnoremap <esc> <esc>:nohl<cr>
 nnoremap K <nop>
 nnoremap Q <nop>
 nnoremap S <nop>
@@ -55,8 +37,54 @@ nnoremap R <nop>
 vnoremap s <nop>
 nnoremap <s-up> <nop>
 nnoremap <s-down> <nop>
+nnoremap <s-up> v<up>
+nnoremap <s-down> v<down>
+nnoremap <s-left> v<left>
+nnoremap <s-right> v<right>
+nnoremap <s-home> v<home>
+nnoremap <s-end> v<end>
+nnoremap <c-t> :FloatermToggle<cr>
+nnoremap ss :s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
+nnoremap Ss :s/\v<c-r>=expand("<cword>")<cr>//gc<left><left><left>
+nnoremap sg :%s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
+nnoremap Sg :%s/\v<c-r>=expand("<cword>")<cr>//gc<left><left><left>
+nnoremap <c-p> :FZF<cr>
+nnoremap <space>r :Telescope oldfiles<cr>
+nnoremap <c-a> ggVG
+nmap <f1> <Plug>VimwikiNextLink
+nmap <f2> <Plug>VimwikiAddHeaderLevel
+nmap <f3> <Plug>VimwikiDiaryNextDay
+nmap <f4> <Plug>VimwikiDiaryPrevDay
+nmap <f5> <Plug>VimwikiPrevLink
+nmap <f6> <Plug>VimwikiGoBackLink
 
-" Visuale
+" Insert mode
+inoremap <home> <c-o>0<c-o>^
+inoremap <c-left> <c-o>b
+inoremap <c-right> <c-o>w
+inoremap <c-h> <c-w>
+inoremap <c-f> <esc>/\v
+inoremap <s-up> <esc>v<up>
+inoremap <s-down> <esc>v<down>
+inoremap <s-left> <esc>v<left>
+inoremap <s-right> <esc>v<right>
+inoremap <s-home> <esc>v<home>
+inoremap <s-end> <esc>v<end>
+inoremap { {}<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap <expr> <cr> Enter()
+inoremap <expr> <bs> Backspace()
+inoremap <expr> } Rbrace()
+inoremap <expr> ) Rpren()
+inoremap <expr> ] Rbrak()
+inoremap <expr><space> Space()
+inoremap <c-v> <c-r>+
+inoremap <c-a> <c-o>gg<c-o>V<c-o>G
+
+
+" Visuale mode
+vnoremap <c-f> /\v
 vnoremap <up> <up>zz
 vnoremap <down> <down>zz
 vnoremap p "_dP
@@ -66,40 +94,15 @@ vnoremap <s-up> <up>
 vnoremap <s-down> <down>
 vnoremap <s-left> <left>
 vnoremap <s-right> <right>
-inoremap <s-up> <esc>v<up>
-inoremap <s-down> <esc>v<down>
-inoremap <s-left> <esc>v<left>
-inoremap <s-right> <esc>v<right>
-nnoremap <s-up> v<up>
-nnoremap <s-down> v<down>
-nnoremap <s-left> v<left>
-nnoremap <s-right> v<right>
-nnoremap <s-home> v<home>
-nnoremap <s-end> v<end>
-inoremap <s-home> <esc>v<home>
-inoremap <s-end> <esc>v<end>
-vnoremap <bs> d
-
-" terminal
-tnoremap <esc> <C-\><C-n>:x<cr>
-tnoremap <M-up> <c-\><c-n><c-w>k
-tnoremap <M-down> <c-\><c-n><c-w>j
-tnoremap <M-left> <c-\><c-n><c-w>h
-tnoremap <M-right> <c-\><c-n><c-w>l
-nnoremap <c-t> :FloatermToggle<cr>
-tnoremap <c-t> <c-\><c-n>:FloatermToggle<cr>
-
-"Substitutions
-nnoremap ss :s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
-nnoremap Ss :s/\v<c-r>=expand("<cword>")<cr>//gc<left><left><left>
-nnoremap sg :%s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
-nnoremap Sg :%s/\v<c-r>=expand("<cword>")<cr>//gc<left><left><left>
 vnoremap ss :s/\v//g<left><left><left>
 vnoremap st "1y:s/\v<c-r>1//g<left><left>
 vnoremap SS :s/\v//gc<left><left><left><left>
 vnoremap St "1y:%s/\v<c-r>1//gc<left><left><left>
+vnoremap <bs> d
+vnoremap <c-c> y
 
-" Command Mode
+" Command mode
+cnoremap <c-h> <c-w>
 ca vrc e ~/.config/nvim/init.vim
 ca vma e ~/.config/nvim/mappings.vim
 ca vpl e ~/.config/nvim/plugins.vim
@@ -110,6 +113,14 @@ ca q q!
 ca w w!
 ca h vert h
 
+" Terminal mode
+tnoremap <esc> <C-\><C-n>:x<cr>
+tnoremap <M-up> <c-\><c-n><c-w>k
+tnoremap <M-down> <c-\><c-n><c-w>j
+tnoremap <M-left> <c-\><c-n><c-w>h
+tnoremap <M-right> <c-\><c-n><c-w>l
+tnoremap <c-t> <c-\><c-n>:FloatermToggle<cr>
+
 " filetype mappings
 autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
 autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
@@ -118,18 +129,8 @@ autocmd filetype rust nnoremap <silent><buffer><c-l> :!cargo run<cr>
 autocmd filetype python nnoremap <silent><buffer><c-l> :!python %<cr>
 autocmd filetype c nnoremap <silent><buffer><c-l> :w<cr>:!gcc %<cr>:!./a.out<cr>
 autocmd filetype cpp nnoremap <silent><buffer><c-l> :w<cr>:!g++ %<cr>:!./a.out<cr>
-" autocmd FileType rust nnoremap <silent><buffer><c-l> :<cr>:!rustc %<cr>:!./
 
-" Plugin Mappings
-nnoremap <c-p> :FZF<cr>
-nnoremap <space>r :Telescope oldfiles<cr>
-nmap <f1> <Plug>VimwikiNextLink
-nmap <f2> <Plug>VimwikiAddHeaderLevel
-nmap <f3> <Plug>VimwikiDiaryNextDay
-nmap <f4> <Plug>VimwikiDiaryPrevDay
-nmap <f5> <Plug>VimwikiPrevLink
-nmap <f6> <Plug>VimwikiGoBackLink
-
+" Auto completion
 imap <silent><expr><tab>
       \ pumvisible() ? "\<Plug>(completion_confirm_completion)" :
       \ vsnip#expandable() ? "\<Plug>(vsnip-expand)" :
@@ -154,20 +155,12 @@ imap <silent><expr><c-s>
       \ pumvisible() ? "\<c-g>u\<plug>(emmet-expand-abbr)" :
       \ "\<plug>(emmet-expand-abbr)"
 
-"==================================================================================================
-" functions
-
-inoremap { {}<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap <expr> <cr> Enter()
-inoremap <expr> <bs> Backspace()
-inoremap <expr> } Rbrace()
-inoremap <expr> ) Rpren()
-inoremap <expr> ] Rbrak()
-inoremap <expr><space> Space()
-
-"==================================================================================================
+" cnoremap <silent><expr><up>
+"       \ pumvisible() ? "\<c-p>" :
+"       \ "\<up>"
+" cnoremap <silent><expr><down>
+"       \ pumvisible() ? "\<c-n>" :
+"       \ "\<down>"
 
 if has('nvim-0.5')
   nnoremap gd <cmd>lua vim.lsp.buf.definition()<cr>
@@ -182,5 +175,7 @@ else
   inoremap <silent> <esc>OC <right>
   inoremap <silent> <esc>OD <left>
 endif
+
+" command! -bang -nargs=? -complete=dir Files call fzf#vim#files('', {'source': 'fd'})
 
 

@@ -12,7 +12,7 @@ let g:ale_linters = {
   \ 'sass': 'stylelint',
   \ 'css': 'stylelint',
   \ 'python': 'autopep8',
-  \ 'rust': 'analyzer'
+  \ 'rust': ['rls', 'cargo']
   \ }
 let g:ale_fixers = {
   \ 'json': 'fixjson',
@@ -27,12 +27,23 @@ let g:ale_set_highlights = 1
 let g:ale_linters_explicit = 1
 let g:ale_lint_on_enter = 1
 let g:ale_set_signs = 0
+let g:ale_sign_column_always = 1
+let g:ale_sign_error = '✗'
+let g:ale_sign_warning = ' '
+let g:ale_hover_cursor = 0
+
+let g:ale_echo_msg_error_str = '✗'
+let g:ale_echo_msg_warning_str = ' '
+let g:ale_echo_msg_format = '[%linter%] %s %severity%'
+
+
 
 command! -bang -nargs=* Rg
   \ call fzf#vim#grep(
   \   'rg --column --line-number --no-heading --color=always --smart-case --glob "!**/node_modules/**" --glob "!**/package-lock.json" '.shellescape(<q-args>), 1,
   \   fzf#vim#with_preview(), <bang>0)
 
+command! -bang -nargs=? -complete=dir Files call fzf#vim#files('', {'source': 'fd'})
 
 " vimwiki
 let g:vimwiki_table_mappings = 0
@@ -64,7 +75,7 @@ let g:completion_enable_auto_hover = 0
 let g:completion_sorting = 'none'
 let g:completion_confirm_key = ""
 let g:completion_enable_auto_paren = 0
-let g:completion_trigger_character = []
+let g:completion_trigger_character = ['.', '::']
 let g:completion_timer_cycle = 100
 let g:completion_enable_auto_popup = 1
 let g:completion_enable_snippet = 'vim-vsnip'
@@ -81,10 +92,10 @@ let g:completion_chain_complete_list = [
 let g:vsnip_snippet_dir = expand('~/dotfiles/nvim/snippets')
 
 " diagnostic-nvim
-let g:diagnostic_enable_virtual_text = 1
-let g:diagnostic_virtual_text_prefix = 'ﱢ'
-let g:space_before_virtual_text = 4
-let g:diagnostic_show_sign = 2
+" let g:diagnostic_enable_virtual_text = 1
+" let g:diagnostic_virtual_text_prefix = 'ﱢ'
+" let g:space_before_virtual_text = 4
+" let g:diagnostic_show_sign = 2
 
 " startify
 let g:startify_session_dir = '~/dotfiles/nvim/session'
@@ -110,7 +121,7 @@ let g:startify_custom_header = [
 " rooter
 let g:rooter_targets = '*'
 let g:rooter_silent_chdir = 1
-let g:rooter_patterns = ['=src', '=zsh', '=nvim', '=notes']
+let g:rooter_patterns = ['=zsh', '=nvim', '=notes', 'Cargo.toml']
 
 
 let g:clever_f_across_no_line = 1
@@ -119,7 +130,10 @@ nmap ; <Plug>(clever-f-repeat-forward)
 nmap , <Plug>(clever-f-repeat-back)
 
 let g:lightline = { 'colorscheme': 'gruvbox' }
+
 let g:indent_guides_enable_on_vim_startup = 1
 
 
 let g:indentLine_char_list = '|'
+
+let g:rainbow_active = 1 
