@@ -10860,3 +10860,6 @@ q
 : 1614611469:0;..
 : 1614611474:0;commit "\
 test"
+: 1614611582:0;git remote set-url origin git@github.com:banana-llarma/dotfiles.git
+: 1614611586:0;commit "\
+test"
