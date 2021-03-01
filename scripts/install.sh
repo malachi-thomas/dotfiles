@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-sudo pacman -Syu
+# sudo pacman -Syu
 sudo pacman -S base-devel 
 sudo pacman -S yay 
 sudo pacman -S polybar 

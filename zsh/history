@@ -1,58 +1,3 @@
-: 1605014324:0;amixer --help
-: 1605014332:0;amixer -D
-: 1605014356:0;amixer controls
-: 1605014375:0;amixer contents
-: 1605014386:0;speaker-test -c 2
-: 1605014404:0;speaker-test -c 8
-: 1605014416:0;speaker-test -D default:PCH -c 8
-: 1605014466:0;sudo nvim /lib/systemd/system/bluetooth.service
-: 1605014499:0;sudo systemctl daemon-reload\
-sudo systemctl restart bluetooth
-: 1605014522:0;sh sound-core-connect.sh
-: 1605014540:0;bluetooth-autoconnect
-: 1605014574:0;sudo systemctl edit bluetooth
-: 1605015243:0;speaker-test -D default:PCH -c 8
-: 1605015246:0;speaker-test -c 2
-: 1605015268:0;alsamixer
-: 1605020270:0;sh sound-core-connect.sh
-: 1605020276:0;bluetooth-autoconnect
-: 1605020432:0;sxh
-: 1605020479:0;pkill sxhkd
-: 1605020502:0;back
-: 1605020515:0;sxh
-: 1605020524:0;irc
-: 1605021360:0;amixer
-: 1605021370:0;amixer sset Master +20%
-: 1605021376:0;mocp
-: 1605021504:0;gpasswd -a $USER audio
-: 1605021507:0;sudo gpasswd -a $USER audio
-: 1605021518:0;osstest
-: 1605021520:0;pac oss
-: 1605021542:0;pac oss-
-: 1605021555:0;pac oss-git
-: 1605021828:0;osstest
-: 1605021908:0;speaker-test -c 2 -t wav -D plughw:CODEC\
-
-: 1605021924:0;alsamixer -c CODEC;\
-
-: 1605021944:0;grep sound-slot /etc/modprobe.conf
-: 1605021962:0;m-a prepare\
-m-a update\
-m-a a-i oss4
-: 1605022136:0;bluetoothctl power off
-: 1605023475:0;screenkey
-: 1605023489:0;pkill screenkey
-: 1605023493:0;screenkey
-: 1605023515:0;vim
-: 1605023559:0;la
-: 1605023574:0;rma .vim*
-: 1605023577:0;la
-: 1605023578:0;vim
-: 1605023610:0;v
-: 1605030614:0;vrc
-: 1605033270:0;pac onoremap\
-
-: 1605033281:0;pac xscreensaver
 : 1605033424:0;xscreensaver
 : 1605033466:0;xscreensaver --help
 : 1605033479:0;xscreensaver-demo
@@ -10823,3 +10768,95 @@ q
 : 1614242555:0;dow
 : 1614242557:0;dot
 : 1614242562:0;commit 'save'
+: 1614608681:0;back
+: 1614608713:0;cd dotfiles
+: 1614608735:0;pac sxhkd
+: 1614608758:0;mk ~/.config/sxhkd
+: 1614608772:0;ln -f sxhkd/sxhkdrc ~/.config/sxhkd
+: 1614608776:0;sxhkd
+: 1614608788:0;la
+: 1614608793:0;..
+: 1614608796:0;cd .config/kitty
+: 1614608798:0;v kitty.conf
+: 1614608829:0;kitty
+: 1614608838:0;alacritty
+: 1614608846:0;pacr alacritty
+: 1614608852:0;alacritty
+: 1614608860:0;v sxhkd/sxhkdrc
+: 1614608878:0;sxhkd
+: 1614608886:0;pac autotiling
+: 1614608930:0;bock
+: 1614608932:0;back
+: 1614608953:0;pac betterlock
+: 1614608984:0;back
+: 1614609099:0;irc
+: 1614609120:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 289 1\
+
+: 1614609154:0;amixer sset Master +20%
+: 1614609158:0;pac amixer
+: 1614609213:0;pac  alsa-utils
+: 1614609224:0;pulseaudio -k
+: 1614609232:0;	bock
+: 1614609234:0;back
+: 1614609526:0;la
+: 1614609556:0;sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'\
+
+: 1614609601:0;nvim
+: 1614609629:0;pac notion
+: 1614610564:0;pac youtube-music
+: 1614610602:0;bin
+: 1614610605:0;v startup.sh
+: 1614610609:0;lrc
+: 1614610615:0;v startup.sh
+: 1614610662:0;i3-msg 'workspace 4; exec google-chrome-unstable' && i3-msg 'workspace 3; exec youtube-music' && i3-msg 'workspace 2; exec chromium' && i3-msg 'workspace 1; exec alacritty'\
+
+: 1614610711:0;chromium
+: 1614610715:0;v startup.sh
+: 1614610770:0;youtube-music-bin\
+
+: 1614610854:0;sh startup.sh
+: 1614610901:0;pac youtube-music
+: 1614610943:0;pacr youtube-music-bin
+: 1614610951:0;pac youtube-music-bin
+: 1614610999:0;cd /
+: 1614611001:0;fzf
+: 1614611008:0;pac fd
+: 1614611019:0;fzf
+: 1614611069:0;rm *youtube-music-bin*
+: 1614611073:0;rm **youtube-music-bin*
+: 1614611075:0;rm **youtube-music-bin**
+: 1614611077:0;rma **youtube-music-bin**
+: 1614611079:0;la
+: 1614611087:0;cd
+: 1614611089:0;pacr youtube-music-bin
+: 1614611109:0;pac youtube-music-bin
+: 1614611116:0;pac youtube-music
+: 1614611200:0;la
+: 1614611210:0;cd Applications
+: 1614611210:0;la
+: 1614611214:0;./youtube-music-bin_e91987e7a4b3338d8f12eb04c89181cc
+: 1614611226:0;rm youtube-music-bin_e91987e7a4b3338d8f12eb04c89181cc
+: 1614611235:0;la
+: 1614611248:0;mv youtube-music-bin_e91987e7a4b3338d8f12eb04c89181cc youtube-music
+: 1614611259:0;mv youtube-music ~/dotfiles/scripts
+: 1614611267:0;la
+: 1614611286:0;mv youtube-music_e91987e7a4b3338d8f12eb04c89181cc hats
+: 1614611287:0;la
+: 1614611303:0;./hats
+: 1614611316:0;mv hats youtube-music-bin
+: 1614611317:0;..
+: 1614611320:0;dot
+: 1614611321:0;bin
+: 1614611321:0;la
+: 1614611336:0;v youtube-music
+: 1614611371:0;ex youtube-music
+: 1614611372:0;la
+: 1614611390:0;irc
+: 1614611393:0;dot
+: 1614611394:0;commit
+: 1614611400:0;bin
+: 1614611407:0;sh ssh.sh
+: 1614611469:0;..
+: 1614611474:0;commit "\
+test"

@@ -23,4 +23,4 @@ nvim_lsp.rust_analyzer.setup{} -- install rust_analyzer
 -- }
 
 -- disable inline stuff
-vim.lsp.callbacks["textDocument/publishDiagnostics"] = function() end
+-- vim.lsp.callbacks["textDocument/publishDiagnostics"] = function() end

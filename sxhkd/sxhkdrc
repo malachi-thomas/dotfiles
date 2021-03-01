@@ -17,7 +17,7 @@ super + e
   emacsclient -a "" -c -e '(org-babel-load-file "~/dotfiles/emacs/init.org")'
 
 super + t
-  alacritty
+  kitty
 
 super + y
   firefox
