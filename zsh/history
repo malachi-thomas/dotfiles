@@ -10863,3 +10863,365 @@ test"
 : 1614611582:0;git remote set-url origin git@github.com:banana-llarma/dotfiles.git
 : 1614611586:0;commit "\
 test"
+: 1614611599:0;..
+: 1614611600:0;la
+: 1614611625:0;mk projects
+: 1614611626:0;cd projects
+: 1614611631:0;clone git@github.com:banana-llarma/project-libra.git
+: 1614611688:0;zsh
+: 1614611694:0;f
+: 1614611840:0;cd project-libra
+: 1614611842:0;laap
+: 1614611843:0;la
+: 1614611854:0;rma embedded-c stm32-base
+: 1614611856:0;rma Makefile
+: 1614611857:0;la
+: 1614611861:0;cd embedded-rust
+: 1614611861:0;la
+: 1614611877:0;rm openocd.log
+: 1614611879:0;la
+: 1614611887:0;cargo build
+: 1614612008:0;la
+: 1614612018:0;cargo install cargo-binutils
+: 1614612123:0;cargo build
+: 1614612145:0;cargo build thumbv7em-none-eabi
+: 1614612153:0;cargo install thumbv7em-none-eabi
+: 1614612167:0;cargo install qemu-system-arm
+: 1614612185:0;al
+: 1614612189:0;cargo run
+: 1614612227:0;rustup target install thumbv7m-none-eabi
+: 1614612232:0;pac rustup
+: 1614612250:0;rustup update
+: 1614612253:0;rustup target install thumbv7m-none-eabi
+: 1614612258:0;cargo run
+: 1614612261:0;cargo bulid
+: 1614612271:0;rustup target install thumbv7m-none-eabi
+: 1614612280:0;rustup install thumbv7m-none-eabi
+: 1614612326:0;pac gcc-arm-none-eabi binutils-arm-none-eabi
+: 1614612335:0;pac arm
+: 1614612342:0;pac arm-none-eabi
+: 1614612393:0;la
+: 1614612397:0;cargo build
+: 1614612401:0;rustup
+: 1614612405:0;rustup update
+: 1614612409:0;rustup run
+: 1614612457:0;rustup 
+: 1614612489:0;sudo pacman -S arm-none-eabi-gdb qemu-arch-extra openocd
+: 1614612587:0;cargo build
+: 1614612591:0;la
+: 1614612593:0;pac rust
+: 1614612602:0;cargo build
+: 1614612626:0;cargo target install thumbv7em-none-eabi
+: 1614612677:0;pac rustup
+: 1614612683:0;cargo run
+: 1614612687:0;cargo build
+: 1614612699:0;rustup run
+: 1614612703:0;rustup build
+: 1614612707:0;rustup update
+: 1614612783:0;sudo pacman -S \\
+  arm-none-eabi-gdb \\
+  minicom \\
+  openocd\
+
+: 1614612798:0;sudo pacman -S \\
+  bluez \\
+  bluez-utils \\
+  rfkill
+: 1614612828:0;v .cargo/config
+: 1614612842:0;rustup target add thumbv7em-none-eabi
+: 1614612887:0;cd project-libra
+: 1614612887:0;la
+: 1614612889:0;cd projects/project-libra
+: 1614612889:0;la
+: 1614612891:0;cd embedded-rust
+: 1614612892:0;la
+: 1614612896:0;rustup target add thumbv7em-none-eabi
+: 1614612913:0;rustup install stable\
+rustup default stable\
+
+: 1614613072:0;cargo build
+: 1614613080:0;rustup target add thumbv7em-none-eabi
+: 1614613091:0;cargo build
+: 1614613135:0;la
+: 1614613138:0;cd src
+: 1614613138:0;la
+: 1614613144:0;rm hid.rs keyboard.rs
+: 1614613144:0;la
+: 1614613146:0;v main.rs
+: 1614613160:0;cargo build
+: 1614613218:0;pac lsp
+: 1614613228:0;pac rust-lsp
+: 1614613234:0;pac rust-analyzer
+: 1614613241:0;v main.rs
+: 1614613429:0;cargo build
+: 1614613767:0;cargo run
+: 1614613783:0;pac stflosh
+: 1614613789:0;pac stlink
+: 1614613843:0;st-flash write target/thumbv7em-none-eabi/debug/stm32-rust 0x8000000
+: 1614613848:0;pac lubusb
+: 1614613852:0;pac libusb
+: 1614613867:0;st-flash write target/thumbv7em-none-eabi/debug/stm32-rust 0x8000000
+: 1614613893:0;st-flash write target/thumbv7em-none-eabi/debug/stm32-rust
+: 1614613901:0;st-flash write target/thumbv7em-none-eabi/debug/stm32-rust 0x8000000
+: 1614613934:0;cd target/thumbv7em-none-eabi/debug
+: 1614613935:0;la
+: 1614613945:0;st-flash write stm32-rust.d 0x8000000
+: 1614613951:0;st-flash write stm32-rust 0x8000000
+: 1614613954:0;st-flash write stm32-rust.d 0x8000000
+: 1614613964:0;...
+: 1614613965:0;..
+: 1614613968:0;v Makefile
+: 1614613985:0;v ../Makefile
+: 1614614003:0;cd projects/project-libra
+: 1614614003:0;la
+: 1614614034:0;ls target/thumbv7em-none-eabi/debug
+: 1614614042:0;cd embedded-rust
+: 1614614089:0;make
+: 1614614093:0;..
+: 1614614094:0;make
+: 1614614100:0;v Makefile
+: 1614614150:0;make flash
+: 1614614168:0;cargo run
+: 1614614174:0;openocd
+: 1614614198:0;v debug.gdb
+: 1614614212:0;cargo run
+: 1614614220:0;make flash
+: 1614614248:0;cargo run
+: 1614614346:0;make flash
+: 1614614349:0;v Makefile
+: 1614614379:0;la
+: 1614614415:0;v .cargo/config
+: 1614614435:0;v Makefile
+: 1614614452:0;v Cargo.toml
+: 1614614508:0;v src/main.rs
+: 1614614574:0;make
+: 1614614577:0;make flash
+: 1614614637:0;make
+: 1614614748:0;make flash
+: 1614614776:0;make
+: 1614614779:0;make flash
+: 1614614885:0;make
+: 1614614890:0;make flash
+: 1614615259:0;make
+: 1614622989:0;bin
+: 1614622989:0;la
+: 1614622992:0;v startup.sh
+: 1614623004:0;xset r rate 200 20 
+: 1614633463:0;...
+: 1614633465:0;cd projects/project-libra
+: 1614633465:0;la
+: 1614633468:0;cd embedded-rust
+: 1614633469:0;la
+: 1614633471:0;make
+: 1614633478:0;v src
+: 1614633564:0;make
+: 1614633936:0;make flash
+: 1614633944:0;cd projects/project-libra/embedded-rust
+: 1614633946:0;make flash
+: 1614633953:0;v Makefile
+: 1614633965:0;make load
+: 1614634103:0;arm-none-eabi-gdb -q -x debug.gdb
+: 1614634124:0;arm-none-eabi-gdb -q -x debug.gdb target/thumbv7em-none-eabi/debug/stm32-rust
+: 1614634138:0;make flash
+: 1614634185:0;v src/main.rs
+: 1614634406:0;make
+: 1614634579:0;make flash
+: 1614634832:0;make
+: 1614634835:0;make flash
+: 1614634917:0;make
+: 1614634965:0;make flash
+: 1614635013:0;cd projects/project-libra/embedded-rust
+: 1614635015:0;make flash
+: 1614635134:0;make
+: 1614635145:0;make flash
+: 1614635160:0;make
+: 1614635319:0;make flash
+: 1614635590:0;make
+: 1614635599:0;make flash
+: 1614635730:0;make
+: 1614635733:0;make flash
+: 1614635765:0;st-flash write stm32-rust.d 0x8000000
+: 1614635782:0;make flash
+: 1614635787:0;v src/main.rs
+: 1614635794:0;make flash
+: 1614636058:0;make
+: 1614636097:0;make flash
+: 1614636107:0;st-flash write stm32-rust.d 0x8000000
+: 1614636124:0;st-flash write stm32-rust 0x8000000
+: 1614636363:0;v src/main.rs
+: 1614636386:0;make
+: 1614636885:0;make flash
+: 1614637316:0;make
+: 1614637325:0;make flash
+: 1614637444:0;make
+: 1614637447:0;make flash
+: 1614637868:0;make
+: 1614637871:0;cargo run
+: 1614637880:0;cargo build
+: 1614637883:0;cargo run
+: 1614637975:0;betterlockscreen -s
+: 1614674852:0;cd projects/project-libra/embedded-rust
+: 1614674853:0;la
+: 1614674863:0;make load
+: 1614674865:0;cd projects/project-libra/embedded-rust
+: 1614674867:0;make load
+: 1614674869:0;make flash
+: 1614674886:0;v src
+: 1614674915:0;make
+: 1614674919:0;make flash
+: 1614674932:0;v src
+: 1614674939:0;v src/main.rs
+: 1614674949:0;xset r rate 200 20 
+: 1614675429:0;make flash
+: 1614675526:0;ma
+: 1614675526:0;s
+: 1614675528:0;make flash
+: 1614675721:0;make
+: 1614675724:0;make flash
+: 1614675806:0;la
+: 1614675812:0;..
+: 1614675851:0;commit "waiting for a F3 discovery board"
+: 1614675861:0;la
+: 1614675864:0;cd electron-app
+: 1614675865:0;la
+: 1614675876:0;electron .
+: 1614675901:0;electron src/main.js
+: 1614675908:0;pac npm
+: 1614675988:0;pac nodejs
+: 1614676041:0;electron src/main.js
+: 1614676045:0;electron .
+: 1614676129:0;npm i electron-reload
+: 1614676266:0;electron .
+: 1614676284:0;npm i electron-rebuild
+: 1614676387:0;electron .
+: 1614676412:0;npm rebuild
+: 1614676526:0;pac plover-git
+: 1614676814:0;not
+: 1614676815:0;la
+: 1614676819:0;v test.md
+: 1614677211:0;cd .config/plover
+: 1614677211:0;la
+: 1614677213:0;v commands.json
+: 1614677746:0;la
+: 1614677760:0;rm commands.json plover.log user.json
+: 1614677760:0;la
+: 1614677786:0;v modifiers.json
+: 1614677972:0;vpl
+: 1614677980:0;v modifiers.json
+: 1614677987:0;vpc
+: 1614678073:0;vpl
+: 1614678089:0;v modifiers.json
+: 1614678095:0;vpl
+: 1614678101:0;v modifiers.json
+: 1614678104:0;vpl
+: 1614678121:0;v modifiers.json
+: 1614678126:0;vpl
+: 1614678132:0;v modifiers.json
+: 1614678136:0;vpc
+: 1614678140:0;vpl
+: 1614678146:0;v modifiers.json
+: 1614678975:0;Zla
+: 1614678976:0;la
+: 1614678979:0;v commands.json
+: 1614679000:0;v main.json
+: 1614679005:0;v modifiers.json
+: 1614679717:0;cd .config/plover
+: 1614679720:0;v modifiers.json
+: 1614686144:0;la
+: 1614686154:0;rm commands.json plover.log user.json
+: 1614686156:0;plover
+: 1614686160:0;zsh
+: 1614686175:0;plover
+: 1614686176:0;so
+: 1614686179:0;plover
+: 1614686204:0;cd .config/plover
+: 1614686205:0;la
+: 1614686210:0;rm commands.json plover.log user.json
+: 1614686212:0;v plover.cfg
+: 1614686235:0;plover
+: 1614686278:0;files
+: 1614686280:0;file
+: 1614686282:0;pac nautilus
+: 1614686301:0;file
+: 1614686312:0;cd .config
+: 1614686313:0;la
+: 1614686321:0;v gtk-3.0/settings.ini
+: 1614686384:0;cd plover
+: 1614686384:0;la
+: 1614686392:0;v plover.cfg
+: 1614686408:0;...
+: 1614686412:0;cd .config/plover
+: 1614686413:0;la
+: 1614686426:0;plover
+: 1614686598:0;v test
+: 1614689804:0;la
+: 1614689806:0;cd projects
+: 1614689807:0;la
+: 1614689810:0;mk learning-rust
+: 1614689811:0;cd learning-rust
+: 1614689813:0;la
+: 1614689815:0;mk src
+: 1614689818:0;cargo init
+: 1614689820:0;la
+: 1614689823:0;v Cargo.toml
+: 1614689831:0;vpl
+: 1614689838:0;v Cargo.toml
+: 1614689851:0;v src
+: 1614689861:0;v src/main.rs
+: 1614694039:0;..
+: 1614694049:0;cd .config/plover
+: 1614694049:0;la
+: 1614694054:0;v modifiers.json
+: 1614694641:0;mk dotfiles/plover
+: 1614694652:0;ln * ~/dotfiles/plover
+: 1614694654:0;dot
+: 1614694657:0;cd plover
+: 1614694657:0;la
+: 1614694666:0;v modifiers.json
+: 1614695684:0;la
+: 1614695691:0;v modifiers.json
+: 1614695719:0;la
+: 1614695734:0;v modifiers.json
+: 1614695857:0;la
+: 1614695870:0;ln -f * ~/.config/plover
+: 1614695883:0;la
+: 1614695886:0;v modifiers.json
+: 1614700090:0;cd dotfiles/plover
+: 1614700090:0;la
+: 1614700092:0;v modifiers.json
+: 1614702087:0;screenkey
+: 1614702091:0;pac screenkey
+: 1614702116:0;screenkey
+: 1614702191:0; to modifiers.json
+: 1614702203:0;v modifiers.json
+: 1614702250:0;screenkey
+: 1614702376:0;la
+: 1614702380:0;ln -f * ~/.config/plover
+: 1614702395:0;...
+: 1614702397:0;cd .config/plover
+: 1614702404:0;v modifiers.json
+: 1614704189:0;la
+: 1614704540:0;v modifiers.json
+: 1614704726:0;screenkey
+: 1614705130:0;la
+: 1614705134:0;v keys.json
+: 1614705491:0;v plover.cfg
+: 1614705510:0;la
+: 1614705533:0;v keys.json
+: 1614706425:0;v modifiers.json
+: 1614707492:0;v keys.json
+: 1614707640:0;v  key
+: 1614707657:0;cd dotfiles/plover
+: 1614707658:0;la
+: 1614707661:0;v modifiers.json
+: 1614707676:0;..
+: 1614707678:0;cd .config/plover
+: 1614707678:0;la
+: 1614707681:0;v keys.json
+: 1614715704:0;screenkey
+: 1614723743:0;cd .config/plover
+: 1614723756:0;ln -f * ~/dotfiles/plover
+: 1614723761:0;dot
+: 1614723762:0;la
+: 1614723796:0;rma keyboard-layouts moc polybar react testing-org-for-notetaking vifm
+: 1614723822:0;commit "added plover directory and removed old directorys"

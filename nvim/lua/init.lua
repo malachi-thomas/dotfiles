@@ -24,3 +24,11 @@ nvim_lsp.rust_analyzer.setup{} -- install rust_analyzer
 
 -- disable inline stuff
 -- vim.lsp.callbacks["textDocument/publishDiagnostics"] = function() end
+vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
+vim.lsp.diagnostic.on_publish_diagnostics, {
+  underline = false,
+  virtual_text = false,
+  signs = false,
+  update_in_insert = false,
+}
+)

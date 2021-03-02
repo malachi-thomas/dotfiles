@@ -1,0 +1,15 @@
+{
+  "S": "{#Left}",
+  "K": "{#Down}",
+  "W": "{#Up}",
+  "R": "{#Right}",
+  "-E": "{#Escape}",
+  "H": "{*-|}",
+  "-R": "{*-|}",
+  "-P": "{#Space}",
+  "P": "{#BackSpace}",
+  "-T": "{#Tab}{^}",
+  "-B": "{#Return}",
+  "#*": "{PLOVER:TOGGLE}"
+}
+

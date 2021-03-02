@@ -30,7 +30,6 @@ Plug 'voldikss/vim-floaterm'
 Plug 'tpope/vim-fugitive'
 
 " testing
-" Plug 'anott03/nvim-lspinstall'
 
 Plug 'tpope/vim-repeat'
 Plug 'cespare/vim-toml'
@@ -41,12 +40,11 @@ Plug 'cespare/vim-toml'
 Plug 'vimwiki/vimwiki'
 Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
-" Plug 'frazrepo/vim-rainbow'
 
 Plug 'luochen1990/rainbow'
 Plug 'neoclide/jsonc.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'Yggdroot/indentLine'
+" Plug 'Yggdroot/indentLine'
 Plug 'mboughaba/i3config.vim'
 
 call plug#end()

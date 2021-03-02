@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 i3-msg 'workspace 3'
-youtube-music-bin
+youtube-music
 sleep 3
 i3-msg 'workspace 2'
 chromium

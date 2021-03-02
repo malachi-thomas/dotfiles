@@ -38,23 +38,10 @@ alias lrc='v ~/.config/nvim/lua/init.lua'
 alias ala='v ~/.config/alacritty/alacritty.yml'
 
 # Diretorys
-alias plo='cd ~/dotfiles/plover'
 alias bin='cd ~/dotfiles/scripts'
-alias notes='cd ~/dotfiles/notes'
 alias dot='cd ~/dotfiles'
-alias web='cd ~/code/web'
-alias webt='cd ~/code/web/test'
-alias python='cd ~/code/python'
-alias javascript='cd ~/code/javascript'
 alias dow='cd ~/Downloads'
-alias vvim='cd ~/dotfiles/nvim'
-alias typescript='cd ~/code/typescript'
 alias not='cd ~/dotfiles/notes'
-alias react='cd ~/code/react'
-alias con='cd ~/.config'
-alias esp='cd ~/dotfiles/espanso'
-alias nots='v ~/dotfiles/notes/topics.md'
-alias nodejs='cd ~/code/nodejs'
 
 # Linux
 if [[ $OSTYPE == "linux-gnu"* ]]
@@ -73,7 +60,6 @@ then
   alias vid='mpv'
   alias copy='xclip -selection "primary" <'
   alias file='nautilus'
-  alias plover='~/Downloads/plover-4.0.0.dev8.66.g685bd33-x86_64.AppImage'
   uefi() {
     sudo systemctl reboot --firmware-setup
   }
