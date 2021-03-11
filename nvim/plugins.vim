@@ -7,7 +7,7 @@ if has('nvim-0.5')
   Plug 'steelsojka/completion-buffers'
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'romgrk/barbar.nvim'
-  " Plug 'nvim-treesitter/nvim-treesitter'
+  Plug 'nvim-treesitter/nvim-treesitter'
 else
   Plug 'machakann/vim-highlightedyank'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -30,9 +30,10 @@ Plug 'voldikss/vim-floaterm'
 Plug 'tpope/vim-fugitive'
 
 " testing
-
 Plug 'tpope/vim-repeat'
 Plug 'cespare/vim-toml'
+Plug 'anott03/nvim-lspinstall'
+Plug 'sheerun/vim-polyglot'
 
 
 
@@ -41,10 +42,10 @@ Plug 'vimwiki/vimwiki'
 Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
 
-Plug 'luochen1990/rainbow'
+" Plug 'luochen1990/rainbow'
 Plug 'neoclide/jsonc.vim'
 Plug 'itchyny/lightline.vim'
-" Plug 'Yggdroot/indentLine'
+Plug 'Yggdroot/indentLine'
 Plug 'mboughaba/i3config.vim'
 
 call plug#end()

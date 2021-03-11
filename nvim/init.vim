@@ -24,7 +24,7 @@ endif
 ""==================================================================================================
 "" Basic Config
 
-syntax enable
+syntax on
 filetype plugin indent on
 set wildmode=longest,full
 if has('nvim')
@@ -84,8 +84,6 @@ augroup autocmds
   autocmd BufWrite ~/.tmux.conf silent !tmux source-file ~/.tmux.conf " source ~/.tmux.conf when you save ~/.tmux.conf
   autocmd BufRead ~/dotfiles/nvim/snippets/* set ft=jsonc
   autocmd BufWritePre {*.c,*.cpp,*.h} normal mmgg=G`m
-  " autocmd BufRead,BufEnter * call rainbow#load()
-  " autocmd BufWritePre *.rs call RustFormat()
   autocmd CursorMoved,BufWrite * normal zz
   autocmd vimenter,SourcePost * hi Search guibg=black guifg=#fe8019
   autocmd BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
@@ -96,7 +94,6 @@ augroup autocmds
     autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked
     autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
     autocmd BufEnter * lua require'completion'.on_attach() -- completion-nvim on all buffers
-    " autocmd BufEnter * lua require'completion'.on_attach()
   endif
 augroup end
 

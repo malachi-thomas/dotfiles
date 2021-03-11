@@ -212,3 +212,36 @@ Traceback (most recent call last):
 ValueError: Unsupported extension: . Supported extensions: json, rtf
 2021-03-02 20:57:49,065 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
 2021-03-02 20:57:49,065 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-05 10:48:34,178 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-05 10:48:34,300 [MainThread] INFO: 48 custom mappings(s)
+2021-03-05 10:48:34,404 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-05 10:48:34,405 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-05 10:48:34,989 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-05 10:48:35,000 [Dummy-1] INFO: XInput devices: 6, 7, 9, 10, 11, 12, 13, 15, 17, 18, 19, 21, 22, 23, 24
+2021-03-05 10:48:35,001 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-05 10:48:35,002 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-05 10:48:35,002 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-05 10:48:35,002 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-05 10:48:35,801 [Dummy-1] INFO: loaded 4 dictionaries in 0.799s
+2021-03-05 14:42:19,340 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-05 14:42:19,455 [MainThread] INFO: 48 custom mappings(s)
+2021-03-05 14:42:19,554 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-05 14:42:19,554 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-05 14:42:20,128 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-05 14:42:20,140 [Dummy-1] INFO: XInput devices: 6, 7, 9, 10, 11, 12, 13, 15, 17, 18, 19, 21, 22, 23, 24
+2021-03-05 14:42:20,141 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-05 14:42:20,141 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-05 14:42:20,142 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-05 14:42:20,142 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-05 14:42:20,923 [Dummy-1] INFO: loaded 4 dictionaries in 0.782s
+2021-03-08 14:58:36,295 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-08 14:58:36,420 [MainThread] INFO: 48 custom mappings(s)
+2021-03-08 14:58:36,519 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-08 14:58:36,519 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-08 14:58:37,100 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-08 14:58:37,111 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 20, 21, 22, 23, 24, 25
+2021-03-08 14:58:37,112 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-08 14:58:37,113 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-08 14:58:37,113 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-08 14:58:37,114 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-08 14:58:37,932 [Dummy-1] INFO: loaded 4 dictionaries in 0.820s

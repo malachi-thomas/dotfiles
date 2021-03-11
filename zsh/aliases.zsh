@@ -82,6 +82,7 @@ fi
 # Git
 # alias commit='git add -A; git commit -m'
 alias push='git push'
+alias branch='git branch'
 alias clone='git clone'
 alias checkout='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git checkout {}'
 alias merge='git branch | fzf | sed "s/\* //g" | xargs -I "{}" git merge {}'

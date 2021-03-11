@@ -28,7 +28,7 @@ compinit
 zstyle ':completion:*' list-colors $LS_COLORS
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' '+l:|=* r:|=*'
 zstyle ':completion:*' rehash true
-zstyle ':completion:*' special-dirs true
+# zstyle ':completion:*' special-dirs true
 zstyle ':completion:*' menu yes select
 _comp_options+=(globdots)
 zmodload zsh/complist
