@@ -49,6 +49,9 @@ edit() {
 # }
 
 
+live(){ 
+  live-server --browser=google-chrome-stable --open=$1
+}
 
 # v() {
 # if [ $# -eq 0 ]; then

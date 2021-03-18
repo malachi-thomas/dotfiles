@@ -241,6 +241,12 @@
       "fs.readdir(${1:path}, (err, files) => $0)"
     ]
   },
+  "appPost": {
+    "prefix": "appPost",
+    "body": [
+      "app.post('${1:route}', (req, res) => $0)"
+    ]
+  },
   "NfsReaddirSync": {
     "prefix": "NfsReaddirSync",
     "body": [

@@ -1,0 +1,74 @@
+{
+  "ul": {
+    "prefix": "ul",
+    "body": [
+      "ul {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "display": {
+    "prefix": "display",
+    "body": [
+      "display: $0;"
+    ]
+  },
+  "border": {
+    "prefix": "border",
+    "body": [
+      "border: $0;"
+    ]
+  },
+  "border-radius": {
+    "prefix": "border-radius",
+    "body": [
+      "border-radius: "
+    ]
+  },
+  "background-color": {
+    "prefix": "background-color",
+    "body": [
+      "background-color: $0;"
+    ]
+  },
+  "color": {
+    "prefix": "color",
+    "body": [
+      "color: $0;"
+    ]
+  },
+  "padding": {
+    "prefix": "padding",
+    "body": [
+      "padding: $0;"
+    ]
+  },
+  "margin": {
+    "prefix": "margin",
+    "body": [
+      "margin: $0;"
+    ]
+  },
+  "outline": {
+    "prefix": "outline",
+    "body": [
+      "outline: $0;"
+    ]
+  },
+  "body": {
+    "prefix": "body",
+    "body": [
+      "body {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "li": {
+    "prefix": "li",
+    "body": [
+      "li {",
+      "\t$0",
+      "}"
+    ]
+  }
+}

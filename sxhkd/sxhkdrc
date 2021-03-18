@@ -8,7 +8,7 @@ super + a
   betterlockscreen -l
 
 super + c
-  chromium
+  google-chrome-stable
 
 super + d
   rofi -show run

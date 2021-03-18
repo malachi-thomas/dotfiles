@@ -79,6 +79,12 @@ then
   alias win='cd /mnt/c/Users/malac'
 fi
 
+
+
+# npm
+alias npmi='npm i'
+alias npmig='npm i -g'
+
 # Git
 # alias commit='git add -A; git commit -m'
 alias push='git push'

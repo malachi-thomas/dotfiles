@@ -10,8 +10,8 @@ exec --no-startup-id amixer set Master unmute
 exec --no-startup-id exec ~/dotfiles/scripts/startup.sh
 exec --no-startup-id exec ~/dotfiles/scripts/sw.py
 exec --no-startup-id exec xset r rate 200 20
-exec --no-startup-id exec xinput set-prop "Kensington Expert Wireless TB Mouse" 289 1
-exec --no-startup-id exec xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 0 1 4 5 6 7 0 0
+exec_always --no-startup-id exec xinput set-prop "Kensington Expert Wireless TB Mouse" 289 1
+exec_always --no-startup-id exec xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 0 1 4 5 6 7 0 0
 
 # exec_always --no-startup-id redshift -l 51.5:0 -t 5500:2500
 exec_always --no-startup-id exec betterlockscreen -u ~/dotfiles/wallpapers/nord.png

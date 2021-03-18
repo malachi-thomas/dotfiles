@@ -26,7 +26,7 @@ nnoremap <M-left> <c-w>h
 nnoremap <M-right> <c-w>l
 nnoremap <c-z> u
 nnoremap <c-f> /\v
-nnoremap <esc> <esc>:nohl<cr>
+nnoremap <silent><esc> <esc>:nohl<cr>
 nnoremap K <nop>
 nnoremap Q <nop>
 nnoremap S <nop>
@@ -50,7 +50,7 @@ nnoremap sg :%s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
 nnoremap Sg :%s/\v<c-r>=expand("<cword>")<cr>//gc<left><left><left>
 nnoremap <c-p> :FZF<cr>
 nnoremap <space>r :Telescope oldfiles<cr>
-nnoremap <c-a> ggVG
+" nnoremap <c-a> ggVG
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
 nmap <f3> <Plug>VimwikiDiaryNextDay
@@ -81,7 +81,7 @@ inoremap <expr> ] Rbrak()
 inoremap <expr><space> Space()
 inoremap <c-v> <c-r>+
 inoremap <c-a> <c-o>gg<c-o>V<c-o>G
-
+imap <c-s> <plug>(emmet-expand-abbr)
 
 " Visuale mode
 vnoremap <c-f> /\v
@@ -103,12 +103,12 @@ vnoremap <c-c> y
 
 " Command mode
 cnoremap <c-h> <c-w>
-ca vrc e ~/.config/nvim/init.vim
-ca vma e ~/.config/nvim/mappings.vim
-ca vpl e ~/.config/nvim/plugins.vim
-ca vpc e ~/.config/nvim/plugin-configs.vim
-ca vfn e ~/.config/nvim/functions.vim
-ca lrc e ~/.config/nvim/lua/init.lua
+ca vrc e ~/dotfiles/nvim/init.vim
+ca vma e ~/dotfiles/nvim/mappings.vim
+ca vpl e ~/dotfiles/nvim/plugins.vim
+ca vpc e ~/dotfiles/nvim/plugin-configs.vim
+ca vfn e ~/dotfiles/nvim/functions.vim
+ca lrc e ~/dotfiles/nvim/lua/init.lua
 ca q q!
 ca w w!
 ca h vert h
@@ -122,8 +122,6 @@ tnoremap <M-right> <c-\><c-n><c-w>l
 tnoremap <c-t> <c-\><c-n>:FloatermToggle<cr>
 
 " filetype mappings
-autocmd filetype vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
-autocmd filetype lua nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
 autocmd filetype javascript nnoremap <silent><buffer><c-l> :!node %<cr>
 autocmd filetype rust nnoremap <silent><buffer><c-l> :!cargo run<cr>
 autocmd filetype python nnoremap <silent><buffer><c-l> :!python %<cr>
@@ -132,13 +130,10 @@ autocmd filetype cpp nnoremap <silent><buffer><c-l> :w<cr>:!g++ %<cr>:!./a.out<c
 
 " Auto completion
 imap <silent><expr><tab>
-      \ pumvisible() ? "\<Plug>(completion_confirm_completion)" :
-      \ vsnip#expandable() ? "\<Plug>(vsnip-expand)" :
+      \ vsnip#available(1) ? "\<Plug>(vsnip-expand-or-jump)" :
+      \ pumvisible() ? compe#confirm() :
       \ Check_back_space() ? "\<tab>" :
-      \ "\<plug>(completion_trigger)"
-imap <expr><expr><c-space>
-      \ vsnip#jumpable(1) ? "\<Plug>(vsnip-jump-next)" :
-      \ ""
+      \ compe#complete()
 inoremap <silent><expr><up>
       \ pumvisible() ? "\<c-p>" :
       \ "\<up>"
@@ -151,16 +146,30 @@ inoremap <silent><expr><right>
 inoremap <silent><expr><left>
       \ pumvisible() ? "\<c-g>u<left>" :
       \ "\<left>"
-imap <silent><expr><c-s>
-      \ pumvisible() ? "\<c-g>u\<plug>(emmet-expand-abbr)" :
-      \ "\<plug>(emmet-expand-abbr)"
+inoremap <silent><expr><cr>
+      \ pumvisible() ? compe#confirm() :
+      \ "\<cr>"
 
-" cnoremap <silent><expr><up>
+" imap <silent><expr><tab>
+"       \ pumvisible() ? "\<Plug>(completion_confirm_completion)" :
+"       \ vsnip#expandable() ? "\<Plug>(vsnip-expand)" :
+"       \ Check_back_space() ? "\<tab>" :
+"       \ "\<plug>(completion_trigger)"
+" imap <expr><expr><c-space>
+"       \ vsnip#jumpable(1) ? "\<Plug>(vsnip-jump-next)" :
+"       \ ""
+" inoremap <silent><expr><up>
 "       \ pumvisible() ? "\<c-p>" :
 "       \ "\<up>"
-" cnoremap <silent><expr><down>
+" inoremap <silent><expr><down>
 "       \ pumvisible() ? "\<c-n>" :
 "       \ "\<down>"
+" inoremap <silent><expr><right>
+"       \ pumvisible() ? "\<c-g>u<right>" :
+"       \ "\<right>"
+" inoremap <silent><expr><left>
+"       \ pumvisible() ? "\<c-g>u<left>" :
+"       \ "\<left>"
 
 if has('nvim-0.5')
   nnoremap gd <cmd>lua vim.lsp.buf.definition()<cr>

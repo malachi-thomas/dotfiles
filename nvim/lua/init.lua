@@ -1,34 +1,64 @@
 local nvim_lsp = require'lspconfig'
+local config = require'lspconfig'.config
 
-nvim_lsp.tsserver.setup {} -- you need a package.json or tsconfig.json
+-- sudo npm i -g typescript typescript-language-server clangd vim-language-server vscode-css-languageserver-bin vscode-html-languageserver-bin vscode-json-languageserver-bin
+-- LspInstall rust_analyzer
+-- ghcup install hls
+
+nvim_lsp.tsserver.setup {}
 nvim_lsp.vimls.setup {}
-nvim_lsp.pyls.setup{} -- use pip
+nvim_lsp.pyls.setup{}
 nvim_lsp.sumneko_lua.setup{}
-nvim_lsp.bashls.setup {}
 nvim_lsp.clangd.setup {}
-nvim_lsp.cssls.setup {}
--- nvim_lsp.html.setup {}
-nvim_lsp.rust_analyzer.setup{} -- install rust_analyzer
+nvim_lsp.rust_analyzer.setup{}
+nvim_lsp.cssls.setup{}
+nvim_lsp.html.setup{}
+nvim_lsp.jsonls.setup{}
+nvim_lsp.hls.setup{}
 
 require'nvim-treesitter.configs'.setup {
   ensure_installed = "maintained",
   indent = {
-    enable = true,
-    disable = {'python'},
+    enable = false,
   },
   highlight = {
     enable = true,
-    -- disable = {'lua'},
-  },
+  }
+}
+
+require'compe'.setup {
+  enabled = true;
+  autocomplete = true;
+  debug = false;
+  min_length = 1;
+  preselect = 'enable';
+  throttle_time = 80;
+  source_timeout = 200;
+  incomplete_delay = 400;
+  max_abbr_width = 100;
+  max_kind_width = 100;
+  max_menu_width = 100;
+  documentation = false;
+
+  source = {
+    path = true;
+    buffer = true;
+    calc = true;
+    vsnip = true;
+    nvim_lsp = true;
+    nvim_lua = true;
+    spell = true;
+    tags = true;
+    snippets_nvim = true;
+    treesitter = true;
+  };
 }
 
 -- disable inline stuff
--- vim.lsp.callbacks["textDocument/publishDiagnostics"] = function() end
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
-vim.lsp.diagnostic.on_publish_diagnostics, {
-  underline = false,
-  virtual_text = false,
-  signs = false,
-  update_in_insert = false,
-}
-)
+  vim.lsp.diagnostic.on_publish_diagnostics, {
+    underline = true,
+    virtual_text = false,
+    signs = false,
+    update_in_insert = false,
+  })
