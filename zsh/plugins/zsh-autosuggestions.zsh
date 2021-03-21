@@ -856,3 +856,6 @@ _zsh_autosuggest_start() {
 # Start the autosuggestion widgets on the next precmd
 autoload -Uz add-zsh-hook
 add-zsh-hook precmd _zsh_autosuggest_start
+
+
+

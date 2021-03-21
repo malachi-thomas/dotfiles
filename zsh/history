@@ -1,1294 +1,3 @@
-: 1609333006:0;la
-: 1609333045:0;cd dotfiles
-: 1609333081:0;so
-: 1609333091:0;la
-: 1609333148:0;commit "added branch and "
-: 1609333158:0;la
-: 1609333315:0;cd
-: 1609333324:0;ps1=""
-: 1609333329:0;prompt=""
-: 1609333332:0;cd
-: 1609333337:0;prompt="\n"
-: 1609333341:0;cd
-: 1609333345:0;la
-: 1609333349:0;so
-: 1609333357:0;cd
-: 1609333362:0;..
-: 1609333375:0;so
-: 1609333449:0;cd dotfiles
-: 1609333471:0;lo
-: 1609333473:0;la
-: 1609333474:0;cd
-: 1609333478:0;..
-: 1609333481:0;cd
-: 1609334179:0;bin
-: 1609334180:0;la
-: 1609334186:0;zsh
-: 1609334191:0;cd dotfiles
-: 1609334195:0;bin
-: 1609334199:0;la
-: 1609334216:0;_git_branch_name
-: 1609334222:0;_git_repo_name
-: 1609334224:0;..
-: 1609334277:0;function git_current_branch() {\
-    ref=$(git symbolic-ref HEAD 2> /dev/null) || \\
-    ref=$(git rev-parse --short HEAD 2> /dev/null) || return\
-    echo ${ref#refs/heads/}\
-}\
-
-: 1609334284:0;git_current_branch
-: 1609334330:0;function git_current_branch() {\
-    ref=$(git symbolic-ref HEAD 2> /dev/null) || \\
-    ref=$(git rev-parse --short HEAD 2> /dev/null) || return\
-    echo ${ref#refs/heads/}\
-}\
-\
-function git_status_is_clean() {\
-    lines=$(git status --porcelain | egrep -v '^\?\? ' | wc -l)\
-    test $lines = 0\
-}\
-\
-function git_unknown_files() {\
-    lines=$(git status --porcelain | egrep '^\?\? ' | wc -l)\
-    test $lines = 0\
-}\
-\
-function git_stash_is_clean() {\
-    lines=$(git stash list | wc -l)\
-    test $lines = 0\
-}\
-\
-function git_no_branches() {\
-    lines=$(git branch | wc -l)\
-    test $lines = 1\
-}\
-\
-function git_single_remote() {\
-    lines=$(git remote | wc -l)\
-    test $lines -le 1\
-}\
-\
-function git_no_remote() {\
-    lines=$(git remote | wc -l)\
-    test $lines = 0\
-}\
-\
-function git_branch_is_pushed() {\
-    git_no_remote || git diff-tree --quiet origin/master master\
-}\
-\
-#-----------------------------------------------------------------------------\
-\
-function git_prompt_precmd() {\
-    if [ -z `git_current_branch` ]; then\
-        GITINFO=""\
-    else\
-        GITINFO=" [`git_current_branch`"\
-        if ! git_status_is_clean; then\
-            GITINFO="$GITINFO*"\
-        fi\
-        if ! git_unknown_files; then\
-            GITINFO="${GITINFO}?"\
-        fi\
-        if ! git_branch_is_pushed; then\
-            GITINFO="$GITINFO‚ÉæÉ∫"\
-        fi\
-        if ! git_stash_is_clean; then\
-            GITINFO="$GITINFO‚É∏∞"\
-        fi\
-        if ! git_no_branches; then\
-            GITINFO="$GITINFO‚É¨•"\
-        fi\
-        if ! git_single_remote; then\
-            GITINFO="$GITINFO¬Æ"\
-        fi\
-        GITINFO="$GITINFO]"\
-    fi\
-    echo $GITINFO\
-}\
-
-: 1609334343:0;function git_current_branch() {\
-    ref=$(git symbolic-ref HEAD 2> /dev/null) || \\
-    ref=$(git rev-parse --short HEAD 2> /dev/null) || return\
-    echo ${ref#refs/heads/}\
-}\
-\
-function git_status_is_clean() {\
-    lines=$(git status --porcelain | egrep -v '^\?\? ' | wc -l)\
-    test $lines = 0\
-}\
-\
-function git_unknown_files() {\
-    lines=$(git status --porcelain | egrep '^\?\? ' | wc -l)\
-    test $lines = 0\
-}\
-\
-function git_stash_is_clean() {\
-    lines=$(git stash list | wc -l)\
-    test $lines = 0\
-}\
-\
-function git_no_branches() {\
-    lines=$(git branch | wc -l)\
-    test $lines = 1\
-}\
-\
-function git_single_remote() {\
-    lines=$(git remote | wc -l)\
-    test $lines -le 1\
-}\
-\
-function git_no_remote() {\
-    lines=$(git remote | wc -l)\
-    test $lines = 0\
-}\
-\
-function git_branch_is_pushed() {\
-    git_no_remote || git diff-tree --quiet origin/master master\
-}\
-\
-\
-\
-function git_prompt_precmd() {\
-    if [ -z `git_current_branch` ]; then\
-        GITINFO=""\
-    else\
-        GITINFO=" [`git_current_branch`"\
-        if ! git_status_is_clean; then\
-            GITINFO="$GITINFO*"\
-        fi\
-        if ! git_unknown_files; then\
-            GITINFO="${GITINFO}?"\
-        fi\
-        if ! git_branch_is_pushed; then\
-            GITINFO="$GITINFO‚ÉæÉ∫"\
-        fi\
-        if ! git_stash_is_clean; then\
-            GITINFO="$GITINFO‚É∏∞"\
-        fi\
-        if ! git_no_branches; then\
-            GITINFO="$GITINFO‚É¨•"\
-        fi\
-        if ! git_single_remote; then\
-            GITINFO="$GITINFO¬Æ"\
-        fi\
-        GITINFO="$GITINFO]"\
-    fi\
-    echo $GITINFO\
-}\
-
-: 1609334348:0;git_prompt_precmd
-: 1609334350:0;la
-: 1609334429:0;echo $gittopdir
-: 1609334434:0;git_prompt_precmd
-: 1609334451:0;so
-: 1609334453:0;..
-: 1609334454:0;bin
-: 1609334457:0;la
-: 1609334466:0;  if [[ "foo$gittopdir" == "foo.git" ]]\
-  then\
-    echo " "`basename $(pwd)`":"\
-  fi\
-
-: 1609334468:0;..
-: 1609334469:0;  if [[ "foo$gittopdir" == "foo.git" ]]\
-  then\
-    echo " "`basename $(pwd)`":"\
-  fi\
-
-: 1609334482:0;  if [[ "$gittopdir" == ".git" ]]\
-  then\
-    echo " "`basename $(pwd)`":"\
-  fi\
-
-: 1609334509:0;  if [[ "$gittopdir" == **".git" ]]\
-\
-echo true\
-fi
-: 1609334514:0;  if [[ "$gittopdir" == **".git" ]]\
-then\
-echo true\
-fi
-: 1609334523:0;bin
-: 1609334525:0;so
-: 1609334527:0;la
-: 1609334530:0;..
-: 1609334532:0;la
-: 1609334642:0;so
-: 1609334646:0;..
-: 1609334647:0;la
-: 1609334648:0;cd dotfiles
-: 1609334661:0;so
-: 1609334663:0;cd dotfiles
-: 1609334678:0;so
-: 1609334680:0;cd dot
-: 1609334683:0;la
-: 1609334706:0;so
-: 1609334821:0;..
-: 1609334823:0;cd dotfiles
-: 1609334840:0;so
-: 1609334841:0;..
-: 1609334843:0;cd dotfiles
-: 1609334880:0;lo
-: 1609334882:0;cd
-: 1609334884:0;cd dotfiles
-: 1609334885:0;bin
-: 1609334918:0;commit "added branch name to zsh prompt"
-: 1609334933:0;cd dotfiles
-: 1609334934:0;..
-: 1609334938:0;cd
-: 1609334956:0;bin
-: 1609334966:0;v my-zsh-files.sh
-: 1609335204:0;ssh pi@raspberrypi
-: 1609335218:0;zsh
-: 1609335220:0;bin
-: 1609335227:0;v my-zsh-files.sh
-: 1609335280:0;commit "added my-zsh-files"
-: 1609335341:0;la
-: 1609335347:0;ssh pi@raspberrypi
-: 1609336499:0;dot
-: 1609336519:0;q
-: 1609336526:0;la
-: 1609336528:0;cd dotfiles
-: 1609336612:0;cd
-: 1609336613:0;cd .ssh
-: 1609336614:0;la
-: 1609336617:0;cat id_rsa
-: 1609336637:0;cd .ssh
-: 1609336638:0;la
-: 1609336641:0;cat id_rsa.pub
-: 1609336896:0;la
-: 1609336911:0;ifconfig
-: 1609336958:0;ssh malachi@192.168.1.233
-: 1609336963:0;la
-: 1609337294:0;q
-: 1609367638:0;cd shows/andou-july
-: 1609367641:0;vid EP.7.720p.mp4
-: 1609370502:0;power
-: 1609406087:0;vot
-: 1609406088:0;not
-: 1609406091:0;cd hardware/components
-: 1609406092:0;v words.md
-: 1609407607:0;la
-: 1609407637:0;v electrisity-basics.md
-: 1609411160:0;v usb-type-c.md
-: 1609412701:0;v test.c
-: 1609412896:0;v test.cpp
-: 1609413269:0;la
-: 1609413274:0;rm *test*
-: 1609413275:0;la
-: 1609413302:0;v test.py
-: 1609414062:0;la
-: 1609414067:0;lrc
-: 1609414097:0;v test.py
-: 1609460437:0;cd shows/andou-july
-: 1609460441:0;vid EP.8.1080p.mp4
-: 1609461036:0;cd shows/andou-july
-: 1609461045:0;vid EP.7.720p.mp4
-: 1609492054:0;rnot
-: 1609492056:0;not
-: 1609492061:0;cd hardware/components
-: 1609492065:0;v electric-types.md
-: 1609492070:0;v electrisity-basics.md
-: 1609498776:0;commit "added some notes"
-: 1609532617:0;cd shows/andou-july
-: 1609532624:0;vid EP.8.1080p.mp4
-: 1609533242:0;cd shows/andou-july
-: 1609533250:0;vid EP.8.1080p.mp4
-: 1609533260:0;vid EP.9.720p.mp4
-: 1609533290:0;la
-: 1609533297:0;vid EP.8.1080p.mp4
-: 1609533316:0;vid EP.7.720p.mp4
-: 1609533336:0;vid EP.9.720p.mp4
-: 1609534719:0;power
-: 1609578400:0;vot
-: 1609578401:0;not
-: 1609578405:0;cd hardware
-: 1609578407:0;cd components
-: 1609578407:0;la
-: 1609578428:0;v mcu.md
-: 1609578619:0;v usb-type-c.md
-: 1609578953:0;commit "added some notes"
-: 1609578987:0;v usb-type-c.md
-: 1609579298:0;commit "added some notes"
-: 1609579603:0;la
-: 1609620252:0;cd shows/andou-july
-: 1609620257:0;vid EP.10.1080p.mp4
-: 1609623555:0;power
-: 1609709121:0;cd shows/andou-july
-: 1609709128:0;vid EP.11.1080p.mp4
-: 1609710551:0;power
-: 1609800867:0;cd 
-: 1609800869:0;cd andou-july
-: 1609800873:0;cd shows/andou-july
-: 1609800880:0;vid EP.12.720p.mp4
-: 1609802423:0;..
-: 1609802442:0;cd backup-anime
-: 1609802444:0;la
-: 1609802449:0;vid EP.1.1080p.mp4
-: 1609835393:0;bashtop
-: 1609880683:0;cd shows
-: 1609880696:0;mk hinamatsuri
-: 1609880698:0;cd hinamatsuri
-: 1609880699:0;la
-: 1609880710:0;cd ~/Downloads
-: 1609880711:0;la
-: 1609880719:0;rm plugins\ \(1\).zip plugins.zip zsh-z.zsh.zip 
-: 1609880720:0;la
-: 1609881929:0;..
-: 1609881933:0;cd shows/backup-anime
-: 1609881933:0;la
-: 1609881936:0;vid EP.1.1080p.mp4
-: 1609882577:0;vid EP.2.360p.mp4
-: 1609883961:0;power
-: 1609922587:0;dow
-: 1609922589:0;la
-: 1609922595:0;rm EP.4.1080p.mp4.crdownload
-: 1609922596:0;la
-: 1609922682:0;..
-: 1609922687:0;cd shows
-: 1609922737:0;mk musaigen-no-phantom-world
-: 1609922737:0;la
-: 1609922743:0;cd backup-anime
-: 1609922744:0;la
-: 1609922764:0;mv mv * ../musaigen-no-phantom-world
-: 1609922768:0;la
-: 1609922769:0;..
-: 1609922771:0;la
-: 1609922776:0;ls musaigen-no-phantom-world
-: 1609922778:0;..
-: 1609922779:0;la
-: 1609922783:0;cd shows
-: 1609922784:0;la
-: 1609922788:0;rm andou-july
-: 1609922792:0;rma andou-july
-: 1609922794:0;la
-: 1609922797:0;rm backup-anime
-: 1609922798:0;la
-: 1609922805:0;mk code-geass
-: 1609922810:0;mv code-geass-1 code-geass
-: 1609922816:0;mv code-geass-2 code-geass
-: 1609922819:0;mv code-geass-3
-: 1609922823:0;mv code-geass-3 code-geass
-: 1609922827:0;cd code-geass
-: 1609922828:0;la
-: 1609922832:0;rm code-geass-2 code-geass-3
-: 1609922833:0;la
-: 1609922841:0;rma code-geass-2 code-geass-3
-: 1609922842:0;la
-: 1609922854:0;llla
-: 1609926139:0;dow
-: 1609926139:0;la
-: 1609928185:0;dow
-: 1609928186:0;la
-: 1609929046:0;irc
-: 1609929098:0;sxh
-: 1609929104:0;irc
-: 1609929250:0;la
-: 1609966370:0;cd Downloads
-: 1609966370:0;la
-: 1609966387:0;rm *.crdown
-: 1609966390:0;rm *.crdown*
-: 1609966391:0;la
-: 1609967132:0;cd
-: 1609967137:0;cd shows/musaigen-no-phantom-world
-: 1609967138:0;la
-: 1609967142:0;vid EP.3.360p.mp4
-: 1609969739:0;power
-: 1610009049:0;cd dotfiles/notes/hardware/components
-: 1610009049:0;la
-: 1610040787:0;vrc
-: 1610040912:0;update
-: 1610040971:0;pac neovim-git
-: 1610041099:0;nvim -v
-: 1610041106:0;vrc
-: 1610041115:0;vim main.rs
-: 1610041144:0;cd code/javascript
-: 1610041145:0;la
-: 1610041147:0;v binarySearchCalculator.js
-: 1610051013:0;cd shows/musaigen-no-phantom-world
-: 1610051014:0;la
-: 1610051019:0;vid EP.4.1080p.mp4
-: 1610052635:0;power 
-: 1610139131:0;la
-: 1610139134:0;cd shows/musaigen-no-phantom-world
-: 1610139137:0;..
-: 1610139140:0;cd hinamatsuri
-: 1610139140:0;la
-: 1610139143:0;dow
-: 1610139143:0;la
-: 1610139156:0;mv *.mp4 ~/shows/hinamatsuri
-: 1610139157:0;..
-: 1610139161:0;cd shows/hinamatsuri
-: 1610139162:0;la
-: 1610139171:0;..
-: 1610139179:0;cd musaigen-no-phantom-world
-: 1610139183:0;vid EP.5.1080p.mp4
-: 1610141003:0;la
-: 1610141013:0;vid EP.6.1080p.mp4
-: 1610141832:0;power
-: 1610181662:0;not
-: 1610181665:0;cd hardware/components
-: 1610181667:0;v mcu.md
-: 1610271721:0;not
-: 1610271723:0;cd hardware/components
-: 1610271725:0;v mcu.md
-: 1610289464:0;not
-: 1610289466:0;cd hardware/components
-: 1610289469:0;v words.md
-: 1610293084:0;la
-: 1610295633:0;v votage-regulator.md
-: 1610295809:0;la
-: 1610296269:0;v mcu.md
-: 1610313067:0;cd sho
-: 1610313073:0;cd shows/hinamatsuri
-: 1610313075:0;..
-: 1610313078:0;cd musaigen-no-phantom-world
-: 1610313080:0;la
-: 1610313085:0;vid EP.6.1080p.mp4
-: 1610314264:0;power
-: 1610353774:0;not
-: 1610353777:0;cd hardware/components
-: 1610353778:0;la
-: 1610353783:0;v words.md
-: 1610353973:0;v reddit-post.md
-: 1610386749:0;irc
-: 1610386773:0;cd dotfiles/wallpapers
-: 1610386774:0;la
-: 1610386814:0;irc
-: 1610386829:0;cd dotfiles/wallpapers
-: 1610386829:0;la
-: 1610398182:0;cd shows/musaigen-no-phantom-world
-: 1610398186:0;vid EP.7.1080p.mp4
-: 1610399604:0;power
-: 1610438385:0;cd dotfiles/notes/hardware/components
-: 1610438386:0;la
-: 1610452331:0;pac speedtest
-: 1610452370:0;speedtest
-: 1610452378:0;speedtest --help
-: 1610452386:0;speedtest
-: 1610452387:0;speedtest 
-: 1610460963:0;la
-: 1610462036:0;mocp
-: 1610462955:0;sh music.sh
-: 1610465442:0;cd shows/musaigen-no-phantom-world
-: 1610465443:0;la
-: 1610483579:0;cd shows/musaigen-no-phantom-world
-: 1610483584:0;vid EP.8.360p.mp4
-: 1610485854:0;la
-: 1610485873:0;rm EP.2.360p.mp4 EP.1.1080p.mp4 EP.3.360p.mp4 EP.4.1080p.mp4 EP.5.1080p.mp4 EP.6.1080p.mp4 EP.7.1080p.mp4 EP.8.360p.mp4
-: 1610485874:0;la
-: 1610485875:0;..
-: 1610485877:0;la
-: 1610485891:0;mv musaigen-no-phantom-world backup-anime
-: 1610485891:0;la
-: 1610485892:0;..
-: 1610485896:0;power
-: 1610524340:0;dow
-: 1610524341:0;al
-: 1610524342:0;la
-: 1610524348:0;cd Nanatsu\ no\ Taizai
-: 1610524349:0;la
-: 1610524414:0;cd shows
-: 1610524414:0;la
-: 1610524423:0;mk kabukichou-sherlock
-: 1610524423:0;la
-: 1610524427:0;cd kabukichou-sherlock
-: 1610524427:0;la
-: 1610524702:0;..
-: 1610524703:0;la
-: 1610524716:0;rm \[DCFS\]\ Nanatsu\ no\ Taizai\ -\ Kamigami\ no\ Gekirin\ 01-24\ \[720p\ -\ Sub\ ITA\ -\ AAC\].torrent
-: 1610524716:0;la
-: 1610524719:0;cd \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 01\ \~\ 24\ \[1080p\]\[Multiple\ Subtitle\]
-: 1610524720:0;la
-: 1610524726:0;..
-: 1610524727:0;la
-: 1610542233:0;cd shows
-: 1610542233:0;la
-: 1610542237:0;cd hinamatsuri
-: 1610542242:0;du -h .
-: 1610542244:0;la
-: 1610558738:0;cd Downloads
-: 1610558738:0;la
-: 1610558746:0;cd '[Erai-raws] Kabukichou Sherlock - 01 ~ 24 [1080p][Multiple Subtitle]\
-la\
-'
-: 1610558753:0;cd '[Erai-raws] Kabukichou Sherlock - 01 ~ 24 [1080p][Multiple Subtitle]'
-: 1610558754:0;la
-: 1610558759:0;..
-: 1610558762:0;la
-: 1610558762:0;..
-: 1610558764:0;la
-: 1610558772:0;cd
-: 1610558772:0;la
-: 1610558948:0;xev
-: 1610561371:0;la
-: 1610561373:0;dow
-: 1610561374:0;la
-: 1610565591:0;mv *.mp4 ~/shows/kabukichou-sherlock
-: 1610565592:0;la
-: 1610565593:0;cd
-: 1610565597:0;cd shows/kabukichou-sherlock
-: 1610565598:0;la
-: 1610565836:0;dow
-: 1610565836:0;la
-: 1610565846:0;rm *.crdown*
-: 1610565847:0;la
-: 1610571712:0;cd
-: 1610571716:0;cd shows/kabukichou-sherlock
-: 1610571718:0;vid EP.1.360p.mp4
-: 1610573329:0;power
-: 1610626153:0;cd Documents
-: 1610626154:0;la
-: 1610626156:0;..
-: 1610626157:0;cd Dow
-: 1610626159:0;cd Downloads
-: 1610626160:0;la
-: 1610626163:0;cd \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 01\ \~\ 24\ \[1080p\]\[Multiple\ Subtitle\]
-: 1610626165:0;la
-: 1610626170:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 01\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1610626174:0;la
-: 1610643530:0;vim .
-: 1610643546:0;sudo vim .
-: 1610643667:0;ls | vim .
-: 1610643677:0;cd shows/kabukichou-sherlock
-: 1610643685:0;\ls | vim -
-: 1610643728:0;la
-: 1610643829:0;vim .
-: 1610643846:0;so vim .
-: 1610643853:0;source vim .
-: 1610643863:0;sudo vim .
-: 1610643872:0;sudo nvim .
-: 1610643880:0;nvim .
-: 1610643883:0;nvim -
-: 1610644362:0;pac stm32cube
-: 1610644417:0;pac ncurses5-compat-libs
-: 1610644456:0;sudo pacman-key --refresh-keys --keyserver keyserver.ubuntu.com\
-
-: 1610644473:0;pac stm32cube
-: 1610644513:0;pacman-key --refresh-keys C52048C0C0748FEE227D47A2702353E0F7E48EDB\
-
-: 1610644519:0;sudo pacman-key --refresh-keys C52048C0C0748FEE227D47A2702353E0F7E48EDB\
-
-: 1610644532:0;pac stm32cube
-: 1610644660:0;pacman -Sy C52048C0C0748FEE227D47A2702353E0F7E48EDB
-: 1610644680:0;pacman-key --init\
-pacman-key --populate\
-pacman-key --refresh-keys\
-pacman -Sy archlinux-keyring\
-\
-
-: 1610644690:0;pac stm32cube
-: 1610644706:0;pac ncurses5-compat-libs
-: 1610644755:0;pacman-key --init
-: 1610644760:0;root pacman-key --init
-: 1610644770:0;sudo pacman-key --init
-: 1610644810:0;su
-: 1610644853:0;yay stm32cubeide
-: 1610644894:0;pacman -Syu
-: 1610644934:0;pacr gcc
-: 1610644940:0;update
-: 1610809290:0;pacman-key --init
-: 1610809290:0;pacman-key --populate
-: 1610809290:0;pacman-key --refresh-keys
-: 1610809290:0;pacman -Sy archlinux-keyring
-: 1610809290:0;yay stm32cubeide
-: 1610645095:0;pac ncurses5-compat-libs
-: 1610645781:0;yay stm32cubeide
-: 1610645791:0;update
-: 1610645833:0;sudo pacman-key --lsign-key CEB167EFB5722BD6
-: 1610645836:0;yay stm32cubeide
-: 1610645859:0;sudo pacman-key --lsign-key C52048C0C0748FEE227D47A2702353E0F7E48EDB
-: 1610645880:0;sudo pacman-key --refresh-keys
-: 1610645894:0;pacman -Syu
-: 1610645969:0;sudo pacman-key --refresh-keys
-: 1610645973:0;sudo pacman-key --lsign-key C52048C0C0748FEE227D47A2702353E0F7E48EDB
-: 1610645976:0;yay stm32cubeide
-: 1610646003:0;gpgconf --kill all
-: 1610646006:0;yay stm32cubeide
-: 1610646100:0;pac ncurses5-compat-libs
-: 1610646167:0;update
-: 1610646294:0;sudo pacman-key --refresh-keys
-: 1610646302:0;pac stm32cube
-: 1610646337:0;update
-: 1610646504:0;yay stm32cubeide
-: 1610646718:0;sudo sh ./st-stm32cubeide_VERSION_ARCHITECHURE.PACKAGE
-: 1610646861:0;pac stm32cube
-: 1610656260:0;dow
-: 1610656260:0;la
-: 1610656266:0;mv \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 01\ \~\ 24\ \[1080p\]\[Multiple\ Subtitle\] ~/shows
-: 1610656266:0;..
-: 1610656267:0;la
-: 1610656270:0;cd shows
-: 1610656271:0;la
-: 1610656275:0;cd \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 01\ \~\ 24\ \[1080p\]\[Multiple\ Subtitle\]
-: 1610656276:0;la
-: 1610656283:0;mv * ../kabukichou-sherlock
-: 1610656284:0;la
-: 1610656285:0;..
-: 1610656287:0;cd kabukichou-sherlock
-: 1610656288:0;la
-: 1610656292:0;..
-: 1610656293:0;la
-: 1610656299:0;rma '[Erai-raws] Kabukichou Sherlock - 01 ~ 24 [1080p][Multiple Subtitle]/'
-: 1610656302:0;la
-: 1610656305:0;cd kabukichou-sherlock
-: 1610656306:0;la
-: 1610656366:0;..
-: 1610656367:0;la
-: 1610656372:0;mv hinamatsuri backup-anime
-: 1610656373:0;la
-: 1610656378:0;cd code-geass
-: 1610656378:0;la
-: 1610656381:0;cd code-geass-1
-: 1610656382:0;la
-: 1610656384:0;..
-: 1610657003:0;la
-: 1610657008:0;cd kabukichou-sherlock
-: 1610657009:0;la
-: 1610657016:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 02\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1610706575:0;pac stm32cube
-: 1610706635:0;la
-: 1610706646:0;update
-: 1610735621:0;pac stm32cube
-: 1610740378:0;cd shows/kabukichou-sherlock
-: 1610740378:0;la
-: 1610740386:0;rm *EP.*
-: 1610740386:0;la
-: 1610740415:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 03\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1610740441:0;cd shows/kabukichou-sherlock
-: 1610740441:0;la
-: 1610740458:0;to 10 1 '1' '10' 2 '2'
-: 1610740458:0;la
-: 1610740468:0;rm 1 2 10
-: 1610740469:0;la
-: 1610740479:0;to '1' '10' '2'
-: 1610740480:0;la
-: 1610740482:0;rm 1 2 10
-: 1610740483:0;la
-: 1610740504:0;ranger
-: 1610740513:0;pac gcc
-: 1610740520:0;ranger
-: 1610744865:0;pac ¬µVision
-: 1610744870:0;pac uVision
-: 1610744930:0;cd
-: 1610744932:0;not
-: 1610744934:0;cd hardware/components
-: 1610744934:0;la
-: 1610744938:0;v words.md
-: 1610747175:0;power
-: 1610796940:0;not
-: 1610796941:0;cd hardware/components
-: 1610796943:0;v words.md
-: 1610804227:0;pac stm32cubeide
-: 1610804248:0;pacr stm32cubemx
-: 1610804251:0;pac stm32cubeide
-: 1610804263:0;pacr stm32cubeide
-: 1610804267:0;pacr stm32cube
-: 1610804278:0;yay -Syu
-: 1610806871:0;irc
-: 1610808867:0;npm i -g vuejs
-: 1610809066:0;vue create
-: 1610809069:0;pac vue
-: 1610809094:0;vue create
-: 1610809099:0;bash
-: 1610809274:0;pac vuejs
-: 1610809290:0;vue create
-: 1610809290:0;zsh
-: 1610809294:0;cd code/javascript
-: 1610809294:0;la
-: 1610809298:0;..
-: 1610809299:0;cd nodejs
-: 1610809300:0;la
-: 1610809313:0;cd src
-: 1610809314:0;la
-: 1610809319:0;v app.mjs
-: 1610809358:0;la
-: 1610809366:0;mv app.mjs index.mjs
-: 1610809366:0;la
-: 1610809370:0;v index.mjs
-: 1610809409:0;..
-: 1610809410:0;la
-: 1610809413:0;mk test1
-: 1610809416:0;cd test
-: 1610809416:0;la
-: 1610809419:0;cd test1
-: 1610809420:0;la
-: 1610809427:0;npm init
-: 1610809438:0;la
-: 1610809448:0;npm express
-: 1610809451:0;la
-: 1610809454:0;npm i express
-: 1610809506:0;la
-: 1610809543:0;npm i nodemon
-: 1610809575:0;la
-: 1610809764:0;mk src
-: 1610809767:0;cd src
-: 1610809767:0;la
-: 1610809771:0;v index.js
-: 1610809957:0;pac vscode
-: 1610810580:0;dot
-: 1610810580:0;la
-: 1610810588:0;cd vscode
-: 1610810588:0;la
-: 1610810590:0;v keybindings.json
-: 1610810594:0;v settings.json
-: 1610811191:0;plover
-: 1610811196:0;pac plover
-: 1610814408:0;cd dotfiles/vscode
-: 1610814408:0;la
-: 1610814411:0;cat keybindings.json
-: 1610814415:0;cat settings.json
-: 1610814415:0;la
-: 1610814907:0;plover
-: 1610814909:0;pac plover
-: 1610814922:0;pacr plover
-: 1610814925:0;pacr plover-git
-: 1610814931:0;pac plover-git
-: 1610814953:0;plover
-: 1610814965:0;pac plover
-: 1610815569:0;cd .config/Code\ -\ OSS
-: 1610815570:0;la
-: 1610815574:0;cd User
-: 1610815575:0;la
-: 1610815596:0;ln -f keybindings.json settings.json ~/dotfiles/vscode
-: 1610815597:0;la
-: 1610815603:0;plover
-: 1610815624:0;pac plover-git
-: 1610815737:0;plover
-: 1610815740:0;pac plover
-: 1610815765:0;irc
-: 1610815785:0;xset r rate 200 20
-: 1610815796:0;xset r
-: 1610815801:0;xset r rate 200 20
-: 1610817326:0;cd dotfiles/nvim
-: 1610817326:0;la
-: 1610817340:0;cd .config/Code\ -\ OSS
-: 1610817341:0;la
-: 1610817343:0;cd User
-: 1610817343:0;la
-: 1610817346:0;cd snippets
-: 1610817346:0;la
-: 1610817360:0;cd snippets
-: 1610817361:0;la
-: 1610817394:0;cd dotfiles/vscode
-: 1610817395:0;la
-: 1610817405:0;ln -f * ../../vscode/snippets
-: 1610817425:0;..
-: 1610817427:0;la
-: 1610817428:0;..
-: 1610817431:0;cd vscode
-: 1610817432:0;la
-: 1610817434:0;cd snippets
-: 1610817434:0;la
-: 1610817460:0;ln -f * ~/.config/Code\ -\ OSS/User/snippets
-: 1610820103:0;pac vscode
-: 1610820110:0;yay vscode
-: 1610820850:0;cd dotfiles/vscode
-: 1610820850:0;la
-: 1610820872:0;ln -f settings.json ~/.config/Code/User/settings.json
-: 1610820900:0;ln -f keybindings.json ~/.config/Code/User/keybindings.json
-: 1610823931:0;code ~/dotfiles
-: 1610824451:0;cd code/javascript
-: 1610824452:0;la
-: 1610824453:0;..
-: 1610824457:0;cd node
-: 1610824458:0;la
-: 1610824460:0;cd nodejs
-: 1610824461:0;la
-: 1610824464:0;cd test1
-: 1610824466:0;code .
-: 1610825804:0;dow
-: 1610825804:0;la
-: 1610825870:0;mv \[HorribleSubs\]\ Fruits\ Basket\ S2\ \(2019\)\ -\ Complete\ \[1080p\] fruits-basket-season-2
-: 1610825871:0;la
-: 1610825903:0;cd shows/kabukichou-sherlock
-: 1610825908:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 04\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1610828293:0;power
-: 1610873823:0;cd code
-: 1610873825:0;code .
-: 1610873832:0;zh
-: 1610873834:0;zsh
-: 1610873888:0;code .
-: 1610873916:0;edit .
-: 1610873926:0;so
-: 1610873928:0;edit .
-: 1610873948:0;exit
-: 1610873951:0;edit .
-: 1610873959:0;code .
-: 1610873971:0;edit .
-: 1610873977:0;zsh
-: 1610873989:0;code .
-: 1610873991:0;zsh
-: 1610874003:0;edit .
-: 1610875406:0;cd code/nodejs
-: 1610875409:0;edit .
-: 1610881342:0;cd dotfiles/vscode
-: 1610881345:0;v keybindings.json
-: 1610881505:0;cd ..
-: 1610881507:0;la
-: 1610881511:0;code .
-: 1610881517:0;edit .
-: 1610883806:0;edit code/nodejs
-: 1610884234:0;code
-: 1610884541:0;git config --global user.email "malachithomas110@gmail.com"
-: 1610884693:0;vscode://vscode.github-authentication/did-authenticate?windowid=1&code=59d93e333764b4c0f5af&state=173a8812-e539-4e8e-a502-328b8e63b5bc
-: 1610884776:0;cd dotfiles/vscode
-: 1610884779:0;cat keybindings.json
-: 1610884783:0;cat settings.json
-: 1610884786:0;la
-: 1610888366:0;code .
-: 1610888380:0;code
-: 1610895347:0;cd src
-: 1610895347:0;la
-: 1610895354:0;node 
-: 1610895358:0;node .
-: 1610895786:0;q
-: 1610896586:0;exit
-: 1610900235:0;code
-: 1610900316:0;youtube-dl https://123movies.net/watch/vJYA0W0d-money-heist-season-1/episode-10.html
-: 1610900560:0;cd Downloads
-: 1610900561:0;al
-: 1610900561:0;la
-: 1610900871:0;mv \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 01\ \~\ 25\ \[720p\] fruits-basket-season-1
-: 1610900871:0;la
-: 1610900888:0;mv fruits-basket-2019-season-1 
-: 1610900905:0;mv fruits-basket-season-1 fruits-basket-2019-season-1 
-: 1610900906:0;la
-: 1610900918:0;mv fruits-basket-season-2 fruits-basket-2019-season-2 
-: 1610900919:0;la
-: 1610900941:0;mv fruits-basket-2019-season-1 fruits-basket-2019-season-2 ~/shows/
-: 1610900942:0;la
-: 1610900943:0;..
-: 1610900949:0;cd shows
-: 1610900950:0;la
-: 1610900953:0;du .
-: 1610900957:0;du -h .
-: 1610900964:0;df -h .
-: 1610900966:0;df -h
-: 1610901164:0;node .
-: 1610901166:0;cd shrc
-: 1610901168:0;cd src
-: 1610901170:0;node .
-: 1610901662:0;cd dotfiles/nvim
-: 1610901662:0;la
-: 1610901664:0;cd snippets
-: 1610901666:0;la
-: 1610901673:0;v javascript.json
-: 1610901686:0;cd dotfiles/nvim
-: 1610901688:0;cd snippets
-: 1610901688:0;la
-: 1610901727:0;ln -f * ~/.config/Code/User/snippets
-: 1610901760:0;ln -f ~/.config/Code/User/snippets/* ~/dotfiles/vscode/snippets
-: 1610902056:0;..
-: 1610902063:0;nodemon src/index.js
-: 1610902211:0;npm run 
-: 1610902216:0;npm run start
-: 1610902220:0;npm run run
-: 1610902240:0;npm start
-: 1610902311:0;npm dev
-: 1610902314:0;npm run dev
-: 1610903776:0;dot
-: 1610903781:0;cd vscode/snippets
-: 1610903792:0;vim ../settings.json
-: 1610903800:0;vim ../keybindings.json
-: 1610905242:0;screenkey
-: 1610905725:0;edit code/nodejs
-: 1610906364:0;npm run dev
-: 1610906443:0;nodemon src/index.js
-: 1610906446:0;la
-: 1610906449:0;cd src
-: 1610906449:0;la
-: 1610907139:0;cd dotfiles
-: 1610907158:0;commit "started to use vscode"
-: 1610909343:0;npm run dev
-: 1610909351:0;la
-: 1610909353:0;..
-: 1610909356:0;npm run dev
-: 1610909362:0;la
-: 1610909389:0;npm run dev
-: 1610909394:0;cd src
-: 1610909401:0;la
-: 1610909424:0;npm run dev
-: 1610913872:0;cd shows/kabukichou-sherlock
-: 1610913881:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 05\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1610916538:0;as
-: 1610918261:0;power
-: 1610965164:0;cd shows
-: 1610965167:0;du -h .
-: 1610965308:0;ls -R
-: 1610965311:0;ls -Rr
-: 1610965312:0;ls -r
-: 1610965317:0;ls -d
-: 1610965323:0;tree 
-: 1610965340:0;tree -I trading
-: 1610965354:0;dow
-: 1610965355:0;la
-: 1610965466:0;..
-: 1610965469:0;edit code/nodejs
-: 1610965860:0;vim  app/build.rs
-: 1610970121:0;npm run dev
-: 1610975437:0;la
-: 1610977680:0;npm run dev
-: 1610980614:0;nodemon src/index.js
-: 1610985559:0;nodemon index.js
-: 1610986031:0;npm run dev
-: 1610989616:0;cd code
-: 1610989616:0;la
-: 1610989621:0;mk electron
-: 1610989623:0;cd electron
-: 1610989623:0;la
-: 1610989628:0;mk test-project
-: 1610989630:0;cd test-project
-: 1610989630:0;la
-: 1610989636:0;npm init  of
-: 1610989639:0;npm init -y
-: 1610989641:0;la
-: 1610989655:0;npm i electron
-: 1610999933:0;la
-: 1610999940:0;vim package.json
-: 1610999948:0;electron 
-: 1610999960:0;electron --help
-: 1610999995:0;..
-: 1611000002:0;cd test-project
-: 1611000039:0;cd shows/
-: 1611000043:0;cd kabukichou-sherlock
-: 1611000047:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 06\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611003611:0;cd code
-: 1611003613:0;cd electron
-: 1611003613:0;la
-: 1611003617:0;cd test-project
-: 1611003619:0;la
-: 1611003627:0;rma node_modules package.json package-lock.json
-: 1611003636:0;npx create-electron-app .\
-
-: 1611003653:0;irc
-: 1611003669:0;pac autotiling
-: 1611003693:0;autotiling
-: 1611004240:0;npm start
-: 1611004266:0;..
-: 1611004270:0;cd electron/test-project
-: 1611004270:0;la
-: 1611004274:0;edit .
-: 1611004697:0;betterlockscreen -s
-: 1611043429:0;npm start
-: 1611044014:0;npm install -g vue-cli\
-
-: 1611044072:0;..
-: 1611044075:0;cd electron
-: 1611044080:0;mk vue
-: 1611044084:0;cd vue
-: 1611044085:0;la
-: 1611044089:0;mk test-project
-: 1611044091:0;cd test-project
-: 1611044092:0;..
-: 1611044099:0;rma test-project 
-: 1611044200:0;la
-: 1611044205:0;cd vue
-: 1611044206:0;la
-: 1611044217:0;cd test-project
-: 1611044218:0;la
-: 1611044227:0;npm install -g vue-cli\
-
-: 1611044253:0;la
-: 1611044261:0;npm install -g vue-cli\
-
-: 1611044277:0;vue init simulatedgreg/electron-vue .
-: 1611044354:0;npm run dev
-: 1611044358:0;la
-: 1611044364:0;vim package.json
-: 1611044377:0;npm run dev
-: 1611044408:0;rma *
-: 1611044410:0;la
-: 1611044414:0;rm .*
-: 1611044415:0;la
-: 1611044418:0;rma .*
-: 1611044419:0;la
-: 1611044432:0;vue init simulatedgreg/electron-vue my-project
-: 1611044459:0;cd my-project
-: 1611044464:0;npm install
-: 1611044819:0;npm run dev
-: 1611044849:0;npm start
-: 1611044851:0;npm run dev
-: 1611044889:0;cd code/electron/vue/test-project
-: 1611044890:0;la
-: 1611044902:0;rma my-project
-: 1611044907:0;la
-: 1611044928:0;npx create-electron-app .\
-
-: 1611044995:0;..
-: 1611045003:0;mk test-project2
-: 1611045007:0;cd test-project2
-: 1611045007:0;la
-: 1611045030:0;vue create electron-vue\
-
-: 1611045041:0;la
-: 1611045062:0;npm uninstall -g vue-cli\
-  npm install -g @vue/cli
-: 1611045420:0;la
-: 1611045426:0;vue create electron-vue\
-
-: 1611045472:0;la
-: 1611045476:0;cd electron-vue
-: 1611045476:0;la
-: 1611045485:0;npm run serve
-: 1611045649:0;cd ~/code/electron/vue/test-project2/electron-vue/
-: 1611045650:0;la
-: 1611045660:0;npm run serve
-: 1611045670:0;la
-: 1611045673:0;npm start
-: 1611045677:0;npm run dev
-: 1611045682:0;v package.json
-: 1611045701:0;npm run serve
-: 1611045716:0;..
-: 1611045719:0;la
-: 1611045723:0;cd test-project
-: 1611045724:0;la
-: 1611045727:0;mk test-project
-: 1611045737:0;rma vue
-: 1611045743:0;la
-: 1611045748:0;cd test-project
-: 1611045748:0;la
-: 1611045824:0;npm i electron
-: 1611045830:0;lla
-: 1611045831:0;la
-: 1611045836:0;npm init -y
-: 1611045837:0;la
-: 1611045929:0;electron .
-: 1611045948:0;v package.json
-: 1611045958:0;edit .
-: 1611045980:0;la
-: 1611045986:0;rma ./*
-: 1611045988:0;la
-: 1611045998:0;npx create-electron-app .\
-
-: 1611046066:0;la
-: 1611046095:0;electron .
-: 1611046197:0;..
-: 1611046205:0;mk custom-electron-app
-: 1611046208:0;cd custom-electron-app
-: 1611046208:0;la
-: 1611046211:0;npm init -y
-: 1611046214:0;npm i electron
-: 1611046228:0;edit .
-: 1611046306:0;electron .
-: 1611046796:0;cd ~/code/electron/test-project
-: 1611046797:0;la
-: 1611046800:0;cd src
-: 1611046801:0;la
-: 1611046806:0;v main.js
-: 1611048064:0;electron .
-: 1611052833:0;npm start
-: 1611052840:0;npm run dev
-: 1611052848:0;cat package.json
-: 1611052900:0;npm start
-: 1611053537:0;la
-: 1611053554:0;npm start
-: 1611054159:0;electron .
-: 1611054207:0;cd ~/code/electron/test-project
-: 1611054208:0;la
-: 1611054213:0;cd src
-: 1611054217:0;v main.js
-: 1611054830:0;npm start
-: 1611054909:0;la
-: 1611054915:0;cat package.json
-: 1611054935:0;electron src/main.js
-: 1611054944:0;electron .
-: 1611054972:0;la
-: 1611055000:0;npm start
-: 1611059647:0;electron .
-: 1611059650:0;la
-: 1611059657:0;electron src/main.js
-: 1611059667:0;npm run start
-: 1611059731:0;npm start
-: 1611060343:0;electron src/main.js
-: 1611060832:0;exit
-: 1611060836:0;exit
-: 1611061069:0;electron src/main.js
-: 1611063153:0;exit
-: 1611063156:0;electron src/main.js
-: 1611066638:0;exit
-: 1611066640:0;electron src/main.js
-: 1611066974:0;dow
-: 1611066975:0;la
-: 1611066993:0;mv The\ Sacred\ Blacksmith\ \(720p\)\(V2\) the-sacred-blacksmith
-: 1611066994:0;la
-: 1611067009:0;mv the-sacred-blacksmith ~/shows
-: 1611067011:0;la
-: 1611067012:0;..
-: 1611067013:0;la
-: 1611068379:0;cd code
-: 1611068379:0;la
-: 1611068382:0;cd electron
-: 1611068382:0;la
-: 1611068390:0;rma test-project
-: 1611068400:0;mk electron-vue
-: 1611068402:0;cd electron-vue
-: 1611068403:0;la
-: 1611068417:0;vue create .
-: 1611068520:0;npm run serve
-: 1611068527:0;la
-: 1611068532:0;ll
-: 1611068635:0;vue add electron-builder
-: 1611069922:0;cd code/electron
-: 1611069923:0;la
-: 1611069925:0;cd custom-electron-app
-: 1611069925:0;la
-: 1611069929:0;electron src/main.js
-: 1611070357:0;-
-: 1611070365:0;cd ~/code/electron/custom-electron-app
-: 1611070371:0;npm start
-: 1611070379:0;electron src/main.js
-: 1611073880:0;cd ~/code/electron/custom-electron-app
-: 1611073880:0;la
-: 1611073893:0;electron src/main.js
-: 1611085948:0;cd shows/kabukichou-sherlock
-: 1611085953:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 07\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611092390:0;...
-: 1611092391:0;la
-: 1611092403:0;pac stm32cubeide
-: 1611092418:0;update
-: 1611134218:0;cd ~/
-: 1611134224:0;cd ~/code/electron/custom-electron-app
-: 1611134224:0;la
-: 1611134228:0;electron src/main.js
-: 1611137228:0;not
-: 1611137235:0;cd software/css
-: 1611137236:0;la
-: 1611137247:0;v flex-basis.md
-: 1611137263:0;v flex.md
-: 1611137268:0;rm flex.md
-: 1611137269:0;la
-: 1611137277:0;v flex-direction.md
-: 1611137336:0;la
-: 1611137341:0;v flexbox.md
-: 1611156038:0;xset r rate 200 20
-: 1611159824:0;pac plover
-: 1611159854:0;rma
-: 1611159860:0;sudo rm /var/lib/pacman/db.lck
-: 1611159861:0;pac plover
-: 1611159999:0;plover
-: 1611160017:0;pac python
-: 1611160021:0;pac python3
-: 1611160198:0;npm i vue
-: 1611160206:0;cat package.json
-: 1611160628:0;npm uninstall vue
-: 1611160631:0;cat package.json
-: 1611170692:0;as
-: 1611170731:0;cd ~/code/electron/custom-electron-app
-: 1611170731:0;la
-: 1611170748:0;al
-: 1611170749:0;la
-: 1611170757:0;electron .
-: 1611170762:0;la
-: 1611170765:0;v package.json
-: 1611170775:0;la
-: 1611170776:0;cd src
-: 1611170777:0;la
-: 1611170780:0;..
-: 1611170781:0;la
-: 1611170788:0;electron src/main.js
-: 1611171252:0;npm i usb
-: 1611171308:0;electron src/main.js
-: 1611171336:0;npm i usb
-: 1611171340:0;cat package.json
-: 1611171373:0;pac libudev
-: 1611171385:0;electron src/main.js
-: 1611171902:0;cd ~/code/electron/custom-electron-app
-: 1611171905:0;electron src/main.js
-: 1611172310:0;npm install
-: 1611172518:0;electron src/main.js
-: 1611172792:0;npm i electron-reload
-: 1611172822:0;electron src/main.js
-: 1611173312:0;cd shows/kabukichou-sherlock
-: 1611173322:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 08\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611174911:0;l
-: 1611174914:0;bin
-: 1611174915:0;la
-: 1611174969:0;v toggl.sh
-: 1611174976:0;la
-: 1611174981:0;sxh
-: 1611175008:0;v test.sh
-: 1611175045:0;sh test.sh
-: 1611175105:0;npm i usb
-: 1611175108:0;electron src/main.js
-: 1611217404:0;cd /
-: 1611217405:0;la
-: 1611217746:0;npm child_process
-: 1611217749:0;npm i child_process
-: 1611217753:0;npm child_process
-: 1611217756:0;electron src/main.js
-: 1611243697:0;pac stm32cubeide
-: 1611243718:0;pacr stm32cubeMX
-: 1611243720:0;pacr stm32cubemx
-: 1611243726:0;pac stm32cubemx
-: 1611259121:0;cd shows/kabukichou-sherlock
-: 1611259124:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 09\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611263047:0;electron src/main.js
-: 1611268131:0;betterlockscreen -s
-: 1611301453:0;electron src/main.js
-: 1611307994:0;la
-: 1611308006:0;..
-: 1611308052:0;mv custom-electron-app electron-steno-in-one
-: 1611308053:0;la
-: 1611308055:0;cd electron-steno-in-one
-: 1611308056:0;la
-: 1611308075:0;v package.json
-: 1611308142:0;gitStartup electron-steno-in-one
-: 1611308216:0;la
-: 1611308219:0;rma .git
-: 1611308221:0;la
-: 1611308231:0;git init
-: 1611308233:0;la
-: 1611308252:0;commit 'started electron-steno-in-one'
-: 1611308261:0;git remote add origin git@github.com:banana-llarma/electron-steno-in-one.git
-: 1611308267:0;git push -u origin main\
-
-: 1611308278:0;git branch -M main
-: 1611308281:0;git push -u origin main\
-
-: 1611308297:0;du -h .
-: 1611308301:0;la
-: 1611308316:0;v .gitignore
-: 1611308334:0;git push -u origin main\
-
-: 1611308345:0;la
-: 1611308350:0;rma .git
-: 1611308354:0;git init
-: 1611308359:0;git branch -M main
-: 1611308365:0;commit 'started electron-steno-in-one'
-: 1611308384:0;git push -u origin main\
-
-: 1611308393:0;git commit -m "first commit"
-: 1611308402:0;la
-: 1611308406:0;git push -u origin main\
-
-: 1611308413:0;git remote add origin git@github.com:banana-llarma/electron-steno-in-one.git
-: 1611308414:0;git push -u origin main\
-
-: 1611308422:0;la
-: 1611308646:0;electron src/main.js\
-
-: 1611309506:0;z electron
-: 1611309507:0;la
-: 1611309512:0;cd electron-steno-in-one
-: 1611309512:0;la
-: 1611309539:0;v .git
-: 1611309545:0;v .gitignore
-: 1611309577:0;commit 'removed .vscode folder'
-: 1611309620:0;la
-: 1611309625:0;rma .vscode 
-: 1611309627:0;la
-: 1611309632:0;edit .
-: 1611309783:0;electron src/main.js\
-
-: 1611329073:0;npm i mongodb
-: 1611331039:0;commit ''
-: 1611331044:0;commit ' '
-: 1611331051:0;commit 'save'
-: 1611332373:0;electron src/main.js\
-
-: 1611333376:0;cd src/
 : 1611333377:0;la
 : 1611333383:0;node file.js
 : 1611333393:0;electron src/main.js\
@@ -10941,3 +9650,456 @@ xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 0 1 4 5 6 7 0 0\
 : 1616070845:0;lrc
 : 1616072594:0;dot
 : 1616072606:0;commit 'more lsp in nvim'
+: 1616072632:0;la
+: 1616072635:0;..
+: 1616072638:0;cd
+: 1616072639:0;la
+: 1616072652:0;./.fehbg
+: 1616076820:0;la
+: 1616083625:0;cd projects/nodejs
+: 1616083631:0;v index.js
+: 1616083747:0;cd projects/nodejs
+: 1616083751:0;npm start
+: 1616088100:0;cd .config
+: 1616088100:0;la
+: 1616088125:0;cd Code/exthost\ Crash\ Reports
+: 1616088126:0;la
+: 1616088127:0;..
+: 1616088127:0;la
+: 1616088131:0;fzf
+: 1616088144:0;..
+: 1616088145:0;la
+: 1616088167:0;sh color.sh
+: 1616102716:0;..
+: 1616102718:0;code .
+: 1616104885:0;pac consider ttf-dejavu
+: 1616104896:0;pac ttf-liberation
+: 1616104905:0;pacman -Sy ttf-ms-fonts
+: 1616104955:0;    \   'default': "ÓÉ∑ø",\
+
+: 1616105054:0;ÓÉ∑øÓÉ∑øÓÉ∑øÓÉ∑øÓÉ∑øÓÉ∑øÓÉ∑øÓÉ∑øÓÉ∑øÓÉ∑øÓÉ∑øÓÉ∑øÓÉ∑ø ÓÉ∑ø ÉøÉ≥Å
+: 1616105136:0;ÓÉ∑æ
+: 1616108142:0;pac figma
+: 1616108398:0;cd dotfiles
+: 1616108399:0;code .
+: 1616110421:0;code .
+: 1616110525:0;power
+: 1616110567:0;code
+: 1616110602:0;nvim .bash_profile
+: 1616111585:0;power
+: 1616136966:0;nvim
+: 1616136976:0;v .dmenurc
+: 1616137933:0;nvim
+: 1616147472:0;v .dmenurc
+: 1616153659:0;pkill lite
+: 1616153668:0;pac plover
+: 1616153812:0;plover
+: 1616154009:0;pac wally
+: 1616154251:0;cd dot
+: 1616154254:0;cd dotfiles
+: 1616154255:0;la
+: 1616154257:0;cd plover
+: 1616154257:0;la
+: 1616154269:0;ln -f * ~/.config/plover
+: 1616154273:0;v plover.cfg
+: 1616155284:0;cd dotfiles/plover
+: 1616155284:0;la
+: 1616155286:0;v modifiers.json
+: 1616155490:0;cd dotfiles/plover
+: 1616155491:0;la
+: 1616155585:0;v keys.json
+: 1616156603:0;cd dotfiles/plover
+: 1616156605:0;v modifiers.json
+: 1616160749:0;pac wacom
+: 1616161018:0;xsetwacom -l
+: 1616161023:0;xsetwacom -l device
+: 1616161027:0;xsetwacom -l devices
+: 1616161034:0;xsetwacom --list devices
+: 1616161045:0;xsetwacom --set "Wacom Intuos S Pen stylus" Button 2 "pan"
+: 1616161060:0;xsetwacom --set "Wacom Intuos BT S Pen stylus" Button 2 "pan"
+: 1616161092:0;xsetwacom --set "Wacom Intuos S Pen stylus" "PanScrollThreshold" 200
+: 1616161102:0;xsetwacom --set "Wacom Intuos BT S Pen stylus" "PanScrollThreshold" 200
+: 1616161144:0;bin
+: 1616161150:0;v wacom-tablet.sh
+: 1616161203:0;./wacom-tablet.sh
+: 1616161234:0;xsetwacom
+: 1616161249:0;man xsetwacom
+: 1616161271:0;man xsetwacom | nvim
+: 1616161413:0;xinput list
+: 1616161493:0;xsetwacom 
+: 1616161505:0;xsetwacom --list parameters
+: 1616161514:0;xsetwacom --list parameters | fzf
+: 1616161526:0;bin
+: 1616161527:0;v wacom-tablet.sh
+: 1616161546:0;xsetwacom --list
+: 1616161550:0;xsetwacom 
+: 1616161571:0;xsetwacom --list modifiers
+: 1616161577:0;xsetwacom --list modifiers | fzf
+: 1616161584:0;xsetwacom --list
+: 1616161586:0;xsetwacom 
+: 1616161614:0;xsetwacom get "Wacom Intuos BT S Pen stylus"
+: 1616161619:0;xsetwacom --get "Wacom Intuos BT S Pen stylus"
+: 1616161638:0;xsetwacom --get "Wacom Intuos BT S Pen stylus" "Button 1"
+: 1616161643:0;xsetwacom --get "Wacom Intuos BT S Pen stylus" "Button"
+: 1616161647:0;xsetwacom --get "Wacom Intuos BT S Pen stylus" "Button1"
+: 1616161654:0;xsetwacom --get "Wacom Intuos BT S Pen stylus" "Button"
+: 1616161656:0;xsetwacom --get "Wacom Intuos BT S Pen stylus" "Button2"
+: 1616161659:0;xsetwacom --get "Wacom Intuos BT S Pen stylus" "Button"
+: 1616161665:0;xsetwacom --get "Wacom Intuos BT S Pen stylus" Button
+: 1616161667:0;xsetwacom --get "Wacom Intuos BT S Pen stylus" Button 1
+: 1616161670:0;xsetwacom --get "Wacom Intuos BT S Pen stylus" Button 2
+: 1616161673:0;xsetwacom --get "Wacom Intuos BT S Pen stylus" Button 3
+: 1616161675:0;xsetwacom --get "Wacom Intuos BT S Pen stylus" Button 4
+: 1616161689:0;xsetwacom "Wacom Intuos BT S Pen stylus" 
+: 1616161818:0;xsetwacom set 'Wacom Intuos3 6x8' 'Button2' '3'
+: 1616161835:0;xsetwacom --set "Wacom Intuos BT S Pen stylus" Button 3 '3'
+: 1616161853:0;xsetwacom --set "Wacom Intuos BT S Pen stylus" Button 3 '2'
+: 1616162025:0;irc
+: 1616162033:0;bin
+: 1616162044:0;mv wacom-tablet.sh mouses.sh
+: 1616162046:0;v mouses.sh
+: 1616162055:0;irc
+: 1616162059:0;v mouses.sh
+: 1616162090:0;irc
+: 1616162669:0;bin
+: 1616162671:0;v mouses.sh
+: 1616162728:0;./mouses.sh
+: 1616162756:0;vim
+: 1616185683:0;pac figma
+: 1616186759:0;la
+: 1616186772:0;alias ls='la'
+: 1616186773:0;la
+: 1616186775:0;ls
+: 1616186778:0;la
+: 1616186786:0;alias la='ls -a'
+: 1616186788:0;la
+: 1616186793:0;ls
+: 1616186799:0;la
+: 1616186806:0;zsh
+: 1616186844:0;cd dotfiles/zsh
+: 1616186844:0;la
+: 1616186846:0;v 
+: 1616186856:0;la
+: 1616186860:0;v 
+: 1616186880:0;fd 
+: 1616186882:0;fzf
+: 1616186890:0;vpc
+: 1616186944:0;fd | fzf
+: 1616186952:0;zsh
+: 1616186964:0;v .zshenv
+: 1616186981:0;vpc
+: 1616187023:0;fd --hidden
+: 1616187026:0;fd --hidden | fzf
+: 1616187036:0;zsh
+: 1616187039:0;v .zshenv
+: 1616187087:0;vpc
+: 1616187197:0;fzf
+: 1616187201:0;v .zshenv
+: 1616187210:0;v vpc
+: 1616187213:0;vpc
+: 1616187300:0;fd -tf
+: 1616187301:0;fd -td
+: 1616187304:0;fd -t
+: 1616187306:0;fd -tf
+: 1616187314:0;fd -tx
+: 1616187316:0;fd -te
+: 1616187320:0;fd -tf
+: 1616187327:0;zsh
+: 1616187334:0;vpc
+: 1616187372:0;la
+: 1616187378:0;v .zshenv
+: 1616187389:0;vpc
+: 1616187508:0;la
+: 1616187509:0;..
+: 1616187516:0;cd dotfiles/nvim
+: 1616187517:0;la
+: 1616187522:0;cd .config/nvim
+: 1616187522:0;la
+: 1616187526:0;rm \ \ \ \ -g,\ --glob\ \ \ \ \ \ \ \ \ \ \ \ \ \ Glob-based\ search\ \(default:\ regular\ expression\)
+: 1616187527:0;la
+: 1616187534:0;v plugin-configs.vim
+: 1616187538:0;v plugin-configs.vim
+: 1616187551:0;la
+: 1616187560:0;la
+: 1616187566:0;v plugins.vim
+: 1616187756:0;lrc
+: 1616187776:0;vpc
+: 1616187790:0;..
+: 1616187791:0;cd zh
+: 1616187794:0;zsh
+: 1616187800:0;cd zs
+: 1616187803:0;cd zsh
+: 1616187803:0;la
+: 1616187806:0;v .zshenv
+: 1616187871:0;vpc
+: 1616189215:0;rg cat
+: 1616189221:0;rg hat
+: 1616189225:0;rg e
+: 1616189242:0;la
+: 1616189250:0;rg | fzf
+: 1616189256:0;rg hats | fzf
+: 1616189267:0;rg hats
+: 1616189273:0;rg \hats
+: 1616189279:0;rg \shats
+: 1616189288:0;rg /\vshats
+: 1616189291:0;rg /\vhat
+: 1616189293:0;rg /\va
+: 1616189303:0;rg cats-are
+: 1616189306:0;rg cats-are-cool
+: 1616189314:0;rg cat
+: 1616189329:0;nvim .dmrc
+: 1616189343:0;cd projects
+: 1616189344:0;la
+: 1616189347:0;cd nodejs
+: 1616189348:0;la
+: 1616189350:0;v 
+: 1616189367:0;zsh
+: 1616189397:0;v index.js
+: 1616189411:0;zsh
+: 1616189421:0;v 
+: 1616189427:0;zsh
+: 1616189435:0;fzf
+: 1616189437:0;fd
+: 1616189439:0;fd -h
+: 1616189481:0;fzf
+: 1616189485:0;fd
+: 1616189494:0;fd -E node_modules
+: 1616189499:0;fd -E 'node_modules'
+: 1616189506:0;cd projects/nodejs
+: 1616189509:0;fzf
+: 1616189513:0;v 
+: 1616189519:0;so
+: 1616189523:0;cd projects/nodejs
+: 1616189525:0;v 
+: 1616189561:0;la
+: 1616189561:0;..
+: 1616189562:0;la
+: 1616190294:0;nvim
+: 1616191111:0;betterlockscreen -s
+: 1616224665:0;vrc
+: 1616226438:0;la
+: 1616226446:0;pac swift
+: 1616227585:0;la
+: 1616227595:0;cd projects/nodejs
+: 1616227597:0;v index.js
+: 1616228039:0;sh color.sh
+: 1616250250:0;[3~
+: 1616250256:0;[3~[3~[3~[3~[3~
+: 1616250295:0;[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[23~
+: 1616254421:0;v test.md
+: 1616275113:0;power
+: 1616317535:0;''''''''''''''''''''qa'o''''''''''''';;;;;;;q'q'''''''''''''''''';;[3~[3~[3~[3~[
+: 1616318498:0;cd projects
+: 1616318499:0;la
+: 1616318514:0;mk rust-steno
+: 1616318516:0;cd rust-steno
+: 1616318518:0;cargo init
+: 1616318520:0;la
+: 1616318533:0;v src/main.rs
+: 1616318813:0;cargo run
+: 1616319777:0;v Cargo.toml
+: 1616319807:0;cargo run
+: 1616319812:0;v Cargo.toml
+: 1616319825:0;cargo run
+: 1616320758:0;cargo inin
+: 1616320759:0;cargo init
+: 1616320763:0;rm Cargo.toml
+: 1616320765:0;rm Cargo.lock
+: 1616320767:0;cargo init
+: 1616320770:0;v Cargo.toml
+: 1616320785:0;cargo run
+: 1616320840:0;pac x11
+: 1616320845:0;cargo build
+: 1616320859:0;v src/main.rs
+: 1616320870:0;cargo build
+: 1616320881:0;cargo run
+: 1616320910:0;cargo build
+: 1616320916:0;v Cargo.toml
+: 1616321114:0;v src/main.rs
+: 1616321119:0;cargo build
+: 1616321157:0;cargo run
+: 1616321194:0;ca
+: 1616321197:0;cargo run
+: 1616321519:0;cd projects/rust-steno
+: 1616321520:0;v Cargo.toml
+: 1616321532:0;cargo build
+: 1616323009:0;v Cargo.toml
+: 1616323013:0;cargo build
+: 1616327515:0;cd dotfiles/plover
+: 1616327516:0;la
+: 1616327522:0;cd ~/.config/plover
+: 1616327522:0;la
+: 1616327525:0;rm *
+: 1616327530:0;la
+: 1616327533:0;-
+: 1616327534:0;la
+: 1616327535:0;-
+: 1616327535:0;la
+: 1616327545:0;cd -
+: 1616327587:0;pac pip
+: 1616327597:0;pac python3-pip
+: 1616327601:0;pac python-pip
+: 1616327643:0;pip install plover-plugins-manager
+: 1616327656:0;pac -Syy
+: 1616327997:0;la
+: 1616328000:0;rm *
+: 1616328005:0;cd -
+: 1616328011:0;ln -f * ~/.config/plover
+: 1616328849:0;cd dotfiles/plover
+: 1616328852:0;v keys.json
+: 1616329011:0;HR-T
+: 1616329057:0;v keys.json
+: 1616329325:0;ln -f * ~/.config/plover
+: 1616329344:0;cd .config/plover
+: 1616329346:0;v keys.json
+: 1616329350:0;la
+: 1616339657:0; children children # dood consisted consist couldcu HAV HARF
+: 1616343430:0;pac neovim-git
+: 1616343484:0;la
+: 1616343486:0;..
+: 1616343487:0;la
+: 1616343503:0;v .zhistory
+: 1616343508:0;la
+: 1616345674:0;cd projects
+: 1616345675:0;la
+: 1616345677:0;mk rut
+: 1616345680:0;mk rust 
+: 1616345685:0;rm rut
+: 1616345687:0;rma rut
+: 1616345691:0;cd rust
+: 1616345691:0;la
+: 1616345695:0;cargo init
+: 1616345737:0;l
+: 1616345739:0;la
+: 1616345743:0;v src/main.rs
+: 1616345807:0;cd projects
+: 1616345809:0;cd rust
+: 1616345810:0;v src/main.rs
+: 1616345867:0;lrc
+: 1616345920:0;cd ~/.config/nvim
+: 1616345921:0;la
+: 1616345926:0;rma plugged
+: 1616345933:0;nvim
+: 1616346238:0;cd projects/rust
+: 1616346239:0;v src/main.rs
+: 1616346251:0;cd projects/rust
+: 1616346252:0;v src/main.rs
+: 1616346255:0;
+: 1616346260:0;nvim src/main.rs
+: 1616346268:0;vim src/main.rs
+: 1616346303:0;cd projects/rust
+: 1616346304:0;v src/main.rs
+: 1616346335:0;bash
+: 1616346388:0;cd .config/nvim
+: 1616346389:0;la
+: 1616346394:0;rma plugged
+: 1616346397:0;nvim
+cd projects/rust
+la
+ls
+nvim src/main.rs 
+: 1616346408:0;cd projects/rust
+: 1616346411:0;v src/main.rs
+: 1616346424:0;nvim
+: 1616356318:0;..
+: 1616356319:0;la
+: 1616356322:0;cd nodejs
+: 1616356323:0;al
+: 1616356325:0;v index.js
+: 1616356354:0;nvim
+: 1616356503:0;dow
+: 1616356505:0;chmod u+x nvim.appimage && ./nvim.appimage
+: 1616356508:0;la
+: 1616356521:0;rm nvim.appimage
+: 1616356523:0;la
+: 1616356536:0;chmod u+x nvim\ \(1\).appimage && ./nvim\ \(1\).appimage
+: 1616356579:0;v icons8-directory-50.png
+: 1616356585:0;cd projects/nodejs
+: 1616356586:0;la
+: 1616356588:0;v index.js
+: 1616356616:0;lrc
+: 1616356620:0;lrc | vim
+: 1616356631:0;cd dotfiles/nvim
+: 1616356635:0;vim lua/init.lua
+: 1616356670:0;nim
+: 1616356672:0;nvim
+: 1616356692:0;cd projects/rust-steno/src
+: 1616356696:0;v main.rs
+: 1616356702:0;ZZ..
+: 1616356712:0;du -h
+: 1616356721:0;df -h
+: 1616356784:0;nvim
+: 1616356793:0;cd projects/rust-steno/src
+: 1616356794:0;v main.rs
+: 1616356811:0;v main.rs main.rs
+: 1616356823:0;lrc
+: 1616356831:0;vrc
+: 1616356835:0;cd projects/rust-steno/src
+: 1616356836:0;v main.rs
+: 1616356844:0;vrc
+: 1616356860:0;cd projects/rust-steno/src
+: 1616356861:0;v main.rs
+: 1616359103:0;pacr neovim-nightly
+: 1616359108:0;pacr neovim
+: 1616359115:0;pac neovim-git
+: 1616359133:0;pacr neovim-git
+: 1616359137:0;nvim
+: 1616359146:0;doww
+: 1616359147:0;dow
+: 1616359148:0;la
+: 1616359202:0;rma flutter flutter_linux_2.0.2-stable.tar.xz \#glade.glade\# glade.glade gtk-0.15.5 gtk-0.15.5\ \(1\).tar.gz gtk-0.15.5.tar.gz gunturpoetra.nodejs-module-snippet-0.0.2.vsix icons8-directory-50.png icons8-directory.svg icons8-error-24.png icons8-file\ \(1\).svg icons8-file\ \(2\).svg icons8-file\ \(3\).svg icons8-file-48.png icons8-file\ \(4\).svg icons8-file-50.png icons8-file.svg icons8-filing.svg icons8-folder\ \(1\).svg icons8-folder\ \(2\).svg icons8-folder\ \(3\).svg icons8-folder\ \(4\).svg icons8-folder\ \(5\).svg icons8-folder.svg icons8-opened-folder\ \(1\).svg icons8-opened-folder\ \(2\).svg icons8-opened-folder\ \(3\).svg icons8-opened-folder\ \(4\).svg icons8-opened-folder\ \(5\).svg icons8-opened-folder.svg nvim\ \(1\).appimage planck_ez_dvorak-layout_qnLDA_aZz93.bin planck_ez_dvorak-layout_qnLDA_GMQzw.bin planck_ez_dvorak-layout_qnLDA_Xe5XW.bin wx-0.92.3.0.tar.gz 
+: 1616359204:0;la
+: 1616359240:0;chmod u+x nvim.appimage && ./nvim.appimage
+: 1616359253:0;nvim
+: 1616359269:0;./nvim.appimage --appimage-extract\
+./squashfs-root/usr/bin/nvim\
+
+: 1616359272:0;nvim
+: 1616359292:0;./nvim.appimage
+: 1616359310:0;./nvim.appimage ~/projects/nodejs/index.js
+: 1616359318:0;lrc
+: 1616359326:0;./nvim.appimage ~/.config/nvim/lua/init.lua
+: 1616359374:0;cd /bin
+: 1616359375:0;la
+: 1616359386:0;mv nvim.appimage /bin/nvim
+: 1616359389:0;sudo mv nvim.appimage /bin/nvim
+: 1616359391:0;nvim
+: 1616359412:0;lrc
+: 1616359740:0;cd ~/dotfiles/plover
+: 1616359740:0;la
+: 1616359748:0;v plover.cfg
+: 1616359753:0;plover
+: 1616359789:0;cd ~/dotfiles/plover
+: 1616359792:0;v plover.cfg
+: 1616359862:0;plover
+: 1616359877:0;v plover.cfg
+: 1616359890:0;screenkey
+: 1616359893:0;pac screenkey
+: 1616359902:0;screenkey
+: 1616359959:0;plover
+: 1616361862:0;vpl
+: 1616361940:0;nvim
+: 1616361975:0;vim ~/dotfiles/nvim/plugins.vim
+: 1616362017:0;cd projects/nodejs
+: 1616362019:0;v index.js
+: 1616362187:0;vpc
+: 1616362247:0;cd ~/.config/nvim
+: 1616362252:0;rma plugged
+: 1616362255:0;nvim
+: 1616362358:0;pac tree-sitter
+: 1616362405:0;vrc
+: 1616362416:0;vpc
+: 1616362719:0;vpl
+: 1616362742:0;vpc
+: 1616362958:0;nvim
+: 1616363020:0;sh color.sh
+: 1616363050:0;lrc
+: 1616363210:0;...
+: 1616363225:0;lrc
+: 1616363256:0;v Makefile
+: 1616363265:0;lrc
+: 1616363272:0;v Makefile
+: 1616363282:0;vrc
+: 1616363321:0;dow
+: 1616363322:0;dot
+: 1616363331:0;commit 'new nvim indent plugin'

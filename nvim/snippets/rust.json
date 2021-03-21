@@ -1,2 +1,8 @@
 {
+  "println": {
+    "prefix": "println",
+    "body": [
+      "println!($0);"
+    ]
+  },
 }

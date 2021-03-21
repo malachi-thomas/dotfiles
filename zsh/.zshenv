@@ -13,7 +13,7 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#928374'
 export TERM=screen-256color
 
 # Fzf settings
-export FZF_DEFAULT_COMMAND="fd -tf --hidden --exclude 'node_modules/**, react-app-env, .git/**'"
+export FZF_DEFAULT_COMMAND="fd -tf --hidden -E node_modules"
 export FZF_DEFAULT_OPTS="--reverse -e --bind=ctrl-h:backward-kill-word "
 export FZF_CTRL_T_COMMAND="fd -tf --hidden --exclude '.git' --exclude 'node_modules'"
 export FZF_ALT_C_COMMAND="fd -td --hidden --exclude '.git' --exclude 'node_modules'"

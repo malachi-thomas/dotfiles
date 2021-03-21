@@ -30,8 +30,6 @@ nnoremap <silent><esc> <esc>:nohl<cr>
 nnoremap K <nop>
 nnoremap Q <nop>
 nnoremap S <nop>
-nnoremap H <nop>
-nnoremap L <nop>
 nnoremap r <nop>
 nnoremap R <nop>
 vnoremap s <nop>

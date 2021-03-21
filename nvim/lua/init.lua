@@ -26,6 +26,20 @@ require'nvim-treesitter.configs'.setup {
   }
 }
 
+
+require'indent_guides'.setup {
+  indent_levels = 30;
+  indent_guide_size = 2;
+  indent_start_level = 1;
+  indent_space_guides = true;
+  indent_tab_guides = true;
+  exclude_filetypes = {'help','dashboard','dashpreview','NvimTree','vista','sagahover'};
+  even_colors = { fg ='#3C3836',bg='#3C3836' };
+  odd_colors = {fg='#504945',bg='#504945'};
+}
+
+
+
 require'compe'.setup {
   enabled = true;
   autocomplete = true;

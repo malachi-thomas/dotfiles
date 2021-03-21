@@ -32,6 +32,9 @@ Plug 'tpope/vim-repeat'
 
 " testing
 Plug 'kien/rainbow_parentheses.vim'
+Plug 'vijaymarupudi/nvim-fzf'
+Plug 'glepnir/indent-guides.nvim'
+
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
@@ -44,7 +47,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/jsonc.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'Yggdroot/indentLine'
+" Plug 'Yggdroot/indentLine'
+" Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'mboughaba/i3config.vim'
 
 call plug#end()

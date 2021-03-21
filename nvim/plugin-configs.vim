@@ -34,14 +34,11 @@ let g:ale_echo_msg_error_str = '✗'
 let g:ale_echo_msg_warning_str = ' '
 let g:ale_echo_msg_format = '[%linter%] %s %severity%'
 
-
-
 command! -bang -nargs=* Rg
       \ call fzf#vim#grep(
       \   'rg --column --line-number --no-heading --color=always --smart-case --glob "!**/node_modules/**" --glob "!**/package-lock.json" '.shellescape(<q-args>), 1,
       \   fzf#vim#with_preview(), <bang>0)
-
-command! -bang -nargs=? -complete=dir Files call fzf#vim#files('', {'source': 'fd'})
+let g:fzf_preview_window = []
 
 " vimwiki
 let g:vimwiki_table_mappings = 0
@@ -129,6 +126,9 @@ nmap , <Plug>(clever-f-repeat-back)
 
 let g:lightline = { 'colorscheme': 'gruvbox' }
 
-let g:indent_guides_enable_on_vim_startup = 1
+" let g:indent_guides_enable_on_vim_startup = 1
 
-let g:indentLine_char_list = '|'
+" let g:indentLine_char_list = ''
+" let g:indentLine_bgcolor_gui = '#FF5F00'
+
+

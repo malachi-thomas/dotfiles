@@ -59,6 +59,7 @@ set backspace=indent,eol,start
 set omnifunc=v:lua.vim.lsp.omnifunc
 set list
 set completeopt=menuone,noinsert,noselect
+
 set noshowmode
 set hlsearch
 set nocompatible
@@ -90,9 +91,8 @@ augroup autocmds
   autocmd Syntax * RainbowParenthesesLoadRound
   autocmd Syntax * RainbowParenthesesLoadSquare
   autocmd Syntax * RainbowParenthesesLoadBraces
-
   autocmd FileType vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
-  autocmd BufReadPre ~/dotfiles/nvim/lua/* nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
+  " autocmd BufReadPre ~/dotfiles/nvim/lua/* nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
 
 
   if has('nvim-0.5')

@@ -22,8 +22,8 @@
     "prefix": "func",
     "body": [
       "const $1 = ($2) => {",
-      "  $0",
-      "}"
+        "  $0",
+        "}"
     ]
   },
   "cl": {
@@ -66,8 +66,8 @@
     "prefix": "httpCreateServer",
     "body": [
       "http.createServer((req, res) => $1 {",
-      "\t$0",
-      "}).listen(port)"
+        "\t$0",
+        "}).listen(port)"
     ]
   },
   "imUrl": {
@@ -111,16 +111,16 @@
     "prefix": "if",
     "body": [
       "if ($1) {",
-      "\t$0",
-      "}"
+        "\t$0",
+        "}"
     ]
   },
   "else": {
     "prefix": "else",
     "body": [
       "else {",
-      "\t$0",
-      "}"
+        "\t$0",
+        "}"
     ]
   },
   "for": {
@@ -133,16 +133,16 @@
     "prefix": "forOf",
     "body": [
       "for (i of $1) {",
-      "\t$0",
-      "}"
+        "\t$0",
+        "}"
     ]
   },
   "forIn": {
     "prefix": "forIn",
     "body": [
       "for (i in $1) {",
-      "\t$0",
-      "}"
+        "\t$0",
+        "}"
     ]
   },
   "map": {
@@ -172,37 +172,37 @@
   "getElementById": {
     "prefix": "getElementById",
     "body": [
-      "document.getElementById('$0')"
+      "getElementById('$0')"
     ]
   },
   "getElementByClassName": {
     "prefix": "getElementByClassName",
     "body": [
-      "document.getElementByClassName('$0')"
+      "getElementByClassName('$0')"
     ]
   },
   "getElementsById": {
     "prefix": "getElementsById",
     "body": [
-      "document.getElementsByID('$0)"
+      "getElementsByID('$0)"
     ]
   },
   "getElementsByClassName": {
     "prefix": "getElementsByClassName",
     "body": [
-      "document.getElementsByClassName($0)"
+      "getElementsByClassName($0)"
     ]
   },
   "querySelector": {
     "prefix": "querySelector",
     "body": [
-      "document.querySelector('$0')"
+      "querySelector('$0')"
     ]
   },
   "querySelectorAll": {
     "prefix": "querySelectorAll",
     "body": [
-      "document.querySelectorAll($0)"
+      "querySelectorAll($0)"
     ]
   },
   "reCp": {
@@ -211,32 +211,32 @@
       "const cp = require('child_process')"
     ]
   },
-  "NfsWriteFile": {
-    "prefix": "NfsWriteFile",
+  "fsWriteFile": {
+    "prefix": "fsWriteFile",
     "body": [
       "fs.writeFile(${1:file}, ${2:data}, err => $0)"
     ]
   },
-  "NfsOpen": {
-    "prefix": "NfsOpen",
+  "fsOpen": {
+    "prefix": "fsOpen",
     "body": [
       "fs.open(${1:path}, ${2:flag}, (err, fd) => $0)"
     ]
   },
-  "NfsReadFile": {
-    "prefix": "NfsReadFile",
+  "fsReadFile": {
+    "prefix": "fsReadFile",
     "body": [
       "fs.readFile(${1:path}, 'utf8', (err, data) => $0)"
     ]
   },
-  "NfsReadFileSync": {
-    "prefix": "NfsReadFileSync",
+  "fsReadFileSync": {
+    "prefix": "fsReadFileSync",
     "body": [
       "fs.readFileSync(${0:path}, 'utf8')"
     ]
   },
-  "NfsReaddir": {
-    "prefix": "NfsReaddir",
+  "fsReaddir": {
+    "prefix": "fsReaddir",
     "body": [
       "fs.readdir(${1:path}, (err, files) => $0)"
     ]
@@ -245,6 +245,12 @@
     "prefix": "appPost",
     "body": [
       "app.post('${1:route}', (req, res) => $0)"
+    ]
+  },
+  "imFs": {
+    "prefix": "imFs",
+    "body": [
+      "import fs from 'fs'"
     ]
   },
   "NfsReaddirSync": {
