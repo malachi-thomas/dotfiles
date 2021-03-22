@@ -1,0 +1,9 @@
+{
+	"-R": "are",
+	"SP": "{#Space}",
+	"TPW": "{#Tab}",
+	"TPH": "{#Return}",
+	"PW": "{#Backspace}",
+	"SK": "{#Escape}",
+	"#*": "{PLOVER:TOGGLE}"
+}

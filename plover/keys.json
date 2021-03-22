@@ -1,4 +1,29 @@
 {
-  "#*": "{PLOVER:TOGGLE}"
+"DZ": "{PLOVER:TOGGLE}",
+"HR-BG": "{^}[",
+"HR-BS": "{^}\\{",
+"HR-P": "{^}(",
+"K": "{#Down}",
+"K-PL": "{^},",
+"KW-T": "{^}'",
+"KW-TS": "{^}''{#Left}",
+"P-P": "{*!}",
+"PR-PB": "{^}(){#Left}",
+"PW": "{#Backspace}",
+"PWR-BG": "{^}[]{#Left}",
+"PWR-S": "{^}\\{\\}{#Left}",
+"R": "{#Right}",
+"R-BG": "{^}]",
+"R-B": "{^}\\}",
+"R-P": "{^})",
+"S": "{#Left}",
+"SK": "{#Escape}",
+"SP": "{#Space}",
+"T-BG": "{^}`",
+"T-BGS": "{^}``{#Left}",
+"TK-T": "{^}.",
+"TKW-T": "{^}\"",
+"TKW-TS": "{^}\"\"{#Left}",
+"TPH": "{#Return}",
+"TPW": "{#Tab}"
 }
-

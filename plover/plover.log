@@ -548,3 +548,270 @@ ValueError: Unsupported extension: . Supported extensions: json, rtf
 2021-03-21 20:53:04,710 [Dummy-1] INFO: setting machine: Keyboard
 2021-03-21 20:53:04,719 [Dummy-1] INFO: XInput devices: 6, 7, 9, 10, 12, 13, 11, 16, 18, 20, 23, 14, 15, 21, 22
 2021-03-21 20:53:04,793 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 09:14:54,681 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-22 09:14:54,785 [MainThread] INFO: 48 custom mappings(s)
+2021-03-22 09:14:54,877 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-22 09:14:54,877 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-22 09:14:55,276 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 09:14:55,286 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 20, 21, 22, 23, 24, 25
+2021-03-22 09:14:55,287 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-22 09:14:55,287 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-22 09:14:55,287 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 09:14:55,287 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-22 09:14:55,755 [Dummy-1] INFO: loaded 4 dictionaries in 0.468s
+2021-03-22 09:24:16,386 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 09:24:16,394 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 20, 21, 22, 23, 24, 25
+2021-03-22 09:24:16,394 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 09:54:29,264 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-22 09:54:29,332 [MainThread] INFO: 48 custom mappings(s)
+2021-03-22 09:54:29,404 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-22 09:54:29,404 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-22 09:54:29,768 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 09:54:29,774 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 22, 23
+2021-03-22 09:54:29,775 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-22 09:54:29,775 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-22 09:54:29,775 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 09:54:29,775 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-22 09:54:30,243 [Dummy-1] INFO: loaded 4 dictionaries in 0.468s
+2021-03-22 10:55:12,513 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 10:55:12,521 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 22, 23
+2021-03-22 10:55:12,574 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 10:57:47,980 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 10:57:47,989 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 22, 23
+2021-03-22 10:57:48,043 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 10:59:47,810 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 10:59:47,817 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 22, 23
+2021-03-22 10:59:47,874 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 11:01:23,788 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 11:01:23,796 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 22, 23
+2021-03-22 11:01:23,796 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 11:01:45,744 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 11:01:45,750 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 22, 23
+2021-03-22 11:01:45,808 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 11:01:46,021 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 11:01:46,030 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 22, 23
+2021-03-22 11:01:46,084 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 11:01:46,255 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 11:01:46,263 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 22, 23
+2021-03-22 11:01:46,321 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 11:02:55,411 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 11:02:55,420 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 22, 23
+2021-03-22 11:02:55,420 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 13:59:42,552 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-22 13:59:42,669 [MainThread] INFO: 48 custom mappings(s)
+2021-03-22 13:59:42,766 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-22 13:59:42,766 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-22 13:59:43,143 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 13:59:43,153 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 13:59:43,153 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-22 13:59:43,154 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-22 13:59:43,154 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 13:59:43,154 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-22 13:59:43,619 [Dummy-1] INFO: loaded 4 dictionaries in 0.466s
+2021-03-22 14:17:02,965 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 14:17:02,974 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 14:17:03,060 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 14:25:52,051 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 14:27:21,691 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 14:27:21,700 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 14:27:21,777 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 14:28:20,189 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 14:28:20,197 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 14:28:20,197 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 14:28:25,382 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 195, in parse_key_combo
+    _raise_error(SyntaxError, 'invalid character "%s"' % token)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: invalid character "[" in "[[]]"
+2021-03-22 14:28:26,478 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 195, in parse_key_combo
+    _raise_error(SyntaxError, 'invalid character "%s"' % token)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: invalid character "[" in "[[]]"
+2021-03-22 14:29:03,937 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 14:29:03,947 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 14:29:04,027 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 14:33:41,798 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 14:33:41,808 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 14:33:41,808 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 14:40:54,771 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 14:40:54,779 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 14:40:54,850 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 16:30:41,123 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-22 16:30:41,193 [MainThread] INFO: 48 custom mappings(s)
+2021-03-22 16:30:41,266 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-22 16:30:41,266 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-22 16:30:41,661 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 16:30:41,668 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 16:30:41,668 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-22 16:30:41,668 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-22 16:30:41,669 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 16:30:41,669 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-22 16:30:42,143 [Dummy-1] INFO: loaded 4 dictionaries in 0.475s
+2021-03-22 16:32:55,867 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 16:32:55,875 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 16:32:55,875 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 17:50:02,389 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-22 17:50:02,455 [MainThread] INFO: 48 custom mappings(s)
+2021-03-22 17:50:02,529 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-22 17:50:02,529 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-22 17:50:02,910 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:50:02,917 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:50:02,917 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-22 17:50:02,918 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-22 17:50:02,918 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 17:50:02,918 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-22 17:50:03,388 [Dummy-1] INFO: loaded 4 dictionaries in 0.470s
+2021-03-22 17:50:03,388 [Dummy-1] ERROR: loading dictionary `modifiers.json` failed: Expecting property name enclosed in double quotes: line 55 column 3 (char 933)
+2021-03-22 17:50:23,927 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 17:52:54,727 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:52:54,734 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:52:54,735 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 17:52:54,735 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 17:52:54,735 [Dummy-1] ERROR: loading dictionary `modifiers.json` failed: Expecting ',' delimiter: line 168 column 3 (char 3703)
+2021-03-22 17:52:55,471 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:52:55,480 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:52:55,480 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 17:53:02,027 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-22 17:53:02,093 [MainThread] INFO: 48 custom mappings(s)
+2021-03-22 17:53:02,165 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-22 17:53:02,165 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-22 17:53:02,552 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:53:02,559 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:53:02,559 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-22 17:53:02,559 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-22 17:53:02,560 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 17:53:02,560 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-22 17:53:03,033 [Dummy-1] INFO: loaded 4 dictionaries in 0.473s
+2021-03-22 17:53:03,033 [Dummy-1] ERROR: loading dictionary `modifiers.json` failed: Expecting ',' delimiter: line 168 column 3 (char 3703)
+2021-03-22 17:53:18,381 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-22 17:53:18,446 [MainThread] INFO: 48 custom mappings(s)
+2021-03-22 17:53:18,514 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-22 17:53:18,515 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-22 17:53:18,920 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:53:18,927 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:53:18,928 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-22 17:53:18,928 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-22 17:53:18,928 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 17:53:18,929 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-22 17:53:19,410 [Dummy-1] INFO: loaded 4 dictionaries in 0.482s
+2021-03-22 17:53:19,410 [Dummy-1] ERROR: loading dictionary `modifiers.json` failed: Expecting property name enclosed in double quotes: line 166 column 3 (char 3702)
+2021-03-22 17:53:28,404 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:53:28,414 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:53:28,414 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 17:53:28,415 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 17:53:28,415 [Dummy-1] ERROR: loading dictionary `modifiers.json` failed: Expecting property name enclosed in double quotes: line 172 column 1 (char 3814)
+2021-03-22 17:53:38,006 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:53:38,015 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:53:38,015 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 17:53:38,016 [Dummy-1] INFO: loaded 4 dictionaries in 0.001s
+2021-03-22 17:53:40,998 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:53:41,007 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:53:41,007 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 17:53:45,871 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:53:45,880 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:53:45,881 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 17:53:45,881 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 17:53:45,881 [Dummy-1] ERROR: loading dictionary `modifiers.json` failed: Expecting property name enclosed in double quotes: line 167 column 2 (char 3702)
+2021-03-22 17:53:47,558 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:53:47,567 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:53:47,568 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 17:53:47,818 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:53:47,826 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:53:47,827 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 17:53:51,224 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:53:51,233 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:53:51,233 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 17:53:51,234 [Dummy-1] INFO: loaded 4 dictionaries in 0.001s
+2021-03-22 17:53:52,348 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 17:53:52,357 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 17:53:52,357 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 18:46:56,054 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-22 18:46:56,120 [MainThread] INFO: 48 custom mappings(s)
+2021-03-22 18:46:56,187 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-22 18:46:56,188 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-22 18:46:56,552 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 18:46:56,559 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 18:46:56,560 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-22 18:46:56,560 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-22 18:46:56,560 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 18:46:56,561 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-22 18:46:57,033 [Dummy-1] INFO: loaded 4 dictionaries in 0.473s
+2021-03-22 19:17:21,649 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-22 19:17:21,714 [MainThread] INFO: 48 custom mappings(s)
+2021-03-22 19:17:21,781 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-22 19:17:21,781 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-22 19:17:22,169 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 19:17:22,176 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 19:17:22,176 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-22 19:17:22,177 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-22 19:17:22,177 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 19:17:22,177 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-22 19:17:22,654 [Dummy-1] INFO: loaded 4 dictionaries in 0.478s
+2021-03-22 19:17:33,771 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 19:17:33,779 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 19:17:33,848 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 19:18:16,042 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 19:18:16,052 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 19:18:16,125 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 19:18:17,221 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 19:18:17,230 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 19:18:17,303 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 19:18:27,484 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 19:18:27,493 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 19:18:27,562 [Dummy-1] INFO: loaded 4 dictionaries in 0.000s
+2021-03-22 19:19:49,886 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-22 19:19:49,955 [MainThread] INFO: 48 custom mappings(s)
+2021-03-22 19:19:50,024 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-22 19:19:50,024 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-22 19:19:50,399 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 19:19:50,410 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 19:19:50,411 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/keys.json
+2021-03-22 19:19:50,411 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/words.json
+2021-03-22 19:19:50,411 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 19:19:50,411 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/main.json
+2021-03-22 19:19:50,883 [Dummy-1] INFO: loaded 4 dictionaries in 0.473s
+2021-03-22 19:33:59,709 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-22 19:33:59,716 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 10, 12, 13, 15, 16, 17, 18, 20, 21, 23, 24
+2021-03-22 19:33:59,791 [Dummy-1] INFO: loading dictionary: /home/malachi/.config/plover/modifiers.json
+2021-03-22 19:33:59,792 [Dummy-1] INFO: loaded 4 dictionaries in 0.001s

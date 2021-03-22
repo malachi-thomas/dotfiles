@@ -29,7 +29,7 @@ require'nvim-treesitter.configs'.setup {
 
 require'indent_guides'.setup {
   indent_levels = 30;
-  indent_guide_size = 2;
+  indent_guide_size = 4;
   indent_start_level = 1;
   indent_space_guides = true;
   indent_tab_guides = true;

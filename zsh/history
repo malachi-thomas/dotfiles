@@ -10103,3 +10103,106 @@ nvim src/main.rs
 : 1616363321:0;dow
 : 1616363322:0;dot
 : 1616363331:0;commit 'new nvim indent plugin'
+: 1616397487:0;cd projects/rust
+: 1616397490:0;v src/main.rs
+: 1616397603:0;lrc
+: 1616397617:0;v src/main.rs
+: 1616397640:0;vrc
+: 1616404494:0;plover
+: 1616406974:0;v test.md
+: 1616410534:0; aaaata]]
+: 1616410891:0; T-cell receptorring]
+: 1616410893:0;]]]
+: 1616410896:0;]][]]]]
+: 1616410897:0;]] becom]]]] become becom]] become are becom]]] become
+: 1616410899:0;[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[3~[23~
+: 1616411043:0;cd .config/plover
+: 1616411043:0;la
+: 1616413170:0;v test.md
+: 1616423277:0;screenkey
+: 1616424532:0;cd dotfiles
+: 1616424532:0;la
+: 1616424534:0;cd plover
+: 1616424534:0;la
+: 1616424539:0;v dictionary.j
+: 1616424545:0;mv dictionary.j dictionary.js
+: 1616424545:0;la
+: 1616424547:0;v dictionary.js
+: 1616424637:0;mv dictionary.js dictionary.ejs
+: 1616424642:0;node dictionary.ejs
+: 1616424655:0;mv dictionary.ejs dictionary.mjs
+: 1616424659:0;node dictionary.mjs
+: 1616424670:0;v dictionary.mjs
+: 1616424757:0;node dictionary.mjs
+: 1616424767:0;mk test.jsson
+: 1616424776:0;to test.json
+: 1616424778:0;node dictionary.mjs
+: 1616424815:0;v 
+: 1616424852:0;v test.json
+: 1616424857:0;node dictionary.mjs
+: 1616424859:0;v test.json
+: 1616424967:0;v dictionary.mjs
+: 1616425121:0;la
+: 1616425134:0;rma test.jsson
+: 1616425137:0;node dictionary.mjs
+: 1616425139:0;v main.json
+: 1616425158:0;v test.json
+: 1616425182:0;node dictionary.mjs
+: 1616425184:0;v dictionary.mjs
+: 1616425430:0;pac eslint
+: 1616425440:0;npmig eslint
+: 1616425449:0;sudo npm i -g eslint
+: 1616425459:0;v dictionary.mjs
+: 1616425466:0;eslint --init
+: 1616425500:0;npm init
+: 1616425507:0;eslint --init
+: 1616425531:0;la
+: 1616425554:0;v dictionary.mjs
+: 1616425608:0;v .eslintrc.json
+: 1616425622:0;v package.json
+: 1616425637:0;v dictionary.mjs
+: 1616427672:0;v test.md
+: 1616427839:0;rm words.json
+: 1616427840:0;la
+: 1616427843:0;v keys.json
+: 1616427862:0;rm keys.json
+: 1616427863:0;la
+: 1616427885:0;rma .eslintrc.json node_modules package.json package-lock.json
+: 1616427887:0;la
+: 1616427894:0;rm plover.log
+: 1616427895:0;la
+: 1616427903:0;v dictionary.mjs
+: 1616429483:0;rm modifiers.json
+: 1616429483:0;la
+: 1616429495:0;v dictionary.mjs
+: 1616429598:0;v test.json
+: 1616429660:0;cd dotfiles/plover
+: 1616429660:0;la
+: 1616429665:0;v dictionary.mjs
+: 1616429712:0;la
+: 1616429716:0;v main.json
+: 1616429744:0;la
+: 1616429748:0;v test.json
+: 1616429765:0;cd dotfiles/plover
+: 1616429769:0;v dictionary.mjs
+: 1616430574:0;la
+: 1616430591:0;rm dictionary.mjs test.json
+: 1616430592:0;la
+: 1616430599:0;cd .config/plover
+: 1616430600:0;la
+: 1616430612:0;ln -f * ~/dotfiles/plover
+: 1616430619:0;v keys.json
+: 1616430640:0;plover
+: 1616435232:0;cd dotfiles/plover
+: 1616435232:0;la
+: 1616435236:0;v keys.json
+: 1616435337:0;v modifiers.json
+: 1616435581:0;plover
+: 1616440648:0;screenkey
+: 1616443830:0;cd dotfiles/plover
+: 1616443831:0;v modifiers.json
+: 1616445712:0;cd dotfiles/plover
+: 1616445712:0;la
+: 1616445714:0;v modifiers.json
+: 1616448024:0;la
+: 1616448040:0;commit 'modifiers.json update'
