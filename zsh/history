@@ -10206,3 +10206,86 @@ nvim src/main.rs
 : 1616445714:0;v modifiers.json
 : 1616448024:0;la
 : 1616448040:0;commit 'modifiers.json update'
+: 1616448074:0;la
+: 1616448111:0;screenkey
+: 1616448270:0;cd dotfiles/plover
+: 1616448272:0;v modifiers.json
+: 1616448970:0;power
+: 1616490100:0;cd dotfiles/plover
+: 1616490101:0;la
+: 1616490104:0;v modifiers.json
+: 1616490402:0;la
+: 1616492006:0;plover
+: 1616495067:0;cd dotfiles/plover
+: 1616495067:0;la
+: 1616495070:0;to 
+: 1616495075:0;to fixes.json
+: 1616495080:0;ln -f * ~/.config/plover
+: 1616495081:0;la
+: 1616495132:0;v fixes.json
+: 1616503505:0;la
+: 1616503512:0;v modifiers.json
+: 1616504301:0;cd dotfiles/plover
+: 1616504303:0;v modifiers.json
+: 1616506596:0;cd dotfiles/plover
+: 1616506596:0;la
+: 1616506604:0;v programming.json
+: 1616506611:0;ln -f * ~/.config/plover
+: 1616507614:0; cd
+: 1616507732:0;cd dotfiles/plover
+: 1616512457:0;v test.md
+: 1616513918:0;mv test.md ~/dotfiles/notes
+: 1616513921:0;cd dotfiles/notes
+: 1616513922:0;la
+: 1616513933:0;mk plover
+: 1616513943:0;mv test.md plover/vowels.md
+: 1616513944:0;la
+: 1616513954:0;ls brain
+: 1616513956:0;rma br
+: 1616513959:0;rma brain
+: 1616513960:0;la
+: 1616513966:0;rma projects
+: 1616513967:0;la
+: 1616513972:0;..
+: 1616513973:0;la
+: 1616526093:0;cd ~/dotfiles/notes
+: 1616526180:0;v plover/vowels.md
+: 1616526995:0;cd dotfiles/plover
+: 1616529091:0; world #-RB is it   information
+: 1616529161:0; The The The Cat Mat Rat hat hat mat rat
+: 1616529445:0; icing is
+: 1616529474:0;cd ~/dotfiles/notes
+: 1616529479:0;v plover/vowels.md
+: 1616529917:0;screenkey
+: 1616530048:0;cd ~/dotfiles/plover
+: 1616530054:0;la
+: 1616530173:0;touch names.json
+: 1616530191:0;v names.json
+: 1616530300:0;v modifiers.json
+: 1616531043:0;cd ~/dotfiles/plover
+: 1616531047:0;v keys.json
+: 1616531099:0;cd ~/.config/plover
+: 1616531101:0;v keys.json
+: 1616531279:0; \ \\ \\ \ -T -T the \\ \\\\
+
+: 1616531328:0;{^~|^ the??\
+\
+\
+
+: 1616532494:0;cd ~/.config/plover
+: 1616532499:0;ln -f * ~/dotfiles/plover
+: 1616532514:0;dot
+: 1616532516:0;cd plover
+: 1616532516:0;la
+: 1616532521:0;v words.json
+: 1616532554:0;-
+: 1616532556:0;cd
+: 1616532558:0;cd .config/plover
+: 1616532560:0;v words.json
+: 1616532572:0;ln -f * ~/dotfiles/plover
+: 1616532573:0;-
+: 1616532576:0;cd dotfiles/plover
+: 1616532577:0;la
+: 1616532686:0;v words.json
+: 1616532885:0;dot
+: 1616532898:0;commit 'more changes to plover'
