@@ -1,11 +1,12 @@
 {
-  "*EUS": "{^is}",
-  "-D": "{^ed}",
-  "-PB": "{^in}",
-  "-S": "{^s}",
-  "AOE": "{e^}",
-  "EFT": "{^est}",
-  "PRAOE": "{pre^}",
-  "AO*EUS": "{^ice}",
-  "RAOE": "{re^}"
+"*EUS": "{^is}",
+"-D": "{^ed}",
+"-PB": "{^in}",
+"-S": "{^s}",
+"A*D": "{ad^}",
+"AO*EUS": "{^ice}",
+"AOE": "{e^}",
+"EFT": "{^est}",
+"PRAOE": "{pre^}",
+"RAOE": "{re^}"
 }

@@ -10289,3 +10289,18 @@ nvim src/main.rs
 : 1616532686:0;v words.json
 : 1616532885:0;dot
 : 1616532898:0;commit 'more changes to plover'
+: 1616536294:0;betterlockscreen -s
+: 1616570075:0;cd dotfiles/notes
+: 1616570097:0;v plover/
+: 1616572276:0;cd dotfiles/plover
+: 1616572276:0;la
+: 1616572281:0;v modifiers.json
+: 1616573164:0;cd plover
+: 1616574131:0;screenkey
+: 1616574392:0;v modifiers.json
+: 1616575652:0;cd dotfiles/plover
+: 1616575653:0;la
+: 1616575659:0;v numbers.json
+: 1616577738:0; # 565656060606066060606060l
+: 1616577815:0;dot
+: 1616577822:0;commit 'added numbers.json'
