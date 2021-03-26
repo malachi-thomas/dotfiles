@@ -1486,3 +1486,42 @@ SyntaxError: unbalanced ")" in "Alt(3)[)]"
 2021-03-24 09:24:04,181 [Dummy-1] INFO: setting machine: Keyboard
 2021-03-24 09:24:04,187 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 20, 21, 22, 23, 24, 25
 2021-03-24 09:24:04,312 [Dummy-1] INFO: loaded 8 dictionaries in 0.000s
+2021-03-24 14:59:33,231 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-24 14:59:33,342 [MainThread] INFO: 48 custom mappings(s)
+2021-03-24 14:59:33,437 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-24 14:59:33,437 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-24 14:59:33,807 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-24 14:59:33,814 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 15, 17, 19, 20, 21, 22, 23, 24, 25
+2021-03-24 14:59:33,814 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-03-24 14:59:33,815 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-03-24 14:59:33,815 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-03-24 14:59:33,815 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-03-24 14:59:33,816 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-03-24 14:59:33,816 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-03-24 14:59:33,817 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/names.json
+2021-03-24 14:59:33,817 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-03-24 14:59:34,264 [Dummy-1] INFO: loaded 8 dictionaries in 0.449s
+2021-03-24 15:34:06,469 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-03-24 15:34:06,470 [Dummy-1] INFO: loaded 9 dictionaries in 0.001s
+2021-03-24 15:34:11,877 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-24 15:34:15,069 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-24 15:34:15,893 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-24 15:34:16,915 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-24 15:34:18,397 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-24 15:34:21,343 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-24 15:34:23,504 [Dummy-1] INFO: loaded 8 dictionaries in 0.000s
+2021-03-25 06:43:10,001 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-03-25 06:43:10,106 [MainThread] INFO: 48 custom mappings(s)
+2021-03-25 06:43:10,201 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-03-25 06:43:10,202 [Dummy-1] INFO: loading system: English Stenotype
+2021-03-25 06:43:10,573 [Dummy-1] INFO: setting machine: Keyboard
+2021-03-25 06:43:10,581 [Dummy-1] INFO: XInput devices: 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 21, 22, 23
+2021-03-25 06:43:10,581 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-03-25 06:43:10,582 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-03-25 06:43:10,582 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-03-25 06:43:10,582 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-03-25 06:43:10,583 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-03-25 06:43:10,584 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-03-25 06:43:10,584 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-03-25 06:43:10,587 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-03-25 06:43:11,057 [Dummy-1] INFO: loaded 8 dictionaries in 0.476s

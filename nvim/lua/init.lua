@@ -68,6 +68,25 @@ require'compe'.setup {
   };
 }
 
+require("lualine").setup{
+  options = {
+    theme = 'gruvbox',
+    section_separators = '',
+    component_separators = '',
+    icons_enabled = true,
+  },
+  sections = {
+    lualine_a = { {'mode', upper = true} },
+    lualine_b = { {'branch', icon = ''} },
+    lualine_c = { {'filename', file_status = true} },
+    lualine_x = { 'filetype' },
+    lualine_y = { '' }
+  },
+  extensions = { 'fzf' },
+}
+
+
+
 -- disable inline stuff
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
   vim.lsp.diagnostic.on_publish_diagnostics, {

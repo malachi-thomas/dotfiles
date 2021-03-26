@@ -24,3 +24,8 @@ AO oo book
 AE ae air
 
 
+### ending sounds
+*TH th 
+-FP ch
+-RB sh
+-PBG ng|ng

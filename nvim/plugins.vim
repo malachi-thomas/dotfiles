@@ -36,6 +36,7 @@ Plug 'vijaymarupudi/nvim-fzf'
 Plug 'glepnir/indent-guides.nvim'
 
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'hoob3rt/lualine.nvim'
 
 
 
@@ -46,7 +47,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/jsonc.vim'
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
 " Plug 'Yggdroot/indentLine'
 " Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'mboughaba/i3config.vim'

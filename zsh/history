@@ -10316,3 +10316,38 @@ nvim src/main.rs
 : 1616593596:0;cd  dotfi
 : 1616593947:0;cd dotfiles/plover
 : 1616596022:0;commit 'save'
+: 1616597737:0;bin
+: 1616597740:0;v startup.sh
+: 1616598625:0;cd dotfiles/notes/plover
+: 1616598626:0;v vowels.md
+: 1616623662:0;power
+: 1616655439:0;cd dotfiles/notes/plover
+: 1616655449:0;v vowels.md
+: 1616708437:0;powwer
+: 1616708444:0;power
+: 1616741826:0;vpl
+: 1616742099:0;nvim --startuptime cat.vim styles.css
+: 1616742102:0;v cat.vim
+: 1616742113:0;nvim --startuptime cat.vim styles.css
+: 1616742127:0;rm cat.vim styles.css
+: 1616742127:0;la
+: 1616742130:0;v
+: 1616742143:0;vrc
+: 1616742584:0;lrc
+: 1616742996:0;cd Downloads
+: 1616742997:0;la
+: 1616743005:0;feh Minimalist\ Forest\ Wallpapers\ -\ Top\ Free\ Minimalist\ Forest\ Backgrounds\ -\ WallpaperAccess.png
+: 1616743802:0;dow
+: 1616743802:0;la
+: 1616743823:0;rma Minimalist\ Forest\ Wallpapers\ -\ Top\ Free\ Minimalist\ Forest\ Backgrounds\ -\ WallpaperAccess_files Minimalist\ Forest\ Wallpapers\ -\ Top\ Free\ Minimalist\ Forest\ Backgrounds\ -\ WallpaperAccess.html Minimalist\ Forest\ Wallpapers\ -\ Top\ Free\ Minimalist\ Forest\ Backgrounds\ -\ WallpaperAccess.png Minimalist-Forest-Wallpapers-Top-Free-Minimalist-Forest-Backgrounds-WallpaperAccess.png
+: 1616743825:0;la
+: 1616743832:0;rm commandline_v1.json
+: 1616743835:0;rma squashfs-root
+: 1616743836:0;la
+: 1616743845:0;mv *.jpg ~/dotfiles/wallpapers
+: 1616743846:0;la
+: 1616743853:0;file
+: 1616743861:0;pac nautilus
+: 1616743867:0;file
+: 1616743912:0;dot
+: 1616743917:0;commit 'new wallpapers'
