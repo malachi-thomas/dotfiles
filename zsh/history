@@ -10351,3 +10351,36 @@ nvim src/main.rs
 : 1616743867:0;file
 : 1616743912:0;dot
 : 1616743917:0;commit 'new wallpapers'
+: 1616757357:0;sxh
+: 1616757574:0;cd dotfiles/plover
+: 1616757577:0;la
+: 1616757587:0;v modifiers.json
+: 1616758045:0;cd dotfiles/plover
+: 1616758048:0;v modifiers.json
+: 1616760523:0;v test.md
+: 1616763960:0;v test.md
+: 1616792681:0;pac qbittorrent
+: 1616792767:0;qbittorrent
+: 1616793742:0;cd Downloads
+: 1616793748:0;vid EP.9.360p.mp4
+: 1616794874:0;vid EP.10.360p.mp4
+: 1616827311:0;vid EP.11.360p.mp4
+: 1616827317:0;dow
+: 1616827318:0;la
+: 1616827328:0;cd \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 00\ \~\ 24\ \[720p\]\[Multiple\ Subtitle\]
+: 1616827329:0;la
+: 1616827333:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 11\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616828643:0;cd \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 00\ \~\ 24\ \[720p\]\[Multiple\ Subtitle\]
+: 1616828646:0;vid EP.11.360p.mp4
+: 1616828651:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 12\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616829955:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 13\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616831268:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 14\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616832487:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 15\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616833715:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 16\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616835166:0;cd Downloads/\[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 00\ \~\ 24\ \[720p\]\[Multiple\ Subtitle\]
+: 1616835168:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 16\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616835566:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 17\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616842648:0;cd dotfiles/plover
+: 1616842648:0;la
+: 1616842652:0;v modifiers.json
+: 1616842659:0;commit 'save'

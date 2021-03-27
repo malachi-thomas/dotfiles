@@ -10,11 +10,8 @@ super + a
 super + c
   google-chrome-stable
 
-super + d
+super + space
   rofi -show run
-
-super + e
-  emacsclient -a "" -c -e '(org-babel-load-file "~/dotfiles/emacs/init.org")'
 
 super + t
   kitty

@@ -68,6 +68,7 @@
 "TKPW-T/KW-L": ">=",
 "TKW-T": "{^}\"",
 "TKW-TS": "{^}\"\"{#Left}",
+"TKWHR": "{#Down}",
 "TP-L": "{#Space}{MODE:SET_SPACE:/}{^}",
 "TP-PL": "{*?}",
 "TPH": "{#Return}{MODE:RESET}{^}",

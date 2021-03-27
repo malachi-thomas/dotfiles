@@ -57,6 +57,7 @@ set shortmess+=c
 set lazyredraw
 set backspace=indent,eol,start
 set omnifunc=v:lua.vim.lsp.omnifunc
+
 set list
 set completeopt=menuone,noinsert,noselect
 
@@ -84,7 +85,7 @@ augroup autocmds
   autocmd BufWinEnter,WinEnter term://* start " if terminal window auto enter insert mode
   autocmd BufWrite ~/.tmux.conf silent !tmux source-file ~/.tmux.conf " source ~/.tmux.conf when you save ~/.tmux.conf
   autocmd BufRead ~/dotfiles/nvim/snippets/* set ft=jsonc
-  autocmd BufWritePost * normal mmgg=G`m
+  " autocmd BufWritePost * normalc to mmgg=G`m
   autocmd CursorMoved,BufWritePost * normal zz
   autocmd BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
   autocmd VimEnter * RainbowParenthesesToggle
