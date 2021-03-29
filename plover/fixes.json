@@ -1,13 +1,22 @@
 {
 "*EUS": "{^is}",
+"*FT": "{^st}",
+"*S": "{^'s}",
+"*UP": "{up^}",
 "-D": "{^ed}",
 "-PB": "{^in}",
+"-PBG": "{^ning}",
 "-S": "{^s}",
 "A*D": "{ad^}",
+"A*PB": "{an^}",
 "A*PBT": "{^ant}",
+"AO*EUF": "{^ive}",
 "AO*EUS": "{^ice}",
 "AOE": "{e^}",
 "EFT": "{^est}",
+"HRAO*E": "{^ly}",
 "PRAOE": "{pre^}",
+"PW*E": "{be^}",
+"PWE": "{be^}",
 "RAOE": "{re^}"
 }

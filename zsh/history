@@ -10384,3 +10384,74 @@ nvim src/main.rs
 : 1616842648:0;la
 : 1616842652:0;v modifiers.json
 : 1616842659:0;commit 'save'
+: 1616842671:0;al
+: 1616842672:0;v modifiers.json
+: 1616845959:0;AAAjjWSWSWSWSWSW
+: 1616847174:0;
+: 1616847268:0;cd dotfiles/plover
+: 1616847271:0;v words.json
+: 1616847761:0;..
+: 1616847767:0;cd notes/plover/
+: 1616847769:0;v vowels.md
+: 1616852577:0;...
+: 1616852578:0;cd plover
+: 1616852582:0;v modifiers.json
+: 1616856570:0;cd dotfiles/plover
+: 1616856572:0;v modifiers.json
+: 1616857116:0; the the the
+: 1616858916:0;v test.md
+: 1616862280:0;cd dotfiles/plover
+: 1616862282:0;v keys.json
+: 1616873553:0;cd dotfiles/plover
+: 1616873553:0;la
+: 1616873559:0;v modifiers.json
+: 1616874893:0;cd Downloads/\[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 00\ \~\ 24\ \[720p\]\[Multiple\ Subtitle\]
+: 1616874895:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 17\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616875069:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 18\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616876755:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 19\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616877952:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 20\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616879108:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 21\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616880931:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 22\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616882156:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 23\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616882195:0;cd Downloads/\[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 00\ \~\ 24\ \[720p\]\[Multiple\ Subtitle\]
+: 1616882249:0;..
+: 1616882249:0;la
+: 1616882254:0;ls *.torr
+: 1616882256:0;ls *.tor
+: 1616882260:0;ls *.tor*
+: 1616882268:0;rm *.tor*
+: 1616882268:0;la
+: 1616910823:0;vid \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 24\ END\ \[720p\]\[Multiple\ Subtitle\].mkv
+: 1616912268:0;cd dotfiles/plover
+: 1616912269:0;v modifiers.json
+: 1616912272:0;v keys.json
+: 1616914063:0;cd dotfiles/plover
+: 1616914066:0;v modifiers.json
+: 1616914705:0;la
+: 1616914706:0;..
+: 1616920726:0;cd dotfiles/plover
+: 1616920728:0; la in
+: 1616920734:0;la
+: 1616920759:0;..
+: 1616920768:0; cd notes
+: 1616920777:0; cd plover
+: 1616920780:0; la
+: 1616920812:0;v vowels.md
+: 1616929604:0;dow
+: 1616929604:0;la
+: 1616929617:0;rma 22a_1616751583_104125.mp4 cross_platform_movement_v1.json EP.9.360p.mp4 EP.10.360p.mp4 EP.11.360p.mp4 \[Erai-raws\]\ Hitori\ no\ Shita\ -\ The\ Outcast\ 2nd\ Season\ -\ 00\ \~\ 24\ \[720p\]\[Multiple\ Subtitle\] left_mac_movement_v2.json lite movement_di_v1.json planck_light_layout_ortho_4x12_mine.hex single_stroke_commands_v1\ \(1\).json single_stroke_commands_v1.json spectacle_v1.json torrent torrent\ \(1\) unicode_arrows_v1.json 
+: 1616929619:0;la
+: 1616948002:0;vid
+: 1616948007:0;vid EP.1.360p.mp4
+: 1616949527:0;la
+: 1616949538:0;vid EP.2.360p.mp4
+: 1616958083:0;dow
+: 1616958084:0;la
+: 1616958092:0;vid EP.3.1080p.mp4
+: 1616959887:0;rm *.mp4
+: 1616959888:0;la
+: 1616959890:0;rm EP.4.1080p.mp4.crdownload
+: 1616959891:0;la
+: 1617005228:0;cd dotfiles/plover
+: 1617005230:0;v modifiers.json
+: 1617007971:0;commit 'more things in my dictionary'

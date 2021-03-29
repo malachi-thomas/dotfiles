@@ -29,3 +29,11 @@ AE ae air
 -FP ch
 -RB sh
 -PBG ng|ng
+*PL mp bump
+-FRB rv carve
+-LG lch|lj squelch|bulge
+*LG lk hulk
+*PBG nk honk
+-GS shun ocean
+-FRPB rch|nch march|clench
+
