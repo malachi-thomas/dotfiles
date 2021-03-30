@@ -10455,3 +10455,62 @@ nvim src/main.rs
 : 1617005228:0;cd dotfiles/plover
 : 1617005230:0;v modifiers.json
 : 1617007971:0;commit 'more things in my dictionary'
+: 1617023086:0;dow
+: 1617023087:0;la
+: 1617023146:0;pac udisc
+: 1617023155:0;pac udisck
+: 1617023237:0;cd dow
+: 1617023240:0;cd Downloads
+: 1617023251:0;usb hiveos-0.6-190-stable@210108.img.xz /dev/sda
+: 1617023395:0;usb hiveos-0.6-190-stable@210108.img.xz /dev/sda1
+: 1617023611:0;reboot
+: 1617038926:0;pac timerbreak
+: 1617038932:0;pac brea
+: 1617038936:0;pac breaktimer
+: 1617039236:0;breaktimer
+: 1617039239:0;break
+: 1617039244:0;break 10
+: 1617039246:0;break 10m
+: 1617039250:0;break --help
+: 1617039256:0;break -1
+: 1617039259:0;break 
+: 1617039274:0;break until 10:0
+: 1617039276:0;break until 10:00
+: 1617039278:0;break until 10
+: 1617039280:0;break until
+: 1617039282:0;break until0
+: 1617039289:0;break -u 10
+: 1617039291:0;break -t 10
+: 1617043710:0;pac Talon
+: 1617043752:0;pac python37
+: 1617043773:0;pac Talon
+: 1617084447:0;cd dotfiles/plover
+: 1617084454:0;v modifiers.json
+: 1617084816:0;v 
+: 1617086298:0; cd dotfiles/plover
+: 1617086304:0;..
+: 1617086336:0;cd notes
+: 1617086346:0;cd plover
+: 1617086352:0;la
+: 1617086385:0;v vowels.md
+: 1617089818:0;ttt
+: 1617108981:0;cd
+: 1617109053:0;cd Downloads
+: 1617109056:0;la
+: 1617109076:0;cd
+: 1617109085:0;cd Downloads
+: 1617109099:0;cd
+: 1617109109:0;cd Downloads
+: 1617109119:0;cd \[Judas\]\ Nejimaki\ Seirei\ Senki\ Tenkyo\ no\ Aruderamin\ \(Alderamin\ in\ the\ Sky\)\ \(Season\ 1\)\ \[BD\ 1080p\]\[HEVC\ x265\ 10bit\]\[Dual-Audio\]\[Eng-Subs\]
+: 1617109122:0; la
+: 1617109152:0;vid \[Judas\]\ Nejimaki\ Seirei\ Senki\ Tenkyo\ no\ Aruderamin\ -\ Opening.mkv
+: 1617109255:0;vid  \[Judas\]\ Nejimaki\ Seirei\ Senki\ Tenkyo\ no\ Aruderamin\ -\ 01.mkv
+: 1617110646:0;..
+: 1617110658:0; cd \[Judas\]\ Nejimaki\ Seirei\ Senki\ Tenkyo\ no\ Aruderamin\ \(Alderamin\ in\ the\ Sky\)\ \(Season\ 1\)\ \[BD\ 1080p\]\[HEVC\ x265\ 10bit\]\[Dual-Audio\]\[Eng-Subs\] the
+: 1617110669:0; cd \[Judas\]\ Nejimaki\ Seirei\ Senki\ Tenkyo\ no\ Aruderamin\ \(Alderamin\ in\ the\ Sky\)\ \(Season\ 1\)\ \[BD\ 1080p\]\[HEVC\ x265\ 10bit\]\[Dual-Audio\]\[Eng-Subs\]
+: 1617110672:0; la
+: 1617114930:0; cd
+: 1617114933:0; #
+: 1617114968:0;cd dotfiles/plover
+: 1617114977:0;v modifiers.json
+: 1617120800:0;commit 'plover modifires'

@@ -48,8 +48,11 @@
 "S-L": "/",
 "S-T": "*",
 "SH": "{#Backspace}",
+"SH*": "{#Backspace}{^}",
 "SK": "{#Escape}",
-"SP": "{#Space}{^}",
+"SK*": "{#Escape}{^}",
+"SP": "{#Space}",
+"SP*": "{#Space}{^}",
 "ST-P": "{^}",
 "T*BGS": "{^}``{#Left}{^}",
 "T*G": "{^}#",
@@ -59,6 +62,7 @@
 "T-G": "#",
 "T-GS": "<>{#Left}",
 "TH": "{#Return}{MODE:RESET}",
+"TH*": "{#Return}{MODE:RESET}{^}",
 "TK*T": "{^}.{^}",
 "TK-T": "{^}.",
 "TKHR": "{#Delete}",
@@ -70,5 +74,6 @@
 "TKW-TS": "\"\"{#Left}",
 "TP-PL": "{*?}",
 "TPH-B": "{PLOVER:ADD_TRANSLATION}",
+"TPW*": "{#Tab}{^}",
 "W": "{#Up}"
 }
