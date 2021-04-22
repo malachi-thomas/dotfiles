@@ -2297,3 +2297,1209 @@ SyntaxError: unbalanced ")" in "Alt(Down)[)]"
 2021-03-31 08:50:38,570 [Dummy-1] INFO: setting machine: Keyboard
 2021-03-31 08:50:38,578 [Dummy-1] INFO: XInput devices: 6, 7, 9, 10, 12, 13, 11, 14, 16, 18, 19, 20, 21, 22, 23
 2021-03-31 08:50:38,708 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 10:30:19,543 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 10:30:19,616 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:33,582 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:34,782 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:35,974 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:36,975 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:37,214 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:37,575 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:37,758 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:37,942 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:38,093 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:38,302 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:38,494 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-03-31 14:14:39,319 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-04-01 06:51:47,336 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-01 06:51:47,449 [MainThread] INFO: 48 custom mappings(s)
+2021-04-01 06:51:47,545 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-01 06:51:47,545 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-01 06:51:47,946 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-01 06:51:47,952 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 20, 22, 23, 24
+2021-04-01 06:51:47,953 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-01 06:51:47,953 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-01 06:51:47,953 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-01 06:51:47,954 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-01 06:51:47,954 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-04-01 06:51:47,957 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/vim.json
+2021-04-01 06:51:47,958 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-01 06:51:47,958 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-04-01 06:51:47,959 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-01 06:51:48,416 [Dummy-1] INFO: loaded 9 dictionaries in 0.463s
+2021-04-01 06:51:51,691 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-01 06:51:51,700 [Dummy-1] INFO: XInput devices: 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 20, 22, 23, 24
+2021-04-01 06:51:51,700 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-04-01 13:10:02,058 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-01 13:10:02,167 [MainThread] INFO: 48 custom mappings(s)
+2021-04-01 13:10:02,269 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-01 13:10:02,270 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-01 13:10:02,682 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-01 13:10:02,688 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 12, 14, 15, 17, 18, 22
+2021-04-01 13:10:02,689 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-01 13:10:02,689 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-01 13:10:02,689 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-01 13:10:02,689 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-01 13:10:02,689 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-04-01 13:10:02,691 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/vim.json
+2021-04-01 13:10:02,691 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-01 13:10:02,695 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-04-01 13:10:02,696 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-01 13:10:03,167 [Dummy-1] INFO: loaded 9 dictionaries in 0.478s
+2021-04-01 19:04:17,693 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-01 19:04:17,800 [MainThread] INFO: 48 custom mappings(s)
+2021-04-01 19:04:17,902 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-01 19:04:17,902 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-01 19:04:18,315 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-01 19:04:18,326 [Dummy-1] INFO: XInput devices: 6, 7, 9, 10, 12, 14, 16, 18, 19, 20, 21, 22, 23, 24, 25
+2021-04-01 19:04:18,327 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-01 19:04:18,327 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-01 19:04:18,327 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-01 19:04:18,328 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-01 19:04:18,329 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-04-01 19:04:18,330 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/vim.json
+2021-04-01 19:04:18,331 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-01 19:04:18,334 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-04-01 19:04:18,334 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-01 19:04:18,812 [Dummy-1] INFO: loaded 9 dictionaries in 0.485s
+2021-04-02 07:26:47,232 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-02 07:26:47,342 [MainThread] INFO: 48 custom mappings(s)
+2021-04-02 07:26:47,441 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-02 07:26:47,441 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-02 07:26:47,842 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-02 07:26:47,849 [Dummy-1] INFO: XInput devices: 6, 7, 8, 10, 11, 9, 13, 14, 15, 16, 18, 19, 20, 21, 22
+2021-04-02 07:26:47,849 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-02 07:26:47,850 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-02 07:26:47,850 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-02 07:26:47,850 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-02 07:26:47,850 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-04-02 07:26:47,852 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/vim.json
+2021-04-02 07:26:47,854 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-02 07:26:47,854 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-04-02 07:26:47,855 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-02 07:26:48,308 [Dummy-1] INFO: loaded 9 dictionaries in 0.458s
+2021-04-02 14:24:43,269 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-02 14:24:43,382 [MainThread] INFO: 48 custom mappings(s)
+2021-04-02 14:24:43,487 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-02 14:24:43,487 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-02 14:24:43,890 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-02 14:24:43,899 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 18, 19, 20, 21, 23
+2021-04-02 14:24:43,899 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-02 14:24:43,899 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-02 14:24:43,899 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-02 14:24:43,900 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-02 14:24:43,900 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-04-02 14:24:43,902 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/vim.json
+2021-04-02 14:24:43,902 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-02 14:24:43,903 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-04-02 14:24:43,906 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-02 14:24:44,375 [Dummy-1] INFO: loaded 9 dictionaries in 0.476s
+2021-04-03 08:38:00,108 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-03 08:38:00,223 [MainThread] INFO: 48 custom mappings(s)
+2021-04-03 08:38:00,322 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-03 08:38:00,322 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-03 08:38:00,721 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-03 08:38:00,728 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 12, 13, 15, 17, 18, 19, 20, 22, 23
+2021-04-03 08:38:00,728 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-03 08:38:00,728 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-03 08:38:00,729 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-03 08:38:00,729 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-03 08:38:00,729 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-04-03 08:38:00,730 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/vim.json
+2021-04-03 08:38:00,735 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-03 08:38:00,735 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-04-03 08:38:00,735 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-03 08:38:01,198 [Dummy-1] INFO: loaded 9 dictionaries in 0.470s
+2021-04-03 08:40:01,030 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-04-03 08:40:01,720 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-04-03 15:17:07,661 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-03 15:17:07,776 [MainThread] INFO: 48 custom mappings(s)
+2021-04-03 15:17:07,879 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-03 15:17:07,880 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-03 15:17:08,277 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-03 15:17:08,284 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 19, 21, 22, 23
+2021-04-03 15:17:08,398 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-03 15:17:08,398 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-03 15:17:08,398 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-03 15:17:08,399 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-03 15:17:08,400 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-04-03 15:17:08,401 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/vim.json
+2021-04-03 15:17:08,404 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-03 15:17:08,404 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-04-03 15:17:08,405 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-03 15:17:08,865 [Dummy-1] INFO: loaded 9 dictionaries in 0.467s
+2021-04-03 15:17:10,090 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-04-03 15:37:02,029 [Dummy-1] INFO: loaded 9 dictionaries in 0.000s
+2021-04-04 12:44:17,145 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-04 12:44:17,258 [MainThread] INFO: 48 custom mappings(s)
+2021-04-04 12:44:17,356 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-04 12:44:17,357 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-04 12:44:17,757 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-04 12:44:17,764 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 21, 23
+2021-04-04 12:44:17,887 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-04 12:44:17,887 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-04 12:44:17,887 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-04 12:44:17,888 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-04 12:44:17,888 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-04-04 12:44:17,889 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/vim.json
+2021-04-04 12:44:17,889 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-04 12:44:17,889 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-04-04 12:44:17,889 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-04 12:44:18,368 [Dummy-1] INFO: loaded 9 dictionaries in 0.481s
+2021-04-05 07:06:05,858 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-05 07:06:05,968 [MainThread] INFO: 48 custom mappings(s)
+2021-04-05 07:06:06,072 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-05 07:06:06,072 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-05 07:06:06,475 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-05 07:06:06,482 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 19, 20, 21, 22
+2021-04-05 07:06:06,599 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-05 07:06:06,600 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-05 07:06:06,600 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-05 07:06:06,600 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-05 07:06:06,600 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-04-05 07:06:06,601 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/vim.json
+2021-04-05 07:06:06,601 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-05 07:06:06,602 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-04-05 07:06:06,602 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-05 07:06:07,076 [Dummy-1] INFO: loaded 9 dictionaries in 0.477s
+2021-04-05 07:06:24,345 [Dummy-1] INFO: loaded 8 dictionaries in 0.000s
+2021-04-05 07:07:41,488 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-05 07:07:41,593 [MainThread] INFO: 48 custom mappings(s)
+2021-04-05 07:07:41,689 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-05 07:07:41,689 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-05 07:07:42,078 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-05 07:07:42,084 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 21, 22
+2021-04-05 07:07:42,207 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-05 07:07:42,208 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-05 07:07:42,208 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-05 07:07:42,208 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-05 07:07:42,209 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-04-05 07:07:42,210 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-05 07:07:42,210 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-04-05 07:07:42,211 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-05 07:07:42,672 [Dummy-1] INFO: loaded 8 dictionaries in 0.464s
+2021-04-05 07:09:39,003 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-05 07:09:39,012 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 21, 22
+2021-04-05 07:09:39,013 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-05 07:09:39,013 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/programming.json
+2021-04-05 07:09:39,013 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/breafs.json
+2021-04-05 07:09:39,015 [Dummy-1] INFO: loaded 8 dictionaries in 0.002s
+2021-04-05 07:09:39,016 [Dummy-1] ERROR: loading dictionary `~/dotfiles/plover/programming.json` failed: [Errno 2] No such file or directory: '/home/malachi/dotfiles/plover/programming.json'
+2021-04-05 07:09:39,032 [Dummy-1] ERROR: loading dictionary `~/dotfiles/plover/breafs.json` failed: [Errno 2] No such file or directory: '/home/malachi/dotfiles/plover/breafs.json'
+2021-04-05 07:09:46,526 [MainThread] ERROR: Qt GUI error
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/gui_qt/dictionary_editor.py", line 383, in on_finished
+    self._engine.dictionaries.save(dictionary.path
+  File "/usr/lib/python3.9/site-packages/plover/steno_dictionary.py", line 298, in save
+    assert not d.readonly
+AssertionError
+2021-04-05 07:09:48,845 [Dummy-1] INFO: loaded 7 dictionaries in 0.000s
+2021-04-05 07:09:51,229 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-05 07:09:55,297 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-05 07:09:55,305 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 21, 22
+2021-04-05 07:09:55,306 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-06 07:37:17,942 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-06 07:37:18,053 [MainThread] INFO: 48 custom mappings(s)
+2021-04-06 07:37:18,152 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-06 07:37:18,152 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-06 07:37:18,554 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-06 07:37:18,560 [Dummy-1] INFO: XInput devices: 6, 7, 9, 10, 12, 14, 16, 18, 19, 20, 21, 22, 23, 24, 25
+2021-04-06 07:37:18,693 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-06 07:37:18,694 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-06 07:37:18,694 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-06 07:37:18,694 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-06 07:37:18,695 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-06 07:37:18,695 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-06 07:37:19,165 [Dummy-1] INFO: loaded 6 dictionaries in 0.472s
+2021-04-06 07:37:22,206 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-06 07:38:28,803 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-06 15:31:38,225 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-06 15:31:38,335 [MainThread] INFO: 48 custom mappings(s)
+2021-04-06 15:31:38,438 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-06 15:31:38,439 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-06 15:31:38,837 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-06 15:31:38,843 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 19, 20, 21, 23
+2021-04-06 15:31:38,951 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-06 15:31:38,951 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-06 15:31:38,952 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-06 15:31:38,952 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-06 15:31:38,952 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-06 15:31:38,952 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-06 15:31:39,430 [Dummy-1] INFO: loaded 6 dictionaries in 0.479s
+2021-04-06 15:31:39,973 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-06 15:32:38,020 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-06 16:53:52,787 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Left)[)]"
+2021-04-06 16:56:54,450 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Left)[)]"
+2021-04-06 16:57:32,321 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Left)[)]"
+2021-04-06 16:57:54,164 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Left)[)]"
+2021-04-06 16:58:00,048 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-06 16:58:00,056 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 19, 20, 21, 23
+2021-04-06 16:58:00,182 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-06 16:58:00,185 [Dummy-1] INFO: loaded 6 dictionaries in 0.003s
+2021-04-08 07:28:03,817 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-08 07:28:03,935 [MainThread] INFO: 48 custom mappings(s)
+2021-04-08 07:28:04,032 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-08 07:28:04,032 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-08 07:28:04,453 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-08 07:28:04,465 [Dummy-1] INFO: XInput devices: 6, 7, 9, 10, 11, 12, 8, 15, 16, 17, 19, 20, 21, 22, 23
+2021-04-08 07:28:04,592 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-08 07:28:04,592 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-08 07:28:04,593 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-08 07:28:04,593 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-08 07:28:04,593 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-08 07:28:04,594 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-08 07:28:05,078 [Dummy-1] INFO: loaded 6 dictionaries in 0.486s
+2021-04-08 13:54:56,439 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-08 13:54:56,446 [Dummy-1] INFO: XInput devices: 6, 7, 9, 10, 11, 12, 8, 17, 19, 22, 23, 14, 15, 20, 21
+2021-04-08 13:54:56,577 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-09 07:52:59,999 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-09 07:53:00,097 [MainThread] INFO: 48 custom mappings(s)
+2021-04-09 07:53:00,185 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-09 07:53:00,185 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-09 07:53:00,679 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-09 07:53:00,691 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 15, 20, 22, 23, 12, 14, 17, 18, 19
+2021-04-09 07:53:00,809 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-09 07:53:00,809 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-09 07:53:00,809 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-09 07:53:00,809 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-09 07:53:00,811 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-09 07:53:00,812 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-09 07:53:01,401 [Dummy-1] INFO: loaded 6 dictionaries in 0.592s
+2021-04-09 07:53:04,875 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-09 07:53:06,054 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-09 07:53:25,703 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-09 07:53:48,993 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-09 07:53:51,347 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-09 07:53:51,419 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-09 09:58:39,585 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-09 10:00:19,328 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-10 08:55:52,477 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-10 08:55:52,592 [MainThread] INFO: 48 custom mappings(s)
+2021-04-10 08:55:52,696 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-10 08:55:52,696 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-10 08:55:53,099 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-10 08:55:53,106 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17
+2021-04-10 08:55:53,187 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-10 08:55:53,187 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-10 08:55:53,187 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-10 08:55:53,187 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-10 08:55:53,188 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-10 08:55:53,188 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-10 08:55:53,671 [Dummy-1] INFO: loaded 6 dictionaries in 0.484s
+2021-04-10 08:55:55,470 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-10 08:55:59,306 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-10 10:41:07,694 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-10 10:42:13,169 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-10 10:44:14,667 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:44:17,835 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:44:18,083 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:44:18,275 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:44:18,443 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:44:18,618 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:44:18,787 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:44:18,954 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:44:19,138 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:44:19,315 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:44:19,522 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:44:19,722 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 10:46:24,000 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Right)[)]"
+2021-04-10 12:59:37,903 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Down)[)]"
+2021-04-10 13:00:27,264 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Return)[)]"
+2021-04-12 10:32:05,464 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-12 10:32:05,591 [MainThread] INFO: 48 custom mappings(s)
+2021-04-12 10:32:05,700 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-12 10:32:05,700 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-12 10:32:06,113 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-12 10:32:06,121 [Dummy-1] INFO: XInput devices: 6, 7, 8, 10, 11, 9, 12, 13, 14, 15, 18
+2021-04-12 10:32:06,210 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-12 10:32:06,210 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-12 10:32:06,210 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-12 10:32:06,210 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-12 10:32:06,211 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-12 10:32:06,211 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-12 10:32:06,692 [Dummy-1] INFO: loaded 6 dictionaries in 0.483s
+2021-04-14 10:00:18,230 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-14 10:00:23,032 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-15 17:47:08,874 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-15 17:47:08,882 [Dummy-1] INFO: XInput devices: 6, 7, 15, 8, 9, 10, 11, 13, 14, 17, 18
+2021-04-15 17:47:08,984 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-15 22:37:43,938 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-15 22:37:43,946 [Dummy-1] INFO: XInput devices: 6, 7, 15, 8, 9, 10, 11, 13, 14, 17, 18
+2021-04-15 22:37:44,031 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-16 08:11:31,393 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-16 08:11:31,560 [MainThread] INFO: 48 custom mappings(s)
+2021-04-16 08:11:31,658 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-16 08:11:31,659 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-16 08:11:32,046 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-16 08:11:32,052 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 13, 14, 16, 17, 18
+2021-04-16 08:11:32,135 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-16 08:11:32,135 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-16 08:11:32,136 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-16 08:11:32,136 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-16 08:11:32,137 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-16 08:11:32,137 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-16 08:11:32,596 [Dummy-1] INFO: loaded 6 dictionaries in 0.461s
+2021-04-16 08:11:37,187 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-16 08:11:38,064 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-16 14:13:22,423 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-16 14:13:22,535 [MainThread] INFO: 48 custom mappings(s)
+2021-04-16 14:13:22,633 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-16 14:13:22,633 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-16 14:13:23,025 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-16 14:13:23,032 [Dummy-1] INFO: XInput devices: 6, 7, 9, 8, 10, 11, 13, 14, 15, 16, 17
+2021-04-16 14:13:23,115 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-16 14:13:23,115 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-16 14:13:23,116 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-16 14:13:23,116 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-16 14:13:23,116 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-16 14:13:23,117 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-16 14:13:23,584 [Dummy-1] INFO: loaded 6 dictionaries in 0.468s
+2021-04-17 21:11:24,875 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-17 21:11:25,002 [MainThread] INFO: 48 custom mappings(s)
+2021-04-17 21:11:25,104 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-17 21:11:25,104 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-17 21:11:25,500 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-17 21:11:25,506 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18
+2021-04-17 21:11:25,585 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-17 21:11:25,585 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-17 21:11:25,586 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-17 21:11:25,586 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-17 21:11:25,586 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-17 21:11:25,587 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-17 21:11:26,051 [Dummy-1] INFO: loaded 6 dictionaries in 0.466s
+2021-04-17 21:11:26,626 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-17 21:11:30,195 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-18 08:22:34,326 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-18 08:22:34,448 [MainThread] INFO: 48 custom mappings(s)
+2021-04-18 08:22:34,546 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-18 08:22:34,546 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-18 08:22:34,935 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-18 08:22:34,942 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 11, 12, 15, 16, 17, 18
+2021-04-18 08:22:35,033 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-18 08:22:35,034 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-18 08:22:35,034 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-18 08:22:35,034 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-18 08:22:35,035 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-18 08:22:35,035 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-18 08:22:35,500 [Dummy-1] INFO: loaded 6 dictionaries in 0.466s
+2021-04-19 20:35:08,064 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-19 20:35:08,175 [MainThread] INFO: 48 custom mappings(s)
+2021-04-19 20:35:08,272 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-19 20:35:08,272 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-19 20:35:08,668 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-19 20:35:08,673 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 12, 13
+2021-04-19 20:35:08,723 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-19 20:35:08,723 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-19 20:35:08,723 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-19 20:35:08,724 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-19 20:35:08,724 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-19 20:35:08,725 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-19 20:35:09,194 [Dummy-1] INFO: loaded 6 dictionaries in 0.471s
+2021-04-19 20:35:12,687 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-19 20:55:01,339 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-20 10:30:56,654 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-20 10:30:56,870 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-20 10:30:57,078 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-20 10:30:57,302 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-20 10:30:58,543 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-20 10:30:58,735 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-20 10:30:58,927 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-20 10:30:59,895 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-20 10:31:00,095 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-20 10:31:00,271 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-20 10:31:00,463 [Dummy-1] ERROR: engine on_stroked failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 136, in run
+    if func(*args, **kwargs):
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 356, in _on_stroked
+    self._translator.translate(stroke)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 205, in translate
+    self.flush()
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 265, in flush
+    self._output(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/translation.py", line 270, in _output
+    callback(undo, do, prev)
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 420, in format
+    OutputHelper(self._output, self.last_output_spaces_after,
+  File "/usr/lib/python3.9/site-packages/plover/formatting.py", line 536, in render
+    self.output.send_key_combination(action.combo)
+  File "/usr/lib/python3.9/site-packages/plover/engine.py", line 379, in send_key_combination
+    self._keyboard_emulation.send_key_combination(c)
+  File "/usr/lib/python3.9/site-packages/plover/oslayer/xkeyboardcontrol.py", line 1263, in send_key_combination
+    in parse_key_combo(combo_string, self._get_keycode_from_keystring)
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 190, in parse_key_combo
+    _raise_error(SyntaxError, 'unbalanced ")"')
+  File "/usr/lib/python3.9/site-packages/plover/key_combo.py", line 157, in _raise_error
+    raise exception(msg)
+SyntaxError: unbalanced ")" in "Alt(Up)[)]"
+2021-04-20 10:33:12,086 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-20 10:33:12,094 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 12, 13
+2021-04-20 10:33:12,144 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-20 10:33:12,148 [Dummy-1] INFO: loaded 6 dictionaries in 0.004s
+2021-04-20 10:47:06,277 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-20 10:47:06,286 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 12, 13
+2021-04-20 10:47:06,334 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-20 10:47:08,699 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-20 10:47:10,044 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-20 10:47:10,053 [Dummy-1] INFO: XInput devices: 6, 7, 8, 9, 10, 12, 13
+2021-04-20 10:47:10,106 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-20 10:48:46,579 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-20 10:48:46,587 [Dummy-1] INFO: XInput devices: 6, 7, 13, 9, 10, 11, 12
+2021-04-20 10:48:46,651 [Dummy-1] INFO: loaded 6 dictionaries in 0.000s
+2021-04-20 10:48:53,632 [MainThread] INFO: setting language to: en_GB.UTF-8
+2021-04-20 10:48:53,748 [MainThread] INFO: 48 custom mappings(s)
+2021-04-20 10:48:53,834 [Dummy-1] INFO: set_stroke_filename(/home/malachi/.config/plover/strokes.log)
+2021-04-20 10:48:53,835 [Dummy-1] INFO: loading system: English Stenotype
+2021-04-20 10:48:54,248 [Dummy-1] INFO: setting machine: Keyboard
+2021-04-20 10:48:54,254 [Dummy-1] INFO: XInput devices: 6, 7, 13, 9, 10, 11, 12
+2021-04-20 10:48:54,302 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/words.json
+2021-04-20 10:48:54,302 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/fixes.json
+2021-04-20 10:48:54,302 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/keys.json
+2021-04-20 10:48:54,302 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/modifiers.json
+2021-04-20 10:48:54,303 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/numbers.json
+2021-04-20 10:48:54,305 [Dummy-1] INFO: loading dictionary: /home/malachi/dotfiles/plover/main.json
+2021-04-20 10:48:54,823 [Dummy-1] INFO: loaded 6 dictionaries in 0.522s

@@ -4,4 +4,13 @@ xset r rate 200 20
 
 i3-msg 'workspace 1; exec kitty'
 
-# i3-msg 'workspace 4; exec google-chrome-unstable' && i3-msg 'workspace 3; exec youtube-music' && i3-msg 'workspace 2; exec chromium' && i3-msg 'workspace 1; exec alacritty'
+# wacom tablet
+xsetwacom set "Wacom Intuos BT S Pen stylus" Button 2 "pan"
+xsetwacom --set "Wacom Intuos BT S Pen stylus" "PanScrollThreshold" 200
+xsetwacom set "Wacom Intuos BT S Pad pad" Button 1 'key ctrl insert'
+xsetwacom set "Wacom Intuos BT S Pad pad" Button 2 'key shift insert'
+
+# trackball
+xinput set-prop "Kensington Expert Wireless TB Mouse" 289 1
+xinput set-prop "Kensington Expert Wireless TB Mouse" 454 1
+xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 0 1 4 5 6 7 0 0

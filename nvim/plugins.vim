@@ -8,6 +8,7 @@ if has('nvim-0.5')
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'romgrk/barbar.nvim'
   Plug 'nvim-treesitter/nvim-treesitter'
+  Plug 'hoob3rt/lualine.nvim'
 else
   Plug 'machakann/vim-highlightedyank'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -31,14 +32,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 
 " testing
-Plug 'kien/rainbow_parentheses.vim'
-Plug 'vijaymarupudi/nvim-fzf'
-Plug 'glepnir/indent-guides.nvim'
-
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'hoob3rt/lualine.nvim'
-
-
 
 " ui plugins
 Plug 'cespare/vim-toml'
@@ -47,10 +40,9 @@ Plug 'vimwiki/vimwiki'
 Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/jsonc.vim'
-" Plug 'itchyny/lightline.vim'
-" Plug 'Yggdroot/indentLine'
-" Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'mboughaba/i3config.vim'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'glepnir/indent-guides.nvim'
 
 call plug#end()
 

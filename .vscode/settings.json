@@ -1,8 +1,0 @@
-{
-  "files.autoSave": "onWindowChange",
-  "editor.fontFamily": "Hack",
-  "editor.tabSize": 2,
-  "files.exclude": {
-    "**/node_modules": true
-  }
-}

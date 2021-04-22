@@ -1,212 +1,3 @@
-: 1611333377:0;la
-: 1611333383:0;node file.js
-: 1611333393:0;electron src/main.js\
-
-: 1611333401:0;..
-: 1611333403:0;electron src/main.js\
-
-: 1611333827:0;electron .
-: 1611333922:0;electron src/main.js\
-
-: 1611334246:0;node src/file.js
-: 1611334263:0;cd src
-: 1611334265:0;node file.js
-: 1611334267:0;..
-: 1611334268:0;la
-: 1611334288:0;electron src/main.js\
-
-: 1611334905:0;npm run start
-: 1611334963:0;npm start
-: 1611335028:0;npm run start
-: 1611335090:0;cd src
-: 1611335093:0;electron .
-: 1611335104:0;..
-: 1611335111:0;electron src/main.js\
-
-: 1611335122:0;electron .
-: 1611341879:0;electron .
-: 1611341915:0;npm run start
-: 1611341933:0;electron .
-: 1611342231:0;npm run start
-: 1611342319:0;electron .
-: 1611344879:0;cd shows/kabukichou-sherlock
-: 1611344880:0;la
-: 1611344885:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 10\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611346363:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 11\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611388754:0;pac alsa
-: 1611388873:0;electron .
-: 1611388889:0;npm start
-: 1611393592:0;node .
-: 1611393616:0;node src/main.js
-: 1611393865:0;node .
-: 1611393873:0;npm node
-: 1611393876:0;npm run node
-: 1611393882:0;node .
-: 1611393885:0;npm run node
-: 1611393933:0;npm start
-: 1611393945:0;npm run node
-: 1611410752:0;z steno-in
-: 1611410753:0;la
-: 1611410758:0;v .gitignore
-: 1611410768:0;v things-to-do.md
-: 1611410841:0;la
-: 1611410844:0;v .
-: 1611410943:0;cd dotfiles/nvim/snippets
-: 1611410943:0;la
-: 1611410947:0;v javascript.json
-: 1611410959:0;vma
-: 1611413551:0;:FloatermToggle
-: 1611415704:0;nnoremap <c-z> u
-: 1611415987:0;cd
-: 1611415989:0;z steno-in
-: 1611416002:0;v src/file.js
-: 1611416039:0;node .
-: 1611416041:0;la
-: 1611416045:0;..
-: 1611416046:0;la
-: 1611416107:0;node .
-: 1611416716:0;n
-: 1611416718:0;npm run node
-: 1611424066:0;node .
-: 1611428079:0;npm run node
-: 1611428383:0;node src/main.js
-: 1611428584:0;npm start
-: 1611428592:0;npm run node
-: 1611428724:0;npm start
-: 1611428727:0;npm run node
-: 1611428738:0;npm backend/file.js
-: 1611428745:0;node backend/file.js
-: 1611431488:0;cd shows/kabukichou-sherlock
-: 1611431493:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 12\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611433446:0;npm start
-: 1611433656:0;betterlockscreen -s
-: 1611476274:0;electron .
-: 1611479948:0;pac plover
-: 1611489813:0;bashtop
-: 1611489859:0;sudo lspci -v | less\
-
-: 1611489888:0;lshw
-: 1611489890:0;pac lshw
-: 1611489947:0;neofetch
-: 1611489952:0;pac neofetch
-: 1611489956:0;neofetch
-: 1611495525:0;pac plover-git
-: 1611495545:0;plover
-: 1611495628:0;pac pkgver
-: 1611495654:0;plover
-: 1611495664:0;pacr plover-git
-: 1611495674:0;pac pkgver
-: 1611495680:0;pac plover-git
-: 1611495716:0;yay -Syu
-: 1611495860:0;pac plover
-: 1611495993:0; pip install plover-plugins-manager
-: 1611496021:0;pac plover
-: 1611496041:0;plover
-: 1611496075:0;sudo rma /usr/bin/plover
-: 1611496081:0;sudo rm -r /usr/bin/plover
-: 1611496083:0;la
-: 1611496085:0;plover
-: 1611496104:0;pac plover
-: 1611496120:0;plover
-: 1611496422:0;la
-: 1611496436:0;pac python3
-: 1611496446:0;pacr python
-: 1611496456:0;pacr python3
-: 1611496458:0;pacr python
-: 1611496462:0;pacr python-pip
-: 1611496465:0;python
-: 1611496475:0;..
-: 1611496482:0;plover
-: 1611496494:0;pacr plover
-: 1611496496:0;pacr plover-git
-: 1611496503:0;la
-: 1611496509:0;cd /usr/bin
-: 1611496510:0;la
-: 1611496516:0;sudo rm -r /usr/bin/plover
-: 1611496518:0;..
-: 1611496527:0;pac plover-git
-: 1611496549:0;plover
-: 1611496965:0;pac plover
-: 1611496977:0;ploner
-: 1611496979:0;plover
-: 1611497083:0;electron .
-: 1611510046:0;cd
-: 1611510047:0;la
-: 1611510056:0;s
-: 1611510057:0;su
-: 1611742873:0;startx
-: 1611742873:0;xstart
-: 1611510155:0;pac lightdm
-: 1611510160:0;update
-: 1611510399:0;pacr lightdm
-: 1611510403:0;lightdm
-: 1611510409:0;pac lightdm
-: 1611510422:0;systemctl start lightdm
-: 1611510431:0;sudo systemctl start lightdm
-: 1611510448:0;sudo systemctl enable lightdm
-: 1611510452:0;sudo systemctl start lightdm
-: 1611510465:0;power
-: 1611510515:0;sudo systemctl status lightdm
-: 1611510589:0;vim /etc/lightdm/lightdm.conf
-: 1611510652:0;lightdm --test-mode --debug
-: 1611510695:0;pac lightdm-gtk-greeter
-: 1611510705:0;lightdm --test-mode --debug
-: 1611510738:0;pac lightdm-slick-greeter
-: 1611510812:0;vim /etc/lightdm/lightdm.conf
-: 1611510871:0;sudo vim /etc/lightdm/lightdm.conf
-: 1611510921:0;lightdm --test-mode --debug
-: 1611510930:0;systemctl start lightdm
-: 1611517107:0;cd shows/kabukichou-sherlock
-: 1611517113:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 13\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611517122:0;pac mpv
-: 1611517137:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 13\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611519562:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 14\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611563761:0;electron .
-: 1611563963:0;npm run node
-: 1611563972:0;pac nodejs
-: 1611563981:0;pac npm
-: 1611563992:0;npm run node
-: 1611564039:0;node src/file.js
-: 1611564646:0;electron .
-: 1611565018:0;npm run node
-: 1611565029:0;node src/file.js
-: 1611565223:0;electron .
-: 1611573082:0;npm install
-: 1611573086:0;electron .
-: 1611573343:0;npm i electron-reloader
-: 1611573383:0;electron .
-: 1611574739:0;npm i electron-hot-loader
-: 1611575114:0;file
-: 1611575166:0;pac Nautilus
-: 1611575173:0;pac nautilus
-: 1611575196:0;file
-: 1611575254:0;reboot
-: 1611583449:0;npm uninstall electron-reloder
-: 1611583455:0;cat package.json
-: 1611583473:0;npm uninstall electron-hot-loader
-: 1611583487:0;cat package.json
-: 1611583506:0;npm uninstall electron-reload electron-reloader
-: 1611583512:0;cat package.json
-: 1611583525:0;npm uninstall mongodb
-: 1611583529:0;npm uninstall usb
-: 1611583532:0;cat package.json
-: 1611583593:0;electron .
-: 1611583601:0;npm start
-: 1611583685:0;npm i electron-reload
-: 1611583737:0;electron .
-: 1611587695:0;npm i electron-reload
-: 1611587698:0;electron .
-: 1611596009:0;pac plover-git
-: 1611596041:0;plover
-: 1611596066:0;/usr/bin/plover
-: 1611605827:0;cd shows/kabukichou-sherlock
-: 1611605831:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 15\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611611801:0;betterlockscreen -s
-: 1611647228:0;xset r rate 200 20
-: 1611647247:0;electron .
-: 1611654962:0;not
-: 1611654963:0;la
-: 1611654974:0;mk cooking
 : 1611654974:0;la
 : 1611654977:0;cd cooking
 : 1611654978:0;la
@@ -9994,10 +9785,10 @@ xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 0 1 4 5 6 7 0 0\
 : 1616346389:0;la
 : 1616346394:0;rma plugged
 : 1616346397:0;nvim
-cd projects/rust
-la
-ls
-nvim src/main.rs 
+: 1617289624:0;cd projects/rust
+: 1617289624:0;la
+: 1617289624:0;ls
+: 1617289624:0;nvim src/main.rs 
 : 1616346408:0;cd projects/rust
 : 1616346411:0;v src/main.rs
 : 1616346424:0;nvim
@@ -10537,3 +10328,563 @@ nvim src/main.rs
 : 1617175852:0;v test.md
 : 1617180521:0;cd dotfiles
 : 1617180616:0;commit 'save'
+: 1617196999:0;let thatIsCool = 'hats hats hats hats hats hats'
+: 1617223936:0;cd Downloads
+: 1617223937:0;la
+: 1617223952:0;cd \[Judas\]\ Nejimaki\ Seirei\ Senki\ Tenkyo\ no\ Aruderamin\ \(Alderamin\ in\ the\ Sky\)\ \(Season\ 1\)\ \[BD\ 1080p\]\[HEVC\ x265\ 10bit\]\[Dual-Audio\]\[Eng-Subs\]
+: 1617223956:0;..
+: 1617223957:0;la
+: 1617223959:0;cd \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ \[BDRip\]\ \[Hi10\]\ \[1080p\]
+: 1617223960:0;la
+: 1617223963:0;vid \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 01\ \[C41358A2\].mkv
+: 1617223973:0;dow
+: 1617223973:0;la
+: 1617223979:0;rm \[Judas\]\ Nejimaki\ Seirei\ Senki\ Tenkyo\ no\ Aruderamin\ \(Alderamin\ in\ the\ Sky\)\ \(Season\ 1\)\ \[BD\ 1080p\]\[HEVC\ x265\ 10bit\]\[Dual-Audio\]\[Eng-Subs\]
+: 1617223982:0;rma \[Judas\]\ Nejimaki\ Seirei\ Senki\ Tenkyo\ no\ Aruderamin\ \(Alderamin\ in\ the\ Sky\)\ \(Season\ 1\)\ \[BD\ 1080p\]\[HEVC\ x265\ 10bit\]\[Dual-Audio\]\[Eng-Subs\]
+: 1617223983:0;la
+: 1617223986:0;cd \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ \[BDRip\]\ \[Hi10\]\ \[1080p\]
+: 1617223987:0;la
+: 1617226010:0;vid \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 02\ \[A0CC957B\].mkv
+: 1617255700:0;cd dotfiles/scripts
+: 1617255700:0;la
+: 1617255705:0;./mouses.sh
+: 1617256580:0; cd
+: 1617256591:0;cd Downloads
+: 1617256595:0;la
+: 1617256606:0;cd \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ \[BDRip\]\ \[Hi10\]\ \[1080p\]
+: 1617256608:0;la
+: 1617256671:0;vid \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 03\ \[E448D43D\].mkv
+: 1617258016:0; vid
+: 1617258028:0;vid  \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 04\ \[1EFC336E\].mkv
+: 1617272109:0;bin
+: 1617272111:0;./mouses.sh
+: 1617272133:0;pulseaudio -k
+: 1617272889:0;irc
+: 1617272904:0;bin
+: 1617272906:0;./mouses.sh
+: 1617272918:0;v mouses.sh
+: 1617272924:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 289 1\
+
+: 1617272930:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 288 1\
+
+: 1617272933:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 287 1\
+
+: 1617272944:0;xinput prop-list "Kensington Expert Wireless TB Mouse"\
+
+: 1617275722:0;xinput list-props "Kensington Expert Wireless TB Mouse"\
+
+: 1617275744:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 415 1\
+
+: 1617275749:0;v mouses.sh
+: 1617275789:0;cd Downloads/\[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ \[BDRip\]\ \[Hi10\]\ \[1080p\]
+: 1617275794:0;vid \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 05\ \[39FF5646\].mkv
+: 1617277121:0;vid \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 06\ \[B29DFADB\].mkv
+: 1617288984:0;as
+: 1617289528:0;irc
+: 1617289624:0;exec ~/dotfiles/scripts/mouses.sh
+: 1617289640:0;./dotfiles/scripts/mouses.sh
+: 1617289656:0;bin
+: 1617289661:0;v mouses.sh
+: 1617289682:0;./mouses.sh
+: 1617298813:0;cd
+: 1617298816:0;cd Downloads/\[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ \[BDRip\]\ \[Hi10\]\ \[1080p\]
+: 1617298820:0;vid \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 07\ \[F8DCA66F\].mkv
+: 1617300251:0;vid \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 08\ \[ADFEF452\].mkv
+: 1617302127:0;vid \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 09\ \[B2306232\].mkv
+: 1617304677:0;vid \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 10\ \[535488FB\].mkv
+: 1617344874:0;./dotfiles/scripts/mouses.sh
+: 1617344884:0;bin
+: 1617344888:0;v mouses.sh
+: 1617344895:0;./mouses.sh
+: 1617344917:0;xinput list-props "Kensington Expert Wireless TB Mouse"\
+
+: 1617369960:0;irc happen
+: 1617370011:0;irc
+: 1617370051:0;bin
+: 1617370055:0;v startup.sh
+: 1617370084:0;./startup.sh
+: 1617373833:0;xinput list-props "Kensington Expert Wireless TB Mouse"\
+
+: 1617373850:0; bin
+: 1617373865:0;v mouses.sh
+: 1617374925:0;vma
+: 1617381529:0;vfn
+: 1617435521:0;bin
+: 1617435523:0;./startup.sh
+: 1617449158:0;screenkey
+: 1617465739:0;cd Downloads/\[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ \[BDRip\]\ \[Hi10\]\ \[1080p\]
+: 1617465748:0;...
+: 1617465750:0; la
+: 1617468868:0;v test.md
+: 1617479192:0;cd Downloads/\[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ \[BDRip\]\ \[Hi10\]\ \[1080p\]
+: 1617479198:0;vid mpv-shot0011.jpg
+: 1617479209:0;vid \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 11\ \[6E7F1F83\].mkv
+: 1617482656:0;irc
+: 1617482704:0;v ~/dotfiles/scripts/startup.sh
+: 1617482743:0;xinput list-props "Kensington Expert Wireless TB Mouse"\
+
+: 1617482750:0;v ~/dotfiles/scripts/startup.sh
+: 1617515263:0;xinput list-props "Kensington Expert Wireless TB Mouse"\
+
+: 1617515270:0;bin
+: 1617515273:0;v startup.sh
+: 1617515283:0;xinput list-props "Kensington Expert Wireless TB Mouse"\
+
+: 1617562178:0;dot
+: 1617562179:0;la
+: 1617562221:0;rma espanso .prettierrc.json .stylelintrc.json .vscode vscode 
+: 1617562228:0;la
+: 1617562234:0;rm tags
+: 1617562235:0;la
+: 1617562242:0;rm .eslintrc.json
+: 1617562242:0;la
+: 1617562250:0;cd notes
+: 1617562250:0;la
+: 1617562259:0;cd software
+: 1617562260:0;la
+: 1617562263:0;mv * .
+: 1617562265:0;mv * ..
+: 1617562266:0;la
+: 1617562267:0;..
+: 1617562269:0;rm software
+: 1617562273:0;rma software
+: 1617562273:0;la
+: 1617562283:0;tree
+: 1617562297:0;pac obsidion
+: 1617562300:0;pac obsid
+: 1617562308:0;la
+: 1617562318:0;cd hardware
+: 1617562318:0;la
+: 1617562342:0;mv components ../hardware-components
+: 1617562343:0;..
+: 1617562343:0;la
+: 1617562346:0;rm hardware
+: 1617562346:0;la
+: 1617562349:0;rma hardware
+: 1617562349:0;la
+: 1617562355:0;ls learning
+: 1617562361:0;rma learning
+: 1617562362:0;la
+: 1617562369:0;ls scss
+: 1617562373:0;rm scss
+: 1617562375:0;rma scss
+: 1617562376:0;la
+: 1617562383:0;ls git
+: 1617562387:0;cat git/git.md
+: 1617562518:0;la
+: 1617562529:0;mk old
+: 1617562533:0;mv * old
+: 1617562534:0;la
+: 1617562544:0;mv old old-notes
+: 1617562544:0;la
+: 1617562552:0;mk swift
+: 1617562555:0;cd swift
+: 1617562555:0;la
+: 1617562567:0;v stacks.md
+: 1617602842:0;sh startup.sh
+: 1617602904:0;cd dotfiles/scripts
+: 1617602913:0;..
+: 1617602915:0;cd plover
+: 1617602922:0;v programming.json
+: 1617602940:0;rm programming.json
+: 1617602941:0;la
+: 1617602949:0;rm names.json
+: 1617602957:0;la
+: 1617602972:0;rma vim.json breafs.json
+: 1617602974:0;la
+: 1617603009:0;..
+: 1617603010:0;la
+: 1617603019:0;v tmux/tmux.conf
+: 1617610120:0;cd dotfiles/notes/swift
+: 1617610123:0;v stacks.md
+: 1617611474:0;cat stacks.md
+: 1617652488:0;cd Downloads
+: 1617652490:0;cd \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ \[BDRip\]\ \[Hi10\]\ \[1080p\]
+: 1617652495:0;vid \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ -\ 13\ \[8ABC7A8E\].mkv
+: 1617690957:0;irc
+: 1617690994:0;bin
+: 1617690998:0;v startup.sh
+: 1617691418:0;bin the
+: 1617691430:0;bin
+: 1617692322:0;pac vimb
+: 1617692334:0;vimb
+: 1617724463:0;cd dotfiles/plover
+: 1617724466:0;la
+: 1617724473:0;v modifiers.json
+: 1617738513:0; #-RB
+: 1617738541:0;..
+: 1617738562:0;cd Downloads/\[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ \(WEB\ 1080p\ x264\ AAC\)\ \[Dual-Audio\]
+: 1617738585:0;..
+: 1617738587:0; la
+: 1617738601:0;vid EP.1.360p.mp4
+: 1617739946:0;power
+: 1617825014:0;cd Downloads
+: 1617825018:0;vid EP.2.360p.mp4
+: 1617826669:0;vid EP.3.360p.mp4
+: 1617829157:0;power
+: 1617890190:0;dow
+: 1617890191:0;la
+: 1617890604:0;cd Downloads
+: 1617890606:0;curl http://p15.highwinds-cdn.com/dl-guest/1/5/0/8/v1x/dist/saimin-gakuen-1-360p-v1x.mp4?md5=lZyggt0LjypQY7L_6Mqpkw&expires=1617901381
+: 1617897210:0;cd
+: 1617897213:0;cd dotfiles/notes
+: 1617897213:0;la
+: 1617897227:0;v elto-cafe
+: 1617897231:0;v elto-cafe.md
+: 1617911085:0;cd Downloads
+: 1617911087:0;vid EP.3.360p.mp4
+: 1617911093:0;cd \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ \(WEB\ 1080p\ x264\ AAC\)\ \[Dual-Audio\]
+: 1617911098:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 03v2\ \(WEB\ 1080p\ x264\ AAC\)\ \[4925FB5B\].mkv
+: 1617911109:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 01v2\ \(WEB\ 1080p\ x264\ AAC\)\ \[12101291\].mkv
+: 1617911225:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 04v2\ \(WEB\ 1080p\ x264\ AAC\)\ \[1676C531\].mkv
+: 1617911240:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 03v2\ \(WEB\ 1080p\ x264\ AAC\)\ \[4925FB5B\].mkv
+: 1617911261:0;la
+: 1617911268:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 04v2\ \(WEB\ 1080p\ x264\ AAC\)\ \[1676C531\].mkv
+: 1617958390:0;v test.md
+: 1618041606:0;v a.out
+: 1618041661:0;cd projects/nodejs/public
+: 1618041670:0; la
+: 1618041704:0;v index.js
+: 1618056087:0;cd dotfiles/plover
+: 1618056091:0;la
+: 1618056101:0;v modifiers.json
+: 1618061617:0;cd
+: 1618061651:0;la
+: 1618061666:0;cd Downloads
+: 1618061668:0; la
+: 1618061681:0;cd \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ \(WEB\ 1080p\ x264\ AAC\)\ \[Dual-Audio\]
+: 1618061684:0;la
+: 1618061702:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 05\ \(WEB\ 1080p\ x264\ AAC\)\ \[425D4133\].mkv
+: 1618063144:0;vid  \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 06\ \(WEB\ 1080p\ x264\ AAC\)\ \[0C994B03\].mkv
+: 1618065832:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 07\ \(WEB\ 1080p\ x264\ AAC\)\ \[0FFA623B\].mkv
+: 1618068278:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 08\ \(WEB\ 1080p\ x264\ AAC\)\ \[46C153F3\].mkv
+: 1618070261:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 09\ \(WEB\ 1080p\ x264\ AAC\)\ \[B9A9B77E\].mkv
+: 1618071702:0; vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 10\ \(WEB\ 1080p\ x264\ AAC\)\ \[14ED3C3F\].mkv
+: 1618073380:0; vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 11v2\ \(WEB\ 1080p\ x264\ AAC\)\ \[D1FC4BC6\].mkv
+: 1618083455:0;cd Downloads/\[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ \(WEB\ 1080p\ x264\ AAC\)\ \[Dual-Audio\]
+: 1618083456:0;la
+: 1618083464:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 09\ \(WEB\ 1080p\ x264\ AAC\)\ \[B9A9B77E\].mkv
+: 1618083476:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 10\ \(WEB\ 1080p\ x264\ AAC\)\ \[14ED3C3F\].mkv
+: 1618083488:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 11v2\ \(WEB\ 1080p\ x264\ AAC\)\ \[D1FC4BC6\].mkv
+: 1618084252:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 12\ \(WEB\ 1080p\ x264\ AAC\)\ \[D2C5034D\].mkv
+: 1618085329:0;vid \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ -\ 13v2\ \(WEB\ 1080p\ x264\ AAC\)\ \[09006055\].mkv
+: 1618087033:0;du -h
+: 1618087036:0;df -h
+: 1618087091:0;cd Downloads
+: 1618087092:0;la
+: 1618087106:0;mv torrent torrent.torrent
+: 1618087145:0;..
+: 1618087177:0;rma 4956613_eth.json EP.1.360p.mp4 EP.2.360p.mp4 EP.3.360p.mp4 hiveos-0.6-190-stable@210108.img.xz hiveos-0.6-190-stable@210108.img.xz.torrent \[Judas\]\ Nejimaki\ Seirei\ Senki\ Tenkyo\ no\ Aruderamin\ \(Alderamin\ in\ the\ Sky\)\ \(Season\ 1\)\ \[BD\ 1080p\]\[HEVC\ x265\ 10bit\]\[Dual-Audio\]\[Eng-Subs\].torrent \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ \(WEB\ 1080p\ x264\ AAC\)\ \[Dual-Audio\].torrent \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ \[BDRip\]\ \[Hi10\]\ \[1080p\]\ \(1\).torrent \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ \[BDRip\]\ \[Hi10\]\ \[1080p\].torrent rig.conf
+: 1618087179:0;la
+: 1618087184:0;rma \[LostYears\]\ The\ Misfit\ of\ Demon\ King\ Academy\ \(WEB\ 1080p\ x264\ AAC\)\ \[Dual-Audio\] \[SubsPlease\]\ Black\ Clover\ \(01-170\)\ \(720p\)\ \[Batch\] 
+: 1618087186:0;la
+: 1618087193:0;rma \[RH\]\ Nejimaki\ Seirei\ Senki\ Tenkyou\ no\ Alderamin\ \[BDRip\]\ \[Hi10\]\ \[1080p\]
+: 1618087194:0;la
+: 1618087199:0;cd \[SubsPlease\]\ Black\ Clover\ \(01-170\)\ \(720p\)\ \[Batch\]
+: 1618087199:0;la
+: 1618087208:0;..
+: 1618087213:0;df -h
+: 1618089592:0;la
+: 1618089594:0;cd \[SubsPlease\]\ Black\ Clover\ \(01-170\)\ \(720p\)\ \[Batch\]
+: 1618089594:0;la
+: 1618089663:0;cat "- 01"
+: 1618089668:0;cat *- 01*
+: 1618089672:0;cat *01*
+: 1618121412:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 01\ \(720p\)\ \[B120D8F6\].mkv
+: 1618128112:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 06\ \(720p\)\ \[7F283B46\].mkv
+: 1618164937:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 06\ \(720p\)\ \[7F283B46\].mkv 
+: 1618172904:0;..
+: 1618172907:0;vid EP.17.360p.mp4
+: 1618173932:0;vid EP.18.360p.mp4
+: 1618175038:0;vid EP.19.360p.mp4
+: 1618175041:0;dow
+: 1618175042:0;la
+: 1618206079:0;cd \[SubsPlease\]\ Black\ Clover\ \(01-170\)\ \(720p\)\ \[Batch\]
+: 1618206086:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 20\ \(720p\)\ \[79E553A9\].mkv
+: 1618207282:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 21\ \(720p\)\ \[275F356D\].mkv
+: 1618208399:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 22\ \(720p\)\ \[6197508E\].mkv
+: 1618209405:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 23\ \(720p\)\ \[B4CA9CC9\].mkv
+: 1618210485:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 24\ \(720p\)\ \[672FF18A\].mkv
+: 1618212453:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 25\ \(720p\)\ \[E8EFB89D\].mkv
+: 1618212555:0;for file in *.mkv\
+do\
+echo $file\
+done
+: 1618212622:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 25\ \(720p\)\ \[E8EFB89D\].mkv
+: 1618213678:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 26\ \(720p\)\ \[C1BDC745\].mkv
+: 1618213754:0;pac vimv
+: 1618214744:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 27\ \(720p\)\ \[E8FF3791\].mkv
+: 1618216216:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 28\ \(720p\)\ \[4E8A9F05\].mkv
+: 1618216257:0;cd Downloads
+: 1618216257:0;la
+: 1618216261:0;sudo vim .
+: 1618217413:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 29\ \(720p\)\ \[5E159E30\].mkv
+: 1618217621:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 30\ \(720p\)\ \[B38D9373\].mkv
+: 1618219786:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 31\ \(720p\)\ \[E42B0150\].mkv
+: 1618221878:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 32\ \(720p\)\ \[A0DA8840\].mkv
+: 1618223021:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 33\ \(720p\)\ \[1E0B321D\].mkv
+: 1618225088:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 34\ \(720p\)\ \[9F99697C\].mkv
+: 1618226288:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 35\ \(720p\)\ \[3C2F8088\].mkv
+: 1618227187:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 36\ \(720p\)\ \[ADA3EF63\].mkv
+: 1618230131:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 37\ \(720p\)\ \[95C3A023\].mkv
+: 1618231180:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 38\ \(720p\)\ \[03DEFE55\].mkv
+: 1618236517:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 39\ \(720p\)\ \[48AE6DC4\].mkv
+: 1618238249:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 40\ \(720p\)\ \[266B1B61\].mkv
+: 1618239421:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 41\ \(720p\)\ \[9643AFFF\].mkv
+: 1618240523:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 42\ \(720p\)\ \[3D17D729\].mkv
+: 1618241512:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 43\ \(720p\)\ \[54CFE1B5\].mkv
+: 1618242807:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 44\ \(720p\)\ \[C7100B9E\].mkv
+: 1618247269:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 45\ \(720p\)\ \[BCB19E52\].mkv
+: 1618248497:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 46\ \(720p\)\ \[4C9E16B9\].mkv 
+: 1618249284:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 47\ \(720p\)\ \[0F209766\].mkv
+: 1618250204:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 48\ \(720p\)\ \[256ADEF7\].mkv
+: 1618251388:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 49\ \(720p\)\ \[7EBAF407\].mkv
+: 1618252305:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 50\ \(720p\)\ \[663C28CB\].mkv
+: 1618252707:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 51\ \(720p\)\ \[758281AB\].mkv
+: 1618253700:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 52\ \(720p\)\ \[E1C90CCF\].mkv
+: 1618254887:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 53\ \(720p\)\ \[948E5E9D\].mkv
+: 1618256334:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 54\ \(720p\)\ \[3163B93A\].mkv
+: 1618256370:0; vid \[SubsPlease\]\ Black\ Clover\ -\ 55\ \(720p\)\ \[DDA5E51A\].mkv
+: 1618256544:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 54\ \(720p\)\ \[3163B93A\].mkv
+: 1618256581:0;./\[SubsPlease\]\ Black\ Clover\ -\ 54\ \(720p\)\ \[3163B93A\].mkv
+: 1618256588:0;sudo ./\[SubsPlease\]\ Black\ Clover\ -\ 54\ \(720p\)\ \[3163B93A\].mkv
+: 1618257784:0; vid \[SubsPlease\]\ Black\ Clover\ -\ 55\ \(720p\)\ \[DDA5E51A\].mkv
+: 1618258281:0; vid \[SubsPlease\]\ Black\ Clover\ -\ 56\ \(720p\)\ \[F0822D1C\].mkv
+: 1618258547:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 57\ \(720p\)\ \[E197799B\].mkv
+: 1618259066:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 58\ \(720p\)\ \[044ABB79\].mkv
+: 1618259937:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 59\ \(720p\)\ \[D2E25FF1\].mkv
+: 1618261271:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 60\ \(720p\)\ \[230C3CEF\].mkv the
+: 1618294362:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 61\ \(720p\)\ \[40C9C895\].mkv
+: 1618294832:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 62\ \(720p\)\ \[E7454F0F\].mkv
+: 1618295479:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 63\ \(720p\)\ \[B95BD7DF\].mkv
+: 1618296485:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 64\ \(720p\)\ \[4E016011\].mkv
+: 1618296911:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 65\ \(720p\)\ \[B413F97B\].mkv
+: 1618297339:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 66\ \(720p\)\ \[8E305A3F\].mkv
+: 1618297628:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 67\ \(720p\)\ \[636D1DB2\].mkv
+: 1618298285:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 68\ \(720p\)\ \[D050DD77\].mkv
+: 1618298957:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 69\ \(720p\)\ \[A00E5E55\].mkv
+: 1618299295:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 70\ \(720p\)\ \[C0E0C114\].mkv
+: 1618303189:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 71\ \(720p\)\ \[1FE344AA\].mkv
+: 1618304549:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 72\ \(720p\)\ \[A01EE25C\].mkv
+: 1618305598:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 73\ \(720p\)\ \[34B02A79\].mkv
+: 1618307634:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 74\ \(720p\)\ \[22C15327\].mkv
+: 1618308471:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 75\ \(720p\)\ \[6CF0D901\].mkv
+: 1618317133:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 76\ \(720p\)\ \[E7F618F6\].mkv
+: 1618317960:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 77\ \(720p\)\ \[6D817409\].mkv
+: 1618318840:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 78\ \(720p\)\ \[A59F47D8\].mkv
+: 1618319947:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 79\ \(720p\)\ \[6219F799\].mkv
+: 1618322266:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 80\ \(720p\)\ \[0478AFB2\].mkv
+: 1618323284:0;cd cd
+: 1618323304:0;cd Downloads
+: 1618323313:0;cd \[SubsPlease\]\ Black\ Clover\ \(01-170\)\ \(720p\)\ \[Batch\]
+: 1618323321:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 81\ \(720p\)\ \[EFAAD089\].mkv
+: 1618324198:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 82\ \(720p\)\ \[53E64BAD\].mkv
+: 1618324269:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 83\ \(720p\)\ \[8A98DE83\].mkv
+: 1618325916:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 84\ \(720p\)\ \[814F716E\].mkv
+: 1618327161:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 85\ \(720p\)\ \[FBB7581C\].mkv
+: 1618328137:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 86\ \(720p\)\ \[6E3048BC\].mkv
+: 1618329513:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 87\ \(720p\)\ \[04D00C41\].mkv
+: 1618330468:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 88\ \(720p\)\ \[1F4AC4DA\].mkv
+: 1618331449:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 89\ \(720p\)\ \[F50F7F83\].mkv
+: 1618331525:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 90\ \(720p\)\ \[C97666BB\].mkv
+: 1618341629:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 91\ \(720p\)\ \[7C529552\].mkv
+: 1618342744:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 92\ \(720p\)\ \[DBCFD20C\].mkv
+: 1618343776:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 93\ \(720p\)\ \[7E3D60D5\].mkv
+: 1618344977:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 94\ \(720p\)\ \[76EC2A62\].mkv
+: 1618345988:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 95\ \(720p\)\ \[4A6DD3DB\].mkv
+: 1618346965:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 96\ \(720p\)\ \[15C4FC77\].mkv
+: 1618348105:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 97\ \(720p\)\ \[CFA07393\].mkv
+: 1618379596:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 98\ \(720p\)\ \[C333A08A\].mkv
+: 1618380451:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 99\ \(720p\)\ \[9D5880F5\].mkv
+: 1618381459:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 100\ \(720p\)\ \[4149501F\].mkv
+: 1618382504:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 101\ \(720p\)\ \[1DEF43BF\].mkv
+: 1618383314:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 102\ \(720p\)\ \[9F6F57ED\].mkv
+: 1618383582:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 103\ \(720p\)\ \[D0A5651E\].mkv
+: 1618384125:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 104\ \(720p\)\ \[BEAB03CD\].mkv
+: 1618387188:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 105\ \(720p\)\ \[DC88F18B\].mkv
+: 1618387803:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 106\ \(720p\)\ \[5A6E2491\].mkv
+: 1618391300:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 107\ \(720p\)\ \[F4C87B8F\].mkv
+: 1618392150:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 108\ \(720p\)\ \[E3D27D77\].mkv
+: 1618393353:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 109\ \(720p\)\ \[FB02AD2C\].mkv
+: 1618394466:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 110\ \(720p\)\ \[EF7B5CF1\].mkv
+: 1618395591:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 111\ \(720p\)\ \[3AC4FB96\].mkv
+: 1618395605:0;cd Downloads/\[SubsPlease\]\ Black\ Clover\ \(01-170\)\ \(720p\)\ \[Batch\]
+: 1618395608:0;la
+: 1618396575:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 112\ \(720p\)\ \[82672262\].mkv
+: 1618397320:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 113\ \(720p\)\ \[C91839C7\].mkv
+: 1618399297:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 114\ \(720p\)\ \[7FB99611\].mkv
+: 1618404271:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 115\ \(720p\)\ \[E4E23ED1\].mkv
+: 1618405472:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 116\ \(720p\)\ \[16926B5F\].mkv
+: 1618406638:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 117\ \(720p\)\ \[6EBD1864\].mkv
+: 1618407832:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 118\ \(720p\)\ \[9A4DA5E4\].mkv
+: 1618409031:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 119\ \(720p\)\ \[38E36DD0\].mkv
+: 1618411795:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 120\ \(720p\)\ \[EF5F29D6\].mkv
+: 1618412496:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 121\ \(720p\)\ \[7563B7B3\].mkv
+: 1618413672:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 122\ \(720p\)\ \[B509C990\].mkv
+: 1618416300:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 123\ \(720p\)\ \[BAB1C474\].mkv
+: 1618416468:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 124\ \(720p\)\ \[0C9F25D9\].mkv
+: 1618416498:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 125\ \(720p\)\ \[0351D27E\].mkv
+: 1618417541:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 126\ \(720p\)\ \[7D1BE743\].mkv
+: 1618418403:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 127\ \(720p\)\ \[03688A61\].mkv
+: 1618419530:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 128\ \(720p\)\ \[203C44A8\].mkv
+: 1618422359:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 129\ \(720p\)\ \[32D31021\].mkv
+: 1618423409:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 130\ \(720p\)\ \[FE09075A\].mkv
+: 1618424118:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 131\ \(720p\)\ \[66309AAF\].mkv
+: 1618425096:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 132\ \(720p\)\ \[EB3E9262\].mkv
+: 1618427075:0;cd Downloads/\[SubsPlease\]\ Black\ Clover\ \(01-170\)\ \(720p\)\ \[Batch\]
+: 1618427078:0; la
+: 1618427096:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 133\ \(720p\)\ \[8DD091D0\].mkv
+: 1618430503:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 134\ \(720p\)\ \[A27F5DDD\].mkv
+: 1618432526:0;cd Downloads/\[SubsPlease\]\ Black\ Clover\ \(01-170\)\ \(720p\)\ \[Batch\]
+: 1618432541:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 135\ \(720p\)\ \[ADA39D65\].mkv
+: 1618433606:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 136\ \(720p\)\ \[1278B872\].mkv
+: 1618434928:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 137\ \(720p\)\ \[E6AED6A8\].mkv
+: 1618435628:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 138\ \(720p\)\ \[877EABD7\].mkv
+: 1618470759:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 139\ \(720p\)\ \[86DF9111\].mkv
+: 1618471628:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 140\ \(720p\)\ \[55607161\].mkv
+: 1618475024:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 141\ \(720p\)\ \[9577FB58\].mkv
+: 1618476959:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 142\ \(720p\)\ \[3094D25C\].mkv
+: 1618478994:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 143\ \(720p\)\ \[85AB08C7\].mkv
+: 1618479911:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 144\ \(720p\)\ \[DEDF27F6\].mkv
+: 1618480641:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 145\ \(720p\)\ \[A27038CC\].mkv
+: 1618481384:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 146v2\ \(720p\)\ \[A556DDFE\].mkv
+: 1618481908:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 147v2\ \(720p\)\ \[043C4F5A\].mkv
+: 1618482322:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 148v2\ \(720p\)\ \[7D519C21\].mkv
+: 1618482834:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 149v2\ \(720p\)\ \[6A901121\].mkv
+: 1618483795:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 150v2\ \(720p\)\ \[C0DD5FDE\].mkv
+: 1618488506:0;pac nvim
+: 1618488541:0;pac neovim
+: 1618488713:0;v test.py
+: 1618489987:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 151v2\ \(720p\)\ \[8FE57F84\].mkv
+: 1618493082:0;cd projects/nodejs
+: 1618493085:0;la
+: 1618493132:0;v index.js
+: 1618506367:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 152\ \(720p\)\ \[62B77580\].mkv
+: 1618506718:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 153\ \(720p\)\ \[35507967\].mkv
+: 1618507401:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 154\ \(720p\)\ \[368974FF\].mkv
+: 1618509141:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 155\ \(720p\)\ \[E5C8170C\].mkv
+: 1618510332:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 156\ \(720p\)\ \[107DA219\].mkv
+: 1618511499:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 157\ \(720p\)\ \[8873C474\].mkv
+: 1618511539:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 158\ \(720p\)\ \[96D0D86C\].mkv
+: 1618512695:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 159v2\ \(720p\)\ \[DBE2F10F\].mkv
+: 1618513687:0;cd Downloads/\[SubsPlease\]\ Black\ Clover\ \(01-170\)\ \(720p\)\ \[Batch\]
+: 1618513699:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 160\ \(720p\)\ \[AD892902\].mkv
+: 1618514576:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 161\ \(720p\)\ \[5521AE47\].mkv
+: 1618515263:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 162v2\ \(720p\)\ \[A685AE8E\].mkv
+: 1618516243:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 163\ \(720p\)\ \[76247ED8\].mkv
+: 1618517010:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 164\ \(720p\)\ \[37FBFE18\].mkv
+: 1618518118:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 165\ \(720p\)\ \[018DF85B\].mkv
+: 1618518984:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 166\ \(720p\)\ \[466E5FDF\].mkv
+: 1618520472:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 167v2\ \(720p\)\ \[0B5D3930\].mkv
+: 1618521484:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 168\ \(720p\)\ \[C97D663B\].mkv
+: 1618522689:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 169\ \(720p\)\ \[BAE68C17\].mkv
+: 1618523618:0;vid \[SubsPlease\]\ Black\ Clover\ -\ 170\ \(720p\)\ \[8CD45A69\].mkv
+: 1618557568:0;cd .config/Code/User
+: 1618557570:0; la
+: 1618557583:0; cd dotfiles
+: 1618557584:0; la
+: 1618557687:0;mkdir vscode
+: 1618557783:0;ln settings.json ~/dotfiles/vscode
+: 1618557795:0;cd vscode
+: 1618557796:0; la
+: 1618558154:0;la
+: 1618559070:0;cd projects/nodejs
+: 1618559072:0;la
+: 1618559093:0;v index.js
+: 1618559128:0;code .
+: 1618559517:0;node .
+: 1618559521:0; node
+: 1618559606:0;node .
+: 1618563141:0;uefi
+: 1618564122:0;[3~[3~[3~[3~[3~
+: 1618564123:0;[3~[3~
+: 1618564127:0;[23~
+: 1618564134:0;[23~[3~
+: 1618564136:0;[3~
+: 1618564160:0;[23~[23~[21~
+: 1618564160:0;[23~
+: 1618564191:0;[21~
+: 1618582300:0;code .
+: 1618690305:0;cd Downloads
+: 1618690308:0;la
+: 1618690331:0;cd Devils\ Line\ \[ZECHS\]\ \[Dual\ Audio\]\ \[HEVC\]\ \[BDRip\]\ \[HD\ 1080p\]
+: 1618690334:0;la
+: 1618690343:0;vid Devils\ Line\ -\ S01E01\ -\ Dark\ Side.mkv
+: 1618691587:0;vid Devils\ Line\ -\ S01E02\ -\ Safe\ House.mkv
+: 1618760869:0;cd projects
+: 1618760872:0;la
+: 1618760886:0;cd nodejs
+: 1618760888:0; la
+: 1618760898:0;v index.js
+: 1618760912:0;code
+: 1618760919:0;code .
+: 1618761207:0;node .
+: 1618761216:0;node index.js
+: 1618773835:0;cd
+: 1618773847:0;cd Downloads/Devils\ Line\ \[ZECHS\]\ \[Dual\ Audio\]\ \[HEVC\]\ \[BDRip\]\ \[HD\ 1080p\]
+: 1618773853:0;la
+: 1618773868:0;vid Devils\ Line\ -\ S01E02\ -\ Safe\ House.mkv
+: 1618774753:0;vid Devils\ Line\ -\ S01E03\ -\ Paradox.mkv
+: 1618776019:0;vid Devils\ Line\ -\ S01E04\ -\ Monster.mkv
+: 1618777103:0;vid Devils\ Line\ -\ S01E05\ -\ Plan\ B.mkv
+: 1618777946:0;vid Devils\ Line\ -\ S01E06\ -\ Dogmatic.mkv
+: 1618779588:0;vid Devils\ Line\ -\ S01E07\ -\ Chaser.mkv
+: 1618856155:0;cd Downloads/Devils\ Line\ \[ZECHS\]\ \[Dual\ Audio\]\ \[HEVC\]\ \[BDRip\]\ \[HD\ 1080p\]
+: 1618856174:0;vid Devils\ Line\ -\ S01E08\ -\ Offline.mkv
+: 1618858379:0;vid Devils\ Line\ -\ S01E09\ -\ Command.mkv
+: 1618859724:0;vid Devils\ Line\ -\ S01E10\ -\ Ego\ Defense.mkv
+: 1618862108:0;vid Devils\ Line\ -\ S01E11\ -\ Ouroboros.mkv
+: 1618898643:0;vid Devils\ Line\ -\ S01E12\ -\ Devil\'s\ Line.mkv
+: 1618898670:0;cd Downloads/Devils\ Line\ \[ZECHS\]\ \[Dual\ Audio\]\ \[HEVC\]\ \[BDRip\]\ \[HD\ 1080p\]
+: 1618898672:0;la
+: 1618910813:0;cd
+: 1618910841:0;cd  projects
+: 1618910843:0;la
+: 1618910850:0;cd nodejs the
+: 1618910855:0;cd nodejs
+: 1618910857:0;la
+: 1618910863:0;code .
+: 1618911011:0;node index.js
+: 1618911079:0;cd dotfiles/plover
+: 1618911081:0;la
+: 1618911094:0;v modifiers.json
+: 1618926971:0;cd .config/Code/User
+: 1618926971:0;la
+: 1618926976:0;cd snippets
+: 1618926977:0;la
+: 1618926984:0;cd dotfiles/nvim
+: 1618926984:0;la
+: 1618927005:0;ln -f snippets/* ~/.config/Code/User/snippets
+: 1618927053:0;cd dotfiles/
+: 1618927054:0;la
+: 1618927057:0;cd vscode
+: 1618927057:0;la
+: 1618927058:0;v settings.json
+: 1618927062:0;la
+: 1618927063:0;.
+: 1618927064:0;..
+: 1618927064:0;la
+: 1618927136:0;cd
+: 1618927138:0;cd .config/Code/User
+: 1618927139:0;la
+: 1618927153:0;ln -f keybindings.json ~/dotfiles/vscode
+: 1618927167:0;cd dotfiles/nvim
+: 1618927173:0;v snippets/javascript.json
+: 1618983616:0;cd ~/Downloads
+: 1618983617:0;la
+: 1618983624:0;cd \[Golumpa\]\ Recovery\ of\ an\ MMO\ Junkie\ \(Net-juu\ no\ Susume\)\ \[English\ Dub\]\ \[FuniDub\ 1080p\ x264\ AAC\]\ \[MKV\]
+: 1618983625:0;la
+: 1618983631:0;v \[Golumpa\]\ Recovery\ of\ an\ MMO\ Junkie\ -\ 01\ \(Net-juu\ no\ Susume\)\ \[FuniDub\ 1080p\ x264\ AAC\]\ \[99073DE3\].mkv
+: 1618983651:0;vid \[Golumpa\]\ Recovery\ of\ an\ MMO\ Junkie\ -\ 01\ \(Net-juu\ no\ Susume\)\ \[FuniDub\ 1080p\ x264\ AAC\]\ \[99073DE3\].mkv
+: 1619001380:0;cd projects
+: 1619001382:0;code .
+: 1619001837:0;node .
+: 1619001843:0;la
+: 1619001844:0;cd nodejs
+: 1619001848:0;node index.js
+: 1619009859:0;cd dotfiles
+: 1619009861:0;code .
+: 1619010835:0;code nodejs
+: 1619072095:0;code .
+: 1619080053:0;dot
+: 1619080058:0;commit 'save'

@@ -30,8 +30,6 @@ nnoremap <silent><esc> <esc>:nohl<cr>
 nnoremap K <nop>
 nnoremap Q <nop>
 nnoremap S <nop>
-nnoremap r <nop>
-nnoremap R <nop>
 vnoremap s <nop>
 nnoremap <s-up> <nop>
 nnoremap <s-down> <nop>
@@ -48,6 +46,7 @@ nnoremap sg :%s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
 nnoremap Sg :%s/\v<c-r>=expand("<cword>")<cr>//gc<left><left><left>
 nnoremap <c-p> :FZF<cr>
 nnoremap <space>r :Telescope oldfiles<cr>
+nnoremap <space> <nop>
 " nnoremap <c-a> ggVG
 nmap <f1> <Plug>VimwikiNextLink
 nmap <f2> <Plug>VimwikiAddHeaderLevel
@@ -80,6 +79,8 @@ inoremap <expr><space> Space()
 inoremap <c-v> <c-r>+
 inoremap <c-a> <c-o>gg<c-o>V<c-o>G
 imap <c-s> <plug>(emmet-expand-abbr)
+
+inoremap <expr> <c-x> Space2()
 
 " Visuale mode
 vnoremap <c-f> /\v

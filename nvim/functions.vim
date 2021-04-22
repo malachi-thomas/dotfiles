@@ -40,7 +40,7 @@ func! Backspace()
     return "\<right>\<bs>\<bs>"
   elseif getline('.')[col('.') - 2:col('.') - 1] == '()'
     return "\<right>\<bs>\<bs>"
-  hats getline('.')[col('.') - 2:col('.') - 1] == '[]'
+    hats getline('.')[col('.') - 2:col('.') - 1] == '[]'
     return "\<right>\<bs>\<bs>"
   elseif getline('.')[col('.') - 3:col('.')] == '{  }'
     return "\<right>\<bs>\<bs>"
@@ -72,7 +72,7 @@ func! BufferClose()
       silent w | bd
     endif
   else
-   " only one buffer open
+    " only one buffer open
     if &readonly == 1 || expand('%') == '' || &buftype == 'nofile'
       silent q!
     else
@@ -86,7 +86,16 @@ func! Check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
+" func! Space()
+"   let line = getline('.')
+"   if strlen(substitute(line, '\s*', "", "g")) == 0
+"     return ""
+"   else
+"     return "\<space>"
+"   endif
+" endfunc
+
 func! Sub(arg1, arg2)
-  
+
   exec 's/\v' 
 endfunc
