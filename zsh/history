@@ -1,975 +1,3 @@
-: 1611654974:0;la
-: 1611654977:0;cd cooking
-: 1611654978:0;la
-: 1611655068:0;v waffle-mix.md
-: 1611655813:0;commit 'added cooking notes'
-: 1611683974:0;electron .
-: 1611695129:0;cd shows/kabukichou-sherlock
-: 1611695134:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 16\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611698782:0;betterlockscreen -s
-: 1611735461:0;la
-: 1611735464:0;electron .
-: 1611737799:0;n
-: 1611737800:0;electron .
-: 1611742860:0;la
-: 1611742873:0;q
-: 1611743978:0;commit 'started to make the nav bar'
-: 1611743986:0;powr
-: 1611743988:0;power
-: 1611746367:0;sudo pacman -S nvidia
-: 1611746532:0;reboot
-: 1611746578:0;sudo systemctl status lightdm
-: 1611746585:0;sudo systemctl enable lightdm
-: 1611746589:0;sudo systemctl start lightdm
-: 1611746602:0;pac lightdm-slick-greeter
-: 1611746650:0;sudo vim /etc/lightdm/lightdm.conf
-: 1611746682:0;lightdm --test-mode --debug
-: 1611746696:0;pacr lightdm
-: 1611746703:0;pac lightdm
-: 1611746707:0;lightdm --test-mode --debug
-: 1611746717:0;sudo systemctl start lightdm
-: 1611746724:0;sudo systemctl enable lightdm
-: 1611746726:0;sudo systemctl start lightdm
-: 1611746737:0;sudo systemctl status lightdm
-: 1611746817:0;pac gdm
-: 1611746829:0;systemctl stop lightdm
-: 1611746846:0;systemctl start gdm
-: 1611746860:0;systemctl enable gdm
-: 1611746873:0;systemctl remove lightdm
-: 1611746887:0;systemctl stop lightdm
-: 1611746898:0;sudo systemctl stop lightdm
-: 1611746905:0;sudo systemctl enable gdm
-: 1611746921:0;systemctl --help
-: 1611746934:0;sudo systemctl stop lightdm
-: 1611746938:0;sudo systemctl enable gdm
-: 1611746942:0;us
-: 1611746945:0;reboot
-: 1611747044:0;sudo systemctl enable gdm
-: 1611747106:0;sudo rm -rf /usr/lib/systemd/system/lightdm.service
-: 1611747108:0;sudo systemctl enable gdm
-: 1611747123:0;sudo systemctl start gdm
-: 1611747209:0;update
-: 1611748232:0;pac xstart
-: 1611748369:0;xstart
-: 1611748372:0;xstarter
-: 1611748376:0;la
-: 1611748424:0;pac x
-: 1611748445:0;pac xorg-init
-: 1611748451:0;pac xorg
-: 1611748468:0;pac xorg-xinit
-: 1611748472:0;xstart
-: 1611748475:0;su
-: 1611749022:0;xstart
-: 1611749022:0;reboot
-: 1611748541:0;xstart
-: 1611748549:0;sudo pacman xorg-xinit
-: 1611748557:0;sudo pacman xorg
-: 1611748561:0;sudo pacman -s xorg
-: 1611748564:0;sudo pacman -S xorg
-: 1611748603:0;pac xinit
-: 1611748629:0;pac start
-: 1611748655:0;startx
-: 1611748683:0;sudo startx
-: 1611748706:0;lightdm --test-mode --debug
-: 1611748714:0;pac gmd
-: 1611748755:0;sudo systemctl start lightdm
-: 1611748760:0;sudo systemctl enable lightdm
-: 1611748777:0;pac lightdm
-: 1611748781:0;pacr lightdm
-: 1611748784:0;pac lightdm
-: 1611748787:0;sudo systemctl enable lightdm
-: 1611748792:0;sudo systemctl start lightdm
-: 1611748846:0;lightdm --test-mode --debug
-: 1611748870:0;pac lightdm-gtk-greeter
-: 1611748879:0;lightdm --test-mode --debug
-: 1611748896:0;pac lightdm-slick-greeter
-: 1611748911:0;lightdm --test-mode --debug
-: 1611748949:0;lightdm
-: 1611748955:0;sudo lightdm
-: 1611759145:0;sudo curl https://data.trezor.io/udev/51-trezor.rules -o /etc/udev/rules.d/51-trezor.rules\
-
-: 1611759180:0;pac trezor
-: 1611771033:0;usb
-: 1611771053:0;dow
-: 1611771054:0;la
-: 1611771092:0;usb hiveos-0.6-190-stable@210108.img.xz /dev/sda
-: 1611777509:0;cd shows/kabukichou-sherlock
-: 1611777513:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 17\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611821286:0;electron .
-: 1611863342:0;cd shows/kabukichou-sherlock
-: 1611863346:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 18\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611864863:0;power
-: 1611907220:0;electron .
-: 1611914327:0;dow
-: 1611914328:0;la
-: 1611914341:0;unzip Sahitya.zip 
-: 1611914342:0;la
-: 1611914358:0;la
-: 1611914366:0;cd src
-: 1611914367:0;la
-: 1611914369:0;..
-: 1611914370:0;la
-: 1611914378:0;mk assets
-: 1611914380:0;cd assets
-: 1611914381:0;la
-: 1611914394:0;mv *.ttf ~/code/electron/electron-steno-in-one/assets
-: 1611914506:0;..
-: 1611914506:0;la
-: 1611914509:0;electron .
-: 1611919609:0;git clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git
-: 1611919614:0;la
-: 1611919617:0;cd the-lochlan-keyboard-project
-: 1611919617:0;la
-: 1611919642:0;gitStartup the-lochlan-keyboard-project
-: 1611919660:0;la
-: 1611919670:0;mk touch
-: 1611919675:0;git push -u origin main\
-
-: 1611919681:0;commit 'test'
-: 1611919698:0;git commit -m "first commit"\
-git branch -M main\
-git remote add origin git@github.com:banana-llarma/the-lochlan-keyboard-project.git\
-git push -u origin main\
-
-: 1611919709:0;rm .git
-: 1611919711:0;rma .git
-: 1611919713:0;la
-: 1611919717:0;gitStartup the-lochlan-keyboard-project
-: 1611919723:0;la
-: 1611919726:0;git add -A
-: 1611919729:0;git commit *
-: 1611919732:0;git commit * -m "test"
-: 1611919738:0;la
-: 1611919744:0;to touch
-: 1611919744:0;la
-: 1611919749:0;rma touch
-: 1611919754:0;to touch
-: 1611919755:0;la
-: 1611919757:0;gitStartup the-lochlan-keyboard-project
-: 1611919887:0;sh color.sh
-: 1611920237:0;mv ~/Downloads/lochlan\'s-65%-keyboard.jpg .
-: 1611920238:0;la
-: 1611920250:0;mk img
-: 1611920254:0;mv lochlan\'s-65%-keyboard.jpg img
-: 1611920254:0;la
-: 1611920259:0;rm touch
-: 1611920260:0;la
-: 1611920266:0;mk readme.md
-: 1611920266:0;la
-: 1611920273:0;rma readme.md
-: 1611920279:0;to readme.md
-: 1611920279:0;la
-: 1611920281:0;v readme.md
-: 1611920303:0;la
-: 1611920310:0;cd img
-: 1611920310:0;la
-: 1611920341:0;commit 'test'
-: 1611920381:0;v readme.md
-: 1611920383:0;la
-: 1611920393:0;commit 'commit 2'
-: 1611920404:0;git add -A
-: 1611920408:0;git commit * -m "test"
-: 1611920410:0;la
-: 1611920414:0;v readme.md
-: 1611920419:0;commit 'commit 2'
-: 1611920445:0;la
-: 1611920451:0;v readme.md
-: 1611920454:0;cd img
-: 1611920455:0;la
-: 1611920470:0;..
-: 1611920471:0;la
-: 1611920483:0;commit 'commit 3'
-: 1611920514:0;la
-: 1611920517:0;v readme.md
-: 1611920530:0;commit 'commit 3'
-: 1611920597:0;commit 'commit 3'
-: 1611920615:0;v readme.md
-: 1611920677:0;qmk
-: 1611920681:0;pac qmk
-: 1611920701:0;cd the-lochlan-keyboard-project
-: 1611920702:0;la
-: 1611920738:0;v readme.md
-: 1611920945:0;commit 'commit 4'
-: 1611921020:0;v readme.md
-: 1611921091:0;commit 'commit 5'
-: 1611921107:0;v readme.md
-: 1611921134:0;commit 'commit 6'
-: 1611923503:0;electron .
-: 1611926998:0;qmk setup
-: 1611927544:0;cd /etc/udev/rules.d
-: 1611927544:0;la
-: 1611927570:0;v 50-qmk.rules
-: 1611927592:0;sudo vim 50-qmk.rules
-: 1611927598:0;la
-: 1611927601:0;cat 50-qmk.rules
-: 1611927605:0;qmk setup
-: 1611927641:0;sudo udevadm control --reload-rules\
-sudo udevadm trigger\
-
-: 1611927644:0;qmk setup
-: 1611927656:0;printf '[Service]\nExecStart=\nExecStart=/usr/sbin/ModemManager --filter-policy=default' | sudo tee /etc/systemd/system/ModemManager.service.d/policy.conf\
-sudo systemctl daemon-reload\
-sudo systemctl restart ModemManager\
-
-: 1611927661:0;qmk setup
-: 1611927707:0;python3 -m pip install --user qmk\
-
-: 1611927713:0;pac pip
-: 1611927726:0;python3 install pip
-: 1611927767:0;pac python-pip
-: 1611927774:0;pac python3-pip
-: 1611927780:0;python3 -m pip install --user qmk\
-
-: 1611927797:0;sudo pacman -S qmk\
-
-: 1611927802:0;yay -S qmk-git\
-
-: 1611927892:0;pac qmk-git
-: 1611927906:0;qmk setup
-: 1611927940:0;cd /etc/udev/rules.d
-: 1611927940:0;la
-: 1611927950:0;sudo vim 50-qmk.rules
-: 1611927961:0;sudo udevadm control --reload-rules\
-
-: 1611927966:0;sudo udevadm trigger\
-
-: 1611928003:0;qmk 
-: 1611928006:0;qmk setup
-: 1611928032:0;cd /etc/udev/rules.d
-: 1611928032:0;la
-: 1611928036:0;v 50-qmk.rules
-: 1611928042:0;v 50-wally.rules
-: 1611928045:0;v 50-qmk.rules
-: 1611928089:0;sudo vim 50-qmk.rules
-: 1611928114:0;sudo nvim 50-qmk.rules
-: 1611928140:0;sudo udevadm control --reload-rules\
-sudo udevadm trigger\
-
-: 1611928142:0;qmk setup
-: 1611928156:0;sudo udevadm control --reload-rules\
-sudo udevadm trigger\
-
-: 1611928159:0;qmk setup
-: 1611928183:0;v 50-qmk.rules
-: 1611929428:0;la
-: 1611929430:0;cd
-: 1611929431:0;la
-: 1611929441:0;cd qmk_firmware
-: 1611929442:0;la
-: 1611929515:0;cd keyboards/kbdfans/kbd67/rev2/
-: 1611929523:0;la
-: 1611929528:0;cd keymaps
-: 1611929528:0;la
-: 1611929611:0;qmk new-keymap -kb kbdfans/kbd67:rev2\
-
-: 1611929630:0;qmk new-keymap -kb kbdfans/kbd67\
-
-: 1611929637:0;qmk new-keymap -kb kbd67\
-
-: 1611929648:0;qmk new-keymap -kb <keyboard_name>\
-
-: 1611929662:0;qmk new-keymap\
-
-: 1611929694:0;..
-: 1611929700:0;qmk new-keymap\
-
-: 1611929780:0;cd keyboards/kbdfans/kbd67
-: 1611929780:0;la
-: 1611929794:0;qmk new-keymap -kb kbd67\
-
-: 1611929803:0;qmk new-keymap\
-
-: 1611929834:0;cd rev2
-: 1611929834:0;la
-: 1611929837:0;qmk new-keymap\
-
-: 1611929846:0;..
-: 1611929850:0;qmk new-keymap\
-
-: 1611929894:0;cd the-lochlan-keyboard-project
-: 1611929897:0;la
-: 1611929914:0;mk qmk
-: 1611929917:0;cd qmk
-: 1611929918:0;la
-: 1611929929:0;v qmk.md
-: 1611929965:0;qmk new-keymap -kb kbdfans/kbd67/rev\
-
-: 1611929968:0;qmk new-keymap -kb kbdfans/kbd67/rev2\
-
-: 1611929978:0;cd kbd67
-: 1611929978:0;la
-: 1611929984:0;cd rev2
-: 1611929984:0;la
-: 1611929987:0;cd keymaps
-: 1611929987:0;la
-: 1611930013:0;qmk new-keymap -kb kbdfans/kbd67/rev2 hats3\
-
-: 1611930019:0;qmk new-keymap -kb kbdfans/kbd67/rev2\
-
-: 1611930301:0;cd test
-: 1611930302:0;la
-: 1611930308:0;qmk new-keymap -kb kbdfans/kbd67/rev2\
-
-: 1611930311:0;la
-: 1611930314:0;cd test
-: 1611930315:0;la
-: 1611930345:0;v readme.md
-: 1611930380:0;v config.h
-: 1611931097:0;-
-: 1611931107:0;cd the-lochlan-keyboard-project
-: 1611931109:0;cd qmk
-: 1611931109:0;la
-: 1611931111:0;v qmk.md
-: 1611931209:0;cd qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps
-: 1611931210:0;la
-: 1611931213:0;v test
-: 1611931217:0;cd test
-: 1611931218:0;la
-: 1611931222:0;rm readme.md
-: 1611931223:0;la
-: 1611931226:0;v keymap.c
-: 1611931289:0;..
-: 1611931292:0;cd default
-: 1611931292:0;la
-: 1611931294:0;v config.h
-: 1611931303:0;la
-: 1611931306:0;..
-: 1611931316:0;cd test/
-: 1611931319:0;v keymap.c
-: 1611931527:0;cd qmk_firmware/keyboards/
-: 1611931528:0;la
-: 1611931551:0;cd keebio
-: 1611931552:0;la
-: 1611931557:0;cd iris
-: 1611931557:0;la
-: 1611931565:0;cd rev4
-: 1611931565:0;la
-: 1611931570:0;v config.h
-: 1611931844:0;la
-: 1611931859:0;mk ~/the-lochlan-keyboard-project/template
-: 1611931869:0;cp * ~/the-lochlan-keyboard-project/template
-: 1611931877:0;cd the-lochlan-keyboard-project
-: 1611931879:0;cd template
-: 1611931879:0;la
-: 1611931882:0;v config.h
-: 1611932373:0;la
-: 1611932375:0;v keymap.c
-: 1611934783:0;la
-: 1611934824:0;cp -f * ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/test
-: 1611934835:0;la
-: 1611934838:0;v config.h
-: 1611934841:0;v keymap.c
-: 1611935001:0;qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611935042:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611935063:0;v keymap.c
-: 1611935099:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611935108:0;v keymap.c
-: 1611935114:0;la
-: 1611935117:0;v config.h
-: 1611935122:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611935165:0;cd
-: 1611935173:0;cd qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps
-: 1611935175:0;cd test
-: 1611935179:0;v config.h
-: 1611935205:0;v keymap.c
-: 1611935596:0;xset r rate 200 20
-: 1611935600:0;cp * ~/the-lochlan-keyboard-project/template
-: 1611935604:0;cd 
-: 1611935608:0;cd ~/the-lochlan-keyboard-project
-: 1611935608:0;la
-: 1611935611:0;cd template
-: 1611935611:0;la
-: 1611935616:0;v config.h
-: 1611935634:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611935653:0;la
-: 1611935655:0;v config.h
-: 1611935660:0;v keymap.c
-: 1611935722:0;v config.h
-: 1611935734:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611935743:0;v config.h
-: 1611935758:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611935804:0;v config.h
-: 1611935810:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611935844:0;mk rules.mk
-: 1611935846:0;v config.h
-: 1611935857:0;rma rules.mk
-: 1611935864:0;v rules.mk
-: 1611935880:0;la
-: 1611935884:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611935892:0;v rules.mk
-: 1611935910:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611935915:0;v rules.mk
-: 1611935990:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611935999:0;v rules.mk
-: 1611936015:0;sudo qmk make -kb kbdfans/kbd67/rev2 -km test
-: 1611936087:0;sudo qmk -kb kbdfans/kbd67/rev2 -km test
-: 1611936094:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611936129:0;sudo qmk compile -kb kbdfans/kbd67/rev2 -km test
-: 1611936140:0;v rules.mk
-: 1611936150:0;sudo qmk compile -kb kbdfans/kbd67/rev2 -km test
-: 1611936170:0;....
-: 1611936171:0;..
-: 1611936175:0;sudo qmk compile -kb kbdfans/kbd67/rev2 -km test
-: 1611936190:0;-
-: 1611936197:0;cd keyboards/kbdfans/kbd67
-: 1611936198:0;..
-: 1611936199:0;cd keyboards/kbdfans/kbd67
-: 1611936206:0;cd rev2/keymaps/test
-: 1611936207:0;la
-: 1611936209:0;v rules.mk
-: 1611936426:0;qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611936432:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611936603:0;screenkey
-: 1611936609:0;pac screenkey
-: 1611936613:0;screenkey
-: 1611936852:0;v rules.mk
-: 1611936886:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611936919:0;screenkey
-: 1611936946:0;v rules.mk
-: 1611936975:0;v config.h
-: 1611937003:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611937051:0;v config.h
-: 1611945087:0;..
-: 1611945096:0;la
-: 1611945100:0;cp * ~/the-lochlan-keyboard-project/template
-: 1611945103:0;cp -f * ~/the-lochlan-keyboard-project/template
-: 1611945105:0;la
-: 1611945108:0;cd template
-: 1611945108:0;la
-: 1611945110:0;v rules.mk
-: 1611945157:0;la
-: 1611945163:0;..
-: 1611945171:0;cd qmk
-: 1611945172:0;la
-: 1611945173:0;v qmk.md
-: 1611945335:0;la
-: 1611947957:0;la
-: 1611948086:0;git clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git ~
-: 1611948093:0;git clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git ~/code
-: 1611948100:0;git clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git ~/code/
-: 1611948107:0;git clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git ~/code/test
-: 1611948119:0;git clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git ~/code
-: 1611948135:0;clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git ~/code
-: 1611948147:0;clone git@github.com:banana-llarma/the-lochlan-keyboard-project.git ~/code/house
-: 1611948812:0;la
-: 1611948916:0;commit 'commit 7'
-: 1611948942:0;v qmk.md
-: 1611949002:0;commit 'commit 8'
-: 1611949030:0;v qmk.md
-: 1611949080:0;la
-: 1611949093:0;ln qmk.md ./hats/qum.hh
-: 1611949096:0;ln -f qmk.md ./hats/qum.hh
-: 1611949097:0;la
-: 1611949104:0;ln --help
-: 1611949119:0;ln -ft qmk.md ./hats/qum.hh
-: 1611949120:0;la
-: 1611949154:0;commit 'commit 9'
-: 1611949993:0;..
-: 1611949995:0;cd template
-: 1611949995:0;la
-: 1611950002:0;..
-: 1611950006:0;v qmk/qmk.md
-: 1611950024:0;ln -f ~/the-lochlan-keyboard-project.git ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard\
-
-: 1611950038:0;mkdir ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard
-: 1611950043:0;ln -f ~/the-lochlan-keyboard-project.git ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard\
-
-: 1611950057:0;ln -f ~/the-lochlan-keyboard-project ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard\
-
-: 1611950086:0;ln -f ~/the-lochlan-keyboard-project/template/* ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard\
-
-: 1611950088:0;la
-: 1611950110:0;...
-: 1611950113:0;..
-: 1611950114:0;la
-: 1611950119:0;cd the-lochlan-keyboard-project
-: 1611950120:0;la
-: 1611950121:0;..
-: 1611950137:0;mv the-lochlan-keyboard-project the-lochlan-keyboard
-: 1611950139:0;cd the-lochlan-keyboard
-: 1611950139:0;la
-: 1611950146:0;cd template
-: 1611950147:0;la
-: 1611950181:0;ln -f * ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-lochlan-keyboard
-: 1611950184:0;l;
-: 1611950185:0;la
-: 1611950187:0;v config.h
-: 1611950194:0;v keymap.c
-: 1611950354:0;qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611950358:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611950375:0;cd
-: 1611950378:0;cd qmk_firmware
-: 1611950379:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611953297:0;qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611953311:0;v keymap.c
-: 1611953321:0;qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611953325:0;sudoqmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611953328:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km test
-: 1611953338:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611953343:0;qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611953361:0;v rules.mk
-: 1611953374:0;v keymap.c
-: 1611953396:0;qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611953400:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611953420:0;qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611953479:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611953487:0;qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611953514:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611953523:0;cd
-: 1611953525:0;cd qmk_firmware
-: 1611953527:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1611953641:0;dow
-: 1611953641:0;la
-: 1611953653:0;mv lochlan\'s-65%-keyboard.jpg ~/the-lochlan-keyboard/img/lochlan\'s-65%-keyboard.jpg
-: 1611953659:0;cd the-lochlan-keyboard
-: 1611953660:0;la
-: 1611953664:0;commit 'commit 10'
-: 1611953711:0;v readme.md
-: 1611953733:0;commit 'commit 10'
-: 1611953752:0;v readme.md
-: 1611953795:0;commit 'commit 10'
-: 1611953840:0;v readme.md
-: 1611953851:0;commit 'commit 10'
-: 1611953882:0;v readme.md
-: 1611953935:0;cd the-lochlan-keyboard
-: 1611953936:0;v readme.md
-: 1611953987:0;commit 'commit 10'
-: 1611954109:0;dow
-: 1611954126:0;rm hiveos-0.6-190-stable@210108.img.xz hiveos-0.6-190-stable@210108.img.xz.torrent icons8-gear-24.png icons8-gear-48.png lochlan\'s-65%-keyboard.jpg lochlan\'s-65%-keyboard.png lochlan\'s-65%-keyboard.svg lochlan\'s-65%-keyboard-thumb.png Native-Component\(1\).exe Native-Component.exe OFL.txt Roboto.zip Sahitya\ \(1\).zip Sahitya\ \(2\).zip sahitya-cufonfonts-webfont.zip Sahitya.zip 
-: 1611954128:0;la
-: 1611954129:0;..
-: 1611954129:0;la
-: 1611954286:0;cd the-lochlan-keyboard
-: 1611954288:0;v template
-: 1611954330:0;v qmk/qmk.md
-: 1611955524:0;..
-: 1611955525:0;la
-: 1611955551:0;rma *.vim*
-: 1611955561:0;rma *vim*
-: 1611955567:0;nvim
-: 1611955569:0;la
-: 1611955573:0;nvim
-: 1611955575:0;la
-: 1611955586:0;rma .vim*
-: 1611955593:0;la
-: 1611955615:0;cd shows/kabukichou-sherlock
-: 1611955619:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 19\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611956938:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 20\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1611990738:0;electron .
-: 1611991135:0;npm i usb
-: 1611991217:0;node src/main
-: 1611991219:0;node src/main.js
-: 1611991272:0;node src/usb.js
-: 1611992559:0;npm install usb-detection\
-
-: 1611992666:0;node src/usb.js
-: 1611994422:0;v main.rs
-: 1611994431:0;cd code
-: 1611994431:0;la
-: 1611994433:0;..
-: 1611994435:0;cd code/c
-: 1611994436:0;la
-: 1611994439:0;v test.c
-: 1611994446:0;la
-: 1611994448:0;cd test
-: 1611994449:0;la
-: 1611994451:0;v test.cpp
-: 1611994605:0;electron .
-: 1611994635:0;npm rebuild
-: 1611994648:0;electron .
-: 1611994657:0;npm install
-: 1611994661:0;electron .
-: 1611994774:0;rma node_modules
-: 1611994778:0;npm install
-: 1611994794:0;electron .
-: 1611994837:0;npm run rebuild
-: 1611994889:0;npm i electron-rebuild
-: 1611994963:0;npm run install
-: 1611995120:0;electron .
-: 1611995125:0;./node_modules/.bin/electron-rebuild
-: 1611995171:0;electron .
-: 1611995180:0;npm run install
-: 1611995217:0;npm run installAll
-: 1611995258:0;npm uninstall usb
-: 1611995262:0;npm run installAll
-: 1611995273:0;electron .
-: 1611999954:0;commit 'made the basic ui'
-: 1612000000:0;electron .
-: 1612000096:0;cd .config/plover
-: 1612000096:0;la
-: 1612000101:0;v main1.json
-: 1612000375:0;v commands.json
-: 1612000948:0;dow
-: 1612000948:0;la
-: 1612000952:0;unzip Roboto.zip
-: 1612000953:0;la
-: 1612000976:0;mv Roboto-Regular.ttf ~/code/electron/electron-steno-in-one/assets
-: 1612001127:0;dow
-: 1612001132:0;unzip Roboto_Mono.zip
-: 1612001137:0;la
-: 1612001152:0;rma *.ttf
-: 1612001154:0;la
-: 1612001158:0;unzip Roboto_Mono.zip
-: 1612001163:0;la
-: 1612001318:0;unzip Cookie.zip
-: 1612001331:0;mv Cookie-Regular.ttf ~/code/electron/electron-steno-in-one/assets
-: 1612001450:0;dow
-: 1612001454:0;unzip Courgette.zip
-: 1612001458:0;la
-: 1612001470:0;mv Courgette-Regular.ttf ~/code/electron/electron-steno-in-one/assets
-: 1612005706:0;ls -r
-: 1612005718:0;tree | wc
-: 1612005751:0;ls -a | wc -l
-: 1612005757:0;tree | wc -l
-: 1612005773:0;tree -I "node_modules"| wc -l
-: 1612005777:0;tree -I "node_modules" | wc -l
-: 1612005782:0;tree -I "node_modules"
-: 1612005837:0;electron .
-: 1612007061:0;dow
-: 1612007061:0;la
-: 1612007071:0;mv icons8-cancel-24.png ~/code/electron/electron-steno-in-one/assets
-: 1612007127:0;electron .
-: 1612007285:0;dow
-: 1612007285:0;la
-: 1612007420:0;mv icons8-cancel-8.png ~/code/electron/electron-steno-in-one/assets
-: 1612008457:0;commit 'improving the ui'
-: 1612009825:0;electron .
-: 1612010119:0;not
-: 1612010123:0;cd software/css
-: 1612010123:0;la
-: 1612010149:0;v centering-using-position.md
-: 1612084889:0;electron .
-: 1612086832:0;plover
-: 1612086836:0;pac plover 
-: 1612088976:0;dow
-: 1612088977:0;la
-: 1612088987:0;unzip Roboto.zip
-: 1612088990:0;la
-: 1612089003:0;mv Roboto-Regular.ttf ~/code/electron/electron-steno-in-one/assets
-: 1612089882:0;not
-: 1612089886:0;-
-: 1612089890:0;electron .
-: 1612091422:0;update
-: 1612101972:0;plover
-: 1612108670:0;screenkey
-: 1612123657:0;pacr plover
-: 1612123663:0;pac plover-git
-: 1612123672:0;yay -S plover-git
-: 1612123697:0;plover
-: 1612124891:0;cd shows/kabukichou-sherlock
-: 1612124895:0;vid \[Erai-raws\]\ Kabukichou\ Sherlock\ -\ 21\ \[1080p\]\[Multiple\ Subtitle\].mkv
-: 1612166982:0;electron .
-: 1612167718:0;plover
-: 1612167809:0;cd .config/plover
-: 1612167809:0;la
-: 1612167821:0;rma *
-: 1612167823:0;la
-: 1612167824:0;..
-: 1612167826:0;plover
-: 1612167847:0;yay -Syu
-: 1612168091:0;plover
-: 1612168100:0;pacr python3
-: 1612168104:0;pacr python
-: 1612168112:0;plover
-: 1612168128:0;sudo pacman -S python
-: 1612168132:0;plovner
-: 1612168133:0;plover
-: 1612168156:0;sudo pacman -S plover
-: 1612168162:0;sudo pacman -S pl
-: 1612168165:0;sudo pacman -S plover
-: 1612168217:0;sudo pacman -S plove
-: 1612168219:0;sudo pacman -S plov
-: 1612168223:0;sudo pacman -S plover-git
-: 1612168250:0;yay -S plover
-: 1612168272:0;plover
-: 1612168654:0;/usr/bin/plover
-: 1612168744:0;pacr polybar
-: 1612168790:0;plover
-: 1612168802:0;plover-git
-: 1612168806:0;pac plover-git
-: 1612168829:0;ploner
-: 1612168831:0;plover
-: 1612168885:0;pip install plover-plugins-manager
-: 1612168892:0;pac python3-pip
-: 1612168896:0;pac python-pip
-: 1612168899:0;pip install plover-plugins-manager
-: 1612168902:0;plover
-: 1612169017:0;python install python-hidapi
-: 1612169022:0;pac python-hidapi
-: 1612169033:0;pac dbus-python\
-
-: 1612169036:0;plover
-: 1612169119:0;dow
-: 1612169119:0;la
-: 1612169169:0;dow
-: 1612169170:0;la
-: 1612169190:0;./plover-4.0.0.dev8.66.g685bd33-x86_64.AppImage
-: 1612169195:0;ex plover-4.0.0.dev8.66.g685bd33-x86_64.AppImage
-: 1612169204:0;./plover-4.0.0.dev8.66.g685bd33-x86_64.AppImage
-: 1612169243:0;zsh
-: 1612169261:0;dow
-: 1612169272:0;la
-: 1612169323:0;so
-: 1612169326:0;plover
-: 1612171045:0;electron .
-: 1612171057:0;cd ~/code/electron/custom-electron-app
-: 1612171058:0;la
-: 1612171065:0;cd ~/code/electron/electron-steno-in-one
-: 1612171068:0;electron .
-: 1612171411:0;la
-: 1612171414:0;electron .
-: 1612185518:0;sh color.sh
-: 1612185542:0;u
-: 1612185548:0;sh color.sh
-: 1612187857:0;cd Downloads
-: 1612187858:0;la
-: 1612187862:0;./wally
-: 1612187877:0;pac nautilus
-: 1612187903:0;file
-: 1612187923:0;pac lubwebkit
-: 1612187928:0;pac libwebkit
-: 1612187935:0;./wally
-: 1612189139:0;mv my-65%-keyboard-layout.jpg ~/the-lochlan-keyboard/img
-: 1612189140:0;..
-: 1612189141:0;cd the-lochlan-keyboard
-: 1612189145:0;v readme.md
-: 1612189208:0;cd img
-: 1612189208:0;la
-: 1612189232:0;mv my-65%-keyboard-layout.jpg "malachi's-65%-keyboard-layout.jpg"
-: 1612189233:0;la
-: 1612189234:0;..
-: 1612189236:0;v readme.md
-: 1612189265:0;commit 'commit 11'
-: 1612189280:0;v readme.md
-: 1612189289:0;commit 'commit 12'
-: 1612189343:0;dow
-: 1612189359:0;mv my-65%-keyboard-layout.jpg ~/the-lochlan-keyboard/img/malachi\'s-65%-keyboard-layout.jpg
-: 1612189363:0;..
-: 1612189365:0;cd the-lochlan-keyboard
-: 1612189365:0;la
-: 1612189378:0;v readme.md
-: 1612189482:0;commit 'commit 13'
-: 1612189507:0;ranger
-: 1612189510:0;pac ranger
-: 1612189520:0;ranger
-: 1612189528:0;..
-: 1612189531:0;cd Downloads
-: 1612189532:0;la
-: 1612189547:0;feh my-65%-keyboard-layout.jpg
-: 1612189575:0;feh my-65%-keyboard-layout.png
-: 1612189592:0;rm my-65%-keyboard-layout* 
-: 1612189593:0;la
-: 1612189602:0;rm *.zip
-: 1612189603:0;la
-: 1612189609:0;rm *.ttf
-: 1612189610:0;la
-: 1612189615:0;rm *.bin
-: 1612189616:0;la
-: 1612189624:0;rma LICENSE.txt OFL.txt README.txt static
-: 1612189626:0;la
-: 1612189794:0;bin
-: 1612189800:0;v wacom-tablet.sh
-: 1612189874:0;yay autokey
-: 1612189921:0;la
-: 1612189945:0;autokey-gtk
-: 1612190049:0;xmodmap
-: 1612190086:0;xmodmap -pke > ~/.Xmodmap\
-
-: 1612190092:0;...
-: 1612190109:0;xmodmap ~/.Xmodmap
-: 1612190111:0;la
-: 1612190121:0;v .Xmodmap
-: 1612190156:0;xev
-: 1612193957:0;cd the-lochlan-keyboard
-: 1612193959:0;cd template
-: 1612193959:0;la
-: 1612193961:0;v rules.mk
-: 1612194047:0;v keymap.c
-: 1612194099:0;cd qmk_firmware
-: 1612194105:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1612194108:0;pac qmk
-: 1612194112:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1612198949:0;screenkey
-: 1612198952:0;pac screenkey
-: 1612198955:0;screenkey
-: 1612212277:0;cd shows
-: 1612212277:0;la
-: 1612212290:0;mk whatched
-: 1612212299:0;mv kabukichou-sherlock whatched
-: 1612212299:0;la
-: 1612212307:0;cd the-sacred-blacksmith
-: 1612212307:0;la
-: 1612212317:0;vid
-: 1612212322:0;pac mpv
-: 1612212328:0;vid The\ Sacred\ Blacksmith\ -\ 01\ -\ Knight\ \ \ \[DarkDream\].mkv
-: 1612212387:0;..
-: 1612212387:0;la
-: 1612212395:0;cd code-geass
-: 1612212395:0;la
-: 1612212397:0;cd code-geass-1
-: 1612212398:0;la
-: 1612212400:0;..
-: 1612212401:0;la
-: 1612212412:0;cd fruits-basket-2019-season-1
-: 1612212413:0;la
-: 1612212422:0;vid \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 01\ \[720p\].mkv
-: 1612216621:0;betterlockscreen -s
-: 1612251479:0;electron .
-: 1612251517:0;xset r rate 200 20
-: 1612257112:0;vid \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 01\ \[720p\].mkv
-: 1612257114:0;electron .
-: 1612262144:0;dow
-: 1612262149:0;feh my-65%-keyboard-layout.jpg
-: 1612262159:0;rm my-65%-keyboard-layout.jpg
-: 1612262170:0;feh my-65%-keyboard-layout.jpg
-: 1612262183:0;mv my-65%-keyboard-layout.jpg ~/the-lochlan-keyboard/img/malachi\'s-65%-keyboard-layout.jpg
-: 1612262190:0;..
-: 1612262194:0;cd the-sacred-blacksmith
-: 1612262197:0;cd the-lochlan-keyboard
-: 1612262198:0;la
-: 1612262201:0;cd img
-: 1612262201:0;la
-: 1612262208:0;commit 'commit 14'
-: 1612262353:0;dow
-: 1612262357:0;mv my-65%-keyboard-layout.jpg my-65%-keyboard-layout.jpg ~/the-lochlan-keyboard/img/malachi\'s-65%-keyboard-layout.jpg
-: 1612262361:0;cd ~/the-lochlan-keyboard-project
-: 1612262367:0;..
-: 1612262369:0;cd the-lochlan-keyboard
-: 1612262370:0;la
-: 1612262373:0;commit 'commit 15'
-: 1612262397:0;cd img
-: 1612262401:0;feh malachi\'s-65%-keyboard-layout.jpg
-: 1612262460:0;dow
-: 1612262461:0;la
-: 1612262467:0;feh my-65%-keyboard-layout.jpg
-: 1612262476:0;mv my-65%-keyboard-layout.jpg ~/the-lochlan-keyboard/img/malachi\'s-65%-keyboard-layout.jpg
-: 1612262482:0;cd the-lochlan-keyboard
-: 1612262483:0;cd img
-: 1612262486:0;feh malachi\'s-65%-keyboard-layout.jpg
-: 1612262490:0;commit 'commit 15'
-: 1612278613:0;electron .
-: 1612278978:0;commit 'sorted my css file'
-: 1612278988:0;electron .
-: 1612281260:0;cd the-lochlan-keyboard
-: 1612281509:0;v readme.md
-: 1612281567:0;dow
-: 1612281571:0;feh my-65%-keyboard-layout\ \(1\).jpg
-: 1612281592:0;feh my-65%-keyboard-layout.jpg
-: 1612281618:0;mv my-65%-keyboard-layout.jpg my-65%-keyboard-layout.jpg ~/the-lochlan-keyboard/img/malachi\'s-65%-keyboard-layout.jpg
-: 1612281632:0;mv my-65%-keyboard-layout.jpg ~/the-lochlan-keyboard/img/malachi\'s-65%-keyboard-layout.jpg
-: 1612281663:0;cd
-: 1612281664:0;cd the-lochlan-keyboard
-: 1612281671:0;cd readme.md
-: 1612281674:0;v readme.md
-: 1612281718:0;commit 'commit 15'
-: 1612281799:0;commit 'commit 15'
-: 1612281831:0;v readme.md
-: 1612281921:0;commit 'commit 15'
-: 1612281965:0;v readme.md
-: 1612282017:0;cd template
-: 1612282021:0;v rules.mk
-: 1612282197:0;commit 'commit 15'
-: 1612282220:0;v readme.md
-: 1612288179:0;commit 'commit 15'
-: 1612289438:0;dow
-: 1612289438:0;la
-: 1612289457:0;mv Vector\ 5.png ~/code/electron/electron-steno-in-one/assets
-: 1612289734:0;dow
-: 1612289746:0;mv check-mark.svg ~/code/electron/electron-steno-in-one/assets
-: 1612294436:0;dow
-: 1612294440:0;mv check-mark.svg check-mark.svg ~/code/electron/electron-steno-in-one/assets
-: 1612294452:0;mv check-mark.svg  ~/code/electron/electron-steno-in-one/assets
-: 1612294458:0;la
-: 1612294465:0;mv check-mark.svg  ~/code/electron/electron-steno-in-one/assets
-: 1612294532:0;dow
-: 1612294533:0;mv check-mark.svg  ~/code/electron/electron-steno-in-one/assets
-: 1612295116:0;dow
-: 1612295127:0;mv cross-mark.svg ~/code/electron/electron-steno-in-one/assets
-: 1612295472:0;commit 'commit 15'
-: 1612295475:0;electron .
-: 1612295689:0;commit 'commit 15'
-: 1612295692:0;electron .
-: 1612296109:0;feh malachi\'s-65%-keyboard-layout.jpg
-: 1612296111:0;electron .
-: 1612297589:0;cd shows/fruits-basket-2019-season-1
-: 1612297592:0;vid \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 01\ \[720p\].mkv
-: 1612303162:0;electron .
-: 1612372248:0;not
-: 1612372252:0;cd software/css
-: 1612372265:0;v centering-using-position.md
-: 1612375971:0;xmodmap -e "pointer = 1 8 3 4 5 6 7 9 2"\
-\
-
-: 1612375990:0;xmodmap -e --help
-: 1612375993:0;xmodmap --help
-: 1612376059:0;pac xbindkeys xbindkeys-config \
-
-: 1612376095:0;xmodmap
-: 1612376103:0;xmodmap -e "pointer = 1 8 3 4 5 6 7 9 2"\
-\
-
-: 1612376130:0;xev
-: 1612376208:0;xmodmap -e â€ƒ¼pointer = 1 4 3 7 9 5 8 2â€ƒ½\
-
-: 1612376218:0;xmodmap -e "pointer = 1 4 3 7 9 5 8 2"\
-
-: 1612376234:0;xmodmap -pp\
-
-: 1612376283:0;<span class="center">\
-      <span class="dictionary-card__dictionary-number-of-chords">0</span>\
-    </span>
-: 1612376290:0;xinput list
-: 1612376303:0;xinput Kensington Expert Wireless TB Mouse
-: 1612376340:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 1 2 3 4 5 6 7 0 0\
-\
-
-: 1612376355:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 2 1 3 4 5 6 7 0 0\
-\
-
-: 1612376387:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 2 1 1 4 5 6 7 0 0\
-\
-
-: 1612376408:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 2 1 4 5 6 7 0 0\
-\
-
-: 1612376449:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 0 1 4 5 6 7 0 0\
-\
-
-: 1612376504:0;irc
-: 1612378112:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 0 1 4 5 7 6 0 0\
-\
-
-: 1612378141:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 0 1 4 5 7 6 1 1\
-\
-
-: 1612378203:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 1 1 1 1 1 1 1 1 1\
-\
-
-: 1612378241:0;xinput set-button-map "Kensington Expert Wireless TB Mouse"
-: 1612378253:0;xinput  "Kensington Expert Wireless TB Mouse"
-: 1612378271:0;xinput get-button-map "Kensington Expert Wireless TB Mouse"
-: 1612378298:0;irc
-: 1612378307:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 0 1 4 5 6 7 0 0
-: 1612378335:0;xinput  "Kensington Expert Wireless TB Mouse"
-: 1612378349:0;xinput  "Kensington Expert Wireless TB Mouse" 
-: 1612378356:0;xinput get-feedback "Kensington Expert Wireless TB Mouse"
-: 1612378365:0;xinput get-feedbacks "Kensington Expert Wireless TB Mouse"
-: 1612378372:0;xinput get-feedback "Kensington Expert Wireless TB Mouse"
-: 1612378387:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 1
-: 1612378414:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 1 2 3 4 5 6 7 8 9
-: 1612378441:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 2 1 3 4 5 6 7 8 9
-: 1612378455:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 2 1 4 5 6 7 8 9
-: 1612378478:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 2 1 2 5 6 7 8 9
-: 1612378530:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 2 1 3 5 6 7 8 9
-: 1612378553:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 2 1 5 5 6 7 8 9
-: 1612378567:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 2 1 6 5 6 7 8 9
-: 1612378575:0;xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 2 1 7 5 6 7 8 9
-: 1612378600:0;la
-: 1612378657:0;xinput --list-prop "Kensington Expert Wireless TB Mouse"
-: 1612378669:0;xinputlist-prop "Kensington Expert Wireless TB Mouse"
-: 1612378673:0;xinput list-prop "Kensington Expert Wireless TB Mouse"
-: 1612378734:0;xinput list-props "Kensington Expert Wireless TB Mouse"
-: 1612378781:0;xinput set-props "Kensington Expert Wireless TB Mouse" 283 1
 : 1612378842:0;xinput set-props "Kensington Expert Wireless TB Mouse" 299 1
 : 1612378849:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 299 1
 : 1612378868:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 283 1
@@ -10888,3 +9916,136 @@ done
 : 1619072095:0;code .
 : 1619080053:0;dot
 : 1619080058:0;commit 'save'
+: 1619086080:0;cd .config
+: 1619086106:0;cd nvim/plugged/vim-polyglot
+: 1619086123:0;cd tests/indent/2.1
+: 1619086128:0;node test.js
+: 1619087081:0;cat *
+: 1619087327:0;screenkey
+: 1619087330:0;pac screenkey
+: 1619087335:0;screenkey
+: 1619089153:0;cd projects
+: 1619089153:0;la
+: 1619089187:0;rma *
+: 1619089189:0;la
+: 1619089192:0;rm .eslintrc.json
+: 1619089192:0;la
+: 1619089221:0;code hats
+: 1619090640:0;node public/index.html
+: 1619090646:0;node reduce.js
+: 1619092437:0;cd projects/nodejs
+: 1619092441:0;v hats.js
+: 1619093225:0;npm init -f
+: 1619093228:0;npm init -y
+: 1619093262:0;npmi express
+: 1619093279:0;code server.js
+: 1619093387:0;npmi path mysql router body-parser 
+: 1619093399:0;la
+: 1619093404:0;v package.json
+: 1619093941:0;v server.js
+: 1619097681:0;node server.js
+: 1619097957:0;npmi nodemon
+: 1619097995:0;node server.js
+: 1619100605:0;rma hats
+: 1619100608:0;node server.js
+: 1619100609:0;la
+: 1619100612:0;rma hats
+: 1619100994:0;node server.js
+: 1619104254:0;rma hats
+: 1619104258:0;node server.js
+: 1619104413:0;dow
+: 1619104413:0;la
+: 1619104426:0;rma The\ Silver\ Guardian\ S01-S02\ BD\ Remux-TTGA
+: 1619104434:0;pac qbittorrent
+: 1619104439:0;qbittorrent
+: 1619104469:0;df 
+: 1619104474:0;df -h
+: 1619104484:0;dow
+: 1619104484:0;la
+: 1619104513:0;rma  Devils\ Line\ \[ZECHS\]\ \[Dual\ Audio\]\ \[HEVC\]\ \[BDRip\]\ \[HD\ 1080p\] Devils\ Line\ \[ZECHS\]\ \[Dual\ Audio\]\ \[HEVC\]\ \[BDRip\]\ \[HD\ 1080p\].torrent EP.16.360p.mp4 EP.17.360p.mp4 EP.18.360p.mp4 EP.19.360p.mp4 EP.20.360p.mp4 EP.21.360p.mp4 EP.22.360p.mp4 EP.23.360p.mp4 \[Golumpa\]\ Recovery\ of\ an\ MMO\ Junkie\ \(Net-juu\ no\ Susume\)\ \[English\ Dub\]\ \[FuniDub\ 1080p\ x264\ AAC\]\ \[MKV\] \[Golumpa\]\ Recovery\ of\ an\ MMO\ Junkie\ \(Net-juu\ no\ Susume\)\ \[English\ Dub\]\ \[FuniDub\ 1080p\ x264\ AAC\]\ \[MKV\].torrent nvim.appimage rig.conf \[SubsPlease\]\ Black\ Clover\ \(01-170\)\ \(720p\)\ \[Batch\]
+: 1619104519:0;la
+: 1619104522:0;df -h
+: 1619104526:0;la
+: 1619104531:0;cd The\ Silver\ Guardian\ S01-S02\ BD\ Remux-TTGA
+: 1619104538:0;vid The\ Silver\ Guardian\ S02\ BD\ Remux-TTGA/S02E02-Titan\ Goes\ Berserk,\ A\ Bewildered\ Suigin.mkv The\ Silver\ Guardian\ S02\ BD\ Remux-TTGA/S02E02-Titan\ Goes\ Berserk,\ A\ Bewildered\ Suigin.mkv The\ Silver\ Guardian\ S02\ BD\ Remux-TTGA/S02E02-Titan\ Goes\ Berserk,\ A\ Bewildered\ Suigin.mkv The\ Silver\ Guardian\ S02\ BD\ Remux-TTGA
+: 1619104542:0;la
+: 1619104544:0;cd The\ Silver\ Guardian\ S02\ BD\ Remux-TTGA
+: 1619104545:0;la
+: 1619104547:0;vid S02E02-Titan\ Goes\ Berserk,\ A\ Bewildered\ Suigin.mkv
+: 1619104551:0;..
+: 1619104556:0;rma The\ Silver\ Guardian\ S01-S02\ BD\ Remux-TTGA
+: 1619104560:0;la
+: 1619104572:0;cla
+: 1619104573:0;la
+: 1619114967:0;npmi uuid
+: 1619116415:0;dow
+: 1619116415:0;la
+: 1619116420:0;rm The\ Silver\ Guardian\ S01-S02\ BD\ Remux-TTGA
+: 1619116422:0;rma The\ Silver\ Guardian\ S01-S02\ BD\ Remux-TTGA
+: 1619116424:0;la
+: 1619116437:0;rm torrent.torrent
+: 1619116438:0;la
+: 1619116443:0;rm torrent
+: 1619116443:0;la
+: 1619116456:0;dow
+: 1619116456:0;la
+: 1619116552:0;node server.js
+: 1619116635:0;fzf
+: 1619116664:0;./node_modules/nodemon/bin/nodemon
+: 1619116666:0;./node_modules/nodemon/bin/nodemon.js
+: 1619116697:0;npmi nodemon
+: 1619116703:0;nodemon 
+: 1619116705:0;b;sh
+: 1619116711:0;bash
+: 1619116716:0;nodemon
+: 1619116848:0;node server.js
+: 1619117614:0;zsh
+: 1619117641:0;la
+: 1619117643:0;cd node_modules
+: 1619117643:0;la
+: 1619117651:0;cd .bin
+: 1619117652:0;la
+: 1619117660:0;..
+: 1619117664:0;nodemon
+: 1619117682:0;so
+: 1619117684:0;nodemon
+: 1619117704:0;so
+: 1619117706:0;nodemon
+: 1619117716:0;./node_modules/.bin/nodemon
+: 1619117775:0;so
+: 1619117777:0;nodemon
+: 1619117778:0;la
+: 1619117793:0;so
+: 1619117795:0;nodemon
+: 1619117812:0;so
+: 1619117813:0;nodemon
+: 1619117815:0;la
+: 1619117822:0;ls node_modules/.bin
+: 1619117827:0;rc
+: 1619117831:0;uuid
+: 1619117832:0;la
+: 1619117845:0;so
+: 1619117850:0;cd projects/nodejs
+: 1619117852:0;nodemon
+: 1619117898:0;la
+: 1619117910:0;pwd
+: 1619117917:0;./node_modules/.bin/nodemon
+: 1619117933:0;export PATH=$PATH:$HOME/dotfiles/scripts/:$HOME/.local/bin/:$HOME/.npm/bin/:$HOME/.cabal:**/node_modules/.bin\
+
+: 1619117935:0;nodemon
+: 1619117953:0;export PATH=**/node_modules/.bin\
+
+: 1619117963:0;nodemon
+: 1619117964:0;la
+: 1619118070:0;nodemon
+: 1619118078:0;npmig nodemon
+: 1619118089:0;sudo npmig nodemon
+: 1619118098:0;sudo npm install -g nodemon
+: 1619118121:0;ls node_modules/.bin
+: 1619118143:0;PATH+=./node_modules/.bin
+: 1619118153:0;nodemon .
+: 1619118159:0;nodemon server.js
+: 1619118906:0;cd projects/nodejs
+: 1619118908:0;v server.js
+: 1619123762:0;dot
+: 1619123767:0;commit 'save'

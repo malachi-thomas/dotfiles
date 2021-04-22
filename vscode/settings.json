@@ -1,7 +1,6 @@
 {
     "workbench.colorTheme": "Atom One Dark",
     "editor.lineNumbers": "relative",
-    "window.zoomLevel": 2,
     "editor.cursorBlinking": "solid",
     "editor.cursorSurroundingLines": 9999,
     "editor.fontSize": 11,
@@ -13,10 +12,30 @@
     "workbench.activityBar.visible": false,
     "editor.minimap.enabled": false,
     "workbench.editor.showTabs": true,
-
+    "breadcrumbs.enabled": false,
+    "files.exclude": {
+        "**/node_modules/": true
+    },
     "editor.tabSize": 2,
-    "editor.renderWhitespace": "trailing",
+    "editor.renderWhitespace": "all",
     "editor.snippetSuggestions": "top",
     "emmet.showSuggestionsAsSnippets": true,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "editor.stickyTabStops": true,
+    "files.trimTrailingWhitespace": true,
+    "scm.diffDecorationsGutterVisibility": "hover",
+    "scm.diffDecorationsGutterWidth": 2,
+    "editor.lightbulb.enabled": false,
+    "window.zoomLevel": 2,
+    "explorer.confirmDragAndDrop": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.wordBasedSuggestions": true,
+
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first"
+
 }
