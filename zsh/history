@@ -10049,3 +10049,337 @@ done
 : 1619118908:0;v server.js
 : 1619123762:0;dot
 : 1619123767:0;commit 'save'
+: 1619157294:0;node server.js
+: 1619157486:0;nodemon server.js
+: 1619163503:0;node server.js
+: 1619163748:0;nodemon server.js
+: 1619248777:0;dow
+: 1619248777:0;la
+: 1619250718:0;cd Downloads
+: 1619250724:0;usb hiveos-0.6-190-stable@210108.img.xz /dev/sda1
+: 1619250749:0;ls /dev/sda
+: 1619250757:0;usb hiveos-0.6-190-stable@210108.img.xz /dev/sda
+: 1619250812:0;ls /dev/sda
+: 1619250826:0;usb hiveos-0.6-190-stable@210108.img.xz /dev/sda1
+: 1619250856:0;usb hiveos-0.6-190-stable@210108.img.xz /dev/sda
+: 1619250873:0;usb hiveos-0.6-203-stable@210403.img.xz /dev/sda
+: 1619250879:0;usb hiveos-0.6-203-stable@210403.img.xz /dev/sda1
+: 1619528251:0;cd projects
+: 1619528251:0;la
+: 1619528260:0;mk web-todo-list-app
+: 1619528262:0;cd web-todo-list-app
+: 1619528262:0;la
+: 1619528274:0;mk public src 
+: 1619528288:0;npm init -y
+: 1619528303:0;pac npm
+: 1619528313:0;npm init -y
+: 1619528315:0;la
+: 1619528326:0;npmi nodemon express
+: 1619528340:0;cat package.json
+: 1619528355:0;v pro
+: 1619528360:0;code .
+: 1619528426:0;rm pro
+: 1619528427:0;la
+: 1619528436:0;to server.js
+: 1619528460:0;code server.js
+: 1619528503:0;node server.js
+: 1619528819:0;node run start
+: 1619528844:0;npm run start
+: 1619528867:0;npm run dev
+: 1619536874:0;node run start
+: 1619536878:0;node server.js
+: 1619536931:0;npm run dev
+: 1619544364:0;npm i -D nodemon
+: 1619544370:0;cat package.json
+: 1619544580:0;npm run dev
+: 1619544765:0;to public/hat.html
+: 1619544775:0;npm run dev
+: 1619588036:0;cd projects
+: 1619588039:0;cd web-todo-list-app
+: 1619588040:0;code .
+: 1619588153:0;npm run dev
+: 1619628367:0;pac say
+: 1619628407:0;say hats
+: 1619628445:0;pac speak
+: 1619628456:0;beep
+: 1619628459:0;beep 
+: 1619628462:0;pac speak
+: 1619680169:0;cd projects/web-todo-list-app
+: 1619680169:0;la
+: 1619680174:0;v server.js
+: 1619680180:0;code .
+: 1619680192:0;npm run dev
+: 1619680698:0;node server.js
+: 1619680863:0;npm run dev
+: 1619681353:0;live-server public/index.html
+: 1619681474:0;cd projects/web-todo-list-app
+: 1619681483:0;ls public
+: 1619681495:0;v ind
+: 1619681501:0;rm ind
+: 1619681545:0;npm run dev
+: 1619686989:0;cd projects
+: 1619686999:0;mk testing
+: 1619687000:0;cd testing
+: 1619687004:0;code .
+: 1619687081:0;node functions.js
+: 1619689859:0;cd dotfiles/notes
+: 1619689859:0;la
+: 1619689874:0;ls swift
+: 1619689881:0;mv views.md swift
+: 1619689881:0;l
+: 1619689882:0;la
+: 1619690143:0;v server-request-types.md
+: 1619690310:0;code .
+: 1619690366:0;v server-request-types.md
+: 1619690380:0;cd dotfiles/nvim
+: 1619690380:0;la
+: 1619690387:0;ls snippets
+: 1619690388:0;..
+: 1619690389:0;la
+: 1619690409:0;cd vscode
+: 1619690410:0;la
+: 1619690411:0;..
+: 1619690427:0;mk snippets
+: 1619690437:0;vpc
+: 1619690467:0;ln ~/.config/Code/User/snippets
+: 1619690482:0;ln -f ~/.config/Code/User/snippets/* ~/dotfiles/snippets
+: 1619690492:0;cd notes
+: 1619690495:0;v server-request-types.md
+: 1619690525:0;vpc
+: 1619690527:0;vrc
+: 1619690542:0;v server-request-types.md
+: 1619690555:0;vpc
+: 1619690570:0;v server-request-types.md
+: 1619690596:0;vrc
+: 1619690623:0;v server-request-types.md
+: 1619690652:0;vma
+: 1619690687:0;v server-request-types.md
+: 1619690693:0;la
+: 1619690695:0;vrc
+: 1619690713:0;v server-request-types.md
+: 1619690749:0;..
+: 1619690750:0;cd snippets
+: 1619690751:0;la
+: 1619690759:0;v markdown.json
+: 1619690769:0;..
+: 1619690771:0;cd notes
+: 1619690773:0;v server-request-types.md
+: 1619690786:0;vma
+: 1619690800:0;v server-request-types.md
+: 1619691068:0;v test.js
+: 1619691125:0;v server-request-types.md
+: 1619691821:0;code ~/dotfiles/notes/server-request-types.md
+: 1619701851:0;npmi ejs
+: 1619703761:0;npm remove ejs
+: 1619703765:0;cat package.json
+: 1619703925:0;npm run dev
+: 1619711002:0;screenkey
+: 1619717027:0;pac roboto
+: 1619725536:0;cd Downloads
+: 1619725536:0;la
+: 1619725542:0;cd The\ Silver\ Guardian\ S01-S02\ BD\ Remux-TTGA
+: 1619725543:0;la
+: 1619725546:0;cd The\ Silver\ Guardian\ S01\ BD\ Remux-TTGA
+: 1619725546:0;l
+: 1619725547:0;la
+: 1619725550:0;vid S01E01-Suigin\ Meets\ Riku\ Rei.mkv
+: 1619725553:0;..
+: 1619725571:0;rm The\ Silver\ Guardian\ S01-S02\ BD\ Remux-TTGA Lotr\ Wallpaper\ \(No\ Text\)\ 7.png Roboto Roboto.zip The\ Silver\ Guardian\ S01-S02\ BD\ Remux-TTGA.torrent \[YakuboEncodes\]\ The\ Ones\ Within\ \(Nakanohito\ Genome\ \[Jikkyouchuu\]\)\ -\ Season\ 1\ +\ OVA\ \[1080p\ 10bit\]\[x265\ HEVC\]\[Dual-Audio\ Opus\].torrent hiveos-0.6-203-stable@210403.img.xz hiveos-0.6-203-stable@210403.img.xz.torrent 
+: 1619725573:0;rma The\ Silver\ Guardian\ S01-S02\ BD\ Remux-TTGA Lotr\ Wallpaper\ \(No\ Text\)\ 7.png Roboto Roboto.zip The\ Silver\ Guardian\ S01-S02\ BD\ Remux-TTGA.torrent \[YakuboEncodes\]\ The\ Ones\ Within\ \(Nakanohito\ Genome\ \[Jikkyouchuu\]\)\ -\ Season\ 1\ +\ OVA\ \[1080p\ 10bit\]\[x265\ HEVC\]\[Dual-Audio\ Opus\].torrent hiveos-0.6-203-stable@210403.img.xz hiveos-0.6-203-stable@210403.img.xz.torrent 
+: 1619725575:0;la
+: 1619767710:0;cd Downloads
+: 1619767712:0;la
+: 1619767715:0;mv torrent torrent.torrent
+: 1619770060:0;cd projects/web-todo-list-app
+: 1619770064:0;npm run dev
+: 1619770249:0;code .
+: 1619774949:0;npm run dev
+: 1619775845:0;npmi ajax
+: 1619775918:0;cat package.json
+: 1619775957:0;npmi ajax
+: 1619775961:0;npm run dev
+: 1619789074:0;cd projects/web-todo-list-app
+: 1619789076:0;code .
+: 1619789766:0;npm run dev
+: 1619796314:0;pac insomnia
+: 1619808967:0;cd projects/web-todo-list-app
+: 1619808968:0;code .
+: 1619808999:0;npm run dev
+: 1619850057:0;cd projects/web-todo-list-app
+: 1619850066:0;code .; exit
+: 1619850079:0;npm run dev
+: 1619857033:0;vim public/index.html
+: 1619857038:0;vim public/index.js
+: 1619857082:0;v public/index.js
+: 1619857209:0;npm run dev
+: 1619858481:0;cd projects/web-todo-list-app
+: 1619858484:0;v public/index.js
+: 1619864498:0;git init
+: 1619864507:0;la
+: 1619864515:0;checkout
+: 1619864524:0;git add -A
+: 1619864536:0;git commit "first commit"
+: 1619864545:0;git commit -m "first commit"
+: 1619864547:0;la
+: 1619864561:0;git push 
+: 1619864565:0;git push git@github.com:banana-llarma/web-todo-list.git
+: 1619864574:0;git push --set-upstream git@github.com:banana-llarma/web-todo-list.git
+: 1619864585:0;git remote add origin git@github.com:banana-llarma/web-todo-list.git\
+git branch -M main\
+git push -u origin main
+: 1619864598:0;git branch dev
+: 1619864600:0;checkout
+: 1619870283:0;npm run dev
+: 1619876808:0;not
+: 1619876811:0;cd old-notes
+: 1619876811:0;la
+: 1619876814:0;cd css
+: 1619876815:0;la
+: 1619876819:0;v center-absolute-item.md
+: 1619878153:0;dow
+: 1619878154:0;la
+: 1619878165:0;mv dot-dot-dot.svg 3-dots.svg
+: 1619878181:0;mv 3-dots.svg ~/projects/web-todo-list-app
+: 1619878189:0;mk assets
+: 1619878200:0;cd ~/projects/web-todo-list-app
+: 1619878201:0;la
+: 1619878206:0;mv 3-dots.svg assets
+: 1619878211:0;ls assets
+: 1619878278:0;cd Downloads
+: 1619878280:0;v dot-dot-dot.svg
+: 1619878323:0;npm run dev
+: 1619878345:0;v dot-dot-dot\ \(1\).svg
+: 1619879291:0;dowt
+: 1619879292:0;dow
+: 1619879295:0;v dot-dot-dot\ \(2\).svg
+: 1619881635:0;commit 'starting to use the new design'
+: 1619881644:0;git push --set-upstream origin dev
+: 1619881746:0;la
+: 1619881750:0;checkout
+: 1619881760:0;npm run dev
+: 1619881768:0;checkout
+: 1619881774:0;npm run dev
+: 1619882166:0;n
+: 1619882167:0;npm run dev
+: 1619882854:0;dow
+: 1619882856:0;v Vector\ 22.svg
+: 1619883079:0;dow
+: 1619883084:0;v Vector\ 22.svg
+: 1619883102:0;v Vector\ 22\ \(1\).svg
+: 1619884978:0;dow
+: 1619885022:0;mv Vector\ 18.svg todo-circle.svg
+: 1619885031:0;mv todo-circle.svg ~/projects/web-todo-list-app/assets
+: 1619885046:0;cd ~/projects/web-todo-list-app/assets
+: 1619885049:0;copy todo-circle.svg
+: 1619885060:0;xclip todo-circle.svg
+: 1619885756:0;not
+: 1619885758:0;cd old-notes
+: 1619885758:0;la
+: 1619885761:0;cd css
+: 1619885762:0;la
+: 1619885773:0;v centering-img.md
+: 1619886221:0;cd Downloads
+: 1619886224:0;v circle.svg
+: 1619886367:0;not
+: 1619886385:0;v old-notes/css/centering-img.md
+: 1619887986:0;cd Downloads
+: 1619887989:0;v Component\ 5.png
+: 1619888017:0;v checkbox.svg
+: 1619888092:0;cd Downloads
+: 1619888094:0;v checkbox\ \(1\).svg
+: 1619888166:0;v checkbox\ \(2\).svg
+: 1619888226:0;v checkbox\ \(3\).svg
+: 1619888303:0;v checkbox\ \(4\).svg
+: 1619888352:0;v checkbox\ \(5\).svg
+: 1619931882:0;commit 'added checkboxes'
+: 1619935083:0;cd projects/web-todo-list-app
+: 1619935085:0;code .; exit
+: 1619935112:0;npm  run dev
+: 1619937799:0;dow 
+: 1619937802:0;v Vector\ 23.svg
+: 1619947937:0;dow
+: 1619947940:0;v Vector\ 24.svg
+: 1619948119:0;dow 
+: 1619948122:0;v Vector\ 24\ \(1\).svg
+: 1619964412:0;sudo npm i -g sass
+: 1619964418:0;sudo npm i -g scss
+: 1619964449:0;npm install -g sass\
+
+: 1619964460:0;npm install sass\
+
+: 1619964479:0;sudo npm i -g sass
+: 1619964558:0;npm run dev
+: 1619964646:0;sass public/styles/styles.scss public
+: 1619964652:0;sass -w public/styles/styles.scss public
+: 1619964708:0;sass --watch public/styles/styles.scss public/styles.css
+: 1619964717:0;sass --watch public/styles/styles.scss public
+: 1619964719:0;sass --watch public/styles/styles.scss public/styles.css
+: 1619978027:0;cd projects/web-todo-list-app
+: 1619978028:0;code .; exit
+: 1619978435:0;sass --watch public/styles/styles.scss public/styles.css
+: 1619979330:0;cd Downloads
+: 1619979339:0;v cross-mark.svg
+: 1619979969:0;commit 'starting to use scss'
+: 1619984418:0;cd pro
+: 1619984418:0;s
+: 1619984421:0;cd projects/web-todo-list-app
+: 1619984426:0;code .; exit
+: 1619984440:0;sass --watch public/styles/styles.scss public/styles.css
+: 1619984447:0;npm run dev
+: 1619984611:0;pac mongodb-bin
+: 1619984842:0;mongo
+: 1619984857:0;pac mongodb-tools-bin
+: 1619985187:0;pac mysql
+: 1619985499:0;mysql
+: 1619985774:0;cd /usr/local/
+: 1619985775:0;la
+: 1619985778:0;cd bin
+: 1619985779:0;la
+: 1619985780:0;..
+: 1619985780:0;la
+: 1619985783:0;cd share
+: 1619985783:0;la
+: 1619985785:0;..
+: 1619985787:0;la
+: 1619985799:0;fzf
+: 1619985815:0;cd usr/share
+: 1619985815:0;la
+: 1619985820:0;cd mysql
+: 1619985820:0;la
+: 1619985849:0;mysql --version
+: 1619985885:0;which mysql
+: 1619985897:0;cd /usr/bin/
+: 1619985898:0;la
+: 1619985910:0;..
+: 1619985910:0;la
+: 1619985915:0;ls local
+: 1619985921:0;fsf
+: 1619985923:0;fzf
+: 1619985938:0;cd share
+: 1619985938:0;la
+: 1619985941:0;cd mysql
+: 1619985941:0;la
+: 1619985947:0;..
+: 1619985952:0;fzf
+: 1619986018:0;sudo pacman -S mariadb
+: 1619986019:0;sudo pacman -S mariadb
+: 1619986042:0;sudo systemctl start mysqld
+: 1619986045:0;mysql
+: 1619986067:0;sudo systemctl enable mysqldsudo systemctl enable mysqld
+: 1619986069:0;sudo systemctl enable mysqld
+: 1619986073:0;sudo systemctl start mysqld
+: 1619986097:0;mysql
+: 1619986132:0;echo $PATH
+: 1619986163:0;echo $PATH += ':usr/bin'
+: 1619986167:0;sql
+: 1619986170:0;mysql
+: 1619986240:0;mysql -u root -p
+: 1619986263:0;[1;3D
+: 1619986287:0;pac mysql-server
+: 1619986290:0;pac mysql-se
+: 1619986293:0;pac mysql
+: 1619986378:0;cat /usr/lib/systemd/system/mariadb.service
+: 1619986392:0;sudo systemctl start mysql
+: 1619986407:0;sudo systemctl status mysql
+: 1619986426:0;dot
+: 1619986429:0;commit 'save'

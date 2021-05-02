@@ -15,7 +15,7 @@ nnoremap <c-c> :wqa!<cr>
 nnoremap <space>b :Clap buffers<cr>
 nnoremap / /\v
 nnoremap <space><space> :Files<cr>
-nnoremap <space>s :e ~/dotfiles/nvim/snippets/<c-r>=expand(&ft)<cr>.json<cr>
+nnoremap <space>s :e ~/dotfiles/snippets/<c-r>=expand(&ft)<cr>.json<cr>
 nnoremap <tab> :BufferNext<cr>
 nnoremap <M-tab> :BufferPrevious<cr>
 nnoremap <silent><c-w> :call BufferClose()<cr>
@@ -127,9 +127,12 @@ autocmd filetype python nnoremap <silent><buffer><c-l> :!python %<cr>
 autocmd filetype c nnoremap <silent><buffer><c-l> :w<cr>:!gcc %<cr>:!./a.out<cr>
 autocmd filetype cpp nnoremap <silent><buffer><c-l> :w<cr>:!g++ %<cr>:!./a.out<cr>
 
+
+imap <c-x> <Plug>(vsnip-expand)
+
 " Auto completion
 imap <silent><expr><tab>
-      \ vsnip#available(1) ? "\<Plug>(vsnip-expand-or-jump)" :
+      \ vsnip#available(1) ? "\<Plug>(vsnip-expand)" :
       \ pumvisible() ? compe#confirm() :
       \ Check_back_space() ? "\<tab>" :
       \ compe#complete()

@@ -1,0 +1,30 @@
+{
+  "snip": {
+    "prefix": "snip",
+    "body": [
+      "\"$1\": {",
+      "  \"prefix\": \"$1\",",
+      "  \"body\": [",
+      "    \"$0\"",
+      "  ]",
+      "},"
+    ]
+  },
+  "clip": {
+    "prefix": "clip",
+    "body": [
+      "\"$1\": {",
+      "  \"prefix\": \"$1\",",
+      "  \"body\": [",
+      "    $CLIPBOARD",
+      "  ]",
+      "},"
+    ]
+  },
+"keybinding": {
+  "prefix": "key",
+  "body": [
+    "{ \"key\": \"$1\", \"command\": \"$2\", \"when\": \"$0\" },"
+    ]
+  }
+}

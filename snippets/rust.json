@@ -1,0 +1,34 @@
+{
+  "fn": {
+    "prefix": "fn",
+    "body": [
+      "fn $1() $2 {",
+        "\t$0",
+        "}"
+    ]
+  },
+  "print": {
+    "prefix": "print",
+    "body": [
+      "print!($0);"
+    ]
+  },
+  "println1": {
+    "prefix": "println1",
+    "body": [
+      "println!(\"{}\", $0);"
+    ]
+  },
+  "println1db": {
+    "prefix": "println1db",
+    "body": [
+      "println!(\"{:?}\", $0);"
+    ]
+  },
+  "println": {
+    "prefix": "println",
+    "body": [
+      "println!($0);"
+    ]
+  }
+}

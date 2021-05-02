@@ -54,5 +54,34 @@
     { "key": "ctrl+r", "command": "renameFile", "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus" },
     { "key": "ctrl+n", "command": "jumpToNextSnippetPlaceholder", "when": "editorTextFocus && hasNextTabstop && inSnippetMode" },
     { "key": "tab", "command": "-jumpToNextSnippetPlaceholder", "when": "editorTextFocus && hasNextTabstop && inSnippetMode" },
-    { "key": "shift+tab", "command": "-jumpToPrevSnippetPlaceholder", "when": "editorTextFocus && hasPrevTabstop && inSnippetMode" }
+    {
+        "key": "shift+tab",
+        "command": "-jumpToPrevSnippetPlaceholder",
+        "when": "editorTextFocus && hasPrevTabstop && inSnippetMode"
+    },
+    {
+        "key": "ctrl+shift+meta+p",
+        "command": "insertSnippet",
+        "when": "editorTextFocus && hasSnippetCompletions && !editorTabMovesFocus && !inSnippetMode"
+    },
+    {
+        "key": "tab",
+        "command": "-insertNextSuggestion",
+        "when": "hasOtherSuggestions && textInputFocus && textInputFocus && !inSnippetMode && !suggestWidgetVisible && config.editor.tabCompletion == 'on'"
+    },
+    {
+        "key": "tab",
+        "command": "-insertBestCompletion",
+        "when": "atEndOfWord && textInputFocus && !hasOtherSuggestions && !inSnippetMode && !suggestWidgetVisible && config.editor.tabCompletion == 'on'"
+    },
+    {
+        "key": "tab",
+        "command": "-insertSnippet",
+        "when": "editorTextFocus && hasSnippetCompletions && !editorTabMovesFocus && !inSnippetMode"
+    },
+    {
+        "key": "tab",
+        "command": "-editor.emmet.action.expandAbbreviation",
+        "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+    }
 ]

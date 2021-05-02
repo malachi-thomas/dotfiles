@@ -41,13 +41,13 @@ command! -bang -nargs=* Rg
 let g:fzf_preview_window = []
 
 " vimwiki
-let g:vimwiki_table_mappings = 0
-let g:vimwiki_table_auto_fmt=0
-let g:vimwiki_list = [{
-      \ 'path': '~/dotfiles/notes',
-      \ 'syntax': 'markdown',
-      \ 'ext':'.md',
-      \}]
+" let g:vimwiki_table_mappings = 0
+" let g:vimwiki_table_auto_fmt=0
+" let g:vimwiki_list = [{
+"       \ 'path': '~/dotfiles/notes',
+"       \ 'syntax': 'markdown',
+"       \ 'ext':'.md',
+"       \}]
 
 " vim-gutentags
 let g:gutentags_add_default_project_roots = 0
@@ -84,7 +84,7 @@ let g:gutentags_ctags_exclude = [ '*.git', '*.svg', '*.hg', '*/tests/*', 'build'
 "   \ ]
 
 " vim-vsnip
-let g:vsnip_snippet_dir = expand('~/dotfiles/nvim/snippets')
+let g:vsnip_snippet_dir = expand('~/dotfiles/snippets')
 
 " diagnostic-nvim
 " let g:diagnostic_enable_virtual_text = 1

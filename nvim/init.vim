@@ -77,7 +77,6 @@ set pumwidth=30 " completion munu widtha
 " Vimscript
 augroup autocmds
   autocmd!
-  autocmd FileType markdown set ft=vimwiki
   autocmd FileType vimwiki setlocal spell
   autocmd VimEnter,SourcePost * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))|   PlugInstall --sync | q| endif " PlugInstall on uninstalld plugins
   autocmd BufReadPost * normal g'"

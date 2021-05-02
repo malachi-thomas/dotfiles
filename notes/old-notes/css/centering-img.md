@@ -1,4 +1,7 @@
-.checkbox {
-  /* margin: 0; */
-  /* width: 30px; */
+
+on the container of the svg tag add this
+
+.container {
+  display: flex;
+  justify-content: center;
 }

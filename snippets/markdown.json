@@ -1,0 +1,16 @@
+{
+  "#server-side-programming": {
+    "prefix": "#server-side-programming",
+    "body": [
+      "#server-side-programming"
+    ]
+  },
+
+  "tags": {
+    "prefix": "tags",
+    "body": [
+      "tags: "
+    ]
+  }
+
+}

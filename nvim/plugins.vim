@@ -36,7 +36,7 @@ Plug 'tpope/vim-repeat'
 " ui plugins
 Plug 'cespare/vim-toml'
 Plug 'sheerun/vim-polyglot'
-Plug 'vimwiki/vimwiki'
+" Plug 'vimwiki/vimwiki'
 Plug 'ryanoasis/vim-devicons'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/jsonc.vim'
