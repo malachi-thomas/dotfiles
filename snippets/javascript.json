@@ -232,6 +232,14 @@
       "const http = require('http')"
     ]
   },
+
+  "reMongoClient": {
+    "prefix": "reMongoClient",
+    "body": [
+      "const MongoClient = require('mongodb').MongoClient"
+    ]
+  },
+
   "reFs": {
     "prefix": "reFs",
     "body": [
@@ -653,6 +661,15 @@
     "xhr.onload = () => $0"
   ]
 },
+
+// Mongoose module
+"mosgoose.connect": {
+  "prefix": "mosgoose.connect",
+  "body": [
+    "mongoose.connect(${1:url}, {$0})"
+  ]
+},
+
 
 
   // misclania

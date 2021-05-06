@@ -19,6 +19,10 @@ export FZF_DEFAULT_OPTS="--reverse -e --bind=ctrl-h:backward-kill-word "
 export FZF_CTRL_T_COMMAND="fd -tf --hidden --exclude '.git' --exclude 'node_modules'"
 export FZF_ALT_C_COMMAND="fd -td --hidden --exclude '.git' --exclude 'node_modules'"
 
+# Varibals
+
+export docName='bananallarma'
+
 # History
 export HISTSIZE=10000
 export SAVEHIST=10000

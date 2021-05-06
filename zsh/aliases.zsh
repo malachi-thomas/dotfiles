@@ -17,6 +17,8 @@ alias f='rg --files | fzf | xargs -I "{}" nvim {}'
 alias storage='du -h'
 alias vimrc='curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/main/vim/.vimrc > ~/.vimrc'
 
+
+
 # Config Files
 alias vrc='v ~/.config/nvim/init.vim'
 alias vma='v ~/.config/nvim/mappings.vim'
@@ -85,8 +87,19 @@ fi
 alias npmi='npm i'
 alias npmig='npm i -g'
 
+# docker
+alias doc='docker'
+alias docr='doc run -d --rm'
+alias docs='doc stop'
+alias docsa='doc stop $(docls -q)'
+alias docrm='doc rm'
+alias docrma='docker rm $(docker ps -aq)'
+alias docls='doc ps'
+alias docla='doc ps -a'
+alias docb='doc build -t'
+
+
 # Git
-# alias commit='git add -A; git commit -m'
 alias push='git push'
 alias branch='git branch'
 alias clone='git clone'

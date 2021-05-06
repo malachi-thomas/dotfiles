@@ -1,712 +1,3 @@
-: 1612378842:0;xinput set-props "Kensington Expert Wireless TB Mouse" 299 1
-: 1612378849:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 299 1
-: 1612378868:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 283 1
-: 1612378880:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 284 1
-: 1612378914:0;irc
-: 1612378969:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 284 1\
-
-: 1612378981:0;xinput list-prop "Kensington Expert Wireless TB Mouse"
-: 1612378985:0;xinput list-props "Kensington Expert Wireless TB Mouse"
-: 1612378993:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 283 1\
-
-: 1612379005:0;irc
-: 1612379064:0;screenkey
-: 1612379094:0;v
-: 1612379106:0;irc
-: 1612379124:0;pac autotiling
-: 1612379139:0;autotiling
-: 1612379191:0;pkill redshift
-: 1612387971:0;cd shows/fruits-basket-2019-season-1
-: 1612387977:0;vid \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 02\ \[720p\].mkv
-: 1612389766:0;betterlockscreen -s
-: 1612432521:0;electron .
-: 1612443574:0;cd Downloads
-: 1612443575:0;la
-: 1612443589:0;mv 'add icon.svg' ~/code/electron/electron-steno-in-one/assets
-: 1612443657:0;mv ~/Downloads/add-icon.svg ~/code/electron/electron-steno-in-one/assets
-: 1612443701:0;file
-: 1612443985:0;not
-: 1612443989:0;cd software/css
-: 1612443994:0;v centering-using-position.md
-: 1612444242:0;mv ~/Downloads/icons8-edit.svg ~/code/electron/electron-steno-in-one/assets
-: 1612444832:0;plover
-: 1612445388:0;cd ~/code/electron/electron-steno-in-one/assets
-: 1612445388:0;la
-: 1612445407:0;cp add-icon.svg add-icon-gray.svg
-: 1612445408:0;la
-: 1612445417:0;rm add\ icon.svg
-: 1612445418:0;la
-: 1612445424:0;rm Vector\ 5.png
-: 1612445425:0;la
-: 1612445436:0;rm *.png
-: 1612445437:0;la
-: 1612445446:0;rm Sahitya-Bold.ttf Sahitya-Regular.ttf
-: 1612445447:0;la
-: 1612445459:0;v add-icon-gray.svg
-: 1612445718:0;v add-icon.svg
-: 1612445732:0;la
-: 1612445759:0;mv icons8-edit.svg edit-icon.svg
-: 1612445762:0;v edit-icon.svg
-: 1612445825:0;cp edit-icon.svg edit-icon-gray.svg
-: 1612445829:0;v edit-icon-gray.svg
-: 1612452763:0;pac autotiling
-: 1612452768:0;electron .
-: 1612460693:0;screenkey
-: 1612467201:0;cd qmk_firmware
-: 1612467211:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km dvorak
-: 1612467237:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km default
-: 1612467243:0;cd qmk_firmware
-: 1612467246:0;cd keyboards/kbdfans/kbd67
-: 1612467247:0;la
-: 1612467252:0;cd rev2/keymaps
-: 1612467253:0;la
-: 1612467479:0;screenkey
-: 1612472979:0;cd the-lochlan-keyboard
-: 1612472980:0;la
-: 1612472983:0;cd template
-: 1612472983:0;la
-: 1612472986:0;v keymap.c
-: 1612472997:0;xset r rate 200 20
-: 1612473234:0;cd ~/qmk_firmware
-: 1612473239:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1612473939:0;cd qmk_firmware
-: 1612473943:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard
-: 1612474007:0;screenkey
-: 1612474038:0;..
-: 1612474877:0;dow
-: 1612474882:0;feh lochlan\'s-65%-keyboard.jpg
-: 1612474892:0;mv lochlan\'s-65%-keyboard.jpg ~/the-lochlan-keyboard/img/lochlan\'s-65%-keyboard.jpg
-: 1612474899:0;..
-: 1612474900:0;cd the-lochlan-keyboard
-: 1612474902:0;cd img
-: 1612474902:0;la
-: 1612474904:0;..
-: 1612474915:0;cd img
-: 1612474918:0;feh malachi\'s-65%-keyboard-layout.jpg
-: 1612474932:0;..
-: 1612474935:0;cd template
-: 1612474938:0;v keymap.c
-: 1612474964:0;commit 'new layout'
-: 1612476979:0;..
-: 1612476981:0;v readme.md
-: 1612476999:0;commit 'new layout'
-: 1612477095:0;pac autotiling
-: 1612477100:0;electron .
-: 1612477326:0;betterlockscreen -s
-: 1612528061:0;commit 'starting to use javascript'
-: 1612528069:0;electron .
-: 1612537092:0;cd the-lochlan-keyboard
-: 1612537093:0;la
-: 1612537106:0;cp template template2
-: 1612537114:0;la
-: 1612537126:0;cp -r template template2
-: 1612537126:0;la
-: 1612537131:0;cd template2
-: 1612537131:0;la
-: 1612537137:0;v rules.mk
-: 1612537141:0;v config.h
-: 1612537146:0;v keymap.c
-: 1612537171:0;xset r rate 200 20
-: 1612537567:0;la
-: 1612537634:0;mk ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-malachi-keyboard
-: 1612537652:0;ln -f * ~/qmk_firmware/keyboards/kbdfans/kbd67/rev2/keymaps/the-malachi-keyboard
-: 1612537654:0;cd
-: 1612537656:0;cd qmk_firmware
-: 1612537670:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-malachi-keyboard
-: 1612537831:0;xset r rate 200 20 
-: 1612538772:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the
-: 1612538800:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard 
-: 1612538872:0;qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard 
-: 1612538895:0;cd qmk_firmware 
-: 1612538906:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard 
-: 1612539188:0;screenkey
-: 1612539200:0;cat 50-qmk.rules
-: 1612539204:0;ho
-: 1612539207:0;ca-ca
-: 1612539329:0;cd qmk_firmware  
-: 1612539335:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard 
-: 1612539459:0;cd qmk_firmware   
-: 1612539463:0;sudo qmk flash -kb kbdfans/kbd67/rev2 -km the-lochlan-keyboard 
-: 1612544535:0;xset r rate 200 20 
-: 1612544639:0;electron .
-: 1612554816:0;cd shows/fruits-basket-2019-season-1
-: 1612554819:0;vid \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 03\ \[720p\].mkv
-: 1612597875:0;electron .
-: 1612598813:0;file
-: 1612599293:0;dow
-: 1612599298:0;unzip m5z8q6j0jj.zip
-: 1612599299:0;la
-: 1612599312:0;mv edit-icon.svg ~/code/electron/electron-steno-in-one/assets
-: 1612599488:0;fil
-: 1612599490:0;file
-: 1612599515:0;cd Downloads
-: 1612599522:0;du .
-: 1612599528:0;du -h add\ icon.png
-: 1612599539:0;du -h Vector.jpg
-: 1612599544:0;du -h Vector.png
-: 1612599549:0;du -h Vector.svg
-: 1612601410:0;curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage\
-chmod u+x nvim.appimage\
-./nvim.appimage\
-
-: 1612601422:0;nvim
-: 1612601425:0;nvim -v
-: 1612601437:0;la
-: 1612601439:0;..
-: 1612601441:0;cd
-: 1612601478:0;cd dotfiles/nvim
-: 1612601479:0;la
-: 1612601482:0;v functions.vim
-: 1612601560:0;v init.vim
-: 1612601573:0;v mappings.vim
-: 1612602143:0;v
-: 1612602392:0;curl https://raw.githubusercontent.com/anott03/nvim-lspinstall-scripts/master/Linux/elmls.sh | bash
-: 1612602408:0;curl https://raw.githubusercontent.com/anott03/nvim-lspinstall-scripts/master/Linux/tsserver.sh | bash
-: 1612602432:0;curl https://raw.githubusercontent.com/anott03/nvim-lspinstall-scripts/master/Linux/jsonls.sh | bash
-: 1612608916:0;pac anki
-: 1612609061:0;pacr anki
-: 1612609076:0;pac anki
-: 1612609080:0;anki
-: 1612635656:0;plover
-: 1612635963:0;nvim chrome-pkkfebnkcbibbhldbikdkodcnghgoomf-Default.desktop
-: 1612639951:0;cd shows/fruits-basket-2019-season-1
-: 1612639953:0;vid \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 04\ \[720p\].mkv
-: 1612643328:0;not
-: 1612643330:0;cd css
-: 1612643331:0;la
-: 1612643334:0;cd software/css
-: 1612643334:0;la
-: 1612643345:0;v centering-img.md
-: 1612684333:0;electron .
-: 1612694686:0;mv Downloads/icons8-purchase-order-50.png ~/code/electron/electron-steno-in-one/assets
-: 1612694781:0;plover
-: 1612694876:0;mv Downloads/icons8-settings.svg ~/code/electron/electron-steno-in-one/assets
-: 1612695163:0;mv Downloads/icons8-settings.svg ~/code/electron/electron-steno-in-one/assets
-: 1612695894:0;cd Downloads
-: 1612695894:0;la
-: 1612695913:0;mv icons8-settings.svg ~/code/electron/electron-steno-in-one/assets
-: 1612695915:0;..
-: 1612696066:0;mv ~/Downloads/icons8-search.svg ~/code/electron/electron-steno-in-one/assets
-: 1612696127:0;electron .
-: 1612699946:0;mv ~/Downloads/book-icon.svg ./assets
-: 1612699965:0;electron .
-: 1612700279:0;mv ~/Downloads/book-icon.svg ./assets
-: 1612700281:0;electron .
-: 1612700434:0;mv ~/Downloads/book-icon.svg ./assets
-: 1612700435:0;electron .
-: 1612700862:0;mv ~/Downloads/book-icon.svg ./assets
-: 1612700864:0;electron .
-: 1612702440:0;mv ~/Downloads/arrow.svg ./assets
-: 1612702461:0;electron .
-: 1612702502:0;mv ~/Downloads/arrow.svg ./assets
-: 1612702504:0;electron .
-: 1612702553:0;mv ~/Downloads/arrow.svg ./assets
-: 1612702555:0;electron .
-: 1612705921:0;cd code/electron/electron-steno-in-one/assets
-: 1612705927:0;v add-icon.svg
-: 1612707748:0;cd code/electron/electron-steno-in-one/assets
-: 1612707752:0;v edit-icon.svg
-: 1612708156:0;l
-: 1612708156:0;la
-: 1612708160:0;v book-icon.svg
-: 1612708403:0;v edit-icon.svg
-: 1612708510:0;v icons8-search.svg
-: 1612708558:0;v icons8-settings.svg
-: 1612708607:0;v arrow.svg
-: 1612709050:0;v check-mark.svg
-: 1612709952:0;v cross-mark.svg
-: 1612715216:0;commit 'started to use svg icons in my html'
-: 1612717910:0;pac toggl
-: 1612717930:0;toggl
-: 1612717940:0;pac toggl-cli
-: 1612717982:0;sxh
-: 1612719300:0;pac toggl-cli
-: 1612719392:0;toggl
-: 1612719403:0;pac toggl
-: 1612719424:0;pac toggl-cli
-: 1612719445:0;toggl
-: 1612719451:0;toggl --help
-: 1612719462:0;man toggl
-: 1612719524:0;pip install togglCli\
-
-: 1612719757:0;toggl
-: 1612719766:0;toggl.sh
-: 1612719770:0;bin
-: 1612719772:0;v toggl.sh
-: 1612719781:0;toggl start anime
-: 1612719840:0;electron .
-: 1612721947:0;plover
-: 1612723817:0;pac toggle
-: 1612723840:0;pac toggl
-: 1612729175:0;cd shows/fruits-basket-2019-season-1
-: 1612729185:0;vid \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 05\ \[720p\].mkv
-: 1612735694:0;pac trello
-: 1612735892:0;trello
-: 1612735936:0;pac trello
-: 1612736011:0;trello
-: 1612736191:0;power
-: 1612771533:0;electron .
-: 1612781171:0;xset r rate 200 20 
-: 1612786316:0;toggl
-: 1612786322:0;pacr toggl
-: 1612786326:0;pacr toggle
-: 1612799165:0;cd code/electron/electron-steno-in-one/assets
-: 1612799166:0;..
-: 1612799180:0;brave public/index.html
-: 1612800632:0;pac npm
-: 1612800641:0;npm run installAll
-: 1612800657:0;electron .
-: 1612806653:0;plover
-: 1612814329:0;cd shows/fruits-basket-2019-season-1
-: 1612814332:0;vid \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 06\ \[720p\].mkv
-: 1612823093:0;betterlockscreen -s
-: 1612862190:0;electron .
-: 1612885239:0;commit 'more javascript'
-: 1612885357:0;electron .
-: 1612886063:0;brave public/index.html
-: 1612886067:0;electron .
-: 1612887649:0;npm install electron-debug
-: 1612887679:0;electron .
-: 1612887998:0;npm install remote
-: 1612888037:0;electron .
-: 1612900480:0;cd shows/fruits-basket-2019-season-1
-: 1612900484:0;vid \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 07\ \[720p\].mkv
-: 1612901362:0;electron .
-: 1612906734:0;betterlockscreen -s
-: 1612944874:0;electron .
-: 1612948823:0;plover
-: 1612966495:0;sh music.sh
-: 1612966529:0;electron .
-: 1612971117:0;v public/dictionaryItem.js
-: 1612971142:0;electron .
-: 1612972979:0;mocp
-: 1612988556:0;electron .
-: 1612989677:0;cd shows/fruits-basket-2019-season-1
-: 1612990777:0;sudo pacman -S arm-none-eabi-gcc arm-none-eabi-newlib base-devel\
-
-: 1612991853:0;nvim
-: 1612991874:0;cd lua
-: 1612991876:0;z lua
-: 1612991882:0;cd dotfiles/nvim/lua
-: 1612991894:0;v callbacks.lua
-: 1612991907:0;vpl
-: 1612991919:0;v callbacks.lua
-: 1612991928:0;vpc
-: 1612991941:0;v callbacks.lua
-: 1612992178:0;la
-: 1612992183:0;rm month.lua
-: 1612992184:0;..
-: 1612992185:0;la
-: 1612992187:0;v init.vim
-: 1612992274:0;v lua/init.lua
-: 1612992280:0;v init.vim
-: 1612992405:0;v lua/init.lua
-: 1612992442:0;v lua/settings.lua
-: 1612992445:0;la
-: 1612992449:0;cd lua
-: 1612992449:0;la
-: 1612992454:0;rm test.html
-: 1612992454:0;la
-: 1612992460:0;v 
-: 1612992471:0;v settings.lua
-: 1612992496:0;v mappings.lua
-: 1612992503:0;v settings.lua
-: 1612992842:0;la
-: 1612992847:0;rm vimrc
-: 1612992848:0;la
-: 1612992851:0;v mappings.lua
-: 1612993000:0;la
-: 1612993003:0;v mappings.lua
-: 1612993118:0;v init.lua
-: 1612993187:0;la
-: 1612993191:0;..
-: 1612993194:0;v init.vim
-: 1612993255:0;la
-: 1612993262:0;cd lua
-: 1612993263:0;la
-: 1612993264:0;..
-: 1612993271:0;v lua/init.lua
-: 1612993416:0;cd lua
-: 1612993417:0;la
-: 1612993423:0;rm test.lua callbacks.lua
-: 1612993423:0;la
-: 1612993426:0;v init.lua
-: 1612993535:0;v settings.lua
-: 1612993569:0;v mappings.lua
-: 1612993575:0;v settings.lua
-: 1612993605:0;la
-: 1612993607:0;..
-: 1612993607:0;la
-: 1612993612:0;v lua/settings.lua
-: 1612993622:0;..
-: 1612993624:0;cd nvim
-: 1612993626:0;v init.vim
-: 1612993675:0;..
-: 1612993687:0;cd dotfiles/nvim/lua
-: 1612993688:0;v mappings.lua
-: 1612993696:0;cd .local/share
-: 1612993697:0;la
-: 1612993700:0;cd nvim
-: 1612993700:0;la
-: 1612993707:0;rma swap
-: 1612993713:0;v settings.lua
-: 1612993769:0;v mappings.lua
-: 1612994302:0;betterlockscreen -s
-: 1613027440:0;v settings.lua
-: 1613027680:0;v ../init.vim
-: 1613027706:0;v settings.lua
-: 1613028320:0;Z
-: 1613028322:0;v settings.lua
-: 1613029403:0;v mappings.lua
-: 1613029704:0;v settings.lua
-: 1613030072:0;v init.lua
-: 1613030089:0;..
-: 1613030090:0;la
-: 1613030098:0;v init.vim
-: 1613030150:0;v lua/settings.lua
-: 1613030180:0;v init.vim
-: 1613030218:0;v lua/init.lua
-: 1613030305:0;cd lua
-: 1613030308:0;v settings.lua
-: 1613030430:0;v init.lua
-: 1613030490:0;v ../init.vim
-: 1613030497:0;v init.lua
-: 1613030552:0;la
-: 1613030558:0;v init.lua
-: 1613030600:0;v mappings.lua
-: 1613030610:0;v settings.lua
-: 1613030982:0;la
-: 1613031073:0;v ../init.vim
-: 1613031084:0; rma swap
-: 1613031088:0;v settings.lua
-: 1613031102:0;curl https://raw.githubusercontent.com/anott03/nvim-lspinstall-scripts/master/Linux/lua.sh | bash
-: 1613031223:0;v init.lua
-: 1613031247:0;v mappings.lua
-: 1613031252:0;v settings.lua
-: 1613031262:0;v init.lua
-: 1613031329:0;v mappings.lua
-: 1613031384:0;rm mappings.lua settings.lua
-: 1613031386:0;..
-: 1613031389:0;v init.vim
-: 1613031478:0;cd lua
-: 1613031479:0;la
-: 1613031484:0;v init.lua
-: 1613031534:0;cd
-: 1613031535:0;cd
-: 1613031541:0;cd code/electron/electron-steno-in-one
-: 1613031544:0;cd src
-: 1613031544:0;la
-: 1613031547:0;..
-: 1613031550:0;v .
-: 1613031555:0;la
-: 1613031559:0;v .
-: 1613031567:0;la
-: 1613031573:0;v src
-: 1613031579:0;la
-: 1613031596:0;cd src
-: 1613031596:0;la
-: 1613031599:0;..
-: 1613031602:0;cd public
-: 1613031602:0;la
-: 1613031609:0;v keybindings.js
-: 1613031620:0;z public
-: 1613031622:0;la
-: 1613031623:0;..
-: 1613031626:0;electron .
-: 1613033901:0;nvim
-: 1613033912:0;vrg
-: 1613033914:0;vrc
-: 1613033926:0;nvim
-: 1613033936:0;cd dotfiles/nvim
-: 1613033937:0;la
-: 1613033939:0;cd snippets
-: 1613033939:0;la
-: 1613033942:0;v javascript.json
-: 1613033954:0;vpc
-: 1613034025:0;..
-: 1613034034:0;vpl
-: 1613034048:0;v javascript.json
-: 1613034063:0;la
-: 1613034070:0;vpc
-: 1613034106:0;v snippets/javascript.json
-: 1613037717:0;commit 'more javascript'
-: 1613039811:0;..
-: 1613039813:0;la
-: 1613039823:0;..
-: 1613039824:0;la
-: 1613039832:0;mk projects
-: 1613039833:0;la
-: 1613039840:0;cd code/electron/electron-steno-in-one
-: 1613039842:0;la
-: 1613039846:0;..
-: 1613039851:0;mv electron-steno-in-one ~/projects
-: 1613039852:0;..
-: 1613039855:0;cd projects
-: 1613039855:0;la
-: 1613039866:0;mk steno-in-one
-: 1613039867:0;la
-: 1613039871:0;mv electron-steno-in-one steno-in-one
-: 1613039872:0;la
-: 1613039874:0;cd steno-in-one
-: 1613039875:0;la
-: 1613039890:0;mk stm32-steno-in-one
-: 1613039890:0;la
-: 1613039893:0;cd stm32-steno-in-one
-: 1613039893:0;la
-: 1613040220:0;git clone git@github.com:STM32-base/STM32-base-F3-template.git\
-
-: 1613040229:0;la
-: 1613040235:0;cd STM[Z
-: 1613040240:0;cd STM32-base-F3-template
-: 1613040241:0;la
-: 1613040249:0;v Makefile
-: 1613040272:0;make
-: 1613040287:0;cd src
-: 1613040287:0;l
-: 1613040288:0;la
-: 1613040291:0;v main.c
-: 1613040325:0;..
-: 1613040325:0;la
-: 1613040333:0;mv Makefile makefile
-: 1613040333:0;la
-: 1613040335:0;make
-: 1613040346:0;tree .
-: 1613040361:0;make flash
-: 1613040374:0;v makefile
-: 1613040438:0;la
-: 1613040439:0;..
-: 1613040439:0;la
-: 1613040444:0;cd STM32-base-F3-template
-: 1613040445:0;la
-: 1613040531:0;v makefile
-: 1613040554:0;mk STM32-base
-: 1613040556:0;cd STM32-base
-: 1613040564:0;git clone git@github.com:STM32-base/STM32-base.git\
-git clone git@github.com:STM32-base/STM32-base-STM32Cube.git\
-
-: 1613040599:0;..
-: 1613040602:0;ln -s ../../STM32-base
-: 1613040625:0;make
-: 1613040643:0;cd STM32-base/STM32-base/make/STM32F3xx
-: 1613040644:0;la
-: 1613040650:0;v common.mk
-: 1613040666:0;mv common.mk ........
-: 1613040673:0;cd ../../../../
-: 1613040674:0;la
-: 1613040685:0;...
-: 1613040686:0;la
-: 1613040689:0;cd stm32-steno-in-one
-: 1613040689:0;la
-: 1613040695:0;..
-: 1613040697:0;la
-: 1613040698:0;..
-: 1613040698:0;la
-: 1613040705:0;fzf
-: 1613040722:0;cd projects/steno-in-one
-: 1613040722:0;la
-: 1613040725:0;cd stm32-steno-in-one
-: 1613040725:0;la
-: 1613040729:0;cd STM32-base-F3-template
-: 1613040729:0;la
-: 1613040761:0;git clone git@github.com:STM32-base/STM32-base.git\
-git clone git@github.com:STM32-base/STM32-base-STM32Cube.git\
-
-: 1613040796:0;la
-: 1613040801:0;rma STM32-base
-: 1613040806:0;git clone git@github.com:STM32-base/STM32-base.git\
-git clone git@github.com:STM32-base/STM32-base-STM32Cube.git\
-
-: 1613040826:0;la
-: 1613040837:0;cd STM32-base/make/STM32F3xx
-: 1613040837:0;la
-: 1613040850:0;mv common.mk ../../../
-: 1613040854:0;cd ../../../
-: 1613040854:0;la
-: 1613040866:0;rm STM32-base-STM32Cube
-: 1613040869:0;rma STM32-base-STM32Cube
-: 1613040870:0;la
-: 1613040877:0;v makefile
-: 1613040886:0;make
-: 1613040914:0;..
-: 1613040918:0;mk test
-: 1613040918:0;la
-: 1613040921:0;cd test
-: 1613040921:0;la
-: 1613040934:0;mkdir STM32-base\
-
-: 1613040943:0;cd STM32-base\
-mkdir libraries\
-mkdir projects\
-mkdir templates\
-mkdir tools\
-
-: 1613040944:0;la
-: 1613041650:0;..
-: 1613041652:0;la
-: 1613041697:0;cd STM32-base
-: 1613041697:0;la
-: 1613041740:0;git clone git@github.com:STM32-base/STM32-base.git\
-git clone git@github.com:STM32-base/STM32-base-STM32Cube.git\
-
-: 1613044616:0;la
-: 1613044676:0;cd ~/Downloads\
-tar xjf gcc-arm-none-eabi-8-2018-q4-major-linux.tar.bz2\
-mv gcc-arm-none-eabi-8-2018-q4-major-linux/* ~/projects/STM32/tools\
-
-: 1613044687:0;cd ~/Downloads\
-tar xjf gcc-arm-none-eabi-8-2018-q4-major-linux.tar.bz2\
-\
-
-: 1613055122:0;pac openocd libncurses5 openjdk-8-jre libusb-1.0-0
-: 1613055148:0;mkdir ~/toolchains # Feel free to choose another location\
-cd ~/toolchains\
-wget 'https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2' -O gcc-arm.tar.bz2\
-tar -xf gcc-arm.tar.bz2\
-rm gcc-arm.tar.bz2\
-
-: 1613055339:0;pac stm32cubemx
-: 1613055361:0;pac stm32cubeide
-: 1613055536:0;cd projects
-: 1613055536:0;la
-: 1613055543:0;cd steno-in-one
-: 1613055544:0;la
-: 1613055549:0;cd stm32-steno-in-one
-: 1613055550:0;la
-: 1613055562:0;cd STM32-base-F3-template
-: 1613055563:0;la
-: 1613055580:0;rma .git LICENSE STM32-base
-: 1613055581:0;la
-: 1613055588:0;v README.md
-: 1613055610:0;rm README.md
-: 1613055611:0;la
-: 1613055615:0;rm .gitignore
-: 1613055616:0;la
-: 1613055624:0;v makefile
-: 1613056464:0;..
-: 1613056472:0;cd projects/steno-in-one/stm32-steno-in-one
-: 1613056473:0;la
-: 1613056478:0;cd STM32-base-F3-template
-: 1613056478:0;la
-: 1613056480:0;v makefile
-: 1613056677:0;..
-: 1613056680:0;la
-: 1613056871:0;cd test
-: 1613056871:0;la
-: 1613056876:0;cd Src
-: 1613056876:0;la
-: 1613056880:0;v main.c
-: 1613061253:0;la
-: 1613061256:0;make
-: 1613061262:0;..
-: 1613061262:0;la
-: 1613061265:0;make
-: 1613061286:0;update
-: 1613061370:0;yay -S stm32cubeide
-: 1613061433:0;pacman -S pacaur
-: 1613061450:0;sudo rm /var/lib/pacman/db.lck
-: 1613061452:0;pacman -S pacaur
-: 1613061467:0;pacman -S stmcubeide
-: 1613061470:0;pacman -S stmcube
-: 1613061475:0;pacman -S cubemx
-: 1613061478:0;pacman -S cubeide
-: 1613061481:0;pacman -s cubeide
-: 1613061545:0;yay https://aur.archlinux.org/stm32cubeide.git
-: 1613061551:0;git https://aur.archlinux.org/stm32cubeide.git
-: 1613061558:0;git clone https://aur.archlinux.org/stm32cubeide.git
-: 1613061560:0;la
-: 1613061566:0;cd stm32cubeide
-: 1613061567:0;a
-: 1613061567:0;la
-: 1613061608:0;makepkg -si\
-
-: 1613061634:0;pac jlink-software-and-documentation
-: 1613061656:0;makepkg -si\
-
-: 1613061665:0;pac ncurses5-compat-libs
-: 1613061765:0;makepkg -si\
-
-: 1613065637:0;make
-: 1613065639:0;la
-: 1613065643:0;v PKGBUILD
-: 1613065669:0;makepkg
-: 1613065677:0;la
-: 1613065681:0;cd src
-: 1613065681:0;la
-: 1613066819:0;gcc-arm-none-eabi
-: 1613066822:0;pac gcc-arm-none-eabi
-: 1613067024:0;file
-: 1613067505:0;dow
-: 1613067506:0;la
-: 1613067516:0;sh MbedStudio-1.3.1.sh
-: 1613068515:0;dow
-: 1613068520:0;sh MbedStudio-1.3.1.sh
-: 1613068641:0;pac mbed
-: 1613068655:0;dow
-: 1613068655:0;la
-: 1613068664:0;pac mbedstudio
-: 1613068669:0;pac mbedst
-: 1613068675:0;pac bedstu
-: 1613070723:0;pac libcurl4
-: 1613070725:0;pac libcurl
-: 1613070737:0;la
-: 1613070744:0;..
-: 1613070746:0;cd projects
-: 1613070746:0;la
-: 1613070757:0;mk stm32
-: 1613070759:0;cd stm32
-: 1613070760:0;la
-: 1613070774:0;v common.mk
-: 1613070829:0;la
-: 1613070862:0;irc
-: 1613070876:0;exec xinput set-prop "Kensington Expert Wireless TB Mouse" 283 1\
-exec xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 0 1 4 5 6 7 0 0
-: 1613070899:0;xinput set-prop "Kensington Expert Wireless TB Mouse" 283 1\
-xinput set-button-map "Kensington Expert Wireless TB Mouse" 3 0 1 4 5 6 7 0 0
-: 1613070923:0;cd projects/stm32
-: 1613070924:0;la
-: 1613070927:0;v makefile
-: 1613071007:0;xset r rate 200 20 
-: 1613071030:0;make
-: 1613071669:0;v makefile
-: 1613071672:0;make
-: 1613071674:0;la
-: 1613071727:0;st-flash
-: 1613073752:0;cd shows/fruits-basket-2019-season-1
-: 1613073753:0;la
-: 1613073758:0;vid \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 08\ \[720p\].mkv
-: 1613075632:0;v main.c
-: 1613075758:0;arm-none-eabi-gcc main.c
-: 1613075888:0;v main.c
-: 1613076181:0;..
-: 1613076183:0;la
-: 1613076185:0;cd test
-: 1613076185:0;la
-: 1613076191:0;tree
-: 1613076285:0;..
-: 1613076287:0;cd stm32
-: 1613076289:0;v main.c
-: 1613076327:0;mk source
-: 1613076329:0;cd source
-: 1613076343:0;v stm32f3xx.h
-: 1613076349:0;..
-: 1613076355:0;arm-none-eabi-gcc main.c
-: 1613076415:0;v main.c
-: 1613076431:0;arm-none-eabi-gcc main.c
-: 1613076437:0;v main.c
-: 1613076441:0;arm-none-eabi-gcc main.c
-: 1613076464:0;cd source
-: 1613076464:0;la
-: 1613076468:0;v stm32f3xx.h
-: 1613076579:0;cd projects/stm32
-: 1613076582:0;arm-none-eabi-gcc main.c
-: 1613076593:0;la
-: 1613076595:0;v main.c
-: 1613076602:0;arm-none-eabi-gcc main.c
-: 1613076621:0;..
-: 1613076623:0;cd test
-: 1613076627:0;v Src/main.c
-: 1613076656:0;..
-: 1613076659:0;v main.c
 : 1613076668:0;arm-none-eabi-gcc main.c
 : 1613076731:0;..
 : 1613076734:0;cd stm32
@@ -10383,3 +9674,721 @@ git push -u origin main
 : 1619986407:0;sudo systemctl status mysql
 : 1619986426:0;dot
 : 1619986429:0;commit 'save'
+: 1619986449:0;sudo pacman -Syu
+: 1619986627:0;sudo mysql_install_db --user=root --basedir=/usr --datadir=/var/lib/mysql
+: 1619986639:0;mysql
+: 1619986651:0;sudo systemctl start mysqld
+: 1619986667:0;sudo systemctl enable mysqld
+: 1619986672:0;sudo systemctl start mysqld
+: 1620027081:0;mysql
+: 1620027086:0;sudo systemctl start mysqld
+: 1620023539:0;mysql_install_db --user=root --basedir=/usr --datadir=/var/lib/
+: 1620023552:0;sudo mysql_install_db --user=root --basedir=/usr --datadir=/var/lib/
+: 1620023556:0;mysql
+: 1620023616:0;mysqladmin -u root -p status\
+
+: 1620023633:0;mysqld
+: 1620023640:0;sudo mysqld
+: 1620023659:0;sudo mysql
+: 1620023686:0;sudo /etc/init.d/mysql restart
+: 1620023713:0;mysqld --print-defaults
+: 1620023717:0;mysqld --print-defaults
+: 1620023720:0;sudo mysqld --print-defaults
+: 1620023741:0;systemctl enable mariadb
+: 1620023747:0;systemctl start mariadb
+: 1620023759:0;systemctl status mariadb
+: 1620023784:0;pac maria
+: 1620023822:0;pacman -S mariadb
+: 1620023837:0;chattr +C /var/lib/mysql/\
+
+: 1620023842:0;sudo chattr +C /var/lib/mysql/\
+
+: 1620023859:0;mysql_install_db --user=root --basedir=/usr --datadir=/var/lib/mysql
+: 1620023868:0;systemctl enable --now mariadb
+: 1620023878:0;mysql_secure_installation
+: 1620023917:0;mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+: 1620023920:0;sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+: 1620024039:0;/
+: 1620024040:0;cd /
+: 1620024048:0;fzf
+: 1620025101:0;cd projects
+: 1620025105:0;cd web-todo-list-app
+: 1620025108:0;..
+: 1620025333:0;mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+: 1620025339:0;mariadb-install-db --user=root --basedir=/usr --datadir=/var/lib/mysql
+: 1620025343:0;sudo mariadb-install-db --user=root --basedir=/usr --datadir=/var/lib/mysql
+: 1620025358:0;sudo mysql_upgrade --user=root --basedir=/usr --datadir=/var/lib/mysql
+: 1620025375:0;mysql -u root -p
+: 1620025434:0;pacr mysql
+: 1620025445:0;pacr mariadb
+: 1620025455:0;sudo systemctl status mysql
+: 1620025459:0;sudo systemctl status mysqld
+: 1620025646:0;cd /
+: 1620025648:0;fzf
+: 1620025878:0;ssh 
+: 1620025942:0;ssh pi
+: 1620026046:0;ssh pi@raspberrypi
+: 1620026120:0;code .
+: 1620070551:0;pac docker
+: 1620070765:0;reboot
+: 1620071790:0;docker
+: 1620074721:0;pac neovide
+: 1620074840:0;neovide
+: 1620074848:0;pac neovide
+: 1620108898:0;cd projects/web-todo-list-app
+: 1620108899:0;la
+: 1620108922:0;to .gitignore .dockerignore
+: 1620108927:0;code .; exit
+: 1620115037:0;docker run nodejs
+: 1620115068:0;sudo systemctl enable docker
+: 1620115073:0;sudo systemctl start docker
+: 1620115078:0;docker run nodejs
+: 1620115089:0;sudo docker run nodejs
+: 1620115107:0;docker pull nodejs
+: 1620115113:0;docker pull node
+: 1620115120:0;docker pull node:latest
+: 1620115124:0;sudo docker pull node:latest
+: 1620115559:0;docker run nodejs
+: 1620115598:0;sudo groupadd docker
+: 1620115687:0;sudo chmod 666 /var/run/docker.sock
+: 1620115689:0;docker run nodejs
+: 1620115715:0;docker login
+: 1620115870:0;docker run nodejs
+: 1620115884:0;docker run node
+: 1620115887:0;la
+: 1620115900:0;docker ps
+: 1620115905:0;docker ls
+: 1620115909:0;docker --help
+: 1620115916:0;docker search
+: 1620115927:0;docker search | fzf
+: 1620115938:0;docker man | nvim
+: 1620115942:0;docker man
+: 1620115947:0;docker --help | fzf
+: 1620115984:0;docker ps
+: 1620116118:0;vim .
+: 1620127320:0;cd pro
+: 1620127320:0;s
+: 1620127323:0;cd projects/web-todo-list-app
+: 1620127327:0;docker ps
+: 1620127331:0;sudo docker ps
+: 1620127338:0;zsh
+: 1620127354:0;so
+: 1620127358:0;docker ps
+: 1620127419:0;docker images
+: 1620127481:0;docker pull mysql
+: 1620128455:0;code .; exit
+: 1620128850:0;docker build -t bananallarma/web-todo-app .
+: 1620128905:0;docker run bananallarma/web-todo-app
+: 1620128974:0;docker bananallarma/web-todo-app stop
+: 1620128980:0;docker bananallarma/web-todo-app 
+: 1620128986:0;docker stop bananallarma/web-todo-app 
+: 1620129008:0;docker stop bananallarma/web-todo-app
+: 1620129012:0;docker ps
+: 1620129025:0;docker stop eb2239e35995
+: 1620129047:0;docker run -p 5000:8080 bananallarma/web-todo-app 
+: 1620129089:0;docker ls
+: 1620129091:0;docker ps
+: 1620129109:0;docker stop
+: 1620129116:0;docker stop *
+: 1620129117:0;la
+: 1620129126:0;docker stop 72dbb3b1c331
+: 1620129277:0;docker ps
+: 1620129312:0;docker build -t bananallarma/web-todo-app .
+: 1620129363:0;docker build -d --name superDock -t bananallarma/web-todo-app .
+: 1620129409:0;docker rename
+: 1620129415:0;docker ps
+: 1620129542:0;docker build -d --name superDock -t bananallarma/web-todo-app .
+: 1620129548:0;docker build -t bananallarma/web-todo-app .
+: 1620129678:0;docker run -d -p5000:8080 bananallarma/web-todo-app
+: 1620129702:0;docker run -d -p8080:8080 bananallarma/web-todo-app
+: 1620129719:0;docker run -d -p3001:3001 bananallarma/web-todo-app
+: 1620129740:0;docker ps
+: 1620129762:0;docker stop bananallarma/web-todo-app
+: 1620129778:0;docker stop a72de0ceb161
+: 1620129784:0;docker stop 4ea309c123de
+: 1620129787:0;docker ps
+: 1620129802:0;docker stop 216c3209b764
+: 1620129808:0;docker run -d -p3001:3001 bananallarma/web-todo-app
+: 1620129819:0;docker push
+: 1620129883:0;docker run -d -p 3001:3001 bananallarma/web-todo-app
+: 1620129942:0;docker puh
+: 1620129943:0;docker push
+: 1620129951:0;docker build -t bananallarma/web-todo-app .
+: 1620129984:0;docker push bananallarma/web-todo-app
+: 1620130190:0;docker push bananallarma/web-todo-app:0.1
+: 1620130205:0;docker push bananallarma/web-todo-app
+: 1620130220:0;docker push bananallarma/web-todo-app:tagname\
+
+: 1620130262:0;docker tag new
+: 1620130290:0;docker tag bananallarma/web-todo-app:new
+: 1620130323:0;docker run -d -p 3001:3001 bananallarma/web-todo-app
+: 1620130331:0;docker run -d -p 3001:3002 bananallarma/web-todo-app
+: 1620130342:0;docker ps
+: 1620130413:0;docker bananallarma/web-todo-app push
+: 1620130423:0;docker push bananallarma/web-todo-app
+: 1620130533:0;docker login
+: 1620130594:0;docker pull bananallarma/web-todo-app
+: 1620130633:0;docker push bananallarma/web-todo-app
+: 1620130682:0;docker images
+: 1620131005:0;la
+: 1620131012:0;docker run -d -p 3001:3002 bananallarma/web-todo-app
+: 1620131025:0;docker ps
+: 1620131042:0;docker commit 1a461cf85097 bananallarma/web-todo-app
+: 1620131049:0;docker push bananallarma/web-todo-app
+: 1620131127:0;docker login
+: 1620131298:0;curl https://registry-1.docker.io/v2/ && echo Works || echo Problem
+: 1620131314:0;curl https://registry-1.docker.io/v2/ && echo Works\
+
+: 1620131335:0;docker run hello-world
+: 1620131384:0;docker login
+: 1620131416:0;cd .config
+: 1620131417:0;la
+: 1620131429:0;fzf
+: 1620131445:0;..
+: 1620131456:0;cat * | fzf
+: 1620131486:0;docker logout
+: 1620131494:0;docker login
+: 1620131560:0;sudo systemctl status docker
+: 1620131634:0;pkill docker
+: 1620131638:0;sudo pkill docker
+: 1620131641:0;docker
+: 1620131646:0;docker login
+: 1620131860:0;docker login --username bananallarma
+: 1620131942:0;v test.md
+: 1620131994:0;docker login --username bananallarma
+: 1620131998:0;v 
+: 1620132001:0;v test.md
+: 1620132554:0;docker commit 1a461cf85097 bananallarma/web-todo-app
+: 1620132569:0;docker push bananallarma/web-todo-app
+: 1620132646:0;cd projects/web-todo-list-app
+: 1620132651:0;docker pull bananallarma/web-todo-app
+: 1620132675:0;docker run bananallarma/web-todo-app
+: 1620132698:0;docker stop *
+: 1620132732:0;docker stop bananallarma/web-todo-app
+: 1620132773:0;zsh
+: 1620132814:0;so
+: 1620132819:0;dockerStopAll
+: 1620132873:0;docker pf
+: 1620132880:0;docker ps
+: 1620132889:0;docker run -d -p 3001:3002 bananallarma/web-todo-app
+: 1620132913:0;so
+: 1620132917:0;dockerStopAll
+: 1620132927:0;docker run -d -p 3003:3001 bananallarma/web-todo-app
+: 1620132938:0;dockerStopAll
+: 1620133006:0;so
+: 1620133016:0;Echo hats
+: 1620133019:0;Echo hats super
+: 1620133022:0;Echo hats super fat
+: 1620133027:0;Echo -f -hats
+: 1620133030:0;Echo -f -hats    e
+: 1620133065:0;docker run --help
+: 1620133121:0;docker ps
+: 1620133127:0;docker run -d -p 3003:3001 bananallarma/web-todo-app
+: 1620133133:0;docker ps
+: 1620133156:0;docker stop hardcore_lalande
+: 1620133164:0;docker ps
+: 1620133202:0;docker run -d -p 3003:3001 bananallarma/web-todo-app
+: 1620133440:0;v Dockerfile
+: 1620133550:0;code .
+: 1620133612:0;dock st 
+: 1620133623:0;'dock st' hats
+: 1620133634:0;so
+: 1620133651:0;dock
+: 1620133668:0;so
+: 1620133669:0;dock
+: 1620133682:0;stop
+: 1620133683:0;so
+: 1620133684:0;dock
+: 1620133694:0;so
+: 1620133695:0;dock
+: 1620133812:0;doc stp
+: 1620133839:0;doc stp()
+: 1620133844:0;stp()
+: 1620133859:0;stp()\
+
+: 1620133867:0;so
+: 1620133872:0;stp()
+: 1620134005:0;doc build --help | fzf
+: 1620134021:0;doc build
+: 1620134030:0;doc build .
+: 1620134035:0;cd projects/web-todo-list-app
+: 1620134039:0;doc build
+: 1620134041:0;doc build .
+: 1620134045:0;doc help
+: 1620134049:0;doc ``help
+: 1620134052:0;doc --help
+: 1620134064:0;so
+: 1620134067:0;cd projects/web-todo-list-app
+: 1620134070:0;doc build .
+: 1620134132:0;so
+: 1620134136:0;docLs
+: 1620134148:0;so
+: 1620134160:0;docLsso
+: 1620134161:0;so
+: 1620134177:0;doc ps
+: 1620134189:0;docls
+: 1620134210:0;so
+: 1620134211:0;docls
+: 1620134219:0;so
+: 1620134221:0;docls
+: 1620134258:0;sudo groupadd docker
+: 1620134266:0;sudo usermod -aG docker $USER
+: 1620134282:0;docker
+: 1620134285:0;docker run -d -p 3003:3001 bananallarma/web-todo-app
+: 1620134338:0;zsh
+: 1620134353:0;docls
+: 1620134368:0;so
+: 1620134369:0;docls
+: 1620134376:0;so
+: 1620134382:0;docLs
+: 1620134394:0;docLs -n
+: 1620134402:0;docLs --all
+: 1620134408:0;docLs
+: 1620134422:0;docLs --format
+: 1620134427:0;docLs --format=auto
+: 1620134462:0;so
+: 1620134486:0;docstopall
+: 1620134504:0;docStopAll
+: 1620134538:0;docker run --help | fzf
+: 1620134598:0;so
+: 1620134607:0;echo $docName
+: 1620134649:0;docker run $docName/web-todo-app
+: 1620134666:0;docRun $docName/web-todo-app
+: 1620134680:0;echo $docName/hats
+: 1620134688:0;echo $docName / hats
+: 1620134692:0;echo '$docName / hats'
+: 1620134696:0;echo ''$docName / hats
+: 1620134732:0;docRun bananallarma/web-todo-app
+: 1620134750:0;docRun -d bananallarma/web-todo-app
+: 1620134852:0;docRun -d --name super bananallarma/web-todo-app
+: 1620134856:0;docLs
+: 1620134864:0;so
+: 1620134946:0;o
+: 1620134947:0;so
+: 1620134965:0;docRun --name testing bananallarma/web-todo-app
+: 1620134973:0;docLs
+: 1620135014:0;docRun --name testing -it bananallarma/web-todo-app
+: 1620135025:0;docStopAll
+: 1620135029:0;docRun --name testing -it bananallarma/web-todo-app
+: 1620135049:0;docLs
+: 1620135053:0;docLs -a
+: 1620135057:0;docLs -a -q
+: 1620135075:0;doc stop (docLs -a q)
+: 1620135081:0;doc stop $(docLs -a q)
+: 1620135112:0;doc rm *
+: 1620135124:0;doc rm $(docLs -a)
+: 1620135136:0;doc rm $(docLs -aq)
+: 1620135147:0;docLs -aq
+: 1620135151:0;docRun --name testing -it bananallarma/web-todo-app
+: 1620135154:0;docLs
+: 1620135161:0;docLs -q
+: 1620135163:0;docLs -aq
+: 1620135164:0;docLs -a
+: 1620135166:0;docLs -a q
+: 1620135169:0;docLs -aq
+: 1620135174:0;zsh
+: 1620135234:0;docLs -q
+: 1620135236:0;docLs -aq
+: 1620135276:0;zsh
+: 1620135288:0;docRmAll
+: 1620135302:0;docLs --help
+: 1620135469:0;docRm $(docLs -q)
+: 1620135510:0;docLs -a
+: 1620135513:0;docker rm $(docker ps --filter "status=exited" -q)\
+
+: 1620135532:0;docker ps --filter "status=exited" -q\
+
+: 1620135542:0;docRun --name testing -it bananallarma/web-todo-app
+: 1620135545:0;docRun --name testg -it bananallarma/web-todo-app
+: 1620135554:0;docStop testg
+: 1620135558:0;docker ps --filter "status=exited" -q\
+
+: 1620135563:0;docker rm $(docker ps --filter "status=exited" -q)\
+
+: 1620135582:0;docker rm $(docker ps --filter "status=exited" -q) || echo 'nothing to remove'\
+
+: 1620135940:0;so
+: 1620135991:0;docRmAll
+: 1620136000:0;docRmAll()
+: 1620136012:0;docRmAll
+: 1620136032:0;so
+: 1620136033:0;docRmAll
+: 1620136060:0;docker ps --filter "status=exited" -q\
+
+: 1620136102:0;so
+: 1620136104:0;docRmAll
+: 1620136154:0;so
+: 1620136155:0;docRmAll
+: 1620136183:0;so
+: 1620136184:0;docRmAll
+: 1620136193:0;docRun --name testg -it bananallarma/web-todo-app
+: 1620136195:0;docRmAll
+: 1620136230:0;docker rm $(docker ps --filter "status=exited" -q)\
+
+: 1620136240:0;docker ps -a
+: 1620136246:0;docker rm $(docker ps --filter "status=exited" -q)\
+
+: 1620136252:0;docker ps --filter "status=exited" -q\
+
+: 1620136272:0;docker ps --filter "status=exited" -q
+: 1620136280:0;docker ps -q
+: 1620136290:0;docStopAll
+: 1620136293:0;docker ps --filter "status=exited" -q
+: 1620136298:0;docRmAll
+: 1620136344:0;so
+: 1620136347:0;docRmAll
+: 1620136396:0;so
+: 1620136397:0;docRmAll
+: 1620136421:0;so
+: 1620136422:0;docRmAll
+: 1620136439:0;so
+: 1620136441:0;docRmAll
+: 1620136650:0;so
+: 1620136651:0;docRmAll
+: 1620136660:0;so
+: 1620136661:0;docRmAll
+: 1620136744:0;doc
+: 1620136750:0;docRmAll
+: 1620136766:0;so
+: 1620136767:0;docRmAll
+: 1620136850:0;docker rm $(docker ps --filter "status=exited" -q)\
+
+: 1620136876:0;docRmAll
+: 1620136881:0;docRmAll cat
+: 1620136930:0;so
+: 1620136932:0;docRmAll cat
+: 1620136938:0;so
+: 1620136939:0;docRmAll cat
+: 1620137009:0;docRmAll
+: 1620137010:0;so
+: 1620137011:0;docRmAll
+: 1620137046:0;so
+: 1620137047:0;docRmAll
+: 1620137070:0;so
+: 1620137071:0;docRmAll
+: 1620137076:0;docRun --name testg -it bananallarma/web-todo-app
+: 1620137080:0;docStopAll
+: 1620137087:0;docRmAll
+: 1620137122:0;so
+: 1620137123:0;docRmAll
+: 1620139167:0;docker ps -a
+: 1620139176:0;docker system prune
+: 1620139560:0;docker ps -a
+: 1620139572:0;docRun --name testg -it -rm bananallarma/web-todo-app
+: 1620139580:0;docRun --name testg -it --rm bananallarma/web-todo-app
+: 1620139585:0;docStopAll
+: 1620139594:0;docker ps -a
+: 1620139612:0;zsh
+: 1620139833:0;so
+: 1620139840:0;docsa
+: 1620139845:0;so
+: 1620139847:0;docsa
+: 1620139867:0;docls -a
+: 1620139879:0;so
+: 1620139883:0;docla
+: 1620139888:0;docls
+: 1620139907:0;so
+: 1620139923:0;docr bananallarma/web-todo-app
+: 1620139941:0;docr bananallarma/web-todo-app -p 3001:3001
+: 1620139954:0;docls
+: 1620139968:0;docr bananallarma/web-todo-app -p 3001:3001
+: 1620139971:0;docls
+: 1620140019:0;docs 39b66f3b0045
+: 1620140028:0;docls
+: 1620140031:0;docr bananallarma/web-todo-app -p 3001:3001
+: 1620140039:0;docls
+: 1620140055:0;docr -p 3001:3001 bananallarma/web-todo-app
+: 1620140071:0;docr bananallarma/web-todo-app
+: 1620140123:0;so
+: 1620140125:0;docrma
+: 1620140143:0;so
+: 1620140146:0;docrm
+: 1620140149:0;docrma
+: 1620140159:0;docsa
+: 1620140161:0;docrma
+: 1620140172:0;so
+: 1620140173:0;docrma
+: 1620140180:0;docls
+: 1620140182:0;docls -a
+: 1620140310:0;cd projects/web-todo-list-app
+: 1620140313:0;code .; exit
+: 1620140403:0;docr 
+: 1620140403:0;s
+: 1620140407:0;docr bananallarma/web-todo-app
+: 1620140416:0;h
+: 1620140429:0;docr -p 8080:3001 bananallarma/web-todo-app
+: 1620140444:0;docr -p 8080:8080 bananallarma/web-todo-app
+: 1620140450:0;docsa
+: 1620140453:0;docr -p 8080:8080 bananallarma/web-todo-app
+: 1620140474:0;docsa
+: 1620140480:0;docr -p 3001:3001 bananallarma/web-todo-app
+: 1620140586:0;docker run bananallarma/web-todo-app
+: 1620140652:0;docker build -t bananallarma/web-todo-app .
+: 1620140667:0;docker run bananallarma/web-todo-app
+: 1620140965:0;docsa
+: 1620140979:0;docr -p 8080:8080 bananallarma/web-todo-app
+: 1620141002:0;docsa
+: 1620141017:0;docker run -p 8080:8080 bananallarma/web-todo-app
+: 1620141091:0;docsa
+: 1620141116:0;docr -p 8080:8080 bananallarma/web-todo-ap[1;5D[1;5sp
+: 1620141129:0;docr -p 3001:3001 bananallarma/web-todo-app
+: 1620141147:0;zsh
+: 1620141162:0;so
+: 1620141178:0;docb bananallarma/web-todo-app .
+: 1620141224:0;so
+: 1620141228:0;docb bananallarma/web-todo-app .
+: 1620141242:0;docsa
+: 1620141245:0;docr -p 3001:3001 bananallarma/web-todo-app
+: 1620141843:0;mysql
+: 1620141846:0;pac mysql
+: 1620141854:0;mysql
+: 1620143057:0;docr mysql
+: 1620143062:0;docls
+: 1620143083:0;docr mysql
+: 1620143086:0;docls
+: 1620143099:0;doc images
+: 1620143113:0;doc run mysql
+: 1620143122:0;docr mysql
+: 1620143127:0;doc
+: 1620143130:0;docls
+: 1620143134:0;doc run mysql
+: 1620143178:0;cd Downloads
+: 1620143178:0;la
+: 1620143182:0;cd \[HorribleRips\]\ Cheating\ Craft\ \[1080p\]
+: 1620143185:0;vid \[HorribleRips\]\ Cheating\ Craft\ -\ 01\ \[1080p\].mkv
+: 1620143223:0;mongo
+: 1620143895:0;vid \[HorribleRips\]\ Cheating\ Craft\ -\ 02\ \[1080p\].mkv
+: 1620145081:0;npm i mongoos
+: 1620145086:0;npm i mongoose
+: 1620147714:0;[3~
+: 1620147750:0;[3~[3~[3~[3~
+: 1620153256:0;mongod
+: 1620153273:0;mongo
+: 1620153284:0;systemctl enable mongo
+: 1620153287:0;systemctl enable mongod
+: 1620153295:0;systemctl enable mongodb
+: 1620153302:0;systemctl start mongodb
+: 1620153307:0;systemctl status mongodb
+: 1620153347:0;systemctl enable --now mongodb
+: 1620153356:0;mongo
+: 1620153378:0;systemctl start --now mongodb
+: 1620153386:0;systemctl status --now mongodb
+: 1620153427:0;db
+: 1620153449:0;pac mongoimport
+: 1620153470:0;mongo
+: 1620153499:0;chown -R mongodb:mongodb /var/lib/mongodb\
+chown mongodb:mongodb /tmp/mongodb-27017.sock\
+\
+sudo service mongod restart\
+
+: 1620153518:0;sudo mkdir /var/lib/mongodb\
+sudo mkdir /var/log/mongodb\
+sudo chown -R mongodb:mongodb /var/lib/mongodb\
+sudo chown -R mongodb:mongodb /var/log/mongodb\
+
+: 1620153526:0;chown mongodb:mongodb /tmp/mongodb-27017.sock\
+
+: 1620153542:0;sudo systemctl restart mongodb
+: 1620153548:0;sudo systemctl status mongodb
+: 1620153559:0;sudo rm -rf /tmp/mongodb-27017.sock
+: 1620153564:0;sudo systemctl start mongod
+: 1620153570:0;sudo systemctl start mongodb
+: 1620153574:0;sudo systemctl start monghodb
+: 1620153580:0;sudo systemctl status mongodb
+: 1620153586:0;mongod
+: 1620153595:0;mongo
+: 1620153616:0;sudo systemctl start mongod
+: 1620153692:0;systemctl enable mongodb\
+\
+systemctl start mongodb
+: 1620153700:0;mongo
+: 1620153993:0;cd projects/web-todo-list-app
+: 1620153998:0;npm i mongodb
+: 1620154011:0;code .; exit
+: 1620154329:0;node src/mongodb.js
+: 1620154384:0;mongo
+: 1620156918:0;docr bananallarma/web-todo-app
+: 1620156930:0;docr -p 3001:3001 bananallarma/web-todo-app
+: 1620156953:0;exit
+: 1620156955:0;exit
+: 1620156957:0;exit
+: 1620156972:0;docsa
+: 1620157152:0;cd Downloads
+: 1620157154:0;cd \[HorribleRips\]\ Cheating\ Craft\ \[1080p\]
+: 1620157155:0;la
+: 1620157160:0;vid \[HorribleRips\]\ Cheating\ Craft\ -\ 03\ \[1080p\].mkv
+: 1620157910:0;vid \[HorribleRips\]\ Cheating\ Craft\ -\ 04\ \[1080p\].mkv
+: 1620158586:0;vid \[HorribleRips\]\ Cheating\ Craft\ -\ 05\ \[1080p\].mkv
+: 1620194916:0;cd projects/web-todo-list-app
+: 1620194918:0;code .; exit
+: 1620195067:0;node src/mongoose.js
+: 1620199658:0;node p
+: 1620199660:0;node .
+: 1620199665:0;node server.js
+: 1620199730:0;cat package.json
+: 1620199737:0;node server.js
+: 1620200774:0;npm run dev
+: 1620240599:0;cd projects/web-todo-list-app
+: 1620240601:0;code .; exit
+: 1620240610:0;cd dotfiles/scripts
+: 1620240611:0;la
+: 1620240617:0;v ian-script.sh
+: 1620240667:0;mk test
+: 1620240669:0;cd test
+: 1620240669:0;la
+: 1620240696:0;./ian-script.sh
+: 1620240700:0;ex ian-script.sh
+: 1620240703:0;ian-script.sh
+: 1620240706:0;v ian-script.sh
+: 1620240712:0;ian-script.sh
+: 1620240714:0;v ian-script.sh
+: 1620240751:0;ls -la | wc
+: 1620240755:0;ls -l | wc
+: 1620240757:0;la
+: 1620240760:0;ls -l
+: 1620240763:0;ls -a
+: 1620240767:0;ls -a | wc
+: 1620240772:0;ls -a | wc -l
+: 1620240794:0;ls
+: 1620240797:0;ls -a | wc -l
+: 1620240803:0;ls -a
+: 1620240810:0;to hats
+: 1620240811:0;la
+: 1620240814:0;ls -a
+: 1620240817:0;ls -a | wc -l
+: 1620240825:0;ls -al | wc -l
+: 1620240829:0;ls -al
+: 1620240838:0;ls -l | wc -l
+: 1620240840:0;ls -l
+: 1620240849:0;ls -al
+: 1620240857:0;ls -al | wc -l
+: 1620240861:0;ls -aL | wc -l
+: 1620240866:0;ls -aL
+: 1620240868:0;ls -a
+: 1620240880:0;ls -la | wc
+: 1620240887:0;ls -al | wc -l
+: 1620240891:0;ls -al
+: 1620240897:0;rm hats
+: 1620240899:0;ls -al | wc -l
+: 1620240930:0;la
+: 1620240933:0;ls -al | wc -l
+: 1620240947:0;ian-script.sh
+: 1620240962:0;to test
+: 1620241078:0;la
+: 1620241105:0;rm test
+: 1620241231:0;la
+: 1620241233:0;to test
+: 1620241234:0;v test
+: 1620241296:0;la
+: 1620241326:0;v test
+: 1620241994:0;ian-script.sh hats
+: 1620242134:0;ian-script.sh hat
+: 1620242137:0;ian-script.sh
+: 1620242168:0;exit
+: 1620242172:0;ian-script.sh
+: 1620244480:0;cd
+: 1620244482:0;cd Downloads
+: 1620244483:0;la
+: 1620244485:0;cd \[HorribleRips\]\ Cheating\ Craft\ \[1080p\]/
+: 1620244493:0;vid \[HorribleRips\]\ Cheating\ Craft\ -\ 06\ \[1080p\].mkv
+: 1620245808:0;cd rust-backend
+: 1620245811:0;cargo init
+: 1620245813:0;la
+: 1620245862:0;cargo run
+: 1620246018:0;rustup update stable
+: 1620246203:0;rustup override set nightly
+: 1620247045:0;cd projects
+: 1620247046:0;la
+: 1620247050:0;cd web-todo-list-app
+: 1620247050:0;la
+: 1620247054:0;rma rust-backend
+: 1620247055:0;la
+: 1620247069:0;mv node_modules frontend
+: 1620247073:0;echo $path
+: 1620247079:0;path
+: 1620247111:0;code .; exit
+: 1620247223:0;node backend/server.js
+: 1620247281:0;la
+: 1620247293:0;cd backend
+: 1620247293:0;la
+: 1620247298:0;npm install
+: 1620247303:0;node .
+: 1620247639:0;mongo
+: 1620281976:0;cd projects/web-todo-list-app
+: 1620281982:0;code .; exit
+: 1620282045:0;node .
+: 1620282053:0;node backend
+: 1620282560:0;n
+: 1620282561:0;node backend
+: 1620283204:0;npm install
+: 1620283208:0;node .
+: 1620283870:0;cd test
+: 1620283871:0;la
+: 1620283873:0;mk hats
+: 1620283874:0;l
+: 1620283875:0;la
+: 1620283882:0;ls
+: 1620283914:0;ian-script.sh
+: 1620283919:0;lla
+: 1620283919:0;la
+: 1620283925:0;ls --help
+: 1620283942:0;ls --help | fzf
+: 1620283977:0;ls -d
+: 1620283982:0;to tost
+: 1620283985:0;ls -d
+: 1620283986:0;la
+: 1620283991:0;ls --help | fzf
+: 1620284034:0;fd 
+: 1620284037:0;fd -f
+: 1620284042:0;fd --help
+: 1620284053:0;ls -p
+: 1620284078:0;find
+: 1620284081:0;find -f
+: 1620284095:0;find -maxdepth 1 -type f
+: 1620284101:0;find -type f
+: 1620284110:0;find --help | fzf
+: 1620284190:0;find --help | nvim
+: 1620284207:0;la
+: 1620284213:0;find -type f
+: 1620284221:0;to haee eCTtehe 
+: 1620284221:0;al
+: 1620284224:0;find -type f
+: 1620284286:0;ls -d
+: 1620284305:0;ls -l | grep -v '^d'\
+
+: 1620284307:0;la
+: 1620284312:0;ls -l | grep -v '^d'\
+
+: 1620284338:0;la
+: 1620284424:0;ls -p | grep -v /\
+
+: 1620284684:0;la
+: 1620284707:0;cd hats
+: 1620284708:0;la
+: 1620284709:0;..
+: 1620284710:0;la
+: 1620284746:0;cd hats
+: 1620284747:0;la
+: 1620284749:0;mv * ../
+: 1620284749:0;la
+: 1620284750:0;..
+: 1620284750:0;la
+: 1620284874:0;which grep
+: 1620285006:0;la
+: 1620285050:0;mv hats/* ./
+: 1620285051:0;la
+: 1620285069:0;mv hats/* ./
+: 1620285137:0;time
+: 1620285148:0;$now
+: 1620285153:0;zsh
+: 1620285165:0;date
+: 1620285179:0;time
+: 1620285223:0;date +â€ƒ½%m/%d/%Y %H:%Mâ€ƒ½
+: 1620285237:0;date +"%m/%d/%Y %H:%M"
+: 1620285251:0;la
+: 1620285253:0;mv hats/* ./
+: 1620285286:0;la
+: 1620285289:0;ian-script.sh
+: 1620285454:0;dott
+: 1620285455:0;dot
+: 1620285459:0;commit 'save'
