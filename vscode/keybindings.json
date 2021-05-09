@@ -60,7 +60,7 @@
         "when": "editorTextFocus && hasPrevTabstop && inSnippetMode"
     },
     {
-        "key": "ctrl+shift+meta+p",
+        "key": "tab",
         "command": "insertSnippet",
         "when": "editorTextFocus && hasSnippetCompletions && !editorTabMovesFocus && !inSnippetMode"
     },
@@ -93,5 +93,9 @@
         "key": "ctrl+shift+`",
         "command": "-workbench.action.terminal.new",
         "when": "terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "editor.action.openLink"
     }
 ]

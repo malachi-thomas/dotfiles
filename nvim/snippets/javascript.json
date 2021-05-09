@@ -212,7 +212,7 @@
   "if err": {
     "prefix": "if err",
     "body": [
-      "if (err) throw err"
+      "if (err) { throw err }"
     ]
   },
   "$": {

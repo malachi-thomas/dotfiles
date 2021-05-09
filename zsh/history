@@ -1,233 +1,3 @@
-: 1613076668:0;arm-none-eabi-gcc main.c
-: 1613076731:0;..
-: 1613076734:0;cd stm32
-: 1613076738:0;v source/stm32f3xx.h
-: 1613076755:0;v main.c
-: 1613076794:0;arm-none-eabi-gcc main.c
-: 1613076796:0;la
-: 1613076800:0;arm-none-eabi-gcc main.c
-: 1613076810:0;make main.c
-: 1613076814:0;v makefile
-: 1613076932:0;make make
-: 1613076935:0;v makefile
-: 1613076963:0;make clean
-: 1613076967:0;v makefile
-: 1613114425:0;dow
-: 1613114432:0;unzip lite-1.11.zip
-: 1613114433:0;la
-: 1613114440:0;cd lite-1.11
-: 1613114441:0;la
-: 1613114448:0;sh build.sh
-: 1613114461:0;la
-: 1613114467:0;sh lite
-: 1613114488:0;cd Downloads
-: 1613114489:0;la
-: 1613114495:0;cd lite-1.11
-: 1613114502:0;exec lite
-: 1613114513:0;dow
-: 1613114515:0;cd lite-1.11
-: 1613114515:0;la
-: 1613114577:0;exec ./lite
-: 1613114638:0;cd Downloads/lite-1.11
-: 1613114654:0;mv lite ~/dotfiles/scripts
-: 1613114666:0;lite
-: 1613114673:0;exec ./lite
-: 1613114679:0;bin
-: 1613114679:0;la
-: 1613114683:0;exec ./lite
-: 1613114717:0;lite
-: 1613114725:0;cd Downloads/lite-1.11
-: 1613114731:0;sh build.sh
-: 1613114751:0;exec ./lite
-: 1613114835:0;zsh
-: 1613114873:0;cd Downloads/lite-1.11
-: 1613114947:0;..
-: 1613114950:0;bin
-: 1613114950:0;la
-: 1613114954:0;rma lite
-: 1613114955:0;la
-: 1613115173:0;lite .
-: 1613115192:0;cd code
-: 1613115195:0;lite .
-: 1613115210:0;..
-: 1613115216:0;cd projects
-: 1613115217:0;lite .
-: 1613115788:0;code ~ && lite ~ && exit
-: 1613115961:0;dow
-: 1613115962:0;cd lite-1.11
-: 1613115963:0;la
-: 1613115979:0;v
-: 1613116653:0;cd Downloads
-: 1613116656:0;lite .
-: 1613116760:0;la
-: 1613116764:0;sudo lite
-: 1613117239:0;dow
-: 1613117240:0;cd lite-1.11
-: 1613117241:0;la
-: 1613117257:0;mv gruvbox.lua data/user/colors/
-: 1613117924:0;..
-: 1613117928:0;vfn
-: 1613117932:0;vpl
-: 1613117953:0;nvim
-: 1613117972:0;lrc
-: 1613118032:0;cd projects/stm32
-: 1613118033:0;la
-: 1613118045:0;v linker.ld
-: 1613118246:0;cd projects/stm32
-: 1613118248:0;v linker.ld
-: 1613118734:0;openocd
-: 1613119034:0;la
-: 1613119035:0;.
-: 1613119036:0;..
-: 1613119037:0;cd test
-: 1613119038:0;la
-: 1613121004:0;cd projects
-: 1613121004:0;la
-: 1613121006:0;cd stm32
-: 1613121007:0;la
-: 1613121009:0;..
-: 1613121011:0;cd test
-: 1613121011:0;la
-: 1613121022:0;cd stm32cubeide
-: 1613121022:0;la
-: 1613121041:0;..
-: 1613121042:0;la
-: 1613121156:0;sudo pacman -Syu
-: 1613121170:0;sudo pacman -S arm-none-eabi-gcc arm-none-eabi-gdb arm-none-eabi-binutils arm-none-eabi-newlib\
-
-: 1613121183:0;git clone https://github.com/libopencm3/libopencm3-examples.git\
-make\
-
-: 1613121190:0;la
-: 1613121193:0;cd libopencm3-examples
-: 1613121195:0;make
-: 1613121200:0;la
-: 1613121202:0;make
-: 1613121207:0;cd Ma
-: 1613121212:0;v Makefile
-: 1613121221:0;make all
-: 1613121223:0;..
-: 1613121264:0;cd libopencm3-examples
-: 1613121267:0;..
-: 1613121301:0;git clone https://github.com/libopencm3/libopencm3 && cd libopencm3 && make\
-
-: 1613121367:0;la
-: 1613121399:0;svn export https://github.com/amitesh-singh/amiduino/trunk/stm32/f1/blink
-: 1613121405:0;la
-: 1613121406:0;..
-: 1613121407:0;svn export https://github.com/amitesh-singh/amiduino/trunk/stm32/f1/blink
-: 1613121443:0;cd blink
-: 1613121444:0;la
-: 1613121462:0;v Makefile
-: 1613121468:0;make
-: 1613121482:0;v Makefile
-: 1613121532:0;pac stm32
-: 1613121587:0;pac stm32duino
-: 1613121617:0;..
-: 1613121618:0;la
-: 1613121740:0;cd projects/stm32
-: 1613121741:0;la
-: 1613121743:0;v linker.ld
-: 1613124137:0;v stm32f303k8.ld
-: 1613124398:0;mv stm32f303k8.ld STM32F303K8.ld
-: 1613124398:0;la
-: 1613124463:0;arm-none-eabi-ld STM32F303K8.ld
-: 1613124633:0;la
-: 1613124636:0;v linker.ld
-: 1613128140:0;arm-none-eabi-gcc
-: 1613128348:0;clone https://github.com/niekiran/baremetalembedded
-: 1613128353:0;l
-: 1613128354:0;la
-: 1613128364:0;mv baremetalembedded ../stm32
-: 1613128365:0;..
-: 1613128367:0;cd stm32
-: 1613130159:0;v main.c
-: 1613130497:0;la
-: 1613130505:0;cd source
-: 1613130505:0;la
-: 1613130509:0;..
-: 1613130515:0;rma source
-: 1613130516:0;la
-: 1613130521:0;cd baremetalembedded
-: 1613130521:0;la
-: 1613130526:0;cd source
-: 1613130527:0;la
-: 1613130565:0;..
-: 1613130568:0;la
-: 1613130574:0;mk test
-: 1613130576:0;cd baremetalembedded/source
-: 1613130577:0;la
-: 1613130591:0;cp *.c *.h ../../test
-: 1613130592:0;la
-: 1613130593:0;..
-: 1613130595:0;cd test
-: 1613130595:0;la
-: 1613130603:0;rm stm32_startup.c syscalls.c
-: 1613130604:0;la
-: 1613130656:0;arm-none-eabi-gcc main.c -o main.o
-: 1613130657:0;la
-: 1613130717:0;arm-none-eabi-gcc -c main.c -o main.o
-: 1613130719:0;la
-: 1613137575:0;arm-none-eabi-gcc -c main.c -o main.o
-: 1613137583:0;la
-: 1613137587:0;v main.c
-: 1613137774:0;arm-none-eabi-gcc -c main.c -o main.o
-: 1613137782:0;..
-: 1613137787:0;cd test
-: 1613137787:0;la
-: 1613137788:0;..
-: 1613137794:0;cd baremetalembedded/source
-: 1613137795:0;la
-: 1613137799:0;cp *.c *.h ../../test
-: 1613137800:0;..
-: 1613137802:0;cd test
-: 1613137808:0;la
-: 1613138109:0;arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb main.c -o main.o
-: 1613138110:0;la
-: 1613138115:0;v main.o
-: 1613138120:0;la
-: 1613138133:0;rm stm32_startup.c syscalls.c
-: 1613138135:0;v main.o
-: 1613138139:0;arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb main.c -o main.o
-: 1613138140:0;la
-: 1613138144:0;rm main.o
-: 1613138145:0;arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb main.c -o main.o
-: 1613138146:0;la
-: 1613138148:0;rm main.o
-: 1613138170:0;v Makefile
-: 1613138195:0;arm-none-eabi-gcc -S -mcpu=cortex-m4 -mthumb main.c -o main.o
-: 1613138195:0;la
-: 1613138203:0;v main.o
-: 1613138221:0;arm-none-eabi-gcc -S -mcpu=cortex-m4 -mthumb main.c -o main.s
-: 1613138226:0;v main.s
-: 1613138251:0;arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb main.c -o main.s
-: 1613138253:0;la
-: 1613138255:0;arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb main.c -o main.c
-: 1613138262:0;arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb main.c -o main.o
-: 1613138263:0;la
-: 1613138269:0;rm main.o main.s
-: 1613138270:0;la
-: 1613138549:0;la
-: 1613138562:0;..
-: 1613138563:0;la
-: 1613138568:0;cd stm32
-: 1613138569:0;la
-: 1613138571:0;cd test
-: 1613138571:0;la
-: 1613138575:0;rm Makefile
-: 1613138578:0;v makefile
-: 1613139104:0;la
-: 1613139105:0;make
-: 1613139108:0;la
-: 1613139124:0;make
-: 1613139128:0;v makefile
-: 1613139288:0;make
-: 1613139302:0;v makefile
-: 1613139308:0;make
-: 1613139310:0;la
-: 1613139315:0;rm main.o
-: 1613139317:0;make
-: 1613139317:0;la
 : 1613139329:0;rm main.o
 : 1613139329:0;la
 : 1613139561:0;make
@@ -10396,3 +10166,165 @@ systemctl start mongodb
 : 1620288693:0;commit 'save'
 : 1620288707:0;rm test.md
 : 1620288711:0;commit 'save'
+: 1620303219:0;cd projects
+: 1620303219:0;la
+: 1620303239:0;mk portfolio-web
+: 1620303240:0;la
+: 1620303246:0;cd portfolio-web
+: 1620303246:0;la
+: 1620303262:0;mk public routes'
+: 1620303263:0;mk public routes
+: 1620303264:0;la
+: 1620303269:0;npm init -y
+: 1620303274:0;la
+: 1620303287:0;to server.js
+: 1620303288:0;la
+: 1620303295:0;cd public
+: 1620303295:0;la
+: 1620303313:0;mk scripts styles 
+: 1620303317:0;to index.html
+: 1620303322:0;mk pages
+: 1620303326:0;mv index.html pages
+: 1620303326:0;la
+: 1620303327:0;..
+: 1620303328:0;la
+: 1620303329:0;tree
+: 1620303338:0;npm i express
+: 1620303347:0;v server.js
+: 1620303355:0;code .
+: 1620303403:0;node .
+: 1620303410:0;npm i -D nodemon
+: 1620303445:0;npm run dev
+: 1620303794:0;npm i sass
+: 1620303839:0;npm run dev
+: 1620310651:0;v test.md
+: 1620310801:0;cd projects
+: 1620310801:0;la
+: 1620310818:0;mk memorize
+: 1620310820:0;cd memorize
+: 1620310822:0;la
+: 1620310827:0;to public
+: 1620310828:0;la
+: 1620310830:0;rm public
+: 1620310835:0;mk public routes
+: 1620310835:0;la
+: 1620310847:0;mk public/scripts public/styles 
+: 1620310848:0;la
+: 1620310850:0;..
+: 1620310857:0;rma memorize
+: 1620310874:0;mv portfolio-web memorize-web-app
+: 1620310876:0;cd memorize-web-app
+: 1620310876:0;la
+: 1620310880:0;node .
+: 1620310889:0;la
+: 1620310896:0;code .; exit
+: 1620319182:0;pac inkscape
+: 1620319219:0;sudo pacman -Syu
+: 1620319229:0;pac inkscape
+: 1620319277:0;sudo pacman -Syy
+: 1620319500:0;inkscape
+: 1620319513:0;pac inkscape
+: 1620319530:0;inkscape
+: 1620319553:0;pacman -Q poppler inkscape
+: 1620319571:0;pac poppler 21.03.0-1
+: 1620319574:0;pac poppler
+: 1620319585:0;sudo pacman -Syu
+: 1620320446:0;inkscape
+: 1620320448:0;sudo pacman -Syu
+: 1620320864:0;inkscape
+: 1620321014:0;yay inkscape
+: 1620321066:0;pac inkscape
+: 1620321092:0;inkscape
+: 1620321102:0;pac libpoppler
+: 1620369949:0;cd Downloads
+: 1620369950:0;la
+: 1620381274:0;in
+: 1620381276:0;inkscape
+: 1620383733:0;cd projects/memorize-web-app
+: 1620383733:0;la
+: 1620383738:0;code .; exit
+: 1620385390:0;not
+: 1620385390:0;la
+: 1620385392:0;code .; exit
+: 1620398463:0;not
+: 1620398463:0;la
+: 1620398466:0;v css-position.md
+: 1620400059:0;cd projects/memorize-web-app
+: 1620400061:0;code .; exit
+: 1620400065:0;node 
+: 1620400068:0;node .
+: 1620400475:0;t
+: 1620400529:0;nodemon server.js
+: 1620401037:0;v css-float.md
+: 1620414671:0;cd projects/memorize-web-app
+: 1620414675:0;code .; exit
+: 1620414731:0;npm run dev
+: 1620414750:0;screenkey
+: 1620452250:0;cd projects/memorize-web-app
+: 1620452254:0;code .; exit
+: 1620452272:0;npm run dev
+: 1620452286:0;sass --watch public/styles/styles.scss public/styles.css
+: 1620452783:0;cd projects
+: 1620452783:0;la
+: 1620452786:0;cd web-todo-list-app
+: 1620452787:0;la
+: 1620452793:0;v public/styles/styles.scss
+: 1620452867:0;v test.md
+: 1620453777:0;cd projects/web-todo-list-app
+: 1620453780:0;cd public
+: 1620453784:0;v styles/styles.scss
+: 1620463832:0;cd projects/memorize-web-app
+: 1620463832:0;la
+: 1620463836:0;npm run dev
+: 1620464878:0;code .; exit
+: 1620464925:0;npm run dev
+: 1620465080:0;cd projects/web-todo-list-app
+: 1620465083:0;v public/index.html
+: 1620465576:0;cd projects/web-todo-list-app
+: 1620465583:0;v server.js
+: 1620478071:0;cd projects/memorize-web-app
+: 1620478071:0;la
+: 1620478073:0;code .
+: 1620478082:0;lite .
+: 1620478361:0;npm run dev
+: 1620478461:0;sass --watch public/styles/styles.scss public/styles.css
+: 1620478544:0;not
+: 1620478549:0;v css-grid
+: 1620478553:0;rm css-grid
+: 1620478556:0;v css-grid.md
+: 1620478560:0;code .
+: 1620503671:0;cd projects/memorize-web-app
+: 1620503678:0;code .; exit
+: 1620503683:0;npm run dev
+: 1620503690:0;sass --watch public/styles/styles.scss public/styles.css
+: 1620504219:0;cd Downloads
+: 1620504219:0;la
+: 1620504225:0;v EP.1.360p.mp4
+: 1620504235:0;dow
+: 1620504239:0;vid EP.1.360p.mp4
+: 1620504258:0;la
+: 1620504267:0;vid EP.1.360p.mp4
+: 1620504278:0;mpv EP.1.360p.mp4
+: 1620504287:0;./EP.1.360p.mp4
+: 1620504293:0;sudo ./EP.1.360p.mp4
+: 1620504297:0;la
+: 1620504304:0;vid EP.2.360p.mp4
+: 1620505324:0;vid 
+: 1620505328:0;vid EP.2.360p.mp4
+: 1620506402:0;vid EP.3.360p.mp4
+: 1620507469:0;vid EP.4.360p.mp4
+: 1620543702:0;cd projects/memorize-web-app
+: 1620543704:0;code .; exit
+: 1620543714:0;npm run dev
+: 1620543765:0;sass --watch public/styles/styles.scss public/styles.css
+: 1620545882:0;v test.md
+: 1620552491:0;code ~/dotfiles/scripts
+: 1620552509:0;mk chia[3~
+: 1620552511:0;mk chia
+: 1620552514:0;cd chia
+: 1620552523:0;to test.zip test.plot
+: 1620552524:0;la
+: 1620552531:0;mk new-dir
+: 1620552531:0;la
+: 1620552600:0;./ian-script.sh
+: 1620553037:0;commit 'save'

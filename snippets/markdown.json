@@ -9,8 +9,8 @@
   "tags": {
     "prefix": "tags",
     "body": [
-      "tags: "
+      "tags: $0"
     ]
-  }
+  },
 
 }

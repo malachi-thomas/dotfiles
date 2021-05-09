@@ -1,7 +1,7 @@
 # !/usr/bin/env sh
 
-current_path=$HOME/test
-new_path=$HOME/test/hats
+current_path=$HOME/chia
+new_path=$HOME/chia/new-dir
 delay_in_seconds=600
 
 # DONT CHANGE THIS
@@ -11,8 +11,12 @@ while :; do
   if [[ ! -z $command ]]; then
     for thing in $current_path/*; do
       if [ -f $thing ]; then
-        mv $thing $new_path
-        echo "moved at" `date +"%H:%M"`
+        if [ "${thing##*.}" == "plot" ] ;then
+          echo "hello" $thing
+          # mv $thing $new_path
+          # echo "moved at" `date +"%H:%M"`
+        fi
+
       fi
     done
   fi
