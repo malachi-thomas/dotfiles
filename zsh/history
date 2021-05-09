@@ -10328,3 +10328,7 @@ systemctl start mongodb
 : 1620552531:0;la
 : 1620552600:0;./ian-script.sh
 : 1620553037:0;commit 'save'
+: 1620553051:0;dow
+: 1620553061:0;cd ~/dotfiles
+: 1620553062:0;la
+: 1620553066:0;commit 'save'
