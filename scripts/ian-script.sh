@@ -2,6 +2,7 @@
 
 current_path=$HOME/chia
 new_path=$HOME/chia/new-dir
+log_file=$HOME/test.md
 delay_in_seconds=600
 
 # DONT CHANGE THIS
@@ -12,9 +13,7 @@ while :; do
     for thing in $current_path/*; do
       if [ -f $thing ]; then
         if [ "${thing##*.}" == "plot" ] ;then
-          echo "hello" $thing
-          # mv $thing $new_path
-          # echo "moved at" `date +"%H:%M"`
+          mv $thing $new_path && echo "moved" $thing "at" `date +"%m/%d/%Y %H:%M"` >> $log_file
         fi
 
       fi

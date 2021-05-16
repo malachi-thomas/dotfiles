@@ -1,276 +1,3 @@
-: 1613139329:0;rm main.o
-: 1613139329:0;la
-: 1613139561:0;make
-: 1613139565:0;la
-: 1613140740:0;v startup.c
-: 1613148603:0;v startup.c
-: 1613149951:0;make
-: 1613150004:0;make all
-: 1613150012:0;la
-: 1613150083:0;make clean
-: 1613150087:0;la
-: 1613150115:0;make clean
-: 1613157059:0;make all
-: 1613157099:0;arm-none-eabi-objcopy -h main.o
-: 1613157117:0;arm-none-eabi-objcopy -h startup.o
-: 1613157126:0;arm-none-eabi-objdump -h startup.o
-: 1613159246:0;cd shows/fruits-basket-2019-season-1
-: 1613159250:0;vid \[Erai-raws\]\ Fruits\ Basket\ \(2019\)\ -\ 09\ \[720p\].mkv
-: 1613162014:0;ls | vim
-: 1613162022:0;la
-: 1613162025:0;ls > vim
-: 1613162031:0;ls | nvim
-: 1613200661:0;cd projects/stm32
-: 1613200661:0;la
-: 1613200664:0;cd test
-: 1613200664:0;la
-: 1613200678:0;rm vim
-: 1613200680:0;la
-: 1613200687:0;make clean
-: 1613200688:0;la
-: 1613200704:0;rm led.c
-: 1613200704:0;la
-: 1613200708:0;rm led.h
-: 1613200708:0;la
-: 1613200711:0;v main.c
-: 1613200891:0;v makefile
-: 1613200896:0;make
-: 1613200898:0;la
-: 1613200902:0;v makefile
-: 1613200907:0;make
-: 1613200909:0;make all
-: 1613200914:0;v makefile
-: 1613200924:0;make all
-: 1613200924:0;la
-: 1613200931:0;make clean
-: 1613200932:0;la
-: 1613200935:0;..
-: 1613200936:0;la
-: 1613200955:0;rma a.out baremetalembedded main.c makefile
-: 1613200957:0;la
-: 1613200962:0;cd test
-: 1613200962:0;la
-: 1613200969:0;mv * ../
-: 1613200970:0;la
-: 1613200971:0;..
-: 1613200971:0;la
-: 1613200976:0;v makefile
-: 1613200978:0;la
-: 1613200994:0;v linker.ld
-: 1613210952:0;cd projects/stm32
-: 1613210953:0;la
-: 1613210961:0;rma test
-: 1613210965:0;la
-: 1613210985:0;mk examples
-: 1613210992:0;mv common.mk STM32F303K8.ld examples
-: 1613210992:0;la
-: 1613211006:0;cat *..
-: 1613211008:0;cat *.c
-: 1613211018:0;cat *
-: 1613211024:0;la
-: 1613211031:0;v linker.ld
-: 1613211347:0;cd projects
-: 1613211350:0;cd stm32
-: 1613211356:0;cla
-: 1613211357:0;la
-: 1613211417:0;v linker.ld
-: 1613212004:0;cd projects/stm32
-: 1613212005:0;la
-: 1613212040:0;v 
-: 1613214825:0;mv examples/STM32F303K8.ld ../
-: 1613214827:0;la
-: 1613214829:0;...
-: 1613214829:0;la
-: 1613214833:0;cd projects
-: 1613214834:0;la
-: 1613214839:0;mv STM32F303K8.ld stm32
-: 1613214839:0;la
-: 1613214841:0;cd stm32
-: 1613214841:0;la
-: 1613214846:0;mk old
-: 1613214851:0;mv linker.ld old
-: 1613214852:0;la
-: 1613214861:0;v STM32F303K8.ld
-: 1613218966:0;..
-: 1613218974:0;mk stm32-rust
-: 1613218978:0;cd stm32-rust
-: 1613218979:0;la
-: 1613219277:0;v main.rs
-: 1613219460:0;cargo now test
-: 1613219468:0;cargo new test
-: 1613219473:0;la
-: 1613219479:0;cargo new abc
-: 1613219480:0;la
-: 1613219484:0;cd abc
-: 1613219484:0;la
-: 1613219487:0;..
-: 1613219489:0;rma abc
-: 1613219498:0;cargo now .
-: 1613219502:0;cargo new .
-: 1613219511:0;cargo init
-: 1613219512:0;la
-: 1613219520:0;mk src
-: 1613219524:0;mv main.rs src
-: 1613219526:0;cd src
-: 1613219526:0;la
-: 1613219529:0;v main.rs
-: 1613219853:0;clone https://github.com/rust-embedded/discovery
-: 1613219875:0;cd discovery/src/05-led-roulette
-: 1613219952:0;..
-: 1613219954:0;cd 06-hello-world
-: 1613219955:0;la
-: 1613219988:0;pac thumbv7em-none-eabi
-: 1613219997:0;pac thumb
-: 1613220041:0;rustup target add thumbv7em-none-eabi
-: 1613220046:0;la
-: 1613220065:0;cargo build --target add thumbv7em-none-eabi
-: 1613220074:0;cargo build --target thumbv7em-none-eabi
-: 1613220123:0;cd /tmp\
-
-: 1613220124:0;la
-: 1613220380:0;la
-: 1613220678:0;trUe
-: 1613220680:0;tree
-: 1613220689:0;la
-: 1613220693:0;v openocd.gdb
-: 1613220697:0;la
-: 1613220703:0;..
-: 1613220705:0;la
-: 1613220711:0;..
-: 1613220712:0;la
-: 1613220716:0;cd src
-: 1613220716:0;la
-: 1613220720:0;mv discovery ../
-: 1613220721:0;la
-: 1613220721:0;..
-: 1613220723:0;la
-: 1613220727:0;cargo build --target thumbv7em-none-eabi
-: 1613220739:0;cd src
-: 1613220740:0;la
-: 1613220743:0;mv main.rs ../
-: 1613220744:0;..
-: 1613220745:0;la
-: 1613220748:0;cargo build --target thumbv7em-none-eabi
-: 1613220759:0;v main.rs
-: 1613220764:0;cargo build --target thumbv7em-none-eabi
-: 1613220793:0;v main.rs
-: 1613220798:0;cargo build --target thumbv7em-none-eabi
-: 1613220837:0;v main.rs
-: 1613220854:0;cargo build --target thumbv7em-none-eabi
-: 1613220864:0;cargo add aux5
-: 1613220869:0;cargo doc aux5
-: 1613220901:0;la
-: 1613220907:0;mv discovery ../
-: 1613220907:0;la
-: 1613220921:0;rma target
-: 1613220923:0;la
-: 1613220928:0;rma src
-: 1613220928:0;la
-: 1613220971:0;cargo build --target thumbv7em-none-eabi
-: 1613221318:0;v main.rs
-: 1613221344:0;rustc main.rs
-: 1613221349:0;v main
-: 1613221355:0;v main.rs
-: 1613221362:0;rustc main.rs
-: 1613221369:0;v main.rs
-: 1613221499:0;rustc main.rs
-: 1613221510:0;rustc .
-: 1613221624:0;rustup target add thumbv7em-none-eabihf
-: 1613221629:0;rustup target add thumbv7em-none-eabi
-: 1613221643:0;cargo build --target thumbv7em-none-eabi
-: 1613221650:0;v main.rs
-: 1613221739:0;cargo add core
-: 1613222021:0;..
-: 1613222024:0;cd discovery/src/05-led-roulette
-: 1613222024:0;la
-: 1613222028:0;v Cargo.toml
-: 1613222035:0;..
-: 1613222040:0;cd stm32-rust
-: 1613222040:0;la
-: 1613222044:0;v Cargo.toml
-: 1613222051:0;v main.rs
-: 1613222077:0;cd projects/discovery/src/06-hello-world
-: 1613222077:0;la
-: 1613222080:0;v Cargo.toml
-: 1613222195:0;la
-: 1613222213:0;rustc src/main.rs
-: 1613222222:0;cd src
-: 1613222223:0;la
-: 1613222224:0;v main.rs
-: 1613222251:0;la
-: 1613222256:0;..
-: 1613222257:0;la
-: 1613230473:0;..
-: 1613230477:0;cd discovery/src/05-led-roulette
-: 1613230477:0;la
-: 1613230485:0;cargo 
-: 1613230491:0;cargo build --target thumbv7em-none-eabi
-: 1613230496:0;la
-: 1613230593:0;v cargo readobj --target thumbv7em-none-eabi --bin led-roulette -- -file-headers
-: 1613230599:0;cargo readobj --target thumbv7em-none-eabi --bin led-roulette -- -file-headers
-: 1613231024:0;cd target
-: 1613231024:0;la
-: 1613231034:0;cd thumbv7em-none-eabi/debug/build
-: 1613231034:0;la
-: 1613231042:0;..
-: 1613231093:0;cd /tmp
-: 1613231093:0;la
-: 1613231188:0;openocd \\
-  -f interface/stlink-v2-1.cfg \\
-  -f target/stm32f3x.cfg
-: 1613240589:0;la
-: 1613240598:0;cd projects/discovery
-: 1613240598:0;la
-: 1613240606:0;cd src/05-led-roulette
-: 1613240613:0;cargo build --target thumbv7em-none-eabi
-: 1613240697:0;v 
-: 1613240706:0;la
-: 1613240714:0;v src/main.rs
-: 1613240727:0;..
-: 1613240728:0;la
-: 1613240732:0;cd 06-hello-world
-: 1613240733:0;la
-: 1613240736:0;v src/main.rs
-: 1613240748:0;cargo build --target thumbv7em-none-eabi
-: 1613240804:0;cd /tmp
-: 1613240804:0;la
-: 1613240838:0;openocd \\
-  -f interface/stlink-v2-1.cfg \\
-  -f target/stm32f3x.cfg
-: 1613240887:0;la
-: 1613240893:0;..
-: 1613240894:0;la
-: 1613240895:0;cd
-: 1613240896:0;la
-: 1613240910:0;cd /tmp
-: 1613240911:0;la
-: 1613240966:0;openocd \\
-  -f interface/stlink-v2-1.cfg \\
-  -f target/stm32f3x.cfg
-: 1613241032:0;v src/main.rs
-: 1613241042:0;la
-: 1613241045:0;cargo build --target thumbv7em-none-eabi
-: 1613241079:0;..
-: 1613241084:0;cd 10-serial-communication
-: 1613241085:0;la
-: 1613241091:0;cargo build --target thumbv7em-none-eabi
-: 1613241123:0;..
-: 1613241140:0;cd 08-leds-again
-: 1613241146:0;v src/main.rs
-: 1613241157:0;cargo build --target thumbv7em-none-eabi
-: 1613241338:0;cd /tmp && touch itm.txt
-: 1613241345:0;itmdump -F -f itm.txt
-: 1613241355:0;-
-: 1613241357:0;itmdump -F -f itm.txt
-: 1613241362:0;pac itmdump
-: 1613241622:0;..
-: 1613241625:0;cd stm32-rust
-: 1613241626:0;la
-: 1613241631:0;v main.rs
-: 1613241651:0;v Cargo.toml
-: 1613241666:0;la
-: 1613241685:0;rma Cargo.lock Cargo.toml main target 
-: 1613241686:0;la
 : 1613241691:0;rma .git .gitignore
 : 1613241692:0;la
 : 1613241696:0;cargo init
@@ -10332,3 +10059,325 @@ systemctl start mongodb
 : 1620553061:0;cd ~/dotfiles
 : 1620553062:0;la
 : 1620553066:0;commit 'save'
+: 1620555592:0;echo "hello " > test.md
+: 1620555597:0;v test.md
+: 1620555600:0;la
+: 1620555608:0;echo "hello " > test.md
+: 1620555610:0;v test.md
+: 1620555616:0;echo "hello " >> test.md
+: 1620555619:0;v test.md
+: 1620555621:0;echo "hello " >> test.md
+: 1620555623:0;v test.md
+: 1620555672:0;echo "moved at" `date +"%m%d%Y %H:%M"`
+: 1620555673:0;echo "moved at" `date +"%m%d%Y %H:%M"`
+: 1620555689:0;echo "moved at" `date +"%m/%d/%Y %H:%M"`
+: 1620555749:0;echo "moved" $thing "at" `date +"%m/%d/%Y %H:%M"`
+: 1620555779:0;ian-script.sh
+: 1620555783:0;v test.md
+: 1620557590:0;node ian-script.js
+: 1620557646:0;npm init  of
+: 1620557650:0;npm init -f
+: 1620557652:0;la
+: 1620557666:0;cd node-scripts
+: 1620557669:0;npm init -y
+: 1620557670:0;la
+: 1620557674:0;node .
+: 1620557679:0;node ian-script.js
+: 1620557694:0;la
+: 1620557698:0;cd chia
+: 1620557698:0;la
+: 1620557740:0;node ian-script.js
+: 1620558015:0;..
+: 1620558016:0;la
+: 1620558017:0;cd chia
+: 1620558018:0;la
+: 1620559671:0;pwd
+: 1620559680:0;node ian-script.js
+: 1620560384:0;code
+: 1620560421:0;node node-scripts
+: 1620561988:0;cd chia
+: 1620561988:0;la
+: 1620561993:0;echo *.plot
+: 1620563025:0;n
+: 1620563026:0;node node-scripts
+: 1620563201:0;v test.plot
+: 1620563253:0;n
+: 1620563254:0;node node-scripts
+: 1620563325:0;la
+: 1620563330:0;ls new-dir
+: 1620563330:0;la
+: 1620582947:0;cd Downloads
+: 1620582947:0;la
+: 1620582965:0;cd Shingeki\ No\ Kyojin\ SEASON\ 1\ \[1080p\]\[x265\]\[10bit\]\[AAC\]\[Coalgirls\ Subs\]
+: 1620582969:0;vid Shingeki_no_Kyojin_S1_04_\(1080p_x265\).mkv
+: 1620582985:0;vid Shingeki_no_Kyojin_S1_05_\(1080p_x265\).mkv
+: 1620584058:0;vid Shingeki_no_Kyojin_S1_06_\(1080p_x265\).mkv
+: 1620585776:0;vid Shingeki_no_Kyojin_S1_07_\(1080p_x265\).mkv
+: 1620586880:0;vid Shingeki_no_Kyojin_S1_08_\(1080p_x265\).mkv
+: 1620588241:0;vid Shingeki_no_Kyojin_S1_09_\(1080p_x265\).mkv
+: 1620589602:0;vid Shingeki_no_Kyojin_S1_10_\(1080p_x265\).mkv
+: 1620591281:0;vid Shingeki_no_Kyojin_S1_11_\(1080p_x265\).mkv
+: 1620592957:0;vid Shingeki_no_Kyojin_S1_12_\(1080p_x265\).mkv
+: 1620593971:0;vid Shingeki_no_Kyojin_S1_13_\(1080p_x265\).mkv
+: 1620624958:0;vid Shingeki_no_Kyojin_S1_14_\(1080p_x265\).mkv
+: 1620626133:0;vid Shingeki_no_Kyojin_S1_15_\(1080p_x265\).mkv
+: 1620627363:0;vid Shingeki_no_Kyojin_S1_16_\(1080p_x265\).mkv
+: 1620628319:0;vid Shingeki_no_Kyojin_S1_17_\(1080p_x265\).mkv
+: 1620629683:0;vid Shingeki_no_Kyojin_S1_18_\(1080p_x265\).mkv
+: 1620632971:0;vid Shingeki_no_Kyojin_S1_19_\(1080p_x265\).mkv
+: 1620633768:0;vid Shingeki_no_Kyojin_S1_20_\(1080p_x265\).mkv
+: 1620634672:0;vid Shingeki_no_Kyojin_S1_21_\(1080p_x265\).mkv 
+: 1620662547:0;vid Shingeki_no_Kyojin_S1_22_\(1080p_x265\).mkv
+: 1620663636:0;vid Shingeki_no_Kyojin_S1_23_\(1080p_x265\).mkv
+: 1620666676:0;vid Shingeki_no_Kyojin_S1_24_\(1080p_x265\).mkv
+: 1620675434:0;cd Downloads
+: 1620675437:0;cd Shingeki\ No\ Kyojin\ SEASON\ 1\ \[1080p\]\[x265\]\[10bit\]\[AAC\]\[Coalgirls\ Subs\]
+: 1620675439:0;vid Shingeki_no_Kyojin_S1_24_\(1080p_x265\).mkv
+: 1620675963:0;vid Shingeki_no_Kyojin_S1_25_\(1080p_x265\).mkv
+: 1620712276:0;..
+: 1620712279:0;cd \[MK-SCY\]\ Attack\ on\ Titan\ S2\ \[BD\ 1080p\]\[Hi10\]\[Dual-Audio\]
+: 1620712282:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 01\ \[BD\ 1080p\]\[Dual-Audio\]\[62538943\].mkv
+: 1620713468:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 02\ \[BD\ 1080p\]\[Dual-Audio\]\[E7A5A488\].mkv
+: 1620713476:0;cd Downloads/\[MK-SCY\]\ Attack\ on\ Titan\ S2\ \[BD\ 1080p\]\[Hi10\]\[Dual-Audio\]
+: 1620713477:0;la
+: 1620714520:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 03\ \[BD\ 1080p\]\[Dual-Audio\]\[E3370E29\].mkv
+: 1620715759:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 04\ \[BD\ 1080p\]\[Dual-Audio\]\[611BCAC8\].mkv
+: 1620716780:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 05\ \[BD\ 1080p\]\[Dual-Audio\]\[7615E801\].mkv
+: 1620717284:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 06\ \[BD\ 1080p\]\[Dual-Audio\]\[B62437E5\].mkv
+: 1620718321:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 07\ \[BD\ 1080p\]\[Dual-Audio\]\[CC18845F\].mkv
+: 1620719656:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 08\ \[BD\ 1080p\]\[Dual-Audio\]\[EC3265FF\].mkv
+: 1620719820:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 09\ \[BD\ 1080p\]\[Dual-Audio\]\[5B3F71C9\].mkv
+: 1620720821:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 10\ \[BD\ 1080p\]\[Dual-Audio\]\[54DF6CD0\].mkv
+: 1620721734:0;la
+: 1620721738:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 11\ \[BD\ 1080p\]\[Dual-Audio\]\[40BAC889\].mkv
+: 1620722857:0;vid \[MK-SCY\]\ Attack\ on\ Titan\ S2\ -\ 12\ \[BD\ 1080p\]\[Dual-Audio\]\[02E12EED\].mkv
+: 1620723628:0;..
+: 1620723629:0;la
+: 1620723642:0;cd Shingeki.no.Kyojin.S03.1080p.BrRip.HEVC.AAC-DE
+: 1620723644:0;la
+: 1620723652:0;vid Shingeki.no.Kyojin.S03.E01.2018.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620727136:0;vid Shingeki.no.Kyojin.S03.E04.2018.1080p.BrRip.HEVC.AAC-DE.mkv 
+: 1620728409:0;vid Shingeki.no.Kyojin.S03.E05.2018.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620730308:0;vid Shingeki.no.Kyojin.S03.E06.2018.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620733644:0;vid Shingeki.no.Kyojin.S03.E07.2018.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620734804:0;vid Shingeki.no.Kyojin.S03.E08.2018.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620735583:0;vid Shingeki.no.Kyojin.S03.E09.2018.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620736489:0;vid Shingeki.no.Kyojin.S03.E10.2018.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620743122:0;vid 11
+: 1620743124:0;vid Shingeki.no.Kyojin.S03.E11.2018.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620745438:0;v test.md
+: 1620765852:0;cd ~/Downloads/Shingeki.no.Kyojin.S03.1080p.BrRip.HEVC.AAC-DE
+: 1620765852:0;la
+: 1620765855:0;vid Shingeki.no.Kyojin.S03.E11.2018.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620766480:0;vid Shingeki.no.Kyojin.S03.E12.2018.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620767339:0;vid Shingeki.no.Kyojin.S03.E13.2019.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620768430:0;vid Shingeki.no.Kyojin.S03.E14.2019.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620770025:0;vid Shingeki.no.Kyojin.S03.E15.2019.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620796454:0;vid Shingeki.no.Kyojin.S03.E16.2019.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620797281:0;vid Shingeki.no.Kyojin.S03.E17.2019.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620798383:0;vid Shingeki.no.Kyojin.S03.E18.2019.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620798394:0;cd Downloads/\[MK-SCY\]\ Attack\ on\ Titan\ S2\ \[BD\ 1080p\]\[Hi10\]\[Dual-Audio\]
+: 1620798395:0;..
+: 1620798395:0;la
+: 1620798402:0;cd Shingeki.no.Kyojin.S03.1080p.BrRip.HEVC.AAC-DE
+: 1620798403:0;la
+: 1620799064:0;vid Shingeki.no.Kyojin.S03.E19.2019.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620800631:0;vid Shingeki.no.Kyojin.S03.E20.2019.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620801985:0;vid Shingeki.no.Kyojin.S03.E21.2019.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620802861:0;vid Shingeki.no.Kyojin.S03.E22.2019.1080p.BrRip.HEVC.AAC-DE.mkv
+: 1620893319:0;v test.md
+: 1620900187:0;cd Downloads/\[KorinoTsurugi\]\ Attack\ On\ Titan\ 進惲��の巨人\ \(The\ Final\ Season\)
+: 1620900190:0;la
+: 1620900199:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E01\ -\ The\ Other\ Side\ of\ the\ Sea.mkv
+: 1620900213:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E02\ -\ Midnight\ Train.mkv
+: 1620900370:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E03\ -\ The\ Door\ of\ Hope.mkv
+: 1620901453:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E04\ -\ From\ One\ Hand\ to\ Another.mkv
+: 1620902480:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E05\ -\ Declaration\ of\ War.mkv
+: 1620907440:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E06\ -\ The\ War\ Hammer\ Titan.mkv
+: 1620908530:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E07\ -\ Assault.mkv
+: 1620909702:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E08\ -\ Assassin\'s\ Bullet.mkv
+: 1620910780:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E09.mkv
+: 1620915045:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E10\ -\ A\ Sound\ Argument.mkv
+: 1620918502:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E11\ -\ Imposters.mkv
+: 1620922410:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E12\ -\ Guides.mkv
+: 1620935799:0;...
+: 1620935800:0;la
+: 1620935802:0;cd projects
+: 1620935802:0;la
+: 1620935805:0;mk leetcode
+: 1620935808:0;cd leetcode
+: 1620935808:0;la
+: 1620935822:0;mk javascript
+: 1620935854:0;la
+: 1620935857:0;cd javascript
+: 1620935857:0;la
+: 1620935875:0;to two-sum.js
+: 1620935876:0;la
+: 1620935880:0;v two-sum.js
+: 1620935899:0;code .
+: 1620936604:0;node two-sum.js
+: 1620940740:0;to addTwoNumbers.js
+: 1620940741:0;la
+: 1620940757:0;mv two-sum.js twoSum.js
+: 1620940758:0;la
+: 1620940760:0;v addTwoNumbers.js
+: 1620940766:0;code addTwoNumbers.js
+: 1620941092:0;node addTwoNumbers.js
+: 1620942880:0;to smallestRangeII.js
+: 1620942884:0;code smallestRangeII.js
+: 1620944223:0;node smallestRangeII.js
+: 1620974671:0;node minOperations.js
+: 1621003458:0;exit
+: 1621018221:0;cd projects
+: 1621018223:0;cd memorize-web-app
+: 1621018224:0;la
+: 1621018227:0;code .
+: 1621018252:0;node .
+: 1621018345:0;npm run dev
+: 1621018410:0;sass --watch public/styles/styles.scss public/styles.css
+: 1621023265:0;cd Downloads/\[KorinoTsurugi\]\ Attack\ On\ Titan\ 進惲��の巨人\ \(The\ Final\ Season\)
+: 1621023266:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E12\ -\ Guides.mkv
+: 1621023468:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E13.mkv
+: 1621024817:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E14.mkv
+: 1621062478:0;cd Downloads/\[KorinoTsurugi\]\ Attack\ On\ Titan\ 進惲��の巨人\ \(The\ Final\ Season\)
+: 1621062480:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E14.mkv
+: 1621062511:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E15.mkv
+: 1621063896:0;vid Shingeki\ no\ Kyojin\ -\ The\ Final\ Season\ -\ S04E16.mkv
+: 1621100791:0;la
+: 1621100795:0;..
+: 1621103864:0;la
+: 1621103868:0;..
+: 1621103879:0;cd projects
+: 1621103880:0;la
+: 1621103888:0;cd memorize-web-app
+: 1621103889:0;la
+: 1621103898:0;code .
+: 1621103958:0;vpl
+: 1621104083:0;..
+: 1621104088:0;cd dotfiles/nvim
+: 1621104088:0;la
+: 1621104097:0;v mappings.vim
+: 1621104187:0;mv mappings.vim old-mappings.vim
+: 1621104188:0;la
+: 1621104202:0;mv old-mappings.vim mappings.vim
+: 1621104204:0;mk old
+: 1621104204:0;la
+: 1621104208:0;mv mappings.vim old
+: 1621104208:0;la
+: 1621104216:0;v plugin-configs.vim
+: 1621104221:0;v plugins.vim
+: 1621104260:0;la
+: 1621104276:0;vpl
+: 1621104297:0;vma
+: 1621104308:0;cd .config/nvim
+: 1621104308:0;la
+: 1621104322:0;rm coc-settings.json
+: 1621104322:0;la
+: 1621104333:0;la
+: 1621104353:0;mk old
+: 1621104353:0;al
+: 1621104357:0;mv functions.vim old
+: 1621104362:0;mv mappings.vim old
+: 1621104363:0;la
+: 1621104368:0;rm makefile
+: 1621104368:0;la
+: 1621104375:0;v texput.log
+: 1621104381:0;rm texput.log
+: 1621104381:0;la
+: 1621104387:0;v plugins.vim
+: 1621104417:0;v init.vim
+: 1621104448:0;to funcions.vim mappings.vim
+: 1621104451:0;v funcions.vim
+: 1621104457:0;la
+: 1621104462:0;v funcions.vim
+: 1621104479:0;mv funcions.vim functions.vim
+: 1621104481:0;v functions.vim
+: 1621104484:0;la
+: 1621104486:0;v functions.vim
+: 1621104497:0;v mappings.vim old/mappings.vim
+: 1621104632:0;v init.vim
+: 1621104675:0;vpl
+: 1621104828:0;v init.vim
+: 1621104844:0;v lua/init.lua
+: 1621104869:0;vma
+: 1621104969:0;v plugin-configs.vim
+: 1621105040:0;v mappings.vim
+: 1621105297:0;v plugin-configs.vim
+: 1621105372:0;v init.vim
+: 1621105394:0;v mappings.vim
+: 1621105509:0;pac gnvim
+: 1621105537:0;update
+: 1621105880:0;code .; exit
+: 1621105984:0;v plugins.vim
+: 1621106000:0;v mappings.vim
+: 1621107593:0;v plugins.vim
+: 1621107621:0;v plugin-configs.vim
+: 1621108114:0;v plugins.vim
+: 1621108151:0;v mappings.vim
+: 1621108447:0;v plugin-configs.vim
+: 1621108726:0;v mappings.vim
+: 1621109280:0;v plugins.vim
+: 1621109314:0;v lua/init.lua
+: 1621109628:0;v plugin-configs.vim
+: 1621109690:0;v plugins.vim
+: 1621109722:0;v lua/init.lua
+: 1621110106:0;v plugin-configs.vim
+: 1621111739:0;v init.vim
+: 1621111757:0;v mappings.vim
+: 1621114185:0;vrc
+: 1621114648:0;v mappings.vim
+: 1621141721:0;vpc
+: 1621142540:0;v init.vim
+: 1621144522:0;v plugins.vim
+: 1621144766:0;v init.vim
+: 1621145118:0;v mappings.vim
+: 1621145941:0;v plugin-configs.vim
+: 1621146719:0;v test.html
+: 1621146745:0;v plugin-configs.vim
+: 1621146755:0;v test.html
+: 1621147485:0;rm test.html
+: 1621147486:0;la
+: 1621147499:0;v functions.vim old/functions.vim
+: 1621188615:0;vidb
+: 1621188617:0;v a.out
+: 1621192284:0;cd .config/nvim
+: 1621192285:0;v .
+: 1621193066:0;v mappings.vim functions.vim
+: 1621194016:0;cd projects/leetcode
+: 1621194019:0;v javascript/addTwoNumbers.js
+: 1621199738:0;code javascript/addTwoNumbers.js
+: 1621199751:0;v javascript/addTwoNumbers.js
+: 1621199800:0;cd dotfiles/nvim
+: 1621199802:0;v functions.vim
+: 1621199810:0;la
+: 1621199826:0;rm functions.vim init.vim mappings.vim plugin-configs.vim plugins.vim test.json texput.log
+: 1621199827:0;la
+: 1621199832:0;rma old
+: 1621199834:0;la
+: 1621199851:0;ln -f * ~/dotfiles/nvim
+: 1621199878:0;mk old
+: 1621199892:0;ln -fd old/* ~/dotfiles/nvim/old
+: 1621199894:0;la
+: 1621199895:0;tree
+: 1621199901:0;..
+: 1621199902:0;la
+: 1621199905:0;cd vscode
+: 1621199905:0;la
+: 1621199912:0;..
+: 1621199921:0;ln -f ~/.config/Code/User/snippets/* ~/dotfiles/snippets
+: 1621199924:0;..
+: 1621199928:0;cd dotfiles
+: 1621199929:0;la
+: 1621199931:0;vpc
+: 1621199943:0;cd nvim
+: 1621199944:0;la
+: 1621199948:0;rma snippets
+: 1621199949:0;la
+: 1621200526:0;..
+: 1621200532:0;cd projects/memorize-web-app
+: 1621200535:0;v public/index.html
+: 1621200561:0;vma
+: 1621200564:0;vfn
+: 1621201948:0;v mapp
+: 1621201953:0;vma
+: 1621202212:0;commit 'back to using vim' 

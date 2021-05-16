@@ -1,14 +1,16 @@
 " Plugins
 
 call plug#begin('~/.config/nvim/plugged')
-if has('nvim-0.5')
+if has('nvim-0.5') 
+  Plug 'nvim-lua/completion-nvim'
+  Plug 'steelsojka/completion-buffers'
   Plug 'neovim/nvim-lspconfig'
-  Plug 'hrsh7th/nvim-compe'
   Plug 'anott03/nvim-lspinstall'
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'romgrk/barbar.nvim'
   Plug 'nvim-treesitter/nvim-treesitter'
   Plug 'hoob3rt/lualine.nvim'
+
 else
   Plug 'machakann/vim-highlightedyank'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -32,6 +34,11 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 
 " testing
+" Plug 'kqito/vim-easy-replace'
+" Plug 'jiangmiao/auto-pairs'
+Plug 'vim-airline/vim-airline'
+
+
 
 " ui plugins
 Plug 'cespare/vim-toml'

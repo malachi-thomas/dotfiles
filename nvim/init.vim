@@ -13,6 +13,9 @@ set background=dark
 set guicursor=
 set relativenumber
 set termguicolors
+autocmd vimenter,SourcePost * hi ActiveWindow guibg=#282828
+autocmd vimenter,SourcePost * hi InactiveWindow guibg=#202020
+set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
 
 ""==================================================================================================
 "" Lua
@@ -57,9 +60,10 @@ set shortmess+=c
 set lazyredraw
 set backspace=indent,eol,start
 set omnifunc=v:lua.vim.lsp.omnifunc
-
+" set scrolloff=5
 set list
-set completeopt=menuone,noinsert,noselect
+" set completeopt=menuone,noinsert,noselect
+set completeopt=menuone,noinsert
 
 set noshowmode
 set hlsearch
@@ -85,7 +89,7 @@ augroup autocmds
   autocmd BufWrite ~/.tmux.conf silent !tmux source-file ~/.tmux.conf " source ~/.tmux.conf when you save ~/.tmux.conf
   autocmd BufRead ~/dotfiles/nvim/snippets/* set ft=jsonc
   " autocmd BufWritePost * normalc to mmgg=G`m
-  autocmd CursorMoved,BufWritePost * normal zz
+  " autocmd CursorMoved,BufWritePost * normal zz
   autocmd BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
   autocmd VimEnter * RainbowParenthesesToggle
   autocmd Syntax * RainbowParenthesesLoadRound
@@ -93,12 +97,16 @@ augroup autocmds
   autocmd Syntax * RainbowParenthesesLoadBraces
   autocmd FileType vim nnoremap <silent><buffer><c-s> :w<cr>:so $MYVIMRC<cr>
   " autocmd BufReadPre ~/dotfiles/nvim/lua/* nnoremap <silent><buffer><c-s> :w<cr>:luafile %<cr>
+  " autocmd Focus * highlight Normal guibg=#000000
+" autocmd BufEnter * highlight Normal guibg=#000000
+" autocmd BufLeave * highlight Normal guibg=#ffffff 
+
 
 
   if has('nvim-0.5')
     autocmd TextYankPost * silent! lua vim.highlight.on_yank { higroup='IncSearch', timeout=500 } -- highlight what was just yanked
     autocmd TextYankPost * call setreg("+", getreg("*")) " makes the + register the same as the * register
-    " autocmd BufEnter * lua require'completion'.on_attach() -- completion-nvim on all buffers
+    autocmd BufEnter * lua require'completion'.on_attach() -- completion-nvim on all buffers
   endif
 augroup end
 

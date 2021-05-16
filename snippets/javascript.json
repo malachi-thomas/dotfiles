@@ -115,7 +115,7 @@
       "else {$0}"
     ]
   },
-  "for": {
+  "For Loop": {
     "prefix": "for",
     "body": [
       "for (let i = 0; $1; i++)"

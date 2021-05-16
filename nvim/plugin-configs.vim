@@ -61,36 +61,28 @@ let g:gutentags_ctags_extra_args = [
 let g:gutentags_ctags_exclude = [ '*.git', '*.svg', '*.hg', '*/tests/*', 'build', 'dist', '*sites/*/files/*', 'bin', 'node_modules', 'bower_components', 'cache', 'compiled', 'docs', 'example', 'bundle', 'vendor', '*.md', '*-lock.json', '*.lock', '*bundle*.js', '*build*.js', '.*rc*', '*.json', '*.min.*', '*.map', '*.bak', '*.zip', '*.pyc', '*.class', '*.sln', '*.Master', '*.csproj', '*.tmp', '*.csproj.user', '*.cache', '*.pdb', 'tags*', 'cscope.*', '*.css', '*.less', '*.scss', '*.exe', '*.dll', '*.mp3', '*.ogg', '*.flac', '*.swp', '*.swo', '*.bmp', '*.gif', '*.ico', '*.jpg', '*.png', '*.rar', '*.zip', '*.tar', '*.tar.gz', '*.tar.xz', '*.tar.bz2', '*.pdf', '*.doc', '*.docx', '*.ppt', '*.pptx']
 
 " nvim-complition
-" let g:completion_matching_strategy_list = ['exact']
-" let g:completion_matching_ignore_case = 1
-" let g:completion_trigger_keyword_length = 1
-" let g:completion_trigger_on_delete = 0
-" let g:completion_enable_auto_signature = 0
-" let g:completion_enable_auto_hover = 0
-" let g:completion_sorting = 'none'
-" let g:completion_confirm_key = ""
-" let g:completion_enable_auto_paren = 0
-" let g:completion_trigger_character = ['.', '::']
-" let g:completion_timer_cycle = 100
-" let g:completion_enable_auto_popup = 1
-" let g:completion_enable_snippet = 'vim-vsnip'
-" let g:completion_auto_change_source = 1
+let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
+let g:completion_matching_ignore_case = 1
+let g:completion_trigger_keyword_length = 1
+let g:completion_trigger_on_delete = 0
+let g:completion_enable_auto_signature = 0
+let g:completion_enable_auto_hover = 0
+let g:completion_sorting = 'none'
+let g:completion_confirm_key = ""
+let g:completion_enable_auto_paren = 0
+let g:completion_trigger_character = ['.', '::']
+let g:completion_timer_cycle = 100
+let g:completion_enable_auto_popup = 1
+let g:completion_enable_snippet = 'vim-vsnip'
+let g:completion_auto_change_source = 1
 
 
-" let g:completion_chain_complete_list = [
-"   \ {'complete_items': ['vim-vsnip' ,'lsp', 'buffer']},
-"   \{'mode': '<c-p>'},
-"   \{'mode': '<c-n>'}
-"   \ ]
+let g:completion_chain_complete_list = [
+  \ {'complete_items': ['vim-vsnip' ,'lsp', 'buffer']},
+  \ ]
 
 " vim-vsnip
 let g:vsnip_snippet_dir = expand('~/dotfiles/snippets')
-
-" diagnostic-nvim
-" let g:diagnostic_enable_virtual_text = 1
-" let g:diagnostic_virtual_text_prefix = 'ﱢ'
-" let g:space_before_virtual_text = 4
-" let g:diagnostic_show_sign = 2
 
 " startify
 let g:startify_session_dir = '~/dotfiles/nvim/session'
@@ -131,4 +123,24 @@ let g:lightline = { 'colorscheme': 'gruvbox' }
 " let g:indentLine_char_list = ''
 " let g:indentLine_bgcolor_gui = '#FF5F00'
 
+
+" easy-searcch-replace
+let g:easy_replace_enable = 1
+
+" airline
+let g:airline_section_x = ''
+let g:airline_section_y = ''
+let g:airline_section_z = ''
+let g:airline_section_error = ''
+let g:airline_section_warning = ''
+
+" let g:dimfocus#bg = ['#181818', '000'] 
+" let g:dimfocus#blacklist = {
+" \ 'buffername': ['#FZF'],
+" \ 'filetype': ['nerdtree', 'tagbar'],
+" \}
+" " let g:dimfocus#fg = ['#ffffff', 255] 
+
+
+let g:sandwich#recipes = deepcopy(g:sandwich#default_recipes)
 

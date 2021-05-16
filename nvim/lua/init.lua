@@ -26,7 +26,6 @@ require'nvim-treesitter.configs'.setup {
   }
 }
 
-
 require'indent_guides'.setup {
   indent_levels = 30;
   indent_guide_size = 4;
@@ -38,52 +37,22 @@ require'indent_guides'.setup {
   odd_colors = {fg='#504945',bg='#504945'};
 }
 
-
-
-require'compe'.setup {
-  enabled = true;
-  autocomplete = true;
-  debug = false;
-  min_length = 1;
-  preselect = 'enable';
-  throttle_time = 80;
-  source_timeout = 200;
-  incomplete_delay = 400;
-  max_abbr_width = 100;
-  max_kind_width = 100;
-  max_menu_width = 100;
-  documentation = false;
-
-  source = {
-    path = true;
-    buffer = true;
-    calc = true;
-    vsnip = true;
-    nvim_lsp = true;
-    nvim_lua = true;
-    spell = true;
-    tags = true;
-    snippets_nvim = true;
-    treesitter = true;
-  };
-}
-
-require("lualine").setup{
-  options = {
-    theme = 'gruvbox',
-    section_separators = '',
-    component_separators = '',
-    icons_enabled = true,
-  },
-  sections = {
-    lualine_a = { {'mode', upper = true} },
-    lualine_b = { {'branch', icon = ''} },
-    lualine_c = { {'filename', file_status = true} },
-    lualine_x = { 'filetype' },
-    lualine_y = { '' }
-  },
-  extensions = { 'fzf' },
-}
+-- require"lualine".setup{
+--   options = {
+--     theme = 'gruvbox',
+--     section_separators = '',
+--     component_separators = '',
+--     icons_enabled = true,
+--   },
+--   sections = {
+--     lualine_a = { {'mode', upper = true} },
+--     lualine_b = { {'branch', icon = ''} },
+--     lualine_c = { {'filename', file_status = true} },
+--     lualine_x = { 'filetype' },
+--     lualine_y = { '' }
+--   },
+--   extensions = { 'fzf' },
+-- }
 
 
 
