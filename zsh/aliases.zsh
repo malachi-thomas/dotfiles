@@ -45,43 +45,10 @@ alias dot='cd ~/dotfiles'
 alias dow='cd ~/Downloads'
 alias not='cd ~/dotfiles/notes'
 
-# Linux
-if [[ $OSTYPE == "linux-gnu"* ]]
-then
-  alias ls='ls -F --color=auto'
-  alias la='ls -aF --color=auto'
-  alias ll='ls -laF --color=auto'
-  alias power='poweroff'
-  alias update='yay -Syu; sudo pacman -Sc'
-  alias boot='reboot'
-  alias back='kill -9 -1'
-  alias aur='makepkg -si'
-  alias sleep='systemctl suspend'
-  alias pacman='sudo pacman'
-  alias pacman-keys='gpg --keyserver pool.sks-keyservers.net --recv-keys'
-  alias vid='mpv'
-  alias copy='xclip -selection "primary" <'
-  alias file='nautilus'
-  uefi() {
-    sudo systemctl reboot --firmware-setup
-  }
-fi
 
-# Mac OS
-if [[ $OSTYPE == "darwin" ]]
-then
   alias ls='ls -FG'
   alias la='ls -aFG'
   alias ll='ls -laFG'
-fi
-
-# Windows
-if [[ $OSTYPE == "win32" ]]
-then
-  alias win='cd /mnt/c/Users/malac'
-fi
-
-
 
 # npm
 alias npmi='npm i'

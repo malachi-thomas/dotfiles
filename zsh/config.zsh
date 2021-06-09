@@ -1,10 +1,7 @@
 # Keybindings
-bindkey '^H' backward-kill-word # Ctrl backspace
-bindkey '5~' kill-word  # Ctrl Delete
 bindkey "^[[H" beginning-of-line # Home
 bindkey "^[[F" end-of-line # End
 bindkey -s '^[' '' # Unmap esc
-bindkey -s '^n' '^[c' # bind alt+c to ctrl+n
 bindkey -v
 
 git_branch_name() {

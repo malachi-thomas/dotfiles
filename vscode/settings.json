@@ -25,7 +25,6 @@
     "scm.diffDecorationsGutterVisibility": "hover",
     "scm.diffDecorationsGutterWidth": 2,
     "editor.lightbulb.enabled": false,
-    "window.zoomLevel": 2,
     "explorer.confirmDragAndDrop": false,
     "editor.quickSuggestions": {
         "other": true,
@@ -38,7 +37,8 @@
 "editor.suggestOnTriggerCharacters": false,
 "javascript.updateImportsOnFileMove.enabled": "always",
 "breadcrumbs.enabled": false,
-"terminal.integrated.shell.linux": "/bin/zsh"
+"terminal.integrated.shell.linux": "/bin/zsh",
+"window.zoomLevel": 1
 
 
 }
