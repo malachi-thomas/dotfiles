@@ -6,7 +6,6 @@ function launchApp(mod, key, appName)
     end)
 end
 
-
 bind({"ctrl", "cmd"}, "r", hs.reload)
 launchApp("ctrl", "s", "Safari.app")
 launchApp("ctrl", "n", "Notes.app")
