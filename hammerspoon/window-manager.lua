@@ -1,20 +1,21 @@
-local move = {"ctrl", "shift"}
-local grow = {"ctrl", "cmd"}
-local shrink = {"ctrl", "alt"}
+local focus = {"ctrl", "shift"}
+local move = {"ctrl", "cmd"}
+local float = {"ctrl", "alt"}
+local grow = {"ctrl", "shift", "cmd"}
+local shrink = {"ctrl", "shift", "alt"}
+
 local bind = hs.hotkey.bind
 local gridMax = 12
 
-
-hs.window.animationDuration=0.08
+hs.window.animationDuration=0
 hs.grid.setMargins("0x0")
 hs.grid.setGrid(gridMax .. "x" .. gridMax)
--- hs.grid.show()
 
-function newWindowPosition(x, y, w, h)
+local function newWindowPosition(x, y, w, h)
     hs.grid.set(hs.window.frontmostWindow(), hs.geometry.unitrect(x, y, w, h))
 end
 
-function windowPositionToRect(position)
+local function windowPositionToRect(position)
     if position == "top" then
         return {0, 0, 12, 6}
     elseif position == "bottom" then
@@ -36,11 +37,6 @@ function windowPositionToRect(position)
     end
 end
 
-function debug()
-    local rect = hs.grid.get(hs.window.frontmostWindow())
-
-    hs.alert(rect)
-end
 bind(move, "up", function()
     local rect = hs.grid.get(hs.window.frontmostWindow())
     if rect == hs.geometry.unitrect(windowPositionToRect("top")) then
@@ -52,7 +48,6 @@ bind(move, "up", function()
     else
          newWindowPosition(windowPositionToRect("top"))
      end
-    debug()
 end)
 
 bind(move, "down", function()
@@ -64,7 +59,6 @@ bind(move, "down", function()
     else
          newWindowPosition(windowPositionToRect("bottom"))
      end
-    debug()
 end)
 
 bind(move, "left", function()
@@ -76,7 +70,6 @@ bind(move, "left", function()
     else
          newWindowPosition(windowPositionToRect("left"))
     end
-    debug()
 end)
 
 bind(move, "right", function()
@@ -88,9 +81,69 @@ bind(move, "right", function()
     else
          newWindowPosition(windowPositionToRect("right"))
     end
-    debug()
 end)
 
-bind(move, "c", function()
-    hs.window.focusedWindow():centerOnScreen()
+
+bind(grow, "up", function()
+    if rect.h ~= 1 then
+        local rect = hs.grid.get(hs.window.frontmostWindow())
+        newWindowPosition(rect.x, rect.y - 1, rect.w, rect.h + 1)
+    end
 end)
+
+bind(grow, "down", function()
+    local rect = hs.grid.get(hs.window.frontmostWindow())
+    newWindowPosition(rect.x, rect.y, rect.w, rect.h + 1)
+end)
+
+bind(grow, "left", function()
+    if rect.w ~= 1 then
+        local rect = hs.grid.get(hs.window.frontmostWindow())
+        newWindowPosition(rect.x - 1, rect.y, rect.w + 1, rect.h)
+    end
+end)
+
+bind(grow, "right", function()
+    local rect = hs.grid.get(hs.window.frontmostWindow())
+    if rect.w ~= 1 then
+        newWindowPosition(rect.x, rect.y, rect.w + 1, rect.h)
+    end
+end)
+
+bind(shrink, "up", function()
+    local rect = hs.grid.get(hs.window.frontmostWindow())
+    newWindowPosition(rect.x, rect.y, rect.w, rect.h - 1)
+end)
+
+bind(shrink, "down", function()
+    local rect = hs.grid.get(hs.window.frontmostWindow())
+    newWindowPosition(rect.x, rect.y + 1, rect.w, rect.h - 1)
+end)
+
+bind(shrink, "left", function()
+    local rect = hs.grid.get(hs.window.frontmostWindow())
+    newWindowPosition(rect.x, rect.y, rect.w - 1, rect.h)
+end)
+
+bind(shrink, "right", function()
+    local rect = hs.grid.get(hs.window.frontmostWindow())
+    if rect.w ~= 1 then
+        newWindowPosition(rect.x + 1, rect.y, rect.w - 1, rect.h)
+        hs.alert(rect.w)
+    end
+end)
+
+bind(float, "up", hs.grid.pushWindowUp)
+bind(float, "down", hs.grid.pushWindowDown)
+bind(float, "left", hs.grid.pushWindowLeft)
+bind(float, "right", hs.grid.pushWindowRight)
+
+bind(focus, "f", function() hs.window.frontmostWindow():toggleFullScreen() end)
+bind(focus, "c", function() hs.window.frontmostWindow():centerOnScreen() end)
+bind(focus, "h", function() hs.application.frontmostApplication():hide() end)
+bind(focus, "w", function() hs.window.frontmostWindow():close() end)
+
+bind(focus, "up", function() hs.window.filter.focusNorth() end)
+bind(focus, "down", function() hs.window.filter.focusSouth() end)
+bind(focus, "left", function() hs.window.filter.focusWest() end)
+bind(focus, "right", function() hs.window.filter.focusEast() end)
