@@ -7,7 +7,7 @@ function launchApp(mod, key, appName)
 end
 
 
-bind({"ctrl", "alt"}, "r", hs.reload)
+bind({"ctrl", "cmd"}, "r", hs.reload)
 launchApp("ctrl", "s", "Safari.app")
 launchApp("ctrl", "n", "Notes.app")
 launchApp("ctrl", "a", "App Store.app")
