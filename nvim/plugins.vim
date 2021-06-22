@@ -1,7 +1,7 @@
 " Plugins
 
 call plug#begin('~/.config/nvim/plugged')
-if has('nvim-0.5') 
+if has('nvim-0.5')
   Plug 'nvim-lua/completion-nvim'
   Plug 'steelsojka/completion-buffers'
   Plug 'neovim/nvim-lspconfig'

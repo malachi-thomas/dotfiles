@@ -46,7 +46,7 @@ inoremap <s-left> <esc>v<left>
 inoremap <s-right> <esc>v<right>
 inoremap <s-home> <esc>v<home>
 inoremap <s-end> <esc>v<end>
-inoremap <c-v> <c-r>+
+" inoremap <c-v> <c-r>+
 inoremap <expr> <bs> Backspace()
 inoremap { {}<left>
 inoremap <expr> } Rbrace()

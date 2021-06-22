@@ -5,7 +5,7 @@ tags: #css
 float can move a elemnt to the left or right of the parent element in the box modle
 
 ### Example left sidebar
-```
+```css
 .sidebar {
   float: left
   height 100vh

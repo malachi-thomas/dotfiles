@@ -29,3 +29,5 @@ zstyle ':completion:*' rehash true
 zstyle ':completion:*' menu yes select
 _comp_options+=(globdots)
 zmodload zsh/complist
+
+

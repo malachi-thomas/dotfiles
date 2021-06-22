@@ -15,6 +15,8 @@ nvim_lsp.cssls.setup{}
 nvim_lsp.html.setup{}
 nvim_lsp.jsonls.setup{}
 nvim_lsp.hls.setup{}
+nvim_lsp.sourcekit.setup{}
+  
 
 require'nvim-treesitter.configs'.setup {
   ensure_installed = "maintained",

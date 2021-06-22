@@ -11,6 +11,7 @@ let g:ale_linters = {
       \ 'css': 'stylelint',
       \ 'python': 'autopep8',
       \ 'rust': ['rls', 'cargo'],
+      \ 'swift': ['swiftlint', 'sourcekit-lsp', 'swift']
       \ }
 let g:ale_fixers = {
       \ 'json': 'fixjson',
@@ -61,13 +62,13 @@ let g:gutentags_ctags_extra_args = [
 let g:gutentags_ctags_exclude = [ '*.git', '*.svg', '*.hg', '*/tests/*', 'build', 'dist', '*sites/*/files/*', 'bin', 'node_modules', 'bower_components', 'cache', 'compiled', 'docs', 'example', 'bundle', 'vendor', '*.md', '*-lock.json', '*.lock', '*bundle*.js', '*build*.js', '.*rc*', '*.json', '*.min.*', '*.map', '*.bak', '*.zip', '*.pyc', '*.class', '*.sln', '*.Master', '*.csproj', '*.tmp', '*.csproj.user', '*.cache', '*.pdb', 'tags*', 'cscope.*', '*.css', '*.less', '*.scss', '*.exe', '*.dll', '*.mp3', '*.ogg', '*.flac', '*.swp', '*.swo', '*.bmp', '*.gif', '*.ico', '*.jpg', '*.png', '*.rar', '*.zip', '*.tar', '*.tar.gz', '*.tar.xz', '*.tar.bz2', '*.pdf', '*.doc', '*.docx', '*.ppt', '*.pptx']
 
 " nvim-complition
-let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
+let g:completion_matching_strategy_list = ['exact', 'substring']
 let g:completion_matching_ignore_case = 1
 let g:completion_trigger_keyword_length = 1
 let g:completion_trigger_on_delete = 0
 let g:completion_enable_auto_signature = 0
 let g:completion_enable_auto_hover = 0
-let g:completion_sorting = 'none'
+let g:completion_sorting = 'smallest'
 let g:completion_confirm_key = ""
 let g:completion_enable_auto_paren = 0
 let g:completion_trigger_character = ['.', '::']

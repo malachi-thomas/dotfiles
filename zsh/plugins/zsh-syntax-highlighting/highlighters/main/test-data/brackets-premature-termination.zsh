@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+∑#!/usr/bin/env zsh
 # -------------------------------------------------------------------------------------------------
 # Copyright (c) 2018 zsh-syntax-highlighting contributors
 # All rights reserved.

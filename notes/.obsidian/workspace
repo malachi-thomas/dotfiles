@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "e24c07845342ede5",
+    "type": "split",
+    "children": [
+      {
+        "id": "59624a629d5bc421",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3bb1ddb8f4cdbf48",
+    "type": "split",
+    "children": [
+      {
+        "id": "98945f80758840b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94c0c682f007326b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5de0e572b3151fc6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "nava",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e17d5738a72fa98b",
+    "type": "split",
+    "children": [
+      {
+        "id": "163bb36adc99383f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d3d65e303d07abd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "59624a629d5bc421",
+  "lastOpenFiles": [
+    "swiftUI-NavagationLink.md",
+    "Untitled.md",
+    "hardware-capacitor.md",
+    "swiftUI-clipShape.md",
+    "swiftUI-stacks.md",
+    "swiftUI-Spacer.md",
+    "swiftUI-Rectangle.md",
+    "swiftUI-Ellipse.md",
+    "swiftUI-Circle.md",
+    "swiftUI-Capsule.md"
+  ]
+}

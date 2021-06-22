@@ -38,7 +38,9 @@
 "javascript.updateImportsOnFileMove.enabled": "always",
 "breadcrumbs.enabled": false,
 "terminal.integrated.shell.linux": "/bin/zsh",
-"window.zoomLevel": 1
+"window.zoomLevel": 1,
+"Lua.telemetry.enable": false,
+"editor.accessibilitySupport": "on"
 
 
 }

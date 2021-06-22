@@ -1,0 +1,29 @@
+# ctrl - up : yabai -m window --focus north
+# ctrl - down : yabai -m window --focus south
+# ctrl - left : yabai -m window --focus west
+# ctrl - right : yabai -m window --focus east
+#
+# ctrl + shift - r : yabai -m space --rotate 270
+# ctrl + shift - f : yabai -m window --toggle zoom-fullscreen
+# ctrl + shift - b : yabai -m space --balance
+# ctrl + shift - s : yabai -m window --toggle split && yabai -m space --balance
+#
+# ctrl + shift - up : yabai -m window --swap north
+# ctrl + shift - down : yabai -m window --swap south
+# ctrl + shift - left : yabai -m window --swap west
+# ctrl + shift - right : yabai -m window --swap east
+#
+# ctrl + cmd - up : yabai -m window --warp north
+# ctrl + cmd - down : yabai -m window --warp south
+# ctrl + cmd - left : yabai -m window --warp west
+# ctrl + cmd - right : yabai -m window --warp east
+#
+# ctrl + alt - up : yabai -m window --stack north
+# ctrl + alt - down : yabai -m window --stack south
+# ctrl + alt - left : yabai -m window --stack west
+# ctrl + alt - right : yabai -m window --stack east
+#
+# ctrl - n : yabai -m window --focus stack.next || yabai -m window --focus stack.first
+#
+# ctrl - p : yabai -m window --focus stack.prev || yabai -m window --focus stack.last
+#
