@@ -1,0 +1,32 @@
+parent: "default"
+
+matches:
+  - trigger: "#git"
+    replace: "github.com\n"
+
+  - trigger: "#red"
+    replace: "reddit.com\n"
+
+  - trigger: "#esp"
+    replace: "espanso.org\n"
+
+  - trigger: "#ard"
+    replace: "arduino.cc\n"
+
+  - trigger: "#emo"
+    replace: "emojipedia.org\n"
+
+  - trigger: "#goo"
+    replace: "google.com\n"
+
+  - trigger: "#gogo"
+    replace: "gogoanime.pe\n"
+
+  - trigger: "#you"
+    replace: "youtube.com\n"
+
+  - trigger: "#thi"
+    replace: "thingiverse.com\n"
+
+  - trigger: "#alf"
+    replace: "alfredapp.com\n"

@@ -37,6 +37,7 @@ Plug 'tpope/vim-repeat'
 " Plug 'kqito/vim-easy-replace'
 " Plug 'jiangmiao/auto-pairs'
 Plug 'vim-airline/vim-airline'
+Plug 'kyazdani42/nvim-tree.lua'
 
 
 

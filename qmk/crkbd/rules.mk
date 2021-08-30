@@ -1,0 +1,6 @@
+MCU = atmega32u4
+BOOTLOADER = dfu
+
+NKRO_ENABLE = yes
+STENO_ENABLE = yes
+

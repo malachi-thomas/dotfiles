@@ -1,0 +1,47 @@
+parent: default
+
+matches:
+  - trigger: "@mal"
+    replace: "malachi"
+
+  - trigger: "@fmal"
+    replace: "malachi thomas"
+
+  - trigger: "@lmal"
+    replace: "thomas"
+
+  - trigger: "@umal"
+    replace: "banana_llarma"
+
+  - trigger: "@@mal"
+    replace: "malachithomas110@gmail.com"
+
+  - trigger: "@loc"
+    replace: "lochlan"
+
+  - trigger: "@floc"
+    replace: "lochlan thomas"
+
+  - trigger: "@uloc"
+    replace: "lochlan110"
+
+  - trigger: "@can"
+    replace: "candice"
+
+  - trigger: "@fcan"
+    replace: "candice thomas"
+
+  - trigger: "@jac"
+    replace: "jacinta"
+
+  - trigger: "@fjac"
+    replace: "jacinta thomas"
+
+  - trigger: "@lak"
+    replace: "lakinzi"
+
+  - trigger: "@flak"
+    replace: "lakinzi thomas"
+
+  - trigger: "@kal"
+    replace: "kalani"

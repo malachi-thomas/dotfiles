@@ -4,6 +4,7 @@ func! Rbrak()
     return "\<right>"
   endif
   return "]"
+
 endfunc
 
 func! Rbrace()
@@ -65,6 +66,7 @@ func! Enter()
     return "\<cr>"
   endif
 endfunc
+
 
 func! Space()
   if getline('.')[col('.') - 2:col('.')] == '{}'

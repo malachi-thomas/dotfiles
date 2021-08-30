@@ -176,5 +176,12 @@
       "",
       "}"
     ]
-  }
+  },
+  "IncSDL2": {
+    "prefix": "IncSDL2",
+    "body": [
+      "#include <SDL2/SDL.h>"
+    ]
+  },
+
 }

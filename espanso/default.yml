@@ -1,0 +1,21 @@
+
+toggle_key: OFF
+backspace_limit: 10
+undo_backspace: false
+secure_input_notification: false
+show_icon: false
+
+matches:
+
+  - trigger: "lorem10"
+    replace: "erat nam at lectus urna duis convallis convallis tellus id"
+
+  - trigger: "lorem30"
+    replace: "mauris in aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum"
+
+  - trigger: "lorem50"
+    replace: "facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus viverra vitae congue eu consequat"
+
+
+
+

@@ -1,9 +1,9 @@
-nnoremap <esc> <esc>:nohl<cr>
+" nnoremap <esc> <esc>:nohl<cr>
 nnoremap <c-z> u
 nnoremap Q <nop>
 nnoremap <tab> :BufferNext<cr>
 nnoremap <s-tab> :BufferPrevious<cr>
-nnoremap <esc> :nohl<cr><esc>
+" nnoremap <esc> :nohl<cr><esc>
 nnoremap <c-f> /\v
 nnoremap <c-p> :Files<cr>
 nnoremap <space>r :EasyReplaceWord<cr>
@@ -21,7 +21,9 @@ nnoremap sg :%s/\v//g<left><left><left>
 nnoremap Sg :%s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
 nnoremap SG :%s/\v<c-r>=expand("<cword>")<cr>//g<left><left>
 nnoremap <silent>  <c-w> :BufferClose<CR>
-
+nnoremap <D-b> icat
+nnoremap <M-p> icat
+nnoremap <D-P> <cmd>NvimTreeToggle<CR>
 if has('nvim-0.5')
   nnoremap <c-d> <cmd>lua vim.lsp.buf.definition()<cr>
   nnoremap <c-h> <cmd>lua vim.lsp.buf.hover()<cr>
@@ -46,7 +48,7 @@ inoremap <s-left> <esc>v<left>
 inoremap <s-right> <esc>v<right>
 inoremap <s-home> <esc>v<home>
 inoremap <s-end> <esc>v<end>
-" inoremap <c-v> <c-r>+
+inoremap <d-v> <c-r>+
 inoremap <expr> <bs> Backspace()
 inoremap { {}<left>
 inoremap <expr> } Rbrace()
@@ -55,6 +57,7 @@ inoremap <expr> ) Rpren()
 inoremap [ []<left>
 inoremap <expr> ] Rbrak()
 inoremap <expr> <space> Space()
+inoremap <expr> <cr> Enter()
 
 onoremap il ^<esc>v$<left>d
 onoremap al ^<esc>v$d

@@ -15,8 +15,7 @@ git_branch_name() {
 # Prompt
 setopt prompt_subst
 autoload -U colors && colors
-PS1='
-%F{magenta}%n@%m%f%F{cyan}$(git_branch_name)%f %F{blue}%~
+PS1='%F{magenta}%n@%m%f%F{cyan}$(git_branch_name)%f %F{blue}%~
 %F{red}-%f '
 
 # Basic auto/tab complete

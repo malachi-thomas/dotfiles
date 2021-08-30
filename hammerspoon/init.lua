@@ -1,13 +1,12 @@
 local bind = hs.hotkey.bind
 bind({"ctrl", "cmd"}, "r", hs.reload)
 
-hs.window.filter.default:subscribe(hs.window.filter.windowFocused, function(window, appName)
-    if appName == "System Preferences" then
-        window:centerOnScreen()
-    end
-end)
-
 require("launchApps")
-require("window-manager")
+-- require("window-manager")
 
 hs.alert("hammerspoon started")
+
+bind({"ctrl", "shift"}, "up", function() hs.window.filter.focusNorth() end)
+bind({"ctrl", "shift"}, "down", function() hs.window.filter.focusSouth() end)
+bind({"ctrl", "shift"}, "left", function() hs.window.filter.focusWest() end)
+bind({"ctrl", "shift"}, "right", function() hs.window.filter.focusEast() end)

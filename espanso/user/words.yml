@@ -1,0 +1,12 @@
+parent: default
+
+matches:
+  - trigger: "teh"
+    replace: "the"
+
+  - trigger: "dont "
+    replace: "don't "
+
+  - trigger: "cant "
+    replace: "cant't "
+

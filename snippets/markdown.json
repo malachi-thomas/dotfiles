@@ -6,6 +6,14 @@
     ]
   },
 
+  "#css": {
+    "prefix": "#css",
+    "body": [
+      "#css"
+    ]
+  },
+
+
   "tags": {
     "prefix": "tags",
     "body": [

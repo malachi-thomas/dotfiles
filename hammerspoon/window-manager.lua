@@ -192,4 +192,5 @@ bind(focus, "up", function() hs.window.filter.focusNorth() end)
 bind(focus, "down", function() hs.window.filter.focusSouth() end)
 bind(focus, "left", function() hs.window.filter.focusWest() end)
 bind(focus, "right", function() hs.window.filter.focusEast() end)
-bind(focus, "f", function() newWindowPosition(windowPositionToRect("fullscreen")) end)
+-- bind(focus, "f", function() hs.window.toggleFullScreen() end)
+

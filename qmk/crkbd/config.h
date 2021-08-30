@@ -1,0 +1,9 @@
+
+#pragma once
+// #define MASTER_LEFT
+#define USE_SERIAL_PD2
+
+#define TAPPING_TERM 180
+#define PERMISSIVE_HOLD
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_FORCE_HOLD

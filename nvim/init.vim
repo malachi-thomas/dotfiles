@@ -1,8 +1,7 @@
-
-source ~/.config/nvim/functions.vim
-source ~/.config/nvim/plugins.vim
-source ~/.config/nvim/plugin-configs.vim
-source ~/.config/nvim/mappings.vim
+source ~/dotfiles/nvim/functions.vim
+source ~/dotfiles/nvim/plugins.vim
+source ~/dotfiles/nvim/plugin-configs.vim
+source ~/dotfiles/nvim/mappings.vim
 
 "==================================================================================================
 " Theme
@@ -10,18 +9,18 @@ source ~/.config/nvim/mappings.vim
 colorscheme gruvbox
 set background=dark
 " set number
-set guicursor=
+" set guicursor=
 set relativenumber
 set termguicolors
 autocmd vimenter,SourcePost * hi ActiveWindow guibg=#282828
 autocmd vimenter,SourcePost * hi InactiveWindow guibg=#202020
-set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
+" set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
 
 ""==================================================================================================
 "" Lua
 
 if has('nvim-0.5')
-  lua require 'init'
+  "lua require 'lua/init'
 endif
 
 ""==================================================================================================
@@ -74,7 +73,7 @@ set noruler
 set laststatus=2
 set showcmd
 set timeoutlen=1000 " how long vim waits for next key press
-set rtp+=~/.config/nvim/autoload/functions.vim
+"set rtp+=~/dotfiles/nvim/*
 set pumheight=10 " completion menu hight
 set pumwidth=30 " completion munu widtha
 " =============================================================================

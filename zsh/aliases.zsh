@@ -12,13 +12,18 @@ alias to='touch'
 alias c='cd $(dirname "$(fzf -e)")'
 alias dl='youtube-dl -x -o "%(title)s.%(ext)s"'
 alias screenkey='screenkey -p fixed -g 50%x5%+50%+95%'
+alias f='cd $(fd --type d --hidden | fzf)'
 # alias nvim="$HOME/Downloads/nvim-osx64/bin/nvim"
 alias v='nvim'
-alias f='rg --files | fzf | xargs -I "{}" nvim {}'
+#alias f='rg --files | fzf | xargs -I "{}" nvim {}'
 alias storage='du -h'
 alias vimrc='curl -L https://raw.githubusercontent.com/banana-llarma/dotfiles/main/vim/.vimrc > ~/.vimrc'
+alias neovide='$HOME/neovide/target/release/neovide'
 # alias brew="/usr/local/bin/brew"
 # alias brew2="/opto/local/bin/brew"
+alias x="arch -x86_64"
+
+
 if [ "$(arch)" = "arm64" ]; then
   eval $(/opt/homebrew/bin/brew shellenv);
 else
@@ -53,8 +58,7 @@ alias dot='cd ~/dotfiles'
 alias dow='cd ~/Downloads'
 alias not='cd ~/dotfiles/notes'
 
-
-  alias ls='ls -FG'
+  #alias ls='ls -FG'
   alias la='ls -aFG'
   alias ll='ls -laFG'
 

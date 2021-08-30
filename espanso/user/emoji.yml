@@ -1,0 +1,86 @@
+parent: default
+
+matches:
+  - trigger: ":ok "
+    replace: "👌"
+
+  - trigger: ":dog "
+    replace: "🐕"
+
+  - trigger: ":dog-face "
+    replace: "🐶"
+
+  - trigger: ":cat "
+    replace: "🐈"
+
+  - trigger: ":cat-face "
+    replace: "🐱"
+
+  - trigger: ":heart "
+    replace: "❤️"
+
+  - trigger: ":fire-heart "
+    replace: "❤️‍🔥"
+
+  - trigger: ":heart-arrow "
+    replace: "💘"
+
+  - trigger: ":bow-arrow "
+    replace: "🏹"
+
+  - trigger: ":fire "
+    replace: "🔥"
+
+  - trigger: ":uk "
+    replace: "🇬🇧"
+
+  - trigger: ":us "
+    replace: "🇺🇸"
+
+  - trigger: ":wood "
+    replace: "🪵"
+
+  - trigger: ":lungs "
+    replace: "🫁"
+
+  - trigger: ":coffin "
+    replace: "⚰️"
+
+  - trigger: ":open-book "
+    replace: "📖"
+
+  - trigger: ":hook "
+    replace: "🪝"
+
+  - trigger: ":smile "
+    replace: "😀"
+
+  - trigger: ":heart-eyes "
+    replace: "😍"
+
+  - trigger: ":star-eyes "
+    replace: "🤩"
+
+  - trigger: ":ziped-mouth "
+    replace: "🤐"
+
+  - trigger: ":poo "
+    replace: "💩"
+
+  - trigger: ":hand "
+    replace: "🖐️"
+
+  - trigger: ":top-hat "
+    replace: "🎩"
+
+  - trigger: ":happy "
+    replace: "😃"
+
+  - trigger: ":potato "
+    replace: "🥔"
+
+  - trigger: ":gold-heart "
+    replace: "💛"
+
+  - trigger: ":key "
+    replace: "🔑"

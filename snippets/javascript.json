@@ -1,5 +1,4 @@
 {
-  // Javascript
   "importFunc": {
     "prefix": "importFunc",
     "body": [
@@ -225,7 +224,6 @@
 
 
 
-  // Node Require
   "reHttp": {
     "prefix": "reHttp",
     "body": [
@@ -291,7 +289,6 @@
   },
 
 
-  // Node Import
   "imUrl": {
     "prefix": "imUrl",
     "body": [
@@ -319,7 +316,6 @@
   },
 
 
-  // node path module
   "path.basename": {
     "prefix": "path.basename",
     "body": [
@@ -351,7 +347,6 @@
     ]
   },
 
-  // Node express module
   "app.get": {
     "prefix": "app.get",
     "body": [
@@ -406,7 +401,6 @@
 
 
 
-  // Node fs module
   "fs.writeFile": {
     "prefix": "fs.writeFile",
     "body": [
@@ -462,7 +456,6 @@
     ]
   },
 
-  // Node os module
   "os.platform": {
     "prefix": "os.platform",
     "body": [
@@ -506,7 +499,6 @@
     ]
   },
 
-  // Node url module
   "newUrl": {
     "prefix": "newUrl",
     "body": [
@@ -514,7 +506,6 @@
     ]
   },
 
-  // Node Event module
   "reEvents": {
     "prefix": "reEvents",
     "body": [
@@ -530,7 +521,6 @@
   },
 
 
-  // Node http Module
   "http.createServer": {
     "prefix": "http.createServer",
     "body": [
@@ -610,7 +600,6 @@
   },
 
 
-  // Front end stuff
   "classList.remove": {
     "prefix": "classList.remove",
     "body": [
@@ -630,7 +619,6 @@
   ]
 },
 
-// ajax
 "xhr.open": {
   "prefix": "xhr.open",
   "body": [
@@ -662,7 +650,6 @@
   ]
 },
 
-// Mongoose module
 "mosgoose.connect": {
   "prefix": "mosgoose.connect",
   "body": [
@@ -670,9 +657,6 @@
   ]
 },
 
-
-
-  // misclania
   ".listen": {
     "prefix": ".listen",
     "body": [
@@ -691,8 +675,4 @@
       "const $1 = (req, res, next) => $0"
     ]
   }
-
-
-
-
 }

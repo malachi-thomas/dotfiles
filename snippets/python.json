@@ -5,6 +5,27 @@
       "print($0)"
     ]
   },
+  "imKeras": {
+    "prefix": "imKeras",
+    "body": [
+      "from tensorflow import keras"
+    ]
+  },
+  "imOs": {
+    "prefix": "imOs",
+    "body": [
+      "import os"
+    ]
+  },
+  "imCv": {
+    "prefix": "imCv",
+    "body": [
+      "import cv2 as cv"
+    ]
+  },
+
+
+
   "for": {
     "prefix": "for",
     "body": [
@@ -32,6 +53,35 @@
       "\t"
     ]
   },
+  "imTensorflow": {
+    "prefix": "imTensorflow",
+    "body": [
+      "import tensorflow as tf"
+    ]
+  },
+  "imNumpy": {
+    "prefix": "imNumpy",
+    "body": [
+      "import numpy as np"
+    ]
+  },
+  "imPandas": {
+    "prefix": "imPandas",
+    "body": [
+      "import pandas as pd"
+    ]
+  },
+
+
+  "imMatplotlib": {
+  "prefix": "imMatplotlib",
+  "body": [
+    "import matplotlib as plt"
+  ]
+},
+
+
+
   "while": {
     "prefix": "while",
     "body": [

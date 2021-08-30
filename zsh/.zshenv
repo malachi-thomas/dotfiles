@@ -30,3 +30,4 @@ export HISTFILE=~/dotfiles/zsh/history
 setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 setopt EXTENDED_HISTORY
+. "$HOME/.cargo/env"
