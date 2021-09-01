@@ -1,0 +1,40 @@
+{
+  "func": {
+    "prefix": "func",
+    "body": [
+      "function $1()",
+      "\t$0",
+      "end"
+    ]
+  },
+  "print": {
+    "prefix": "print",
+    "body": [
+      "print($0)"
+    ]
+  },
+  "nnmap": {
+    "prefix": "nnmap",
+    "body": [
+      "nnmap('$1', '$0')"
+    ]
+  },
+  "nmap": {
+    "prefix": "nmap",
+    "body": [
+      "nmap($0)"
+    ]
+  },
+  "inmap": {
+    "prefix": "inmap",
+    "body": [
+      "inmap($0)"
+    ]
+  },
+  "imap": {
+    "prefix": "imap",
+    "body": [
+      "imap($0)"
+    ]
+  }
+}
