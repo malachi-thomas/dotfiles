@@ -6,7 +6,6 @@ vim.cmd('colorschem gruvbox')
 vim.opt.relativenumber = true
 vim.opt.termguicolors = true
 
--- vim.bo.filetype = 'filetype indent on'
 vim.cmd('filetype indent plugin on')
 vim.opt.wildmode = 'longest,full'
 vim.opt.list = true
@@ -38,9 +37,9 @@ vim.opt.shortmess = vim.opt.shortmess + 'c'
 vim.opt.lazyredraw = true
 vim.opt.backspace = 'indent,eol,start'
 vim.opt.omnifunc= 'v:lua.vim.lsp.omnifunc'
-vim.opt.scrolloff = 5
+vim.opt.scrolloff = 15
 vim.opt.completeopt = 'menuone,noselect'
---vim.opt.completeopt = 'menuone,noinsert'
+vim.opt.tags = vim.fn.expand('~/.config/all-the-tags')
 vim.opt.hlsearch = true
 vim.opt.compatible = false
 vim.opt.timeoutlen = 500

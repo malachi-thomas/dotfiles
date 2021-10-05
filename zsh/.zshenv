@@ -3,7 +3,12 @@ export MYVIMRC="$HOME/.config/nvim/init.vim"
 export KEYTIMEOUT=1
 export GITNAME="banana-llarma"
 
-export PATH=$PATH:$HOME/dotfiles/scripts/:$HOME/.local/bin/:$HOME/.npm/bin/:./node_modules/.bin
+export PATH=$PATH:$HOME/dotfiles/scripts/:$HOME/.local/bin/:$HOME/.npm/bin/:./node_modules/.bin:/usr/local/opt/llvm/bin
+# export CPLUS_INCLUDE_PATH = 'include'
+# export CPLUS_INCLUDE_PATH = "/usr/local/include"
+# export C_INCLUDE_PATH += "/usr/local/include"
+
+
 
 export EDITOR="nvim"
 export BROWSER="google-chrome-stable"

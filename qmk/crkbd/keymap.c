@@ -122,7 +122,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├────────┼────────┼────────┼────────┼────────┼────────┤             ├────────┼────────┼────────┼────────┼────────┼────────┤
        KC_NO,   STN_SL,  STN_KL,  STN_WL,  STN_RL,  STN_STR,              STN_STR,  STN_RR,  STN_BR,  STN_GR,  STN_SR,  STN_ZR,
   // └────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┐    ┌────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
-                                      STN_A,   STN_O,   KC_NO,       MO(extra),STN_E,   STN_U
+                                      STN_A,   STN_O,   KC_NO,       MO(steno),STN_E,   STN_U
                                  // └────────┴────────┴────────┘    └────────┴────────┴────────┘
   ),
 
@@ -132,7 +132,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├────────┼────────┼────────┼────────┼────────┼────────┤             ├────────┼────────┼────────┼────────┼────────┼────────┤
        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,                 KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
   // ├────────┼────────┼────────┼────────┼────────┼────────┤             ├────────┼────────┼────────┼────────┼────────┼────────┤
-       KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,                 KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+       KC_NO,  KC_LEFT, KC_DOWN,  KC_UP,  KC_RGHT,  KC_NO,                 KC_NO,  KC_RCMD, KC_RSFT, KC_RCTL, KC_ROPT,   KC_NO,
   // └────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┐    ┌────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                       KC_NO,   KC_NO,   KC_NO,        KC_NO,   KC_NO,   KC_NO
                                  // └────────┴────────┴────────┘    └────────┴────────┴────────┘

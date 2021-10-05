@@ -1,36 +1,51 @@
 {
-  "stdio": {
-    "prefix": "Istdio",
+  "if": {
+    "prefix": "if",
     "body": [
-      "#include <stdio.h>"
+      "if ($1) {",
+      "\t$0",
+      "}"
     ]
   },
-  "include": {
-    "prefix": "include",
+  "while": {
+    "prefix": "while",
     "body": [
-      "#include <$0>"
+      "while ($1) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "inc": {
+    "prefix": "inc",
+    "body": [
+      "#include "
+    ]
+  },
+  "inc.glfw": {
+    "prefix": "inc_glfw",
+    "body": [
+      "#include <GLFW/glfw3.h>"
+    ]
+  },
+  "inc_stdio": {
+    "prefix": "inc_stdio",
+    "body": [
+      "#include <stdio>"
+    ]
+  },
+  "main": {
+    "prefix": "main",
+    "body": [
+      "int main(int argc, char** argv) {",
+      "\t$0",
+      "\treturn 0;",
+      "}"
     ]
   },
   "printf": {
     "prefix": "printf",
     "body": [
       "printf($0)"
-    ]
-  },
-  "setup": {
-    "prefix": "setup",
-    "body": [
-      "void setup() {",
-      "\t$0",
-      "}"
-    ]
-  },
-  "loop": {
-    "prefix": "loop",
-    "body": [
-      "void loop() {",
-      "\t$0",
-      "}"
     ]
   }
 }

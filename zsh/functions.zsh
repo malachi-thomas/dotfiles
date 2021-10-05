@@ -2,6 +2,14 @@ usb() {
   sudo xzcat -f $1 | sudo dd bs=4M of=$2
 }
 
+f() {
+  if [ -z "$1" ]; then
+    cd $(fd --type d --hidden | fzf)
+  else
+    cd $(fd --full-path $1 --type d --hidden | fzf)
+  fi
+}
+
 toSnakeCase() {
   echo ${1//(?<!^)(?=[A-Z])/_}
 }

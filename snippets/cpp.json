@@ -1,4 +1,42 @@
 {
+  "inc_iostream": {
+    "prefix": "inc_iostream",
+    "body": [
+      "#include <iostream>"
+    ]
+  },
+  "inc_cstdio": {
+    "prefix": "inc_cstdio",
+    "body": [
+      "#include <cstdio>"
+    ]
+  },
+  "inc_sfml_graphics": {
+    "prefix": "inc_sfml_graphics",
+    "body": [
+      "#include <SFML/Graphics.hpp>"
+    ]
+  },
+  "inc_sfml_window": {
+    "prefix": "inc_sfml_window",
+    "body": [
+      "#include <SFML/Window.hpp>"
+    ]
+  },
+  "inc": {
+    "prefix": "inc",
+    "body": [
+      "#include "
+    ]
+  },
+  "main": {
+    "prefix": "main",
+    "body": [
+      "int main(int argc, char** argv) {",
+      "\t$0",
+      "}"
+    ]
+  },
   "if": {
     "prefix": "if",
     "body": [
@@ -182,6 +220,5 @@
     "body": [
       "#include <SDL2/SDL.h>"
     ]
-  },
-
+  }
 }

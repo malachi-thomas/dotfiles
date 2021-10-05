@@ -1,0 +1,15 @@
+{
+  "imp": {
+    "prefix": "imp",
+    "body": [
+      "import($0)"
+    ]
+  }
+  "imp": {
+    "prefix": "imp",
+    "body": [
+      ""
+    ]
+  },
+  
+}
