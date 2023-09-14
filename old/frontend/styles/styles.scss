@@ -1,0 +1,17 @@
+//@use "./components/navbar.scss";
+//@use "./components/sidebar.scss";
+//@use "./components/middle-card.scss";
+@use "./components/navbar.scss";
+@use "./variables" as *;
+@use "./fonts";
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  font-family: "Montserrat", "Courier New", Courier, monospace;
+  color: $black;
+  font-weight: 400;
+}
+

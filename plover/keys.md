@@ -1,0 +1,9 @@
+- #: repete last stroke
+- #*: toggle * on last stroke
+- TKPW-T: >
+- HR-T: <
+- SK-R: _
+- HR-PB: |
+- S-L: /
+- S*L: {^}/
+- SK-codeL: ;

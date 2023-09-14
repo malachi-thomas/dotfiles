@@ -51,6 +51,28 @@
 "workbench.editorAssociations": {
     "*.wasm": "default"
 },
-"typescript.updateImportsOnFileMove.enabled": "always"
+"typescript.updateImportsOnFileMove.enabled": "always",
+"editor.formatOnSave": true,
+"json.format.enable": false,
+"html.format.enable": false,
+"eslint.format.enable": true,
+"[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+},
+"scssFormatter.printWidth": 999,
+"vetur.format.defaultFormatter.css": "none",
+"vetur.format.defaultFormatter.html": "none",
+"vetur.format.defaultFormatter.js": "prettier-eslint",
+"vetur.format.defaultFormatter.less": "none",
+"vetur.format.defaultFormatter.postcss": "none",
+"vetur.format.defaultFormatter.pug": "none",
+"vetur.format.defaultFormatter.sass": "none",
+"vetur.format.defaultFormatter.scss": "none",
+"vetur.format.defaultFormatter.stylus": "none",
+"vetur.format.defaultFormatter.ts": "prettier-tslint",
+"git.ignoreLimitWarning": true,
+"go.toolsManagement.autoUpdate": true,
+"bracket-pair-colorizer-2.depreciation-notice": false
+
 
 }

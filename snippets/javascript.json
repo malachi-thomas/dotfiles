@@ -17,6 +17,13 @@
       "require('$0')"
     ]
   },
+  "req": {
+    "prefix": "req",
+    "body": [
+      "const $1 = require(\"${2:$1}\")"
+    ]
+  },
+
   ".then": {
     "prefix": ".then",
     "body": [

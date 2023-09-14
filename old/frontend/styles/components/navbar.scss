@@ -1,0 +1,28 @@
+@use "../variables.scss" as *;
+
+.navbar {
+  background-color: $primary-30;
+  color: $white; // button text color
+  stroke: $white; // svg stroke color
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+  position: sticky;
+  top: 0;
+
+  &__button {
+    color: inherit;
+    background-color: inherit;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 0.5em;
+  }
+
+  &__svg {
+    > path { stroke: inherit; }
+    background-color: inherit;
+    font-weight: 400;
+    padding: 0.5em;
+  }
+}
