@@ -1,0 +1,18 @@
+snippet package
+	package 
+
+snippet import
+	import "$0"
+
+snippet func
+	func $1($2) {
+		$0
+	}
+
+snippet HandleFunc
+	HandleFunc("/", func($1 http.ResponseWriter, $2 *http.Request) {
+		$0
+  })
+
+	
+
