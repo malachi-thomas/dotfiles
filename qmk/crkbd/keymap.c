@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [base_movement] = LAYOUT_split_3x6_3(
   // ┌────────┬────────┬────────┬────────┬────────┬────────┐             ┌────────┬────────┬────────┬────────┬────────┬────────┐
-       KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,                 KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+       KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,                 KC_NO,  KC_HOME,  KC_NO,   KC_NO,   KC_END,  KC_NO,
   // ├────────┼────────┼────────┼────────┼────────┼────────┤             ├────────┼────────┼────────┼────────┼────────┼────────┤
        KC_NO,  KC_LOPT, KC_LCTL, KC_LSFT, KC_LCMD,  KC_NO,                 KC_NO,  KC_LEFT, KC_DOWN,  KC_UP,  KC_RGHT,  KC_NO,
   // ├────────┼────────┼────────┼────────┼────────┼────────┤             ├────────┼────────┼────────┼────────┼────────┼────────┤

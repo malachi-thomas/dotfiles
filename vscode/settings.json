@@ -4,12 +4,10 @@
     "editor.cursorBlinking": "solid",
     "editor.cursorSurroundingLines": 9999,
     "editor.fontSize": 11,
-    "workbench.statusBar.visible": false,
     "window.menuBarVisibility": "hidden",
     "editor.tabCompletion": "onlySnippets",
     "workbench.startupEditor": "newUntitledFile",
     "editor.acceptSuggestionOnEnter": "off",
-    "workbench.activityBar.visible": false,
     "editor.minimap.enabled": false,
     "workbench.editor.showTabs": true,
     "files.exclude": {
@@ -72,7 +70,11 @@
 "vetur.format.defaultFormatter.ts": "prettier-tslint",
 "git.ignoreLimitWarning": true,
 "go.toolsManagement.autoUpdate": true,
-"bracket-pair-colorizer-2.depreciation-notice": false
+"bracket-pair-colorizer-2.depreciation-notice": false,
+"[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+},
+"workbench.statusBar.visible": false
 
 
 }

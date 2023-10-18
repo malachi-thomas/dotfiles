@@ -72,5 +72,15 @@
     {
         "key": "shift+cmd+s",
         "command": "workbench.action.openSnippets"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+down",
+        "command": "-editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]

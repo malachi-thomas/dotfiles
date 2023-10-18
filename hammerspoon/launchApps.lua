@@ -4,7 +4,6 @@ function launchApp(mod, key, appName)
   end)
 end
 
-
 launchApp({"alt", "shift"}, "s", "Safari.app")
 launchApp({"alt", "shift"}, "n", "Notes.app")
 launchApp({"alt", "shift"}, "a", "App Store.app")
